@@ -339,12 +339,18 @@ def decode_google_link(link: str) -> str | None:
         return None
     art_id = m.group(1)
     try:
-        body, _ = http_get(f"https://news.google.com/rss/articles/{art_id}", limit=500_000, timeout=10)
-        page = body.decode("utf-8", errors="ignore")
-        sig = re.search(r'data-n-a-sg="([^"]+)"', page)
-        ts = re.search(r'data-n-a-ts="([^"]+)"', page)
+        sig = ts = None
+        page = ""
+        for base in ("https://news.google.com/articles/", "https://news.google.com/rss/articles/"):
+            body, _ = http_get(base + art_id + "?hl=ja&gl=JP&ceid=JP:ja", timeout=10)
+            page = body.decode("utf-8", errors="ignore")
+            sig = re.search(r'data-n-a-sg="([^"]+)"', page)
+            ts = re.search(r'data-n-a-ts="([^"]+)"', page)
+            if sig and ts:
+                break
         if not (sig and ts):
-            DECODE_LOG.append("no-params: " + page[:300].replace("\n", " "))
+            i = page.find("data-n-a")
+            DECODE_LOG.append(f"no-params (len={len(page)}, data-n-a at {i}): " + page[-300:].replace("\n", " "))
             return None
         inner = (
             '["garturlreq",[["X","X",["X","X"],null,null,1,1,"US:en",null,1,null,null,null,null,null,0,1],'
