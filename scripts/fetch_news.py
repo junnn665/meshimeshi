@@ -329,6 +329,9 @@ OG_RE = re.compile(
 CONTENT_RE = re.compile(r'content=["\']([^"\']+)["\']', re.I)
 
 
+DECODE_LOG: list[str] = []
+
+
 def decode_google_link(link: str) -> str | None:
     """Googleニュースの中継リンクを、元記事のURLに変換する。失敗したら None。"""
     m = re.search(r"/articles/([^/?#]+)", link)
@@ -341,6 +344,7 @@ def decode_google_link(link: str) -> str | None:
         sig = re.search(r'data-n-a-sg="([^"]+)"', page)
         ts = re.search(r'data-n-a-ts="([^"]+)"', page)
         if not (sig and ts):
+            DECODE_LOG.append("no-params: " + page[:300].replace("\n", " "))
             return None
         inner = (
             '["garturlreq",[["X","X",["X","X"],null,null,1,1,"US:en",null,1,null,null,null,null,null,0,1],'
@@ -356,8 +360,13 @@ def decode_google_link(link: str) -> str | None:
             text = res.read().decode("utf-8", errors="ignore")
         parsed = json.loads(text.split("\n\n")[1])[:-2]
         url = json.loads(parsed[0][2])[1]
-        return url if isinstance(url, str) and url.startswith("http") else None
-    except Exception:
+        if isinstance(url, str) and url.startswith("http"):
+            DECODE_LOG.append("ok")
+            return url
+        DECODE_LOG.append("bad-response: " + text[:300])
+        return None
+    except Exception as e:
+        DECODE_LOG.append(f"error: {type(e).__name__}: {e}")
         return None
 
 
@@ -479,6 +488,15 @@ def main() -> int:
     payload = {"updated": NOW.astimezone(JST).isoformat(timespec="seconds"), "items": items}
     DATA_FILE.write_text(json.dumps(payload, ensure_ascii=False, indent=1) + "\n", "utf-8")
     print(f"saved {len(items)} items")
+    status = {
+        "updated": payload["updated"],
+        "items": len(items),
+        "with_image": sum(1 for it in items if it.get("image")),
+        "google_decode_ok": DECODE_LOG.count("ok"),
+        "google_decode_failed": len(DECODE_LOG) - DECODE_LOG.count("ok"),
+        "google_decode_samples": [x for x in DECODE_LOG if x != "ok"][:3],
+    }
+    (DATA_FILE.parent / "status.json").write_text(json.dumps(status, ensure_ascii=False, indent=1) + "\n", "utf-8")
     return 0
 
 
