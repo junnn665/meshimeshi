@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-09T01:23:25+09:00",
+ "updated": "2026-10-09T02:19:33+09:00",
  "items": [
   {
    "id": "2fa9e3eadcbaec50",
@@ -54,6 +54,19 @@
    "image_checked": true,
    "decode_tried": true,
    "decode_v2": true
+  },
+  {
+   "id": "5d6550b2cc394012",
+   "title": "9月30日で閉店予定が… 惜しまれて12日間延長 愛知の餃子店に「もう一度食べたい」の声",
+   "link": "https://www.shizuoka-life.jp/post-15365/",
+   "source": "静岡ライフ",
+   "image": "https://www.shizuoka-life.jp/wp-content/uploads/2026/10/e61eef86a69130cb7f6e77aa87866f4a.jpg",
+   "category": "shinten",
+   "area": "愛知",
+   "published": "2026-10-08T18:00:48+09:00",
+   "provider": "google",
+   "decode_v2": true,
+   "image_checked": true
   },
   {
    "id": "4c22bcdc961c6c6f",
