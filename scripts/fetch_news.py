@@ -398,13 +398,13 @@ def find_og_image(link: str) -> str | None:
 def add_images(items: list[dict]) -> None:
     def pending(it: dict) -> bool:
         is_google = "news.google.com" in urllib.parse.urlparse(it["link"]).netloc
-        return not it.get("image_checked") or (is_google and not it.get("decode_tried"))
+        return not it.get("image_checked") or (is_google and not it.get("decode_v2"))
 
     targets = [it for it in items if pending(it)][:MAX_IMAGE_FETCH]
 
     def work(it: dict) -> str | None:
         if "news.google.com" in urllib.parse.urlparse(it["link"]).netloc:
-            it["decode_tried"] = True
+            it["decode_v2"] = True
             real = decode_google_link(it["link"])
             if real:
                 it["link"] = real  # 読者も元記事へ直接飛べるようにする
