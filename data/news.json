@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-09T05:21:39+09:00",
+ "updated": "2026-10-09T06:20:41+09:00",
  "items": [
   {
    "id": "8a4b65c64807dfd4",
@@ -10,6 +10,19 @@
    "category": "conbini",
    "area": "東海",
    "published": "2026-10-09T05:00:45+09:00",
+   "provider": "google",
+   "decode_v2": true,
+   "image_checked": true
+  },
+  {
+   "id": "f29047a6cf0e074c",
+   "title": "【愛知】人気ラーメンチェーン「ラの壱」が老舗味噌メーカーとコラボした新業態店をオープン！",
+   "link": "https://www.walkerplus.com/trend/matome/article/131496/",
+   "source": "ウォーカープラス",
+   "image": "https://news.walkerplus.com/article/131496/732934_615.jpg",
+   "category": "shinten",
+   "area": "愛知",
+   "published": "2026-10-09T03:04:21+09:00",
    "provider": "google",
    "decode_v2": true,
    "image_checked": true
@@ -310,6 +323,19 @@
    "area": "名古屋",
    "published": "2026-10-07T23:04:00+09:00",
    "provider": "bing",
+   "image_checked": true
+  },
+  {
+   "id": "7de3130a8d4899e7",
+   "title": "【10月26日オープン】つくば市研究学園に「TOKIMEKI鯛」｜鯛出汁のフレンチラーメン×ダイニングバーが新登場",
+   "link": "https://www.gummaumaimono.info/entry/2026/10/07/213203",
+   "source": "ぐんぐるブログ",
+   "image": "https://cdn.image.st-hatena.com/image/scale/4446a9d9e85eda34393832503228d0e51d999867/backend=imagemagick;version=1;width=1300/https%3A%2F%2Fcdn-ak.f.st-hatena.com%2Fimages%2Ffotolife%2Fg%2Fgumma_umaimono%2F20261007%2F20261007212711.jpg",
+   "category": "shinten",
+   "area": "東海",
+   "published": "2026-10-07T21:32:03+09:00",
+   "provider": "google",
+   "decode_v2": true,
    "image_checked": true
   },
   {
@@ -1317,6 +1343,19 @@
    "decode_tried": true,
    "image_checked": true,
    "decode_v2": true
+  },
+  {
+   "id": "222412564dd28171",
+   "title": "ジョイフルに秋冬の新メニューが10月6日から登場！「500円日替りワンコインランチ」は継続販売",
+   "link": "https://topics.smt.docomo.ne.jp/article/fanfunfukuoka/life/fanfunfukuoka-332476?page=1",
+   "source": "ｄメニューニュース",
+   "image": "https://img.topics.smt.news.goo.ne.jp/picture/fanfunfukuoka/m_fanfunfukuoka-332476.jpg",
+   "category": "chain",
+   "area": "東海",
+   "published": "2026-10-05T09:30:00+09:00",
+   "provider": "google",
+   "decode_v2": true,
+   "image_checked": true
   },
   {
    "id": "8b17a6640eafdc07",
