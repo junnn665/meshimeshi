@@ -1,6 +1,19 @@
 {
- "updated": "2026-10-09T06:20:41+09:00",
+ "updated": "2026-10-09T07:20:29+09:00",
  "items": [
+  {
+   "id": "eb072150a050793a",
+   "title": "おみくじが降ってくる！？ボリューム満点の\"伊勢グルメ\"も！三重・伊勢市のオススメ新スポット（CBCテレビ）",
+   "link": "https://news.yahoo.co.jp/articles/543e02fd829b6e2f24a805dc6e1ed1314f29b187",
+   "source": "Yahoo!ニュース",
+   "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261009-90000001-cbc-000-1-view.jpg?exp=10800",
+   "category": "wadai",
+   "area": "三重",
+   "published": "2026-10-09T06:20:28+09:00",
+   "provider": "google",
+   "decode_v2": true,
+   "image_checked": true
+  },
   {
    "id": "8a4b65c64807dfd4",
    "title": "ラーメン業界が震撼！！【ファミマ】この値段でこんなガチな一杯が食べられるとは…！「当然のように数量限定だな…！」絶品新作が本気すぎ！",
@@ -563,7 +576,7 @@
    "title": "すしの美登利、名古屋栄三越に10月31日オープン",
    "link": "https://www.j-cast.com/trend/provider/atPress_trend/422531",
    "source": "J-CAST ニュース",
-   "image": null,
+   "image": "http://www.bing.com/th?id=ONUT.x-9XEafUwNyiZssoGoQF_Q&pid=News",
    "category": "shinten",
    "area": "名古屋",
    "published": "2026-10-07T13:00:00+09:00",
