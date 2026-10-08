@@ -1,0 +1,12 @@
+{
+ "updated": "2026-10-08T23:09:29+09:00",
+ "items": 158,
+ "with_image": 21,
+ "google_decode_ok": 0,
+ "google_decode_failed": 59,
+ "google_decode_samples": [
+  "no-params: <!doctype html><html lang=\"ja\" dir=\"ltr\"><head><base href=\"https://news.google.com/\"><link rel=\"preconnect\" href=\"//www.gstatic.com\"><meta name=\"referrer\" content=\"origin\"><link rel=\"canonical\" href=\"https://news.google.com/rss/articles/CBMibkFVX3lxTFBqNkJNLXFXdFg1UTRiVDJTWEMwX0VYNTllWENlXzd0c0lPLVp",
+  "no-params: <!doctype html><html lang=\"ja\" dir=\"ltr\"><head><base href=\"https://news.google.com/\"><link rel=\"preconnect\" href=\"//www.gstatic.com\"><meta name=\"referrer\" content=\"origin\"><link rel=\"canonical\" href=\"https://news.google.com/rss/articles/CBMiiAFBVV95cUxPQXRkU1NsSHVkcVVpcnJDcUxBSGtRWkZnSGROSEprU1Q2SUR",
+  "no-params: <!doctype html><html lang=\"ja\" dir=\"ltr\"><head><base href=\"https://news.google.com/\"><link rel=\"preconnect\" href=\"//www.gstatic.com\"><meta name=\"referrer\" content=\"origin\"><link rel=\"canonical\" href=\"https://news.google.com/rss/articles/CBMicEFVX3lxTE10T20tcmtuMzhNVmtnbTdfUjZ2d3B6WHhId3drQmszLXlic2d"
+ ]
+}
