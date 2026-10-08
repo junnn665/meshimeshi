@@ -1,6 +1,19 @@
 {
- "updated": "2026-10-09T04:20:36+09:00",
+ "updated": "2026-10-09T05:21:39+09:00",
  "items": [
+  {
+   "id": "8a4b65c64807dfd4",
+   "title": "ラーメン業界が震撼！！【ファミマ】この値段でこんなガチな一杯が食べられるとは…！「当然のように数量限定だな…！」絶品新作が本気すぎ！",
+   "link": "https://yomuno.jp/posts/143028",
+   "source": "ヨムーノ",
+   "image": "https://image.yomuno.jp/store/article/143028/header_image/large-3494fe9695874cde78b8d941c004e307.jpeg",
+   "category": "conbini",
+   "area": "東海",
+   "published": "2026-10-09T05:00:45+09:00",
+   "provider": "google",
+   "decode_v2": true,
+   "image_checked": true
+  },
   {
    "id": "2fa9e3eadcbaec50",
    "title": "弁イホールディングス、新工場稼働で「四日市ヒモノ食堂」の出店拡大を支援",
@@ -514,6 +527,18 @@
    "source": "MANTANWEB（まんたんウェブ）",
    "image": "https://prtimes.jp/img/185183/17/resize/d185183-17-046e62ad8ebba4c151c8-8.jpg",
    "category": "wadai",
+   "area": "名古屋",
+   "published": "2026-10-07T13:00:00+09:00",
+   "provider": "bing",
+   "image_checked": true
+  },
+  {
+   "id": "768f9e152a3d9a93",
+   "title": "すしの美登利、名古屋栄三越に10月31日オープン",
+   "link": "https://www.j-cast.com/trend/provider/atPress_trend/422531",
+   "source": "J-CAST ニュース",
+   "image": null,
+   "category": "shinten",
    "area": "名古屋",
    "published": "2026-10-07T13:00:00+09:00",
    "provider": "bing",
