@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-09T07:20:29+09:00",
+ "updated": "2026-10-09T08:19:06+09:00",
  "items": [
   {
    "id": "eb072150a050793a",
@@ -1383,6 +1383,19 @@
    "decode_tried": true,
    "image_checked": true,
    "decode_v2": true
+  },
+  {
+   "id": "bf6279ea22d8fa0c",
+   "title": "山里にポツンと…“竹かごランチ”が人気の古民家レストラン 体に優しい料理は店主からの「幸せのおすそ分け」",
+   "link": "https://www.fnn.jp/articles/-/1126606?display=full",
+   "source": "FNNプライムオンライン",
+   "image": "https://fnn.ismcdn.jp/mwimgs/e/5/600/img_e5ff886fe29196b3092ad8e7d4802fd1273411.jpg",
+   "category": "wadai",
+   "area": "東海",
+   "published": "2026-10-05T06:00:00+09:00",
+   "provider": "google",
+   "decode_v2": true,
+   "image_checked": true
   },
   {
    "id": "66353fca54d63f5b",
