@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>飯飯食堂｜東海・名古屋のおいしい話題まとめ</title>
+<meta name="description" content="デカ盛り、行列店、新店、チェーンやコンビニの新作、安うまグルメ。東海・名古屋のグルメニュースを1時間ごとに自動でまとめる非公式サイト">
+<meta name="theme-color" content="#FFC93C">
+<meta property="og:title" content="飯飯食堂">
+<meta property="og:description" content="東海・名古屋のおいしい話題を1時間ごとに自動でまとめるサイト">
+<meta property="og:type" content="website">
+<link rel="icon" href="assets/icon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Zen+Maru+Gothic:wght@500;700;900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+<header class="site-header">
+  <div class="wrap header-inner">
+    <div>
+      <p class="tagline">東海・名古屋のおいしい話題まとめ</p>
+      <h1 class="logo">飯飯食堂</h1>
+    </div>
+    <p class="update-note">1時間ごとに自動更新</p>
+  </div>
+</header>
+
+<div class="ticker" id="ticker" hidden>
+  <div class="wrap ticker-inner">
+    <span class="ticker-badge">● 速報</span>
+    <a class="ticker-text" id="ticker-text" href="#" target="_blank" rel="noopener"></a>
+  </div>
+</div>
+
+<main class="wrap main">
+  <nav class="tabs" id="tabs" aria-label="カテゴリ"></nav>
+
+  <div class="list-head">
+    <h2 id="heading">すべてのニュース</h2>
+    <button type="button" class="refresh" id="refresh">↻ 最新に更新</button>
+  </div>
+  <p class="lead">デカ盛り、行列店、新店、チェーンやコンビニの新作、安うまグルメ。東海エリアの話題を中心に、ニュースサイトや企業の発表から1時間ごとに自動で集めます。</p>
+  <p class="status" id="status">ニュースを読み込み中…</p>
+
+  <div class="grid" id="grid"></div>
+  <button type="button" class="more" id="more" hidden>もっと見る</button>
+</main>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <p>各記事は要約です。詳細は出典元のページをご確認ください。掲載店舗・企業とは関係のない個人の非公式サイトです。</p>
+    <p id="updated"></p>
+    <p>© 飯飯食堂</p>
+  </div>
+</footer>
+
+<script src="assets/app.js"></script>
+</body>
+</html>
