@@ -33,7 +33,7 @@ NOW = dt.datetime.now(dt.timezone.utc)
 KEEP_DAYS = 30        # この日数より古い記事は消す
 INGEST_DAYS = 14      # この日数より古い記事は新しく取り込まない
 MAX_ITEMS = 400       # 保存する最大件数
-MAX_IMAGE_FETCH = 40  # 1回の実行で写真を探しにいく最大件数
+MAX_IMAGE_FETCH = 80  # 1回の実行で写真を探しにいく最大件数
 
 UA = (
     "Mozilla/5.0 (compatible; MeshimeshiShokudoBot/1.0; "
@@ -84,7 +84,23 @@ FOOD_WORDS = [
     "唐揚げ", "からあげ", "カレー", "餃子", "中華", "ピザ", "パスタ", "バーガー",
     "ハンバーグ", "ステーキ", "天むす", "ひつまぶし", "手羽先", "台湾", "おにぎり",
     "弁当", "惣菜", "アイス", "かき氷", "たこ焼き", "お好み焼き", "居酒屋", "ビュッフェ",
-    "デカ盛り", "大盛り", "盛り", "食べ", "味", "新商品", "新発売",
+    "デカ盛り", "大盛り", "食べ歩き", "食べられる", "味わえる", "グルメ",
+]
+
+# 東海以外の地域名（東海の地名が無く、これが入っている記事は除外）
+OTHER_REGION_WORDS = [
+    "北海道", "札幌", "東北", "仙台", "東京", "関東", "神奈川", "横浜", "川崎", "埼玉", "千葉",
+    "池袋", "渋谷", "新宿", "恵比寿", "八重洲", "吉祥寺", "銀座", "表参道", "原宿", "秋葉原",
+    "大阪", "関西", "心斎橋", "梅田", "難波", "京都", "神戸", "兵庫", "奈良", "和歌山", "滋賀",
+    "中国地方", "広島", "岡山", "山口", "四国", "香川", "愛媛", "九州", "福岡", "博多", "熊本",
+    "鹿児島", "沖縄", "長野", "新潟", "北陸", "金沢", "富山", "福井",
+]
+
+# 写真ギャラリーなど、本文記事の重複になるページ
+JUNK_PATTERNS = [
+    re.compile(r"画像\s*\d+\s*/\s*\d+"),
+    re.compile(r"ページ\s*\d+\s*/\s*全"),
+    re.compile(r"写真\s*\d+\s*/\s*\d+"),
 ]
 
 # 上から順に判定し、最初に当たったカテゴリにする
@@ -175,6 +191,17 @@ def child_nodes(node: ET.Element, suffix: str) -> list[ET.Element]:
 
 def is_food(title: str) -> bool:
     return any(w in title for w in FOOD_WORDS)
+
+
+def is_wanted(title: str) -> bool:
+    """グルメの話題で、東海以外の地域だけの記事でなく、ギャラリーページでもないか。"""
+    if not is_food(title):
+        return False
+    if any(p.search(title) for p in JUNK_PATTERNS):
+        return False
+    tokai = any(w in title for w in TOKAI_WORDS)
+    other = any(w in title for w in OTHER_REGION_WORDS)
+    return tokai or not other
 
 
 def categorize(title: str, default: str) -> str:
@@ -302,10 +329,42 @@ OG_RE = re.compile(
 CONTENT_RE = re.compile(r'content=["\']([^"\']+)["\']', re.I)
 
 
+def decode_google_link(link: str) -> str | None:
+    """Googleニュースの中継リンクを、元記事のURLに変換する。失敗したら None。"""
+    m = re.search(r"/articles/([^/?#]+)", link)
+    if not m:
+        return None
+    art_id = m.group(1)
+    try:
+        body, _ = http_get(f"https://news.google.com/rss/articles/{art_id}", limit=500_000, timeout=10)
+        page = body.decode("utf-8", errors="ignore")
+        sig = re.search(r'data-n-a-sg="([^"]+)"', page)
+        ts = re.search(r'data-n-a-ts="([^"]+)"', page)
+        if not (sig and ts):
+            return None
+        inner = (
+            '["garturlreq",[["X","X",["X","X"],null,null,1,1,"US:en",null,1,null,null,null,null,null,0,1],'
+            f'"X","X",1,[1,1,1],1,1,null,0,0,null,0],"{art_id}",{ts.group(1)},"{sig.group(1)}"]'
+        )
+        data = "f.req=" + urllib.parse.quote(json.dumps([[["Fbv4je", inner]]]))
+        req = urllib.request.Request(
+            "https://news.google.com/_/DotsSplashUi/data/batchexecute",
+            data=data.encode("utf-8"),
+            headers={"User-Agent": UA, "Content-Type": "application/x-www-form-urlencoded;charset=UTF-8"},
+        )
+        with urllib.request.urlopen(req, timeout=10) as res:
+            text = res.read().decode("utf-8", errors="ignore")
+        parsed = json.loads(text.split("\n\n")[1])[:-2]
+        url = json.loads(parsed[0][2])[1]
+        return url if isinstance(url, str) and url.startswith("http") else None
+    except Exception:
+        return None
+
+
 def find_og_image(link: str) -> str | None:
     host = urllib.parse.urlparse(link).netloc
     if "news.google.com" in host:
-        return None  # Googleニュースのリンクは中継ページなので写真が取れない
+        return None
     try:
         body, final_url = http_get(link, limit=300_000, timeout=8)
     except Exception:
@@ -322,9 +381,22 @@ def find_og_image(link: str) -> str | None:
 
 
 def add_images(items: list[dict]) -> None:
-    targets = [it for it in items if not it.get("image_checked")][:MAX_IMAGE_FETCH]
-    with concurrent.futures.ThreadPoolExecutor(max_workers=8) as ex:
-        results = ex.map(lambda it: find_og_image(it["link"]), targets)
+    def pending(it: dict) -> bool:
+        is_google = "news.google.com" in urllib.parse.urlparse(it["link"]).netloc
+        return not it.get("image_checked") or (is_google and not it.get("decode_tried"))
+
+    targets = [it for it in items if pending(it)][:MAX_IMAGE_FETCH]
+
+    def work(it: dict) -> str | None:
+        if "news.google.com" in urllib.parse.urlparse(it["link"]).netloc:
+            it["decode_tried"] = True
+            real = decode_google_link(it["link"])
+            if real:
+                it["link"] = real  # 読者も元記事へ直接飛べるようにする
+        return find_og_image(it["link"])
+
+    with concurrent.futures.ThreadPoolExecutor(max_workers=4) as ex:
+        results = ex.map(work, targets)
         for it, img in zip(targets, results):
             if img:
                 it["image"] = img
@@ -365,7 +437,7 @@ def build(raw: list[dict], existing: list[dict]) -> list[dict]:
     cutoff_keep = NOW - dt.timedelta(days=KEEP_DAYS)
     for it in existing:
         d = parse_date(it.get("published"))
-        if d and d >= cutoff_keep:
+        if d and d >= cutoff_keep and is_wanted(it["title"]):
             add(it)
 
     cutoff_new = NOW - dt.timedelta(days=INGEST_DAYS)
@@ -373,7 +445,7 @@ def build(raw: list[dict], existing: list[dict]) -> list[dict]:
     order = {"bing": 0, "prtimes": 1, "google": 2}
     for r in sorted(raw, key=lambda r: order.get(r["provider"], 9)):
         title = r["title"]
-        if not is_food(title):
+        if not is_wanted(title):
             continue
         published = r["published"] or NOW
         if published < cutoff_new or published > NOW + dt.timedelta(hours=1):
