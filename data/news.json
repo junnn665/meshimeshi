@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-09T23:23:16+09:00",
+ "updated": "2026-10-10T00:20:13+09:00",
  "items": [
   {
    "id": "f557f1ba09c7ce1f",
@@ -189,6 +189,19 @@
    "area": "名古屋",
    "published": "2026-10-09T09:00:00+09:00",
    "provider": "prtimes",
+   "image_checked": true
+  },
+  {
+   "id": "741e98cd7511b6c1",
+   "title": "日村×眞栄田郷敦×板垣李光人が夏の人気観光地へ!!『バナナマンのせっかくグルメ!!』8/4(日)【TBS】 Pedro Pascal (AImeX7trQL)",
+   "link": "https://media.unisba.ac.id/673cc156/77568b7567iTEQJD7uA",
+   "source": "Unisba Media",
+   "image": null,
+   "category": "wadai",
+   "area": "名古屋",
+   "published": "2026-10-09T07:56:21+09:00",
+   "provider": "google",
+   "decode_v2": true,
    "image_checked": true
   },
   {
