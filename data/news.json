@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-10T01:20:31+09:00",
+ "updated": "2026-10-10T02:18:31+09:00",
  "items": [
   {
    "id": "f557f1ba09c7ce1f",
@@ -100,6 +100,19 @@
    "category": "wadai",
    "area": "東海",
    "published": "2026-10-09T14:34:20+09:00",
+   "provider": "google",
+   "decode_v2": true,
+   "image_checked": true
+  },
+  {
+   "id": "8a65457710366b0f",
+   "title": "“食いしん坊デカ盛りRQ”水瀬琴音 水色ブラトップ＆ショーパン姿披露に「やばい」「めちゃ可愛い」（スポニチ）",
+   "link": "https://mainichi.jp/articles/20261009/spp/sp0/006/152000c",
+   "source": "毎日新聞",
+   "image": "https://cdn.mainichi.jp/vol1/2026/10/09/20261009s10041000116000p/0c10.jpg?1",
+   "category": "deka",
+   "area": "東海",
+   "published": "2026-10-09T12:03:11+09:00",
    "provider": "google",
    "decode_v2": true,
    "image_checked": true
@@ -792,6 +805,19 @@
    "decode_tried": true,
    "image_checked": true,
    "decode_v2": true
+  },
+  {
+   "id": "3b11a7662de3f690",
+   "title": "名古屋市内から一番近い避暑地!?三重県御在所ロープウエイやグルメ、アートで夏を満喫！",
+   "link": "https://www.walkerplus.com/article/1200750/",
+   "source": "ウォーカープラス",
+   "image": "https://news.walkerplus.com/article/1200750/13137280_615.jpg",
+   "category": "wadai",
+   "area": "名古屋",
+   "published": "2026-10-07T16:00:00+09:00",
+   "provider": "google",
+   "decode_v2": true,
+   "image_checked": true
   },
   {
    "id": "efd71e678ee48a80",
@@ -1682,6 +1708,19 @@
    "decode_tried": true,
    "image_checked": true,
    "decode_v2": true
+  },
+  {
+   "id": "39a0ad283bf57b0c",
+   "title": "丸亀製麺、約4年ぶりにグランドメニュー拡充 地域限定メニューの“初”全国展開も",
+   "link": "http://www.excite.co.jp/news/article/Oricon_2484461/",
+   "source": "Excite エキサイト",
+   "image": null,
+   "category": "chain",
+   "area": "東海",
+   "published": "2026-10-05T11:42:00+09:00",
+   "provider": "google",
+   "decode_v2": true,
+   "image_checked": true
   },
   {
    "id": "7936234dc60f16f9",
