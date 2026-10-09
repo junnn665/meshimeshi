@@ -1,6 +1,32 @@
 {
- "updated": "2026-10-09T14:20:36+09:00",
+ "updated": "2026-10-09T15:26:17+09:00",
  "items": [
+  {
+   "id": "e906f868f38f0c86",
+   "title": "名古屋のレトロ喫茶グルメが絶品ピザに大変身！アオキーズ・ピザ「懐かしの昭和レトロフェア」が2026年10月15日よりスタート【名古屋発】",
+   "link": "https://nagoyato.com/posts/19832",
+   "source": "ナゴヤトコトン",
+   "image": "https://nagoyato.com/wp-content/uploads/2026/10/image-93.png",
+   "category": "wadai",
+   "area": "名古屋",
+   "published": "2026-10-09T14:58:00+09:00",
+   "provider": "google",
+   "decode_v2": true,
+   "image_checked": true
+  },
+  {
+   "id": "fa61db42ecff4dd4",
+   "title": "ふわとろ、激辛、ジャンクの極み…名古屋の「魔性のラーメン」3軒をご当地グルメ通が推薦！（おとなの週末）",
+   "link": "https://news.yahoo.co.jp/articles/aac9cc4e10365465050b2062be17481c29ebf081?page=2",
+   "source": "Yahoo!ニュース",
+   "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261009-00000005-matomeshi-000-1-view.jpg?exp=10800",
+   "category": "wadai",
+   "area": "名古屋",
+   "published": "2026-10-09T12:00:07+09:00",
+   "provider": "google",
+   "decode_v2": true,
+   "image_checked": true
+  },
   {
    "id": "21de86e960e0a433",
    "title": "歌って、シェアして、世界の料理を味わおう！ 地域の「ありがとう」がポイントになる「世界文化祭 2026」、11月8日に静岡県下田市で開催",
@@ -301,6 +327,19 @@
    "image_checked": true,
    "decode_tried": true,
    "decode_v2": true
+  },
+  {
+   "id": "e087f6327e2519b1",
+   "title": "マクドナルド、レギュラーメニューに“チキン”新商品10・21より発売 3種バーガー&1種サイドメニュー【詳細】",
+   "link": "https://www.oricon.co.jp/news/2485161/full/",
+   "source": "オリコンニュース",
+   "image": "https://contents.oricon.co.jp/upimg/news/2486000/2485161/20261008_104548_p_o_85552287.jpg",
+   "category": "chain",
+   "area": "東海",
+   "published": "2026-10-08T10:48:00+09:00",
+   "provider": "google",
+   "decode_v2": true,
+   "image_checked": true
   },
   {
    "id": "2c494e0972fbfac9",
