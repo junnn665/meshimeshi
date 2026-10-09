@@ -1,6 +1,32 @@
 {
- "updated": "2026-10-09T16:21:51+09:00",
+ "updated": "2026-10-09T17:22:13+09:00",
  "items": [
+  {
+   "id": "fdd8ebe945d3c536",
+   "title": "愛知県初！地域のじいちゃんばあちゃんが主役のおむすび屋「なかがわ 街仲食堂 by ジーバーFOOD」 10月10日オープン！",
+   "link": "https://prtimes.jp/main/html/rd/p/000000030.000138955.html",
+   "source": "PR TIMES",
+   "image": "https://prcdn.freetls.fastly.net/release_image/138955/30/138955-30-398b9961e915f5b9cf63a22677bdb7b7-1200x800.jpg?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260",
+   "category": "shinten",
+   "area": "愛知",
+   "published": "2026-10-09T17:07:55+09:00",
+   "provider": "google",
+   "decode_v2": true,
+   "image_checked": true
+  },
+  {
+   "id": "6bb6f137cd460c2a",
+   "title": "資さんうどん、熱田区へ2027年1月オープン決定！ファン歓喜の声が広がる",
+   "link": "https://t.co/1cifKJTDM2",
+   "source": "Howl.Link",
+   "image": "https://rts-pctr.c.yimg.jp/BgIFgYJGVIVv8u0nVJvw8B2FauAYMF4jOP5zFJAV4i6hjVpND1OjWZ7RVcmujne-SF0cmf4Olk6IK_nmgXh8Diz0eScvWH92NSmg92Pfh0YlqHWtm8TRSVrzk5XjacbSCkxvVVKv4J36j6bVJEUxCiCI1br4kJMDNt-aA2DNndJ1AhN4mz7EyVVqeJ6fYgH0jrBnXrFDdNZMrmLRDb-I_A==",
+   "category": "shinten",
+   "area": "東海",
+   "published": "2026-10-09T15:45:00+09:00",
+   "provider": "google",
+   "decode_v2": true,
+   "image_checked": true
+  },
   {
    "id": "e906f868f38f0c86",
    "title": "名古屋のレトロ喫茶グルメが絶品ピザに大変身！アオキーズ・ピザ「懐かしの昭和レトロフェア」が2026年10月15日よりスタート【名古屋発】",
@@ -23,6 +49,19 @@
    "category": "wadai",
    "area": "名古屋",
    "published": "2026-10-09T12:00:07+09:00",
+   "provider": "google",
+   "decode_v2": true,
+   "image_checked": true
+  },
+  {
+   "id": "77b8161d7d9add30",
+   "title": "「ウルフギャング・ステーキハウス」高輪店 平日限定「Weekday Course」販売",
+   "link": "https://prtimes.jp/main/html/rd/p/000001340.000018232.html",
+   "source": "PR TIMES",
+   "image": "https://prcdn.freetls.fastly.net/release_image/18232/1340/18232-1340-effca9c529018fbd0466eb137b0b936b-3402x2268.jpg?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260",
+   "category": "chain",
+   "area": "東海",
+   "published": "2026-10-09T11:00:02+09:00",
    "provider": "google",
    "decode_v2": true,
    "image_checked": true
@@ -128,6 +167,32 @@
    "image_checked": true
   },
   {
+   "id": "0643aaeb068504d6",
+   "title": "モーニング娘。‘26井上春華、平成なハーフアップを披露？",
+   "link": "https://hicbc.com/magazine/article/?id=radichubu-65324",
+   "source": "hicbc.com",
+   "image": "https://radichubu.jp/files/topics/65324_ext_01_0.jpg",
+   "category": "yasuuma",
+   "area": "東海",
+   "published": "2026-10-09T05:58:00+09:00",
+   "provider": "google",
+   "decode_v2": true,
+   "image_checked": true
+  },
+  {
+   "id": "5b155e3671e0b564",
+   "title": "新店続々オープンでカフェ激戦区へ！名古屋市北区に誕生した「SAKUMACHI商店街」が気になる！",
+   "link": "https://www.walkerplus.com/article/207186/",
+   "source": "ウォーカープラス",
+   "image": "https://news.walkerplus.com/article/207186/1263354_615.jpg",
+   "category": "shinten",
+   "area": "名古屋",
+   "published": "2026-10-09T05:56:25+09:00",
+   "provider": "google",
+   "decode_v2": true,
+   "image_checked": true
+  },
+  {
    "id": "8a4b65c64807dfd4",
    "title": "ラーメン業界が震撼！！【ファミマ】この値段でこんなガチな一杯が食べられるとは…！「当然のように数量限定だな…！」絶品新作が本気すぎ！",
    "link": "https://yomuno.jp/posts/143028",
@@ -161,6 +226,18 @@
    "image": "https://kobe-journal.com/web/images/2026/10/00_eyecatch-21.jpg",
    "category": "chain",
    "area": "東海",
+   "published": "2026-10-09T02:00:00+09:00",
+   "provider": "bing",
+   "image_checked": true
+  },
+  {
+   "id": "be049d07bfc450fb",
+   "title": "名古屋のレトロ喫茶グルメが絶品ピザに大変身！アオキーズ・ピザ ...",
+   "link": "https://nagoyato.com/posts/19832",
+   "source": "nagoyato",
+   "image": "https://nagoyato.com/wp-content/uploads/2026/10/image-93.png",
+   "category": "wadai",
+   "area": "名古屋",
    "published": "2026-10-09T02:00:00+09:00",
    "provider": "bing",
    "image_checked": true
