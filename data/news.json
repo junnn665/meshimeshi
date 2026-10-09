@@ -1,6 +1,19 @@
 {
- "updated": "2026-10-10T07:19:31+09:00",
+ "updated": "2026-10-10T08:18:16+09:00",
  "items": [
+  {
+   "id": "30c71c986fe87d8f",
+   "title": "三河発のグルメ回転寿司『魚魚丸(ととまる)』が天白区にオープン",
+   "link": "https://jouhou.nagoya/totomaru-tenpaku/",
+   "source": "名古屋情報通",
+   "image": "https://jouhou.nagoya/wp-content/uploads/2026/10/totomaru-tenpaku002-600x400.jpg",
+   "category": "shinten",
+   "area": "東海",
+   "published": "2026-10-10T07:31:33+09:00",
+   "provider": "google",
+   "decode_v2": true,
+   "image_checked": true
+  },
   {
    "id": "378c4a901295597f",
    "title": "ストリングスホテル 名古屋 シェフズライブキッチン「北海道フェア～北の大地の恵みと秋スイーツ～」開催中",
@@ -1351,6 +1364,19 @@
    "decode_tried": true,
    "image_checked": true,
    "decode_v2": true
+  },
+  {
+   "id": "ab2806790b9cbd8d",
+   "title": "キャンプ気分！ワッフルモーニング【東海３県・モーニングにメ～ロメロ！】Collection No.１１５４",
+   "link": "https://locipo.jp/creative/e3213abc-c7e7-4c8d-9e84-0400abbe111e",
+   "source": "Locipo(ロキポ)",
+   "image": "https://assets.locipo.jp/creatives/180486/original-e3213abc-c7e7-4c8d-9e84-0400abbe111e-20261007004026.jpg",
+   "category": "yasuuma",
+   "area": "東海",
+   "published": "2026-10-06T16:00:00+09:00",
+   "provider": "google",
+   "decode_v2": true,
+   "image_checked": true
   },
   {
    "id": "f0c668a593078c85",
