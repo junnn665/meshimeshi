@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-09T11:19:14+09:00",
+ "updated": "2026-10-09T12:20:51+09:00",
  "items": [
   {
    "id": "b9ec7250967acf14",
@@ -1324,6 +1324,18 @@
    "decode_tried": true,
    "image_checked": true,
    "decode_v2": true
+  },
+  {
+   "id": "e63f42b4fb71474f",
+   "title": "丸亀製麺、約4年ぶりにグランドメニュー拡充 地域限定メニューの ...",
+   "link": "https://www.sanin-chuo.co.jp/articles/-/1091868",
+   "source": "山陰中央新報デジタル",
+   "image": "https://sanin-chuo.ismcdn.jp/mwimgs/8/1/1200m/img_8115193693713572e7b6a2da14f62d5b75457.jpg",
+   "category": "chain",
+   "area": "東海",
+   "published": "2026-10-05T13:41:00+09:00",
+   "provider": "bing",
+   "image_checked": true
   },
   {
    "id": "2f94204e49f6c2a3",
