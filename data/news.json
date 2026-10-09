@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-09T19:22:14+09:00",
+ "updated": "2026-10-09T20:20:07+09:00",
  "items": [
   {
    "id": "c1648a44648d1b94",
@@ -61,6 +61,19 @@
    "category": "wadai",
    "area": "名古屋",
    "published": "2026-10-09T14:58:00+09:00",
+   "provider": "google",
+   "decode_v2": true,
+   "image_checked": true
+  },
+  {
+   "id": "f44c66ea9ed0fe2c",
+   "title": "さつまいもグルメが大集合！「芋フェス」オアシス21で10月10日から12日に開催",
+   "link": "https://jouhou.nagoya/imofes202610/",
+   "source": "名古屋情報通",
+   "image": "https://jouhou.nagoya/wp-content/uploads/2026/10/imofes010-600x400.jpg",
+   "category": "wadai",
+   "area": "東海",
+   "published": "2026-10-09T14:34:20+09:00",
    "provider": "google",
    "decode_v2": true,
    "image_checked": true
