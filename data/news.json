@@ -1,6 +1,43 @@
 {
- "updated": "2026-10-09T09:32:31+09:00",
+ "updated": "2026-10-09T10:21:10+09:00",
  "items": [
+  {
+   "id": "b9ec7250967acf14",
+   "title": "山梨県に初出店！本格職人握り寿司居酒屋 「や台ずし甲府中央町」が11月6日(金)オープン！",
+   "link": "https://newscast.jp/smart/news/8835169",
+   "source": "Newscast.jp",
+   "image": "https://www.atpress.ne.jp/attachments/WpDlhJpVsNJVEj0naixL.jpg",
+   "category": "shinten",
+   "area": "東海",
+   "published": "2026-10-09T09:30:00+09:00",
+   "provider": "google",
+   "decode_v2": true,
+   "image_checked": true
+  },
+  {
+   "id": "c2317a8492863088",
+   "title": "【最大53％OFF！】対象6種のMサイズピザがなんと740円～のSサイズ価格で楽しめる！ ピザハットで「秋のサイズアップ 特大セール」開催！",
+   "link": "https://prtimes.jp/main/html/rd/p/000000386.000031164.html",
+   "source": "PR TIMES",
+   "image": "https://prcdn.freetls.fastly.net/release_image/31164/386/31164-386-4e531400e390e8fd38ad7776b57ab61c-1200x630.jpg?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260",
+   "category": "chain",
+   "area": "全国",
+   "published": "2026-10-09T09:10:00+09:00",
+   "provider": "prtimes",
+   "image_checked": true
+  },
+  {
+   "id": "207e47491d9eaeef",
+   "title": "シェアダイン、服部栄養専門学校と「グローバル寿司職人検定 Light」を初開催",
+   "link": "https://prtimes.jp/main/html/rd/p/000000215.000028141.html",
+   "source": "PR TIMES",
+   "image": "https://prcdn.freetls.fastly.net/release_image/28141/215/28141-215-e55e8b34f19c45375fd8210b72dbd10d-1452x1054.png?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260",
+   "category": "chain",
+   "area": "名古屋",
+   "published": "2026-10-09T09:00:00+09:00",
+   "provider": "prtimes",
+   "image_checked": true
+  },
   {
    "id": "eb072150a050793a",
    "title": "おみくじが降ってくる！？ボリューム満点の\"伊勢グルメ\"も！三重・伊勢市のオススメ新スポット（CBCテレビ）",
@@ -10,6 +47,19 @@
    "category": "wadai",
    "area": "三重",
    "published": "2026-10-09T06:20:28+09:00",
+   "provider": "google",
+   "decode_v2": true,
+   "image_checked": true
+  },
+  {
+   "id": "0d964a16b28369d9",
+   "title": "名古屋パルコのレストランエリアが拡大オープン！東海初上陸店やフードホールに注目!!",
+   "link": "https://www.walkerplus.com/article/178123/",
+   "source": "ウォーカープラス",
+   "image": "https://news.walkerplus.com/article/178123/1054862_615.jpg",
+   "category": "shinten",
+   "area": "名古屋",
+   "published": "2026-10-09T06:15:10+09:00",
    "provider": "google",
    "decode_v2": true,
    "image_checked": true
