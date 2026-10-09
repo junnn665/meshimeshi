@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-09T15:26:17+09:00",
+ "updated": "2026-10-09T16:21:51+09:00",
  "items": [
   {
    "id": "e906f868f38f0c86",
@@ -423,6 +423,19 @@
    "image_checked": true,
    "decode_tried": true,
    "decode_v2": true
+  },
+  {
+   "id": "4c7a1b3de8973808",
+   "title": "東海３県・モーニングにメ～ロメロ！｜ドデスカ！",
+   "link": "https://www.nagoyatv.com/dode/morning/1659/06/",
+   "source": "nagoyatv.com",
+   "image": null,
+   "category": "yasuuma",
+   "area": "東海",
+   "published": "2026-10-08T03:10:07+09:00",
+   "provider": "google",
+   "decode_v2": true,
+   "image_checked": true
   },
   {
    "id": "f7d42f584caebf6e",
