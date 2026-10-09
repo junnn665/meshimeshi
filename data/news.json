@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-09T10:21:10+09:00",
+ "updated": "2026-10-09T11:19:14+09:00",
  "items": [
   {
    "id": "b9ec7250967acf14",
@@ -1574,6 +1574,19 @@
    "decode_v2": true
   },
   {
+   "id": "8286eeb647a1c263",
+   "title": "「焼肉きんぐ」にて、9月16日から期間限定フェア「韓国市場」開催！一部店舗では先行スタート",
+   "link": "https://www.walkerplus.com/article/1434399/",
+   "source": "ウォーカープラス",
+   "image": "https://news.walkerplus.com/article/1434399/18294371_615.jpg",
+   "category": "chain",
+   "area": "東海",
+   "published": "2026-10-04T16:00:00+09:00",
+   "provider": "google",
+   "decode_v2": true,
+   "image_checked": true
+  },
+  {
    "id": "1e567f4cc6b75bc2",
    "title": "学生の胃袋を支える、安くて激ウマな「学生街の満腹グルメ」を大調査！ 総重量3kgのジャンボ油淋鶏や漫画盛りご飯などデカ盛りグルメが続々登場",
    "link": "https://topics.smt.docomo.ne.jp/article/tbs/nation/tbs-2988078",
@@ -2098,6 +2111,19 @@
    "decode_tried": true,
    "image_checked": true,
    "decode_v2": true
+  },
+  {
+   "id": "dec1a2ef5369e3bd",
+   "title": "【ジョイフル】 「世界の山ちゃん」と初コラボ！ジョイフルの人気メニューに世界の山ちゃん「幻のコショウ」をかけ合わせた限定メニューが10月13日（火）15時より販売開始！",
+   "link": "https://prtimes.jp/main/html/rd/p/000000395.000023968.html",
+   "source": "PR TIMES",
+   "image": "https://prcdn.freetls.fastly.net/release_image/23968/395/23968-395-4c3f1fd24b1b9735d25535a8a7c25465-3900x2640.jpg?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260",
+   "category": "chain",
+   "area": "東海",
+   "published": "2026-10-02T15:00:02+09:00",
+   "provider": "google",
+   "decode_v2": true,
+   "image_checked": true
   },
   {
    "id": "7696179b13756ffa",
