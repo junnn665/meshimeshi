@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-09T17:22:13+09:00",
+ "updated": "2026-10-09T18:21:45+09:00",
  "items": [
   {
    "id": "fdd8ebe945d3c536",
@@ -12,6 +12,18 @@
    "published": "2026-10-09T17:07:55+09:00",
    "provider": "google",
    "decode_v2": true,
+   "image_checked": true
+  },
+  {
+   "id": "1eb27039682bc593",
+   "title": "【松屋】お肉を贅沢に楽しむ大満足メニューがレギュラー化！「たっぷり牛皿定食」 発売",
+   "link": "https://prtimes.jp/main/html/rd/p/000001024.000047538.html",
+   "source": "PR TIMES",
+   "image": "https://prcdn.freetls.fastly.net/release_image/47538/1024/47538-1024-0f036a348853634099e000feca283fa1-1160x580.png?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260",
+   "category": "chain",
+   "area": "全国",
+   "published": "2026-10-09T16:41:09+09:00",
+   "provider": "prtimes",
    "image_checked": true
   },
   {
@@ -1033,6 +1045,19 @@
    "decode_v2": true
   },
   {
+   "id": "aaa768b724ac32bd",
+   "title": "名古屋・驛麺通りで8周年イベント開催! 期間限定麺が登場",
+   "link": "https://www.walkerplus.com/article/18835/",
+   "source": "ウォーカープラス",
+   "image": "https://news.walkerplus.com/article/18835/74059_615.jpg",
+   "category": "chain",
+   "area": "名古屋",
+   "published": "2026-10-06T23:13:17+09:00",
+   "provider": "google",
+   "decode_v2": true,
+   "image_checked": true
+  },
+  {
    "id": "9640767af81bfd1f",
    "title": "日経モーニングプラスFT",
    "link": "https://thetv.jp/program/0000965266/1805/",
@@ -1115,6 +1140,19 @@
    "decode_tried": true,
    "image_checked": true,
    "decode_v2": true
+  },
+  {
+   "id": "ffcfb600a03aaa7b",
+   "title": "【はま寿司】目玉の大切りびんちょうは1貫110円！期間限定メニューが3種登場。",
+   "link": "https://news.livedoor.com/article/detail/32502138/",
+   "source": "ライブドアニュース",
+   "image": "https://image.news.livedoor.com/newsimage/stf/b/a/ba106_1315_0de0423b_6e415799.jpg",
+   "category": "chain",
+   "area": "東海",
+   "published": "2026-10-06T17:02:00+09:00",
+   "provider": "google",
+   "decode_v2": true,
+   "image_checked": true
   },
   {
    "id": "1e18a929da6502c5",
@@ -1515,6 +1553,19 @@
    "decode_tried": true,
    "image_checked": true,
    "decode_v2": true
+  },
+  {
+   "id": "47fcc9abc6a3ad32",
+   "title": "安くて旨い！東海エリアの食通たちをうならせる、寿司の名店3選",
+   "link": "https://www.walkerplus.com/article/224251/",
+   "source": "ウォーカープラス",
+   "image": "https://news.walkerplus.com/article/224251/1399586_615.jpg",
+   "category": "wadai",
+   "area": "東海",
+   "published": "2026-10-05T16:00:00+09:00",
+   "provider": "google",
+   "decode_v2": true,
+   "image_checked": true
   },
   {
    "id": "e63f42b4fb71474f",
