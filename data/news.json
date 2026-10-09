@@ -1,6 +1,18 @@
 {
- "updated": "2026-10-09T13:21:51+09:00",
+ "updated": "2026-10-09T14:20:36+09:00",
  "items": [
+  {
+   "id": "21de86e960e0a433",
+   "title": "歌って、シェアして、世界の料理を味わおう！ 地域の「ありがとう」がポイントになる「世界文化祭 2026」、11月8日に静岡県下田市で開催",
+   "link": "https://prtimes.jp/main/html/rd/p/000000003.000172404.html",
+   "source": "PR TIMES",
+   "image": "https://prcdn.freetls.fastly.net/release_image/172404/3/172404-3-7bf782aeec65fcd43b9e2d9068c51628-1477x1108.jpg?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260",
+   "category": "chain",
+   "area": "静岡",
+   "published": "2026-10-09T10:30:00+09:00",
+   "provider": "prtimes",
+   "image_checked": true
+  },
   {
    "id": "afa87c1524327508",
    "title": "【10/12〜】食欲の秋は『汐留横丁』で！真鯛を丸ごと1匹使った「真鯛のメガカツ」や総重量約1kgのカレーなど「デカ盛りメニュー」が登場",
@@ -809,6 +821,19 @@
    "decode_tried": true,
    "image_checked": true,
    "decode_v2": true
+  },
+  {
+   "id": "32cc841090ee00be",
+   "title": "和食さと全202店で「ナイト割」第3弾、21時以降ハイボールなど3品が何杯でも110円！ 鶏皮串108円など9品も半額に、いつまで実施？｜グルメとフード",
+   "link": "https://tetsudo-ch.com/13040643.html",
+   "source": "旅とおでかけ 鉄道チャンネル",
+   "image": null,
+   "category": "chain",
+   "area": "東海",
+   "published": "2026-10-07T07:30:32+09:00",
+   "provider": "google",
+   "decode_v2": true,
+   "image_checked": true
   },
   {
    "id": "135a2035ae5eebcf",
