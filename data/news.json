@@ -1,6 +1,19 @@
 {
- "updated": "2026-10-09T12:20:51+09:00",
+ "updated": "2026-10-09T13:21:51+09:00",
  "items": [
+  {
+   "id": "afa87c1524327508",
+   "title": "【10/12〜】食欲の秋は『汐留横丁』で！真鯛を丸ごと1匹使った「真鯛のメガカツ」や総重量約1kgのカレーなど「デカ盛りメニュー」が登場",
+   "link": "https://www.value-press.com/pressrelease/382158",
+   "source": "valuepress",
+   "image": "https://files.value-press.com/czMjZXllY2F0Y2gjNTU4OTQjNTU4OTRfd0pvUlpDUHdDZC5qcGc.jpg?size=eyecatch",
+   "category": "deka",
+   "area": "東海",
+   "published": "2026-10-09T10:00:00+09:00",
+   "provider": "google",
+   "decode_v2": true,
+   "image_checked": true
+  },
   {
    "id": "b9ec7250967acf14",
    "title": "山梨県に初出店！本格職人握り寿司居酒屋 「や台ずし甲府中央町」が11月6日(金)オープン！",
@@ -36,6 +49,18 @@
    "area": "名古屋",
    "published": "2026-10-09T09:00:00+09:00",
    "provider": "prtimes",
+   "image_checked": true
+  },
+  {
+   "id": "1b82d7872e4af5b8",
+   "title": "ふわとろ、激辛、ジャンクの極み…名古屋の「魔性のラーメン」3軒 ...",
+   "link": "https://news.yahoo.co.jp/articles/aac9cc4e10365465050b2062be17481c29ebf081",
+   "source": "Yahoo!ニュース",
+   "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261009-00000005-matomeshi-000-1-view.jpg?exp=10800",
+   "category": "wadai",
+   "area": "名古屋",
+   "published": "2026-10-09T06:21:00+09:00",
+   "provider": "bing",
    "image_checked": true
   },
   {
@@ -88,6 +113,18 @@
    "published": "2026-10-09T03:04:21+09:00",
    "provider": "google",
    "decode_v2": true,
+   "image_checked": true
+  },
+  {
+   "id": "55b208568124daff",
+   "title": "ジョイフルに『世界の山ちゃん』とのコラボメニューが登場する ...",
+   "link": "https://kobe-journal.com/archives/6425344774.html",
+   "source": "神戸ジャーナル",
+   "image": "https://kobe-journal.com/web/images/2026/10/00_eyecatch-21.jpg",
+   "category": "chain",
+   "area": "東海",
+   "published": "2026-10-09T02:00:00+09:00",
+   "provider": "bing",
    "image_checked": true
   },
   {
@@ -1997,6 +2034,19 @@
    "decode_tried": true,
    "image_checked": true,
    "decode_v2": true
+  },
+  {
+   "id": "0733ab1b99b48f66",
+   "title": "インドカレーに和風だしを合わせた「カレーうどん」も…本場の味から名古屋流まで楽しめるインド・ネパール料理店",
+   "link": "https://topics.smt.docomo.ne.jp/article/tokaitv/life/tokaitv-20261002-1804-48599",
+   "source": "ｄメニューニュース",
+   "image": "https://img.topics.smt.news.goo.ne.jp/picture/tokaitv/m_tokaitv-20261002-1804-48599.jpg",
+   "category": "wadai",
+   "area": "名古屋",
+   "published": "2026-10-02T18:04:00+09:00",
+   "provider": "google",
+   "decode_v2": true,
+   "image_checked": true
   },
   {
    "id": "a8de697147df585f",
