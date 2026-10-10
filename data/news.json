@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-11T06:17:46+09:00",
+ "updated": "2026-10-11T07:17:33+09:00",
  "items": [
   {
    "id": "1c170d9c12a52139",
@@ -1280,6 +1280,23 @@
    "shop_name": null
   },
   {
+   "id": "f720cc3c6d919b5c",
+   "title": "庶民派グルメは極上の味に進化！名古屋のどえりゃあおいしい親子丼3選",
+   "link": "https://www.walkerplus.com/article/145295/",
+   "source": "ウォーカープラス",
+   "image": "https://news.walkerplus.com/article/145295/821196_615.jpg",
+   "category": "wadai",
+   "area": "名古屋",
+   "published": "2026-10-07T16:00:00+09:00",
+   "provider": "google",
+   "added": "2026-10-11T07:17:33+09:00",
+   "decode_v2": true,
+   "image_checked": true,
+   "image_v4": true,
+   "shop": false,
+   "shop_name": null
+  },
+  {
    "id": "efd71e678ee48a80",
    "title": "焼豚中華そば 一番軒、期間限定「辛ニラそば」を10月8日より販売開始",
    "link": "https://prtimes.jp/main/html/rd/p/000000037.000156848.html",
@@ -1344,6 +1361,23 @@
    "image_checked": true,
    "decode_v2": true,
    "added": "2026-10-07T14:15:44+09:00",
+   "shop": false,
+   "shop_name": null
+  },
+  {
+   "id": "f25fa5d3c498b679",
+   "title": "【画像】心も身体もぽかぽかに！実りの秋を味わい尽くす、期間限定メニュー並びに新グランドメニュー 1/7",
+   "link": "https://news.livedoor.com/article/image_detail/32510090/?img_id=56830716",
+   "source": "ライブドアニュース",
+   "image": "https://image.news.livedoor.com/newsimage/stf/8/3/832a7_223_7890ca2c_4e2cc7d3.jpg",
+   "category": "chain",
+   "area": "東海",
+   "published": "2026-10-07T14:00:19+09:00",
+   "provider": "google",
+   "added": "2026-10-11T07:17:33+09:00",
+   "decode_v2": true,
+   "image_checked": true,
+   "image_v4": true,
    "shop": false,
    "shop_name": null
   },
