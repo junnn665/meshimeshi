@@ -510,3 +510,102 @@ button { font-family: inherit; cursor: pointer; }
 .gh-name { font-size: 15px; font-weight: 900; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
 .gh-meta { font-size: 12px; color: var(--muted); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
 .gh-badge { flex: none; font-size: 11px; font-weight: 900; color: #fff; background: var(--red); padding: 2px 8px; border-radius: 999px; }
+
+/* ===== 更新ボタン：炊きたてごはんをよそう演出 ===== */
+.refresh { display: inline-flex; align-items: center; gap: 6px; }
+.rf-icon { width: 20px; height: 20px; }
+.rf-steam { opacity: 0; }
+.refresh:hover .rf-steam, .refresh.cooking .rf-steam { animation: rf-steam 1s ease-in-out infinite; }
+@keyframes rf-steam { 0% { opacity: 0; transform: translateY(2px); } 50% { opacity: 1; } 100% { opacity: 0; transform: translateY(-3px); } }
+
+.serve {
+  position: fixed; inset: 0; z-index: 50; display: flex; align-items: center; justify-content: center;
+  padding: 16px; background: rgba(43, 33, 24, 0); transition: background .25s;
+}
+.serve[hidden] { display: none; }
+.serve.open { background: rgba(43, 33, 24, 0.55); }
+.serve.close { background: rgba(43, 33, 24, 0); }
+.serve-card {
+  width: min(300px, 100%); padding: 26px 20px 22px; border-radius: 24px; text-align: center;
+  background: var(--ground); border: 3px solid var(--ink); box-shadow: 6px 6px 0 var(--ink);
+  transform: translateY(30px) scale(.9); opacity: 0;
+  transition: transform .35s cubic-bezier(.3, 1.5, .5, 1), opacity .25s;
+}
+.serve.open .serve-card { transform: none; opacity: 1; }
+.serve.close .serve-card { transform: translateY(-10px) scale(.95); opacity: 0; }
+.serve-text { margin: 14px 0 0; font-size: 16px; font-weight: 900; line-height: 1.6; color: var(--ink); }
+
+/* どんぶり */
+.serve-art { position: relative; width: 180px; height: 170px; margin: 24px auto 0; }
+.serve-bowl {
+  position: absolute; left: 10px; top: 76px; width: 160px; height: 74px;
+  background:
+    repeating-linear-gradient(90deg, transparent 0 18px, rgba(255, 255, 255, .22) 18px 26px) 0 22px / 100% 10px no-repeat,
+    #C2410C;
+  border: 3px solid var(--ink); border-top-width: 4px; border-radius: 6px 6px 80px 80px;
+}
+.serve-foot { position: absolute; left: 62px; top: 146px; width: 56px; height: 14px; background: #9A3412; border: 3px solid var(--ink); border-radius: 0 0 8px 8px; }
+/* ごはん（下からむくっと盛られる） */
+.serve-rice {
+  position: absolute; left: 22px; top: 22px; width: 136px; height: 64px;
+  background: #fff; border: 3px solid var(--ink); border-bottom: none; border-radius: 70px 70px 0 0;
+  transform-origin: 50% 100%; transform: scaleY(0);
+}
+.serve.open .serve-rice { animation: rice-up 1.1s cubic-bezier(.3, 1.3, .5, 1) .25s forwards; }
+@keyframes rice-up { 0% { transform: scaleY(0); } 60% { transform: scaleY(1.08) scaleX(.97); } 100% { transform: scaleY(1); } }
+.goma { position: absolute; width: 5px; height: 3px; border-radius: 50%; background: var(--ink); opacity: 0; }
+.goma.g1 { left: 34px; top: 22px; transform: rotate(20deg); }
+.goma.g2 { left: 92px; top: 16px; transform: rotate(-30deg); }
+.goma.g3 { left: 70px; top: 34px; transform: rotate(60deg); }
+.umeboshi {
+  position: absolute; left: 54px; top: 0; width: 26px; height: 24px; border-radius: 50%;
+  background: radial-gradient(circle at 35% 35%, #F87171 0 18%, #DC2626 40%, #991B1B 100%);
+  border: 2px solid var(--ink); transform: translateY(-90px); opacity: 0;
+}
+.serve.done .umeboshi { animation: ume-drop .45s cubic-bezier(.4, 0, .6, 1) forwards; }
+.serve.done .goma { opacity: 1; transition: opacity .2s .3s; }
+@keyframes ume-drop { 0% { transform: translateY(-90px); opacity: 1; } 70% { transform: translateY(2px) scaleY(.85); opacity: 1; } 100% { transform: translateY(-4px); opacity: 1; } }
+/* 湯気 */
+.serve-steam { position: absolute; left: 50px; top: -30px; width: 80px; height: 50px; }
+.serve-steam i {
+  position: absolute; bottom: 0; width: 14px; height: 40px; border: 4px solid rgba(43, 33, 24, .5);
+  border-left: none; border-bottom: none; border-top: none; border-radius: 50%; opacity: 0;
+}
+.serve-steam i:nth-child(1) { left: 6px; }
+.serve-steam i:nth-child(2) { left: 34px; height: 48px; }
+.serve-steam i:nth-child(3) { left: 62px; }
+.serve.open .serve-steam i { animation: steam 1.6s ease-in-out infinite; }
+.serve.open .serve-steam i:nth-child(2) { animation-delay: .4s; }
+.serve.open .serve-steam i:nth-child(3) { animation-delay: .8s; }
+@keyframes steam {
+  0% { opacity: 0; transform: translateY(14px) scaleX(1); }
+  30% { opacity: 1; }
+  100% { opacity: 0; transform: translateY(-16px) scaleX(-1); }
+}
+/* できたて！のハンコ */
+.serve-stamp {
+  position: absolute; right: -6px; top: 6px; padding: 6px 8px; border-radius: 50%;
+  width: 74px; height: 74px; display: flex; align-items: center; justify-content: center; white-space: nowrap;
+  background: var(--red); color: #fff; border: 3px solid var(--ink); font-size: 12px; font-weight: 900; line-height: 1.1;
+  transform: scale(0) rotate(-30deg);
+}
+.serve.done .serve-stamp { animation: stamp .4s cubic-bezier(.3, 1.8, .5, 1) .25s forwards; }
+@keyframes stamp { to { transform: scale(1) rotate(-12deg); } }
+.serve.fail .serve-rice { animation: none; transform: scaleY(.3); }
+
+/* 記事の盛り付け */
+.card.served { animation: served .5s cubic-bezier(.3, 1.4, .5, 1) both; animation-delay: calc(var(--i, 0) * 60ms); }
+@keyframes served { from { opacity: 0; transform: translateY(18px) scale(.97); } to { opacity: 1; transform: none; } }
+
+/* トースト */
+.toast {
+  position: fixed; left: 50%; bottom: max(20px, env(safe-area-inset-bottom)); z-index: 60;
+  max-width: calc(100% - 32px); padding: 12px 18px; border-radius: 999px;
+  background: var(--ink); color: var(--ground); font-size: 14px; font-weight: 900; text-align: center;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, .25);
+  transform: translate(-50%, 20px); opacity: 0; transition: transform .3s cubic-bezier(.3, 1.5, .5, 1), opacity .25s;
+}
+.toast.show { transform: translate(-50%, 0); opacity: 1; }
+@media (prefers-reduced-motion: reduce) {
+  .card.served { animation: none; }
+}

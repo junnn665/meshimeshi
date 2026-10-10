@@ -998,7 +998,73 @@
     }
   }
 
-  function load() {
+  // ---------- 更新ボタンの演出：炊きたてごはんをよそう ----------
+  function wait(ms) { return new Promise(function (r) { setTimeout(r, ms); }); }
+  function reduceMotion() {
+    try { return window.matchMedia('(prefers-reduced-motion: reduce)').matches; } catch (e) { return false; }
+  }
+  var toastTimer = null;
+  function toast(text) {
+    var t = $('toast');
+    t.textContent = text;
+    t.hidden = false;
+    t.classList.remove('show'); void t.offsetWidth; t.classList.add('show');
+    clearTimeout(toastTimer);
+    toastTimer = setTimeout(function () { t.classList.remove('show'); setTimeout(function () { t.hidden = true; }, 300); }, 3200);
+  }
+  function serveRefresh() {
+    var btn = $('refresh');
+    if (btn.disabled) return;
+    var before = {};
+    state.items.forEach(function (it) { before[it.id] = 1; });
+    var quiet = reduceMotion();
+    var ov = $('serve');
+    btn.classList.add('cooking');
+    if (!quiet) {
+      $('serve-text').innerHTML = '炊きたてのニュースを<br>よそっています…';
+      ov.className = 'serve';
+      ov.hidden = false;
+      void ov.offsetWidth;
+      ov.classList.add('open');                 // どんぶりが出てきて、ごはんが盛られる
+    }
+    var minTime = quiet ? Promise.resolve() : wait(1400);
+    Promise.all([load({ animate: true }), minTime]).then(function (res) {
+      var ok = res[0];
+      var fresh = state.items.filter(function (it) { return !before[it.id]; }).length;
+      var finish = function () {
+        btn.classList.remove('cooking');
+        if (!ok) return;
+        renderListServed();
+        toast(fresh ? 'ほかほかの新着 ' + fresh + ' 件、盛りました！' : 'できたての最新ニュースです（新着はありません）');
+      };
+      if (quiet) { finish(); return; }
+      $('serve-text').textContent = ok ? (fresh ? '新着 ' + fresh + ' 件、できたて！' : 'できたてです！') : 'うまく炊けませんでした…';
+      ov.classList.add(ok ? 'done' : 'fail');   // 梅干しがのって「できたて！」
+      wait(ok ? 900 : 1300).then(function () {
+        ov.classList.add('close');
+        return wait(320);
+      }).then(function () {
+        ov.hidden = true;
+        ov.className = 'serve';
+        finish();
+      });
+    });
+  }
+  // 記事を上から順に「盛り付け」るように出す
+  function renderListServed() {
+    var grid = $('grid');
+    Array.prototype.forEach.call(grid.children, function (c, i) {
+      if (i < 12) {
+        c.style.setProperty('--i', i);
+        c.classList.add('served');
+      }
+    });
+    var top = $('heading').getBoundingClientRect().top;
+    if (top < 0 || top > window.innerHeight) $('heading').scrollIntoView({ behavior: 'smooth', block: 'start' });
+  }
+
+  function load(opts) {
+    opts = opts || {};
     var btn = $('refresh');
     btn.disabled = true;
     return fetch('data/news.json?t=' + Date.now(), { cache: 'no-store' })
@@ -1020,16 +1086,18 @@
         renderTicker();
         refreshView();
         centerActive(false);
+        return true;
       })
       .catch(function () {
         $('status').textContent = 'ニュースを読み込めませんでした。時間をおいて「最新に更新」を押してください。';
+        return false;
       })
-      .then(function () { btn.disabled = false; });
+      .then(function (ok) { btn.disabled = false; return ok; });
   }
 
   // トップページ（記事一覧）
   if ($('grid')) {
-    $('refresh').addEventListener('click', load);
+    $('refresh').addEventListener('click', serveRefresh);
     $('more').addEventListener('click', function () {
       state.shown += PAGE_SIZE;
       renderList();

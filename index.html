@@ -64,7 +64,7 @@
   <div class="list-head">
     <h2 id="heading">すべてのニュース</h2>
     <span class="new-count" id="new-count" hidden></span>
-    <button type="button" class="refresh" id="refresh">↻ 最新に更新</button>
+    <button type="button" class="refresh" id="refresh"><svg class="rf-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 13h18a9 9 0 0 1-18 0z"/><path d="M6 13c0-3.5 2.7-6 6-6s6 2.5 6 6"/><path class="rf-steam" d="M9 5c0-1 1-1.5 1-2.5M14 5c0-1 1-1.5 1-2.5"/></svg><span class="rf-label">最新に更新</span></button>
   </div>
   <p class="lead">デカ盛り、行列店、新店、チェーンやコンビニの新作、安うまグルメ。東海エリアの話題を中心に、ニュースサイトや企業の発表から1時間ごとに自動で集めます。</p>
   <p class="status" id="status">ニュースを読み込み中…</p>
@@ -80,6 +80,20 @@
     <p>© 飯飯食堂</p>
   </div>
 </footer>
+
+<div class="serve" id="serve" hidden>
+  <div class="serve-card" role="status" aria-live="polite">
+    <div class="serve-art" aria-hidden="true">
+      <span class="serve-steam"><i></i><i></i><i></i></span>
+      <span class="serve-rice"><i class="umeboshi"></i><i class="goma g1"></i><i class="goma g2"></i><i class="goma g3"></i></span>
+      <span class="serve-bowl"></span>
+      <span class="serve-foot"></span>
+      <span class="serve-stamp">できたて！</span>
+    </div>
+    <p class="serve-text" id="serve-text">炊きたてのニュースを<br>よそっています…</p>
+  </div>
+</div>
+<div class="toast" id="toast" role="status" aria-live="polite" hidden></div>
 
 <script src="assets/app.js"></script>
 </body>
