@@ -132,7 +132,9 @@
       img.addEventListener('load', function () {
         if (img.naturalWidth < 40) fallback(); // 1px画像などのダミー
       });
-      img.src = it.image;
+      // http の写真はそのままだと表示できないので最初から中継する
+      if (/^http:/.test(it.image)) { tried = true; img.src = relay; }
+      else img.src = it.image;
       box.appendChild(img);
     } else {
       fallback();

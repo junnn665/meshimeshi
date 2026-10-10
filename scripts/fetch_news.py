@@ -352,6 +352,7 @@ CONTENT_RE = re.compile(r'content=["\']([^"\']+)["\']', re.I)
 
 
 DECODE_LOG: list[str] = []
+IMAGE_LOG: list[str] = []
 
 
 def decode_google_link(link: str) -> str | None:
@@ -404,7 +405,8 @@ def find_og_image(link: str) -> str | None:
         return None
     try:
         body, final_url = http_get(link, limit=400_000, timeout=10, browser=True)
-    except Exception:
+    except Exception as e:
+        IMAGE_LOG.append(f"{host}: {type(e).__name__}: {str(e)[:80]}")
         return None
     text = body.decode("utf-8", errors="ignore")
     for tag in OG_RE.findall(text):
@@ -412,8 +414,9 @@ def find_og_image(link: str) -> str | None:
         if m:
             src = html.unescape(m.group(1).strip())
             src = urllib.parse.urljoin(final_url, src)
-            if src.startswith("https://"):
+            if src.startswith(("https://", "http://")):  # http の写真は画面側で中継して表示
                 return src
+    IMAGE_LOG.append(f"{host}: og:image なし ({len(text)} 文字)")
     return None
 
 
@@ -422,7 +425,7 @@ def add_images(items: list[dict]) -> None:
         is_google = "news.google.com" in urllib.parse.urlparse(it["link"]).netloc
         return (not it.get("image_checked")
                 or (is_google and not it.get("decode_v2"))
-                or (not it.get("image") and not it.get("image_v3")))
+                or (not it.get("image") and not it.get("image_v4")))
 
     targets = [it for it in items if pending(it)][:MAX_IMAGE_FETCH]
 
@@ -439,10 +442,10 @@ def add_images(items: list[dict]) -> None:
         for it, img in zip(targets, results):
             if img:
                 it["image"] = img
-            elif it.get("image") and not it["image"].startswith("https://"):
+            elif it.get("image") and not it["image"].startswith("http"):
                 it["image"] = None
             it["image_checked"] = True
-            it["image_v3"] = True
+            it["image_v4"] = True
 
 
 # ---------------------------------------------------------------------------
@@ -528,6 +531,7 @@ def main() -> int:
         "google_decode_ok": DECODE_LOG.count("ok"),
         "google_decode_failed": len(DECODE_LOG) - DECODE_LOG.count("ok"),
         "google_decode_samples": [x for x in DECODE_LOG if x != "ok"][:3],
+        "image_failures": IMAGE_LOG[:20],
     }
     (DATA_FILE.parent / "status.json").write_text(json.dumps(status, ensure_ascii=False, indent=1) + "\n", "utf-8")
     return 0
