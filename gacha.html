@@ -40,12 +40,17 @@
           <p class="g-label" id="g-radius-label">現在地からの距離</p>
           <div class="g-pills" id="g-radius" role="group" aria-labelledby="g-radius-label"></div>
         </div>
-        <p class="g-label" id="g-genre-label">ジャンル</p>
+        <div class="g-label-row">
+          <p class="g-label" id="g-genre-label">ジャンル</p>
+          <button type="button" class="g-mood-open" id="g-mood-open">迷ったら<b>気分で選ぶ</b></button>
+        </div>
         <div class="g-pills" id="g-genre" role="group" aria-labelledby="g-genre-label"></div>
         <p class="g-label" id="g-budget-label">予算（夜）</p>
         <div class="g-pills" id="g-budget" role="group" aria-labelledby="g-budget-label"></div>
         <p class="g-label" id="g-opts-label">こだわり（いくつでも）</p>
         <div class="g-pills" id="g-opts" role="group" aria-labelledby="g-opts-label"></div>
+        <p class="g-label" id="g-count-label">回し方</p>
+        <div class="g-pills" id="g-count" role="group" aria-labelledby="g-count-label"></div>
         <button type="button" class="g-spin" id="g-spin">ガチャを回す</button>
         <p class="g-pool" id="g-pool" aria-live="polite"></p>
       </div>
@@ -66,6 +71,8 @@
             <span class="outlet"></span>
           </div>
           <span class="drop" id="drop"><span class="cap-top"></span><span class="cap-bottom"></span></span>
+          <span class="drop drop-extra" id="drop2"><span class="cap-top"></span><span class="cap-bottom"></span></span>
+          <span class="drop drop-extra" id="drop3"><span class="cap-top"></span><span class="cap-bottom"></span></span>
         </div>
         <div class="g-result" id="g-result" hidden></div>
       </div>
@@ -94,6 +101,16 @@
     <p>© 飯飯食堂</p>
   </div>
 </footer>
+
+<div class="mood" id="mood" hidden>
+  <div class="mood-card" role="dialog" aria-modal="true" aria-labelledby="mood-title">
+    <div class="mood-head">
+      <p class="mood-title" id="mood-title">気分で選ぶ</p>
+      <button type="button" class="mood-close" id="mood-close" aria-label="閉じる">×</button>
+    </div>
+    <div class="mood-body" id="mood-body"></div>
+  </div>
+</div>
 
 <script src="assets/config.js"></script>
 <script src="assets/app.js"></script>

@@ -390,6 +390,9 @@
     lunch: !!store.get('meshi.gLunch', false),
     openNow: !!store.get('meshi.gOpen', false),
     mixNews: store.get('meshi.gNews', true) !== false,
+    multi: !!store.get('meshi.gMulti', false),  // 3連ガチャ
+    moodGenres: [], moodLabel: '',
+    trio: null,
     here: null,           // 現在地 {lat, lng}
     lastId: null,
     busy: false,
@@ -505,7 +508,7 @@
   var nearbyCache = {};
   function loadNearby() {
     var radius = gacha.radius;
-    var genre = gacha.genre === 'all' ? '' : gacha.genre;
+    var genre = (gacha.genre === 'all' || gacha.genre === 'mood') ? '' : gacha.genre;
     var q = 'lat=' + gacha.here.lat.toFixed(4) + '&lng=' + gacha.here.lng.toFixed(4) +
       '&range=' + radius + (genre ? '&genre=' + encodeURIComponent(genre) : '');
     if (nearbyCache[q]) return Promise.resolve(nearbyCache[q]);
@@ -523,14 +526,21 @@
   }
 
   // ニュースで話題のお店（話題枠）
+  // ジャンルが合うか（「気分で選ぶ」のときは気分から決めた複数ジャンルのどれか）
+  function genreOk(label) {
+    if (gacha.genre === 'all') return true;
+    if (gacha.genre === 'mood') return gacha.moodGenres.indexOf(label) >= 0;
+    return label === gacha.genre;
+  }
+
   function newsCandidates() {
     if (!gacha.mixNews || gacha.area === 'near' || gacha.budget !== 'any' || gacha.lunch || gacha.openNow) return [];
     var area = { nagoya: ['名古屋'], aichi: ['愛知', '名古屋'], gifu: ['岐阜'], mie: ['三重'], all: ['名古屋', '愛知', '岐阜', '三重'] }[gacha.area] || [];
     return gacha.news.filter(function (it) {
       if (!it.shop || !it.shop_name || area.indexOf(it.area) < 0) return false;
       if (gacha.genre === 'all') return true;
-      var re = GENRE_WORDS[gacha.genre];
-      return re ? re.test(it.title) : false;
+      var gs = gacha.genre === 'mood' ? gacha.moodGenres : [gacha.genre];
+      return gs.some(function (g) { var re = GENRE_WORDS[g]; return re ? re.test(it.title) : false; });
     });
   }
 
@@ -584,7 +594,7 @@
     var needHere = gacha.area === 'near' && !gacha.here;
     $('g-pool').textContent = needHere ? '現在地を確認しています…' : 'お店を読み込み中…';
     var hereP = needHere ? locate().then(function (h) { gacha.here = h; }) : Promise.resolve();
-    hereP.then(function () {
+    return hereP.then(function () {
       if (gacha.area === 'near' && NEARBY_API) {
         // 中継が使えないときは、手元の東海のお店データで代わりに探す
         return loadNearby().catch(function () { return loadShops('near'); });
@@ -595,7 +605,7 @@
       var radius = (RADII.filter(function (r) { return r.id === gacha.radius; })[0] || RADII[1]).m;
       var now = new Date();
       gacha.pool = list.filter(function (sh) {
-        if (gacha.genre !== 'all' && sh.genre !== gacha.genre) return false;
+        if (!genreOk(sh.genre)) return false;
         if (!matchBudget(sh)) return false;
         if (gacha.lunch && !hasLunch(sh)) return false;
         if (gacha.openNow && isOpenNow(sh, now) !== true) return false;
@@ -637,8 +647,11 @@
     });
   }
 
-  function weightedPick(list, weightFn) {
-    var cands = list.length > 1 ? list.filter(function (x) { return x.id !== gacha.lastId; }) : list;
+  function weightedPick(list, weightFn, exclude) {
+    exclude = exclude || {};
+    var cands = list.filter(function (x) { return !exclude[x.id]; });
+    if (cands.length > 1) cands = cands.filter(function (x) { return x.id !== gacha.lastId; });
+    if (!cands.length) return null;
     var weights = cands.map(weightFn);
     var total = weights.reduce(function (a, b) { return a + b; }, 0);
     var r = Math.random() * total;
@@ -648,10 +661,22 @@
     }
     return cands[cands.length - 1];
   }
-  function pickOne() {
+  function pickOne(exclude) {
     var useNews = gacha.newsPool.length && (!gacha.pool.length || Math.random() < NEWS_SHARE);
-    if (useNews) return { news: weightedPick(gacha.newsPool, function (it) { return it.image ? 2 : 1; }) };
-    return { shop: weightedPick(gacha.pool, function (sh) { return sh.photo ? 2 : 1; }) };
+    var news = function () { var x = weightedPick(gacha.newsPool, function (it) { return it.image ? 2 : 1; }, exclude); return x && { news: x }; };
+    var shop = function () { var x = weightedPick(gacha.pool, function (sh) { return sh.photo ? 2 : 1; }, exclude); return x && { shop: x }; };
+    return useNews ? (news() || shop()) : (shop() || news());
+  }
+  // 3連ガチャ：重ならないように3軒（候補が少なければあるだけ）
+  function pickMany(n) {
+    var out = [], ex = {};
+    for (var i = 0; i < n; i++) {
+      var p = pickOne(ex);
+      if (!p) break;
+      ex[(p.shop || p.news).id] = 1;
+      out.push(p);
+    }
+    return out;
   }
 
   function genreColor(name) {
@@ -834,8 +859,76 @@
     addHistory({ id: it.id, name: it.shop_name, url: it.link, photo: it.image, genre: '話題のお店', area: it.area, color: cat.color, news: true, at: new Date().toISOString() });
   }
 
+  function showTrio(picks) {
+    gacha.trio = picks;
+    var box = $('g-result');
+    box.textContent = '';
+    var head = el('p', 'g-hit');
+    head.appendChild(document.createTextNode(picks.length + '軒出ました！ どれにする？'));
+    box.appendChild(head);
+    var list = el('div', 'g-trio');
+    picks.forEach(function (p, i) {
+      var sh = p.shop, it = p.news;
+      var b = el('button', 'g-trio-card');
+      b.type = 'button';
+      b.style.setProperty('--i', i);
+      var color = sh ? genreColor(sh.genre) : (CAT[it.category] || CAT.wadai).color;
+      var th = el('span', 'g-trio-thumb');
+      th.style.setProperty('--c', color);
+      var src = sh ? sh.photo : it.image;
+      if (src) {
+        var img = document.createElement('img');
+        img.src = src; img.alt = ''; img.referrerPolicy = 'no-referrer';
+        img.addEventListener('error', function () { img.remove(); });
+        th.appendChild(img);
+      }
+      th.appendChild(el('span', 'g-trio-num', String(i + 1)));
+      b.appendChild(th);
+      var tx = el('span', 'g-trio-text');
+      var chip = el('span', 'g-trio-genre' + (it ? ' hot' : ''), sh ? sh.genre : '話題枠');
+      if (sh) chip.style.background = color;
+      tx.appendChild(chip);
+      tx.appendChild(el('span', 'g-trio-name', sh ? sh.name : it.shop_name));
+      var meta = [];
+      if (sh) {
+        if (sh._dist != null && gacha.area === 'near') meta.push('ここから' + fmtDistance(sh._dist));
+        if (sh.budget) meta.push(sh.budget.replace(/（.*$/, ''));
+        var open = isOpenNow(sh);
+        if (open === true) meta.push('営業中');
+      } else {
+        meta.push('ニュースで話題');
+        if (it.area) meta.push(it.area);
+      }
+      tx.appendChild(el('span', 'g-trio-meta', meta.join(' ・ ')));
+      b.appendChild(tx);
+      b.appendChild(el('span', 'g-trio-go', 'ここにする'));
+      b.addEventListener('click', function () {
+        if (sh) showShop(sh); else showNews(it);
+        $('g-result').scrollIntoView({ behavior: 'smooth', block: 'start' });
+      });
+      list.appendChild(b);
+    });
+    box.appendChild(list);
+    var actions = el('div', 'g-actions');
+    var again = el('button', 'g-again', 'もう1回3連まわす');
+    again.type = 'button';
+    again.addEventListener('click', spin);
+    actions.appendChild(again);
+    box.appendChild(actions);
+    $('machine').hidden = true;
+    box.hidden = false;
+    box.classList.remove('show'); void box.offsetWidth; box.classList.add('show');
+  }
+
   function finishResult(box, mapUrl, share) {
     var actions = el('div', 'g-actions');
+    if (gacha.trio && gacha.trio.length > 1) {
+      var back = el('button', 'g-again g-back', '← 3軒にもどる');
+      back.type = 'button';
+      var trio = gacha.trio;
+      back.addEventListener('click', function () { showTrio(trio); });
+      actions.appendChild(back);
+    }
     var map = el('a', 'g-map', '地図で見る');
     map.href = mapUrl;
     map.target = '_blank';
@@ -854,9 +947,12 @@
 
   function spin() {
     if (gacha.busy || (!gacha.pool.length && !gacha.newsPool.length)) return;
-    var pick = pickOne();
+    var picks = gacha.multi ? pickMany(3) : [pickOne()];
+    if (!picks.length || !picks[0]) return;
+    var pick = picks[0];
     var color = pick.shop ? genreColor(pick.shop.genre) : '#FFC93C';
     gacha.lastId = (pick.shop || pick.news).id;
+    gacha.trio = null;
     gacha.busy = true;
     $('g-spin').disabled = true;
 
@@ -866,6 +962,11 @@
     m.hidden = false;
     drop.style.setProperty('--c', color);
     m.classList.remove('spinning', 'dropping', 'opening');
+    m.classList.toggle('triple', picks.length > 1);
+    picks.forEach(function (p, i) {
+      var d = $('drop' + (i + 1));
+      if (d) d.style.setProperty('--c', p.shop ? genreColor(p.shop.genre) : '#FFC93C');
+    });
 
     var stage = document.querySelector('.gacha-stage');
     var r = stage.getBoundingClientRect();
@@ -878,7 +979,8 @@
     var finish = function () {
       gacha.busy = false;
       m.classList.remove('spinning', 'dropping', 'opening');
-      if (pick.shop) showShop(pick.shop); else showNews(pick.news);
+      if (picks.length > 1) showTrio(picks);
+      else if (pick.shop) showShop(pick.shop); else showNews(pick.news);
       $('g-spin').disabled = !gacha.pool.length && !gacha.newsPool.length;
     };
     if (reduce) { finish(); return; }
@@ -890,9 +992,119 @@
     setTimeout(finish, 2350);
   }
 
+  function setSpinLabel() {
+    $('g-spin').textContent = gacha.multi ? '3連ガチャを回す' : 'ガチャを回す';
+  }
+  function buildGenrePills() {
+    var list = [{ id: 'all', label: 'おまかせ' }];
+    if (gacha.moodGenres.length) list.push({ id: 'mood', label: '気分：' + gacha.moodLabel, cls: 'mood' });
+    list = list.concat(gacha.genreList.map(function (g) { return { id: g, label: g }; }));
+    pills('g-genre', list, gacha.genre, function (id) {
+      gacha.genre = id;
+      if (id !== 'mood') store.set('meshi.gGenre2', id);
+    });
+  }
+
+  // ---- 気分で選ぶ ----
+  var MOOD_QS = [
+    { key: 'rich', q: '今日の気分は？', a: [['kotteri', 'こってり'], ['assari', 'あっさり']] },
+    { key: 'vol', q: 'おなかの空き具合は？', a: [['gattsuri', 'がっつり食べたい'], ['karume', '軽めでいい']] },
+    { key: 'who', q: 'だれと行く？', a: [['hitori', 'ひとりでサクッと'], ['minna', 'みんなでワイワイ']] },
+    { key: 'spice', q: '辛いものは？', a: [['suki', '食べたい！'], ['nigate', '今日はやめとく']] }
+  ];
+  var MOOD_TAGS = {
+    kotteri: ['ラーメン', '焼肉', '中華', '洋食', '韓国料理', 'お好み焼き'],
+    assari: ['和食', 'カフェ', 'イタリアン', 'エスニック', '居酒屋'],
+    gattsuri: ['ラーメン', '焼肉', '中華', '洋食', 'お好み焼き', '韓国料理', '居酒屋'],
+    karume: ['カフェ', '和食', 'イタリアン', 'エスニック'],
+    hitori: ['ラーメン', 'カフェ', '和食', '洋食', '中華', 'エスニック'],
+    minna: ['居酒屋', '焼肉', '韓国料理', 'お好み焼き', 'イタリアン', '中華'],
+    suki: ['韓国料理', 'エスニック', '中華', 'ラーメン']
+  };
+  var MOOD_WORD = { kotteri: 'こってり', assari: 'あっさり', gattsuri: 'がっつり', karume: '軽め', hitori: 'ひとり', minna: 'ワイワイ', suki: '辛いの', nigate: '辛さ控えめ' };
+  var mood = { step: 0, ans: {} };
+
+  function moodGenresFrom(ans) {
+    var genres = (gacha.genreList || []).slice();
+    if (ans.spice === 'nigate') genres = genres.filter(function (g) { return g !== '韓国料理' && g !== 'エスニック'; });
+    var score = {};
+    genres.forEach(function (g) { score[g] = 0; });
+    Object.keys(ans).forEach(function (k) {
+      (MOOD_TAGS[ans[k]] || []).forEach(function (g) { if (g in score) score[g]++; });
+    });
+    var sorted = genres.slice().sort(function (a, b) { return score[b] - score[a]; });
+    var top = score[sorted[0]];
+    var pick = sorted.filter(function (g) { return score[g] === top; });
+    if (pick.length < 2) pick = sorted.filter(function (g) { return score[g] >= top - 1; }).slice(0, 3);
+    return pick;
+  }
+  function openMood() {
+    mood = { step: 0, ans: {} };
+    var ov = $('mood');
+    ov.hidden = false;
+    void ov.offsetWidth;
+    ov.classList.add('open');
+    renderMood();
+  }
+  function closeMood() {
+    var ov = $('mood');
+    ov.classList.remove('open');
+    setTimeout(function () { ov.hidden = true; }, 250);
+  }
+  function renderMood() {
+    var body = $('mood-body');
+    body.textContent = '';
+    var dots = el('div', 'mood-dots');
+    MOOD_QS.forEach(function (_, i) { dots.appendChild(el('span', 'mood-dot' + (i <= mood.step ? ' on' : ''))); });
+    body.appendChild(dots);
+    if (mood.step < MOOD_QS.length) {
+      var q = MOOD_QS[mood.step];
+      body.appendChild(el('p', 'mood-q', q.q));
+      var row = el('div', 'mood-answers');
+      q.a.concat([['any', 'どっちでも']]).forEach(function (a) {
+        var b = el('button', 'mood-a' + (a[0] === 'any' ? ' any' : ''), a[1]);
+        b.type = 'button';
+        b.addEventListener('click', function () {
+          if (a[0] !== 'any') mood.ans[q.key] = a[0];
+          mood.step++;
+          renderMood();
+        });
+        row.appendChild(b);
+      });
+      body.appendChild(row);
+      return;
+    }
+    // 結果：ジャンルを決めて回す
+    var genres = moodGenresFrom(mood.ans);
+    var words = MOOD_QS.map(function (q) { return MOOD_WORD[mood.ans[q.key]]; }).filter(Boolean);
+    var label = words.length ? words.slice(0, 2).join('×') : 'おまかせ';
+    body.appendChild(el('p', 'mood-q', (words.length ? words.join('・') + 'のあなたには…' : '今日は気分おまかせ！')));
+    var g = el('div', 'mood-genres');
+    genres.forEach(function (x, i) {
+      var c = el('span', 'mood-genre', x);
+      c.style.setProperty('--c', genreColor(x));
+      c.style.setProperty('--i', i);
+      g.appendChild(c);
+    });
+    body.appendChild(g);
+    var go = el('button', 'g-spin mood-go', 'この気分で回す！');
+    go.type = 'button';
+    go.addEventListener('click', function () {
+      gacha.moodGenres = genres;
+      gacha.moodLabel = label;
+      gacha.genre = 'mood';
+      buildGenrePills();
+      closeMood();
+      Promise.resolve(updatePool()).then(function () { setTimeout(spin, 300); });
+    });
+    body.appendChild(go);
+  }
+
   function buildGacha() {
     $('g-spin').addEventListener('click', spin);
     $('g-spin').disabled = true;
+    $('mood-close').addEventListener('click', closeMood);
+    $('mood').addEventListener('click', function (e) { if (e.target === $('mood')) closeMood(); });
     $('g-pool').textContent = 'お店データを読み込み中…';
     $('g-history-clear').addEventListener('click', function () {
       store.set('meshi.gHistory', []);
@@ -916,8 +1128,8 @@
       areas.push({ id: 'all', label: '東海ぜんぶ' });
       if (navigator.geolocation) areas.unshift({ id: 'near', label: '現在地から', icon: 'pin', cls: 'near' });
       if (!areas.some(function (a) { return a.id === gacha.area; })) gacha.area = 'nagoya';
-      var genres = [{ id: 'all', label: 'おまかせ' }].concat(meta.genres.map(function (g) { return { id: g, label: g }; }));
-      if (!genres.some(function (g) { return g.id === gacha.genre; })) gacha.genre = 'all';
+      gacha.genreList = meta.genres.slice();
+      if (gacha.genre === 'mood' || gacha.genreList.indexOf(gacha.genre) < 0) gacha.genre = 'all';
       if (!BUDGETS.some(function (b) { return b.id === gacha.budget; })) gacha.budget = 'any';
       pills('g-area', areas, gacha.area, function (id) {
         gacha.area = id;
@@ -926,7 +1138,15 @@
         store.set('meshi.gArea2', id);
       });
       pills('g-radius', RADII, gacha.radius, function (id) { gacha.radius = id; store.set('meshi.gRadius', id); });
-      pills('g-genre', genres, gacha.genre, function (id) { gacha.genre = id; store.set('meshi.gGenre2', id); });
+      buildGenrePills();
+      pills('g-count', [{ id: 'one', label: '1軒' }, { id: 'three', label: '3連（3軒から選ぶ）' }],
+        gacha.multi ? 'three' : 'one', function (id) {
+          gacha.multi = id === 'three';
+          store.set('meshi.gMulti', gacha.multi);
+          setSpinLabel();
+        });
+      setSpinLabel();
+      $('g-mood-open').addEventListener('click', openMood);
       pills('g-budget', BUDGETS, gacha.budget, function (id) { gacha.budget = id; store.set('meshi.gBudget', id); });
       pills('g-opts', [
         { id: 'lunch', label: 'ランチあり', on: gacha.lunch },

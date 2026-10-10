@@ -609,3 +609,107 @@ button { font-family: inherit; cursor: pointer; }
 @media (prefers-reduced-motion: reduce) {
   .card.served { animation: none; }
 }
+
+/* ===== 3連ガチャ ===== */
+.drop-extra { display: none; }
+.machine.triple .drop-extra { display: block; }
+.machine.triple.dropping #drop2 { animation: g-roll2 .9s ease-in .25s forwards; }
+.machine.triple.dropping #drop3 { animation: g-roll3 .9s ease-in .45s forwards; }
+.machine.triple.opening #drop2 { opacity: 1; transform: translate(-54px, 46px); filter: drop-shadow(0 0 14px #FFC93C); }
+.machine.triple.opening #drop3 { opacity: 1; transform: translate(-108px, 46px); filter: drop-shadow(0 0 14px #FFC93C); }
+@keyframes g-roll2 {
+  0% { opacity: 0; transform: translate(0, -14px) scale(.6); }
+  25% { opacity: 1; transform: translate(0, 0) scale(1); }
+  55% { transform: translate(0, 46px); }
+  100% { opacity: 1; transform: translate(-54px, 46px) rotate(-200deg); }
+}
+@keyframes g-roll3 {
+  0% { opacity: 0; transform: translate(0, -14px) scale(.6); }
+  25% { opacity: 1; transform: translate(0, 0) scale(1); }
+  50% { transform: translate(0, 46px); }
+  100% { opacity: 1; transform: translate(-108px, 46px) rotate(-400deg); }
+}
+.g-trio { display: flex; flex-direction: column; gap: 10px; }
+.g-trio-card {
+  display: grid; grid-template-columns: 76px minmax(0, 1fr); grid-template-rows: auto auto; gap: 4px 12px;
+  align-items: center; text-align: left; width: 100%; padding: 10px; cursor: pointer;
+  background: #FFF6E3; color: var(--ink); border: 2px solid var(--ink); border-radius: 16px;
+  font-family: inherit; box-shadow: 3px 3px 0 rgba(0, 0, 0, .35);
+  animation: trio-in .45s cubic-bezier(.3, 1.5, .5, 1) both; animation-delay: calc(var(--i, 0) * 120ms);
+  transition: transform .1s, box-shadow .1s;
+}
+.g-trio-card:hover { transform: translate(-1px, -1px); box-shadow: 4px 4px 0 rgba(0, 0, 0, .4); }
+.g-trio-card:active { transform: translate(2px, 2px); box-shadow: 1px 1px 0 rgba(0, 0, 0, .35); }
+.g-trio-card:focus-visible { outline: 3px solid var(--yellow); outline-offset: 2px; }
+@keyframes trio-in { from { opacity: 0; transform: translateY(14px) scale(.96); } to { opacity: 1; transform: none; } }
+.g-trio-thumb {
+  grid-row: 1 / span 2; position: relative; width: 76px; height: 76px; border-radius: 12px; overflow: hidden;
+  background: color-mix(in srgb, var(--c) 25%, #FFF6E3); border: 2px solid var(--ink);
+}
+.g-trio-thumb img { width: 100%; height: 100%; object-fit: cover; display: block; }
+.g-trio-num {
+  position: absolute; left: 4px; top: 4px; width: 22px; height: 22px; border-radius: 50%;
+  background: var(--ink); color: var(--yellow); font-size: 12px; font-weight: 900;
+  display: flex; align-items: center; justify-content: center;
+}
+.g-trio-text { display: flex; flex-direction: column; gap: 4px; min-width: 0; }
+.g-trio-genre { align-self: flex-start; font-size: 11px; font-weight: 900; color: #fff; padding: 2px 9px; border-radius: 999px; }
+.g-trio-genre.hot { background: var(--red); }
+.g-trio-name { font-size: 16px; font-weight: 900; line-height: 1.35; overflow: hidden; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; }
+.g-trio-meta { font-size: 12px; color: var(--sub); }
+.g-trio-go {
+  justify-self: end; font-size: 13px; font-weight: 900; color: #B42318;
+  padding: 4px 12px; border: 2px solid #B42318; border-radius: 999px; background: #fff;
+}
+.g-back { border-style: dashed; }
+
+/* ===== 気分で選ぶ ===== */
+.g-label-row { display: flex; align-items: center; justify-content: space-between; gap: 8px; margin-top: 4px; }
+.g-label-row .g-label { margin: 0; }
+.g-mood-open {
+  min-height: 36px; padding: 0 12px; border-radius: 999px; cursor: pointer;
+  background: var(--ground); color: var(--ink); border: 2px solid var(--yellow);
+  font-family: inherit; font-size: 12px; font-weight: 700;
+}
+.g-mood-open b { margin-left: 4px; font-weight: 900; color: #B42318; }
+.g-pill.mood[aria-pressed="true"] { background: var(--red); border-color: var(--red); color: #fff; }
+.g-pill.mood { border-color: var(--red); }
+
+.mood {
+  position: fixed; inset: 0; z-index: 50; display: flex; align-items: center; justify-content: center;
+  padding: 16px; background: rgba(43, 33, 24, 0); transition: background .25s;
+}
+.mood[hidden] { display: none; }
+.mood.open { background: rgba(43, 33, 24, .6); }
+.mood-card {
+  width: min(380px, 100%); border-radius: 24px; padding: 18px 18px 22px;
+  background: var(--ground); color: var(--ink); border: 3px solid var(--ink); box-shadow: 6px 6px 0 var(--ink);
+  transform: translateY(24px) scale(.95); opacity: 0; transition: transform .3s cubic-bezier(.3, 1.5, .5, 1), opacity .2s;
+}
+.mood.open .mood-card { transform: none; opacity: 1; }
+.mood-head { display: flex; align-items: center; justify-content: space-between; }
+.mood-title { margin: 0; font-size: 14px; font-weight: 900; letter-spacing: .1em; color: var(--sub); }
+.mood-close {
+  width: 40px; height: 40px; border-radius: 50%; border: 2px solid var(--ink); background: #fff;
+  font-size: 20px; line-height: 1; cursor: pointer; color: var(--ink);
+}
+.mood-dots { display: flex; gap: 6px; justify-content: center; margin: 6px 0 14px; }
+.mood-dot { width: 8px; height: 8px; border-radius: 50%; background: rgba(43, 33, 24, .2); }
+.mood-dot.on { background: var(--red); }
+.mood-q { margin: 0 0 16px; text-align: center; font-size: 22px; font-weight: 900; line-height: 1.5; animation: trio-in .35s both; }
+.mood-answers { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }
+.mood-a {
+  min-height: 64px; padding: 8px; border-radius: 16px; cursor: pointer;
+  background: #fff; color: var(--ink); border: 2px solid var(--ink); box-shadow: 3px 3px 0 var(--ink);
+  font-family: inherit; font-size: 16px; font-weight: 900; transition: transform .1s, box-shadow .1s, background .15s;
+}
+.mood-a:hover { background: var(--yellow); }
+.mood-a:active { transform: translate(3px, 3px); box-shadow: 0 0 0 var(--ink); }
+.mood-a.any { grid-column: 1 / -1; min-height: 46px; font-size: 14px; font-weight: 700; box-shadow: none; border-style: dashed; }
+.mood-genres { display: flex; flex-wrap: wrap; justify-content: center; gap: 8px; margin-bottom: 18px; }
+.mood-genre {
+  padding: 6px 14px; border-radius: 999px; background: var(--c); color: #fff; font-size: 16px; font-weight: 900;
+  border: 2px solid var(--ink); animation: stamp-in .4s cubic-bezier(.3, 1.8, .5, 1) both; animation-delay: calc(var(--i) * 110ms);
+}
+@keyframes stamp-in { from { transform: scale(0) rotate(-20deg); } to { transform: none; } }
+.mood-go { width: 100%; margin-top: 0; }
