@@ -1,6 +1,23 @@
 {
- "updated": "2026-10-10T14:18:39+09:00",
+ "updated": "2026-10-10T15:23:55+09:00",
  "items": [
+  {
+   "id": "ea638c1face17384",
+   "title": "薬味とお出汁で味わう限定海鮮丼！すしの美登利 名古屋栄三越店 海鮮ひつまぶし",
+   "link": "https://dtimes.jp/post-1412179/",
+   "source": "Dtimes",
+   "image": "https://dtimes.jp/wp-content/uploads/2026/10/dtimes-engine-1042782a5121539edb62fbeb93e4cfb1-20261010-cd5a88.jpg",
+   "category": "chain",
+   "area": "名古屋",
+   "published": "2026-10-10T14:57:36+09:00",
+   "provider": "google",
+   "added": "2026-10-10T15:23:55+09:00",
+   "decode_v2": true,
+   "image_checked": true,
+   "image_v4": true,
+   "shop": false,
+   "shop_name": null
+  },
   {
    "id": "08bd8c5140dcf496",
    "title": "名古屋栄三越に寿司ときしめんの名店2店舗が2026年10月31日に同時オープン 名古屋らしさあふれる店舗限定メニューに注目【栄】",
@@ -128,6 +145,22 @@
    "published": "2026-10-10T02:00:00+09:00",
    "provider": "bing",
    "added": "2026-10-10T10:51:05+09:00",
+   "image_checked": true,
+   "image_v4": true,
+   "shop": false,
+   "shop_name": null
+  },
+  {
+   "id": "be3034c4efc859e2",
+   "title": "薬味とお出汁で味わう限定海鮮丼！すしの美登利 名古屋栄三越店 ...",
+   "link": "https://dtimes.jp/post-1412179/",
+   "source": "dtimes",
+   "image": "https://dtimes.jp/wp-content/uploads/2026/10/dtimes-engine-1042782a5121539edb62fbeb93e4cfb1-20261010-cd5a88.jpg",
+   "category": "chain",
+   "area": "名古屋",
+   "published": "2026-10-10T02:00:00+09:00",
+   "provider": "bing",
+   "added": "2026-10-10T15:23:55+09:00",
    "image_checked": true,
    "image_v4": true,
    "shop": false,
