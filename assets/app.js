@@ -3,17 +3,28 @@
 
   var CATEGORIES = [
     { id: 'all', label: 'すべて', color: '#2B2118' },
-    { id: 'deka', label: 'デカ盛り', color: '#C2410C', short: '盛' },
-    { id: 'wadai', label: '話題・行列', color: '#B91C1C', short: '話' },
-    { id: 'shinten', label: '新店', color: '#3F6212', short: '新' },
-    { id: 'chain', label: 'チェーン新作', color: '#1D4ED8', short: '作' },
-    { id: 'conbini', label: 'コンビニ', color: '#86198F', short: 'コ' },
-    { id: 'yasuuma', label: '安うま', color: '#A16207', short: '安' }
+    { id: 'deka', label: 'デカ盛り', color: '#C2410C' },
+    { id: 'wadai', label: '話題・行列', color: '#B91C1C' },
+    { id: 'shinten', label: '新店', color: '#3F6212' },
+    { id: 'chain', label: 'チェーン新作', color: '#1D4ED8' },
+    { id: 'conbini', label: 'コンビニ', color: '#86198F' },
+    { id: 'yasuuma', label: '安うま', color: '#A16207' }
   ];
   var CAT = {};
   CATEGORIES.forEach(function (c) { CAT[c.id] = c; });
 
-  // カテゴリのアイコン（線画SVG）
+  // エリア（愛知には名古屋も含める）
+  var AREAS = [
+    { id: 'all', label: '全エリア', match: null },
+    { id: 'nagoya', label: '名古屋', match: ['名古屋'] },
+    { id: 'aichi', label: '愛知', match: ['愛知', '名古屋'] },
+    { id: 'gifu', label: '岐阜', match: ['岐阜'] },
+    { id: 'mie', label: '三重', match: ['三重'] }
+  ];
+  var AREA = {};
+  AREAS.forEach(function (a) { AREA[a.id] = a; });
+
+  // 線画アイコン
   var ICONS = {
     all: '<path d="M3 12h18a9 9 0 0 1-18 0z"/><path d="M9 8c0-1.5 1-2 1-3.5M14 8c0-1.5 1-2 1-3.5"/>',
     deka: '<path d="M3 13h18a9 9 0 0 1-18 0z"/><path d="M6 13c0-4.5 2.7-8 6-8s6 3.5 6 8"/><path d="M10 9.5h.01M14 8.5h.01M12.5 11h.01"/>',
@@ -21,18 +32,48 @@
     shinten: '<path d="M4 9.5 5 4h14l1 5.5"/><path d="M4 9.5a2.7 2.7 0 0 0 5.3 0 2.7 2.7 0 0 0 5.4 0 2.7 2.7 0 0 0 5.3 0"/><path d="M5 12v8h14v-8M10 20v-5h4v5"/>',
     chain: '<path d="M12 3l2 6 6 2-6 2-2 6-2-6-6-2 6-2z"/><path d="M19 3v3M17.5 4.5h3"/>',
     conbini: '<path d="M12 4C10 4 4 13.5 4 17a3 3 0 0 0 3 3h10a3 3 0 0 0 3-3c0-3.5-6-13-8-13z"/><path d="M9 15h6v5H9z"/>',
-    yasuuma: '<circle cx="12" cy="12" r="9"/><path d="M9 7l3 4 3-4M12 11v6M9 12.5h6M9 15h6"/>'
+    yasuuma: '<circle cx="12" cy="12" r="9"/><path d="M9 7l3 4 3-4M12 11v6M9 12.5h6M9 15h6"/>',
+    heart: '<path d="M12 20s-7.5-4.6-9.2-9.3C1.6 7.3 3.8 4 7.2 4c2 0 3.6 1.1 4.8 2.8C13.2 5.1 14.8 4 16.8 4c3.4 0 5.6 3.3 4.4 6.7C19.5 15.4 12 20 12 20z"/>',
+    search: '<circle cx="11" cy="11" r="7"/><path d="M20 20l-3.5-3.5"/>'
   };
-  function icon(id) {
+  function svg(id, cls) {
     var s = document.createElement('span');
-    s.className = 'tab-icon';
+    s.className = cls || 'tab-icon';
     s.setAttribute('aria-hidden', 'true');
     s.innerHTML = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">' + ICONS[id] + '</svg>';
     return s;
   }
+  var icon = function (id) { return svg(id, 'tab-icon'); };
+
+  // ブラウザ保存（使えない環境でも動くように）
+  var store = {
+    get: function (k, d) {
+      try { var v = localStorage.getItem(k); return v == null ? d : JSON.parse(v); } catch (e) { return d; }
+    },
+    set: function (k, v) { try { localStorage.setItem(k, JSON.stringify(v)); } catch (e) { /* 保存できなくても続ける */ } }
+  };
+  function sessionGet(k) { try { return sessionStorage.getItem(k); } catch (e) { return null; } }
+  function sessionSet(k, v) { try { sessionStorage.setItem(k, v); } catch (e) { /* noop */ } }
+
+  // NEWマーク：前回見た時刻（同じ訪問中はリロードしても変えない）
+  var prevVisit = (function () {
+    var s = sessionGet('meshi.prevVisit');
+    if (s !== null) return s ? Number(s) : 0;
+    var last = store.get('meshi.lastVisit', 0) || 0;
+    sessionSet('meshi.prevVisit', String(last));
+    store.set('meshi.lastVisit', Date.now());
+    return last;
+  })();
 
   var PAGE_SIZE = 24;
-  var state = { items: [], tab: 'all', shown: PAGE_SIZE };
+  var state = {
+    items: [], daily: null,
+    tab: 'all', area: store.get('meshi.area', 'all'), query: '', saved: false,
+    shown: PAGE_SIZE,
+    savedItems: store.get('meshi.saved', [])
+  };
+  if (!AREA[state.area]) state.area = 'all';
+  if (!Array.isArray(state.savedItems)) state.savedItems = [];
 
   var $ = function (id) { return document.getElementById(id); };
   var el = function (tag, cls, text) {
@@ -42,9 +83,9 @@
     return n;
   };
 
-  // URLのタブ指定（#deka など）を復元
   var hash = location.hash.replace('#', '');
   if (CAT[hash]) state.tab = hash;
+  if (hash === 'saved') state.saved = true;
 
   function relTime(iso) {
     var t = Date.parse(iso);
@@ -58,24 +99,64 @@
     return (d.getMonth() + 1) + '/' + d.getDate();
   }
 
-  function filtered() {
-    if (state.tab === 'all') return state.items;
-    return state.items.filter(function (it) { return it.category === state.tab; });
+  function isNew(it) {
+    return prevVisit > 0 && it.added && Date.parse(it.added) > prevVisit;
   }
 
-  function renderTabs() {
+  // ---------- 行きたい保存 ----------
+  function isSaved(id) {
+    return state.savedItems.some(function (s) { return s.id === id; });
+  }
+  function toggleSaved(it) {
+    if (isSaved(it.id)) {
+      state.savedItems = state.savedItems.filter(function (s) { return s.id !== it.id; });
+    } else {
+      state.savedItems.unshift({
+        id: it.id, title: it.title, link: it.link, source: it.source, image: it.image,
+        category: it.category, area: it.area, published: it.published, savedAt: new Date().toISOString()
+      });
+    }
+    store.set('meshi.saved', state.savedItems);
+    updateSavedButton();
+  }
+
+  // ---------- 絞り込み ----------
+  function norm(s) {
+    return (s || '').normalize('NFKC').toLowerCase();
+  }
+  function baseList() {
+    var list = state.saved ? state.savedItems : state.items;
+    var area = AREA[state.area];
+    if (area.match) {
+      list = list.filter(function (it) { return area.match.indexOf(it.area) >= 0; });
+    }
+    var words = norm(state.query).split(/\s+/).filter(Boolean);
+    if (words.length) {
+      list = list.filter(function (it) {
+        var hay = norm([it.title, it.source, it.area, (CAT[it.category] || {}).label].join(' '));
+        return words.every(function (w) { return hay.indexOf(w) >= 0; });
+      });
+    }
+    return list;
+  }
+  function filtered() {
+    var list = baseList();
+    if (state.tab === 'all') return list;
+    return list.filter(function (it) { return it.category === state.tab; });
+  }
+
+  // ---------- カテゴリ札 ----------
+  var countEls = {};
+  function buildTabs() {
     var nav = $('tabs');
     nav.textContent = '';
     CATEGORIES.forEach(function (c) {
-      var n = c.id === 'all'
-        ? state.items.length
-        : state.items.filter(function (it) { return it.category === c.id; }).length;
       var b = el('button', 'tab');
       b.type = 'button';
+      b.dataset.id = c.id;
       b.style.setProperty('--cat', c.color);
       b.setAttribute('aria-pressed', String(state.tab === c.id));
       b.appendChild(icon(c.id));
-      // 1文字ずつ分けておく（お品書き札で縦に積むため）
       var lab = el('span', 'tab-label');
       lab.setAttribute('aria-label', c.label);
       Array.prototype.forEach.call(c.label, function (ch) {
@@ -84,11 +165,11 @@
         lab.appendChild(s);
       });
       b.appendChild(lab);
-      if (state.items.length) b.appendChild(el('span', 'count', String(n)));
+      countEls[c.id] = b.appendChild(el('span', 'count', ''));
       b.addEventListener('click', function () {
         state.tab = c.id;
         state.shown = PAGE_SIZE;
-        history.replaceState(null, '', c.id === 'all' ? location.pathname : '#' + c.id);
+        syncHash();
         Array.prototype.forEach.call(nav.children, function (x) {
           x.setAttribute('aria-pressed', String(x === b));
         });
@@ -97,10 +178,16 @@
       });
       nav.appendChild(b);
     });
-    centerActive(false);
   }
-
-  // 横スクロールのときは選んだカテゴリを真ん中に寄せる
+  function updateCounts() {
+    var list = baseList();
+    var ready = state.items.length || state.saved;
+    CATEGORIES.forEach(function (c) {
+      var n = c.id === 'all' ? list.length
+        : list.filter(function (it) { return it.category === c.id; }).length;
+      countEls[c.id].textContent = ready ? String(n) : '';
+    });
+  }
   function centerActive(smooth) {
     var nav = $('tabs');
     var act = nav.querySelector('[aria-pressed="true"]');
@@ -108,10 +195,64 @@
     var left = act.offsetLeft - (nav.clientWidth - act.offsetWidth) / 2;
     nav.scrollTo({ left: left, behavior: smooth ? 'smooth' : 'auto' });
   }
+  function syncHash() {
+    var h = state.saved ? '#saved' : (state.tab === 'all' ? '' : '#' + state.tab);
+    history.replaceState(null, '', location.pathname + location.search + h);
+  }
 
-  function photo(it, cat) {
+  // ---------- 道具（検索・エリア・行きたい） ----------
+  function buildTools() {
+    var group = $('areas');
+    AREAS.forEach(function (a) {
+      var b = el('button', 'area', a.label);
+      b.type = 'button';
+      b.setAttribute('aria-pressed', String(state.area === a.id));
+      b.addEventListener('click', function () {
+        state.area = a.id;
+        store.set('meshi.area', a.id);
+        state.shown = PAGE_SIZE;
+        Array.prototype.forEach.call(group.children, function (x) {
+          x.setAttribute('aria-pressed', String(x === b));
+        });
+        refreshView();
+      });
+      group.appendChild(b);
+    });
+
+    var q = $('q');
+    var timer = null;
+    q.addEventListener('input', function () {
+      clearTimeout(timer);
+      timer = setTimeout(function () {
+        state.query = q.value.trim();
+        state.shown = PAGE_SIZE;
+        refreshView();
+      }, 150);
+    });
+    $('search-form').addEventListener('submit', function (e) {
+      e.preventDefault();
+      q.blur(); // スマホのキーボードを閉じる
+    });
+
+    var sb = $('saved-toggle');
+    sb.insertBefore(svg('heart', 'heart'), sb.firstChild);
+    sb.addEventListener('click', function () {
+      state.saved = !state.saved;
+      state.shown = PAGE_SIZE;
+      syncHash();
+      refreshView();
+    });
+    updateSavedButton();
+  }
+  function updateSavedButton() {
+    var sb = $('saved-toggle');
+    sb.setAttribute('aria-pressed', String(state.saved));
+    $('saved-count').textContent = String(state.savedItems.length);
+  }
+
+  // ---------- 写真 ----------
+  function photo(it, cat, big) {
     var box = el('span', 'photo');
-    // 写真がないときは、お品書き札風の表示にする
     var fallback = function () {
       box.textContent = '';
       box.classList.add('no-photo');
@@ -125,20 +266,19 @@
     if (it.image) {
       var img = document.createElement('img');
       img.alt = '';
-      img.loading = 'lazy';
+      if (!big) img.loading = 'lazy';
       img.decoding = 'async';
       img.referrerPolicy = 'no-referrer';
-      // 直接読めない写真（直リンク禁止など）は、画像中継サービス経由でもう一度試す
-      var relay = 'https://wsrv.nl/?url=' + encodeURIComponent(it.image) + '&w=720&h=400&fit=cover&a=attention&output=webp';
+      var relay = 'https://wsrv.nl/?url=' + encodeURIComponent(it.image) +
+        (big ? '&w=1200&h=680' : '&w=720&h=400') + '&fit=cover&a=attention&output=webp';
       var tried = false;
       img.addEventListener('error', function () {
         if (!tried) { tried = true; img.src = relay; }
         else fallback();
       });
       img.addEventListener('load', function () {
-        if (img.naturalWidth < 40) fallback(); // 1px画像などのダミー
+        if (img.naturalWidth < 40) fallback();
       });
-      // http の写真はそのままだと表示できないので最初から中継する
       if (/^http:/.test(it.image)) { tried = true; img.src = relay; }
       else img.src = it.image;
       box.appendChild(img);
@@ -148,13 +288,43 @@
     return box;
   }
 
+  function saveButton(it) {
+    var b = el('button', 'save-btn');
+    b.type = 'button';
+    b.appendChild(svg('heart', 'heart'));
+    var sync = function () {
+      var on = isSaved(it.id);
+      b.setAttribute('aria-pressed', String(on));
+      b.setAttribute('aria-label', on ? '行きたいから外す' : '行きたいに保存');
+    };
+    sync();
+    b.addEventListener('click', function (e) {
+      e.preventDefault();
+      toggleSaved(it);
+      sync();
+      b.classList.remove('pop'); void b.offsetWidth; b.classList.add('pop');
+      // 行きたい一覧で外したら、その場で一覧から消す
+      if (state.saved && !isSaved(it.id)) refreshView();
+      // 日替わりと一覧で同じ記事のボタンをそろえる
+      document.querySelectorAll('.save-btn[data-id="' + it.id + '"]').forEach(function (x) {
+        if (x !== b) x.setAttribute('aria-pressed', String(isSaved(it.id)));
+      });
+    });
+    b.dataset.id = it.id;
+    return b;
+  }
+
+  // ---------- カード ----------
   function card(it) {
     var cat = CAT[it.category] || CAT.wadai;
-    var a = el('a', 'card');
+    var art = el('article', 'card');
+    var a = el('a', 'card-link');
     a.href = it.link;
     a.target = '_blank';
     a.rel = 'noopener';
-    a.appendChild(photo(it, cat));
+    a.appendChild(photo(it, cat, false));
+    // 写真の上に重ねる（写真が差し替わっても消えないようにカード側に置く）
+    if (isNew(it)) a.appendChild(el('span', 'new-badge', 'NEW'));
 
     var body = el('span', 'card-body');
     var meta = el('span', 'meta');
@@ -167,7 +337,60 @@
     body.appendChild(el('span', 'title', it.title));
     body.appendChild(el('span', 'source', '出典：' + (it.source || '不明')));
     a.appendChild(body);
-    return a;
+    art.appendChild(a);
+    art.appendChild(saveButton(it));
+    return art;
+  }
+
+  // ---------- 本日の日替わり ----------
+  function renderDaily() {
+    var box = $('daily');
+    var it = null;
+    if (state.daily) {
+      for (var i = 0; i < state.items.length; i++) {
+        if (state.items[i].id === state.daily.id) { it = state.items[i]; break; }
+      }
+    }
+    box.hidden = !it;
+    if (!it) return;
+    var cat = CAT[it.category] || CAT.wadai;
+    var slot = $('daily-slot');
+    slot.textContent = '';
+    var art = el('article', 'daily-card');
+    var a = el('a', 'daily-link');
+    a.href = it.link;
+    a.target = '_blank';
+    a.rel = 'noopener';
+    a.appendChild(photo(it, cat, true));
+    var body = el('span', 'daily-body');
+    var meta = el('span', 'meta');
+    var chip = el('span', 'chip', cat.label);
+    chip.style.background = cat.color;
+    meta.appendChild(chip);
+    meta.appendChild(el('span', 'when', [it.area, relTime(it.published)].filter(Boolean).join(' ・ ')));
+    body.appendChild(meta);
+    body.appendChild(el('span', 'daily-title', it.title));
+    body.appendChild(el('span', 'source', '出典：' + (it.source || '不明')));
+    body.appendChild(el('span', 'daily-cta', '記事を読む →'));
+    a.appendChild(body);
+    art.appendChild(a);
+    art.appendChild(saveButton(it));
+    slot.appendChild(art);
+
+    var d = state.daily.date ? new Date(state.daily.date + 'T00:00:00+09:00') : new Date();
+    var wd = '日月火水木金土'.charAt(d.getDay());
+    $('daily-date').textContent = (d.getMonth() + 1) + '月' + d.getDate() + '日（' + wd + '）';
+  }
+
+  // ---------- 一覧 ----------
+  function headingText() {
+    var parts = [];
+    if (state.area !== 'all') parts.push(AREA[state.area].label);
+    if (state.tab !== 'all') parts.push(CAT[state.tab].label);
+    var scope = parts.join('・');
+    if (state.saved) return scope ? '行きたい（' + scope + '）' : '行きたいリスト';
+    if (state.query) return '「' + state.query + '」の検索結果' + (scope ? '（' + scope + '）' : '');
+    return scope ? scope + 'のニュース' : 'すべてのニュース';
   }
 
   function renderList() {
@@ -178,12 +401,26 @@
     list.slice(0, state.shown).forEach(function (it) { frag.appendChild(card(it)); });
     grid.appendChild(frag);
     $('more').hidden = list.length <= state.shown;
-    $('heading').textContent = state.tab === 'all' ? 'すべてのニュース' : CAT[state.tab].label + 'のニュース';
-    if (state.items.length && !list.length) {
-      $('status').textContent = 'このカテゴリの新しいニュースはまだありません。';
-    } else if (state.items.length) {
-      $('status').textContent = '';
+    $('heading').textContent = headingText();
+
+    var newCount = state.saved ? 0 : list.filter(isNew).length;
+    $('new-count').hidden = !newCount;
+    $('new-count').textContent = 'NEW ' + newCount + '件';
+
+    var msg = '';
+    if (state.saved && !state.savedItems.length) {
+      msg = 'まだ「行きたい」はありません。気になる記事のハートを押すと、ここに集まります。';
+    } else if ((state.items.length || state.saved) && !list.length) {
+      msg = state.query ? '「' + state.query + '」に合う記事は見つかりませんでした。'
+        : '条件に合うニュースはまだありません。';
     }
+    if (msg || state.items.length || state.saved) $('status').textContent = msg;
+  }
+
+  function refreshView() {
+    updateSavedButton();
+    updateCounts();
+    renderList();
   }
 
   function renderTicker() {
@@ -194,11 +431,6 @@
       $('ticker-text').textContent = top.title;
       $('ticker-text').href = top.link;
     }
-  }
-
-  function render() {
-    renderTabs();
-    renderList();
   }
 
   function load() {
@@ -213,6 +445,7 @@
         state.items = (data.items || []).slice().sort(function (a, b) {
           return Date.parse(b.published) - Date.parse(a.published);
         });
+        state.daily = data.daily || null;
         if (!state.items.length) {
           $('status').textContent = 'まだニュースがありません。次の自動更新をお待ちください。';
         }
@@ -221,7 +454,9 @@
           $('updated').textContent = '最終更新：' + d.toLocaleString('ja-JP', { timeZone: 'Asia/Tokyo' });
         }
         renderTicker();
-        render();
+        renderDaily();
+        refreshView();
+        centerActive(false);
       })
       .catch(function () {
         $('status').textContent = 'ニュースを読み込めませんでした。時間をおいて「最新に更新」を押してください。';
@@ -235,6 +470,7 @@
     renderList();
   });
 
-  renderTabs();
+  buildTabs();
+  buildTools();
   load();
 })();

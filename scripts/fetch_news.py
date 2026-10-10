@@ -481,6 +481,7 @@ def build(raw: list[dict], existing: list[dict]) -> list[dict]:
     for it in existing:
         d = parse_date(it.get("published"))
         if d and d >= cutoff_keep and is_wanted(it["title"]) and not is_blocked(it["link"]):
+            it.setdefault("added", it["published"])  # 以前のデータには取り込み日時がない
             add(it)
 
     cutoff_new = NOW - dt.timedelta(days=INGEST_DAYS)
@@ -504,10 +505,54 @@ def build(raw: list[dict], existing: list[dict]) -> list[dict]:
             "area": detect_area(title, r["regional"]),
             "published": published.astimezone(JST).isoformat(timespec="seconds"),
             "provider": r["provider"],
+            "added": NOW.astimezone(JST).isoformat(timespec="seconds"),  # NEWマーク用
         })
 
     out = sorted(items.values(), key=lambda it: it["published"], reverse=True)
     return out[:MAX_ITEMS]
+
+
+LOCAL_AREAS = {"名古屋", "愛知", "岐阜", "三重", "静岡"}
+DAILY_BONUS = {"deka": 3, "wadai": 2, "shinten": 2, "yasuuma": 2, "chain": 1, "conbini": 1}
+
+
+def load_previous_daily() -> dict | None:
+    try:
+        return json.loads(DATA_FILE.read_text("utf-8")).get("daily")
+    except (ValueError, OSError):
+        return None
+
+
+def pick_daily(items: list[dict]) -> dict | None:
+    """「本日の日替わり」を1件選ぶ。同じ日のうちは同じ記事のまま。"""
+    today = NOW.astimezone(JST).date().isoformat()
+    prev = load_previous_daily()
+    ids = {it["id"] for it in items}
+    if prev and prev.get("date") == today and prev.get("id") in ids:
+        return prev
+
+    def score(it: dict) -> int:
+        sc = DAILY_BONUS.get(it["category"], 0)
+        if it.get("area") in LOCAL_AREAS:
+            sc += 3
+        elif it.get("area") == "東海":
+            sc += 1
+        if it.get("image"):
+            sc += 3
+        return sc
+
+    for hours in (36, 72, 24 * 30):
+        since = NOW - dt.timedelta(hours=hours)
+        pool = [it for it in items if (parse_date(it["published"]) or NOW) >= since]
+        if len(pool) >= 3:
+            break
+    if not pool:
+        return None
+    pool.sort(key=lambda it: (score(it), it["published"]), reverse=True)
+    top = pool[:5]
+    # 上位5件から日付で決まる1件を選ぶ（毎日ちがう記事になる）
+    n = int(hashlib.sha1(today.encode()).hexdigest(), 16) % len(top)
+    return {"date": today, "id": top[n]["id"]}
 
 
 def main() -> int:
@@ -521,7 +566,11 @@ def main() -> int:
     # Googleニュースのリンクは変換後に行き先がわかるので、ここで除外する
     items = [it for it in items if not is_blocked(it["link"])]
     DATA_FILE.parent.mkdir(parents=True, exist_ok=True)
-    payload = {"updated": NOW.astimezone(JST).isoformat(timespec="seconds"), "items": items}
+    payload = {
+        "updated": NOW.astimezone(JST).isoformat(timespec="seconds"),
+        "daily": pick_daily(items),
+        "items": items,
+    }
     DATA_FILE.write_text(json.dumps(payload, ensure_ascii=False, indent=1) + "\n", "utf-8")
     print(f"saved {len(items)} items")
     status = {
