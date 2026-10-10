@@ -571,6 +571,8 @@ def main() -> int:
     # Googleニュースのリンクは変換後に行き先がわかるので、ここで除外する
     items = [it for it in items if not is_blocked(it["link"])]
     for it in items:
+        # 判定ルールを直したときに過去の記事にも反映されるよう、毎回つけ直す
+        it["area"] = detect_area(it["title"], it.get("area") != "全国")
         it["shop"] = is_shop_article(it)
         it["shop_name"] = shop_name(it["title"]) if it["shop"] else None
     DATA_FILE.parent.mkdir(parents=True, exist_ok=True)
