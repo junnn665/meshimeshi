@@ -46,6 +46,20 @@ jobs:
             git push origin HEAD:main
           fi
 
+      # 飯ガチャ用のお店データ（ホットペッパー）。リポジトリには保存せず、
+      # 前回の分をキャッシュから戻して、1日1回だけ取り直す
+      - name: お店データのキャッシュを戻す
+        uses: actions/cache@v4
+        with:
+          path: data/shops
+          key: shops-${{ github.run_id }}
+          restore-keys: shops-
+
+      - name: お店データを取得（1日1回）
+        env:
+          HOTPEPPER_API_KEY: ${{ secrets.HOTPEPPER_API_KEY }}
+        run: python scripts/fetch_shops.py
+
       - uses: actions/configure-pages@v5
 
       - uses: actions/upload-pages-artifact@v3
