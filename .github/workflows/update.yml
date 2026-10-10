@@ -60,6 +60,13 @@ jobs:
           HOTPEPPER_API_KEY: ${{ secrets.HOTPEPPER_API_KEY }}
         run: python scripts/fetch_shops.py
 
+      # スマホに古いファイルが残らないよう、読み込むファイルに版番号をつける
+      - name: ファイルに版番号をつける
+        run: |
+          V="${GITHUB_SHA::7}-${GITHUB_RUN_NUMBER}"
+          sed -i -E "s#(assets/(app\.js|style\.css|config\.js))\"#\1?v=${V}\"#g" index.html gacha.html
+          grep -o 'assets/[a-z]*\.[a-z]*?v=[^"]*' index.html gacha.html
+
       - uses: actions/configure-pages@v5
 
       - uses: actions/upload-pages-artifact@v3

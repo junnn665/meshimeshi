@@ -675,19 +675,19 @@ button { font-family: inherit; cursor: pointer; }
 .g-pill.g-pill-mood[aria-pressed="true"] { background: var(--red); border-color: var(--red); color: #fff; }
 .g-pill.g-pill-mood { border-color: var(--red); }
 
-.mood {
+.mood-overlay {
   position: fixed; inset: 0; z-index: 50; display: flex; align-items: center; justify-content: center;
   padding: 16px; background: rgba(43, 33, 24, 0); transition: background .25s;
 }
-.mood[hidden] { display: none; }
-.mood.open { background: rgba(43, 33, 24, .6); }
+.mood-overlay[hidden] { display: none; }
+.mood-overlay.open { background: rgba(43, 33, 24, .6); }
 .mood-card {
   width: min(380px, 100%); max-height: calc(100vh - 32px); max-height: calc(100dvh - 32px); overflow-y: auto;
   border-radius: 24px; padding: 18px 18px 22px;
   background: var(--ground); color: var(--ink); border: 3px solid var(--ink); box-shadow: 6px 6px 0 var(--ink);
   transform: translateY(24px) scale(.95); opacity: 0; transition: transform .3s cubic-bezier(.3, 1.5, .5, 1), opacity .2s;
 }
-.mood.open .mood-card { transform: none; opacity: 1; }
+.mood-overlay.open .mood-card { transform: none; opacity: 1; }
 .mood-head { display: flex; align-items: center; justify-content: space-between; }
 .mood-title { margin: 0; font-size: 14px; font-weight: 900; letter-spacing: .1em; color: var(--sub); }
 .mood-close {
@@ -714,3 +714,7 @@ button { font-family: inherit; cursor: pointer; }
 }
 @keyframes stamp-in { from { transform: scale(0) rotate(-20deg); } to { transform: none; } }
 .mood-go { width: 100%; margin-top: 0; }
+
+body.no-scroll { overflow: hidden; }
+.g-pool.flash { animation: pool-flash .9s ease-in-out 2; }
+@keyframes pool-flash { 50% { color: var(--yellow); } }

@@ -1041,18 +1041,26 @@
     if (pick.length < 2) pick = sorted.filter(function (g) { return score[g] >= top - 1; });
     return pick.slice(0, 3);
   }
+  var moodCloseTimer = null;
   function openMood() {
+    if (gacha.busy) return;
     mood = { step: 0, ans: {} };
     var ov = $('mood');
+    clearTimeout(moodCloseTimer);
     ov.hidden = false;
+    document.body.classList.add('no-scroll');   // 後ろの画面がスクロールしないように
     void ov.offsetWidth;
     ov.classList.add('open');
     renderMood();
   }
   function closeMood() {
     var ov = $('mood');
+    if (ov.hidden) return;
     ov.classList.remove('open');
-    setTimeout(function () { ov.hidden = true; }, 250);
+    document.body.classList.remove('no-scroll');
+    clearTimeout(moodCloseTimer);
+    moodCloseTimer = setTimeout(function () { ov.hidden = true; }, 250);
+    $('g-mood-open').focus({ preventScroll: true });
   }
   function renderMood() {
     var body = $('mood-body');
@@ -1075,6 +1083,7 @@
         row.appendChild(b);
       });
       body.appendChild(row);
+      row.firstChild.focus({ preventScroll: true });
       return;
     }
     // 結果：ジャンルを決めて回す
@@ -1098,7 +1107,13 @@
       gacha.genre = 'mood';
       buildGenrePills();
       closeMood();
-      Promise.resolve(updatePool()).then(function () { setTimeout(spin, 300); });
+      Promise.resolve(updatePool()).then(function () {
+        if (gacha.pool.length || gacha.newsPool.length) { setTimeout(spin, 300); return; }
+        // 条件に合うお店がないときは、理由の文を見せる
+        var msg = $('g-pool');
+        msg.scrollIntoView({ behavior: 'smooth', block: 'center' });
+        msg.classList.remove('flash'); void msg.offsetWidth; msg.classList.add('flash');
+      });
     });
     body.appendChild(go);
   }
@@ -1108,6 +1123,7 @@
     $('g-spin').disabled = true;
     $('mood-close').addEventListener('click', closeMood);
     $('mood').addEventListener('click', function (e) { if (e.target === $('mood')) closeMood(); });
+    document.addEventListener('keydown', function (e) { if (e.key === 'Escape') closeMood(); });
     $('g-pool').textContent = 'お店データを読み込み中…';
     $('g-history-clear').addEventListener('click', function () {
       store.set('meshi.gHistory', []);
