@@ -10,6 +10,12 @@
 <meta property="og:description" content="今日なに食べる？ 迷ったら飯ガチャで決めよう">
 <meta property="og:type" content="website">
 <link rel="icon" href="assets/icon.svg" type="image/svg+xml">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="飯飯食堂">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Zen+Maru+Gothic:wght@500;700;900&display=swap" rel="stylesheet">
@@ -113,6 +119,13 @@
 </div>
 
 <script src="assets/config.js"></script>
+<div class="offline-bar" id="offline-bar" hidden>電波がないため、前回読み込んだ内容を表示しています</div>
+<div class="a2hs" id="a2hs" hidden>
+  <img src="assets/icon-192.png" alt="" width="40" height="40">
+  <p class="a2hs-text" id="a2hs-text"></p>
+  <button type="button" class="a2hs-btn" id="a2hs-btn" hidden>追加する</button>
+  <button type="button" class="a2hs-close" id="a2hs-close" aria-label="閉じる">×</button>
+</div>
 <script src="assets/app.js"></script>
 </body>
 </html>

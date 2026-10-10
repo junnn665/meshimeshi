@@ -718,3 +718,33 @@ button { font-family: inherit; cursor: pointer; }
 body.no-scroll { overflow: hidden; }
 .g-pool.flash { animation: pool-flash .9s ease-in-out 2; }
 @keyframes pool-flash { 50% { color: var(--yellow); } }
+
+/* ===== ホーム画面アプリ ===== */
+.offline-bar {
+  position: sticky; top: 0; z-index: 40; padding: 8px 16px; text-align: center;
+  background: var(--ink); color: var(--yellow); font-size: 13px; font-weight: 700;
+}
+.offline-bar[hidden] { display: none; }
+.a2hs {
+  position: fixed; left: 12px; right: 12px; bottom: max(12px, env(safe-area-inset-bottom)); z-index: 45;
+  max-width: 520px; margin: 0 auto; display: flex; align-items: center; gap: 10px;
+  padding: 10px 10px 10px 12px; border-radius: 18px; background: #fff; color: var(--ink);
+  border: 2px solid var(--ink); box-shadow: 4px 4px 0 var(--ink);
+  transform: translateY(140%); transition: transform .35s cubic-bezier(.3, 1.4, .5, 1);
+}
+.a2hs[hidden] { display: none; }
+.a2hs.show { transform: none; }
+.a2hs img { border-radius: 10px; flex: none; }
+.a2hs-text { margin: 0; flex: 1; font-size: 13px; font-weight: 700; line-height: 1.5; }
+.a2hs-btn {
+  flex: none; min-height: 40px; padding: 0 14px; border-radius: 999px; cursor: pointer;
+  background: var(--yellow); color: var(--ink); border: 2px solid var(--ink); font-family: inherit; font-size: 13px; font-weight: 900;
+}
+.a2hs-close {
+  flex: none; width: 36px; height: 36px; border-radius: 50%; cursor: pointer;
+  background: transparent; border: 0; color: var(--sub); font-size: 20px; line-height: 1;
+}
+/* アプリとして開いたときは、画面上の時刻表示などと重ならないようにする */
+@media (display-mode: standalone) {
+  .site-header, .mini-header { padding-top: env(safe-area-inset-top); }
+}

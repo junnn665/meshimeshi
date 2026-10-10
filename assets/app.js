@@ -1133,14 +1133,17 @@
 
     // 話題枠用にニュースも読む（失敗しても続ける）
     var newsP = fetch('data/news.json?t=' + Date.now(), { cache: 'no-store' })
-      .then(function (r) { return r.ok ? r.json() : { items: [] }; })
+      .then(function (r) {
+        if (r.headers.get('X-Meshi-Offline') === '1') gacha.offline = true;
+        return r.ok ? r.json() : { items: [] };
+      })
       .then(function (d) { gacha.news = d.items || []; })
       .catch(function () { gacha.news = []; });
 
     var metaP = fetch('data/shops/meta.json?t=' + Date.now(), { cache: 'no-store' })
       .then(function (r) { if (!r.ok) throw new Error(r.status); return r.json(); });
 
-    Promise.all([metaP, newsP]).then(function (res) {
+    Promise.all([metaP.catch(function (e) { return newsP.then(function () { throw e; }); }), newsP]).then(function (res) {
       var meta = res[0];
       gacha.meta = meta;
       var areas = meta.areas.map(function (a) { return { id: a.id, label: a.label }; });
@@ -1179,7 +1182,9 @@
       updatePool();
     }).catch(function () {
       $('gacha').classList.add('not-ready');
-      $('g-pool').textContent = 'お店データを準備中です。もうしばらくお待ちください。';
+      $('g-pool').textContent = (gacha.offline || navigator.onLine === false)
+        ? '電波がないため、飯ガチャは使えません。つながる場所でもう一度開いてください。'
+        : 'お店データを準備中です。もうしばらくお待ちください。';
     });
   }
 
@@ -1309,6 +1314,7 @@
     return fetch('data/news.json?t=' + Date.now(), { cache: 'no-store' })
       .then(function (r) {
         if (!r.ok) throw new Error(r.status);
+        showOffline(r.headers.get('X-Meshi-Offline') === '1');
         return r.json();
       })
       .then(function (data) {
@@ -1347,4 +1353,56 @@
   }
   // ガチャのページ
   if ($('gacha')) buildGacha();
+
+  // ---------- ホーム画面アプリ ----------
+  function showOffline(on) {
+    var bar = $('offline-bar');
+    if (bar) bar.hidden = !on;
+  }
+  window.addEventListener('online', function () { showOffline(false); });
+
+  if ('serviceWorker' in navigator && location.protocol !== 'file:') {
+    window.addEventListener('load', function () {
+      navigator.serviceWorker.register('sw.js').catch(function () { /* 使えない環境では何もしない */ });
+    });
+  }
+
+  // 「ホーム画面に追加」の案内（アプリとして開いているとき・閉じたあとは出さない）
+  (function () {
+    var bar = $('a2hs');
+    if (!bar) return;
+    var standalone = (window.matchMedia && window.matchMedia('(display-mode: standalone)').matches) || navigator.standalone === true;
+    if (standalone || store.get('meshi.a2hsDismissed', false)) return;
+    var ua = navigator.userAgent;
+    var ios = /iPhone|iPad|iPod/.test(ua) || (/Macintosh/.test(ua) && navigator.maxTouchPoints > 1);
+    var show = function (text, canPrompt) {
+      $('a2hs-text').textContent = text;
+      $('a2hs-btn').hidden = !canPrompt;
+      bar.hidden = false;
+      requestAnimationFrame(function () { bar.classList.add('show'); });
+    };
+    var hide = function () {
+      bar.classList.remove('show');
+      store.set('meshi.a2hsDismissed', true);
+      setTimeout(function () { bar.hidden = true; }, 300);
+    };
+    $('a2hs-close').addEventListener('click', hide);
+    var deferred = null;
+    window.addEventListener('beforeinstallprompt', function (e) {   // Android の Chrome など
+      e.preventDefault();
+      deferred = e;
+      show('ホーム画面に追加すると、アプリのようにすぐ開けます', true);
+    });
+    $('a2hs-btn').addEventListener('click', function () {
+      if (!deferred) return;
+      deferred.prompt();
+      deferred.userChoice.then(function () { deferred = null; hide(); });
+    });
+    window.addEventListener('appinstalled', hide);
+    if (ios) {
+      setTimeout(function () {
+        show('共有ボタン（□↑）→「ホーム画面に追加」で、アプリのように開けます', false);
+      }, 4000);
+    }
+  })();
 })();
