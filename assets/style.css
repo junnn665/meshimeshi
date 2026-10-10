@@ -451,3 +451,62 @@ button { font-family: inherit; cursor: pointer; }
 }
 .gacha-page .gacha { min-height: 0; }
 .back-link { align-self: flex-start; font-size: 14px; font-weight: 700; color: var(--sub); padding: 8px 0; }
+
+/* ===== 飯ガチャ：追加の絞り込み・バッジ・シェア ===== */
+.g-pill { display: inline-flex; align-items: center; gap: 6px; }
+.g-pill-icon { display: inline-flex; width: 16px; height: 16px; }
+.g-pill-icon svg { width: 100%; height: 100%; }
+.g-pill.near { border-style: dashed; }
+.g-near[hidden] { display: none; }
+.g-near { display: flex; flex-direction: column; gap: 8px; padding: 10px 12px; border-radius: 14px; background: rgba(255, 253, 247, 0.08); }
+#g-opts .g-pill[aria-pressed="true"] { background: var(--ground); border-color: var(--ground); color: var(--ink); }
+#g-opts .g-pill[aria-pressed="true"]::before { content: "✓"; font-weight: 900; }
+
+.g-badges { display: flex; flex-wrap: wrap; gap: 6px; }
+.g-badge {
+  font-size: 12px; font-weight: 900; padding: 3px 10px; border-radius: 999px;
+  background: #EFE6D2; color: var(--ink);
+}
+.g-badge.open { background: #DCEFD5; color: #24510F; }
+.g-badge.closed { background: #F1E3E0; color: #8A2A1B; }
+.g-badge.dist { background: var(--ink); color: var(--yellow); }
+.g-badge.hot, .g-hit-chip.hot { background: var(--red); color: #fff; }
+.g-news-title { font-size: 13px; line-height: 1.6; color: var(--sub); }
+
+.g-share { display: flex; flex-wrap: wrap; align-items: center; justify-content: center; gap: 8px; }
+.g-share-label { font-size: 12px; font-weight: 900; color: rgba(255, 253, 247, 0.7); margin-right: 2px; }
+.g-share-btn {
+  display: inline-flex; align-items: center; justify-content: center; min-height: 40px; min-width: 64px; padding: 0 14px;
+  border-radius: 999px; font-family: inherit; font-size: 13px; font-weight: 900; cursor: pointer;
+  border: 2px solid var(--ground); background: transparent; color: var(--ground);
+}
+.g-share-btn.line { background: #06C755; border-color: #06C755; color: #fff; }
+.g-share-btn.x { background: #000; border-color: #000; color: #fff; }
+.g-share-btn:hover { color: inherit; opacity: 0.9; }
+.g-share-btn.line:hover, .g-share-btn.x:hover { color: #fff; }
+
+/* ===== ガチャ履歴 ===== */
+.g-history { display: flex; flex-direction: column; gap: 10px; }
+.gh-head { display: flex; align-items: center; justify-content: space-between; gap: 12px; }
+.gh-head h2 { margin: 0; font-size: 22px; font-weight: 900; }
+.gh-clear {
+  min-height: 40px; padding: 0 14px; border-radius: 999px; border: 2px solid var(--ink); background: #fff;
+  font-family: inherit; font-size: 13px; font-weight: 700; color: var(--ink); cursor: pointer;
+}
+.gh-empty { margin: 0; font-size: 14px; color: var(--muted); }
+.gh-empty[hidden] { display: none; }
+.gh-list { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 10px; }
+.gh-link {
+  display: flex; align-items: center; gap: 12px; padding: 8px 12px 8px 8px;
+  background: #fff; border: 2px solid var(--ink); border-radius: 14px; color: var(--ink);
+}
+.gh-link:hover { color: var(--ink); background: #FFF6E3; }
+.gh-thumb {
+  flex: none; width: 56px; height: 56px; border-radius: 10px; overflow: hidden;
+  background: color-mix(in srgb, var(--c) 18%, #FFF6E3); border: 1.5px solid var(--ink);
+}
+.gh-thumb img { width: 100%; height: 100%; object-fit: cover; display: block; }
+.gh-text { flex: 1; min-width: 0; display: flex; flex-direction: column; gap: 2px; }
+.gh-name { font-size: 15px; font-weight: 900; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.gh-meta { font-size: 12px; color: var(--muted); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.gh-badge { flex: none; font-size: 11px; font-weight: 900; color: #fff; background: var(--red); padding: 2px 8px; border-radius: 999px; }

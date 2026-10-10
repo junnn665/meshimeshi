@@ -24,14 +24,15 @@ JST = dt.timezone(dt.timedelta(hours=9))
 NOW = dt.datetime.now(JST)
 MAX_AGE_HOURS = 20   # これより新しければ取り直さない
 PER_QUERY = 100      # 1回の検索で取る件数（APIの上限）
-SCHEMA = 2           # 出力の形を変えたら上げる（上げると次の実行で取り直す）
+SCHEMA = 3           # 出力の形を変えたら上げる（上げると次の実行で取り直す）
 
 # 画面に出すエリア。keyword は住所などの部分一致（名古屋は名古屋市内に絞る）
 AREAS = [
-    {"id": "nagoya", "label": "名古屋", "pref": "愛知", "keyword": "名古屋市"},
-    {"id": "aichi", "label": "愛知", "pref": "愛知", "keyword": None},
-    {"id": "gifu", "label": "岐阜", "pref": "岐阜", "keyword": None},
-    {"id": "mie", "label": "三重", "pref": "三重", "keyword": None},
+    # pages: ジャンルごとに何ページ（100軒ずつ）取るか。現在地ガチャ用に都市部は多めに取る
+    {"id": "nagoya", "label": "名古屋", "pref": "愛知", "keyword": "名古屋市", "pages": 3},
+    {"id": "aichi", "label": "愛知", "pref": "愛知", "keyword": None, "pages": 2},
+    {"id": "gifu", "label": "岐阜", "pref": "岐阜", "keyword": None, "pages": 1},
+    {"id": "mie", "label": "三重", "pref": "三重", "keyword": None, "pages": 1},
 ]
 
 # 使うジャンル（ホットペッパーのジャンル名 → 画面の表示名）
@@ -111,7 +112,9 @@ def compact(shop: dict, genre_label: str) -> dict:
         "access": (shop.get("mobile_access") or shop.get("access") or "")[:60],
         "budget": budget_text(budget),
         "budget_code": budget.get("code") or "",
-        "open": (shop.get("open") or "")[:140],
+        "open": (shop.get("open") or "")[:260],
+        "close": (shop.get("close") or "")[:60],
+        "lunch": str(shop.get("lunch") or "").startswith("あり"),
         "photo": photo,
         "url": (shop.get("urls") or {}).get("pc", ""),
         "lat": shop.get("lat"),
@@ -150,18 +153,22 @@ def main() -> int:
             continue
         shops: dict[str, dict] = {}
         for gcode, glabel in genres:
-            params = {"large_area": code, "genre": gcode, "count": PER_QUERY, "order": 4}
-            if area["keyword"]:
-                params["keyword"] = area["keyword"]
-            try:
-                res = get("gourmet", **params)
-            except Exception as e:
-                errors += 1
-                print(f"[warn] {area['id']} {glabel}: {e}", file=sys.stderr)
-                continue
-            for s in res.get("shop", []):
-                shops.setdefault(s["id"], compact(s, glabel))
-            time.sleep(0.3)  # 相手のサーバーに負担をかけない
+            for page in range(area["pages"]):
+                params = {"large_area": code, "genre": gcode, "count": PER_QUERY, "order": 4,
+                          "start": 1 + page * PER_QUERY}
+                if area["keyword"]:
+                    params["keyword"] = area["keyword"]
+                try:
+                    res = get("gourmet", **params)
+                except Exception as e:
+                    errors += 1
+                    print(f"[warn] {area['id']} {glabel} p{page + 1}: {e}", file=sys.stderr)
+                    break
+                for s in res.get("shop", []):
+                    shops.setdefault(s["id"], compact(s, glabel))
+                time.sleep(0.3)  # 相手のサーバーに負担をかけない
+                if int(res.get("results_available", 0)) <= (page + 1) * PER_QUERY:
+                    break
         if shops:
             (OUT / f"{area['id']}.json").write_text(
                 json.dumps(list(shops.values()), ensure_ascii=False, separators=(",", ":")), "utf-8"
@@ -179,6 +186,8 @@ def main() -> int:
         "genres": [label for _, label in genres],
         "errors": errors,
         "missing_genres": missing,
+        "lunch_flag_count": sum(1 for f in OUT.glob("*.json") if f.name != "meta.json"
+                                for sh in json.loads(f.read_text("utf-8")) if sh.get("lunch")),
     }
     (OUT / "meta.json").write_text(json.dumps(meta, ensure_ascii=False, indent=1), "utf-8")
     return 0

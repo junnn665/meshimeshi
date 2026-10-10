@@ -36,10 +36,16 @@
       <div class="gacha-controls">
         <p class="g-label" id="g-area-label">エリア</p>
         <div class="g-pills" id="g-area" role="group" aria-labelledby="g-area-label"></div>
+        <div class="g-near" id="g-near" hidden>
+          <p class="g-label" id="g-radius-label">現在地からの距離</p>
+          <div class="g-pills" id="g-radius" role="group" aria-labelledby="g-radius-label"></div>
+        </div>
         <p class="g-label" id="g-genre-label">ジャンル</p>
         <div class="g-pills" id="g-genre" role="group" aria-labelledby="g-genre-label"></div>
         <p class="g-label" id="g-budget-label">予算（夜）</p>
         <div class="g-pills" id="g-budget" role="group" aria-labelledby="g-budget-label"></div>
+        <p class="g-label" id="g-opts-label">こだわり（いくつでも）</p>
+        <div class="g-pills" id="g-opts" role="group" aria-labelledby="g-opts-label"></div>
         <button type="button" class="g-spin" id="g-spin">ガチャを回す</button>
         <p class="g-pool" id="g-pool" aria-live="polite"></p>
       </div>
@@ -70,12 +76,21 @@
     </p>
   </section>
 
+  <section class="g-history" id="g-history" aria-labelledby="g-history-heading">
+    <div class="gh-head">
+      <h2 id="g-history-heading">ガチャ履歴</h2>
+      <button type="button" class="gh-clear" id="g-history-clear" hidden>履歴を消す</button>
+    </div>
+    <p class="gh-empty" id="g-history-empty">まだ履歴はありません。ガチャを回すと、出たお店がここにたまっていきます。</p>
+    <ol class="gh-list" id="g-history-list"></ol>
+  </section>
+
   <a class="back-link" href="./">← 記事一覧にもどる</a>
 </main>
 
 <footer class="site-footer">
   <div class="wrap">
-    <p>お店の情報はホットペッパーグルメ Webサービスから取得しています。最新の営業時間などは各お店のページでご確認ください。掲載店舗・企業とは関係のない個人の非公式サイトです。</p>
+    <p>お店の情報はホットペッパーグルメ Webサービスから取得しています。「営業中」の表示は営業時間の文章から推測したもので、祝日や臨時休業は反映されません。最新の情報は各お店のページでご確認ください。位置情報はお店との距離の計算にだけ使い、どこにも送信しません。掲載店舗・企業とは関係のない個人の非公式サイトです。</p>
     <p>© 飯飯食堂</p>
   </div>
 </footer>

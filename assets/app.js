@@ -34,7 +34,8 @@
     conbini: '<path d="M12 4C10 4 4 13.5 4 17a3 3 0 0 0 3 3h10a3 3 0 0 0 3-3c0-3.5-6-13-8-13z"/><path d="M9 15h6v5H9z"/>',
     yasuuma: '<circle cx="12" cy="12" r="9"/><path d="M9 7l3 4 3-4M12 11v6M9 12.5h6M9 15h6"/>',
     heart: '<path d="M12 20s-7.5-4.6-9.2-9.3C1.6 7.3 3.8 4 7.2 4c2 0 3.6 1.1 4.8 2.8C13.2 5.1 14.8 4 16.8 4c3.4 0 5.6 3.3 4.4 6.7C19.5 15.4 12 20 12 20z"/>',
-    search: '<circle cx="11" cy="11" r="7"/><path d="M20 20l-3.5-3.5"/>'
+    search: '<circle cx="11" cy="11" r="7"/><path d="M20 20l-3.5-3.5"/>',
+    pin: '<path d="M12 21s-7-6.2-7-11.5A7 7 0 0 1 19 9.5C19 14.8 12 21 12 21z"/><circle cx="12" cy="9.5" r="2.5"/>'
   };
   function svg(id, cls) {
     var s = document.createElement('span');
@@ -354,25 +355,137 @@
     { id: 'over', label: '3000円〜', codes: 'over' }
   ];
   var CHEAP = ['B009', 'B010', 'B011', 'B001', 'B002'];
+  var RADII = [
+    { id: '500', label: '500m', m: 500 },
+    { id: '1000', label: '1km', m: 1000 },
+    { id: '2000', label: '2km', m: 2000 },
+    { id: '5000', label: '5km', m: 5000 }
+  ];
   var CAP_COLORS = ['#C2410C', '#1D4ED8', '#3F6212', '#86198F', '#A16207', '#B91C1C', '#0E7490', '#9D174D', '#4D7C0F', '#7C2D12', '#5B21B6'];
+  var NEWS_SHARE = 0.15; // 話題枠が出る確率（候補にあるとき）
+
+  // ニュースのお店をジャンルに当てはめるための言葉
+  var GENRE_WORDS = {
+    'ラーメン': /ラーメン|らーめん|中華そば|つけ麺|まぜそば|油そば|担々麺|台湾/,
+    '居酒屋': /居酒屋|酒場|大衆酒/,
+    '和食': /寿司|すし|鮨|和食|定食|うどん|そば|きしめん|天ぷら|割烹|ひつまぶし|おむすび|おにぎり|干物/,
+    '洋食': /洋食|オムライス|ハンバーグ|ナポリタン|喫茶|ステーキ/,
+    'イタリアン': /イタリアン|パスタ|ピザ|フレンチ|ビストロ/,
+    '中華': /中華|餃子|麻婆|飯店|チャーハン/,
+    '焼肉': /焼肉|ホルモン/,
+    '韓国料理': /韓国|サムギョプサル|チキン/,
+    'エスニック': /タイ|インド|カレー|ベトナム|ネパール|エスニック|マーラー/,
+    'お好み焼き': /お好み焼|たこ焼|もんじゃ/,
+    'カフェ': /カフェ|喫茶|スイーツ|パン|ベーカリー|ドーナツ|かき氷|パフェ/
+  };
 
   var gacha = {
     meta: null,
-    shops: {},          // エリアごとに読み込んだお店
+    shops: {},
+    news: [],
     area: store.get('meshi.gArea2', 'nagoya'),
     genre: store.get('meshi.gGenre2', 'all'),
     budget: store.get('meshi.gBudget', 'any'),
+    radius: store.get('meshi.gRadius', '1000'),
+    lunch: !!store.get('meshi.gLunch', false),
+    openNow: !!store.get('meshi.gOpen', false),
+    mixNews: store.get('meshi.gNews', true) !== false,
+    here: null,           // 現在地 {lat, lng}
     lastId: null,
     busy: false,
-    pool: []
+    pool: [],
+    newsPool: []
   };
+  if (!RADII.some(function (r) { return r.id === gacha.radius; })) gacha.radius = '1000';
 
+  // ---- 営業時間の文章を読む（例: "月～金: 11:30～14:00 （L.O. 13:30）17:00～23:00 土、日: 11:00～22:00"）----
+  var DAYS = '月火水木金土日';
+  function expandDays(spec) {
+    var out = {};
+    spec.split(/[、,・]/).forEach(function (part) {
+      part = part.trim();
+      var m = /^([月火水木金土日])～([月火水木金土日])$/.exec(part);
+      if (m) {
+        var a = DAYS.indexOf(m[1]), b = DAYS.indexOf(m[2]);
+        for (var i = 0; i < 7; i++) {
+          var d = (a + i) % 7;
+          out[d] = true;
+          if (d === b) break;
+        }
+      } else if (part.length === 1 && DAYS.indexOf(part) >= 0) {
+        out[DAYS.indexOf(part)] = true;
+      }
+    });
+    return out;
+  }
+  // 曜日(0=月)ごとの営業時間 [[開始分, 終了分], ...] を返す。読めなければ null
+  function parseHours(text) {
+    if (!text) return null;
+    var t = text.replace(/[（(][^）)]*[）)]/g, ' ')   // L.O. などの補足を消す
+      .replace(/[〜~ー－-]/g, '～').replace(/：/g, ':').replace(/\s+/g, ' ');
+    var re = /((?:(?:[月火水木金土日](?:～[月火水木金土日])?|祝日|祝前日|祝後日)[、,・]?\s*)+)\s*:\s*([^月火水木金土日祝]*)/g;
+    var week = {};
+    var found = false;
+    var m;
+    while ((m = re.exec(t))) {
+      var days = expandDays(m[1]);
+      var times = [];
+      var tr = /(\d{1,2}):(\d{2})\s*～\s*(翌\s*)?(\d{1,2}):(\d{2})/g;
+      var x;
+      while ((x = tr.exec(m[2]))) {
+        var s = +x[1] * 60 + +x[2];
+        var e = +x[4] * 60 + +x[5];
+        if (x[3] || e <= s) e += 1440; // 日をまたぐ
+        times.push([s, e]);
+      }
+      if (!times.length) continue;
+      found = true;
+      Object.keys(days).forEach(function (d) { week[d] = (week[d] || []).concat(times); });
+    }
+    return found ? week : null;
+  }
+  function dayIndex(date) { return (date.getDay() + 6) % 7; } // 月=0
+  // true: 営業中 / false: 営業時間外 / null: わからない
+  function isOpenNow(sh, now) {
+    var week = sh._hours !== undefined ? sh._hours : (sh._hours = parseHours(sh.open));
+    if (!week) return null;
+    now = now || new Date();
+    var d = dayIndex(now);
+    var min = now.getHours() * 60 + now.getMinutes();
+    var today = week[d] || [];
+    var yest = week[(d + 6) % 7] || [];
+    return today.some(function (r) { return min >= r[0] && min < r[1]; }) ||
+      yest.some(function (r) { return r[1] > 1440 && min + 1440 >= r[0] && min + 1440 < r[1]; });
+  }
+  function hasLunch(sh) {
+    if (sh.lunch) return true;
+    var week = sh._hours !== undefined ? sh._hours : (sh._hours = parseHours(sh.open));
+    if (!week) return false;
+    // どこかの曜日で 11:30〜13:30 ごろに開いていればランチありとみなす
+    return Object.keys(week).some(function (d) {
+      return week[d].some(function (r) { return r[0] <= 12 * 60 && r[1] >= 13 * 60; });
+    });
+  }
+
+  // ---- 距離 ----
+  function distance(a, b) {
+    var R = 6371000, rad = Math.PI / 180;
+    var dLat = (b.lat - a.lat) * rad, dLng = (b.lng - a.lng) * rad;
+    var h = Math.sin(dLat / 2) * Math.sin(dLat / 2) +
+      Math.cos(a.lat * rad) * Math.cos(b.lat * rad) * Math.sin(dLng / 2) * Math.sin(dLng / 2);
+    return 2 * R * Math.asin(Math.sqrt(h));
+  }
+  function fmtDistance(m) {
+    return m < 1000 ? '約' + (Math.round(m / 10) * 10) + 'm' : '約' + (m / 1000).toFixed(1) + 'km';
+  }
+
+  // ---- お店データの読み込み ----
   function areaFiles(id) {
+    if (id === 'near') return ['nagoya', 'aichi', 'gifu', 'mie'];
     return id === 'all' ? ['aichi', 'gifu', 'mie'] : [id];
   }
   function loadShops(id) {
-    var files = areaFiles(id);
-    return Promise.all(files.map(function (f) {
+    return Promise.all(areaFiles(id).map(function (f) {
       if (gacha.shops[f]) return gacha.shops[f];
       return fetch('data/shops/' + f + '.json?d=' + encodeURIComponent(gacha.meta.updated))
         .then(function (r) { if (!r.ok) throw new Error(r.status); return r.json(); })
@@ -395,21 +508,55 @@
     return b.codes.indexOf(sh.budget_code) >= 0;
   }
 
-  function pills(boxId, list, current, onPick) {
+  // ニュースで話題のお店（話題枠）
+  function newsCandidates() {
+    if (!gacha.mixNews || gacha.area === 'near' || gacha.budget !== 'any' || gacha.lunch || gacha.openNow) return [];
+    var area = { nagoya: ['名古屋'], aichi: ['愛知', '名古屋'], gifu: ['岐阜'], mie: ['三重'], all: ['名古屋', '愛知', '岐阜', '三重'] }[gacha.area] || [];
+    return gacha.news.filter(function (it) {
+      if (!it.shop || !it.shop_name || area.indexOf(it.area) < 0) return false;
+      if (gacha.genre === 'all') return true;
+      var re = GENRE_WORDS[gacha.genre];
+      return re ? re.test(it.title) : false;
+    });
+  }
+
+  function pills(boxId, list, current, onPick, multi) {
     var box = $(boxId);
     box.textContent = '';
     list.forEach(function (x) {
-      var b = el('button', 'g-pill', x.label);
+      var b = el('button', 'g-pill' + (x.cls ? ' ' + x.cls : ''));
       b.type = 'button';
-      b.setAttribute('aria-pressed', String(current === x.id));
+      if (x.icon) b.appendChild(svg(x.icon, 'g-pill-icon'));
+      b.appendChild(document.createTextNode(x.label));
+      b.setAttribute('aria-pressed', String(multi ? !!x.on : current === x.id));
       b.addEventListener('click', function () {
-        Array.prototype.forEach.call(box.children, function (y) {
-          y.setAttribute('aria-pressed', String(y === b));
-        });
-        onPick(x.id);
+        if (multi) {
+          var on = b.getAttribute('aria-pressed') !== 'true';
+          b.setAttribute('aria-pressed', String(on));
+          onPick(x.id, on);
+        } else {
+          Array.prototype.forEach.call(box.children, function (y) {
+            y.setAttribute('aria-pressed', String(y === b));
+          });
+          onPick(x.id);
+        }
         updatePool();
       });
       box.appendChild(b);
+    });
+  }
+
+  function setNearUI() {
+    var near = gacha.area === 'near';
+    $('g-near').hidden = !near;
+  }
+
+  function locate() {
+    return new Promise(function (resolve, reject) {
+      if (!navigator.geolocation) { reject(new Error('unsupported')); return; }
+      navigator.geolocation.getCurrentPosition(function (pos) {
+        resolve({ lat: pos.coords.latitude, lng: pos.coords.longitude });
+      }, reject, { enableHighAccuracy: true, timeout: 12000, maximumAge: 120000 });
     });
   }
 
@@ -417,29 +564,59 @@
   function updatePool() {
     var btn = $('g-spin');
     if (!gacha.meta) return;
+    setNearUI();
     var seq = ++poolSeq;
-    $('g-pool').textContent = 'お店を読み込み中…';
     btn.disabled = true;
-    loadShops(gacha.area).then(function (list) {
+    var needHere = gacha.area === 'near' && !gacha.here;
+    $('g-pool').textContent = needHere ? '現在地を確認しています…' : 'お店を読み込み中…';
+    var hereP = needHere ? locate().then(function (h) { gacha.here = h; }) : Promise.resolve();
+    hereP.then(function () {
+      return loadShops(gacha.area);
+    }).then(function (list) {
       if (seq !== poolSeq) return;
+      var radius = (RADII.filter(function (r) { return r.id === gacha.radius; })[0] || RADII[1]).m;
+      var now = new Date();
       gacha.pool = list.filter(function (sh) {
-        return (gacha.genre === 'all' || sh.genre === gacha.genre) && matchBudget(sh);
+        if (gacha.genre !== 'all' && sh.genre !== gacha.genre) return false;
+        if (!matchBudget(sh)) return false;
+        if (gacha.lunch && !hasLunch(sh)) return false;
+        if (gacha.openNow && isOpenNow(sh, now) !== true) return false;
+        if (gacha.area === 'near') {
+          if (sh.lat == null || sh.lng == null) return false;
+          sh._dist = distance(gacha.here, { lat: +sh.lat, lng: +sh.lng });
+          if (sh._dist > radius) return false;
+        }
+        return true;
       });
-      var n = gacha.pool.length;
-      $('g-pool').textContent = n
-        ? 'お店 ' + n + ' 軒から1軒選びます'
-        : 'この条件のお店が見つかりませんでした。ジャンルか予算を変えてみてください。';
-      btn.disabled = !n || gacha.busy;
-    }).catch(function () {
+      gacha.newsPool = newsCandidates();
+      var n = gacha.pool.length, k = gacha.newsPool.length;
+      var msg;
+      if (!n && !k) {
+        msg = gacha.area === 'near'
+          ? '近くにこの条件のお店が見つかりませんでした。距離を広げるか条件を変えてみてください。'
+          : 'この条件のお店が見つかりませんでした。条件を変えてみてください。';
+      } else {
+        msg = 'お店 ' + n + ' 軒' + (k ? '＋話題枠 ' + k + ' 軒' : '') + 'から1軒選びます';
+        if (gacha.area === 'near') msg = '現在地から' + (RADII.filter(function (r) { return r.id === gacha.radius; })[0].label) + '以内の' + msg;
+      }
+      $('g-pool').textContent = msg;
+      btn.disabled = (!n && !k) || gacha.busy;
+    }).catch(function (err) {
       if (seq !== poolSeq) return;
-      $('g-pool').textContent = 'お店を読み込めませんでした。少し時間をおいてお試しください。';
+      if (gacha.area === 'near' && !gacha.here) {
+        var code = err && err.code;
+        $('g-pool').textContent = code === 1
+          ? '位置情報の利用が許可されていません。ブラウザの設定で許可するか、エリアを選んでください。'
+          : '現在地を取得できませんでした。電波のよい場所でもう一度試すか、エリアを選んでください。';
+      } else {
+        $('g-pool').textContent = 'お店を読み込めませんでした。少し時間をおいてお試しください。';
+      }
     });
   }
 
-  function pickOne(pool) {
-    var cands = pool.length > 1 ? pool.filter(function (sh) { return sh.id !== gacha.lastId; }) : pool;
-    // 写真があるお店を少し出やすくする
-    var weights = cands.map(function (sh) { return sh.photo ? 2 : 1; });
+  function weightedPick(list, weightFn) {
+    var cands = list.length > 1 ? list.filter(function (x) { return x.id !== gacha.lastId; }) : list;
+    var weights = cands.map(weightFn);
     var total = weights.reduce(function (a, b) { return a + b; }, 0);
     var r = Math.random() * total;
     for (var i = 0; i < cands.length; i++) {
@@ -447,6 +624,11 @@
       if (r < 0) return cands[i];
     }
     return cands[cands.length - 1];
+  }
+  function pickOne() {
+    var useNews = gacha.newsPool.length && (!gacha.pool.length || Math.random() < NEWS_SHARE);
+    if (useNews) return { news: weightedPick(gacha.newsPool, function (it) { return it.image ? 2 : 1; }) };
+    return { shop: weightedPick(gacha.pool, function (sh) { return sh.photo ? 2 : 1; }) };
   }
 
   function genreColor(name) {
@@ -471,14 +653,93 @@
     return row;
   }
 
-  function showResult(sh) {
+  // ---- シェア ----
+  var GACHA_URL = new URL('gacha.html', location.href).href.split('?')[0].split('#')[0];
+  function shareBox(name, sub, url) {
+    var text = '今日は「' + name + '」に決めた！' + (sub ? '（' + sub + '）' : '') + '\n飯ガチャで決めました';
+    var full = text + '\n' + url + '\n' + GACHA_URL;
+    var wrap = el('div', 'g-share');
+    wrap.appendChild(el('span', 'g-share-label', 'シェア'));
+    var line = el('a', 'g-share-btn line', 'LINE');
+    line.href = 'https://line.me/R/share?text=' + encodeURIComponent(full);
+    line.target = '_blank';
+    line.rel = 'noopener';
+    var x = el('a', 'g-share-btn x', 'X');
+    x.href = 'https://twitter.com/intent/tweet?text=' + encodeURIComponent(text + '\n' + url) +
+      '&url=' + encodeURIComponent(GACHA_URL) + '&hashtags=' + encodeURIComponent('飯ガチャ');
+    x.target = '_blank';
+    x.rel = 'noopener';
+    wrap.appendChild(line);
+    wrap.appendChild(x);
+    var more = el('button', 'g-share-btn more', navigator.share ? 'ほかのアプリ' : 'コピー');
+    more.type = 'button';
+    more.addEventListener('click', function () {
+      if (navigator.share) {
+        navigator.share({ title: '飯ガチャ', text: text, url: url }).catch(function () { /* キャンセル */ });
+      } else if (navigator.clipboard) {
+        navigator.clipboard.writeText(full).then(function () {
+          more.textContent = 'コピーしました';
+          setTimeout(function () { more.textContent = 'コピー'; }, 1800);
+        });
+      }
+    });
+    wrap.appendChild(more);
+    return wrap;
+  }
+
+  // ---- 履歴 ----
+  var HISTORY_MAX = 30;
+  function getHistory() {
+    var h = store.get('meshi.gHistory', []);
+    return Array.isArray(h) ? h : [];
+  }
+  function addHistory(entry) {
+    var h = getHistory().filter(function (x) { return x.id !== entry.id; });
+    h.unshift(entry);
+    store.set('meshi.gHistory', h.slice(0, HISTORY_MAX));
+    renderHistory();
+  }
+  function renderHistory() {
+    var box = $('g-history');
+    if (!box) return;
+    var h = getHistory();
+    var list = $('g-history-list');
+    list.textContent = '';
+    $('g-history-empty').hidden = h.length > 0;
+    $('g-history-clear').hidden = !h.length;
+    h.forEach(function (x) {
+      var li = el('li', 'gh-item');
+      var a = el('a', 'gh-link');
+      a.href = x.url;
+      a.target = '_blank';
+      a.rel = 'noopener';
+      var th = el('span', 'gh-thumb');
+      th.style.setProperty('--c', x.color || '#2B2118');
+      if (x.photo) {
+        var img = document.createElement('img');
+        img.src = x.photo; img.alt = ''; img.loading = 'lazy'; img.referrerPolicy = 'no-referrer';
+        img.addEventListener('error', function () { img.remove(); });
+        th.appendChild(img);
+      }
+      a.appendChild(th);
+      var tx = el('span', 'gh-text');
+      tx.appendChild(el('span', 'gh-name', x.name));
+      tx.appendChild(el('span', 'gh-meta', [x.genre, x.area, relTime(x.at)].filter(Boolean).join(' ・ ')));
+      a.appendChild(tx);
+      if (x.news) a.appendChild(el('span', 'gh-badge', '話題枠'));
+      li.appendChild(a);
+      list.appendChild(li);
+    });
+  }
+
+  // ---- 結果の表示 ----
+  function showShop(sh) {
     var color = genreColor(sh.genre);
     var item = shopAsItem(sh);
     var box = $('g-result');
     box.textContent = '';
     var head = el('p', 'g-hit');
-    var chip = el('span', 'g-hit-chip', sh.genre);
-    head.appendChild(chip);
+    head.appendChild(el('span', 'g-hit-chip', sh.genre));
     head.appendChild(document.createTextNode('のお店が出ました！'));
     box.appendChild(head);
 
@@ -489,12 +750,20 @@
     a.rel = 'noopener';
     a.appendChild(photo(item, { label: sh.genre, color: color }, true));
     var body = el('span', 'g-card-body');
+    var badges = el('span', 'g-badges');
+    if (sh._dist != null && gacha.area === 'near') badges.appendChild(el('span', 'g-badge dist', 'ここから' + fmtDistance(sh._dist)));
+    var open = isOpenNow(sh);
+    if (open === true) badges.appendChild(el('span', 'g-badge open', '営業中（たぶん）'));
+    else if (open === false) badges.appendChild(el('span', 'g-badge closed', '今は営業時間外かも'));
+    if (hasLunch(sh)) badges.appendChild(el('span', 'g-badge', 'ランチあり'));
+    if (badges.children.length) body.appendChild(badges);
     if (sh.catch) body.appendChild(el('span', 'g-catch', sh.catch));
     body.appendChild(el('span', 'g-title', sh.name));
     var info = el('span', 'g-info');
     if (sh.budget) info.appendChild(infoRow('予算', sh.budget));
     if (sh.access) info.appendChild(infoRow('アクセス', sh.access));
     if (sh.open) info.appendChild(infoRow('営業', sh.open));
+    if (sh.close) info.appendChild(infoRow('定休日', sh.close));
     body.appendChild(info);
     body.appendChild(el('span', 'g-cta', 'ホットペッパーで詳しく見る →'));
     a.appendChild(body);
@@ -502,10 +771,50 @@
     art.appendChild(saveButton(item));
     box.appendChild(art);
 
+    var mapQ = sh.lat && sh.lng ? sh.name + ' ' + (sh.address || '') : sh.name;
+    finishResult(box, 'https://www.google.com/maps/search/?api=1&query=' + encodeURIComponent(mapQ),
+      shareBox(sh.name, sh.genre + (item.area ? '・' + item.area : ''), sh.url));
+    addHistory({ id: item.id, name: sh.name, url: sh.url, photo: sh.photo, genre: sh.genre, area: item.area, color: color, at: new Date().toISOString() });
+  }
+
+  function showNews(it) {
+    var cat = CAT[it.category] || CAT.wadai;
+    var box = $('g-result');
+    box.textContent = '';
+    var head = el('p', 'g-hit');
+    head.appendChild(el('span', 'g-hit-chip hot', '話題枠'));
+    head.appendChild(document.createTextNode('ニュースのお店が出ました！'));
+    box.appendChild(head);
+
+    var art = el('article', 'g-card');
+    var a = el('a', 'g-link');
+    a.href = it.link;
+    a.target = '_blank';
+    a.rel = 'noopener';
+    a.appendChild(photo(it, cat, true));
+    var body = el('span', 'g-card-body');
+    var badges = el('span', 'g-badges');
+    badges.appendChild(el('span', 'g-badge hot', 'ニュースで話題'));
+    badges.appendChild(el('span', 'g-badge', [it.area, relTime(it.published)].filter(Boolean).join(' ・ ')));
+    body.appendChild(badges);
+    body.appendChild(el('span', 'g-title', it.shop_name));
+    body.appendChild(el('span', 'g-news-title', it.title));
+    body.appendChild(el('span', 'source', '出典：' + (it.source || '不明')));
+    body.appendChild(el('span', 'g-cta', '記事を読む →'));
+    a.appendChild(body);
+    art.appendChild(a);
+    art.appendChild(saveButton(it));
+    box.appendChild(art);
+
+    finishResult(box, 'https://www.google.com/maps/search/?api=1&query=' + encodeURIComponent(it.shop_name + ' ' + (it.area || '')),
+      shareBox(it.shop_name, it.area, it.link));
+    addHistory({ id: it.id, name: it.shop_name, url: it.link, photo: it.image, genre: '話題のお店', area: it.area, color: cat.color, news: true, at: new Date().toISOString() });
+  }
+
+  function finishResult(box, mapUrl, share) {
     var actions = el('div', 'g-actions');
     var map = el('a', 'g-map', '地図で見る');
-    map.href = 'https://www.google.com/maps/search/?api=1&query=' +
-      encodeURIComponent(sh.name + ' ' + (sh.address || ''));
+    map.href = mapUrl;
     map.target = '_blank';
     map.rel = 'noopener';
     actions.appendChild(map);
@@ -514,17 +823,17 @@
     again.addEventListener('click', spin);
     actions.appendChild(again);
     box.appendChild(actions);
-
+    box.appendChild(share);
     $('machine').hidden = true;
     box.hidden = false;
     box.classList.remove('show'); void box.offsetWidth; box.classList.add('show');
   }
 
   function spin() {
-    var pool = gacha.pool;
-    if (gacha.busy || !pool.length) return;
-    var sh = pickOne(pool);
-    gacha.lastId = sh.id;
+    if (gacha.busy || (!gacha.pool.length && !gacha.newsPool.length)) return;
+    var pick = pickOne();
+    var color = pick.shop ? genreColor(pick.shop.genre) : '#FFC93C';
+    gacha.lastId = (pick.shop || pick.news).id;
     gacha.busy = true;
     $('g-spin').disabled = true;
 
@@ -532,7 +841,7 @@
     var drop = $('drop');
     $('g-result').hidden = true;
     m.hidden = false;
-    drop.style.setProperty('--c', genreColor(sh.genre));
+    drop.style.setProperty('--c', color);
     m.classList.remove('spinning', 'dropping', 'opening');
 
     var stage = document.querySelector('.gacha-stage');
@@ -546,8 +855,8 @@
     var finish = function () {
       gacha.busy = false;
       m.classList.remove('spinning', 'dropping', 'opening');
-      showResult(sh);
-      $('g-spin').disabled = !gacha.pool.length;
+      if (pick.shop) showShop(pick.shop); else showNews(pick.news);
+      $('g-spin').disabled = !gacha.pool.length && !gacha.newsPool.length;
     };
     if (reduce) { finish(); return; }
 
@@ -562,26 +871,58 @@
     $('g-spin').addEventListener('click', spin);
     $('g-spin').disabled = true;
     $('g-pool').textContent = 'お店データを読み込み中…';
-    fetch('data/shops/meta.json?t=' + Date.now(), { cache: 'no-store' })
-      .then(function (r) { if (!r.ok) throw new Error(r.status); return r.json(); })
-      .then(function (meta) {
-        gacha.meta = meta;
-        var areas = meta.areas.map(function (a) { return { id: a.id, label: a.label }; });
-        areas.push({ id: 'all', label: '東海ぜんぶ' });
-        if (!areas.some(function (a) { return a.id === gacha.area; })) gacha.area = areas[0].id;
-        var genres = [{ id: 'all', label: 'おまかせ' }].concat(meta.genres.map(function (g) { return { id: g, label: g }; }));
-        if (!genres.some(function (g) { return g.id === gacha.genre; })) gacha.genre = 'all';
-        if (!BUDGETS.some(function (b) { return b.id === gacha.budget; })) gacha.budget = 'any';
-        pills('g-area', areas, gacha.area, function (id) { gacha.area = id; store.set('meshi.gArea2', id); });
-        pills('g-genre', genres, gacha.genre, function (id) { gacha.genre = id; store.set('meshi.gGenre2', id); });
-        pills('g-budget', BUDGETS, gacha.budget, function (id) { gacha.budget = id; store.set('meshi.gBudget', id); });
-        updatePool();
-      })
-      .catch(function () {
-        $('gacha').classList.add('not-ready');
-        $('g-pool').textContent = 'お店データを準備中です。もうしばらくお待ちください。';
+    $('g-history-clear').addEventListener('click', function () {
+      store.set('meshi.gHistory', []);
+      renderHistory();
+    });
+    renderHistory();
+
+    // 話題枠用にニュースも読む（失敗しても続ける）
+    var newsP = fetch('data/news.json?t=' + Date.now(), { cache: 'no-store' })
+      .then(function (r) { return r.ok ? r.json() : { items: [] }; })
+      .then(function (d) { gacha.news = d.items || []; })
+      .catch(function () { gacha.news = []; });
+
+    var metaP = fetch('data/shops/meta.json?t=' + Date.now(), { cache: 'no-store' })
+      .then(function (r) { if (!r.ok) throw new Error(r.status); return r.json(); });
+
+    Promise.all([metaP, newsP]).then(function (res) {
+      var meta = res[0];
+      gacha.meta = meta;
+      var areas = meta.areas.map(function (a) { return { id: a.id, label: a.label }; });
+      areas.push({ id: 'all', label: '東海ぜんぶ' });
+      if (navigator.geolocation) areas.unshift({ id: 'near', label: '現在地から', icon: 'pin', cls: 'near' });
+      if (!areas.some(function (a) { return a.id === gacha.area; })) gacha.area = 'nagoya';
+      var genres = [{ id: 'all', label: 'おまかせ' }].concat(meta.genres.map(function (g) { return { id: g, label: g }; }));
+      if (!genres.some(function (g) { return g.id === gacha.genre; })) gacha.genre = 'all';
+      if (!BUDGETS.some(function (b) { return b.id === gacha.budget; })) gacha.budget = 'any';
+      pills('g-area', areas, gacha.area, function (id) {
+        gacha.area = id;
+        // 現在地は毎回取り直す
+        if (id === 'near') gacha.here = null;
+        store.set('meshi.gArea2', id);
       });
+      pills('g-radius', RADII, gacha.radius, function (id) { gacha.radius = id; store.set('meshi.gRadius', id); });
+      pills('g-genre', genres, gacha.genre, function (id) { gacha.genre = id; store.set('meshi.gGenre2', id); });
+      pills('g-budget', BUDGETS, gacha.budget, function (id) { gacha.budget = id; store.set('meshi.gBudget', id); });
+      pills('g-opts', [
+        { id: 'lunch', label: 'ランチあり', on: gacha.lunch },
+        { id: 'open', label: '今営業中', on: gacha.openNow },
+        { id: 'news', label: '話題枠をまぜる', on: gacha.mixNews }
+      ], null, function (id, on) {
+        if (id === 'lunch') { gacha.lunch = on; store.set('meshi.gLunch', on); }
+        if (id === 'open') { gacha.openNow = on; store.set('meshi.gOpen', on); }
+        if (id === 'news') { gacha.mixNews = on; store.set('meshi.gNews', on); }
+      }, true);
+      updatePool();
+    }).catch(function () {
+      $('gacha').classList.add('not-ready');
+      $('g-pool').textContent = 'お店データを準備中です。もうしばらくお待ちください。';
+    });
   }
+
+  // テスト用に営業時間の読み取りを外から使えるようにする
+  window.__meshiHours = { parseHours: parseHours, isOpenNow: isOpenNow, hasLunch: hasLunch };
 
   // ---------- 一覧 ----------
   function headingText() {
