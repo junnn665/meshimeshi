@@ -118,12 +118,21 @@
     };
     if (it.image) {
       var img = document.createElement('img');
-      img.src = it.image;
       img.alt = '';
       img.loading = 'lazy';
       img.decoding = 'async';
       img.referrerPolicy = 'no-referrer';
-      img.addEventListener('error', fallback);
+      // 直接読めない写真（直リンク禁止など）は、画像中継サービス経由でもう一度試す
+      var relay = 'https://wsrv.nl/?url=' + encodeURIComponent(it.image) + '&w=720&h=400&fit=cover&a=attention&output=webp';
+      var tried = false;
+      img.addEventListener('error', function () {
+        if (!tried) { tried = true; img.src = relay; }
+        else fallback();
+      });
+      img.addEventListener('load', function () {
+        if (img.naturalWidth < 40) fallback(); // 1px画像などのダミー
+      });
+      img.src = it.image;
       box.appendChild(img);
     } else {
       fallback();

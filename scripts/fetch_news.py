@@ -140,8 +140,18 @@ CHAIN_WORDS = [
 # ---------------------------------------------------------------------------
 # 共通処理
 # ---------------------------------------------------------------------------
-def http_get(url: str, limit: int | None = None, timeout: int = 15) -> tuple[bytes, str]:
-    req = urllib.request.Request(url, headers={"User-Agent": UA, "Accept-Language": "ja,en;q=0.5"})
+BROWSER_UA = (
+    "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
+    "(KHTML, like Gecko) Chrome/126.0 Safari/537.36"
+)
+
+
+def http_get(url: str, limit: int | None = None, timeout: int = 15,
+             browser: bool = False) -> tuple[bytes, str]:
+    headers = {"User-Agent": BROWSER_UA if browser else UA, "Accept-Language": "ja,en;q=0.5"}
+    if browser:
+        headers["Accept"] = "text/html,application/xhtml+xml,*/*;q=0.8"
+    req = urllib.request.Request(url, headers=headers)
     with urllib.request.urlopen(req, timeout=timeout) as res:
         body = res.read(limit) if limit else res.read()
         return body, res.geturl()
@@ -191,6 +201,18 @@ def child_nodes(node: ET.Element, suffix: str) -> list[ET.Element]:
 
 def is_food(title: str) -> bool:
     return any(w in title for w in FOOD_WORDS)
+
+
+# 載せないサイト（転載・スパムサイトや、グルメ記事でないページ）
+BLOCKED_LINKS = [
+    "unisba.ac.id",           # 他サイトの記事を転載しているスパムサイト
+    "goobike.com",            # バイク投稿サイト
+    "thetv.jp/program/",      # テレビ番組表
+]
+
+
+def is_blocked(link: str) -> bool:
+    return any(b in link for b in BLOCKED_LINKS)
 
 
 def is_wanted(title: str) -> bool:
@@ -381,7 +403,7 @@ def find_og_image(link: str) -> str | None:
     if "news.google.com" in host:
         return None
     try:
-        body, final_url = http_get(link, limit=300_000, timeout=8)
+        body, final_url = http_get(link, limit=400_000, timeout=10, browser=True)
     except Exception:
         return None
     text = body.decode("utf-8", errors="ignore")
@@ -398,7 +420,9 @@ def find_og_image(link: str) -> str | None:
 def add_images(items: list[dict]) -> None:
     def pending(it: dict) -> bool:
         is_google = "news.google.com" in urllib.parse.urlparse(it["link"]).netloc
-        return not it.get("image_checked") or (is_google and not it.get("decode_v2"))
+        return (not it.get("image_checked")
+                or (is_google and not it.get("decode_v2"))
+                or (not it.get("image") and not it.get("image_v3")))
 
     targets = [it for it in items if pending(it)][:MAX_IMAGE_FETCH]
 
@@ -418,6 +442,7 @@ def add_images(items: list[dict]) -> None:
             elif it.get("image") and not it["image"].startswith("https://"):
                 it["image"] = None
             it["image_checked"] = True
+            it["image_v3"] = True
 
 
 # ---------------------------------------------------------------------------
@@ -452,7 +477,7 @@ def build(raw: list[dict], existing: list[dict]) -> list[dict]:
     cutoff_keep = NOW - dt.timedelta(days=KEEP_DAYS)
     for it in existing:
         d = parse_date(it.get("published"))
-        if d and d >= cutoff_keep and is_wanted(it["title"]):
+        if d and d >= cutoff_keep and is_wanted(it["title"]) and not is_blocked(it["link"]):
             add(it)
 
     cutoff_new = NOW - dt.timedelta(days=INGEST_DAYS)
@@ -490,6 +515,8 @@ def main() -> int:
         return 0
     items = build(raw, existing)
     add_images(items)
+    # Googleニュースのリンクは変換後に行き先がわかるので、ここで除外する
+    items = [it for it in items if not is_blocked(it["link"])]
     DATA_FILE.parent.mkdir(parents=True, exist_ok=True)
     payload = {"updated": NOW.astimezone(JST).isoformat(timespec="seconds"), "items": items}
     DATA_FILE.write_text(json.dumps(payload, ensure_ascii=False, indent=1) + "\n", "utf-8")
