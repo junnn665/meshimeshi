@@ -111,10 +111,16 @@
 
   function photo(it, cat) {
     var box = el('span', 'photo');
+    // 写真がないときは、お品書き札風の表示にする
     var fallback = function () {
       box.textContent = '';
-      box.style.background = cat.color + '1F';
-      box.appendChild(el('span', 'photo-fallback', cat.label));
+      box.classList.add('no-photo');
+      box.style.setProperty('--cat', cat.color);
+      var tag = el('span', 'photo-fallback');
+      tag.appendChild(icon(it.category in ICONS ? it.category : 'all'));
+      tag.appendChild(el('span', 'fb-label', cat.label));
+      tag.appendChild(el('span', 'fb-source', it.source || ''));
+      box.appendChild(tag);
     };
     if (it.image) {
       var img = document.createElement('img');
