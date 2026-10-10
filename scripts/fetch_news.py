@@ -94,6 +94,9 @@ OTHER_REGION_WORDS = [
     "大阪", "関西", "心斎橋", "梅田", "難波", "京都", "神戸", "兵庫", "奈良", "和歌山", "滋賀",
     "中国地方", "広島", "岡山", "山口", "四国", "香川", "愛媛", "九州", "福岡", "博多", "熊本",
     "鹿児島", "沖縄", "長野", "新潟", "北陸", "金沢", "富山", "福井",
+    "山梨", "甲府", "栃木", "宇都宮", "小山市", "茨城", "つくば", "群馬", "高崎",
+    "品川", "高輪", "汐留", "調布", "船橋", "自由が丘", "五反田", "月島", "浅草", "上野",
+    "松山", "北九州", "小倉", "太融寺", "天神", "ロンドン", "ニューヨーク", "パリ", "台北",
 ]
 
 # 写真ギャラリーなど、本文記事の重複になるページ
@@ -120,8 +123,8 @@ AREA_RULES = [
     ("愛知", ["愛知", "豊橋", "岡崎", "一宮", "豊田", "春日井", "安城", "刈谷", "豊川", "瀬戸",
               "半田", "小牧", "稲沢", "東海市", "長久手", "日進", "常滑", "犬山", "知多"]),
     ("岐阜", ["岐阜", "大垣", "多治見", "高山", "各務原", "関市", "可児", "中津川"]),
-    ("三重", ["三重", "四日市", "津市", "伊勢", "鈴鹿", "桑名", "松阪", "名張", "伊賀"]),
     ("静岡", ["静岡", "浜松", "沼津", "富士市"]),
+    ("三重", ["三重", "四日市", "津市", "伊勢", "鈴鹿", "桑名", "松阪", "名張", "伊賀"]),
 ]
 TOKAI_WORDS = [w for _, words in AREA_RULES for w in words] + ["東海", "中部"]
 
@@ -238,6 +241,51 @@ def detect_area(title: str, regional: bool) -> str:
         if any(w in title for w in words):
             return area
     return "東海" if regional else "全国"
+
+
+# ---------------------------------------------------------------------------
+# 飯ガチャ用：「東海にある1つのお店」の記事かどうか
+# ---------------------------------------------------------------------------
+LOCAL_AREAS = {"名古屋", "愛知", "岐阜", "三重", "静岡"}
+
+NOT_SHOP_PATTERNS = [re.compile(p) for p in [
+    r"\d+\s*選", r"[０-９]+\s*選", r"\d+軒", r"\d+店", r"まとめ", r"ランキング", r"特集", r"百名店",
+    r"フェア", r"フェス", r"祭", r"イベント", r"開催", r"物産展", r"マーケット",
+    r"コラボ", r"監修", r"新商品", r"新作", r"発売", r"販売開始", r"販売", r"クーポン", r"セール", r"半額",
+    r"工場", r"ホールディングス", r"株式会社", r"大学", r"学生", r"教授", r"入社", r"社長",
+    r"閉店", r"休業", r"浸水", r"被害", r"事件", r"逮捕",
+    r"モーニング娘", r"番組", r"ドラマ", r"RQ", r"披露", r"ムック", r"Walker",
+    r"レシピ", r"作り方", r"旅", r"Collection No", r"\d+/\d+\s*$", r"【画像】",
+    r"予定", r"20[2-9][7-9]年",
+    r"フロア", r"レストランエリア", r"商店街", r"道の駅", r"避暑地", r"\d+種", r"続々", r"初進出", r"初上陸",
+]]
+SHOP_WORDS = [
+    "店", "食堂", "喫茶", "屋", "亭", "軒", "庵", "レストラン", "カフェ", "ラーメン", "らーめん", "中華そば",
+    "寿司", "すし", "うどん", "そば", "ベーカリー", "居酒屋", "酒場", "バル", "ビストロ", "焼肉", "定食",
+]
+
+
+def is_shop_article(it: dict) -> bool:
+    title = it["title"]
+    if it.get("area") not in LOCAL_AREAS:
+        return False
+    if it.get("category") in ("chain", "conbini"):
+        return False
+    if any(p.search(title) for p in NOT_SHOP_PATTERNS):
+        return False
+    if any(w in title for w in OTHER_REGION_WORDS):  # 他地域のお店の記事
+        return False
+    named = bool(re.search(r"[「『][^」』]{2,}[」』]", title))
+    return named or any(w in title for w in SHOP_WORDS)
+
+
+def shop_name(title: str) -> str | None:
+    """見出しのカギカッコから店名らしいものを取り出す（地図検索用）。"""
+    for m in re.finditer(r"[「『]([^」』]{2,30})[」』]", title):
+        name = m.group(1)
+        if not re.search(r"[！!？?。]|メニュー|フェア|定食$|セット", name):
+            return name
+    return None
 
 
 def item_id(link: str) -> str:
@@ -522,6 +570,9 @@ def main() -> int:
     add_images(items)
     # Googleニュースのリンクは変換後に行き先がわかるので、ここで除外する
     items = [it for it in items if not is_blocked(it["link"])]
+    for it in items:
+        it["shop"] = is_shop_article(it)
+        it["shop_name"] = shop_name(it["title"]) if it["shop"] else None
     DATA_FILE.parent.mkdir(parents=True, exist_ok=True)
     payload = {"updated": NOW.astimezone(JST).isoformat(timespec="seconds"), "items": items}
     DATA_FILE.write_text(json.dumps(payload, ensure_ascii=False, indent=1) + "\n", "utf-8")

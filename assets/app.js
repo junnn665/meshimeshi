@@ -354,7 +354,10 @@
 
   function gachaPool() {
     var area = AREA[gacha.area];
+    // 「東海にある1つのお店」の記事だけを候補にする（まとめ記事・新商品・イベントなどは除く）
+    var hasFlag = state.items.some(function (it) { return 'shop' in it; });
     return state.items.filter(function (it) {
+      if (hasFlag && !it.shop) return false;
       if (area.match && area.match.indexOf(it.area) < 0) return false;
       if (gacha.genre !== 'all' && it.category !== gacha.genre) return false;
       return true;
@@ -387,10 +390,10 @@
       $('g-pool').textContent = 'ニュースを読み込み中…';
       btn.disabled = true;
     } else if (!n) {
-      $('g-pool').textContent = 'この組み合わせの記事はまだありません。条件を変えてみてください。';
+      $('g-pool').textContent = 'この組み合わせのお店はまだありません。エリアかジャンルを変えてみてください。';
       btn.disabled = true;
     } else {
-      $('g-pool').textContent = '候補 ' + n + ' 件から1つ選びます';
+      $('g-pool').textContent = 'お店の記事 ' + n + ' 件から1つ選びます';
       btn.disabled = gacha.busy;
     }
   }
@@ -439,10 +442,20 @@
     art.appendChild(saveButton(it));
     box.appendChild(art);
 
+    var actions = el('div', 'g-actions');
+    if (it.shop_name) {
+      var map = el('a', 'g-map', '地図で「' + it.shop_name + '」を探す');
+      map.href = 'https://www.google.com/maps/search/?api=1&query=' +
+        encodeURIComponent(it.shop_name + ' ' + (it.area || ''));
+      map.target = '_blank';
+      map.rel = 'noopener';
+      actions.appendChild(map);
+    }
     var again = el('button', 'g-again', 'もう1回まわす');
     again.type = 'button';
     again.addEventListener('click', spin);
-    box.appendChild(again);
+    actions.appendChild(again);
+    box.appendChild(actions);
 
     $('machine').hidden = true;
     box.hidden = false;
