@@ -24,6 +24,7 @@ JST = dt.timezone(dt.timedelta(hours=9))
 NOW = dt.datetime.now(JST)
 MAX_AGE_HOURS = 20   # これより新しければ取り直さない
 PER_QUERY = 100      # 1回の検索で取る件数（APIの上限）
+SCHEMA = 2           # 出力の形を変えたら上げる（上げると次の実行で取り直す）
 
 # 画面に出すエリア。keyword は住所などの部分一致（名古屋は名古屋市内に絞る）
 AREAS = [
@@ -66,8 +67,11 @@ def fresh_enough() -> bool:
     if not meta.exists():
         return False
     try:
-        updated = dt.datetime.fromisoformat(json.loads(meta.read_text("utf-8"))["updated"])
+        m = json.loads(meta.read_text("utf-8"))
+        updated = dt.datetime.fromisoformat(m["updated"])
     except (ValueError, KeyError, OSError):
+        return False
+    if m.get("schema") != SCHEMA:
         return False
     return NOW - updated < dt.timedelta(hours=MAX_AGE_HOURS)
 
@@ -86,6 +90,15 @@ def remove_stale() -> None:
     print("removed stale shop data")
 
 
+def budget_text(budget: dict) -> str:
+    """予算の表示。目安の範囲（例: 501～1000円）を基本にし、平均が短い金額ならそれも添える。"""
+    rng = budget.get("name") or ""
+    avg = (budget.get("average") or "").strip()
+    if avg and "円" in avg and len(avg) <= 20 and avg != rng:
+        return f"{rng}（{avg}）" if rng else avg
+    return rng or avg[:20]
+
+
 def compact(shop: dict, genre_label: str) -> dict:
     budget = shop.get("budget") or {}
     photo = ((shop.get("photo") or {}).get("pc") or {}).get("l")
@@ -96,10 +109,9 @@ def compact(shop: dict, genre_label: str) -> dict:
         "catch": (shop.get("catch") or (shop.get("genre") or {}).get("catch") or "")[:80],
         "address": shop.get("address", ""),
         "access": (shop.get("mobile_access") or shop.get("access") or "")[:60],
-        "budget": budget.get("average") or budget.get("name") or "",
+        "budget": budget_text(budget),
         "budget_code": budget.get("code") or "",
-        "open": (shop.get("open") or "")[:90],
-        "lunch": shop.get("lunch") == "あり",
+        "open": (shop.get("open") or "")[:140],
         "photo": photo,
         "url": (shop.get("urls") or {}).get("pc", ""),
         "lat": shop.get("lat"),
@@ -162,6 +174,7 @@ def main() -> int:
         return 0
     meta = {
         "updated": NOW.isoformat(timespec="seconds"),
+        "schema": SCHEMA,
         "areas": meta_areas,
         "genres": [label for _, label in genres],
         "errors": errors,
