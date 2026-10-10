@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-10T17:19:26+09:00",
+ "updated": "2026-10-10T18:18:49+09:00",
  "items": [
   {
    "id": "a840ecfe6cadcc0c",
@@ -102,6 +102,22 @@
    "image_v4": true,
    "shop": false,
    "shop_name": null
+  },
+  {
+   "id": "8fcfebbd34e30ca9",
+   "title": "じゃがいもパン＆さつまいもパンが話題！『カムジャバト』名古屋 ...",
+   "link": "https://jouhou.nagoya/gamzabatt-limited202610/",
+   "source": "名古屋情報通",
+   "image": "https://jouhou.nagoya/wp-content/uploads/2026/10/gamzabatt006-600x399.jpg",
+   "category": "wadai",
+   "area": "名古屋",
+   "published": "2026-10-10T09:32:00+09:00",
+   "provider": "bing",
+   "added": "2026-10-10T18:18:49+09:00",
+   "image_checked": true,
+   "image_v4": true,
+   "shop": true,
+   "shop_name": "カムジャバト"
   },
   {
    "id": "30c71c986fe87d8f",
