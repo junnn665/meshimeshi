@@ -1032,11 +1032,14 @@
     Object.keys(ans).forEach(function (k) {
       (MOOD_TAGS[ans[k]] || []).forEach(function (g) { if (g in score) score[g]++; });
     });
-    var sorted = genres.slice().sort(function (a, b) { return score[b] - score[a]; });
+    // 点数の高い順。同点は毎回ランダムに並べ、最大3ジャンルまでにする
+    var rnd = {};
+    genres.forEach(function (g) { rnd[g] = Math.random(); });
+    var sorted = genres.slice().sort(function (a, b) { return (score[b] - score[a]) || (rnd[a] - rnd[b]); });
     var top = score[sorted[0]];
     var pick = sorted.filter(function (g) { return score[g] === top; });
-    if (pick.length < 2) pick = sorted.filter(function (g) { return score[g] >= top - 1; }).slice(0, 3);
-    return pick;
+    if (pick.length < 2) pick = sorted.filter(function (g) { return score[g] >= top - 1; });
+    return pick.slice(0, 3);
   }
   function openMood() {
     mood = { step: 0, ans: {} };
