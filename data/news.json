@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-11T00:17:53+09:00",
+ "updated": "2026-10-11T01:18:09+09:00",
  "items": [
   {
    "id": "5b4f60567fabc4e8",
@@ -98,6 +98,22 @@
    "provider": "google",
    "added": "2026-10-10T19:18:08+09:00",
    "decode_v2": true,
+   "image_checked": true,
+   "image_v4": true,
+   "shop": false,
+   "shop_name": null
+  },
+  {
+   "id": "aaa8c0c673668982",
+   "title": "北九州の「資さんうどん」が名古屋・熱田区に来る！東海の人が ...",
+   "link": "https://note.com/mile_fool/n/nf0b11c195029",
+   "source": "note",
+   "image": "https://d2l930y2yx77uc.cloudfront.net/production/social_images/f42d2468851e284d6c2de0f98bfa4173e8e6225b.png",
+   "category": "wadai",
+   "area": "名古屋",
+   "published": "2026-10-10T11:31:00+09:00",
+   "provider": "bing",
+   "added": "2026-10-11T01:18:09+09:00",
    "image_checked": true,
    "image_v4": true,
    "shop": false,
