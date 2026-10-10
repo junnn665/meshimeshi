@@ -67,7 +67,7 @@
 
   var PAGE_SIZE = 24;
   var state = {
-    items: [], daily: null,
+    items: [],
     tab: 'all', area: store.get('meshi.area', 'all'), query: '', saved: false,
     shown: PAGE_SIZE,
     savedItems: store.get('meshi.saved', [])
@@ -342,44 +342,157 @@
     return art;
   }
 
-  // ---------- 本日の日替わり ----------
-  function renderDaily() {
-    var box = $('daily');
-    var it = null;
-    if (state.daily) {
-      for (var i = 0; i < state.items.length; i++) {
-        if (state.items[i].id === state.daily.id) { it = state.items[i]; break; }
-      }
+  // ---------- 飯ガチャ ----------
+  var gacha = {
+    area: store.get('meshi.gArea', 'all'),
+    genre: store.get('meshi.gGenre', 'all'),
+    lastId: null,
+    busy: false
+  };
+  if (!AREA[gacha.area]) gacha.area = 'all';
+  if (!CAT[gacha.genre]) gacha.genre = 'all';
+
+  function gachaPool() {
+    var area = AREA[gacha.area];
+    return state.items.filter(function (it) {
+      if (area.match && area.match.indexOf(it.area) < 0) return false;
+      if (gacha.genre !== 'all' && it.category !== gacha.genre) return false;
+      return true;
+    });
+  }
+
+  function pills(boxId, list, current, onPick) {
+    var box = $(boxId);
+    box.textContent = '';
+    list.forEach(function (x) {
+      var b = el('button', 'g-pill', x.id === 'all' && boxId === 'g-genre' ? 'おまかせ' : x.label);
+      b.type = 'button';
+      if (x.color && x.id !== 'all') b.style.setProperty('--cat', x.color);
+      b.setAttribute('aria-pressed', String(current === x.id));
+      b.addEventListener('click', function () {
+        Array.prototype.forEach.call(box.children, function (y) {
+          y.setAttribute('aria-pressed', String(y === b));
+        });
+        onPick(x.id);
+        updatePool();
+      });
+      box.appendChild(b);
+    });
+  }
+
+  function updatePool() {
+    var n = gachaPool().length;
+    var btn = $('g-spin');
+    if (!state.items.length) {
+      $('g-pool').textContent = 'ニュースを読み込み中…';
+      btn.disabled = true;
+    } else if (!n) {
+      $('g-pool').textContent = 'この組み合わせの記事はまだありません。条件を変えてみてください。';
+      btn.disabled = true;
+    } else {
+      $('g-pool').textContent = '候補 ' + n + ' 件から1つ選びます';
+      btn.disabled = gacha.busy;
     }
-    box.hidden = !it;
-    if (!it) return;
+  }
+
+  // 新しい記事・写真付きの記事を少し出やすくする
+  function pickOne(pool) {
+    var now = Date.now();
+    var weights = pool.map(function (it) {
+      var days = (now - Date.parse(it.published)) / 86400000;
+      var w = days < 3 ? 3 : days < 7 ? 2 : 1;
+      if (it.image) w *= 2;
+      if (it.id === gacha.lastId && pool.length > 1) w = 0; // 同じ記事が連続しない
+      return w;
+    });
+    var total = weights.reduce(function (a, b) { return a + b; }, 0);
+    var r = Math.random() * total;
+    for (var i = 0; i < pool.length; i++) {
+      r -= weights[i];
+      if (r < 0) return pool[i];
+    }
+    return pool[pool.length - 1];
+  }
+
+  function showResult(it) {
     var cat = CAT[it.category] || CAT.wadai;
-    var slot = $('daily-slot');
-    slot.textContent = '';
-    var art = el('article', 'daily-card');
-    var a = el('a', 'daily-link');
+    var box = $('g-result');
+    box.textContent = '';
+    var head = el('p', 'g-hit');
+    head.appendChild(el('span', 'g-hit-chip', cat.label));
+    head.appendChild(document.createTextNode('が出ました！'));
+    box.appendChild(head);
+
+    var art = el('article', 'g-card');
+    var a = el('a', 'g-link');
     a.href = it.link;
     a.target = '_blank';
     a.rel = 'noopener';
     a.appendChild(photo(it, cat, true));
-    var body = el('span', 'daily-body');
-    var meta = el('span', 'meta');
-    var chip = el('span', 'chip', cat.label);
-    chip.style.background = cat.color;
-    meta.appendChild(chip);
-    meta.appendChild(el('span', 'when', [it.area, relTime(it.published)].filter(Boolean).join(' ・ ')));
-    body.appendChild(meta);
-    body.appendChild(el('span', 'daily-title', it.title));
+    var body = el('span', 'g-card-body');
+    body.appendChild(el('span', 'when', [it.area, relTime(it.published)].filter(Boolean).join(' ・ ')));
+    body.appendChild(el('span', 'g-title', it.title));
     body.appendChild(el('span', 'source', '出典：' + (it.source || '不明')));
-    body.appendChild(el('span', 'daily-cta', '記事を読む →'));
+    body.appendChild(el('span', 'g-cta', '記事を読む →'));
     a.appendChild(body);
     art.appendChild(a);
     art.appendChild(saveButton(it));
-    slot.appendChild(art);
+    box.appendChild(art);
 
-    var d = state.daily.date ? new Date(state.daily.date + 'T00:00:00+09:00') : new Date();
-    var wd = '日月火水木金土'.charAt(d.getDay());
-    $('daily-date').textContent = (d.getMonth() + 1) + '月' + d.getDate() + '日（' + wd + '）';
+    var again = el('button', 'g-again', 'もう1回まわす');
+    again.type = 'button';
+    again.addEventListener('click', spin);
+    box.appendChild(again);
+
+    $('machine').hidden = true;
+    box.hidden = false;
+    box.classList.remove('show'); void box.offsetWidth; box.classList.add('show');
+  }
+
+  function spin() {
+    var pool = gachaPool();
+    if (gacha.busy || !pool.length) return;
+    var it = pickOne(pool);
+    gacha.lastId = it.id;
+    gacha.busy = true;
+    updatePool();
+
+    var m = $('machine');
+    var drop = $('drop');
+    $('g-result').hidden = true;
+    m.hidden = false;
+    drop.style.setProperty('--c', (CAT[it.category] || CAT.wadai).color);
+    m.classList.remove('spinning', 'dropping', 'opening');
+
+    // スマホでは機械が画面に見えるところまでスクロールする
+    var stage = document.querySelector('.gacha-stage');
+    var r = stage.getBoundingClientRect();
+    if (r.top < 0 || r.bottom > window.innerHeight) {
+      stage.scrollIntoView({ behavior: 'smooth', block: 'center' });
+    }
+
+    var reduce = false;
+    try { reduce = window.matchMedia('(prefers-reduced-motion: reduce)').matches; } catch (e) { /* noop */ }
+    var finish = function () {
+      gacha.busy = false;
+      m.classList.remove('spinning', 'dropping', 'opening');
+      showResult(it);
+      updatePool();
+    };
+    if (reduce) { finish(); return; }
+
+    void m.offsetWidth;
+    m.classList.add('spinning');                                      // ハンドルが回る
+    setTimeout(function () { m.classList.add('dropping'); }, 1000);  // カプセルが出る
+    setTimeout(function () { m.classList.add('opening'); }, 1800);   // カプセルが開く
+    setTimeout(finish, 2350);
+  }
+
+  function buildGacha() {
+    pills('g-area', AREAS, gacha.area, function (id) { gacha.area = id; store.set('meshi.gArea', id); });
+    pills('g-genre', CATEGORIES, gacha.genre, function (id) { gacha.genre = id; store.set('meshi.gGenre', id); });
+    $('g-spin').addEventListener('click', spin);
+    updatePool();
   }
 
   // ---------- 一覧 ----------
@@ -445,7 +558,6 @@
         state.items = (data.items || []).slice().sort(function (a, b) {
           return Date.parse(b.published) - Date.parse(a.published);
         });
-        state.daily = data.daily || null;
         if (!state.items.length) {
           $('status').textContent = 'まだニュースがありません。次の自動更新をお待ちください。';
         }
@@ -454,7 +566,7 @@
           $('updated').textContent = '最終更新：' + d.toLocaleString('ja-JP', { timeZone: 'Asia/Tokyo' });
         }
         renderTicker();
-        renderDaily();
+        updatePool();
         refreshView();
         centerActive(false);
       })
@@ -472,5 +584,6 @@
 
   buildTabs();
   buildTools();
+  buildGacha();
   load();
 })();

@@ -34,12 +34,41 @@
 </div>
 
 <main class="wrap main">
-  <section class="daily" id="daily" aria-labelledby="daily-heading" hidden>
-    <div class="daily-head">
-      <h2 class="daily-heading" id="daily-heading"><span class="daily-small">本日の</span>日替わり定食</h2>
-      <p class="daily-date" id="daily-date"></p>
+  <section class="gacha" id="gacha" aria-labelledby="gacha-heading">
+    <div class="gacha-head">
+      <h2 class="gacha-heading" id="gacha-heading"><span class="gacha-small">今日なに食べる？</span>飯ガチャ</h2>
+      <p class="gacha-lead">エリアとジャンルを選んで回すと、気になるお店のニュースを1つ選びます。</p>
     </div>
-    <div id="daily-slot"></div>
+    <div class="gacha-body">
+      <div class="gacha-controls">
+        <p class="g-label" id="g-area-label">エリア</p>
+        <div class="g-pills" id="g-area" role="group" aria-labelledby="g-area-label"></div>
+        <p class="g-label" id="g-genre-label">ジャンル</p>
+        <div class="g-pills" id="g-genre" role="group" aria-labelledby="g-genre-label"></div>
+        <button type="button" class="g-spin" id="g-spin">ガチャを回す</button>
+        <p class="g-pool" id="g-pool" aria-live="polite"></p>
+      </div>
+      <div class="gacha-stage">
+        <div class="machine" id="machine" aria-hidden="true">
+          <div class="dome">
+            <span class="cap" style="--c:#C2410C;left:14%;top:52%"></span>
+            <span class="cap" style="--c:#1D4ED8;left:38%;top:58%"></span>
+            <span class="cap" style="--c:#3F6212;left:62%;top:54%"></span>
+            <span class="cap" style="--c:#86198F;left:24%;top:30%"></span>
+            <span class="cap" style="--c:#A16207;left:50%;top:34%"></span>
+            <span class="cap" style="--c:#B91C1C;left:72%;top:28%"></span>
+            <span class="cap" style="--c:#FFC93C;left:40%;top:12%"></span>
+          </div>
+          <div class="base">
+            <span class="plate">飯ガチャ</span>
+            <span class="handle"><span class="grip"></span></span>
+            <span class="outlet"></span>
+          </div>
+          <span class="drop" id="drop"><span class="cap-top"></span><span class="cap-bottom"></span></span>
+        </div>
+        <div class="g-result" id="g-result" hidden></div>
+      </div>
+    </div>
   </section>
 
   <nav class="tabs" id="tabs" aria-label="カテゴリ"></nav>
