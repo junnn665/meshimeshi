@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-10T18:18:49+09:00",
+ "updated": "2026-10-10T19:18:08+09:00",
  "items": [
   {
    "id": "a840ecfe6cadcc0c",
@@ -63,6 +63,23 @@
    "published": "2026-10-10T14:57:36+09:00",
    "provider": "google",
    "added": "2026-10-10T15:23:55+09:00",
+   "decode_v2": true,
+   "image_checked": true,
+   "image_v4": true,
+   "shop": false,
+   "shop_name": null
+  },
+  {
+   "id": "7763d41b7ce93c84",
+   "title": "函館で味わうとっておきのモーニング＜その２＞",
+   "link": "https://www.hakobura.jp/features/418",
+   "source": "はこぶら - 函館市公式観光サイト",
+   "image": "https://www.hakobura.jp/rails/active_storage/representations/proxy/eyJfcmFpbHMiOnsiZGF0YSI6MTAzMzcwLCJwdXIiOiJibG9iX2lkIn19--244b23f41c80a0f50854fbf3067fa0d1456fb505/eyJfcmFpbHMiOnsiZGF0YSI6eyJmb3JtYXQiOiJqcGciLCJyZXNpemVfdG9fZml0IjpbMTAyNCxudWxsXX0sInB1ciI6InZhcmlhdGlvbiJ9fQ==--9ded8730b5edd02db2112445c498cc9993582ce1/DSC_2374.jpg",
+   "category": "yasuuma",
+   "area": "東海",
+   "published": "2026-10-10T14:44:40+09:00",
+   "provider": "google",
+   "added": "2026-10-10T19:18:08+09:00",
    "decode_v2": true,
    "image_checked": true,
    "image_v4": true,
