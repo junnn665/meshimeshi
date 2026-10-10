@@ -53,14 +53,56 @@ button { font-family: inherit; cursor: pointer; }
 /* 本体 */
 .main { padding-top: 28px; padding-bottom: 48px; display: flex; flex-direction: column; gap: 20px; }
 
-.tabs { display: flex; flex-wrap: wrap; gap: 8px; }
-.tab {
-  min-height: 44px; padding: 8px 18px; border-radius: 999px;
-  font-size: 15px; font-weight: 700;
-  border: 2px solid var(--ink); background: #fff; color: var(--ink);
+
+/* ===== カテゴリ：食堂のお品書き札 ===== */
+.tabs { position: relative; }
+.tab { all: unset; box-sizing: border-box; cursor: pointer; font-family: inherit; -webkit-tap-highlight-color: transparent; }
+.tab:focus-visible { outline: 3px solid var(--red); outline-offset: 2px; }
+.tab-icon { display: inline-flex; }
+.tab-icon svg { width: 100%; height: 100%; }
+
+.tabs {
+  display: flex; flex-wrap: nowrap; align-items: flex-start; gap: 10px; overflow-x: auto; scrollbar-width: none;
+  margin: 0 -16px; padding: 14px 16px 12px;
+  background:
+    linear-gradient(var(--ink), var(--ink)) 0 13px / 100% 2px no-repeat;
 }
-.tab[aria-pressed="true"] { background: var(--ink); color: var(--yellow); }
-.tab .count { font-size: 12px; opacity: 0.7; margin-left: 4px; }
+.tabs::-webkit-scrollbar { display: none; }
+.tab {
+  flex: 0 0 auto; position: relative;
+  width: 54px; min-height: 132px; padding: 16px 0 10px;
+  display: flex; flex-direction: column; align-items: center; gap: 8px;
+  background: #FFF6E3; border: 2px solid var(--ink); border-radius: 3px 3px 6px 6px;
+  box-shadow: 0 3px 0 rgba(43, 33, 24, 0.18);
+  color: var(--ink); transform-origin: 50% 0;
+  transition: transform .25s cubic-bezier(.3, 1.6, .5, 1), background .2s, color .2s;
+}
+.tab::before { /* 吊るしている釘 */
+  content: ""; position: absolute; top: -9px; left: 50%; width: 8px; height: 8px; margin-left: -4px;
+  border-radius: 50%; background: var(--ink);
+}
+.tab-icon { width: 22px; height: 22px; color: var(--cat); }
+.tab-label {
+  display: flex; flex-direction: column; align-items: center;
+  font-size: 16px; font-weight: 900; line-height: 1.12;
+}
+.tab-label .ch { display: block; }
+.tab-label .chouon { transform: rotate(90deg); }
+.count {
+  margin-top: auto; font-size: 11px; font-weight: 700; color: var(--muted);
+}
+.tab:hover { transform: rotate(-2deg); }
+.tab[aria-pressed="true"] {
+  background: var(--red); color: #fff; transform: rotate(3deg) translateY(2px);
+}
+.tab[aria-pressed="true"] .tab-icon,
+.tab[aria-pressed="true"] .count { color: #fff; }
+
+@media (min-width: 720px) {
+  .tabs { gap: 14px; }
+  .tab { width: 62px; }
+  .tab-label { font-size: 18px; }
+}
 
 .list-head { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 12px; }
 .list-head h2 { margin: 0; font-size: 24px; font-weight: 900; }
@@ -108,5 +150,4 @@ button { font-family: inherit; cursor: pointer; }
   .logo { font-size: 42px; }
   .grid { grid-template-columns: minmax(0, 1fr); gap: 16px; }
   .photo { height: 160px; }
-  .tab { padding: 8px 14px; font-size: 14px; }
 }

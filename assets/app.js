@@ -13,6 +13,24 @@
   var CAT = {};
   CATEGORIES.forEach(function (c) { CAT[c.id] = c; });
 
+  // カテゴリのアイコン（線画SVG）
+  var ICONS = {
+    all: '<path d="M3 12h18a9 9 0 0 1-18 0z"/><path d="M9 8c0-1.5 1-2 1-3.5M14 8c0-1.5 1-2 1-3.5"/>',
+    deka: '<path d="M3 13h18a9 9 0 0 1-18 0z"/><path d="M6 13c0-4.5 2.7-8 6-8s6 3.5 6 8"/><path d="M10 9.5h.01M14 8.5h.01M12.5 11h.01"/>',
+    wadai: '<path d="M12 3c.8 3.6 5 5.2 5 10.2a5 5 0 0 1-10 0c0-2.6 1.4-3.8 2-5.7.9 1 1.6 1.7 2.6 2C11.9 7.6 11.2 5.3 12 3z"/>',
+    shinten: '<path d="M4 9.5 5 4h14l1 5.5"/><path d="M4 9.5a2.7 2.7 0 0 0 5.3 0 2.7 2.7 0 0 0 5.4 0 2.7 2.7 0 0 0 5.3 0"/><path d="M5 12v8h14v-8M10 20v-5h4v5"/>',
+    chain: '<path d="M12 3l2 6 6 2-6 2-2 6-2-6-6-2 6-2z"/><path d="M19 3v3M17.5 4.5h3"/>',
+    conbini: '<path d="M12 4C10 4 4 13.5 4 17a3 3 0 0 0 3 3h10a3 3 0 0 0 3-3c0-3.5-6-13-8-13z"/><path d="M9 15h6v5H9z"/>',
+    yasuuma: '<circle cx="12" cy="12" r="9"/><path d="M9 7l3 4 3-4M12 11v6M9 12.5h6M9 15h6"/>'
+  };
+  function icon(id) {
+    var s = document.createElement('span');
+    s.className = 'tab-icon';
+    s.setAttribute('aria-hidden', 'true');
+    s.innerHTML = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">' + ICONS[id] + '</svg>';
+    return s;
+  }
+
   var PAGE_SIZE = 24;
   var state = { items: [], tab: 'all', shown: PAGE_SIZE };
 
@@ -52,18 +70,43 @@
       var n = c.id === 'all'
         ? state.items.length
         : state.items.filter(function (it) { return it.category === c.id; }).length;
-      var b = el('button', 'tab', c.label);
+      var b = el('button', 'tab');
       b.type = 'button';
+      b.style.setProperty('--cat', c.color);
       b.setAttribute('aria-pressed', String(state.tab === c.id));
+      b.appendChild(icon(c.id));
+      // 1文字ずつ分けておく（お品書き札で縦に積むため）
+      var lab = el('span', 'tab-label');
+      lab.setAttribute('aria-label', c.label);
+      Array.prototype.forEach.call(c.label, function (ch) {
+        var s = el('span', ch === 'ー' ? 'ch chouon' : 'ch', ch);
+        s.setAttribute('aria-hidden', 'true');
+        lab.appendChild(s);
+      });
+      b.appendChild(lab);
       if (state.items.length) b.appendChild(el('span', 'count', String(n)));
       b.addEventListener('click', function () {
         state.tab = c.id;
         state.shown = PAGE_SIZE;
         history.replaceState(null, '', c.id === 'all' ? location.pathname : '#' + c.id);
-        render();
+        Array.prototype.forEach.call(nav.children, function (x) {
+          x.setAttribute('aria-pressed', String(x === b));
+        });
+        renderList();
+        centerActive(true);
       });
       nav.appendChild(b);
     });
+    centerActive(false);
+  }
+
+  // 横スクロールのときは選んだカテゴリを真ん中に寄せる
+  function centerActive(smooth) {
+    var nav = $('tabs');
+    var act = nav.querySelector('[aria-pressed="true"]');
+    if (!act || nav.scrollWidth <= nav.clientWidth) return;
+    var left = act.offsetLeft - (nav.clientWidth - act.offsetWidth) / 2;
+    nav.scrollTo({ left: left, behavior: smooth ? 'smooth' : 'auto' });
   }
 
   function photo(it, cat) {
