@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-10T09:30:33+09:00",
+ "updated": "2026-10-10T10:01:36+09:00",
  "items": [
   {
    "id": "30c71c986fe87d8f",
@@ -63,6 +63,18 @@
    "published": "2026-10-09T20:38:04+09:00",
    "provider": "google",
    "decode_v2": true,
+   "image_checked": true
+  },
+  {
+   "id": "9df13cdd20bf98a3",
+   "title": "2400人の学生が校舎を飛び出し、地域課題に挑む。1000人で清掃活動・子ども食堂・街のお困りごとをお手伝い！「メタ・キャンパス・サミット名古屋2026」10月17日(土)・18日(日)開催",
+   "link": "https://prtimes.jp/main/html/rd/p/000000264.000122890.html",
+   "source": "PR TIMES",
+   "image": "https://prcdn.freetls.fastly.net/release_image/122890/264/122890-264-7e494e8db6287dfeb1385d008c5dbcc8-1823x961.png?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260",
+   "category": "chain",
+   "area": "名古屋",
+   "published": "2026-10-09T19:22:19+09:00",
+   "provider": "prtimes",
    "image_checked": true
   },
   {
