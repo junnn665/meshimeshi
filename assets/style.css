@@ -672,8 +672,8 @@ button { font-family: inherit; cursor: pointer; }
   font-family: inherit; font-size: 12px; font-weight: 700;
 }
 .g-mood-open b { margin-left: 4px; font-weight: 900; color: #B42318; }
-.g-pill.mood[aria-pressed="true"] { background: var(--red); border-color: var(--red); color: #fff; }
-.g-pill.mood { border-color: var(--red); }
+.g-pill.g-pill-mood[aria-pressed="true"] { background: var(--red); border-color: var(--red); color: #fff; }
+.g-pill.g-pill-mood { border-color: var(--red); }
 
 .mood {
   position: fixed; inset: 0; z-index: 50; display: flex; align-items: center; justify-content: center;

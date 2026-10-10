@@ -997,7 +997,7 @@
   }
   function buildGenrePills() {
     var list = [{ id: 'all', label: 'おまかせ' }];
-    if (gacha.moodGenres.length) list.push({ id: 'mood', label: '気分：' + gacha.moodLabel, cls: 'mood' });
+    if (gacha.moodGenres.length) list.push({ id: 'mood', label: '気分：' + gacha.moodLabel, cls: 'g-pill-mood' });
     list = list.concat(gacha.genreList.map(function (g) { return { id: g, label: g }; }));
     pills('g-genre', list, gacha.genre, function (id) {
       gacha.genre = id;
