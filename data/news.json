@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-10T10:26:40+09:00",
+ "updated": "2026-10-10T10:34:58+09:00",
  "items": [
   {
    "id": "30c71c986fe87d8f",
@@ -13,7 +13,9 @@
    "provider": "google",
    "decode_v2": true,
    "image_checked": true,
-   "added": "2026-10-10T07:31:33+09:00"
+   "added": "2026-10-10T07:31:33+09:00",
+   "shop": false,
+   "shop_name": null
   },
   {
    "id": "378c4a901295597f",
@@ -29,7 +31,9 @@
    "image_checked": true,
    "image_v3": true,
    "image_v4": true,
-   "added": "2026-10-10T06:33:05+09:00"
+   "added": "2026-10-10T06:33:05+09:00",
+   "shop": false,
+   "shop_name": null
   },
   {
    "id": "6528212e55edfc6b",
@@ -43,7 +47,9 @@
    "provider": "bing",
    "image_checked": true,
    "image_v3": true,
-   "added": "2026-10-10T03:08:00+09:00"
+   "added": "2026-10-10T03:08:00+09:00",
+   "shop": false,
+   "shop_name": null
   },
   {
    "id": "9d0d5d9effa6ec85",
@@ -56,7 +62,9 @@
    "published": "2026-10-10T02:00:00+09:00",
    "provider": "bing",
    "image_checked": true,
-   "added": "2026-10-10T02:00:00+09:00"
+   "added": "2026-10-10T02:00:00+09:00",
+   "shop": false,
+   "shop_name": null
   },
   {
    "id": "e2fc34f34cfc6fd6",
@@ -70,7 +78,9 @@
    "provider": "google",
    "decode_v2": true,
    "image_checked": true,
-   "added": "2026-10-10T01:24:52+09:00"
+   "added": "2026-10-10T01:24:52+09:00",
+   "shop": false,
+   "shop_name": null
   },
   {
    "id": "f557f1ba09c7ce1f",
@@ -84,7 +94,9 @@
    "provider": "google",
    "decode_v2": true,
    "image_checked": true,
-   "added": "2026-10-09T20:38:04+09:00"
+   "added": "2026-10-09T20:38:04+09:00",
+   "shop": false,
+   "shop_name": null
   },
   {
    "id": "9df13cdd20bf98a3",
@@ -97,7 +109,9 @@
    "published": "2026-10-09T19:22:19+09:00",
    "provider": "prtimes",
    "image_checked": true,
-   "added": "2026-10-09T19:22:19+09:00"
+   "added": "2026-10-09T19:22:19+09:00",
+   "shop": false,
+   "shop_name": null
   },
   {
    "id": "0e60fee94020b713",
@@ -111,7 +125,9 @@
    "provider": "google",
    "decode_v2": true,
    "image_checked": true,
-   "added": "2026-10-09T18:30:57+09:00"
+   "added": "2026-10-09T18:30:57+09:00",
+   "shop": false,
+   "shop_name": null
   },
   {
    "id": "c1648a44648d1b94",
@@ -125,7 +141,9 @@
    "provider": "google",
    "decode_v2": true,
    "image_checked": true,
-   "added": "2026-10-09T17:25:25+09:00"
+   "added": "2026-10-09T17:25:25+09:00",
+   "shop": false,
+   "shop_name": null
   },
   {
    "id": "fdd8ebe945d3c536",
@@ -139,7 +157,9 @@
    "provider": "google",
    "decode_v2": true,
    "image_checked": true,
-   "added": "2026-10-09T17:07:55+09:00"
+   "added": "2026-10-09T17:07:55+09:00",
+   "shop": true,
+   "shop_name": "なかがわ 街仲食堂 by ジーバーFOOD"
   },
   {
    "id": "1eb27039682bc593",
@@ -152,7 +172,9 @@
    "published": "2026-10-09T16:41:09+09:00",
    "provider": "prtimes",
    "image_checked": true,
-   "added": "2026-10-09T16:41:09+09:00"
+   "added": "2026-10-09T16:41:09+09:00",
+   "shop": false,
+   "shop_name": null
   },
   {
    "id": "6bb6f137cd460c2a",
@@ -166,7 +188,9 @@
    "provider": "google",
    "decode_v2": true,
    "image_checked": true,
-   "added": "2026-10-09T15:45:00+09:00"
+   "added": "2026-10-09T15:45:00+09:00",
+   "shop": false,
+   "shop_name": null
   },
   {
    "id": "e906f868f38f0c86",
@@ -180,7 +204,9 @@
    "provider": "google",
    "decode_v2": true,
    "image_checked": true,
-   "added": "2026-10-09T14:58:00+09:00"
+   "added": "2026-10-09T14:58:00+09:00",
+   "shop": false,
+   "shop_name": null
   },
   {
    "id": "f44c66ea9ed0fe2c",
@@ -194,7 +220,9 @@
    "provider": "google",
    "decode_v2": true,
    "image_checked": true,
-   "added": "2026-10-09T14:34:20+09:00"
+   "added": "2026-10-09T14:34:20+09:00",
+   "shop": false,
+   "shop_name": null
   },
   {
    "id": "8a65457710366b0f",
@@ -208,7 +236,9 @@
    "provider": "google",
    "decode_v2": true,
    "image_checked": true,
-   "added": "2026-10-09T12:03:11+09:00"
+   "added": "2026-10-09T12:03:11+09:00",
+   "shop": false,
+   "shop_name": null
   },
   {
    "id": "fa61db42ecff4dd4",
@@ -222,7 +252,9 @@
    "provider": "google",
    "decode_v2": true,
    "image_checked": true,
-   "added": "2026-10-09T12:00:07+09:00"
+   "added": "2026-10-09T12:00:07+09:00",
+   "shop": false,
+   "shop_name": null
   },
   {
    "id": "b428392a2e27708f",
@@ -235,21 +267,9 @@
    "published": "2026-10-09T11:28:00+09:00",
    "provider": "bing",
    "image_checked": true,
-   "added": "2026-10-09T11:28:00+09:00"
-  },
-  {
-   "id": "77b8161d7d9add30",
-   "title": "「ウルフギャング・ステーキハウス」高輪店 平日限定「Weekday Course」販売",
-   "link": "https://prtimes.jp/main/html/rd/p/000001340.000018232.html",
-   "source": "PR TIMES",
-   "image": "https://prcdn.freetls.fastly.net/release_image/18232/1340/18232-1340-effca9c529018fbd0466eb137b0b936b-3402x2268.jpg?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260",
-   "category": "chain",
-   "area": "東海",
-   "published": "2026-10-09T11:00:02+09:00",
-   "provider": "google",
-   "decode_v2": true,
-   "image_checked": true,
-   "added": "2026-10-09T11:00:02+09:00"
+   "added": "2026-10-09T11:28:00+09:00",
+   "shop": true,
+   "shop_name": null
   },
   {
    "id": "21de86e960e0a433",
@@ -262,35 +282,9 @@
    "published": "2026-10-09T10:30:00+09:00",
    "provider": "prtimes",
    "image_checked": true,
-   "added": "2026-10-09T10:30:00+09:00"
-  },
-  {
-   "id": "afa87c1524327508",
-   "title": "【10/12〜】食欲の秋は『汐留横丁』で！真鯛を丸ごと1匹使った「真鯛のメガカツ」や総重量約1kgのカレーなど「デカ盛りメニュー」が登場",
-   "link": "https://www.value-press.com/pressrelease/382158",
-   "source": "valuepress",
-   "image": "https://files.value-press.com/czMjZXllY2F0Y2gjNTU4OTQjNTU4OTRfd0pvUlpDUHdDZC5qcGc.jpg?size=eyecatch",
-   "category": "deka",
-   "area": "東海",
-   "published": "2026-10-09T10:00:00+09:00",
-   "provider": "google",
-   "decode_v2": true,
-   "image_checked": true,
-   "added": "2026-10-09T10:00:00+09:00"
-  },
-  {
-   "id": "b9ec7250967acf14",
-   "title": "山梨県に初出店！本格職人握り寿司居酒屋 「や台ずし甲府中央町」が11月6日(金)オープン！",
-   "link": "https://newscast.jp/smart/news/8835169",
-   "source": "Newscast.jp",
-   "image": "https://www.atpress.ne.jp/attachments/WpDlhJpVsNJVEj0naixL.jpg",
-   "category": "shinten",
-   "area": "東海",
-   "published": "2026-10-09T09:30:00+09:00",
-   "provider": "google",
-   "decode_v2": true,
-   "image_checked": true,
-   "added": "2026-10-09T09:30:00+09:00"
+   "added": "2026-10-09T10:30:00+09:00",
+   "shop": false,
+   "shop_name": null
   },
   {
    "id": "c2317a8492863088",
@@ -303,7 +297,9 @@
    "published": "2026-10-09T09:10:00+09:00",
    "provider": "prtimes",
    "image_checked": true,
-   "added": "2026-10-09T09:10:00+09:00"
+   "added": "2026-10-09T09:10:00+09:00",
+   "shop": false,
+   "shop_name": null
   },
   {
    "id": "207e47491d9eaeef",
@@ -316,7 +312,9 @@
    "published": "2026-10-09T09:00:00+09:00",
    "provider": "prtimes",
    "image_checked": true,
-   "added": "2026-10-09T09:00:00+09:00"
+   "added": "2026-10-09T09:00:00+09:00",
+   "shop": false,
+   "shop_name": null
   },
   {
    "id": "1b82d7872e4af5b8",
@@ -329,7 +327,9 @@
    "published": "2026-10-09T06:21:00+09:00",
    "provider": "bing",
    "image_checked": true,
-   "added": "2026-10-09T06:21:00+09:00"
+   "added": "2026-10-09T06:21:00+09:00",
+   "shop": false,
+   "shop_name": null
   },
   {
    "id": "eb072150a050793a",
@@ -343,7 +343,9 @@
    "provider": "google",
    "decode_v2": true,
    "image_checked": true,
-   "added": "2026-10-09T06:20:28+09:00"
+   "added": "2026-10-09T06:20:28+09:00",
+   "shop": false,
+   "shop_name": null
   },
   {
    "id": "0d964a16b28369d9",
@@ -357,7 +359,9 @@
    "provider": "google",
    "decode_v2": true,
    "image_checked": true,
-   "added": "2026-10-09T06:15:10+09:00"
+   "added": "2026-10-09T06:15:10+09:00",
+   "shop": false,
+   "shop_name": null
   },
   {
    "id": "0643aaeb068504d6",
@@ -371,7 +375,9 @@
    "provider": "google",
    "decode_v2": true,
    "image_checked": true,
-   "added": "2026-10-09T05:58:00+09:00"
+   "added": "2026-10-09T05:58:00+09:00",
+   "shop": false,
+   "shop_name": null
   },
   {
    "id": "5b155e3671e0b564",
@@ -385,7 +391,9 @@
    "provider": "google",
    "decode_v2": true,
    "image_checked": true,
-   "added": "2026-10-09T05:56:25+09:00"
+   "added": "2026-10-09T05:56:25+09:00",
+   "shop": false,
+   "shop_name": null
   },
   {
    "id": "8a4b65c64807dfd4",
@@ -399,7 +407,9 @@
    "provider": "google",
    "decode_v2": true,
    "image_checked": true,
-   "added": "2026-10-09T05:00:45+09:00"
+   "added": "2026-10-09T05:00:45+09:00",
+   "shop": false,
+   "shop_name": null
   },
   {
    "id": "f29047a6cf0e074c",
@@ -413,7 +423,9 @@
    "provider": "google",
    "decode_v2": true,
    "image_checked": true,
-   "added": "2026-10-09T03:04:21+09:00"
+   "added": "2026-10-09T03:04:21+09:00",
+   "shop": false,
+   "shop_name": null
   },
   {
    "id": "55b208568124daff",
@@ -426,7 +438,9 @@
    "published": "2026-10-09T02:00:00+09:00",
    "provider": "bing",
    "image_checked": true,
-   "added": "2026-10-09T02:00:00+09:00"
+   "added": "2026-10-09T02:00:00+09:00",
+   "shop": false,
+   "shop_name": null
   },
   {
    "id": "be049d07bfc450fb",
@@ -439,7 +453,9 @@
    "published": "2026-10-09T02:00:00+09:00",
    "provider": "bing",
    "image_checked": true,
-   "added": "2026-10-09T02:00:00+09:00"
+   "added": "2026-10-09T02:00:00+09:00",
+   "shop": true,
+   "shop_name": null
   },
   {
    "id": "2fa9e3eadcbaec50",
@@ -452,7 +468,9 @@
    "published": "2026-10-08T22:10:02+09:00",
    "provider": "prtimes",
    "image_checked": true,
-   "added": "2026-10-08T22:10:02+09:00"
+   "added": "2026-10-08T22:10:02+09:00",
+   "shop": false,
+   "shop_name": null
   },
   {
    "id": "f84c972e6cb495cc",
@@ -469,7 +487,9 @@
    "decode_v2": true,
    "image_v3": true,
    "image_v4": true,
-   "added": "2026-10-08T19:45:23+09:00"
+   "added": "2026-10-08T19:45:23+09:00",
+   "shop": false,
+   "shop_name": null
   },
   {
    "id": "9e385471c131a711",
@@ -486,7 +506,9 @@
    "decode_v2": true,
    "image_v3": true,
    "image_v4": true,
-   "added": "2026-10-08T19:14:18+09:00"
+   "added": "2026-10-08T19:14:18+09:00",
+   "shop": false,
+   "shop_name": null
   },
   {
    "id": "18a81f4d54e72afe",
@@ -501,7 +523,9 @@
    "image_checked": true,
    "decode_tried": true,
    "decode_v2": true,
-   "added": "2026-10-08T18:01:57+09:00"
+   "added": "2026-10-08T18:01:57+09:00",
+   "shop": false,
+   "shop_name": null
   },
   {
    "id": "5d6550b2cc394012",
@@ -515,7 +539,9 @@
    "provider": "google",
    "decode_v2": true,
    "image_checked": true,
-   "added": "2026-10-08T18:00:48+09:00"
+   "added": "2026-10-08T18:00:48+09:00",
+   "shop": false,
+   "shop_name": null
   },
   {
    "id": "679ea65bfd908ba2",
@@ -529,7 +555,9 @@
    "provider": "google",
    "decode_v2": true,
    "image_checked": true,
-   "added": "2026-10-08T18:00:00+09:00"
+   "added": "2026-10-08T18:00:00+09:00",
+   "shop": false,
+   "shop_name": null
   },
   {
    "id": "4c22bcdc961c6c6f",
@@ -542,7 +570,9 @@
    "published": "2026-10-08T13:40:42+09:00",
    "provider": "prtimes",
    "image_checked": true,
-   "added": "2026-10-08T13:40:42+09:00"
+   "added": "2026-10-08T13:40:42+09:00",
+   "shop": false,
+   "shop_name": null
   },
   {
    "id": "c549a91cbb0afe56",
@@ -559,7 +589,9 @@
    "decode_v2": true,
    "image_v3": true,
    "image_v4": true,
-   "added": "2026-10-08T13:30:21+09:00"
+   "added": "2026-10-08T13:30:21+09:00",
+   "shop": false,
+   "shop_name": null
   },
   {
    "id": "a764eb4edd4b45e7",
@@ -574,7 +606,9 @@
    "image_checked": true,
    "decode_tried": true,
    "decode_v2": true,
-   "added": "2026-10-08T13:07:47+09:00"
+   "added": "2026-10-08T13:07:47+09:00",
+   "shop": false,
+   "shop_name": null
   },
   {
    "id": "833a87b17a8bf4a3",
@@ -589,7 +623,9 @@
    "image_checked": true,
    "decode_tried": true,
    "decode_v2": true,
-   "added": "2026-10-08T12:12:59+09:00"
+   "added": "2026-10-08T12:12:59+09:00",
+   "shop": false,
+   "shop_name": null
   },
   {
    "id": "35052c6fb08a672e",
@@ -604,7 +640,9 @@
    "image_checked": true,
    "decode_tried": true,
    "decode_v2": true,
-   "added": "2026-10-08T12:02:06+09:00"
+   "added": "2026-10-08T12:02:06+09:00",
+   "shop": false,
+   "shop_name": null
   },
   {
    "id": "06395e34ef073fc3",
@@ -618,7 +656,9 @@
    "provider": "google",
    "decode_v2": true,
    "image_checked": true,
-   "added": "2026-10-08T12:00:02+09:00"
+   "added": "2026-10-08T12:00:02+09:00",
+   "shop": false,
+   "shop_name": null
   },
   {
    "id": "ec8fbff338f02cea",
@@ -633,7 +673,9 @@
    "image_checked": true,
    "decode_tried": true,
    "decode_v2": true,
-   "added": "2026-10-08T12:00:00+09:00"
+   "added": "2026-10-08T12:00:00+09:00",
+   "shop": true,
+   "shop_name": "古民家カフェ Charm"
   },
   {
    "id": "a123589db391fc41",
@@ -647,7 +689,9 @@
    "provider": "bing",
    "image_checked": true,
    "image_v3": true,
-   "added": "2026-10-08T11:59:00+09:00"
+   "added": "2026-10-08T11:59:00+09:00",
+   "shop": false,
+   "shop_name": null
   },
   {
    "id": "3103b201f1584bb8",
@@ -662,7 +706,9 @@
    "image_checked": true,
    "decode_tried": true,
    "decode_v2": true,
-   "added": "2026-10-08T11:00:02+09:00"
+   "added": "2026-10-08T11:00:02+09:00",
+   "shop": false,
+   "shop_name": null
   },
   {
    "id": "e087f6327e2519b1",
@@ -676,7 +722,9 @@
    "provider": "google",
    "decode_v2": true,
    "image_checked": true,
-   "added": "2026-10-08T10:48:00+09:00"
+   "added": "2026-10-08T10:48:00+09:00",
+   "shop": false,
+   "shop_name": null
   },
   {
    "id": "2c494e0972fbfac9",
@@ -691,7 +739,9 @@
    "image_checked": true,
    "decode_tried": true,
    "decode_v2": true,
-   "added": "2026-10-08T10:30:01+09:00"
+   "added": "2026-10-08T10:30:01+09:00",
+   "shop": true,
+   "shop_name": "イタリアにお邪魔する"
   },
   {
    "id": "f7214831dcaf8d4f",
@@ -706,22 +756,9 @@
    "image_checked": true,
    "decode_tried": true,
    "decode_v2": true,
-   "added": "2026-10-08T10:17:00+09:00"
-  },
-  {
-   "id": "80adf627854e5403",
-   "title": "【ロンドン日本食】ラーメンと創作和食で人気、若手シェフの新店「ナキムシ」",
-   "link": "https://madamefigaro.jp/lifestyle/261008-nakimushi-london-japanese-restaurant-notting-hill/",
-   "source": "madameFIGARO.jp",
-   "image": "https://madamefigaro.jp/wp-content/uploads/2026/10/261008-nakimushi-london-japanese-restaurant-notting-hill-1.png",
-   "category": "shinten",
-   "area": "東海",
-   "published": "2026-10-08T09:50:51+09:00",
-   "provider": "google",
-   "image_checked": true,
-   "decode_tried": true,
-   "decode_v2": true,
-   "added": "2026-10-08T09:50:51+09:00"
+   "added": "2026-10-08T10:17:00+09:00",
+   "shop": false,
+   "shop_name": null
   },
   {
    "id": "bb7f0cf008f900a2",
@@ -735,22 +772,9 @@
    "provider": "google",
    "decode_v2": true,
    "image_checked": true,
-   "added": "2026-10-08T07:58:00+09:00"
-  },
-  {
-   "id": "33f7ce21e59a3934",
-   "title": "ひらまつ、高輪ゲートウェイシティ「ニュウマン高輪」29階にレストラン「HRMT BEYOND」をオープン",
-   "link": "https://gourmet.watch.impress.co.jp/docs/news/2146417.html",
-   "source": "グルメ Watch",
-   "image": "https://gourmet.watch.impress.co.jp/img/grw/list/2146/417/01.jpg",
-   "category": "shinten",
-   "area": "東海",
-   "published": "2026-10-08T06:00:00+09:00",
-   "provider": "google",
-   "image_checked": true,
-   "decode_tried": true,
-   "decode_v2": true,
-   "added": "2026-10-08T06:00:00+09:00"
+   "added": "2026-10-08T07:58:00+09:00",
+   "shop": false,
+   "shop_name": null
   },
   {
    "id": "f0920543a255f3f6",
@@ -765,7 +789,9 @@
    "image_checked": true,
    "decode_tried": true,
    "decode_v2": true,
-   "added": "2026-10-08T04:47:36+09:00"
+   "added": "2026-10-08T04:47:36+09:00",
+   "shop": false,
+   "shop_name": null
   },
   {
    "id": "4c7a1b3de8973808",
@@ -781,7 +807,9 @@
    "image_checked": true,
    "image_v3": true,
    "image_v4": true,
-   "added": "2026-10-08T03:10:07+09:00"
+   "added": "2026-10-08T03:10:07+09:00",
+   "shop": false,
+   "shop_name": null
   },
   {
    "id": "f7d42f584caebf6e",
@@ -794,7 +822,9 @@
    "published": "2026-10-08T02:00:00+09:00",
    "provider": "bing",
    "image_checked": true,
-   "added": "2026-10-08T02:00:00+09:00"
+   "added": "2026-10-08T02:00:00+09:00",
+   "shop": false,
+   "shop_name": null
   },
   {
    "id": "202ef92b2409d409",
@@ -809,7 +839,9 @@
    "image_checked": true,
    "decode_tried": true,
    "decode_v2": true,
-   "added": "2026-10-08T01:22:57+09:00"
+   "added": "2026-10-08T01:22:57+09:00",
+   "shop": true,
+   "shop_name": null
   },
   {
    "id": "b63163a6213058ac",
@@ -824,7 +856,9 @@
    "image_checked": true,
    "decode_tried": true,
    "decode_v2": true,
-   "added": "2026-10-08T00:28:46+09:00"
+   "added": "2026-10-08T00:28:46+09:00",
+   "shop": false,
+   "shop_name": null
   },
   {
    "id": "a0db2efe56d57c69",
@@ -837,21 +871,9 @@
    "published": "2026-10-07T23:04:00+09:00",
    "provider": "bing",
    "image_checked": true,
-   "added": "2026-10-07T23:04:00+09:00"
-  },
-  {
-   "id": "7de3130a8d4899e7",
-   "title": "【10月26日オープン】つくば市研究学園に「TOKIMEKI鯛」｜鯛出汁のフレンチラーメン×ダイニングバーが新登場",
-   "link": "https://www.gummaumaimono.info/entry/2026/10/07/213203",
-   "source": "ぐんぐるブログ",
-   "image": "https://cdn.image.st-hatena.com/image/scale/4446a9d9e85eda34393832503228d0e51d999867/backend=imagemagick;version=1;width=1300/https%3A%2F%2Fcdn-ak.f.st-hatena.com%2Fimages%2Ffotolife%2Fg%2Fgumma_umaimono%2F20261007%2F20261007212711.jpg",
-   "category": "shinten",
-   "area": "東海",
-   "published": "2026-10-07T21:32:03+09:00",
-   "provider": "google",
-   "decode_v2": true,
-   "image_checked": true,
-   "added": "2026-10-07T21:32:03+09:00"
+   "added": "2026-10-07T23:04:00+09:00",
+   "shop": true,
+   "shop_name": "あんこ"
   },
   {
    "id": "78c2d84637c72493",
@@ -866,7 +888,9 @@
    "decode_tried": true,
    "image_checked": true,
    "decode_v2": true,
-   "added": "2026-10-07T21:23:15+09:00"
+   "added": "2026-10-07T21:23:15+09:00",
+   "shop": true,
+   "shop_name": null
   },
   {
    "id": "aced4343d3dcdbf3",
@@ -881,7 +905,9 @@
    "decode_tried": true,
    "image_checked": true,
    "decode_v2": true,
-   "added": "2026-10-07T19:57:16+09:00"
+   "added": "2026-10-07T19:57:16+09:00",
+   "shop": false,
+   "shop_name": null
   },
   {
    "id": "bae259c845d966c9",
@@ -896,7 +922,9 @@
    "decode_tried": true,
    "image_checked": true,
    "decode_v2": true,
-   "added": "2026-10-07T19:37:45+09:00"
+   "added": "2026-10-07T19:37:45+09:00",
+   "shop": false,
+   "shop_name": null
   },
   {
    "id": "9e5c51d9217d117e",
@@ -912,7 +940,9 @@
    "image_checked": true,
    "decode_v2": true,
    "image_v3": true,
-   "added": "2026-10-07T18:39:27+09:00"
+   "added": "2026-10-07T18:39:27+09:00",
+   "shop": true,
+   "shop_name": "ポーたま"
   },
   {
    "id": "82ab17dd613e63bc",
@@ -927,7 +957,9 @@
    "decode_tried": true,
    "image_checked": true,
    "decode_v2": true,
-   "added": "2026-10-07T17:59:19+09:00"
+   "added": "2026-10-07T17:59:19+09:00",
+   "shop": false,
+   "shop_name": null
   },
   {
    "id": "a70c561a91ba2017",
@@ -942,7 +974,9 @@
    "decode_tried": true,
    "image_checked": true,
    "decode_v2": true,
-   "added": "2026-10-07T17:31:00+09:00"
+   "added": "2026-10-07T17:31:00+09:00",
+   "shop": false,
+   "shop_name": null
   },
   {
    "id": "18db3f2631648b2a",
@@ -957,7 +991,9 @@
    "decode_tried": true,
    "image_checked": true,
    "decode_v2": true,
-   "added": "2026-10-07T17:28:19+09:00"
+   "added": "2026-10-07T17:28:19+09:00",
+   "shop": false,
+   "shop_name": null
   },
   {
    "id": "b1a6e72b02062f25",
@@ -972,7 +1008,9 @@
    "decode_tried": true,
    "image_checked": true,
    "decode_v2": true,
-   "added": "2026-10-07T16:18:48+09:00"
+   "added": "2026-10-07T16:18:48+09:00",
+   "shop": false,
+   "shop_name": null
   },
   {
    "id": "3b11a7662de3f690",
@@ -986,7 +1024,9 @@
    "provider": "google",
    "decode_v2": true,
    "image_checked": true,
-   "added": "2026-10-07T16:00:00+09:00"
+   "added": "2026-10-07T16:00:00+09:00",
+   "shop": false,
+   "shop_name": null
   },
   {
    "id": "efd71e678ee48a80",
@@ -1001,22 +1041,9 @@
    "decode_tried": true,
    "image_checked": true,
    "decode_v2": true,
-   "added": "2026-10-07T15:35:56+09:00"
-  },
-  {
-   "id": "b96379638d615f8e",
-   "title": "【『鯛塩そば 灯花』が調布に新店オープン！】『鯛塩そば 灯花 トリエ京王調布店』が10月15日(木)グランドオープン｜10月12日(月・祝)にはレセプション試食会を開催！",
-   "link": "https://prtimes.jp/main/html/rd/p/000000041.000129147.html",
-   "source": "PR TIMES",
-   "image": "https://prcdn.freetls.fastly.net/release_image/129147/41/129147-41-b22c08ed4df6638eef8334c8d4c70c7b-1625x968.png?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260",
-   "category": "shinten",
-   "area": "東海",
-   "published": "2026-10-07T15:21:28+09:00",
-   "provider": "google",
-   "decode_tried": true,
-   "image_checked": true,
-   "decode_v2": true,
-   "added": "2026-10-07T15:21:28+09:00"
+   "added": "2026-10-07T15:35:56+09:00",
+   "shop": false,
+   "shop_name": null
   },
   {
    "id": "77f2d76b0fa867cd",
@@ -1031,7 +1058,9 @@
    "decode_tried": true,
    "image_checked": true,
    "decode_v2": true,
-   "added": "2026-10-07T15:13:30+09:00"
+   "added": "2026-10-07T15:13:30+09:00",
+   "shop": false,
+   "shop_name": null
   },
   {
    "id": "915f520b01ddc9c5",
@@ -1046,7 +1075,9 @@
    "decode_tried": true,
    "image_checked": true,
    "decode_v2": true,
-   "added": "2026-10-07T14:26:41+09:00"
+   "added": "2026-10-07T14:26:41+09:00",
+   "shop": false,
+   "shop_name": null
   },
   {
    "id": "6c0c2790079179cf",
@@ -1061,7 +1092,9 @@
    "decode_tried": true,
    "image_checked": true,
    "decode_v2": true,
-   "added": "2026-10-07T14:15:44+09:00"
+   "added": "2026-10-07T14:15:44+09:00",
+   "shop": false,
+   "shop_name": null
   },
   {
    "id": "a8c396b1fea67e1a",
@@ -1076,7 +1109,9 @@
    "decode_tried": true,
    "image_checked": true,
    "decode_v2": true,
-   "added": "2026-10-07T13:00:02+09:00"
+   "added": "2026-10-07T13:00:02+09:00",
+   "shop": false,
+   "shop_name": null
   },
   {
    "id": "63e0d84d95e9771f",
@@ -1089,7 +1124,9 @@
    "published": "2026-10-07T13:00:00+09:00",
    "provider": "bing",
    "image_checked": true,
-   "added": "2026-10-07T13:00:00+09:00"
+   "added": "2026-10-07T13:00:00+09:00",
+   "shop": false,
+   "shop_name": null
   },
   {
    "id": "14612808e5207a94",
@@ -1102,7 +1139,9 @@
    "published": "2026-10-07T13:00:00+09:00",
    "provider": "bing",
    "image_checked": true,
-   "added": "2026-10-07T13:00:00+09:00"
+   "added": "2026-10-07T13:00:00+09:00",
+   "shop": false,
+   "shop_name": null
   },
   {
    "id": "768f9e152a3d9a93",
@@ -1115,7 +1154,9 @@
    "published": "2026-10-07T13:00:00+09:00",
    "provider": "bing",
    "image_checked": true,
-   "added": "2026-10-07T13:00:00+09:00"
+   "added": "2026-10-07T13:00:00+09:00",
+   "shop": true,
+   "shop_name": null
   },
   {
    "id": "ec2446f87d85257e",
@@ -1130,7 +1171,9 @@
    "decode_tried": true,
    "image_checked": true,
    "decode_v2": true,
-   "added": "2026-10-07T11:20:54+09:00"
+   "added": "2026-10-07T11:20:54+09:00",
+   "shop": false,
+   "shop_name": null
   },
   {
    "id": "7c21e75b47233319",
@@ -1146,7 +1189,9 @@
    "image_checked": true,
    "decode_v2": true,
    "image_v3": true,
-   "added": "2026-10-07T11:20:00+09:00"
+   "added": "2026-10-07T11:20:00+09:00",
+   "shop": false,
+   "shop_name": null
   },
   {
    "id": "8e41f018e4b56095",
@@ -1161,7 +1206,9 @@
    "decode_tried": true,
    "image_checked": true,
    "decode_v2": true,
-   "added": "2026-10-07T11:12:45+09:00"
+   "added": "2026-10-07T11:12:45+09:00",
+   "shop": false,
+   "shop_name": null
   },
   {
    "id": "ba68b07a7db832cb",
@@ -1176,7 +1223,9 @@
    "decode_tried": true,
    "image_checked": true,
    "decode_v2": true,
-   "added": "2026-10-07T11:05:39+09:00"
+   "added": "2026-10-07T11:05:39+09:00",
+   "shop": false,
+   "shop_name": null
   },
   {
    "id": "2add9ed87785f366",
@@ -1191,7 +1240,9 @@
    "decode_tried": true,
    "image_checked": true,
    "decode_v2": true,
-   "added": "2026-10-07T11:00:02+09:00"
+   "added": "2026-10-07T11:00:02+09:00",
+   "shop": false,
+   "shop_name": null
   },
   {
    "id": "b729dfed49635211",
@@ -1206,7 +1257,9 @@
    "decode_tried": true,
    "image_checked": true,
    "decode_v2": true,
-   "added": "2026-10-07T11:00:00+09:00"
+   "added": "2026-10-07T11:00:00+09:00",
+   "shop": false,
+   "shop_name": null
   },
   {
    "id": "5e08bb5b1ad19b0e",
@@ -1221,7 +1274,9 @@
    "decode_tried": true,
    "image_checked": true,
    "decode_v2": true,
-   "added": "2026-10-07T10:57:12+09:00"
+   "added": "2026-10-07T10:57:12+09:00",
+   "shop": true,
+   "shop_name": "ピッチャーコロ"
   },
   {
    "id": "58034e3174fe8272",
@@ -1236,7 +1291,9 @@
    "decode_tried": true,
    "image_checked": true,
    "decode_v2": true,
-   "added": "2026-10-07T10:53:41+09:00"
+   "added": "2026-10-07T10:53:41+09:00",
+   "shop": false,
+   "shop_name": null
   },
   {
    "id": "8d77d91b4f6a0a3e",
@@ -1253,7 +1310,9 @@
    "decode_v2": true,
    "image_v3": true,
    "image_v4": true,
-   "added": "2026-10-07T10:45:00+09:00"
+   "added": "2026-10-07T10:45:00+09:00",
+   "shop": false,
+   "shop_name": null
   },
   {
    "id": "a93ed777c6e5234e",
@@ -1268,7 +1327,9 @@
    "decode_tried": true,
    "image_checked": true,
    "decode_v2": true,
-   "added": "2026-10-07T09:49:53+09:00"
+   "added": "2026-10-07T09:49:53+09:00",
+   "shop": false,
+   "shop_name": null
   },
   {
    "id": "32cc841090ee00be",
@@ -1284,7 +1345,9 @@
    "image_checked": true,
    "image_v3": true,
    "image_v4": true,
-   "added": "2026-10-07T07:30:32+09:00"
+   "added": "2026-10-07T07:30:32+09:00",
+   "shop": false,
+   "shop_name": null
   },
   {
    "id": "135a2035ae5eebcf",
@@ -1297,7 +1360,9 @@
    "published": "2026-10-07T06:59:00+09:00",
    "provider": "bing",
    "image_checked": true,
-   "added": "2026-10-07T06:59:00+09:00"
+   "added": "2026-10-07T06:59:00+09:00",
+   "shop": true,
+   "shop_name": "勝男"
   },
   {
    "id": "80d472fe8cc38731",
@@ -1312,7 +1377,9 @@
    "decode_tried": true,
    "image_checked": true,
    "decode_v2": true,
-   "added": "2026-10-07T06:06:59+09:00"
+   "added": "2026-10-07T06:06:59+09:00",
+   "shop": false,
+   "shop_name": null
   },
   {
    "id": "3f09f6189105b6f4",
@@ -1327,7 +1394,9 @@
    "decode_tried": true,
    "image_checked": true,
    "decode_v2": true,
-   "added": "2026-10-07T04:20:49+09:00"
+   "added": "2026-10-07T04:20:49+09:00",
+   "shop": true,
+   "shop_name": "名古屋めし食堂丸八 伏見別邸"
   },
   {
    "id": "5c0da3445c87fede",
@@ -1342,7 +1411,9 @@
    "decode_tried": true,
    "image_checked": true,
    "decode_v2": true,
-   "added": "2026-10-07T04:01:26+09:00"
+   "added": "2026-10-07T04:01:26+09:00",
+   "shop": false,
+   "shop_name": null
   },
   {
    "id": "7d7086e10fc13004",
@@ -1357,7 +1428,9 @@
    "decode_tried": true,
    "image_checked": true,
    "decode_v2": true,
-   "added": "2026-10-07T03:37:20+09:00"
+   "added": "2026-10-07T03:37:20+09:00",
+   "shop": false,
+   "shop_name": null
   },
   {
    "id": "aaa768b724ac32bd",
@@ -1371,7 +1444,9 @@
    "provider": "google",
    "decode_v2": true,
    "image_checked": true,
-   "added": "2026-10-06T23:13:17+09:00"
+   "added": "2026-10-06T23:13:17+09:00",
+   "shop": false,
+   "shop_name": null
   },
   {
    "id": "9f7abc0e67ee7c84",
@@ -1386,7 +1461,9 @@
    "decode_tried": true,
    "image_checked": true,
    "decode_v2": true,
-   "added": "2026-10-06T20:08:00+09:00"
+   "added": "2026-10-06T20:08:00+09:00",
+   "shop": false,
+   "shop_name": null
   },
   {
    "id": "b5ca7cd49cecebf1",
@@ -1401,7 +1478,9 @@
    "decode_tried": true,
    "image_checked": true,
    "decode_v2": true,
-   "added": "2026-10-06T19:56:52+09:00"
+   "added": "2026-10-06T19:56:52+09:00",
+   "shop": true,
+   "shop_name": "ひものや 官兵衛"
   },
   {
    "id": "e3b5d4288ecb02ba",
@@ -1416,7 +1495,9 @@
    "decode_tried": true,
    "image_checked": true,
    "decode_v2": true,
-   "added": "2026-10-06T17:38:18+09:00"
+   "added": "2026-10-06T17:38:18+09:00",
+   "shop": false,
+   "shop_name": null
   },
   {
    "id": "ffcfb600a03aaa7b",
@@ -1430,7 +1511,9 @@
    "provider": "google",
    "decode_v2": true,
    "image_checked": true,
-   "added": "2026-10-06T17:02:00+09:00"
+   "added": "2026-10-06T17:02:00+09:00",
+   "shop": false,
+   "shop_name": null
   },
   {
    "id": "1e18a929da6502c5",
@@ -1445,7 +1528,9 @@
    "decode_tried": true,
    "image_checked": true,
    "decode_v2": true,
-   "added": "2026-10-06T16:20:00+09:00"
+   "added": "2026-10-06T16:20:00+09:00",
+   "shop": false,
+   "shop_name": null
   },
   {
    "id": "38db3eba31e36f41",
@@ -1460,7 +1545,9 @@
    "decode_tried": true,
    "image_checked": true,
    "decode_v2": true,
-   "added": "2026-10-06T16:04:13+09:00"
+   "added": "2026-10-06T16:04:13+09:00",
+   "shop": false,
+   "shop_name": null
   },
   {
    "id": "eeb7830865b5a8d8",
@@ -1475,7 +1562,9 @@
    "decode_tried": true,
    "image_checked": true,
    "decode_v2": true,
-   "added": "2026-10-06T16:00:00+09:00"
+   "added": "2026-10-06T16:00:00+09:00",
+   "shop": false,
+   "shop_name": null
   },
   {
    "id": "cb73570ca7b02c40",
@@ -1490,7 +1579,9 @@
    "decode_tried": true,
    "image_checked": true,
    "decode_v2": true,
-   "added": "2026-10-06T16:00:00+09:00"
+   "added": "2026-10-06T16:00:00+09:00",
+   "shop": false,
+   "shop_name": null
   },
   {
    "id": "ab2806790b9cbd8d",
@@ -1504,7 +1595,9 @@
    "provider": "google",
    "decode_v2": true,
    "image_checked": true,
-   "added": "2026-10-06T16:00:00+09:00"
+   "added": "2026-10-06T16:00:00+09:00",
+   "shop": false,
+   "shop_name": null
   },
   {
    "id": "b0d890836dcb99b0",
@@ -1519,7 +1612,9 @@
    "decode_v2": true,
    "image_checked": true,
    "image_v3": true,
-   "added": "2026-10-06T16:00:00+09:00"
+   "added": "2026-10-06T16:00:00+09:00",
+   "shop": false,
+   "shop_name": null
   },
   {
    "id": "f0c668a593078c85",
@@ -1532,7 +1627,9 @@
    "published": "2026-10-06T15:00:00+09:00",
    "provider": "bing",
    "image_checked": true,
-   "added": "2026-10-06T15:00:00+09:00"
+   "added": "2026-10-06T15:00:00+09:00",
+   "shop": false,
+   "shop_name": null
   },
   {
    "id": "2f09171c90123f7c",
@@ -1547,7 +1644,9 @@
    "decode_tried": true,
    "image_checked": true,
    "decode_v2": true,
-   "added": "2026-10-06T14:45:51+09:00"
+   "added": "2026-10-06T14:45:51+09:00",
+   "shop": false,
+   "shop_name": null
   },
   {
    "id": "e7bfa3416823d45d",
@@ -1562,7 +1661,9 @@
    "decode_tried": true,
    "image_checked": true,
    "decode_v2": true,
-   "added": "2026-10-06T12:43:00+09:00"
+   "added": "2026-10-06T12:43:00+09:00",
+   "shop": false,
+   "shop_name": null
   },
   {
    "id": "b3cbf1ff4679bf46",
@@ -1577,7 +1678,9 @@
    "decode_tried": true,
    "image_checked": true,
    "decode_v2": true,
-   "added": "2026-10-06T12:26:06+09:00"
+   "added": "2026-10-06T12:26:06+09:00",
+   "shop": false,
+   "shop_name": null
   },
   {
    "id": "cfbac02c201a92f8",
@@ -1592,7 +1695,9 @@
    "decode_tried": true,
    "image_checked": true,
    "decode_v2": true,
-   "added": "2026-10-06T12:00:39+09:00"
+   "added": "2026-10-06T12:00:39+09:00",
+   "shop": false,
+   "shop_name": null
   },
   {
    "id": "fe45761002082170",
@@ -1607,7 +1712,9 @@
    "decode_tried": true,
    "image_checked": true,
    "decode_v2": true,
-   "added": "2026-10-06T12:00:08+09:00"
+   "added": "2026-10-06T12:00:08+09:00",
+   "shop": false,
+   "shop_name": null
   },
   {
    "id": "94736d5a4ba65c06",
@@ -1622,7 +1729,9 @@
    "decode_tried": true,
    "image_checked": true,
    "decode_v2": true,
-   "added": "2026-10-06T11:00:02+09:00"
+   "added": "2026-10-06T11:00:02+09:00",
+   "shop": false,
+   "shop_name": null
   },
   {
    "id": "3adedc3b0604fe7c",
@@ -1635,7 +1744,9 @@
    "published": "2026-10-06T10:38:00+09:00",
    "provider": "bing",
    "image_checked": true,
-   "added": "2026-10-06T10:38:00+09:00"
+   "added": "2026-10-06T10:38:00+09:00",
+   "shop": false,
+   "shop_name": null
   },
   {
    "id": "00e9a3ef69fe47f0",
@@ -1650,7 +1761,9 @@
    "decode_tried": true,
    "image_checked": true,
    "decode_v2": true,
-   "added": "2026-10-06T08:09:18+09:00"
+   "added": "2026-10-06T08:09:18+09:00",
+   "shop": false,
+   "shop_name": null
   },
   {
    "id": "71ec484cde390c37",
@@ -1663,7 +1776,9 @@
    "published": "2026-10-06T08:05:00+09:00",
    "provider": "bing",
    "image_checked": true,
-   "added": "2026-10-06T08:05:00+09:00"
+   "added": "2026-10-06T08:05:00+09:00",
+   "shop": false,
+   "shop_name": null
   },
   {
    "id": "802f67180a583473",
@@ -1678,7 +1793,9 @@
    "decode_tried": true,
    "image_checked": true,
    "decode_v2": true,
-   "added": "2026-10-06T06:55:21+09:00"
+   "added": "2026-10-06T06:55:21+09:00",
+   "shop": true,
+   "shop_name": "フレンズ"
   },
   {
    "id": "e041170bea6b8358",
@@ -1693,7 +1810,9 @@
    "decode_tried": true,
    "image_checked": true,
    "decode_v2": true,
-   "added": "2026-10-06T06:29:23+09:00"
+   "added": "2026-10-06T06:29:23+09:00",
+   "shop": false,
+   "shop_name": null
   },
   {
    "id": "d1b9e6311c03f375",
@@ -1708,7 +1827,9 @@
    "decode_tried": true,
    "image_checked": true,
    "decode_v2": true,
-   "added": "2026-10-06T06:08:52+09:00"
+   "added": "2026-10-06T06:08:52+09:00",
+   "shop": false,
+   "shop_name": null
   },
   {
    "id": "02f2acac68cb1d82",
@@ -1723,37 +1844,9 @@
    "decode_tried": true,
    "image_checked": true,
    "decode_v2": true,
-   "added": "2026-10-06T05:14:40+09:00"
-  },
-  {
-   "id": "19da6acba9faab0a",
-   "title": "9/14（月）太融寺に新店！地鶏と魚介の醤油ラーメン専門店「Ramen Pote」",
-   "link": "https://topics.smt.docomo.ne.jp/amp/article/tokkhankyu/trend/tokkhankyu-286986",
-   "source": "ｄメニューニュース",
-   "image": "https://img.topics.smt.news.goo.ne.jp/picture/tokkhankyu/m_tokkhankyu-286986.jpg",
-   "category": "shinten",
-   "area": "東海",
-   "published": "2026-10-05T21:48:00+09:00",
-   "provider": "google",
-   "decode_tried": true,
-   "image_checked": true,
-   "decode_v2": true,
-   "added": "2026-10-05T21:48:00+09:00"
-  },
-  {
-   "id": "ae51a3e736823f31",
-   "title": "【10月3日オープン】船橋・芝山に「麺家大和」誕生｜麺・味・油を選べる新店ラーメンのメニューと駐車場まとめ",
-   "link": "https://www.gummaumaimono.info/entry/2026/10/04/002859",
-   "source": "ぐんぐるブログ",
-   "image": "https://cdn.image.st-hatena.com/image/scale/2ad2a5feb834548edcbf1920136db9a631c45245/backend=imagemagick;version=1;width=1300/https%3A%2F%2Fcdn-ak.f.st-hatena.com%2Fimages%2Ffotolife%2Fg%2Fgumma_umaimono%2F20261004%2F20261004000732.jpg",
-   "category": "shinten",
-   "area": "東海",
-   "published": "2026-10-05T19:54:44+09:00",
-   "provider": "google",
-   "decode_tried": true,
-   "image_checked": true,
-   "decode_v2": true,
-   "added": "2026-10-05T19:54:44+09:00"
+   "added": "2026-10-06T05:14:40+09:00",
+   "shop": false,
+   "shop_name": null
   },
   {
    "id": "0ee8e21a36e801e8",
@@ -1768,7 +1861,9 @@
    "decode_tried": true,
    "image_checked": true,
    "decode_v2": true,
-   "added": "2026-10-05T19:38:34+09:00"
+   "added": "2026-10-05T19:38:34+09:00",
+   "shop": false,
+   "shop_name": null
   },
   {
    "id": "71b69dd5c90153f5",
@@ -1784,7 +1879,9 @@
    "image_checked": true,
    "decode_v2": true,
    "image_v3": true,
-   "added": "2026-10-05T18:37:56+09:00"
+   "added": "2026-10-05T18:37:56+09:00",
+   "shop": true,
+   "shop_name": "築地すしくろ"
   },
   {
    "id": "db320c2ae1461312",
@@ -1800,7 +1897,9 @@
    "image_checked": true,
    "decode_v2": true,
    "image_v3": true,
-   "added": "2026-10-05T18:04:08+09:00"
+   "added": "2026-10-05T18:04:08+09:00",
+   "shop": false,
+   "shop_name": null
   },
   {
    "id": "02a1c060775c5a49",
@@ -1815,7 +1914,9 @@
    "decode_tried": true,
    "image_checked": true,
    "decode_v2": true,
-   "added": "2026-10-05T17:45:59+09:00"
+   "added": "2026-10-05T17:45:59+09:00",
+   "shop": false,
+   "shop_name": null
   },
   {
    "id": "07534d15acd0498f",
@@ -1830,7 +1931,9 @@
    "decode_tried": true,
    "image_checked": true,
    "decode_v2": true,
-   "added": "2026-10-05T17:23:08+09:00"
+   "added": "2026-10-05T17:23:08+09:00",
+   "shop": false,
+   "shop_name": null
   },
   {
    "id": "32d35219ce45418f",
@@ -1845,7 +1948,9 @@
    "decode_tried": true,
    "image_checked": true,
    "decode_v2": true,
-   "added": "2026-10-05T16:12:44+09:00"
+   "added": "2026-10-05T16:12:44+09:00",
+   "shop": false,
+   "shop_name": null
   },
   {
    "id": "117853f7896f5480",
@@ -1860,7 +1965,9 @@
    "decode_tried": true,
    "image_checked": true,
    "decode_v2": true,
-   "added": "2026-10-05T16:00:00+09:00"
+   "added": "2026-10-05T16:00:00+09:00",
+   "shop": false,
+   "shop_name": null
   },
   {
    "id": "a644a257bc9b6c2d",
@@ -1875,7 +1982,9 @@
    "decode_tried": true,
    "image_checked": true,
    "decode_v2": true,
-   "added": "2026-10-05T16:00:00+09:00"
+   "added": "2026-10-05T16:00:00+09:00",
+   "shop": false,
+   "shop_name": null
   },
   {
    "id": "299124c7521d42c3",
@@ -1890,7 +1999,9 @@
    "decode_tried": true,
    "image_checked": true,
    "decode_v2": true,
-   "added": "2026-10-05T16:00:00+09:00"
+   "added": "2026-10-05T16:00:00+09:00",
+   "shop": false,
+   "shop_name": null
   },
   {
    "id": "47fcc9abc6a3ad32",
@@ -1904,7 +2015,9 @@
    "provider": "google",
    "decode_v2": true,
    "image_checked": true,
-   "added": "2026-10-05T16:00:00+09:00"
+   "added": "2026-10-05T16:00:00+09:00",
+   "shop": false,
+   "shop_name": null
   },
   {
    "id": "e63f42b4fb71474f",
@@ -1917,7 +2030,9 @@
    "published": "2026-10-05T13:41:00+09:00",
    "provider": "bing",
    "image_checked": true,
-   "added": "2026-10-05T13:41:00+09:00"
+   "added": "2026-10-05T13:41:00+09:00",
+   "shop": false,
+   "shop_name": null
   },
   {
    "id": "2f94204e49f6c2a3",
@@ -1932,7 +2047,9 @@
    "decode_tried": true,
    "image_checked": true,
    "decode_v2": true,
-   "added": "2026-10-05T13:01:05+09:00"
+   "added": "2026-10-05T13:01:05+09:00",
+   "shop": false,
+   "shop_name": null
   },
   {
    "id": "39a0ad283bf57b0c",
@@ -1948,7 +2065,9 @@
    "image_checked": true,
    "image_v3": true,
    "image_v4": true,
-   "added": "2026-10-05T11:42:00+09:00"
+   "added": "2026-10-05T11:42:00+09:00",
+   "shop": false,
+   "shop_name": null
   },
   {
    "id": "7936234dc60f16f9",
@@ -1963,7 +2082,9 @@
    "decode_tried": true,
    "image_checked": true,
    "decode_v2": true,
-   "added": "2026-10-05T11:29:00+09:00"
+   "added": "2026-10-05T11:29:00+09:00",
+   "shop": false,
+   "shop_name": null
   },
   {
    "id": "5be36d696a08eb9c",
@@ -1976,7 +2097,9 @@
    "published": "2026-10-05T10:22:00+09:00",
    "provider": "bing",
    "image_checked": true,
-   "added": "2026-10-05T10:22:00+09:00"
+   "added": "2026-10-05T10:22:00+09:00",
+   "shop": false,
+   "shop_name": null
   },
   {
    "id": "49738113e4cf38ee",
@@ -1991,7 +2114,9 @@
    "decode_tried": true,
    "image_checked": true,
    "decode_v2": true,
-   "added": "2026-10-05T10:00:02+09:00"
+   "added": "2026-10-05T10:00:02+09:00",
+   "shop": false,
+   "shop_name": null
   },
   {
    "id": "50081e84e98a54d5",
@@ -2006,7 +2131,9 @@
    "decode_tried": true,
    "image_checked": true,
    "decode_v2": true,
-   "added": "2026-10-05T10:00:02+09:00"
+   "added": "2026-10-05T10:00:02+09:00",
+   "shop": false,
+   "shop_name": null
   },
   {
    "id": "0163bd0532743550",
@@ -2023,7 +2150,9 @@
    "decode_v2": true,
    "image_v3": true,
    "image_v4": true,
-   "added": "2026-10-05T09:30:16+09:00"
+   "added": "2026-10-05T09:30:16+09:00",
+   "shop": true,
+   "shop_name": "中華そば 一徹者"
   },
   {
    "id": "222412564dd28171",
@@ -2037,7 +2166,9 @@
    "provider": "google",
    "decode_v2": true,
    "image_checked": true,
-   "added": "2026-10-05T09:30:00+09:00"
+   "added": "2026-10-05T09:30:00+09:00",
+   "shop": false,
+   "shop_name": null
   },
   {
    "id": "8b17a6640eafdc07",
@@ -2054,7 +2185,9 @@
    "decode_v2": true,
    "image_v3": true,
    "image_v4": true,
-   "added": "2026-10-05T07:03:28+09:00"
+   "added": "2026-10-05T07:03:28+09:00",
+   "shop": true,
+   "shop_name": null
   },
   {
    "id": "bf6279ea22d8fa0c",
@@ -2068,22 +2201,9 @@
    "provider": "google",
    "decode_v2": true,
    "image_checked": true,
-   "added": "2026-10-05T06:00:00+09:00"
-  },
-  {
-   "id": "66353fca54d63f5b",
-   "title": "【10月3日オープン】ラーメン長瀬屋 小山店が栃木初出店！背脂醤油の新店｜小山市横倉",
-   "link": "https://www.gummaumaimono.info/entry/2026/10/04/234143",
-   "source": "ぐんぐるブログ",
-   "image": "https://cdn.image.st-hatena.com/image/scale/393eb486842b5b583b529ef1aa4ac5cad5eac26f/backend=imagemagick;version=1;width=1300/https%3A%2F%2Fcdn-ak.f.st-hatena.com%2Fimages%2Ffotolife%2Fg%2Fgumma_umaimono%2F20261004%2F20261004234043.jpg",
-   "category": "shinten",
-   "area": "東海",
-   "published": "2026-10-04T23:41:43+09:00",
-   "provider": "google",
-   "decode_tried": true,
-   "image_checked": true,
-   "decode_v2": true,
-   "added": "2026-10-04T23:41:43+09:00"
+   "added": "2026-10-05T06:00:00+09:00",
+   "shop": false,
+   "shop_name": null
   },
   {
    "id": "c0e7337fdac71190",
@@ -2098,7 +2218,9 @@
    "decode_tried": true,
    "image_checked": true,
    "decode_v2": true,
-   "added": "2026-10-04T18:06:22+09:00"
+   "added": "2026-10-04T18:06:22+09:00",
+   "shop": false,
+   "shop_name": null
   },
   {
    "id": "bd70223e0db606b1",
@@ -2113,7 +2235,9 @@
    "decode_tried": true,
    "image_checked": true,
    "decode_v2": true,
-   "added": "2026-10-04T16:37:00+09:00"
+   "added": "2026-10-04T16:37:00+09:00",
+   "shop": false,
+   "shop_name": null
   },
   {
    "id": "e2c10d70775466ea",
@@ -2128,7 +2252,9 @@
    "decode_tried": true,
    "image_checked": true,
    "decode_v2": true,
-   "added": "2026-10-04T16:00:00+09:00"
+   "added": "2026-10-04T16:00:00+09:00",
+   "shop": true,
+   "shop_name": null
   },
   {
    "id": "1aa477101c4f664a",
@@ -2143,7 +2269,9 @@
    "decode_tried": true,
    "image_checked": true,
    "decode_v2": true,
-   "added": "2026-10-04T16:00:00+09:00"
+   "added": "2026-10-04T16:00:00+09:00",
+   "shop": false,
+   "shop_name": null
   },
   {
    "id": "06b1800dc84703a6",
@@ -2158,7 +2286,9 @@
    "decode_tried": true,
    "image_checked": true,
    "decode_v2": true,
-   "added": "2026-10-04T16:00:00+09:00"
+   "added": "2026-10-04T16:00:00+09:00",
+   "shop": false,
+   "shop_name": null
   },
   {
    "id": "72e56a9b1f219d8f",
@@ -2173,7 +2303,9 @@
    "decode_tried": true,
    "image_checked": true,
    "decode_v2": true,
-   "added": "2026-10-04T16:00:00+09:00"
+   "added": "2026-10-04T16:00:00+09:00",
+   "shop": true,
+   "shop_name": "矢場味仙"
   },
   {
    "id": "c1e7cfcb57947180",
@@ -2188,7 +2320,9 @@
    "decode_tried": true,
    "image_checked": true,
    "decode_v2": true,
-   "added": "2026-10-04T16:00:00+09:00"
+   "added": "2026-10-04T16:00:00+09:00",
+   "shop": false,
+   "shop_name": null
   },
   {
    "id": "f14aef4fa3b5706e",
@@ -2203,7 +2337,9 @@
    "decode_tried": true,
    "image_checked": true,
    "decode_v2": true,
-   "added": "2026-10-04T16:00:00+09:00"
+   "added": "2026-10-04T16:00:00+09:00",
+   "shop": false,
+   "shop_name": null
   },
   {
    "id": "8286eeb647a1c263",
@@ -2217,7 +2353,9 @@
    "provider": "google",
    "decode_v2": true,
    "image_checked": true,
-   "added": "2026-10-04T16:00:00+09:00"
+   "added": "2026-10-04T16:00:00+09:00",
+   "shop": false,
+   "shop_name": null
   },
   {
    "id": "e362962e628a61ff",
@@ -2232,7 +2370,9 @@
    "decode_v2": true,
    "image_checked": true,
    "image_v3": true,
-   "added": "2026-10-04T16:00:00+09:00"
+   "added": "2026-10-04T16:00:00+09:00",
+   "shop": false,
+   "shop_name": null
   },
   {
    "id": "1e567f4cc6b75bc2",
@@ -2247,7 +2387,9 @@
    "decode_tried": true,
    "image_checked": true,
    "decode_v2": true,
-   "added": "2026-10-04T15:00:00+09:00"
+   "added": "2026-10-04T15:00:00+09:00",
+   "shop": false,
+   "shop_name": null
   },
   {
    "id": "4f7d5e0bae6a5312",
@@ -2262,7 +2404,9 @@
    "decode_tried": true,
    "image_checked": true,
    "decode_v2": true,
-   "added": "2026-10-04T13:43:35+09:00"
+   "added": "2026-10-04T13:43:35+09:00",
+   "shop": false,
+   "shop_name": null
   },
   {
    "id": "c67819be8745921a",
@@ -2277,7 +2421,9 @@
    "decode_tried": true,
    "image_checked": true,
    "decode_v2": true,
-   "added": "2026-10-04T12:00:00+09:00"
+   "added": "2026-10-04T12:00:00+09:00",
+   "shop": false,
+   "shop_name": null
   },
   {
    "id": "d40c112c06866415",
@@ -2292,7 +2438,9 @@
    "decode_tried": true,
    "image_checked": true,
    "decode_v2": true,
-   "added": "2026-10-04T09:59:29+09:00"
+   "added": "2026-10-04T09:59:29+09:00",
+   "shop": true,
+   "shop_name": "一風堂"
   },
   {
    "id": "781bdc6cbcb20e53",
@@ -2307,7 +2455,9 @@
    "decode_tried": true,
    "image_checked": true,
    "decode_v2": true,
-   "added": "2026-10-04T03:21:51+09:00"
+   "added": "2026-10-04T03:21:51+09:00",
+   "shop": false,
+   "shop_name": null
   },
   {
    "id": "1155640f065b76ee",
@@ -2322,7 +2472,9 @@
    "decode_tried": true,
    "image_checked": true,
    "decode_v2": true,
-   "added": "2026-10-03T23:46:08+09:00"
+   "added": "2026-10-03T23:46:08+09:00",
+   "shop": true,
+   "shop_name": "肉まみれ激旨中華そば"
   },
   {
    "id": "4ec20aa791fc0aa9",
@@ -2337,7 +2489,9 @@
    "decode_tried": true,
    "image_checked": true,
    "decode_v2": true,
-   "added": "2026-10-03T21:19:10+09:00"
+   "added": "2026-10-03T21:19:10+09:00",
+   "shop": false,
+   "shop_name": null
   },
   {
    "id": "673ad74a3fe9575f",
@@ -2352,7 +2506,9 @@
    "decode_tried": true,
    "image_checked": true,
    "decode_v2": true,
-   "added": "2026-10-03T19:37:06+09:00"
+   "added": "2026-10-03T19:37:06+09:00",
+   "shop": false,
+   "shop_name": null
   },
   {
    "id": "4a787730a876a5ea",
@@ -2367,7 +2523,9 @@
    "decode_tried": true,
    "image_checked": true,
    "decode_v2": true,
-   "added": "2026-10-03T19:20:00+09:00"
+   "added": "2026-10-03T19:20:00+09:00",
+   "shop": true,
+   "shop_name": null
   },
   {
    "id": "f3aa2bb640498424",
@@ -2382,7 +2540,9 @@
    "decode_tried": true,
    "image_checked": true,
    "decode_v2": true,
-   "added": "2026-10-03T16:00:00+09:00"
+   "added": "2026-10-03T16:00:00+09:00",
+   "shop": false,
+   "shop_name": null
   },
   {
    "id": "46ac66aa4e8e9e3f",
@@ -2397,7 +2557,9 @@
    "decode_tried": true,
    "image_checked": true,
    "decode_v2": true,
-   "added": "2026-10-03T16:00:00+09:00"
+   "added": "2026-10-03T16:00:00+09:00",
+   "shop": true,
+   "shop_name": "クロプリ名古屋"
   },
   {
    "id": "9b9a9257e5b9cff1",
@@ -2412,7 +2574,9 @@
    "decode_tried": true,
    "image_checked": true,
    "decode_v2": true,
-   "added": "2026-10-03T16:00:00+09:00"
+   "added": "2026-10-03T16:00:00+09:00",
+   "shop": false,
+   "shop_name": null
   },
   {
    "id": "facee275c78f7ca9",
@@ -2427,7 +2591,9 @@
    "decode_tried": true,
    "image_checked": true,
    "decode_v2": true,
-   "added": "2026-10-03T16:00:00+09:00"
+   "added": "2026-10-03T16:00:00+09:00",
+   "shop": false,
+   "shop_name": null
   },
   {
    "id": "60b45c55b179d648",
@@ -2442,22 +2608,9 @@
    "decode_tried": true,
    "image_checked": true,
    "decode_v2": true,
-   "added": "2026-10-03T16:00:00+09:00"
-  },
-  {
-   "id": "3c61ee24e6d20ef2",
-   "title": "ひとつの建物に生ドーナツの「I’m donut？」とベーカリーの「dacō」が一緒になった！自由が丘駅前に新店オープン",
-   "link": "https://www.walkerplus.com/article/1292505/",
-   "source": "ウォーカープラス",
-   "image": "https://news.walkerplus.com/article/1292505/15279108_615.jpg",
-   "category": "shinten",
-   "area": "東海",
-   "published": "2026-10-03T16:00:00+09:00",
-   "provider": "google",
-   "decode_tried": true,
-   "image_checked": true,
-   "decode_v2": true,
-   "added": "2026-10-03T16:00:00+09:00"
+   "added": "2026-10-03T16:00:00+09:00",
+   "shop": false,
+   "shop_name": null
   },
   {
    "id": "f6f52ce227950f82",
@@ -2472,7 +2625,9 @@
    "decode_tried": true,
    "image_checked": true,
    "decode_v2": true,
-   "added": "2026-10-03T16:00:00+09:00"
+   "added": "2026-10-03T16:00:00+09:00",
+   "shop": false,
+   "shop_name": null
   },
   {
    "id": "5611703f877cf173",
@@ -2487,7 +2642,9 @@
    "decode_tried": true,
    "image_checked": true,
    "decode_v2": true,
-   "added": "2026-10-03T14:48:19+09:00"
+   "added": "2026-10-03T14:48:19+09:00",
+   "shop": true,
+   "shop_name": null
   },
   {
    "id": "85bfd4215097b436",
@@ -2502,7 +2659,9 @@
    "decode_tried": true,
    "image_checked": true,
    "decode_v2": true,
-   "added": "2026-10-03T14:42:37+09:00"
+   "added": "2026-10-03T14:42:37+09:00",
+   "shop": false,
+   "shop_name": null
   },
   {
    "id": "1d12606edf818c9c",
@@ -2517,7 +2676,9 @@
    "decode_tried": true,
    "image_checked": true,
    "decode_v2": true,
-   "added": "2026-10-03T14:38:28+09:00"
+   "added": "2026-10-03T14:38:28+09:00",
+   "shop": true,
+   "shop_name": null
   },
   {
    "id": "3d0e8ea83abd8f46",
@@ -2532,7 +2693,9 @@
    "decode_tried": true,
    "image_checked": true,
    "decode_v2": true,
-   "added": "2026-10-03T14:33:29+09:00"
+   "added": "2026-10-03T14:33:29+09:00",
+   "shop": true,
+   "shop_name": "二郎系パスタ"
   },
   {
    "id": "eb8c392f4c806dc3",
@@ -2547,7 +2710,9 @@
    "decode_tried": true,
    "image_checked": true,
    "decode_v2": true,
-   "added": "2026-10-03T14:31:03+09:00"
+   "added": "2026-10-03T14:31:03+09:00",
+   "shop": true,
+   "shop_name": null
   },
   {
    "id": "d19f80aac1ac55d9",
@@ -2562,24 +2727,9 @@
    "decode_tried": true,
    "image_checked": true,
    "decode_v2": true,
-   "added": "2026-10-03T14:28:55+09:00"
-  },
-  {
-   "id": "6147146ededef4dc",
-   "title": "品川シーズンテラスに新業態「中華そば じげもん軒」が10月5日オープン！ あの人気ちゃんぽん店が手掛ける「毎日食べたい一杯」とは？｜グルメとフード",
-   "link": "https://tetsudo-ch.com/13039929.html",
-   "source": "旅とおでかけ 鉄道チャンネル",
-   "image": null,
-   "category": "shinten",
-   "area": "東海",
-   "published": "2026-10-03T05:30:56+09:00",
-   "provider": "google",
-   "decode_tried": true,
-   "image_checked": true,
-   "decode_v2": true,
-   "image_v3": true,
-   "image_v4": true,
-   "added": "2026-10-03T05:30:56+09:00"
+   "added": "2026-10-03T14:28:55+09:00",
+   "shop": true,
+   "shop_name": null
   },
   {
    "id": "bda849612767759e",
@@ -2592,7 +2742,9 @@
    "published": "2026-10-03T02:00:00+09:00",
    "provider": "bing",
    "image_checked": true,
-   "added": "2026-10-03T02:00:00+09:00"
+   "added": "2026-10-03T02:00:00+09:00",
+   "shop": true,
+   "shop_name": null
   },
   {
    "id": "f764640c3d556f5b",
@@ -2605,7 +2757,9 @@
    "published": "2026-10-03T02:00:00+09:00",
    "provider": "bing",
    "image_checked": true,
-   "added": "2026-10-03T02:00:00+09:00"
+   "added": "2026-10-03T02:00:00+09:00",
+   "shop": true,
+   "shop_name": null
   },
   {
    "id": "5886e34cee56a6d9",
@@ -2618,7 +2772,9 @@
    "published": "2026-10-03T02:00:00+09:00",
    "provider": "bing",
    "image_checked": true,
-   "added": "2026-10-03T02:00:00+09:00"
+   "added": "2026-10-03T02:00:00+09:00",
+   "shop": true,
+   "shop_name": null
   },
   {
    "id": "b6b985ddcbb617bb",
@@ -2633,7 +2789,9 @@
    "decode_tried": true,
    "image_checked": true,
    "decode_v2": true,
-   "added": "2026-10-03T00:59:01+09:00"
+   "added": "2026-10-03T00:59:01+09:00",
+   "shop": false,
+   "shop_name": null
   },
   {
    "id": "0733ab1b99b48f66",
@@ -2647,7 +2805,9 @@
    "provider": "google",
    "decode_v2": true,
    "image_checked": true,
-   "added": "2026-10-02T18:04:00+09:00"
+   "added": "2026-10-02T18:04:00+09:00",
+   "shop": true,
+   "shop_name": "カレーうどん"
   },
   {
    "id": "a8de697147df585f",
@@ -2662,7 +2822,9 @@
    "decode_tried": true,
    "image_checked": true,
    "decode_v2": true,
-   "added": "2026-10-02T18:00:55+09:00"
+   "added": "2026-10-02T18:00:55+09:00",
+   "shop": false,
+   "shop_name": null
   },
   {
    "id": "541e70e4ff2627c6",
@@ -2677,7 +2839,9 @@
    "decode_tried": true,
    "image_checked": true,
    "decode_v2": true,
-   "added": "2026-10-02T17:00:53+09:00"
+   "added": "2026-10-02T17:00:53+09:00",
+   "shop": false,
+   "shop_name": null
   },
   {
    "id": "db9f34ab6445ac1c",
@@ -2692,7 +2856,9 @@
    "decode_tried": true,
    "image_checked": true,
    "decode_v2": true,
-   "added": "2026-10-02T17:00:50+09:00"
+   "added": "2026-10-02T17:00:50+09:00",
+   "shop": false,
+   "shop_name": null
   },
   {
    "id": "ac8aa747a478a2a6",
@@ -2709,7 +2875,9 @@
    "decode_v2": true,
    "image_v3": true,
    "image_v4": true,
-   "added": "2026-10-02T16:00:00+09:00"
+   "added": "2026-10-02T16:00:00+09:00",
+   "shop": false,
+   "shop_name": null
   },
   {
    "id": "cff0eb4c5263b969",
@@ -2724,7 +2892,9 @@
    "decode_tried": true,
    "image_checked": true,
    "decode_v2": true,
-   "added": "2026-10-02T16:00:00+09:00"
+   "added": "2026-10-02T16:00:00+09:00",
+   "shop": false,
+   "shop_name": null
   },
   {
    "id": "6aee8a1765b8ff61",
@@ -2739,7 +2909,9 @@
    "decode_tried": true,
    "image_checked": true,
    "decode_v2": true,
-   "added": "2026-10-02T16:00:00+09:00"
+   "added": "2026-10-02T16:00:00+09:00",
+   "shop": true,
+   "shop_name": "kiki2 do"
   },
   {
    "id": "c9f909e3a74a78a7",
@@ -2754,7 +2926,9 @@
    "decode_tried": true,
    "image_checked": true,
    "decode_v2": true,
-   "added": "2026-10-02T16:00:00+09:00"
+   "added": "2026-10-02T16:00:00+09:00",
+   "shop": false,
+   "shop_name": null
   },
   {
    "id": "069ed27d3a988aab",
@@ -2769,22 +2943,9 @@
    "decode_tried": true,
    "image_checked": true,
    "decode_v2": true,
-   "added": "2026-10-02T16:00:00+09:00"
-  },
-  {
-   "id": "00fdb42e12799ffd",
-   "title": "【松山市】「サンタカフェ ハナミズキ」跡に新店！「生パスタ専門店 ジパング」が10月8日オープン予定。",
-   "link": "https://matsuyama.goguynet.jp/2026/10/02/jpang/",
-   "source": "号外NET 松山市",
-   "image": "https://matsuyama.goguynet.jp/wp-content/uploads/sites/107/2026/10/IMG_2160.jpeg",
-   "category": "shinten",
-   "area": "東海",
-   "published": "2026-10-02T15:00:45+09:00",
-   "provider": "google",
-   "decode_tried": true,
-   "image_checked": true,
-   "decode_v2": true,
-   "added": "2026-10-02T15:00:45+09:00"
+   "added": "2026-10-02T16:00:00+09:00",
+   "shop": false,
+   "shop_name": null
   },
   {
    "id": "dec1a2ef5369e3bd",
@@ -2798,7 +2959,9 @@
    "provider": "google",
    "decode_v2": true,
    "image_checked": true,
-   "added": "2026-10-02T15:00:02+09:00"
+   "added": "2026-10-02T15:00:02+09:00",
+   "shop": false,
+   "shop_name": null
   },
   {
    "id": "7696179b13756ffa",
@@ -2813,7 +2976,9 @@
    "decode_tried": true,
    "image_checked": true,
    "decode_v2": true,
-   "added": "2026-10-02T14:00:01+09:00"
+   "added": "2026-10-02T14:00:01+09:00",
+   "shop": false,
+   "shop_name": null
   },
   {
    "id": "2262c2c822183080",
@@ -2828,7 +2993,9 @@
    "decode_tried": true,
    "image_checked": true,
    "decode_v2": true,
-   "added": "2026-10-02T11:47:19+09:00"
+   "added": "2026-10-02T11:47:19+09:00",
+   "shop": false,
+   "shop_name": null
   },
   {
    "id": "87019ff6784686d1",
@@ -2841,7 +3008,9 @@
    "published": "2026-10-02T11:40:11+09:00",
    "provider": "bing",
    "image_checked": true,
-   "added": "2026-10-02T11:40:11+09:00"
+   "added": "2026-10-02T11:40:11+09:00",
+   "shop": false,
+   "shop_name": null
   },
   {
    "id": "428a698c55c96b62",
@@ -2856,7 +3025,9 @@
    "decode_tried": true,
    "image_checked": true,
    "decode_v2": true,
-   "added": "2026-10-02T11:38:38+09:00"
+   "added": "2026-10-02T11:38:38+09:00",
+   "shop": false,
+   "shop_name": null
   },
   {
    "id": "ed693af87721819b",
@@ -2871,7 +3042,9 @@
    "decode_tried": true,
    "image_checked": true,
    "decode_v2": true,
-   "added": "2026-10-02T11:04:30+09:00"
+   "added": "2026-10-02T11:04:30+09:00",
+   "shop": false,
+   "shop_name": null
   },
   {
    "id": "9d153ab5ee57b863",
@@ -2884,7 +3057,9 @@
    "published": "2026-10-02T11:00:00+09:00",
    "provider": "bing",
    "image_checked": true,
-   "added": "2026-10-02T11:00:00+09:00"
+   "added": "2026-10-02T11:00:00+09:00",
+   "shop": true,
+   "shop_name": "真央ちゃんチャーハン"
   },
   {
    "id": "240291d1db7c4b38",
@@ -2901,7 +3076,9 @@
    "decode_v2": true,
    "image_v3": true,
    "image_v4": true,
-   "added": "2026-10-02T08:15:19+09:00"
+   "added": "2026-10-02T08:15:19+09:00",
+   "shop": true,
+   "shop_name": null
   },
   {
    "id": "46a228602055aee0",
@@ -2916,7 +3093,9 @@
    "decode_tried": true,
    "image_checked": true,
    "decode_v2": true,
-   "added": "2026-10-02T06:30:21+09:00"
+   "added": "2026-10-02T06:30:21+09:00",
+   "shop": false,
+   "shop_name": null
   },
   {
    "id": "3a33e5233086ad12",
@@ -2931,7 +3110,9 @@
    "decode_tried": true,
    "image_checked": true,
    "decode_v2": true,
-   "added": "2026-10-02T01:34:27+09:00"
+   "added": "2026-10-02T01:34:27+09:00",
+   "shop": false,
+   "shop_name": null
   },
   {
    "id": "7cca07fdec612bf3",
@@ -2946,7 +3127,9 @@
    "decode_tried": true,
    "image_checked": true,
    "decode_v2": true,
-   "added": "2026-10-02T00:58:57+09:00"
+   "added": "2026-10-02T00:58:57+09:00",
+   "shop": false,
+   "shop_name": null
   },
   {
    "id": "c223a5aed1fbf9f9",
@@ -2959,7 +3142,9 @@
    "published": "2026-10-01T22:15:00+09:00",
    "provider": "bing",
    "image_checked": true,
-   "added": "2026-10-01T22:15:00+09:00"
+   "added": "2026-10-01T22:15:00+09:00",
+   "shop": false,
+   "shop_name": null
   },
   {
    "id": "d446e7f88d26c661",
@@ -2972,7 +3157,9 @@
    "published": "2026-09-30T14:43:00+09:00",
    "provider": "bing",
    "image_checked": true,
-   "added": "2026-09-30T14:43:00+09:00"
+   "added": "2026-09-30T14:43:00+09:00",
+   "shop": true,
+   "shop_name": "矢場味仙"
   },
   {
    "id": "65c3f78591c89676",
@@ -2985,7 +3172,9 @@
    "published": "2026-09-29T13:00:00+09:00",
    "provider": "bing",
    "image_checked": true,
-   "added": "2026-09-29T13:00:00+09:00"
+   "added": "2026-09-29T13:00:00+09:00",
+   "shop": false,
+   "shop_name": null
   },
   {
    "id": "1d4dfec885c21213",
@@ -3000,7 +3189,9 @@
    "image_checked": true,
    "image_v3": true,
    "image_v4": true,
-   "added": "2026-09-29T04:58:30+09:00"
+   "added": "2026-09-29T04:58:30+09:00",
+   "shop": true,
+   "shop_name": "田中寿司"
   },
   {
    "id": "3aa02a7cb7036a7f",
@@ -3014,7 +3205,9 @@
    "provider": "bing",
    "image_checked": true,
    "image_v3": true,
-   "added": "2026-09-26T20:59:00+09:00"
+   "added": "2026-09-26T20:59:00+09:00",
+   "shop": false,
+   "shop_name": null
   },
   {
    "id": "68621a9873ab5ce7",
@@ -3027,7 +3220,9 @@
    "published": "2026-09-26T20:00:00+09:00",
    "provider": "bing",
    "image_checked": true,
-   "added": "2026-09-26T20:00:00+09:00"
+   "added": "2026-09-26T20:00:00+09:00",
+   "shop": false,
+   "shop_name": null
   },
   {
    "id": "cdd8b4a3498de963",
@@ -3040,7 +3235,9 @@
    "published": "2026-09-26T07:58:00+09:00",
    "provider": "bing",
    "image_checked": true,
-   "added": "2026-09-26T07:58:00+09:00"
+   "added": "2026-09-26T07:58:00+09:00",
+   "shop": false,
+   "shop_name": null
   },
   {
    "id": "7b4c8881b4c13ae7",
@@ -3053,7 +3250,9 @@
    "published": "2026-09-25T12:40:00+09:00",
    "provider": "bing",
    "image_checked": true,
-   "added": "2026-09-25T12:40:00+09:00"
+   "added": "2026-09-25T12:40:00+09:00",
+   "shop": false,
+   "shop_name": null
   },
   {
    "id": "ac3939035598fb92",
@@ -3066,7 +3265,9 @@
    "published": "2026-09-25T10:16:00+09:00",
    "provider": "bing",
    "image_checked": true,
-   "added": "2026-09-25T10:16:00+09:00"
+   "added": "2026-09-25T10:16:00+09:00",
+   "shop": true,
+   "shop_name": null
   }
  ]
 }
