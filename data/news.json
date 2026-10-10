@@ -1,5 +1,9 @@
 {
- "updated": "2026-10-10T10:10:42+09:00",
+ "updated": "2026-10-10T10:17:02+09:00",
+ "daily": {
+  "date": "2026-10-10",
+  "id": "c1648a44648d1b94"
+ },
  "items": [
   {
    "id": "30c71c986fe87d8f",
@@ -12,7 +16,8 @@
    "published": "2026-10-10T07:31:33+09:00",
    "provider": "google",
    "decode_v2": true,
-   "image_checked": true
+   "image_checked": true,
+   "added": "2026-10-10T07:31:33+09:00"
   },
   {
    "id": "378c4a901295597f",
@@ -27,7 +32,8 @@
    "decode_v2": true,
    "image_checked": true,
    "image_v3": true,
-   "image_v4": true
+   "image_v4": true,
+   "added": "2026-10-10T06:33:05+09:00"
   },
   {
    "id": "6528212e55edfc6b",
@@ -40,7 +46,8 @@
    "published": "2026-10-10T03:08:00+09:00",
    "provider": "bing",
    "image_checked": true,
-   "image_v3": true
+   "image_v3": true,
+   "added": "2026-10-10T03:08:00+09:00"
   },
   {
    "id": "9d0d5d9effa6ec85",
@@ -52,7 +59,8 @@
    "area": "名古屋",
    "published": "2026-10-10T02:00:00+09:00",
    "provider": "bing",
-   "image_checked": true
+   "image_checked": true,
+   "added": "2026-10-10T02:00:00+09:00"
   },
   {
    "id": "e2fc34f34cfc6fd6",
@@ -65,7 +73,8 @@
    "published": "2026-10-10T01:24:52+09:00",
    "provider": "google",
    "decode_v2": true,
-   "image_checked": true
+   "image_checked": true,
+   "added": "2026-10-10T01:24:52+09:00"
   },
   {
    "id": "f557f1ba09c7ce1f",
@@ -78,7 +87,8 @@
    "published": "2026-10-09T20:38:04+09:00",
    "provider": "google",
    "decode_v2": true,
-   "image_checked": true
+   "image_checked": true,
+   "added": "2026-10-09T20:38:04+09:00"
   },
   {
    "id": "9df13cdd20bf98a3",
@@ -90,7 +100,8 @@
    "area": "名古屋",
    "published": "2026-10-09T19:22:19+09:00",
    "provider": "prtimes",
-   "image_checked": true
+   "image_checked": true,
+   "added": "2026-10-09T19:22:19+09:00"
   },
   {
    "id": "0e60fee94020b713",
@@ -103,7 +114,8 @@
    "published": "2026-10-09T18:30:57+09:00",
    "provider": "google",
    "decode_v2": true,
-   "image_checked": true
+   "image_checked": true,
+   "added": "2026-10-09T18:30:57+09:00"
   },
   {
    "id": "c1648a44648d1b94",
@@ -116,7 +128,8 @@
    "published": "2026-10-09T17:25:25+09:00",
    "provider": "google",
    "decode_v2": true,
-   "image_checked": true
+   "image_checked": true,
+   "added": "2026-10-09T17:25:25+09:00"
   },
   {
    "id": "fdd8ebe945d3c536",
@@ -129,7 +142,8 @@
    "published": "2026-10-09T17:07:55+09:00",
    "provider": "google",
    "decode_v2": true,
-   "image_checked": true
+   "image_checked": true,
+   "added": "2026-10-09T17:07:55+09:00"
   },
   {
    "id": "1eb27039682bc593",
@@ -141,7 +155,8 @@
    "area": "全国",
    "published": "2026-10-09T16:41:09+09:00",
    "provider": "prtimes",
-   "image_checked": true
+   "image_checked": true,
+   "added": "2026-10-09T16:41:09+09:00"
   },
   {
    "id": "6bb6f137cd460c2a",
@@ -154,7 +169,8 @@
    "published": "2026-10-09T15:45:00+09:00",
    "provider": "google",
    "decode_v2": true,
-   "image_checked": true
+   "image_checked": true,
+   "added": "2026-10-09T15:45:00+09:00"
   },
   {
    "id": "e906f868f38f0c86",
@@ -167,7 +183,8 @@
    "published": "2026-10-09T14:58:00+09:00",
    "provider": "google",
    "decode_v2": true,
-   "image_checked": true
+   "image_checked": true,
+   "added": "2026-10-09T14:58:00+09:00"
   },
   {
    "id": "f44c66ea9ed0fe2c",
@@ -180,7 +197,8 @@
    "published": "2026-10-09T14:34:20+09:00",
    "provider": "google",
    "decode_v2": true,
-   "image_checked": true
+   "image_checked": true,
+   "added": "2026-10-09T14:34:20+09:00"
   },
   {
    "id": "8a65457710366b0f",
@@ -193,7 +211,8 @@
    "published": "2026-10-09T12:03:11+09:00",
    "provider": "google",
    "decode_v2": true,
-   "image_checked": true
+   "image_checked": true,
+   "added": "2026-10-09T12:03:11+09:00"
   },
   {
    "id": "fa61db42ecff4dd4",
@@ -206,7 +225,8 @@
    "published": "2026-10-09T12:00:07+09:00",
    "provider": "google",
    "decode_v2": true,
-   "image_checked": true
+   "image_checked": true,
+   "added": "2026-10-09T12:00:07+09:00"
   },
   {
    "id": "b428392a2e27708f",
@@ -218,7 +238,8 @@
    "area": "名古屋",
    "published": "2026-10-09T11:28:00+09:00",
    "provider": "bing",
-   "image_checked": true
+   "image_checked": true,
+   "added": "2026-10-09T11:28:00+09:00"
   },
   {
    "id": "77b8161d7d9add30",
@@ -231,7 +252,8 @@
    "published": "2026-10-09T11:00:02+09:00",
    "provider": "google",
    "decode_v2": true,
-   "image_checked": true
+   "image_checked": true,
+   "added": "2026-10-09T11:00:02+09:00"
   },
   {
    "id": "21de86e960e0a433",
@@ -243,7 +265,8 @@
    "area": "静岡",
    "published": "2026-10-09T10:30:00+09:00",
    "provider": "prtimes",
-   "image_checked": true
+   "image_checked": true,
+   "added": "2026-10-09T10:30:00+09:00"
   },
   {
    "id": "afa87c1524327508",
@@ -256,7 +279,8 @@
    "published": "2026-10-09T10:00:00+09:00",
    "provider": "google",
    "decode_v2": true,
-   "image_checked": true
+   "image_checked": true,
+   "added": "2026-10-09T10:00:00+09:00"
   },
   {
    "id": "b9ec7250967acf14",
@@ -269,7 +293,8 @@
    "published": "2026-10-09T09:30:00+09:00",
    "provider": "google",
    "decode_v2": true,
-   "image_checked": true
+   "image_checked": true,
+   "added": "2026-10-09T09:30:00+09:00"
   },
   {
    "id": "c2317a8492863088",
@@ -281,7 +306,8 @@
    "area": "全国",
    "published": "2026-10-09T09:10:00+09:00",
    "provider": "prtimes",
-   "image_checked": true
+   "image_checked": true,
+   "added": "2026-10-09T09:10:00+09:00"
   },
   {
    "id": "207e47491d9eaeef",
@@ -293,7 +319,8 @@
    "area": "名古屋",
    "published": "2026-10-09T09:00:00+09:00",
    "provider": "prtimes",
-   "image_checked": true
+   "image_checked": true,
+   "added": "2026-10-09T09:00:00+09:00"
   },
   {
    "id": "1b82d7872e4af5b8",
@@ -305,7 +332,8 @@
    "area": "名古屋",
    "published": "2026-10-09T06:21:00+09:00",
    "provider": "bing",
-   "image_checked": true
+   "image_checked": true,
+   "added": "2026-10-09T06:21:00+09:00"
   },
   {
    "id": "eb072150a050793a",
@@ -318,7 +346,8 @@
    "published": "2026-10-09T06:20:28+09:00",
    "provider": "google",
    "decode_v2": true,
-   "image_checked": true
+   "image_checked": true,
+   "added": "2026-10-09T06:20:28+09:00"
   },
   {
    "id": "0d964a16b28369d9",
@@ -331,7 +360,8 @@
    "published": "2026-10-09T06:15:10+09:00",
    "provider": "google",
    "decode_v2": true,
-   "image_checked": true
+   "image_checked": true,
+   "added": "2026-10-09T06:15:10+09:00"
   },
   {
    "id": "0643aaeb068504d6",
@@ -344,7 +374,8 @@
    "published": "2026-10-09T05:58:00+09:00",
    "provider": "google",
    "decode_v2": true,
-   "image_checked": true
+   "image_checked": true,
+   "added": "2026-10-09T05:58:00+09:00"
   },
   {
    "id": "5b155e3671e0b564",
@@ -357,7 +388,8 @@
    "published": "2026-10-09T05:56:25+09:00",
    "provider": "google",
    "decode_v2": true,
-   "image_checked": true
+   "image_checked": true,
+   "added": "2026-10-09T05:56:25+09:00"
   },
   {
    "id": "8a4b65c64807dfd4",
@@ -370,7 +402,8 @@
    "published": "2026-10-09T05:00:45+09:00",
    "provider": "google",
    "decode_v2": true,
-   "image_checked": true
+   "image_checked": true,
+   "added": "2026-10-09T05:00:45+09:00"
   },
   {
    "id": "f29047a6cf0e074c",
@@ -383,7 +416,8 @@
    "published": "2026-10-09T03:04:21+09:00",
    "provider": "google",
    "decode_v2": true,
-   "image_checked": true
+   "image_checked": true,
+   "added": "2026-10-09T03:04:21+09:00"
   },
   {
    "id": "55b208568124daff",
@@ -395,7 +429,8 @@
    "area": "東海",
    "published": "2026-10-09T02:00:00+09:00",
    "provider": "bing",
-   "image_checked": true
+   "image_checked": true,
+   "added": "2026-10-09T02:00:00+09:00"
   },
   {
    "id": "be049d07bfc450fb",
@@ -407,7 +442,8 @@
    "area": "名古屋",
    "published": "2026-10-09T02:00:00+09:00",
    "provider": "bing",
-   "image_checked": true
+   "image_checked": true,
+   "added": "2026-10-09T02:00:00+09:00"
   },
   {
    "id": "2fa9e3eadcbaec50",
@@ -419,7 +455,8 @@
    "area": "三重",
    "published": "2026-10-08T22:10:02+09:00",
    "provider": "prtimes",
-   "image_checked": true
+   "image_checked": true,
+   "added": "2026-10-08T22:10:02+09:00"
   },
   {
    "id": "f84c972e6cb495cc",
@@ -435,7 +472,8 @@
    "decode_tried": true,
    "decode_v2": true,
    "image_v3": true,
-   "image_v4": true
+   "image_v4": true,
+   "added": "2026-10-08T19:45:23+09:00"
   },
   {
    "id": "9e385471c131a711",
@@ -451,7 +489,8 @@
    "decode_tried": true,
    "decode_v2": true,
    "image_v3": true,
-   "image_v4": true
+   "image_v4": true,
+   "added": "2026-10-08T19:14:18+09:00"
   },
   {
    "id": "18a81f4d54e72afe",
@@ -465,7 +504,8 @@
    "provider": "google",
    "image_checked": true,
    "decode_tried": true,
-   "decode_v2": true
+   "decode_v2": true,
+   "added": "2026-10-08T18:01:57+09:00"
   },
   {
    "id": "5d6550b2cc394012",
@@ -478,7 +518,8 @@
    "published": "2026-10-08T18:00:48+09:00",
    "provider": "google",
    "decode_v2": true,
-   "image_checked": true
+   "image_checked": true,
+   "added": "2026-10-08T18:00:48+09:00"
   },
   {
    "id": "679ea65bfd908ba2",
@@ -491,7 +532,8 @@
    "published": "2026-10-08T18:00:00+09:00",
    "provider": "google",
    "decode_v2": true,
-   "image_checked": true
+   "image_checked": true,
+   "added": "2026-10-08T18:00:00+09:00"
   },
   {
    "id": "4c22bcdc961c6c6f",
@@ -503,7 +545,8 @@
    "area": "全国",
    "published": "2026-10-08T13:40:42+09:00",
    "provider": "prtimes",
-   "image_checked": true
+   "image_checked": true,
+   "added": "2026-10-08T13:40:42+09:00"
   },
   {
    "id": "c549a91cbb0afe56",
@@ -519,7 +562,8 @@
    "decode_tried": true,
    "decode_v2": true,
    "image_v3": true,
-   "image_v4": true
+   "image_v4": true,
+   "added": "2026-10-08T13:30:21+09:00"
   },
   {
    "id": "a764eb4edd4b45e7",
@@ -533,7 +577,8 @@
    "provider": "google",
    "image_checked": true,
    "decode_tried": true,
-   "decode_v2": true
+   "decode_v2": true,
+   "added": "2026-10-08T13:07:47+09:00"
   },
   {
    "id": "833a87b17a8bf4a3",
@@ -547,7 +592,8 @@
    "provider": "google",
    "image_checked": true,
    "decode_tried": true,
-   "decode_v2": true
+   "decode_v2": true,
+   "added": "2026-10-08T12:12:59+09:00"
   },
   {
    "id": "35052c6fb08a672e",
@@ -561,7 +607,8 @@
    "provider": "google",
    "image_checked": true,
    "decode_tried": true,
-   "decode_v2": true
+   "decode_v2": true,
+   "added": "2026-10-08T12:02:06+09:00"
   },
   {
    "id": "06395e34ef073fc3",
@@ -574,7 +621,8 @@
    "published": "2026-10-08T12:00:02+09:00",
    "provider": "google",
    "decode_v2": true,
-   "image_checked": true
+   "image_checked": true,
+   "added": "2026-10-08T12:00:02+09:00"
   },
   {
    "id": "ec8fbff338f02cea",
@@ -588,7 +636,8 @@
    "provider": "google",
    "image_checked": true,
    "decode_tried": true,
-   "decode_v2": true
+   "decode_v2": true,
+   "added": "2026-10-08T12:00:00+09:00"
   },
   {
    "id": "a123589db391fc41",
@@ -601,7 +650,8 @@
    "published": "2026-10-08T11:59:00+09:00",
    "provider": "bing",
    "image_checked": true,
-   "image_v3": true
+   "image_v3": true,
+   "added": "2026-10-08T11:59:00+09:00"
   },
   {
    "id": "3103b201f1584bb8",
@@ -615,7 +665,8 @@
    "provider": "google",
    "image_checked": true,
    "decode_tried": true,
-   "decode_v2": true
+   "decode_v2": true,
+   "added": "2026-10-08T11:00:02+09:00"
   },
   {
    "id": "e087f6327e2519b1",
@@ -628,7 +679,8 @@
    "published": "2026-10-08T10:48:00+09:00",
    "provider": "google",
    "decode_v2": true,
-   "image_checked": true
+   "image_checked": true,
+   "added": "2026-10-08T10:48:00+09:00"
   },
   {
    "id": "2c494e0972fbfac9",
@@ -642,7 +694,8 @@
    "provider": "google",
    "image_checked": true,
    "decode_tried": true,
-   "decode_v2": true
+   "decode_v2": true,
+   "added": "2026-10-08T10:30:01+09:00"
   },
   {
    "id": "f7214831dcaf8d4f",
@@ -656,7 +709,8 @@
    "provider": "google",
    "image_checked": true,
    "decode_tried": true,
-   "decode_v2": true
+   "decode_v2": true,
+   "added": "2026-10-08T10:17:00+09:00"
   },
   {
    "id": "80adf627854e5403",
@@ -670,7 +724,8 @@
    "provider": "google",
    "image_checked": true,
    "decode_tried": true,
-   "decode_v2": true
+   "decode_v2": true,
+   "added": "2026-10-08T09:50:51+09:00"
   },
   {
    "id": "bb7f0cf008f900a2",
@@ -683,7 +738,8 @@
    "published": "2026-10-08T07:58:00+09:00",
    "provider": "google",
    "decode_v2": true,
-   "image_checked": true
+   "image_checked": true,
+   "added": "2026-10-08T07:58:00+09:00"
   },
   {
    "id": "33f7ce21e59a3934",
@@ -697,7 +753,8 @@
    "provider": "google",
    "image_checked": true,
    "decode_tried": true,
-   "decode_v2": true
+   "decode_v2": true,
+   "added": "2026-10-08T06:00:00+09:00"
   },
   {
    "id": "f0920543a255f3f6",
@@ -711,7 +768,8 @@
    "provider": "google",
    "image_checked": true,
    "decode_tried": true,
-   "decode_v2": true
+   "decode_v2": true,
+   "added": "2026-10-08T04:47:36+09:00"
   },
   {
    "id": "4c7a1b3de8973808",
@@ -726,7 +784,8 @@
    "decode_v2": true,
    "image_checked": true,
    "image_v3": true,
-   "image_v4": true
+   "image_v4": true,
+   "added": "2026-10-08T03:10:07+09:00"
   },
   {
    "id": "f7d42f584caebf6e",
@@ -738,7 +797,8 @@
    "area": "名古屋",
    "published": "2026-10-08T02:00:00+09:00",
    "provider": "bing",
-   "image_checked": true
+   "image_checked": true,
+   "added": "2026-10-08T02:00:00+09:00"
   },
   {
    "id": "202ef92b2409d409",
@@ -752,7 +812,8 @@
    "provider": "google",
    "image_checked": true,
    "decode_tried": true,
-   "decode_v2": true
+   "decode_v2": true,
+   "added": "2026-10-08T01:22:57+09:00"
   },
   {
    "id": "b63163a6213058ac",
@@ -766,7 +827,8 @@
    "provider": "google",
    "image_checked": true,
    "decode_tried": true,
-   "decode_v2": true
+   "decode_v2": true,
+   "added": "2026-10-08T00:28:46+09:00"
   },
   {
    "id": "a0db2efe56d57c69",
@@ -778,7 +840,8 @@
    "area": "名古屋",
    "published": "2026-10-07T23:04:00+09:00",
    "provider": "bing",
-   "image_checked": true
+   "image_checked": true,
+   "added": "2026-10-07T23:04:00+09:00"
   },
   {
    "id": "7de3130a8d4899e7",
@@ -791,7 +854,8 @@
    "published": "2026-10-07T21:32:03+09:00",
    "provider": "google",
    "decode_v2": true,
-   "image_checked": true
+   "image_checked": true,
+   "added": "2026-10-07T21:32:03+09:00"
   },
   {
    "id": "78c2d84637c72493",
@@ -805,7 +869,8 @@
    "provider": "google",
    "decode_tried": true,
    "image_checked": true,
-   "decode_v2": true
+   "decode_v2": true,
+   "added": "2026-10-07T21:23:15+09:00"
   },
   {
    "id": "aced4343d3dcdbf3",
@@ -819,7 +884,8 @@
    "provider": "google",
    "decode_tried": true,
    "image_checked": true,
-   "decode_v2": true
+   "decode_v2": true,
+   "added": "2026-10-07T19:57:16+09:00"
   },
   {
    "id": "bae259c845d966c9",
@@ -833,7 +899,8 @@
    "provider": "google",
    "decode_tried": true,
    "image_checked": true,
-   "decode_v2": true
+   "decode_v2": true,
+   "added": "2026-10-07T19:37:45+09:00"
   },
   {
    "id": "9e5c51d9217d117e",
@@ -848,7 +915,8 @@
    "decode_tried": true,
    "image_checked": true,
    "decode_v2": true,
-   "image_v3": true
+   "image_v3": true,
+   "added": "2026-10-07T18:39:27+09:00"
   },
   {
    "id": "82ab17dd613e63bc",
@@ -862,7 +930,8 @@
    "provider": "google",
    "decode_tried": true,
    "image_checked": true,
-   "decode_v2": true
+   "decode_v2": true,
+   "added": "2026-10-07T17:59:19+09:00"
   },
   {
    "id": "a70c561a91ba2017",
@@ -876,7 +945,8 @@
    "provider": "google",
    "decode_tried": true,
    "image_checked": true,
-   "decode_v2": true
+   "decode_v2": true,
+   "added": "2026-10-07T17:31:00+09:00"
   },
   {
    "id": "18db3f2631648b2a",
@@ -890,7 +960,8 @@
    "provider": "google",
    "decode_tried": true,
    "image_checked": true,
-   "decode_v2": true
+   "decode_v2": true,
+   "added": "2026-10-07T17:28:19+09:00"
   },
   {
    "id": "b1a6e72b02062f25",
@@ -904,7 +975,8 @@
    "provider": "google",
    "decode_tried": true,
    "image_checked": true,
-   "decode_v2": true
+   "decode_v2": true,
+   "added": "2026-10-07T16:18:48+09:00"
   },
   {
    "id": "3b11a7662de3f690",
@@ -917,7 +989,8 @@
    "published": "2026-10-07T16:00:00+09:00",
    "provider": "google",
    "decode_v2": true,
-   "image_checked": true
+   "image_checked": true,
+   "added": "2026-10-07T16:00:00+09:00"
   },
   {
    "id": "efd71e678ee48a80",
@@ -931,7 +1004,8 @@
    "provider": "google",
    "decode_tried": true,
    "image_checked": true,
-   "decode_v2": true
+   "decode_v2": true,
+   "added": "2026-10-07T15:35:56+09:00"
   },
   {
    "id": "b96379638d615f8e",
@@ -945,7 +1019,8 @@
    "provider": "google",
    "decode_tried": true,
    "image_checked": true,
-   "decode_v2": true
+   "decode_v2": true,
+   "added": "2026-10-07T15:21:28+09:00"
   },
   {
    "id": "77f2d76b0fa867cd",
@@ -959,7 +1034,8 @@
    "provider": "google",
    "decode_tried": true,
    "image_checked": true,
-   "decode_v2": true
+   "decode_v2": true,
+   "added": "2026-10-07T15:13:30+09:00"
   },
   {
    "id": "915f520b01ddc9c5",
@@ -973,7 +1049,8 @@
    "provider": "google",
    "decode_tried": true,
    "image_checked": true,
-   "decode_v2": true
+   "decode_v2": true,
+   "added": "2026-10-07T14:26:41+09:00"
   },
   {
    "id": "6c0c2790079179cf",
@@ -987,7 +1064,8 @@
    "provider": "google",
    "decode_tried": true,
    "image_checked": true,
-   "decode_v2": true
+   "decode_v2": true,
+   "added": "2026-10-07T14:15:44+09:00"
   },
   {
    "id": "a8c396b1fea67e1a",
@@ -1001,7 +1079,8 @@
    "provider": "google",
    "decode_tried": true,
    "image_checked": true,
-   "decode_v2": true
+   "decode_v2": true,
+   "added": "2026-10-07T13:00:02+09:00"
   },
   {
    "id": "63e0d84d95e9771f",
@@ -1013,7 +1092,8 @@
    "area": "名古屋",
    "published": "2026-10-07T13:00:00+09:00",
    "provider": "bing",
-   "image_checked": true
+   "image_checked": true,
+   "added": "2026-10-07T13:00:00+09:00"
   },
   {
    "id": "14612808e5207a94",
@@ -1025,7 +1105,8 @@
    "area": "名古屋",
    "published": "2026-10-07T13:00:00+09:00",
    "provider": "bing",
-   "image_checked": true
+   "image_checked": true,
+   "added": "2026-10-07T13:00:00+09:00"
   },
   {
    "id": "768f9e152a3d9a93",
@@ -1037,7 +1118,8 @@
    "area": "名古屋",
    "published": "2026-10-07T13:00:00+09:00",
    "provider": "bing",
-   "image_checked": true
+   "image_checked": true,
+   "added": "2026-10-07T13:00:00+09:00"
   },
   {
    "id": "ec2446f87d85257e",
@@ -1051,7 +1133,8 @@
    "provider": "google",
    "decode_tried": true,
    "image_checked": true,
-   "decode_v2": true
+   "decode_v2": true,
+   "added": "2026-10-07T11:20:54+09:00"
   },
   {
    "id": "7c21e75b47233319",
@@ -1066,7 +1149,8 @@
    "decode_tried": true,
    "image_checked": true,
    "decode_v2": true,
-   "image_v3": true
+   "image_v3": true,
+   "added": "2026-10-07T11:20:00+09:00"
   },
   {
    "id": "8e41f018e4b56095",
@@ -1080,7 +1164,8 @@
    "provider": "google",
    "decode_tried": true,
    "image_checked": true,
-   "decode_v2": true
+   "decode_v2": true,
+   "added": "2026-10-07T11:12:45+09:00"
   },
   {
    "id": "ba68b07a7db832cb",
@@ -1094,7 +1179,8 @@
    "provider": "google",
    "decode_tried": true,
    "image_checked": true,
-   "decode_v2": true
+   "decode_v2": true,
+   "added": "2026-10-07T11:05:39+09:00"
   },
   {
    "id": "2add9ed87785f366",
@@ -1108,7 +1194,8 @@
    "provider": "google",
    "decode_tried": true,
    "image_checked": true,
-   "decode_v2": true
+   "decode_v2": true,
+   "added": "2026-10-07T11:00:02+09:00"
   },
   {
    "id": "b729dfed49635211",
@@ -1122,7 +1209,8 @@
    "provider": "google",
    "decode_tried": true,
    "image_checked": true,
-   "decode_v2": true
+   "decode_v2": true,
+   "added": "2026-10-07T11:00:00+09:00"
   },
   {
    "id": "5e08bb5b1ad19b0e",
@@ -1136,7 +1224,8 @@
    "provider": "google",
    "decode_tried": true,
    "image_checked": true,
-   "decode_v2": true
+   "decode_v2": true,
+   "added": "2026-10-07T10:57:12+09:00"
   },
   {
    "id": "58034e3174fe8272",
@@ -1150,7 +1239,8 @@
    "provider": "google",
    "decode_tried": true,
    "image_checked": true,
-   "decode_v2": true
+   "decode_v2": true,
+   "added": "2026-10-07T10:53:41+09:00"
   },
   {
    "id": "8d77d91b4f6a0a3e",
@@ -1166,7 +1256,8 @@
    "image_checked": true,
    "decode_v2": true,
    "image_v3": true,
-   "image_v4": true
+   "image_v4": true,
+   "added": "2026-10-07T10:45:00+09:00"
   },
   {
    "id": "a93ed777c6e5234e",
@@ -1180,7 +1271,8 @@
    "provider": "google",
    "decode_tried": true,
    "image_checked": true,
-   "decode_v2": true
+   "decode_v2": true,
+   "added": "2026-10-07T09:49:53+09:00"
   },
   {
    "id": "32cc841090ee00be",
@@ -1195,7 +1287,8 @@
    "decode_v2": true,
    "image_checked": true,
    "image_v3": true,
-   "image_v4": true
+   "image_v4": true,
+   "added": "2026-10-07T07:30:32+09:00"
   },
   {
    "id": "135a2035ae5eebcf",
@@ -1207,7 +1300,8 @@
    "area": "名古屋",
    "published": "2026-10-07T06:59:00+09:00",
    "provider": "bing",
-   "image_checked": true
+   "image_checked": true,
+   "added": "2026-10-07T06:59:00+09:00"
   },
   {
    "id": "80d472fe8cc38731",
@@ -1221,7 +1315,8 @@
    "provider": "google",
    "decode_tried": true,
    "image_checked": true,
-   "decode_v2": true
+   "decode_v2": true,
+   "added": "2026-10-07T06:06:59+09:00"
   },
   {
    "id": "3f09f6189105b6f4",
@@ -1235,7 +1330,8 @@
    "provider": "google",
    "decode_tried": true,
    "image_checked": true,
-   "decode_v2": true
+   "decode_v2": true,
+   "added": "2026-10-07T04:20:49+09:00"
   },
   {
    "id": "5c0da3445c87fede",
@@ -1249,7 +1345,8 @@
    "provider": "google",
    "decode_tried": true,
    "image_checked": true,
-   "decode_v2": true
+   "decode_v2": true,
+   "added": "2026-10-07T04:01:26+09:00"
   },
   {
    "id": "7d7086e10fc13004",
@@ -1263,7 +1360,8 @@
    "provider": "google",
    "decode_tried": true,
    "image_checked": true,
-   "decode_v2": true
+   "decode_v2": true,
+   "added": "2026-10-07T03:37:20+09:00"
   },
   {
    "id": "aaa768b724ac32bd",
@@ -1276,7 +1374,8 @@
    "published": "2026-10-06T23:13:17+09:00",
    "provider": "google",
    "decode_v2": true,
-   "image_checked": true
+   "image_checked": true,
+   "added": "2026-10-06T23:13:17+09:00"
   },
   {
    "id": "9f7abc0e67ee7c84",
@@ -1290,7 +1389,8 @@
    "provider": "google",
    "decode_tried": true,
    "image_checked": true,
-   "decode_v2": true
+   "decode_v2": true,
+   "added": "2026-10-06T20:08:00+09:00"
   },
   {
    "id": "b5ca7cd49cecebf1",
@@ -1304,7 +1404,8 @@
    "provider": "google",
    "decode_tried": true,
    "image_checked": true,
-   "decode_v2": true
+   "decode_v2": true,
+   "added": "2026-10-06T19:56:52+09:00"
   },
   {
    "id": "e3b5d4288ecb02ba",
@@ -1318,7 +1419,8 @@
    "provider": "google",
    "decode_tried": true,
    "image_checked": true,
-   "decode_v2": true
+   "decode_v2": true,
+   "added": "2026-10-06T17:38:18+09:00"
   },
   {
    "id": "ffcfb600a03aaa7b",
@@ -1331,7 +1433,8 @@
    "published": "2026-10-06T17:02:00+09:00",
    "provider": "google",
    "decode_v2": true,
-   "image_checked": true
+   "image_checked": true,
+   "added": "2026-10-06T17:02:00+09:00"
   },
   {
    "id": "1e18a929da6502c5",
@@ -1345,7 +1448,8 @@
    "provider": "google",
    "decode_tried": true,
    "image_checked": true,
-   "decode_v2": true
+   "decode_v2": true,
+   "added": "2026-10-06T16:20:00+09:00"
   },
   {
    "id": "38db3eba31e36f41",
@@ -1359,7 +1463,8 @@
    "provider": "google",
    "decode_tried": true,
    "image_checked": true,
-   "decode_v2": true
+   "decode_v2": true,
+   "added": "2026-10-06T16:04:13+09:00"
   },
   {
    "id": "eeb7830865b5a8d8",
@@ -1373,7 +1478,8 @@
    "provider": "google",
    "decode_tried": true,
    "image_checked": true,
-   "decode_v2": true
+   "decode_v2": true,
+   "added": "2026-10-06T16:00:00+09:00"
   },
   {
    "id": "cb73570ca7b02c40",
@@ -1387,7 +1493,8 @@
    "provider": "google",
    "decode_tried": true,
    "image_checked": true,
-   "decode_v2": true
+   "decode_v2": true,
+   "added": "2026-10-06T16:00:00+09:00"
   },
   {
    "id": "ab2806790b9cbd8d",
@@ -1400,7 +1507,8 @@
    "published": "2026-10-06T16:00:00+09:00",
    "provider": "google",
    "decode_v2": true,
-   "image_checked": true
+   "image_checked": true,
+   "added": "2026-10-06T16:00:00+09:00"
   },
   {
    "id": "b0d890836dcb99b0",
@@ -1414,7 +1522,8 @@
    "provider": "google",
    "decode_v2": true,
    "image_checked": true,
-   "image_v3": true
+   "image_v3": true,
+   "added": "2026-10-06T16:00:00+09:00"
   },
   {
    "id": "f0c668a593078c85",
@@ -1426,7 +1535,8 @@
    "area": "名古屋",
    "published": "2026-10-06T15:00:00+09:00",
    "provider": "bing",
-   "image_checked": true
+   "image_checked": true,
+   "added": "2026-10-06T15:00:00+09:00"
   },
   {
    "id": "2f09171c90123f7c",
@@ -1440,7 +1550,8 @@
    "provider": "google",
    "decode_tried": true,
    "image_checked": true,
-   "decode_v2": true
+   "decode_v2": true,
+   "added": "2026-10-06T14:45:51+09:00"
   },
   {
    "id": "e7bfa3416823d45d",
@@ -1454,7 +1565,8 @@
    "provider": "google",
    "decode_tried": true,
    "image_checked": true,
-   "decode_v2": true
+   "decode_v2": true,
+   "added": "2026-10-06T12:43:00+09:00"
   },
   {
    "id": "b3cbf1ff4679bf46",
@@ -1468,7 +1580,8 @@
    "provider": "google",
    "decode_tried": true,
    "image_checked": true,
-   "decode_v2": true
+   "decode_v2": true,
+   "added": "2026-10-06T12:26:06+09:00"
   },
   {
    "id": "cfbac02c201a92f8",
@@ -1482,7 +1595,8 @@
    "provider": "google",
    "decode_tried": true,
    "image_checked": true,
-   "decode_v2": true
+   "decode_v2": true,
+   "added": "2026-10-06T12:00:39+09:00"
   },
   {
    "id": "fe45761002082170",
@@ -1496,7 +1610,8 @@
    "provider": "google",
    "decode_tried": true,
    "image_checked": true,
-   "decode_v2": true
+   "decode_v2": true,
+   "added": "2026-10-06T12:00:08+09:00"
   },
   {
    "id": "94736d5a4ba65c06",
@@ -1510,7 +1625,8 @@
    "provider": "google",
    "decode_tried": true,
    "image_checked": true,
-   "decode_v2": true
+   "decode_v2": true,
+   "added": "2026-10-06T11:00:02+09:00"
   },
   {
    "id": "3adedc3b0604fe7c",
@@ -1522,7 +1638,8 @@
    "area": "東海",
    "published": "2026-10-06T10:38:00+09:00",
    "provider": "bing",
-   "image_checked": true
+   "image_checked": true,
+   "added": "2026-10-06T10:38:00+09:00"
   },
   {
    "id": "00e9a3ef69fe47f0",
@@ -1536,7 +1653,8 @@
    "provider": "google",
    "decode_tried": true,
    "image_checked": true,
-   "decode_v2": true
+   "decode_v2": true,
+   "added": "2026-10-06T08:09:18+09:00"
   },
   {
    "id": "71ec484cde390c37",
@@ -1548,7 +1666,8 @@
    "area": "東海",
    "published": "2026-10-06T08:05:00+09:00",
    "provider": "bing",
-   "image_checked": true
+   "image_checked": true,
+   "added": "2026-10-06T08:05:00+09:00"
   },
   {
    "id": "802f67180a583473",
@@ -1562,7 +1681,8 @@
    "provider": "google",
    "decode_tried": true,
    "image_checked": true,
-   "decode_v2": true
+   "decode_v2": true,
+   "added": "2026-10-06T06:55:21+09:00"
   },
   {
    "id": "e041170bea6b8358",
@@ -1576,7 +1696,8 @@
    "provider": "google",
    "decode_tried": true,
    "image_checked": true,
-   "decode_v2": true
+   "decode_v2": true,
+   "added": "2026-10-06T06:29:23+09:00"
   },
   {
    "id": "d1b9e6311c03f375",
@@ -1590,7 +1711,8 @@
    "provider": "google",
    "decode_tried": true,
    "image_checked": true,
-   "decode_v2": true
+   "decode_v2": true,
+   "added": "2026-10-06T06:08:52+09:00"
   },
   {
    "id": "02f2acac68cb1d82",
@@ -1604,7 +1726,8 @@
    "provider": "google",
    "decode_tried": true,
    "image_checked": true,
-   "decode_v2": true
+   "decode_v2": true,
+   "added": "2026-10-06T05:14:40+09:00"
   },
   {
    "id": "19da6acba9faab0a",
@@ -1618,7 +1741,8 @@
    "provider": "google",
    "decode_tried": true,
    "image_checked": true,
-   "decode_v2": true
+   "decode_v2": true,
+   "added": "2026-10-05T21:48:00+09:00"
   },
   {
    "id": "ae51a3e736823f31",
@@ -1632,7 +1756,8 @@
    "provider": "google",
    "decode_tried": true,
    "image_checked": true,
-   "decode_v2": true
+   "decode_v2": true,
+   "added": "2026-10-05T19:54:44+09:00"
   },
   {
    "id": "0ee8e21a36e801e8",
@@ -1646,7 +1771,8 @@
    "provider": "google",
    "decode_tried": true,
    "image_checked": true,
-   "decode_v2": true
+   "decode_v2": true,
+   "added": "2026-10-05T19:38:34+09:00"
   },
   {
    "id": "71b69dd5c90153f5",
@@ -1661,7 +1787,8 @@
    "decode_tried": true,
    "image_checked": true,
    "decode_v2": true,
-   "image_v3": true
+   "image_v3": true,
+   "added": "2026-10-05T18:37:56+09:00"
   },
   {
    "id": "db320c2ae1461312",
@@ -1676,7 +1803,8 @@
    "decode_tried": true,
    "image_checked": true,
    "decode_v2": true,
-   "image_v3": true
+   "image_v3": true,
+   "added": "2026-10-05T18:04:08+09:00"
   },
   {
    "id": "02a1c060775c5a49",
@@ -1690,7 +1818,8 @@
    "provider": "google",
    "decode_tried": true,
    "image_checked": true,
-   "decode_v2": true
+   "decode_v2": true,
+   "added": "2026-10-05T17:45:59+09:00"
   },
   {
    "id": "07534d15acd0498f",
@@ -1704,7 +1833,8 @@
    "provider": "google",
    "decode_tried": true,
    "image_checked": true,
-   "decode_v2": true
+   "decode_v2": true,
+   "added": "2026-10-05T17:23:08+09:00"
   },
   {
    "id": "32d35219ce45418f",
@@ -1718,7 +1848,8 @@
    "provider": "google",
    "decode_tried": true,
    "image_checked": true,
-   "decode_v2": true
+   "decode_v2": true,
+   "added": "2026-10-05T16:12:44+09:00"
   },
   {
    "id": "117853f7896f5480",
@@ -1732,7 +1863,8 @@
    "provider": "google",
    "decode_tried": true,
    "image_checked": true,
-   "decode_v2": true
+   "decode_v2": true,
+   "added": "2026-10-05T16:00:00+09:00"
   },
   {
    "id": "a644a257bc9b6c2d",
@@ -1746,7 +1878,8 @@
    "provider": "google",
    "decode_tried": true,
    "image_checked": true,
-   "decode_v2": true
+   "decode_v2": true,
+   "added": "2026-10-05T16:00:00+09:00"
   },
   {
    "id": "299124c7521d42c3",
@@ -1760,7 +1893,8 @@
    "provider": "google",
    "decode_tried": true,
    "image_checked": true,
-   "decode_v2": true
+   "decode_v2": true,
+   "added": "2026-10-05T16:00:00+09:00"
   },
   {
    "id": "47fcc9abc6a3ad32",
@@ -1773,7 +1907,8 @@
    "published": "2026-10-05T16:00:00+09:00",
    "provider": "google",
    "decode_v2": true,
-   "image_checked": true
+   "image_checked": true,
+   "added": "2026-10-05T16:00:00+09:00"
   },
   {
    "id": "e63f42b4fb71474f",
@@ -1785,7 +1920,8 @@
    "area": "東海",
    "published": "2026-10-05T13:41:00+09:00",
    "provider": "bing",
-   "image_checked": true
+   "image_checked": true,
+   "added": "2026-10-05T13:41:00+09:00"
   },
   {
    "id": "2f94204e49f6c2a3",
@@ -1799,7 +1935,8 @@
    "provider": "google",
    "decode_tried": true,
    "image_checked": true,
-   "decode_v2": true
+   "decode_v2": true,
+   "added": "2026-10-05T13:01:05+09:00"
   },
   {
    "id": "39a0ad283bf57b0c",
@@ -1814,7 +1951,8 @@
    "decode_v2": true,
    "image_checked": true,
    "image_v3": true,
-   "image_v4": true
+   "image_v4": true,
+   "added": "2026-10-05T11:42:00+09:00"
   },
   {
    "id": "7936234dc60f16f9",
@@ -1828,7 +1966,8 @@
    "provider": "google",
    "decode_tried": true,
    "image_checked": true,
-   "decode_v2": true
+   "decode_v2": true,
+   "added": "2026-10-05T11:29:00+09:00"
   },
   {
    "id": "5be36d696a08eb9c",
@@ -1840,7 +1979,8 @@
    "area": "東海",
    "published": "2026-10-05T10:22:00+09:00",
    "provider": "bing",
-   "image_checked": true
+   "image_checked": true,
+   "added": "2026-10-05T10:22:00+09:00"
   },
   {
    "id": "49738113e4cf38ee",
@@ -1854,7 +1994,8 @@
    "provider": "google",
    "decode_tried": true,
    "image_checked": true,
-   "decode_v2": true
+   "decode_v2": true,
+   "added": "2026-10-05T10:00:02+09:00"
   },
   {
    "id": "50081e84e98a54d5",
@@ -1868,7 +2009,8 @@
    "provider": "google",
    "decode_tried": true,
    "image_checked": true,
-   "decode_v2": true
+   "decode_v2": true,
+   "added": "2026-10-05T10:00:02+09:00"
   },
   {
    "id": "0163bd0532743550",
@@ -1884,7 +2026,8 @@
    "image_checked": true,
    "decode_v2": true,
    "image_v3": true,
-   "image_v4": true
+   "image_v4": true,
+   "added": "2026-10-05T09:30:16+09:00"
   },
   {
    "id": "222412564dd28171",
@@ -1897,7 +2040,8 @@
    "published": "2026-10-05T09:30:00+09:00",
    "provider": "google",
    "decode_v2": true,
-   "image_checked": true
+   "image_checked": true,
+   "added": "2026-10-05T09:30:00+09:00"
   },
   {
    "id": "8b17a6640eafdc07",
@@ -1913,7 +2057,8 @@
    "image_checked": true,
    "decode_v2": true,
    "image_v3": true,
-   "image_v4": true
+   "image_v4": true,
+   "added": "2026-10-05T07:03:28+09:00"
   },
   {
    "id": "bf6279ea22d8fa0c",
@@ -1926,7 +2071,8 @@
    "published": "2026-10-05T06:00:00+09:00",
    "provider": "google",
    "decode_v2": true,
-   "image_checked": true
+   "image_checked": true,
+   "added": "2026-10-05T06:00:00+09:00"
   },
   {
    "id": "66353fca54d63f5b",
@@ -1940,7 +2086,8 @@
    "provider": "google",
    "decode_tried": true,
    "image_checked": true,
-   "decode_v2": true
+   "decode_v2": true,
+   "added": "2026-10-04T23:41:43+09:00"
   },
   {
    "id": "c0e7337fdac71190",
@@ -1954,7 +2101,8 @@
    "provider": "google",
    "decode_tried": true,
    "image_checked": true,
-   "decode_v2": true
+   "decode_v2": true,
+   "added": "2026-10-04T18:06:22+09:00"
   },
   {
    "id": "bd70223e0db606b1",
@@ -1968,7 +2116,8 @@
    "provider": "google",
    "decode_tried": true,
    "image_checked": true,
-   "decode_v2": true
+   "decode_v2": true,
+   "added": "2026-10-04T16:37:00+09:00"
   },
   {
    "id": "e2c10d70775466ea",
@@ -1982,7 +2131,8 @@
    "provider": "google",
    "decode_tried": true,
    "image_checked": true,
-   "decode_v2": true
+   "decode_v2": true,
+   "added": "2026-10-04T16:00:00+09:00"
   },
   {
    "id": "1aa477101c4f664a",
@@ -1996,7 +2146,8 @@
    "provider": "google",
    "decode_tried": true,
    "image_checked": true,
-   "decode_v2": true
+   "decode_v2": true,
+   "added": "2026-10-04T16:00:00+09:00"
   },
   {
    "id": "06b1800dc84703a6",
@@ -2010,7 +2161,8 @@
    "provider": "google",
    "decode_tried": true,
    "image_checked": true,
-   "decode_v2": true
+   "decode_v2": true,
+   "added": "2026-10-04T16:00:00+09:00"
   },
   {
    "id": "72e56a9b1f219d8f",
@@ -2024,7 +2176,8 @@
    "provider": "google",
    "decode_tried": true,
    "image_checked": true,
-   "decode_v2": true
+   "decode_v2": true,
+   "added": "2026-10-04T16:00:00+09:00"
   },
   {
    "id": "c1e7cfcb57947180",
@@ -2038,7 +2191,8 @@
    "provider": "google",
    "decode_tried": true,
    "image_checked": true,
-   "decode_v2": true
+   "decode_v2": true,
+   "added": "2026-10-04T16:00:00+09:00"
   },
   {
    "id": "f14aef4fa3b5706e",
@@ -2052,7 +2206,8 @@
    "provider": "google",
    "decode_tried": true,
    "image_checked": true,
-   "decode_v2": true
+   "decode_v2": true,
+   "added": "2026-10-04T16:00:00+09:00"
   },
   {
    "id": "8286eeb647a1c263",
@@ -2065,7 +2220,8 @@
    "published": "2026-10-04T16:00:00+09:00",
    "provider": "google",
    "decode_v2": true,
-   "image_checked": true
+   "image_checked": true,
+   "added": "2026-10-04T16:00:00+09:00"
   },
   {
    "id": "e362962e628a61ff",
@@ -2079,7 +2235,8 @@
    "provider": "google",
    "decode_v2": true,
    "image_checked": true,
-   "image_v3": true
+   "image_v3": true,
+   "added": "2026-10-04T16:00:00+09:00"
   },
   {
    "id": "1e567f4cc6b75bc2",
@@ -2093,7 +2250,8 @@
    "provider": "google",
    "decode_tried": true,
    "image_checked": true,
-   "decode_v2": true
+   "decode_v2": true,
+   "added": "2026-10-04T15:00:00+09:00"
   },
   {
    "id": "4f7d5e0bae6a5312",
@@ -2107,7 +2265,8 @@
    "provider": "google",
    "decode_tried": true,
    "image_checked": true,
-   "decode_v2": true
+   "decode_v2": true,
+   "added": "2026-10-04T13:43:35+09:00"
   },
   {
    "id": "c67819be8745921a",
@@ -2121,7 +2280,8 @@
    "provider": "google",
    "decode_tried": true,
    "image_checked": true,
-   "decode_v2": true
+   "decode_v2": true,
+   "added": "2026-10-04T12:00:00+09:00"
   },
   {
    "id": "d40c112c06866415",
@@ -2135,7 +2295,8 @@
    "provider": "google",
    "decode_tried": true,
    "image_checked": true,
-   "decode_v2": true
+   "decode_v2": true,
+   "added": "2026-10-04T09:59:29+09:00"
   },
   {
    "id": "781bdc6cbcb20e53",
@@ -2149,7 +2310,8 @@
    "provider": "google",
    "decode_tried": true,
    "image_checked": true,
-   "decode_v2": true
+   "decode_v2": true,
+   "added": "2026-10-04T03:21:51+09:00"
   },
   {
    "id": "1155640f065b76ee",
@@ -2163,7 +2325,8 @@
    "provider": "google",
    "decode_tried": true,
    "image_checked": true,
-   "decode_v2": true
+   "decode_v2": true,
+   "added": "2026-10-03T23:46:08+09:00"
   },
   {
    "id": "4ec20aa791fc0aa9",
@@ -2177,7 +2340,8 @@
    "provider": "google",
    "decode_tried": true,
    "image_checked": true,
-   "decode_v2": true
+   "decode_v2": true,
+   "added": "2026-10-03T21:19:10+09:00"
   },
   {
    "id": "673ad74a3fe9575f",
@@ -2191,7 +2355,8 @@
    "provider": "google",
    "decode_tried": true,
    "image_checked": true,
-   "decode_v2": true
+   "decode_v2": true,
+   "added": "2026-10-03T19:37:06+09:00"
   },
   {
    "id": "4a787730a876a5ea",
@@ -2205,7 +2370,8 @@
    "provider": "google",
    "decode_tried": true,
    "image_checked": true,
-   "decode_v2": true
+   "decode_v2": true,
+   "added": "2026-10-03T19:20:00+09:00"
   },
   {
    "id": "f3aa2bb640498424",
@@ -2219,7 +2385,8 @@
    "provider": "google",
    "decode_tried": true,
    "image_checked": true,
-   "decode_v2": true
+   "decode_v2": true,
+   "added": "2026-10-03T16:00:00+09:00"
   },
   {
    "id": "46ac66aa4e8e9e3f",
@@ -2233,7 +2400,8 @@
    "provider": "google",
    "decode_tried": true,
    "image_checked": true,
-   "decode_v2": true
+   "decode_v2": true,
+   "added": "2026-10-03T16:00:00+09:00"
   },
   {
    "id": "9b9a9257e5b9cff1",
@@ -2247,7 +2415,8 @@
    "provider": "google",
    "decode_tried": true,
    "image_checked": true,
-   "decode_v2": true
+   "decode_v2": true,
+   "added": "2026-10-03T16:00:00+09:00"
   },
   {
    "id": "facee275c78f7ca9",
@@ -2261,7 +2430,8 @@
    "provider": "google",
    "decode_tried": true,
    "image_checked": true,
-   "decode_v2": true
+   "decode_v2": true,
+   "added": "2026-10-03T16:00:00+09:00"
   },
   {
    "id": "60b45c55b179d648",
@@ -2275,7 +2445,8 @@
    "provider": "google",
    "decode_tried": true,
    "image_checked": true,
-   "decode_v2": true
+   "decode_v2": true,
+   "added": "2026-10-03T16:00:00+09:00"
   },
   {
    "id": "3c61ee24e6d20ef2",
@@ -2289,7 +2460,8 @@
    "provider": "google",
    "decode_tried": true,
    "image_checked": true,
-   "decode_v2": true
+   "decode_v2": true,
+   "added": "2026-10-03T16:00:00+09:00"
   },
   {
    "id": "f6f52ce227950f82",
@@ -2303,7 +2475,8 @@
    "provider": "google",
    "decode_tried": true,
    "image_checked": true,
-   "decode_v2": true
+   "decode_v2": true,
+   "added": "2026-10-03T16:00:00+09:00"
   },
   {
    "id": "5611703f877cf173",
@@ -2317,7 +2490,8 @@
    "provider": "google",
    "decode_tried": true,
    "image_checked": true,
-   "decode_v2": true
+   "decode_v2": true,
+   "added": "2026-10-03T14:48:19+09:00"
   },
   {
    "id": "85bfd4215097b436",
@@ -2331,7 +2505,8 @@
    "provider": "google",
    "decode_tried": true,
    "image_checked": true,
-   "decode_v2": true
+   "decode_v2": true,
+   "added": "2026-10-03T14:42:37+09:00"
   },
   {
    "id": "1d12606edf818c9c",
@@ -2345,7 +2520,8 @@
    "provider": "google",
    "decode_tried": true,
    "image_checked": true,
-   "decode_v2": true
+   "decode_v2": true,
+   "added": "2026-10-03T14:38:28+09:00"
   },
   {
    "id": "3d0e8ea83abd8f46",
@@ -2359,7 +2535,8 @@
    "provider": "google",
    "decode_tried": true,
    "image_checked": true,
-   "decode_v2": true
+   "decode_v2": true,
+   "added": "2026-10-03T14:33:29+09:00"
   },
   {
    "id": "eb8c392f4c806dc3",
@@ -2373,7 +2550,8 @@
    "provider": "google",
    "decode_tried": true,
    "image_checked": true,
-   "decode_v2": true
+   "decode_v2": true,
+   "added": "2026-10-03T14:31:03+09:00"
   },
   {
    "id": "d19f80aac1ac55d9",
@@ -2387,7 +2565,8 @@
    "provider": "google",
    "decode_tried": true,
    "image_checked": true,
-   "decode_v2": true
+   "decode_v2": true,
+   "added": "2026-10-03T14:28:55+09:00"
   },
   {
    "id": "6147146ededef4dc",
@@ -2403,7 +2582,8 @@
    "image_checked": true,
    "decode_v2": true,
    "image_v3": true,
-   "image_v4": true
+   "image_v4": true,
+   "added": "2026-10-03T05:30:56+09:00"
   },
   {
    "id": "bda849612767759e",
@@ -2415,7 +2595,8 @@
    "area": "名古屋",
    "published": "2026-10-03T02:00:00+09:00",
    "provider": "bing",
-   "image_checked": true
+   "image_checked": true,
+   "added": "2026-10-03T02:00:00+09:00"
   },
   {
    "id": "f764640c3d556f5b",
@@ -2427,7 +2608,8 @@
    "area": "名古屋",
    "published": "2026-10-03T02:00:00+09:00",
    "provider": "bing",
-   "image_checked": true
+   "image_checked": true,
+   "added": "2026-10-03T02:00:00+09:00"
   },
   {
    "id": "5886e34cee56a6d9",
@@ -2439,7 +2621,8 @@
    "area": "名古屋",
    "published": "2026-10-03T02:00:00+09:00",
    "provider": "bing",
-   "image_checked": true
+   "image_checked": true,
+   "added": "2026-10-03T02:00:00+09:00"
   },
   {
    "id": "b6b985ddcbb617bb",
@@ -2453,7 +2636,8 @@
    "provider": "google",
    "decode_tried": true,
    "image_checked": true,
-   "decode_v2": true
+   "decode_v2": true,
+   "added": "2026-10-03T00:59:01+09:00"
   },
   {
    "id": "0733ab1b99b48f66",
@@ -2466,7 +2650,8 @@
    "published": "2026-10-02T18:04:00+09:00",
    "provider": "google",
    "decode_v2": true,
-   "image_checked": true
+   "image_checked": true,
+   "added": "2026-10-02T18:04:00+09:00"
   },
   {
    "id": "a8de697147df585f",
@@ -2480,7 +2665,8 @@
    "provider": "google",
    "decode_tried": true,
    "image_checked": true,
-   "decode_v2": true
+   "decode_v2": true,
+   "added": "2026-10-02T18:00:55+09:00"
   },
   {
    "id": "541e70e4ff2627c6",
@@ -2494,7 +2680,8 @@
    "provider": "google",
    "decode_tried": true,
    "image_checked": true,
-   "decode_v2": true
+   "decode_v2": true,
+   "added": "2026-10-02T17:00:53+09:00"
   },
   {
    "id": "db9f34ab6445ac1c",
@@ -2508,7 +2695,8 @@
    "provider": "google",
    "decode_tried": true,
    "image_checked": true,
-   "decode_v2": true
+   "decode_v2": true,
+   "added": "2026-10-02T17:00:50+09:00"
   },
   {
    "id": "ac8aa747a478a2a6",
@@ -2524,7 +2712,8 @@
    "image_checked": true,
    "decode_v2": true,
    "image_v3": true,
-   "image_v4": true
+   "image_v4": true,
+   "added": "2026-10-02T16:00:00+09:00"
   },
   {
    "id": "cff0eb4c5263b969",
@@ -2538,7 +2727,8 @@
    "provider": "google",
    "decode_tried": true,
    "image_checked": true,
-   "decode_v2": true
+   "decode_v2": true,
+   "added": "2026-10-02T16:00:00+09:00"
   },
   {
    "id": "6aee8a1765b8ff61",
@@ -2552,7 +2742,8 @@
    "provider": "google",
    "decode_tried": true,
    "image_checked": true,
-   "decode_v2": true
+   "decode_v2": true,
+   "added": "2026-10-02T16:00:00+09:00"
   },
   {
    "id": "c9f909e3a74a78a7",
@@ -2566,7 +2757,8 @@
    "provider": "google",
    "decode_tried": true,
    "image_checked": true,
-   "decode_v2": true
+   "decode_v2": true,
+   "added": "2026-10-02T16:00:00+09:00"
   },
   {
    "id": "069ed27d3a988aab",
@@ -2580,7 +2772,8 @@
    "provider": "google",
    "decode_tried": true,
    "image_checked": true,
-   "decode_v2": true
+   "decode_v2": true,
+   "added": "2026-10-02T16:00:00+09:00"
   },
   {
    "id": "00fdb42e12799ffd",
@@ -2594,7 +2787,8 @@
    "provider": "google",
    "decode_tried": true,
    "image_checked": true,
-   "decode_v2": true
+   "decode_v2": true,
+   "added": "2026-10-02T15:00:45+09:00"
   },
   {
    "id": "dec1a2ef5369e3bd",
@@ -2607,7 +2801,8 @@
    "published": "2026-10-02T15:00:02+09:00",
    "provider": "google",
    "decode_v2": true,
-   "image_checked": true
+   "image_checked": true,
+   "added": "2026-10-02T15:00:02+09:00"
   },
   {
    "id": "7696179b13756ffa",
@@ -2621,7 +2816,8 @@
    "provider": "google",
    "decode_tried": true,
    "image_checked": true,
-   "decode_v2": true
+   "decode_v2": true,
+   "added": "2026-10-02T14:00:01+09:00"
   },
   {
    "id": "2262c2c822183080",
@@ -2635,7 +2831,8 @@
    "provider": "google",
    "decode_tried": true,
    "image_checked": true,
-   "decode_v2": true
+   "decode_v2": true,
+   "added": "2026-10-02T11:47:19+09:00"
   },
   {
    "id": "87019ff6784686d1",
@@ -2647,7 +2844,8 @@
    "area": "名古屋",
    "published": "2026-10-02T11:40:11+09:00",
    "provider": "bing",
-   "image_checked": true
+   "image_checked": true,
+   "added": "2026-10-02T11:40:11+09:00"
   },
   {
    "id": "428a698c55c96b62",
@@ -2661,7 +2859,8 @@
    "provider": "google",
    "decode_tried": true,
    "image_checked": true,
-   "decode_v2": true
+   "decode_v2": true,
+   "added": "2026-10-02T11:38:38+09:00"
   },
   {
    "id": "ed693af87721819b",
@@ -2675,7 +2874,8 @@
    "provider": "google",
    "decode_tried": true,
    "image_checked": true,
-   "decode_v2": true
+   "decode_v2": true,
+   "added": "2026-10-02T11:04:30+09:00"
   },
   {
    "id": "9d153ab5ee57b863",
@@ -2687,7 +2887,8 @@
    "area": "名古屋",
    "published": "2026-10-02T11:00:00+09:00",
    "provider": "bing",
-   "image_checked": true
+   "image_checked": true,
+   "added": "2026-10-02T11:00:00+09:00"
   },
   {
    "id": "240291d1db7c4b38",
@@ -2703,7 +2904,8 @@
    "image_checked": true,
    "decode_v2": true,
    "image_v3": true,
-   "image_v4": true
+   "image_v4": true,
+   "added": "2026-10-02T08:15:19+09:00"
   },
   {
    "id": "46a228602055aee0",
@@ -2717,7 +2919,8 @@
    "provider": "google",
    "decode_tried": true,
    "image_checked": true,
-   "decode_v2": true
+   "decode_v2": true,
+   "added": "2026-10-02T06:30:21+09:00"
   },
   {
    "id": "3a33e5233086ad12",
@@ -2731,7 +2934,8 @@
    "provider": "google",
    "decode_tried": true,
    "image_checked": true,
-   "decode_v2": true
+   "decode_v2": true,
+   "added": "2026-10-02T01:34:27+09:00"
   },
   {
    "id": "7cca07fdec612bf3",
@@ -2745,7 +2949,8 @@
    "provider": "google",
    "decode_tried": true,
    "image_checked": true,
-   "decode_v2": true
+   "decode_v2": true,
+   "added": "2026-10-02T00:58:57+09:00"
   },
   {
    "id": "c223a5aed1fbf9f9",
@@ -2757,7 +2962,8 @@
    "area": "名古屋",
    "published": "2026-10-01T22:15:00+09:00",
    "provider": "bing",
-   "image_checked": true
+   "image_checked": true,
+   "added": "2026-10-01T22:15:00+09:00"
   },
   {
    "id": "d446e7f88d26c661",
@@ -2769,7 +2975,8 @@
    "area": "名古屋",
    "published": "2026-09-30T14:43:00+09:00",
    "provider": "bing",
-   "image_checked": true
+   "image_checked": true,
+   "added": "2026-09-30T14:43:00+09:00"
   },
   {
    "id": "65c3f78591c89676",
@@ -2781,7 +2988,8 @@
    "area": "名古屋",
    "published": "2026-09-29T13:00:00+09:00",
    "provider": "bing",
-   "image_checked": true
+   "image_checked": true,
+   "added": "2026-09-29T13:00:00+09:00"
   },
   {
    "id": "1d4dfec885c21213",
@@ -2795,7 +3003,8 @@
    "provider": "bing",
    "image_checked": true,
    "image_v3": true,
-   "image_v4": true
+   "image_v4": true,
+   "added": "2026-09-29T04:58:30+09:00"
   },
   {
    "id": "3aa02a7cb7036a7f",
@@ -2808,7 +3017,8 @@
    "published": "2026-09-26T20:59:00+09:00",
    "provider": "bing",
    "image_checked": true,
-   "image_v3": true
+   "image_v3": true,
+   "added": "2026-09-26T20:59:00+09:00"
   },
   {
    "id": "68621a9873ab5ce7",
@@ -2820,7 +3030,8 @@
    "area": "名古屋",
    "published": "2026-09-26T20:00:00+09:00",
    "provider": "bing",
-   "image_checked": true
+   "image_checked": true,
+   "added": "2026-09-26T20:00:00+09:00"
   },
   {
    "id": "cdd8b4a3498de963",
@@ -2832,7 +3043,8 @@
    "area": "東海",
    "published": "2026-09-26T07:58:00+09:00",
    "provider": "bing",
-   "image_checked": true
+   "image_checked": true,
+   "added": "2026-09-26T07:58:00+09:00"
   },
   {
    "id": "7b4c8881b4c13ae7",
@@ -2844,7 +3056,8 @@
    "area": "名古屋",
    "published": "2026-09-25T12:40:00+09:00",
    "provider": "bing",
-   "image_checked": true
+   "image_checked": true,
+   "added": "2026-09-25T12:40:00+09:00"
   },
   {
    "id": "ac3939035598fb92",
@@ -2856,7 +3069,8 @@
    "area": "名古屋",
    "published": "2026-09-25T10:16:00+09:00",
    "provider": "bing",
-   "image_checked": true
+   "image_checked": true,
+   "added": "2026-09-25T10:16:00+09:00"
   }
  ]
 }
