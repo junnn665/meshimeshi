@@ -748,3 +748,6 @@ body.no-scroll { overflow: hidden; }
 @media (display-mode: standalone) {
   .site-header, .mini-header { padding-top: env(safe-area-inset-top); }
 }
+
+/* 人気上位 */
+.g-badge.popular { background: #FFF1C2; color: #8A5A00; border-color: #E0A800; }

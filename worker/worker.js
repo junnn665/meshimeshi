@@ -79,6 +79,7 @@ function compact(s) {
     url: (s.urls && s.urls.pc) || '',
     lat: s.lat,
     lng: s.lng,
+    rank: s._rank || null,
   };
 }
 
@@ -133,14 +134,15 @@ export default {
       const code = await genreCode(label, key);
       if (code) params.genre = code;
       const first = await hp('gourmet', params, key);
-      let shops = first.shop || [];
+      // おすすめ順の順位（「人気上位」の条件に使う）
+      let shops = (first.shop || []).map((s, i) => ({ ...s, _rank: i + 1 }));
       const total = Number(first.results_available || 0);
       // 100軒より多いときは、別のページもランダムに1つ足して顔ぶれを広げる
       if (total > 100) {
         const pages = Math.min(Math.ceil(total / 100), 10);
         const p = 1 + Math.floor(Math.random() * (pages - 1)) + 1; // 2ページ目以降
         const more = await hp('gourmet', { ...params, start: (p - 1) * 100 + 1 }, key);
-        shops = shops.concat(more.shop || []);
+        shops = shops.concat((more.shop || []).map((s, i) => ({ ...s, _rank: (p - 1) * 100 + i + 1 })));
       }
       const seen = new Set();
       const out = [];

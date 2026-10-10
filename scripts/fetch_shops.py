@@ -24,7 +24,7 @@ JST = dt.timezone(dt.timedelta(hours=9))
 NOW = dt.datetime.now(JST)
 MAX_AGE_HOURS = 20   # これより新しければ取り直さない
 PER_QUERY = 100      # 1回の検索で取る件数（APIの上限）
-SCHEMA = 3           # 出力の形を変えたら上げる（上げると次の実行で取り直す）
+SCHEMA = 4           # 出力の形を変えたら上げる（上げると次の実行で取り直す）
 
 # 画面に出すエリア。keyword は住所などの部分一致（名古屋は名古屋市内に絞る）
 AREAS = [
@@ -164,8 +164,12 @@ def main() -> int:
                     errors += 1
                     print(f"[warn] {area['id']} {glabel} p{page + 1}: {e}", file=sys.stderr)
                     break
-                for s in res.get("shop", []):
-                    shops.setdefault(s["id"], compact(s, glabel))
+                for i, s in enumerate(res.get("shop", [])):
+                    if s["id"] not in shops:
+                        item = compact(s, glabel)
+                        # ホットペッパーのおすすめ順で、このエリア×ジャンルの何位か（「人気上位」の条件に使う）
+                        item["rank"] = page * PER_QUERY + i + 1
+                        shops[s["id"]] = item
                 time.sleep(0.3)  # 相手のサーバーに負担をかけない
                 if int(res.get("results_available", 0)) <= (page + 1) * PER_QUERY:
                     break

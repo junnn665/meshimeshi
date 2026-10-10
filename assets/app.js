@@ -33,6 +33,7 @@
     chain: '<path d="M12 3l2 6 6 2-6 2-2 6-2-6-6-2 6-2z"/><path d="M19 3v3M17.5 4.5h3"/>',
     conbini: '<path d="M12 4C10 4 4 13.5 4 17a3 3 0 0 0 3 3h10a3 3 0 0 0 3-3c0-3.5-6-13-8-13z"/><path d="M9 15h6v5H9z"/>',
     yasuuma: '<circle cx="12" cy="12" r="9"/><path d="M9 7l3 4 3-4M12 11v6M9 12.5h6M9 15h6"/>',
+    star: '<path d="M12 3.5l2.6 5.3 5.9.9-4.3 4.1 1 5.8-5.2-2.7-5.2 2.7 1-5.8-4.3-4.1 5.9-.9z"/>',
     heart: '<path d="M12 20s-7.5-4.6-9.2-9.3C1.6 7.3 3.8 4 7.2 4c2 0 3.6 1.1 4.8 2.8C13.2 5.1 14.8 4 16.8 4c3.4 0 5.6 3.3 4.4 6.7C19.5 15.4 12 20 12 20z"/>',
     search: '<circle cx="11" cy="11" r="7"/><path d="M20 20l-3.5-3.5"/>',
     pin: '<path d="M12 21s-7-6.2-7-11.5A7 7 0 0 1 19 9.5C19 14.8 12 21 12 21z"/><circle cx="12" cy="9.5" r="2.5"/>'
@@ -379,6 +380,7 @@
     'カフェ': /カフェ|喫茶|スイーツ|パン|ベーカリー|ドーナツ|かき氷|パフェ/
   };
 
+  var POPULAR_TOP = 30; // 「人気上位」= エリア×ジャンルごとのおすすめ順でこの順位まで
   var gacha = {
     meta: null,
     shops: {},
@@ -388,6 +390,7 @@
     budget: store.get('meshi.gBudget', 'any'),
     radius: store.get('meshi.gRadius', '1000'),
     lunch: !!store.get('meshi.gLunch', false),
+    popular: !!store.get('meshi.gPopular', false),   // 人気上位（ホットペッパーのおすすめ順）
     openNow: !!store.get('meshi.gOpen', false),
     mixNews: store.get('meshi.gNews', true) !== false,
     multi: !!store.get('meshi.gMulti', false),  // 3連ガチャ
@@ -534,7 +537,7 @@
   }
 
   function newsCandidates() {
-    if (!gacha.mixNews || gacha.area === 'near' || gacha.budget !== 'any' || gacha.lunch || gacha.openNow) return [];
+    if (!gacha.mixNews || gacha.area === 'near' || gacha.budget !== 'any' || gacha.lunch || gacha.openNow || gacha.popular) return [];
     var area = { nagoya: ['名古屋'], aichi: ['愛知', '名古屋'], gifu: ['岐阜'], mie: ['三重'], all: ['名古屋', '愛知', '岐阜', '三重'] }[gacha.area] || [];
     return gacha.news.filter(function (it) {
       if (!it.shop || !it.shop_name || area.indexOf(it.area) < 0) return false;
@@ -608,6 +611,7 @@
         if (!genreOk(sh.genre)) return false;
         if (!matchBudget(sh)) return false;
         if (gacha.lunch && !hasLunch(sh)) return false;
+        if (gacha.popular && !(sh.rank && sh.rank <= POPULAR_TOP)) return false;
         if (gacha.openNow && isOpenNow(sh, now) !== true) return false;
         if (gacha.area === 'near') {
           if (sh.lat == null || sh.lng == null) return false;
@@ -803,6 +807,7 @@
     var open = isOpenNow(sh);
     if (open === true) badges.appendChild(el('span', 'g-badge open', '営業中（たぶん）'));
     else if (open === false) badges.appendChild(el('span', 'g-badge closed', '今は営業時間外かも'));
+    if (sh.rank && sh.rank <= POPULAR_TOP) badges.appendChild(el('span', 'g-badge popular', '人気' + sh.rank + '位（' + sh.genre + '）'));
     if (hasLunch(sh)) badges.appendChild(el('span', 'g-badge', 'ランチあり'));
     if (badges.children.length) body.appendChild(badges);
     if (sh.catch) body.appendChild(el('span', 'g-catch', sh.catch));
@@ -892,6 +897,7 @@
       var meta = [];
       if (sh) {
         if (sh._dist != null && gacha.area === 'near') meta.push('ここから' + fmtDistance(sh._dist));
+        if (sh.rank && sh.rank <= POPULAR_TOP) meta.push('人気' + sh.rank + '位');
         if (sh.budget) meta.push(sh.budget.replace(/（.*$/, ''));
         var open = isOpenNow(sh);
         if (open === true) meta.push('営業中');
@@ -1171,11 +1177,13 @@
       $('g-mood-open').addEventListener('click', openMood);
       pills('g-budget', BUDGETS, gacha.budget, function (id) { gacha.budget = id; store.set('meshi.gBudget', id); });
       pills('g-opts', [
+        { id: 'popular', label: '人気上位', on: gacha.popular, icon: 'star' },
         { id: 'lunch', label: 'ランチあり', on: gacha.lunch },
         { id: 'open', label: '今営業中', on: gacha.openNow },
         { id: 'news', label: '話題枠をまぜる', on: gacha.mixNews }
       ], null, function (id, on) {
         if (id === 'lunch') { gacha.lunch = on; store.set('meshi.gLunch', on); }
+        if (id === 'popular') { gacha.popular = on; store.set('meshi.gPopular', on); }
         if (id === 'open') { gacha.openNow = on; store.set('meshi.gOpen', on); }
         if (id === 'news') { gacha.mixNews = on; store.set('meshi.gNews', on); }
       }, true);
