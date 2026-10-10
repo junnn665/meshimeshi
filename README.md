@@ -25,6 +25,14 @@
 - 使うには APIキー（https://webservice.recruit.co.jp/register で無料登録）を、
   リポジトリの **Settings → Secrets and variables → Actions** に `HOTPEPPER_API_KEY` という名前で登録します。
 
+## 飯ガチャ「現在地から」を全国で使う（Cloudflare Workers）
+
+- `worker/worker.js` … 緯度・経度を受け取り、ホットペッパーで周辺のお店を検索して返す中継プログラム。
+  APIキーは Cloudflare の Secret にだけ置き、ページ側には出しません。
+- Cloudflare で Worker を作って `worker/worker.js` を貼り付け、Secret `HOTPEPPER_API_KEY` を登録します。
+- できた Worker のURLを `assets/config.js` の `nearbyApi` に書くと、全国の「現在地から」が有効になります。
+  空のあいだ（または中継が止まっているとき）は、東海のお店データの中から近いお店を探します。
+
 ## 調整したいとき
 
 - 集めるキーワード … `scripts/fetch_news.py` の `QUERIES`

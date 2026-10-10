@@ -359,7 +359,7 @@
     { id: '500', label: '500m', m: 500 },
     { id: '1000', label: '1km', m: 1000 },
     { id: '2000', label: '2km', m: 2000 },
-    { id: '5000', label: '5km', m: 5000 }
+    { id: '3000', label: '3km', m: 3000 }
   ];
   var CAP_COLORS = ['#C2410C', '#1D4ED8', '#3F6212', '#86198F', '#A16207', '#B91C1C', '#0E7490', '#9D174D', '#4D7C0F', '#7C2D12', '#5B21B6'];
   var NEWS_SHARE = 0.15; // 話題枠が出る確率（候補にあるとき）
@@ -500,6 +500,20 @@
     });
   }
 
+  // 全国の「現在地から」：Cloudflare の中継（assets/config.js の nearbyApi）で周辺のお店を検索
+  var NEARBY_API = ((window.MESHI_CONFIG || {}).nearbyApi || '').replace(/\/+$/, '');
+  var nearbyCache = {};
+  function loadNearby() {
+    var radius = gacha.radius;
+    var genre = gacha.genre === 'all' ? '' : gacha.genre;
+    var q = 'lat=' + gacha.here.lat.toFixed(4) + '&lng=' + gacha.here.lng.toFixed(4) +
+      '&range=' + radius + (genre ? '&genre=' + encodeURIComponent(genre) : '');
+    if (nearbyCache[q]) return Promise.resolve(nearbyCache[q]);
+    return fetch(NEARBY_API + '/nearby?' + q)
+      .then(function (r) { if (!r.ok) throw new Error(r.status); return r.json(); })
+      .then(function (data) { nearbyCache[q] = data.shops || []; return nearbyCache[q]; });
+  }
+
   function matchBudget(sh) {
     var b = BUDGETS.filter(function (x) { return x.id === gacha.budget; })[0] || BUDGETS[0];
     if (!b.codes) return true;
@@ -571,6 +585,10 @@
     $('g-pool').textContent = needHere ? '現在地を確認しています…' : 'お店を読み込み中…';
     var hereP = needHere ? locate().then(function (h) { gacha.here = h; }) : Promise.resolve();
     hereP.then(function () {
+      if (gacha.area === 'near' && NEARBY_API) {
+        // 中継が使えないときは、手元の東海のお店データで代わりに探す
+        return loadNearby().catch(function () { return loadShops('near'); });
+      }
       return loadShops(gacha.area);
     }).then(function (list) {
       if (seq !== poolSeq) return;
