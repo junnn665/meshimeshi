@@ -1,14 +1,14 @@
 {
- "updated": "2026-10-10T10:42:10+09:00",
- "items": 197,
- "with_image": 184,
- "google_decode_ok": 4,
+ "updated": "2026-10-10T10:48:15+09:00",
+ "items": 198,
+ "with_image": 185,
+ "google_decode_ok": 5,
  "google_decode_failed": 0,
  "google_decode_samples": [],
  "image_failures": [
   "media.unisba.ac.id: HTTPError: HTTP Error 403: Forbidden",
   "media.unisba.ac.id: HTTPError: HTTP Error 403: Forbidden",
-  "media.unisba.ac.id: HTTPError: HTTP Error 403: Forbidden",
-  "www.goobike.com: HTTPError: HTTP Error 403: Forbidden"
+  "www.goobike.com: HTTPError: HTTP Error 403: Forbidden",
+  "media.unisba.ac.id: HTTPError: HTTP Error 403: Forbidden"
  ]
 }
