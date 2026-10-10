@@ -609,7 +609,12 @@
       gacha.newsPool = newsCandidates();
       var n = gacha.pool.length, k = gacha.newsPool.length;
       var msg;
-      if (!n && !k) {
+      // 中継が未設定のあいだ「現在地から」は東海のお店データだけで探すので、東海の外ではそう伝える
+      var outside = gacha.area === 'near' && !NEARBY_API && gacha.here &&
+        !(gacha.here.lat > 33.7 && gacha.here.lat < 36.5 && gacha.here.lng > 135.8 && gacha.here.lng < 138.9);
+      if (!n && !k && outside) {
+        msg = '「現在地から」は今のところ東海エリア（愛知・岐阜・三重）のみ対応です。エリアを選んで回してください。';
+      } else if (!n && !k) {
         msg = gacha.area === 'near'
           ? '近くにこの条件のお店が見つかりませんでした。距離を広げるか条件を変えてみてください。'
           : 'この条件のお店が見つかりませんでした。条件を変えてみてください。';
