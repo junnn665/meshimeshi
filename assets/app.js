@@ -247,6 +247,7 @@
   }
   function updateSavedButton() {
     var sb = $('saved-toggle');
+    if (!sb) return; // ガチャのページにはない
     sb.setAttribute('aria-pressed', String(state.saved));
     $('saved-count').textContent = String(state.savedItems.length);
   }
@@ -662,14 +663,17 @@
       .then(function () { btn.disabled = false; });
   }
 
-  $('refresh').addEventListener('click', load);
-  $('more').addEventListener('click', function () {
-    state.shown += PAGE_SIZE;
-    renderList();
-  });
-
-  buildTabs();
-  buildTools();
-  buildGacha();
-  load();
+  // トップページ（記事一覧）
+  if ($('grid')) {
+    $('refresh').addEventListener('click', load);
+    $('more').addEventListener('click', function () {
+      state.shown += PAGE_SIZE;
+      renderList();
+    });
+    buildTabs();
+    buildTools();
+    load();
+  }
+  // ガチャのページ
+  if ($('gacha')) buildGacha();
 })();

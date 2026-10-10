@@ -400,3 +400,54 @@ button { font-family: inherit; cursor: pointer; }
 @media (min-width: 760px) {
   .tools { grid-template-columns: minmax(0, 1fr) auto auto; grid-template-areas: "search areas saved"; align-items: center; }
 }
+
+/* ===== トップの「飯ガチャ」入口 ===== */
+.gacha-entry {
+  position: relative; display: flex; align-items: center; gap: 16px;
+  background: var(--ink); color: var(--ground); border-radius: 22px;
+  padding: 18px 20px; box-shadow: 4px 4px 0 rgba(43, 33, 24, 0.25); overflow: hidden;
+  transition: transform .12s, box-shadow .12s;
+}
+.gacha-entry:hover { color: var(--ground); transform: translate(-2px, -2px); box-shadow: 6px 6px 0 rgba(43, 33, 24, 0.3); }
+.gacha-entry:active { transform: translate(2px, 2px); box-shadow: 1px 1px 0 rgba(43, 33, 24, 0.3); }
+.gacha-entry:focus-visible { outline: 3px solid var(--red); outline-offset: 3px; }
+.ge-text { flex: 1; min-width: 0; display: flex; flex-direction: column; gap: 4px; }
+.ge-small { font-size: 12px; font-weight: 700; color: rgba(255, 253, 247, 0.75); }
+.ge-title { font-size: 28px; font-weight: 900; letter-spacing: 0.06em; color: var(--yellow); line-height: 1.2; }
+.ge-sub { font-size: 12px; color: rgba(255, 253, 247, 0.75); line-height: 1.6; }
+.ge-arrow {
+  flex: none; width: 44px; height: 44px; border-radius: 50%; background: var(--yellow); color: var(--ink);
+  display: flex; align-items: center; justify-content: center; font-size: 22px; font-weight: 900;
+}
+.ge-machine { flex: none; position: relative; width: 70px; height: 86px; }
+.ge-dome {
+  position: absolute; left: 4px; top: 0; width: 62px; height: 52px; overflow: hidden;
+  border: 2.5px solid var(--ground); border-radius: 31px 31px 8px 8px; background: rgba(255, 253, 247, 0.12);
+}
+.ge-cap {
+  position: absolute; width: 20px; height: 20px; border-radius: 50%; border: 1.5px solid var(--ink);
+  background: linear-gradient(var(--c) 50%, #fff 50%);
+}
+.ge-cap:nth-child(1) { left: 6px; top: 24px; }
+.ge-cap:nth-child(2) { left: 22px; top: 12px; transform: rotate(30deg); }
+.ge-cap:nth-child(3) { left: 34px; top: 26px; transform: rotate(-20deg); }
+.ge-base { position: absolute; left: 0; top: 48px; width: 70px; height: 38px; background: var(--red); border: 2.5px solid var(--ground); border-radius: 8px; }
+.gacha-entry:hover .ge-cap { animation: g-jiggle .18s ease-in-out 4 alternate; }
+@media (max-width: 420px) {
+  .gacha-entry { padding: 16px; gap: 12px; }
+  .ge-title { font-size: 24px; }
+  .ge-machine { display: none; }
+}
+
+/* ===== ガチャのページ ===== */
+.mini-header { background: var(--yellow); border-bottom: 3px solid var(--ink); }
+.mini-inner { display: flex; align-items: center; justify-content: space-between; gap: 12px; min-height: 60px; }
+.mini-logo { font-size: 24px; font-weight: 900; letter-spacing: 0.06em; color: var(--ink); }
+.mini-logo:hover { color: var(--ink); }
+.mini-nav { display: flex; gap: 6px; }
+.mini-nav a {
+  display: inline-flex; align-items: center; min-height: 40px; padding: 0 14px; border-radius: 999px;
+  border: 2px solid var(--ink); background: #fff; font-size: 13px; font-weight: 900;
+}
+.gacha-page .gacha { min-height: 0; }
+.back-link { align-self: flex-start; font-size: 14px; font-weight: 700; color: var(--sub); padding: 8px 0; }
