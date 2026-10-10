@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-10T12:19:23+09:00",
+ "updated": "2026-10-10T13:19:40+09:00",
  "items": [
   {
    "id": "08bd8c5140dcf496",
@@ -66,6 +66,23 @@
    "image_v3": true,
    "image_v4": true,
    "added": "2026-10-10T06:33:05+09:00",
+   "shop": false,
+   "shop_name": null
+  },
+  {
+   "id": "874a0a44a6a70777",
+   "title": "地元民が教える！名古屋で食べたいおすすめランチ4選",
+   "link": "https://article.auone.jp/5f66422b-4e8a-417e-abe8-97687dfe104c",
+   "source": "au Webポータル",
+   "image": "https://newportal.portal.auone.jp/media/thumbnails/2026/10/09/https___news_jp_i_1481403702094823733_w1200.webp",
+   "category": "deka",
+   "area": "名古屋",
+   "published": "2026-10-10T06:29:00+09:00",
+   "provider": "google",
+   "added": "2026-10-10T13:19:40+09:00",
+   "decode_v2": true,
+   "image_checked": true,
+   "image_v4": true,
    "shop": false,
    "shop_name": null
   },
