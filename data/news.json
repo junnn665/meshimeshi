@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-10T10:08:46+09:00",
+ "updated": "2026-10-10T10:09:35+09:00",
  "items": [
   {
    "id": "30c71c986fe87d8f",
@@ -26,7 +26,8 @@
    "provider": "google",
    "decode_v2": true,
    "image_checked": true,
-   "image_v3": true
+   "image_v3": true,
+   "image_v4": true
   },
   {
    "id": "6528212e55edfc6b",
@@ -433,7 +434,8 @@
    "image_checked": true,
    "decode_tried": true,
    "decode_v2": true,
-   "image_v3": true
+   "image_v3": true,
+   "image_v4": true
   },
   {
    "id": "9e385471c131a711",
@@ -448,7 +450,8 @@
    "image_checked": true,
    "decode_tried": true,
    "decode_v2": true,
-   "image_v3": true
+   "image_v3": true,
+   "image_v4": true
   },
   {
    "id": "18a81f4d54e72afe",
@@ -515,7 +518,8 @@
    "image_checked": true,
    "decode_tried": true,
    "decode_v2": true,
-   "image_v3": true
+   "image_v3": true,
+   "image_v4": true
   },
   {
    "id": "a764eb4edd4b45e7",
@@ -721,7 +725,8 @@
    "provider": "google",
    "decode_v2": true,
    "image_checked": true,
-   "image_v3": true
+   "image_v3": true,
+   "image_v4": true
   },
   {
    "id": "f7d42f584caebf6e",
@@ -1160,7 +1165,8 @@
    "decode_tried": true,
    "image_checked": true,
    "decode_v2": true,
-   "image_v3": true
+   "image_v3": true,
+   "image_v4": true
   },
   {
    "id": "a93ed777c6e5234e",
@@ -1188,7 +1194,8 @@
    "provider": "google",
    "decode_v2": true,
    "image_checked": true,
-   "image_v3": true
+   "image_v3": true,
+   "image_v4": true
   },
   {
    "id": "135a2035ae5eebcf",
@@ -1806,7 +1813,8 @@
    "provider": "google",
    "decode_v2": true,
    "image_checked": true,
-   "image_v3": true
+   "image_v3": true,
+   "image_v4": true
   },
   {
    "id": "7936234dc60f16f9",
@@ -1875,7 +1883,8 @@
    "decode_tried": true,
    "image_checked": true,
    "decode_v2": true,
-   "image_v3": true
+   "image_v3": true,
+   "image_v4": true
   },
   {
    "id": "222412564dd28171",
@@ -1903,7 +1912,8 @@
    "decode_tried": true,
    "image_checked": true,
    "decode_v2": true,
-   "image_v3": true
+   "image_v3": true,
+   "image_v4": true
   },
   {
    "id": "bf6279ea22d8fa0c",
@@ -2392,7 +2402,8 @@
    "decode_tried": true,
    "image_checked": true,
    "decode_v2": true,
-   "image_v3": true
+   "image_v3": true,
+   "image_v4": true
   },
   {
    "id": "bda849612767759e",
@@ -2512,7 +2523,8 @@
    "decode_tried": true,
    "image_checked": true,
    "decode_v2": true,
-   "image_v3": true
+   "image_v3": true,
+   "image_v4": true
   },
   {
    "id": "cff0eb4c5263b969",
@@ -2690,7 +2702,8 @@
    "decode_tried": true,
    "image_checked": true,
    "decode_v2": true,
-   "image_v3": true
+   "image_v3": true,
+   "image_v4": true
   },
   {
    "id": "46a228602055aee0",
@@ -2781,7 +2794,8 @@
    "published": "2026-09-29T04:58:30+09:00",
    "provider": "bing",
    "image_checked": true,
-   "image_v3": true
+   "image_v3": true,
+   "image_v4": true
   },
   {
    "id": "3aa02a7cb7036a7f",

@@ -1,8 +1,28 @@
 {
- "updated": "2026-10-10T10:08:46+09:00",
+ "updated": "2026-10-10T10:09:35+09:00",
  "items": 210,
  "with_image": 196,
- "google_decode_ok": 6,
+ "google_decode_ok": 4,
  "google_decode_failed": 0,
- "google_decode_samples": []
+ "google_decode_samples": [],
+ "image_failures": [
+  "news.nicovideo.jp: HTTPError: HTTP Error 403: Forbidden",
+  "news.nicovideo.jp: HTTPError: HTTP Error 403: Forbidden",
+  "www.at-s.com: HTTPError: HTTP Error 405: Not Allowed",
+  "tetsudo-ch.com: HTTPError: HTTP Error 403: Forbidden",
+  "www.excite.co.jp: HTTPError: HTTP Error 403: Forbidden",
+  "media.unisba.ac.id: HTTPError: HTTP Error 403: Forbidden",
+  "tetsudo-ch.com: HTTPError: HTTP Error 403: Forbidden",
+  "www.excite.co.jp: HTTPError: HTTP Error 403: Forbidden",
+  "media.unisba.ac.id: HTTPError: HTTP Error 403: Forbidden",
+  "news.nicovideo.jp: HTTPError: HTTP Error 403: Forbidden",
+  "city.living.jp: URLError: <urlopen error [SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] sslv3 alert handshake failur",
+  "www.nagoyatv.com: og:image なし (44442 文字)",
+  "media.unisba.ac.id: HTTPError: HTTP Error 403: Forbidden",
+  "dressy.pla-cole.wedding: HTTPError: HTTP Error 403: Forbidden",
+  "news.nicovideo.jp: HTTPError: HTTP Error 403: Forbidden",
+  "www.goobike.com: HTTPError: HTTP Error 403: Forbidden",
+  "tetsudo-ch.com: HTTPError: HTTP Error 403: Forbidden",
+  "www.msn.com: og:image なし (42947 文字)"
+ ]
 }
