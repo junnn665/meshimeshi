@@ -1,14 +1,14 @@
 {
- "updated": "2026-10-12T06:18:52+09:00",
- "items": 212,
- "with_image": 200,
+ "updated": "2026-10-12T07:19:00+09:00",
+ "items": 213,
+ "with_image": 201,
  "google_decode_ok": 5,
  "google_decode_failed": 0,
  "google_decode_samples": [],
  "image_failures": [
   "media.unisba.ac.id: HTTPError: HTTP Error 403: Forbidden",
   "media.unisba.ac.id: HTTPError: HTTP Error 403: Forbidden",
-  "thetv.jp: og:image なし (51303 文字)",
+  "thetv.jp: og:image なし (51323 文字)",
   "www.goobike.com: HTTPError: HTTP Error 403: Forbidden"
  ]
 }

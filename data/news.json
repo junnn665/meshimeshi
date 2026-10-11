@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-12T06:18:52+09:00",
+ "updated": "2026-10-12T07:19:00+09:00",
  "items": [
   {
    "id": "ba58be2b30bd6502",
@@ -1337,6 +1337,23 @@
    "image_checked": true,
    "decode_v2": true,
    "added": "2026-10-07T19:37:45+09:00",
+   "shop": false,
+   "shop_name": null
+  },
+  {
+   "id": "e5230bef17027404",
+   "title": "【10月13日～発売】セブン-イレブン 新商品スイーツまとめ「ニャンともとろける！チョコソースクレープ」「三層仕立て 抹茶デニッシュドーナツ」など",
+   "link": "https://entabe.jp/61735/summary-seveneleven-october-13th-new-sweets",
+   "source": "えん食べ [グルメニュース]",
+   "image": "https://image.entabe.jp/upload/20261006/images/000.jpg",
+   "category": "conbini",
+   "area": "東海",
+   "published": "2026-10-07T19:00:00+09:00",
+   "provider": "google",
+   "added": "2026-10-12T07:19:00+09:00",
+   "decode_v2": true,
+   "image_checked": true,
+   "image_v4": true,
    "shop": false,
    "shop_name": null
   },
