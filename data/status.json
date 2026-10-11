@@ -1,14 +1,13 @@
 {
- "updated": "2026-10-11T16:19:48+09:00",
- "items": 223,
- "with_image": 209,
- "google_decode_ok": 4,
+ "updated": "2026-10-11T16:55:43+09:00",
+ "items": 197,
+ "with_image": 185,
+ "google_decode_ok": 3,
  "google_decode_failed": 0,
  "google_decode_samples": [],
  "image_failures": [
   "media.unisba.ac.id: HTTPError: HTTP Error 403: Forbidden",
   "media.unisba.ac.id: HTTPError: HTTP Error 403: Forbidden",
-  "tetsudo-ch.com: HTTPError: HTTP Error 403: Forbidden",
   "www.goobike.com: HTTPError: HTTP Error 403: Forbidden"
  ]
 }
