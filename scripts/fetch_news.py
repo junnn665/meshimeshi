@@ -104,6 +104,16 @@ JUNK_PATTERNS = [
     re.compile(r"画像\s*\d+\s*/\s*\d+"),
     re.compile(r"ページ\s*\d+\s*/\s*全"),
     re.compile(r"写真\s*\d+\s*/\s*\d+"),
+    re.compile(r"【画像】"),
+    re.compile(r"\s\d+\s*/\s*\d+\s*$"),      # 末尾の「1/7」などギャラリーのページ番号
+    re.compile(r"全\s*\d+\s*(点|枚)"),          # 「全30点」の画像集
+]
+
+# グラビア・芸能など、グルメと関係ない記事（「デカ盛り」などの言葉を別の意味で使うもの）
+NOT_FOOD_WORDS = [
+    "グラビア", "RQ", "レースクイーン", "水着", "ビキニ", "ブラトップ", "ショーパン", "写真集",
+    "セクシー", "美ボディ", "美脚", "美尻", "谷間", "胸元", "下着", "ランジェリー", "生足", "太もも",
+    "悩殺", "コスプレ", "閃乱カグラ", "パイスクール", "爆乳", "巨乳",
 ]
 
 # 上から順に判定し、最初に当たったカテゴリにする
@@ -166,8 +176,14 @@ def clean(text: str | None) -> str:
     return re.sub(r"\s+", " ", text).strip()
 
 
+def norm_key_full(title: str) -> str:
+    t = re.sub(r"\s*(\.\.\.|…)\s*$", "", title)
+    return re.sub(r"[\s　「」『』【】()（）\[\]!！?？、。・…:：\-ー〜~|｜/]", "", t)
+
+
 def norm_key(title: str) -> str:
-    t = re.sub(r"[\s　「」『』【】()（）\[\]!！?？、。・…:：\-ー〜~|｜/]", "", title)
+    t = re.sub(r"\s*(\.\.\.|…)\s*$", "", title)  # 末尾の「...」（見出しの切れ）を外す
+    t = re.sub(r"[\s　「」『』【】()（）\[\]!！?？、。・…:：\-ー〜~|｜/]", "", t)
     return t[:30]
 
 
@@ -224,6 +240,8 @@ def is_wanted(title: str) -> bool:
         return False
     if any(p.search(title) for p in JUNK_PATTERNS):
         return False
+    if any(w in title for w in NOT_FOOD_WORDS):
+        return False
     tokai = any(w in title for w in TOKAI_WORDS)
     other = any(w in title for w in OTHER_REGION_WORDS)
     return tokai or not other
@@ -233,7 +251,8 @@ def categorize(title: str, default: str) -> str:
     for cat, words in CATEGORY_RULES:
         if any(w in title for w in words):
             return cat
-    return default
+    # デカ盛りは見出しにそれらしい言葉があるときだけ（検索語がデカ盛りでも中身がちがう記事がある）
+    return "wadai" if default == "deka" else default
 
 
 def detect_area(title: str, regional: bool) -> str:
@@ -516,11 +535,20 @@ def build(raw: list[dict], existing: list[dict]) -> list[dict]:
         key = norm_key(it["title"])
         if it["id"] in items:
             return
+        # 見出しの途中で切れた同じ記事（「…『ピッチャー ...」など）も同じものとみなす
+        if key not in seen_titles and len(key) >= 15:
+            for k in seen_titles:
+                if len(k) >= 15 and (k.startswith(key) or key.startswith(k)):
+                    key = k
+                    break
         if key in seen_titles:
             # 同じ記事が別の取得元からも来た：写真があれば補う
             prev = items[seen_titles[key]]
             if not prev.get("image") and it.get("image"):
                 prev["image"] = it["image"]
+            # 見出しが途中で切れている方より、完全な見出しの方を残す
+            if len(norm_key_full(it["title"])) > len(norm_key_full(prev["title"])):
+                prev["title"] = it["title"]
             return
         items[it["id"]] = it
         seen_titles[key] = it["id"]
