@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-12T01:18:58+09:00",
+ "updated": "2026-10-12T02:18:07+09:00",
  "items": [
   {
    "id": "e471f660bcf244bc",
@@ -96,6 +96,23 @@
    "published": "2026-10-11T03:01:15+09:00",
    "provider": "google",
    "added": "2026-10-11T04:17:28+09:00",
+   "decode_v2": true,
+   "image_checked": true,
+   "image_v4": true,
+   "shop": false,
+   "shop_name": null
+  },
+  {
+   "id": "db3b53cae70ac3be",
+   "title": "「パンダコパンダ」誕生55周年記念！レトロかわいいローソンオリジナルグッズが数量限定で登場♪",
+   "link": "https://topics.smt.docomo.ne.jp/article/animeanime/entertainment/animeanime-103605?page=1",
+   "source": "ｄメニューニュース",
+   "image": "https://img.topics.smt.news.goo.ne.jp/picture/animeanime/m_animeanime-103605.jpg",
+   "category": "conbini",
+   "area": "東海",
+   "published": "2026-10-10T23:16:11+09:00",
+   "provider": "google",
+   "added": "2026-10-12T02:18:07+09:00",
    "decode_v2": true,
    "image_checked": true,
    "image_v4": true,
@@ -494,6 +511,23 @@
    "provider": "prtimes",
    "image_checked": true,
    "added": "2026-10-09T16:41:09+09:00",
+   "shop": false,
+   "shop_name": null
+  },
+  {
+   "id": "23f5a0b0466a4a4d",
+   "title": "ローソン、名店コラボ続々 『函館五島軒』ライスカレーに『風来坊』手羽先風メニュー、『栄屋本店』冷しらーめんも…",
+   "link": "https://www.sanyonews.jp/article/1972281",
+   "source": "山陽新聞",
+   "image": "https://static.sanyonews.jp/image/article/size1/f/5/2/f/f52fc4233a516375c0d1c1d7370b502c_1.jpg",
+   "category": "conbini",
+   "area": "名古屋",
+   "published": "2026-10-09T16:00:00+09:00",
+   "provider": "google",
+   "added": "2026-10-12T02:18:07+09:00",
+   "decode_v2": true,
+   "image_checked": true,
+   "image_v4": true,
    "shop": false,
    "shop_name": null
   },
