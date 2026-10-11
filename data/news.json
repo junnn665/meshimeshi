@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-12T02:18:07+09:00",
+ "updated": "2026-10-12T03:21:38+09:00",
  "items": [
   {
    "id": "e471f660bcf244bc",
@@ -1151,6 +1151,23 @@
    "decode_v2": true,
    "image_checked": true,
    "added": "2026-10-08T07:58:00+09:00",
+   "shop": false,
+   "shop_name": null
+  },
+  {
+   "id": "95a6012c503235cc",
+   "title": "名古屋エリアに世界の麺料理14種類が大集結！「世界の麺大集合」が2026年9月5日～12月20日まで野外民族博物館リトルワールドで開催 シルバーウィークイベント＆オクトーバーフェストも必見！【犬山】",
+   "link": "https://nagoyato.com/posts/18406",
+   "source": "ナゴヤトコトン",
+   "image": "https://nagoyato.com/wp-content/uploads/2026/09/image-10.png",
+   "category": "wadai",
+   "area": "名古屋",
+   "published": "2026-10-08T04:58:00+09:00",
+   "provider": "google",
+   "added": "2026-10-12T03:21:38+09:00",
+   "decode_v2": true,
+   "image_checked": true,
+   "image_v4": true,
    "shop": false,
    "shop_name": null
   },
