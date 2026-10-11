@@ -119,7 +119,9 @@ NOT_FOOD_WORDS = [
 # 上から順に判定し、最初に当たったカテゴリにする
 CATEGORY_RULES = [
     ("deka", ["デカ盛り", "でか盛り", "メガ盛り", "大盛り", "特盛", "爆盛", "超盛",
-              "チャレンジメニュー", "ギガ", "1kg", "１kg", "2kg", "２kg"]),
+              "チャレンジメニュー", "ギガ", "1kg", "１kg", "2kg", "２kg", "3kg", "1.5kg",
+              "総重量", "山盛", "てんこ盛", "倍盛", "倍サイズ", "倍の量", "ガッツリ", "がっつり",
+              "大食い", "ボリューム満点", "満腹"]),
     ("conbini", ["セブン-イレブン", "セブンイレブン", "ファミリーマート", "ファミマ",
                  "ローソン", "ミニストップ", "コンビニ"]),
     ("shinten", ["オープン", "開店", "新店", "初出店", "1号店", "２号店", "2号店", "グランドオープン"]),
@@ -601,6 +603,7 @@ def main() -> int:
     for it in items:
         # 判定ルールを直したときに過去の記事にも反映されるよう、毎回つけ直す
         it["area"] = detect_area(it["title"], it.get("area") != "全国")
+        it["category"] = categorize(it["title"], it.get("category", "wadai"))
         it["shop"] = is_shop_article(it)
         it["shop_name"] = shop_name(it["title"]) if it["shop"] else None
     DATA_FILE.parent.mkdir(parents=True, exist_ok=True)
