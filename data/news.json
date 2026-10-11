@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-11T11:18:26+09:00",
+ "updated": "2026-10-11T12:20:16+09:00",
  "items": [
   {
    "id": "1c170d9c12a52139",
@@ -164,6 +164,23 @@
    "published": "2026-10-10T11:13:22+09:00",
    "provider": "google",
    "added": "2026-10-10T11:26:47+09:00",
+   "decode_v2": true,
+   "image_checked": true,
+   "image_v4": true,
+   "shop": false,
+   "shop_name": null
+  },
+  {
+   "id": "363744ba193f8c40",
+   "title": "今週新発売のコンビニ寿司・コンビニ弁当🍣🍱まとめ！『おむすび＆おかず 焼鮭・和風ツナマヨネーズ』、『二種の肉盛丼』など",
+   "link": "https://trilltrill.jp/articles/5095583",
+   "source": "TRILL",
+   "image": "https://media.trilltrill.jp/articles/5095583/featured-image.83fc552edf3078a5b2d8adb6f630ea3e?w=1200",
+   "category": "conbini",
+   "area": "東海",
+   "published": "2026-10-10T10:48:18+09:00",
+   "provider": "google",
+   "added": "2026-10-11T12:20:16+09:00",
    "decode_v2": true,
    "image_checked": true,
    "image_v4": true,
@@ -824,6 +841,23 @@
    "decode_v2": true,
    "image_checked": true,
    "added": "2026-10-08T18:00:00+09:00",
+   "shop": false,
+   "shop_name": null
+  },
+  {
+   "id": "ec8b5ce31c98715d",
+   "title": "【2026年最新】台湾ファミマ限定のお茶・ドリンク・お菓子おすすめ！お酒やアイスも",
+   "link": "https://www.funliday.com/posts/tw-famima-item/",
+   "source": "Funliday",
+   "image": "https://assets.funliday.com/posts/wp-content/uploads/2025/05/27143222/twfamima0527.png.webp",
+   "category": "conbini",
+   "area": "東海",
+   "published": "2026-10-08T17:10:00+09:00",
+   "provider": "google",
+   "added": "2026-10-11T12:20:16+09:00",
+   "decode_v2": true,
+   "image_checked": true,
+   "image_v4": true,
    "shop": false,
    "shop_name": null
   },
