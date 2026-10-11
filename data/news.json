@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-11T21:23:43+09:00",
+ "updated": "2026-10-11T22:19:49+09:00",
  "items": [
   {
    "id": "1c5ef8c710db3f40",
@@ -1202,6 +1202,23 @@
    "decode_v2": true,
    "added": "2026-10-07T21:23:15+09:00",
    "shop": true,
+   "shop_name": null
+  },
+  {
+   "id": "0fd2cf36842648e0",
+   "title": "｢ザ･ランドマーク名古屋栄｣ 地下2階～地上4階を占める｢HAERA｣には東海エリア初出店のグルメが続々！6月11日オープン",
+   "link": "https://newsdig.tbs.co.jp/articles/gallery/2718334",
+   "source": "TBS NEWS DIG",
+   "image": "https://newsdig.ismcdn.jp/mwimgs/9/4/1200w/img_945e1d5fcc3906682a67ee5523e9a06c355288.jpg",
+   "category": "shinten",
+   "area": "名古屋",
+   "published": "2026-10-07T20:28:00+09:00",
+   "provider": "google",
+   "added": "2026-10-11T22:19:49+09:00",
+   "decode_v2": true,
+   "image_checked": true,
+   "image_v4": true,
+   "shop": false,
    "shop_name": null
   },
   {
