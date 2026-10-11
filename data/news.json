@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-12T07:19:00+09:00",
+ "updated": "2026-10-12T08:18:10+09:00",
  "items": [
   {
    "id": "ba58be2b30bd6502",
@@ -598,7 +598,7 @@
   },
   {
    "id": "fa61db42ecff4dd4",
-   "title": "ふわとろ、激辛、ジャンクの極み…名古屋の「魔性のラーメン」3軒をご当地グルメ通が推薦！（おとなの週末）",
+   "title": "ふわとろ、激辛、ジャンクの極み…名古屋の「魔性のラーメン」3軒をご当地グルメ通が推薦！ (2026年10月9日掲載)",
    "link": "https://news.yahoo.co.jp/articles/aac9cc4e10365465050b2062be17481c29ebf081?page=2",
    "source": "Yahoo!ニュース",
    "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261009-00000005-matomeshi-000-1-view.jpg?exp=10800",
@@ -1470,6 +1470,23 @@
    "published": "2026-10-07T16:00:00+09:00",
    "provider": "google",
    "added": "2026-10-11T07:17:33+09:00",
+   "decode_v2": true,
+   "image_checked": true,
+   "image_v4": true,
+   "shop": false,
+   "shop_name": null
+  },
+  {
+   "id": "baadeaf97e51ad9a",
+   "title": "“カエルの唐揚げ”に“牛乳茶漬け”!? 東海エリアで見つけた珍メニュー",
+   "link": "https://www.walkerplus.com/article/20098/",
+   "source": "ウォーカープラス",
+   "image": "https://news.walkerplus.com/article/20098/79935_615.jpg",
+   "category": "wadai",
+   "area": "東海",
+   "published": "2026-10-07T16:00:00+09:00",
+   "provider": "google",
+   "added": "2026-10-12T08:18:10+09:00",
    "decode_v2": true,
    "image_checked": true,
    "image_v4": true,
