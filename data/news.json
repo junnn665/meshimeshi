@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-11T15:24:34+09:00",
+ "updated": "2026-10-11T16:19:48+09:00",
  "items": [
   {
    "id": "a6c81bae669cc425",
@@ -2264,6 +2264,23 @@
    "image_checked": true,
    "decode_v2": true,
    "added": "2026-10-05T19:38:34+09:00",
+   "shop": false,
+   "shop_name": null
+  },
+  {
+   "id": "ce89efd758fb10ed",
+   "title": "ケンタッキー「カーネルクリスピー」が半額の140円に！10/13までの2週間限定、にんにく醤油チキン340円や10月スタートの「Vポイント2倍」も｜グルメとフード",
+   "link": "https://tetsudo-ch.com/13040274.html",
+   "source": "旅とおでかけ 鉄道チャンネル",
+   "image": null,
+   "category": "chain",
+   "area": "東海",
+   "published": "2026-10-05T19:00:27+09:00",
+   "provider": "google",
+   "added": "2026-10-11T16:19:48+09:00",
+   "decode_v2": true,
+   "image_checked": true,
+   "image_v4": true,
    "shop": false,
    "shop_name": null
   },
