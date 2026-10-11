@@ -1,6 +1,23 @@
 {
- "updated": "2026-10-11T13:19:52+09:00",
+ "updated": "2026-10-11T14:19:00+09:00",
  "items": [
+  {
+   "id": "428318214fdbc6ed",
+   "title": "リトアニア料理で身近に 岐阜県図書館喫茶店で提供…杉原千畝が縁 交流事業 ：地域ニュース",
+   "link": "https://www.yomiuri.co.jp/local/chubu/news/20261011-GYTNT00034/",
+   "source": "読売新聞",
+   "image": "https://www.yomiuri.co.jp/media/2026/10/20261011-GYTNI00038-1.jpg?type=ogp",
+   "category": "chain",
+   "area": "岐阜",
+   "published": "2026-10-11T09:55:00+09:00",
+   "provider": "google",
+   "added": "2026-10-11T14:19:00+09:00",
+   "decode_v2": true,
+   "image_checked": true,
+   "image_v4": true,
+   "shop": false,
+   "shop_name": null
+  },
   {
    "id": "322984f650f50572",
    "title": "閃乱カグラ デカ盛りパイスクール 全30点",
@@ -873,6 +890,22 @@
    "provider": "google",
    "added": "2026-10-11T12:20:16+09:00",
    "decode_v2": true,
+   "image_checked": true,
+   "image_v4": true,
+   "shop": false,
+   "shop_name": null
+  },
+  {
+   "id": "4ee84051f0457530",
+   "title": "鮑や伊勢海老を盛り込んだ中国料理のプレート、4つのレストランの味を集めた洋風おせち、和の技が息づく三段重、自宅でホテルの味が楽しめる「フェスティブシーズンを彩るテイクアウトプレート＆おせちが登場」",
+   "link": "https://prtimes.jp/main/html/rd/p/000000392.000030821.html",
+   "source": "PR TIMES",
+   "image": "https://prcdn.freetls.fastly.net/release_image/30821/392/30821-392-7e2834f9738228c6433070666cc7c70d-1797x1277.png?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260",
+   "category": "chain",
+   "area": "三重",
+   "published": "2026-10-08T16:40:57+09:00",
+   "provider": "prtimes",
+   "added": "2026-10-11T14:19:00+09:00",
    "image_checked": true,
    "image_v4": true,
    "shop": false,
