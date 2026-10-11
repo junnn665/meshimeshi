@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-11T16:56:48+09:00",
+ "updated": "2026-10-11T17:20:17+09:00",
  "items": [
   {
    "id": "a6c81bae669cc425",
@@ -813,6 +813,23 @@
    "published": "2026-10-08T16:40:57+09:00",
    "provider": "prtimes",
    "added": "2026-10-11T14:19:00+09:00",
+   "image_checked": true,
+   "image_v4": true,
+   "shop": false,
+   "shop_name": null
+  },
+  {
+   "id": "b3d3b9572b7a70da",
+   "title": "廃校がレストランや温泉に生まれ変わった!?東海の注目リノベーション施設3選！",
+   "link": "https://www.walkerplus.com/article/189528/",
+   "source": "ウォーカープラス",
+   "image": "https://news.walkerplus.com/article/189528/1134487_615.jpg",
+   "category": "wadai",
+   "area": "東海",
+   "published": "2026-10-08T16:00:00+09:00",
+   "provider": "google",
+   "added": "2026-10-11T17:20:17+09:00",
+   "decode_v2": true,
    "image_checked": true,
    "image_v4": true,
    "shop": false,
