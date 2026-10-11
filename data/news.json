@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-11T19:18:40+09:00",
+ "updated": "2026-10-11T20:17:48+09:00",
  "items": [
   {
    "id": "1c5ef8c710db3f40",
@@ -1104,6 +1104,23 @@
    "shop_name": null
   },
   {
+   "id": "965ec45529cabde6",
+   "title": "名古屋で「映画ちいかわ 人魚の島のひみつ」の料理が楽しめる！ 「映画ちいかわ 人魚の島のひみつ コラボレーションカフェ」が2026年9月4日より名古屋PARCOにて開催 名古屋会場限定特典も登場【まとめ／矢場町・栄】",
+   "link": "https://nagoyato.com/posts/17663",
+   "source": "ナゴヤトコトン",
+   "image": "https://nagoyato.com/wp-content/uploads/2026/09/IMG_6898-EDIT.jpg",
+   "category": "chain",
+   "area": "名古屋",
+   "published": "2026-10-08T03:29:54+09:00",
+   "provider": "google",
+   "added": "2026-10-11T20:17:48+09:00",
+   "decode_v2": true,
+   "image_checked": true,
+   "image_v4": true,
+   "shop": false,
+   "shop_name": null
+  },
+  {
    "id": "4c7a1b3de8973808",
    "title": "東海３県・モーニングにメ～ロメロ！｜ドデスカ！",
    "link": "https://www.nagoyatv.com/dode/morning/1659/06/",
@@ -2159,6 +2176,23 @@
    "image_checked": true,
    "decode_v2": true,
    "added": "2026-10-05T17:45:59+09:00",
+   "shop": false,
+   "shop_name": null
+  },
+  {
+   "id": "dc1d4299e33d3d7d",
+   "title": "70歳以上が主役の食堂「おにみそ」、10月16日オープン",
+   "link": "https://www.value-press.com/pressrelease/381883",
+   "source": "valuepress",
+   "image": "https://files.value-press.com/czMjZXllY2F0Y2gjNzY5NDIjNzY5NDJfeGJ4WXNFakZyaC5qcGc.jpg?size=eyecatch",
+   "category": "shinten",
+   "area": "東海",
+   "published": "2026-10-05T17:00:00+09:00",
+   "provider": "google",
+   "added": "2026-10-11T20:17:48+09:00",
+   "decode_v2": true,
+   "image_checked": true,
+   "image_v4": true,
    "shop": false,
    "shop_name": null
   },
