@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-11T22:19:49+09:00",
+ "updated": "2026-10-11T23:18:42+09:00",
  "items": [
   {
    "id": "1c5ef8c710db3f40",
@@ -45,6 +45,23 @@
    "published": "2026-10-11T09:55:00+09:00",
    "provider": "google",
    "added": "2026-10-11T14:19:00+09:00",
+   "decode_v2": true,
+   "image_checked": true,
+   "image_v4": true,
+   "shop": false,
+   "shop_name": null
+  },
+  {
+   "id": "64e073b32a8f8f85",
+   "title": "「ららぽーと愛知東郷」で話題確実なグルメ店3選！注目の和カフェからミシュランタコ焼きまで！",
+   "link": "https://www.walkerplus.com/article/1006140/image10045245.html",
+   "source": "ウォーカープラス",
+   "image": "https://news.walkerplus.com/article/1006140/10045252_615.jpg",
+   "category": "wadai",
+   "area": "愛知",
+   "published": "2026-10-11T09:41:30+09:00",
+   "provider": "google",
+   "added": "2026-10-11T23:18:42+09:00",
    "decode_v2": true,
    "image_checked": true,
    "image_v4": true,
