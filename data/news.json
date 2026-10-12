@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-13T03:23:39+09:00",
+ "updated": "2026-10-13T04:19:23+09:00",
  "items": [
   {
    "id": "5f75231194a2ab18",
@@ -347,6 +347,23 @@
    "published": "2026-10-10T23:00:42+09:00",
    "provider": "google",
    "added": "2026-10-11T04:17:28+09:00",
+   "decode_v2": true,
+   "image_checked": true,
+   "image_v4": true,
+   "shop": false,
+   "shop_name": null
+  },
+  {
+   "id": "d87b0c56cebec1bf",
+   "title": "「マヨプリン」も提供、キユーピー100周年期間限定カフェが六本木ヒルズに",
+   "link": "https://www.walkerplus.com/article/181292/",
+   "source": "ウォーカープラス",
+   "image": "https://news.walkerplus.com/article/181292/1077165_615.jpg",
+   "category": "chain",
+   "area": "東海",
+   "published": "2026-10-10T22:42:37+09:00",
+   "provider": "google",
+   "added": "2026-10-13T04:19:23+09:00",
    "decode_v2": true,
    "image_checked": true,
    "image_v4": true,
