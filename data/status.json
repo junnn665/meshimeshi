@@ -1,15 +1,9 @@
 {
- "updated": "2026-10-12T18:23:54+09:00",
- "items": 232,
- "with_image": 216,
- "google_decode_ok": 0,
- "google_decode_failed": 4,
- "google_decode_samples": [
-  "error: HTTPError: HTTP Error 429: Too Many Requests",
-  "error: HTTPError: HTTP Error 429: Too Many Requests",
-  "error: HTTPError: HTTP Error 429: Too Many Requests"
- ],
- "image_failures": [
-  "www.msn.com: og:image なし (43579 文字)"
- ]
+ "updated": "2026-10-12T19:23:06+09:00",
+ "items": 233,
+ "with_image": 217,
+ "google_decode_ok": 1,
+ "google_decode_failed": 0,
+ "google_decode_samples": [],
+ "image_failures": []
 }
