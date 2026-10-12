@@ -1,9 +1,11 @@
 {
- "updated": "2026-10-12T23:25:39+09:00",
- "items": 236,
+ "updated": "2026-10-13T00:22:34+09:00",
+ "items": 237,
  "with_image": 220,
  "google_decode_ok": 1,
  "google_decode_failed": 0,
  "google_decode_samples": [],
- "image_failures": []
+ "image_failures": [
+  "www.excite.co.jp: HTTPError: HTTP Error 403: Forbidden"
+ ]
 }

@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-12T23:25:39+09:00",
+ "updated": "2026-10-13T00:22:34+09:00",
  "items": [
   {
    "id": "5f75231194a2ab18",
@@ -2393,6 +2393,23 @@
    "image_checked": true,
    "decode_v2": true,
    "added": "2026-10-06T14:45:51+09:00",
+   "shop": false,
+   "shop_name": null
+  },
+  {
+   "id": "6e18145b9b951eed",
+   "title": "今週新発売のセブンイレブン麺",
+   "link": "http://www.excite.co.jp/news/article/Mognavi_2026100605/",
+   "source": "Excite エキサイト",
+   "image": null,
+   "category": "conbini",
+   "area": "東海",
+   "published": "2026-10-06T13:45:00+09:00",
+   "provider": "google",
+   "added": "2026-10-13T00:22:34+09:00",
+   "decode_v2": true,
+   "image_checked": true,
+   "image_v4": true,
    "shop": false,
    "shop_name": null
   },
