@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-13T04:19:23+09:00",
+ "updated": "2026-10-13T05:21:18+09:00",
  "items": [
   {
    "id": "5f75231194a2ab18",
@@ -449,6 +449,23 @@
    "published": "2026-10-10T16:00:00+09:00",
    "provider": "google",
    "added": "2026-10-13T01:21:31+09:00",
+   "decode_v2": true,
+   "image_checked": true,
+   "image_v4": true,
+   "shop": false,
+   "shop_name": null
+  },
+  {
+   "id": "d8c44ecdfbe5f128",
+   "title": "『映画ちいかわ 人魚の島のひみつ』コラボレーションカフェが登場 オープン前日に行ってきた【内覧会リポート】",
+   "link": "https://www.sanyonews.jp/article/1952836",
+   "source": "山陽新聞",
+   "image": "https://static.sanyonews.jp/image/article/size1/2/f/3/c/2f3c350a3b72b986f3f6f91f9d8a4b95_1.jpg",
+   "category": "shinten",
+   "area": "東海",
+   "published": "2026-10-10T16:00:00+09:00",
+   "provider": "google",
+   "added": "2026-10-13T05:21:18+09:00",
    "decode_v2": true,
    "image_checked": true,
    "image_v4": true,
@@ -1190,6 +1207,23 @@
    "shop_name": null
   },
   {
+   "id": "60e4b885ed41731f",
+   "title": "ドーミーイン、「夜鳴きそば 味噌仕立て」を2日間限定で提供 初の期間限定メニュー (2026年10月8日掲載)",
+   "link": "https://news.livedoor.com/topics/detail/32520617/",
+   "source": "ライブドアニュース",
+   "image": "https://image.news.livedoor.com/newsimage/stf/d/0/d088c_1599_e9effecb4650adc923138984e544f42e.jpg",
+   "category": "chain",
+   "area": "東海",
+   "published": "2026-10-08T17:32:53+09:00",
+   "provider": "google",
+   "added": "2026-10-13T05:21:18+09:00",
+   "decode_v2": true,
+   "image_checked": true,
+   "image_v4": true,
+   "shop": false,
+   "shop_name": null
+  },
+  {
    "id": "ec8b5ce31c98715d",
    "title": "【2026年最新】台湾ファミマ限定のお茶・ドリンク・お菓子おすすめ！お酒やアイスも",
    "link": "https://www.funliday.com/posts/tw-famima-item/",
@@ -1656,6 +1690,23 @@
    "image_checked": true,
    "decode_v2": true,
    "added": "2026-10-07T19:37:45+09:00",
+   "shop": false,
+   "shop_name": null
+  },
+  {
+   "id": "d0e7207297397702",
+   "title": "【セブンイレブン】松江カツライスなど山陰グルメ6品が登場! 4県限定「山陰フェア」開催 - TSKさんいん中央テレビ『SOUP』と共同開発 (2026年10月7日掲載)",
+   "link": "https://news.livedoor.com/topics/detail/32512991/",
+   "source": "ライブドアニュース",
+   "image": "https://image.news.livedoor.com/newsimage/stf/3/7/3763b_1223_13576288f6c284cf7c0908a3eb09a2aa.jpg",
+   "category": "conbini",
+   "area": "東海",
+   "published": "2026-10-07T19:13:54+09:00",
+   "provider": "google",
+   "added": "2026-10-13T05:21:18+09:00",
+   "decode_v2": true,
+   "image_checked": true,
+   "image_v4": true,
    "shop": false,
    "shop_name": null
   },
