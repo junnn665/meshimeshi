@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-12T10:22:36+09:00",
+ "updated": "2026-10-12T11:20:55+09:00",
  "items": [
   {
    "id": "4177439ddc525848",
@@ -61,6 +61,23 @@
    "published": "2026-10-12T06:00:41+09:00",
    "provider": "google",
    "added": "2026-10-12T06:18:52+09:00",
+   "decode_v2": true,
+   "image_checked": true,
+   "image_v4": true,
+   "shop": false,
+   "shop_name": null
+  },
+  {
+   "id": "92f26cd172f196f7",
+   "title": "買収前から\"相思相愛\"だったのか…スガキヤの会社が買収｢ドムドムハンバーガー｣名古屋の店で目撃した\"親密すぎる光景\"",
+   "link": "https://toyokeizai.net/articles/-/960664?page=3",
+   "source": "東洋経済オンライン",
+   "image": "https://tk.ismcdn.jp/mwimgs/6/1/1200xm/img_6120f61507bf6bae98bae5fc0070b24b610215.jpg",
+   "category": "chain",
+   "area": "名古屋",
+   "published": "2026-10-12T06:00:00+09:00",
+   "provider": "google",
+   "added": "2026-10-12T11:20:55+09:00",
    "decode_v2": true,
    "image_checked": true,
    "image_v4": true,
@@ -614,6 +631,23 @@
    "shop_name": null
   },
   {
+   "id": "ef6e380423b91863",
+   "title": "【朝だけの限定メニュー】日本橋兜町「SR Coffee Roaster」にて、忙しい朝に心も満たすモーニングプレート提供スタート",
+   "link": "https://prtimes.jp/main/html/rd/p/000000058.000162292.html",
+   "source": "PR TIMES",
+   "image": "https://prcdn.freetls.fastly.net/release_image/162292/58/162292-58-460556d8bb76f7f8ccbe635f228e19ae-1920x1280.png?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260",
+   "category": "yasuuma",
+   "area": "東海",
+   "published": "2026-10-09T15:30:02+09:00",
+   "provider": "google",
+   "added": "2026-10-12T11:20:55+09:00",
+   "decode_v2": true,
+   "image_checked": true,
+   "image_v4": true,
+   "shop": false,
+   "shop_name": null
+  },
+  {
    "id": "e906f868f38f0c86",
    "title": "名古屋のレトロ喫茶グルメが絶品ピザに大変身！アオキーズ・ピザ「懐かしの昭和レトロフェア」が2026年10月15日よりスタート【名古屋発】",
    "link": "https://nagoyato.com/posts/19832",
@@ -804,7 +838,7 @@
   },
   {
    "id": "55b208568124daff",
-   "title": "ジョイフルに『世界の山ちゃん』とのコラボメニューが登場する ...",
+   "title": "ジョイフルに『世界の山ちゃん』とのコラボメニューが登場するみたい。「幻のコショウ」を使ったチキン竜田＆ハンバーグや、もつ鍋定食も",
    "link": "https://kobe-journal.com/archives/6425344774.html",
    "source": "神戸ジャーナル",
    "image": "https://kobe-journal.com/web/images/2026/10/00_eyecatch-21.jpg",
@@ -1670,6 +1704,23 @@
    "image_checked": true,
    "added": "2026-10-07T13:00:00+09:00",
    "shop": true,
+   "shop_name": null
+  },
+  {
+   "id": "6de2148c65a3e7c4",
+   "title": "アオキーズ・ピザ、「懐かしの昭和レトロフェア」10月15日(木)より開催！",
+   "link": "https://www.agara.co.jp/article/695991",
+   "source": "AGARA 紀伊民報",
+   "image": "https://prtimes.jp/img/159870/21/resize/d159870-21-bcae073f64fa8f6505bd-6.jpg",
+   "category": "chain",
+   "area": "東海",
+   "published": "2026-10-07T11:22:00+09:00",
+   "provider": "google",
+   "added": "2026-10-12T11:20:55+09:00",
+   "decode_v2": true,
+   "image_checked": true,
+   "image_v4": true,
+   "shop": false,
    "shop_name": null
   },
   {
