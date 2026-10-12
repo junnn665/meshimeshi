@@ -1,6 +1,23 @@
 {
- "updated": "2026-10-12T08:18:10+09:00",
+ "updated": "2026-10-12T09:31:31+09:00",
  "items": [
+  {
+   "id": "247e6fdcfd8943aa",
+   "title": "名古屋初出店！地域のおじいちゃんおばあちゃん大活躍のおむすび食堂10/10オープン",
+   "link": "https://news.livedoor.com/article/detail/32545454/",
+   "source": "ライブドアニュース",
+   "image": "https://image.news.livedoor.com/newsimage/stf/0/1/01558_1784_dfc4ad04cd103314e0ea88c0ea86163d.jpg",
+   "category": "shinten",
+   "area": "名古屋",
+   "published": "2026-10-12T09:00:34+09:00",
+   "provider": "google",
+   "added": "2026-10-12T09:31:31+09:00",
+   "decode_v2": true,
+   "image_checked": true,
+   "image_v4": true,
+   "shop": true,
+   "shop_name": null
+  },
   {
    "id": "ba58be2b30bd6502",
    "title": "買収前から“相思相愛”だったのか…スガキヤの会社が買収「ドムドムハンバーガー」名古屋の店で目撃した“親密すぎる光景”",
@@ -2496,6 +2513,23 @@
    "image_checked": true,
    "decode_v2": true,
    "added": "2026-10-05T11:29:00+09:00",
+   "shop": false,
+   "shop_name": null
+  },
+  {
+   "id": "0c2bf28bfe416e8d",
+   "title": "スポーツで秋を楽しもう！豊橋駅周辺でスポーツ&グルメイベント≪10月11日(日)・12日(祝・月)≫",
+   "link": "https://prtimes.jp/main/html/rd/p/000001032.000025583.html",
+   "source": "PR TIMES",
+   "image": "https://prcdn.freetls.fastly.net/release_image/25583/1032/25583-1032-988deffef8e8072ada6aaaba48dce9bb-1653x2338.jpg?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260",
+   "category": "shinten",
+   "area": "愛知",
+   "published": "2026-10-05T10:19:50+09:00",
+   "provider": "google",
+   "added": "2026-10-12T09:31:31+09:00",
+   "decode_v2": true,
+   "image_checked": true,
+   "image_v4": true,
    "shop": false,
    "shop_name": null
   },
