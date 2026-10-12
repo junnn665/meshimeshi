@@ -1,6 +1,23 @@
 {
- "updated": "2026-10-12T21:35:58+09:00",
+ "updated": "2026-10-12T22:35:49+09:00",
  "items": [
+  {
+   "id": "5f75231194a2ab18",
+   "title": "醤油味・キャベツ入りの名古屋たこ焼き専門店『さく蛸』が黒川駅前にオープン",
+   "link": "https://jouhou.nagoya/sakutako-kurokawa/",
+   "source": "名古屋情報通",
+   "image": "https://jouhou.nagoya/wp-content/uploads/2026/10/sakutako-takoyaki001-600x400.jpg",
+   "category": "shinten",
+   "area": "名古屋",
+   "published": "2026-10-12T21:52:04+09:00",
+   "provider": "google",
+   "added": "2026-10-12T22:35:49+09:00",
+   "decode_v2": true,
+   "image_checked": true,
+   "image_v4": true,
+   "shop": true,
+   "shop_name": "さく蛸"
+  },
   {
    "id": "df132fe990305462",
    "title": "「ちいかわラーメン 豚」国内5店に期間限定メニュー “カニカマ”をトッピングした古本屋モチーフの『ラーメン豚 油そば』が登場",
@@ -2528,6 +2545,23 @@
    "decode_v2": true,
    "added": "2026-10-06T06:29:23+09:00",
    "shop": false,
+   "shop_name": null
+  },
+  {
+   "id": "0ca7477b65af5a0b",
+   "title": "Breakfast Run Club｜名古屋・東海のご褒美モーニング朝ラン【初心者歓迎】｜名古屋でランニングならRunup",
+   "link": "https://run-up.net/event/25167/",
+   "source": "ランアップ",
+   "image": "https://run-up.net/blog/wp-content/uploads/2026/02/ブレックファーストラン-698ae745c806f.jpg",
+   "category": "yasuuma",
+   "area": "名古屋",
+   "published": "2026-10-06T05:38:39+09:00",
+   "provider": "google",
+   "added": "2026-10-12T22:35:49+09:00",
+   "decode_v2": true,
+   "image_checked": true,
+   "image_v4": true,
+   "shop": true,
    "shop_name": null
   },
   {
