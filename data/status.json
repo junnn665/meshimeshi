@@ -1,13 +1,15 @@
 {
- "updated": "2026-10-12T17:24:32+09:00",
- "items": 227,
- "with_image": 215,
- "google_decode_ok": 3,
- "google_decode_failed": 0,
- "google_decode_samples": [],
+ "updated": "2026-10-12T18:23:54+09:00",
+ "items": 232,
+ "with_image": 216,
+ "google_decode_ok": 0,
+ "google_decode_failed": 4,
+ "google_decode_samples": [
+  "error: HTTPError: HTTP Error 429: Too Many Requests",
+  "error: HTTPError: HTTP Error 429: Too Many Requests",
+  "error: HTTPError: HTTP Error 429: Too Many Requests"
+ ],
  "image_failures": [
-  "media.unisba.ac.id: HTTPError: HTTP Error 403: Forbidden",
-  "media.unisba.ac.id: HTTPError: HTTP Error 403: Forbidden",
-  "www.goobike.com: HTTPError: HTTP Error 403: Forbidden"
+  "www.msn.com: og:image なし (43579 文字)"
  ]
 }
