@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-12T14:21:24+09:00",
+ "updated": "2026-10-12T15:29:31+09:00",
  "items": [
   {
    "id": "3fcdda74d6c58142",
@@ -1235,6 +1235,23 @@
    "image_checked": true,
    "image_v3": true,
    "added": "2026-10-08T11:59:00+09:00",
+   "shop": false,
+   "shop_name": null
+  },
+  {
+   "id": "84ab9e52cb10a252",
+   "title": "「焼魚用おろしたれ（国産大根使用）」を使用した「サワラの塩麹オーブン焼き～秋ナスのマリネとコク旨おろしたれ～」10月12日（月）よりタニタカフェ2店舗で期間限定提供",
+   "link": "https://mainichikirei.jp/prtimes/article/20261008prt00m100000096a.html",
+   "source": "毎日キレイ",
+   "image": "https://prtimes.jp/img/16654/97/resize/d16654-97-0c0cad5502063144f271-0.png",
+   "category": "chain",
+   "area": "東海",
+   "published": "2026-10-08T11:02:19+09:00",
+   "provider": "google",
+   "added": "2026-10-12T15:29:31+09:00",
+   "decode_v2": true,
+   "image_checked": true,
+   "image_v4": true,
    "shop": false,
    "shop_name": null
   },
