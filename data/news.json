@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-12T22:35:49+09:00",
+ "updated": "2026-10-12T23:25:39+09:00",
  "items": [
   {
    "id": "5f75231194a2ab18",
@@ -17,6 +17,23 @@
    "image_v4": true,
    "shop": true,
    "shop_name": "さく蛸"
+  },
+  {
+   "id": "0628be5c4a6c225e",
+   "title": "愛知・春日井の行列店「らぁ麺 飛鶏」にマニア垂涎の限定麺が登場!!",
+   "link": "https://www.walkerplus.com/trend/matome/article/91299/",
+   "source": "ウォーカープラス",
+   "image": "https://news.walkerplus.com/article/91299/512011_615.jpg",
+   "category": "wadai",
+   "area": "愛知",
+   "published": "2026-10-12T20:44:32+09:00",
+   "provider": "google",
+   "added": "2026-10-12T23:25:39+09:00",
+   "decode_v2": true,
+   "image_checked": true,
+   "image_v4": true,
+   "shop": true,
+   "shop_name": "らぁ麺 飛鶏"
   },
   {
    "id": "df132fe990305462",
