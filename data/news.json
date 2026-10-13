@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-13T20:22:11+09:00",
+ "updated": "2026-10-13T21:28:09+09:00",
  "items": [
   {
    "id": "6ad6dfa10e1404ad",
@@ -29,6 +29,23 @@
    "published": "2026-10-13T19:40:00+09:00",
    "provider": "google",
    "added": "2026-10-13T20:22:11+09:00",
+   "decode_v2": true,
+   "image_checked": true,
+   "image_v4": true,
+   "shop": false,
+   "shop_name": null
+  },
+  {
+   "id": "295caa7c00ad028a",
+   "title": "【10月13日発売】ファミリーマート 新商品サラダ・チルド惣菜まとめ「笠原将弘シェフ監修 つくねと野菜の和風甘酢あん」「ぷりぷる食感ぼんじり炙り焼き」など",
+   "link": "https://entabe.jp/61797/summary-familymart-october-13th-new-salad-sidedishes",
+   "source": "えん食べ [グルメニュース]",
+   "image": "https://image.entabe.jp/upload/20261012/images/thumb_fm1013_salad.jpg",
+   "category": "conbini",
+   "area": "東海",
+   "published": "2026-10-13T19:32:52+09:00",
+   "provider": "google",
+   "added": "2026-10-13T21:28:09+09:00",
    "decode_v2": true,
    "image_checked": true,
    "image_v4": true,
