@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-14T01:23:02+09:00",
+ "updated": "2026-10-14T02:20:27+09:00",
  "items": [
   {
    "id": "995d2c9921ad971c",
@@ -101,6 +101,23 @@
    "image_v4": true,
    "shop": false,
    "shop_name": null
+  },
+  {
+   "id": "550fdaeb5a70a7bc",
+   "title": "「名古屋辛麺 鯱輪 浜松店」看板メニューの「旨辛にんにくラーメン」",
+   "link": "https://hamamatsu.keizai.biz/photoflash/5580/",
+   "source": "浜松経済新聞",
+   "image": "https://images.keizai.biz/hamamatsu_keizai/photonews/1791883500_b.jpg",
+   "category": "shinten",
+   "area": "名古屋",
+   "published": "2026-10-13T18:33:34+09:00",
+   "provider": "google",
+   "added": "2026-10-14T02:20:27+09:00",
+   "decode_v2": true,
+   "image_checked": true,
+   "image_v4": true,
+   "shop": true,
+   "shop_name": "名古屋辛麺 鯱輪 浜松店"
   },
   {
    "id": "007e7a63c6dc3784",
@@ -2260,6 +2277,23 @@
    "decode_tried": true,
    "decode_v2": true,
    "added": "2026-10-08T10:17:00+09:00",
+   "shop": false,
+   "shop_name": null
+  },
+  {
+   "id": "42fa51ccc226512e",
+   "title": "長崎市公認グルメ「ながさき刺しゃぶ」 冬限定メニューを 大衆割烹 樋口 築町店にて提供開始",
+   "link": "https://www.atpress.ne.jp/news/9620016",
+   "source": "アットプレス",
+   "image": "https://www.atpress.ne.jp/attachments/E5zU4d1WOyZKYtSbwcHK.jpeg",
+   "category": "chain",
+   "area": "東海",
+   "published": "2026-10-08T10:01:00+09:00",
+   "provider": "google",
+   "added": "2026-10-14T02:20:27+09:00",
+   "decode_v2": true,
+   "image_checked": true,
+   "image_v4": true,
    "shop": false,
    "shop_name": null
   },
