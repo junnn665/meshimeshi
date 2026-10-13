@@ -751,3 +751,10 @@ body.no-scroll { overflow: hidden; }
 
 /* 人気上位 */
 .g-badge.popular { background: #FFF1C2; color: #8A5A00; border-color: #E0A800; }
+
+/* OpenStreetMap のお店・口コミボタン */
+.g-src { font-size: 11px; color: var(--muted); }
+.g-map { gap: 6px; }
+.g-map-icon { display: inline-flex; width: 18px; height: 18px; }
+.g-map-icon svg { width: 100%; height: 100%; fill: currentColor; }
+.g-credit a { color: rgba(255, 253, 247, 0.85); text-decoration: underline; }

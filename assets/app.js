@@ -520,6 +520,144 @@
       .then(function (data) { nearbyCache[q] = data.shops || []; return nearbyCache[q]; });
   }
 
+  // ---------- OpenStreetMap（無料・登録不要）で全国の近くのお店を探す ----------
+  var OVERPASS = [
+    'https://overpass-api.de/api/interpreter',
+    'https://overpass.kumi.systems/api/interpreter'
+  ];
+  var osmCache = {};
+  // OSM の料理の種類（cuisine）→ 画面のジャンル
+  var OSM_GENRE = [
+    [/ramen/, 'ラーメン'],
+    [/izakaya/, '居酒屋'],
+    [/yakiniku|bbq|barbecue|horumon/, '焼肉'],
+    [/korean/, '韓国料理'],
+    [/chinese|gyoza|dumpling|dim_sum|chuka/, '中華'],
+    [/italian|pizza|pasta|french|spanish|mediterranean/, 'イタリアン'],
+    [/okonomiyaki|takoyaki|teppanyaki/, 'お好み焼き'],
+    [/thai|indian|nepal|vietnamese|asian|indonesian|turkish|mexican|curry_house/, 'エスニック'],
+    [/coffee|cafe|cake|dessert|crepe|pancake|bakery|tea|ice_cream|donut/, 'カフェ'],
+    [/sushi|japanese|udon|soba|noodle|tempura|tonkatsu|donburi|teishoku|kaiseki|unagi|yakitori|oden|onigiri|katsu|shabu|sukiyaki/, '和食'],
+    [/burger|steak|western|american|hamburg|omurice|curry|fried_chicken|sandwich|diner/, '洋食']
+  ];
+  function osmGenre(tags) {
+    var c = (tags.cuisine || '').toLowerCase();
+    for (var i = 0; i < OSM_GENRE.length; i++) if (OSM_GENRE[i][0].test(c)) return OSM_GENRE[i][1];
+    if (tags.amenity === 'cafe') return 'カフェ';
+    if (tags.amenity === 'pub') return '居酒屋';
+    var n = tags.name || '';
+    if (/ラーメン|らーめん|麺|中華そば/.test(n)) return 'ラーメン';
+    if (/寿司|鮨|すし|うどん|そば|蕎麦|定食|食堂|天ぷら|とんかつ|丼/.test(n)) return '和食';
+    if (/焼肉|ホルモン/.test(n)) return '焼肉';
+    if (/居酒屋|酒場/.test(n)) return '居酒屋';
+    if (/カフェ|珈琲|コーヒー|喫茶/.test(n)) return 'カフェ';
+    return 'その他';
+  }
+  // OSM の営業時間（例 "Mo-Fr 11:00-14:00,17:00-22:00; Sa,Su 11:00-21:00"）→ 曜日ごとの時間帯
+  var OSM_DAYS = ['Mo', 'Tu', 'We', 'Th', 'Fr', 'Sa', 'Su'];
+  function parseOsmHours(text) {
+    if (!text) return null;
+    var t = text.trim();
+    if (t === '24/7') {
+      var all = {};
+      for (var d = 0; d < 7; d++) all[d] = [[0, 1440]];
+      return all;
+    }
+    var week = {}, found = false;
+    t.split(';').forEach(function (rule) {
+      rule = rule.trim();
+      var m = /^((?:Mo|Tu|We|Th|Fr|Sa|Su)(?:\s*[-,]\s*(?:Mo|Tu|We|Th|Fr|Sa|Su))*)?\s*(.*)$/.exec(rule);
+      if (!m) return;
+      var days = {};
+      if (m[1]) {
+        m[1].split(',').forEach(function (part) {
+          var r = part.trim().split('-');
+          var a = OSM_DAYS.indexOf(r[0].trim()), b = r[1] ? OSM_DAYS.indexOf(r[1].trim()) : a;
+          if (a < 0 || b < 0) return;
+          for (var i = 0; i < 7; i++) { var x = (a + i) % 7; days[x] = true; if (x === b) break; }
+        });
+      } else {
+        for (var j = 0; j < 7; j++) days[j] = true;
+      }
+      if (/^off|^closed/i.test(m[2])) { Object.keys(days).forEach(function (k) { week[k] = []; }); return; }
+      var times = [], tr = /(\d{1,2}):(\d{2})\s*-\s*(\d{1,2}):(\d{2})/g, x;
+      while ((x = tr.exec(m[2]))) {
+        var s1 = +x[1] * 60 + +x[2], e1 = +x[3] * 60 + +x[4];
+        if (e1 <= s1) e1 += 1440;
+        times.push([s1, e1]);
+      }
+      if (!times.length) return;
+      found = true;
+      Object.keys(days).forEach(function (k) { week[k] = times.slice(); });
+    });
+    return found ? week : null;
+  }
+  // 表示用に日本語へ（"Mo-Fr 11:00-14:00; Sa,Su off" → "月〜金 11:00〜14:00 / 土・日 休み"）
+  function osmHoursJa(t) {
+    if (t.trim() === '24/7') return '24時間営業';
+    var ja = { Mo: '月', Tu: '火', We: '水', Th: '木', Fr: '金', Sa: '土', Su: '日', PH: '祝日' };
+    return t.replace(/\b(Mo|Tu|We|Th|Fr|Sa|Su|PH)\b/g, function (d) { return ja[d]; })
+      .replace(/(\d)\s*-\s*(\d)/g, '$1〜$2').replace(/([月火水木金土日])\s*-\s*([月火水木金土日])/g, '$1〜$2')
+      .replace(/,\s*(?=[月火水木金土日])/g, '・').replace(/,\s*/g, ', ')
+      .replace(/\boff\b|\bclosed\b/gi, '休み').replace(/\s*;\s*/g, ' / ');
+  }
+  function osmAddress(tags) {
+    if (tags['addr:full']) return tags['addr:full'];
+    return [tags['addr:province'], tags['addr:city'], tags['addr:suburb'], tags['addr:quarter'],
+      tags['addr:neighbourhood'], tags['addr:block_number'], tags['addr:housenumber']].filter(Boolean).join('');
+  }
+  function loadOsm() {
+    var radius = (RADII.filter(function (r) { return r.id === gacha.radius; })[0] || RADII[1]).m;
+    var lat = gacha.here.lat.toFixed(4), lng = gacha.here.lng.toFixed(4);
+    var key = lat + ',' + lng + ',' + radius;
+    if (osmCache[key]) return Promise.resolve(osmCache[key]);
+    var q = '[out:json][timeout:20];nwr["amenity"~"^(restaurant|cafe|fast_food|pub)$"]["name"](around:' +
+      radius + ',' + lat + ',' + lng + ');out center tags 400;';
+    var tryAt = function (i) {
+      return fetch(OVERPASS[i], {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
+        body: 'data=' + encodeURIComponent(q)
+      }).then(function (r) { if (!r.ok) throw new Error(r.status); return r.json(); })
+        .catch(function (e) { if (i + 1 < OVERPASS.length) return tryAt(i + 1); throw e; });
+    };
+    return tryAt(0).then(function (data) {
+      var list = (data.elements || []).map(function (e) {
+        var tags = e.tags || {};
+        var la = e.lat != null ? e.lat : e.center && e.center.lat;
+        var lo = e.lon != null ? e.lon : e.center && e.center.lon;
+        var name = tags['name:ja'] || tags.name;
+        if (!name || la == null) return null;
+        var address = osmAddress(tags);
+        return {
+          id: 'osm_' + e.type + e.id, name: name, genre: osmGenre(tags), catch: '',
+          address: address, access: '', budget: '', budget_code: '',
+          open: tags.opening_hours || '', _hours: parseOsmHours(tags.opening_hours),
+          lunch: false, photo: null, rank: null, source: 'osm',
+          url: 'https://www.google.com/maps/search/?api=1&query=' + encodeURIComponent(name + ' ' + (address || la + ',' + lo)),
+          lat: la, lng: lo
+        };
+      }).filter(Boolean);
+      osmCache[key] = list;
+      return list;
+    });
+  }
+  // ホットペッパーと同じお店は、写真などがあるホットペッパーの方を残す
+  function normName(n) { return (n || '').normalize('NFKC').replace(/[\s・\-ー（）()【】「」店]/g, '').toLowerCase(); }
+  function mergeShops(hp, osm) {
+    var out = hp.slice();
+    osm.forEach(function (o) {
+      var on = normName(o.name);
+      var dup = on.length >= 2 && hp.some(function (h) {
+        var hn = normName(h.name);
+        if (!(hn.indexOf(on) >= 0 || on.indexOf(hn) >= 0)) return false;
+        return h.lat == null || distance({ lat: +h.lat, lng: +h.lng }, { lat: o.lat, lng: o.lng }) < 150;
+      });
+      if (!dup) out.push(o);
+    });
+    return out;
+  }
+
   function matchBudget(sh) {
     var b = BUDGETS.filter(function (x) { return x.id === gacha.budget; })[0] || BUDGETS[0];
     if (!b.codes) return true;
@@ -598,9 +736,13 @@
     $('g-pool').textContent = needHere ? '現在地を確認しています…' : 'お店を読み込み中…';
     var hereP = needHere ? locate().then(function (h) { gacha.here = h; }) : Promise.resolve();
     return hereP.then(function () {
-      if (gacha.area === 'near' && NEARBY_API) {
-        // 中継が使えないときは、手元の東海のお店データで代わりに探す
-        return loadNearby().catch(function () { return loadShops('near'); });
+      if (gacha.area === 'near') {
+        // ホットペッパー（中継があればそこから、なければ手元の東海のデータ）＋ OpenStreetMap
+        var hpP = (NEARBY_API ? loadNearby().catch(function () { return loadShops('near'); }) : loadShops('near'))
+          .catch(function () { return []; });
+        var osmP = loadOsm().then(function (l) { gacha.osmFailed = false; return l; })
+          .catch(function () { gacha.osmFailed = true; return []; });
+        return Promise.all([hpP, osmP]).then(function (r) { return mergeShops(r[0], r[1]); });
       }
       return loadShops(gacha.area);
     }).then(function (list) {
@@ -624,10 +766,8 @@
       var n = gacha.pool.length, k = gacha.newsPool.length;
       var msg;
       // 中継が未設定のあいだ「現在地から」は東海のお店データだけで探すので、東海の外ではそう伝える
-      var outside = gacha.area === 'near' && !NEARBY_API && gacha.here &&
-        !(gacha.here.lat > 33.7 && gacha.here.lat < 36.5 && gacha.here.lng > 135.8 && gacha.here.lng < 138.9);
-      if (!n && !k && outside) {
-        msg = '「現在地から」は今のところ東海エリア（愛知・岐阜・三重）のみ対応です。エリアを選んで回してください。';
+      if (!n && !k && gacha.area === 'near' && gacha.osmFailed) {
+        msg = '近くのお店を探せませんでした（地図データの読み込みに失敗）。少し時間をおくか、エリアを選んで回してください。';
       } else if (!n && !k) {
         msg = gacha.area === 'near'
           ? '近くにこの条件のお店が見つかりませんでした。距離を広げるか条件を変えてみてください。'
@@ -692,7 +832,8 @@
   function shopAsItem(sh) {
     var m = /(?:都|道|府|県)(.+?[市区町村郡])/.exec(sh.address || '');
     return {
-      id: 'hp_' + sh.id, title: sh.name, link: sh.url, source: 'ホットペッパーグルメ',
+      id: 'hp_' + sh.id, title: sh.name, link: sh.url,
+      source: sh.source === 'osm' ? 'OpenStreetMap' : 'ホットペッパーグルメ',
       image: sh.photo || null, category: 'shop', genre: sh.genre,
       area: m ? m[1] : '', published: new Date().toISOString()
     };
@@ -815,16 +956,18 @@
     var info = el('span', 'g-info');
     if (sh.budget) info.appendChild(infoRow('予算', sh.budget));
     if (sh.access) info.appendChild(infoRow('アクセス', sh.access));
-    if (sh.open) info.appendChild(infoRow('営業', sh.open));
+    if (sh.open) info.appendChild(infoRow('営業', sh.source === 'osm' ? osmHoursJa(sh.open) : sh.open));
     if (sh.close) info.appendChild(infoRow('定休日', sh.close));
     body.appendChild(info);
-    body.appendChild(el('span', 'g-cta', 'ホットペッパーで詳しく見る →'));
+    var isOsm = sh.source === 'osm';
+    if (isOsm) body.appendChild(el('span', 'g-src', 'お店の情報：© OpenStreetMap contributors'));
+    body.appendChild(el('span', 'g-cta', isOsm ? 'Googleマップで詳しく見る →' : 'ホットペッパーで詳しく見る →'));
     a.appendChild(body);
     art.appendChild(a);
     art.appendChild(saveButton(item));
     box.appendChild(art);
 
-    var mapQ = sh.lat && sh.lng ? sh.name + ' ' + (sh.address || '') : sh.name;
+    var mapQ = sh.name + ' ' + (sh.address || (sh.lat && sh.lng ? sh.lat + ',' + sh.lng : ''));
     finishResult(box, 'https://www.google.com/maps/search/?api=1&query=' + encodeURIComponent(mapQ),
       shareBox(sh.name, sh.genre + (item.area ? '・' + item.area : ''), sh.url));
     addHistory({ id: item.id, name: sh.name, url: sh.url, photo: sh.photo, genre: sh.genre, area: item.area, color: color, at: new Date().toISOString() });
@@ -935,7 +1078,9 @@
       back.addEventListener('click', function () { showTrio(trio); });
       actions.appendChild(back);
     }
-    var map = el('a', 'g-map', '地図で見る');
+    var map = el('a', 'g-map');
+    map.appendChild(svg('star', 'g-map-icon'));
+    map.appendChild(document.createTextNode('Googleマップで口コミを見る'));
     map.href = mapUrl;
     map.target = '_blank';
     map.rel = 'noopener';

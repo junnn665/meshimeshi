@@ -33,6 +33,13 @@
 - できた Worker のURLを `assets/config.js` の `nearbyApi` に書くと、全国の「現在地から」が有効になります。
   空のあいだ（または中継が止まっているとき）は、東海のお店データの中から近いお店を探します。
 
+## 飯ガチャ「現在地から」と OpenStreetMap
+
+- 「現在地から」では、ホットペッパーのお店に加えて OpenStreetMap（Overpass API、無料・登録不要）で
+  周辺の飲食店（restaurant / cafe / fast_food / pub）を探し、同じお店はホットペッパー側を残してまとめます。
+- OpenStreetMap のお店には写真・予算・順位がないため、「予算」「人気上位」で絞ったときは候補に入りません。
+- 表示には © OpenStreetMap contributors の表記を入れています。
+
 ## 調整したいとき
 
 - 集めるキーワード … `scripts/fetch_news.py` の `QUERIES`
