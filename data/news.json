@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-13T14:07:46+09:00",
+ "updated": "2026-10-13T14:21:43+09:00",
  "items": [
   {
    "id": "73f2c5cbd4dc6851",
@@ -13,6 +13,22 @@
    "provider": "google",
    "added": "2026-10-13T14:07:46+09:00",
    "decode_v2": true,
+   "image_checked": true,
+   "image_v4": true,
+   "shop": false,
+   "shop_name": null
+  },
+  {
+   "id": "7876666245f8b59f",
+   "title": "牛丼復活祭から20年、感謝を込めて10月15日から吉野家「秋の牛丼フェス」を開催牛丼などを税込価格から100円引きで提供",
+   "link": "https://prtimes.jp/main/html/rd/p/000000608.000019432.html",
+   "source": "PR TIMES",
+   "image": "https://prcdn.freetls.fastly.net/release_image/19432/608/19432-608-23621c3a35bb22796e9797348a883262-1120x550.jpg?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260",
+   "category": "chain",
+   "area": "全国",
+   "published": "2026-10-13T12:40:42+09:00",
+   "provider": "prtimes",
+   "added": "2026-10-13T14:21:43+09:00",
    "image_checked": true,
    "image_v4": true,
    "shop": false,
