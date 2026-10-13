@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-13T12:21:00+09:00",
+ "updated": "2026-10-13T13:22:28+09:00",
  "items": [
   {
    "id": "447ea3fd9b4bf4ac",
@@ -17,6 +17,23 @@
    "image_v4": true,
    "shop": true,
    "shop_name": "名古屋市職員"
+  },
+  {
+   "id": "7d4aee37f215a414",
+   "title": "【10月13日発売】ファミリーマート 新商品サンドイッチまとめ「具っとサンド 厚切りカツ」「香ばし醤油ソースのビーフバーガー」など",
+   "link": "https://entabe.jp/amp/61794/summary-familymart-october-13th-new-sandwich",
+   "source": "えん食べ [グルメニュース]",
+   "image": "https://image.entabe.jp/upload/20261012/images/thumb_fm1013_sandwich.jpg",
+   "category": "conbini",
+   "area": "東海",
+   "published": "2026-10-13T12:00:00+09:00",
+   "provider": "google",
+   "added": "2026-10-13T13:22:28+09:00",
+   "decode_v2": true,
+   "image_checked": true,
+   "image_v4": true,
+   "shop": false,
+   "shop_name": null
   },
   {
    "id": "a97cebb943f2e909",
@@ -182,6 +199,38 @@
    "provider": "google",
    "added": "2026-10-13T09:32:47+09:00",
    "decode_v2": true,
+   "image_checked": true,
+   "image_v4": true,
+   "shop": false,
+   "shop_name": null
+  },
+  {
+   "id": "15685424e332bcf0",
+   "title": "Buttery（バタリー）本店＆カフェに秋の新作が続々! ハロウィン限定 ...",
+   "link": "https://www.msn.com/ja-jp/food-and-drink/beverages/buttery-%E3%83%90%E3%82%BF%E3%83%AA%E3%83%BC-%E6%9C%AC%E5%BA%97-%E3%82%AB%E3%83%95%E3%82%A7%E3%81%AB%E7%A7%8B%E3%81%AE%E6%96%B0%E4%BD%9C%E3%81%8C%E7%B6%9A%E3%80%85-%E3%83%8F%E3%83%AD%E3%82%A6%E3%82%A3%E3%83%B3%E9%99%90%E5%AE%9A%E3%82%AF%E3%83%83%E3%82%AD%E3%83%BC%E7%BC%B6%E3%82%84%E8%B4%85%E6%B2%A2%E3%81%AA%E6%A0%97%E3%82%B9%E3%82%A4%E3%83%BC%E3%83%84%E3%81%8C%E7%99%BB%E5%A0%B4/ar-AA2e6In7",
+   "source": "フカボリトウカイ on MSN",
+   "image": "http://www.bing.com/th?id=ONUT.1uCgi7gbIZT0L39ZPorvJA&pid=News",
+   "category": "chain",
+   "area": "東海",
+   "published": "2026-10-13T06:00:32+09:00",
+   "provider": "bing",
+   "added": "2026-10-13T13:22:28+09:00",
+   "image_checked": true,
+   "image_v4": true,
+   "shop": false,
+   "shop_name": null
+  },
+  {
+   "id": "83932cf5d9ba8d21",
+   "title": "名古屋で「予算2,000円以内」の2軒。なごめが紹介したラーメンと ...",
+   "link": "https://note.com/nagome/n/nea27fb31fe6c",
+   "source": "note",
+   "image": "https://assets.st-note.com/production/uploads/images/322171916/rectangle_large_type_2_4ec0504d73475f26466ea59e6cd52843.jpeg?fit=bounds&quality=85&width=1280",
+   "category": "wadai",
+   "area": "名古屋",
+   "published": "2026-10-12T23:19:00+09:00",
+   "provider": "bing",
+   "added": "2026-10-13T13:22:28+09:00",
    "image_checked": true,
    "image_v4": true,
    "shop": false,

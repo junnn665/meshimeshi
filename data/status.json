@@ -1,9 +1,11 @@
 {
- "updated": "2026-10-13T12:21:00+09:00",
- "items": 259,
- "with_image": 240,
- "google_decode_ok": 3,
+ "updated": "2026-10-13T13:22:28+09:00",
+ "items": 262,
+ "with_image": 243,
+ "google_decode_ok": 1,
  "google_decode_failed": 0,
  "google_decode_samples": [],
- "image_failures": []
+ "image_failures": [
+  "www.msn.com: og:image なし (43039 文字)"
+ ]
 }
