@@ -1,11 +1,9 @@
 {
- "updated": "2026-10-13T10:22:25+09:00",
- "items": 254,
- "with_image": 235,
- "google_decode_ok": 3,
+ "updated": "2026-10-13T11:21:00+09:00",
+ "items": 255,
+ "with_image": 236,
+ "google_decode_ok": 0,
  "google_decode_failed": 0,
  "google_decode_samples": [],
- "image_failures": [
-  "t.co: og:image なし (297 文字)"
- ]
+ "image_failures": []
 }
