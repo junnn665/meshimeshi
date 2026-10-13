@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-13T13:22:28+09:00",
+ "updated": "2026-10-13T13:40:33+09:00",
  "items": [
   {
    "id": "447ea3fd9b4bf4ac",
@@ -29,6 +29,23 @@
    "published": "2026-10-13T12:00:00+09:00",
    "provider": "google",
    "added": "2026-10-13T13:22:28+09:00",
+   "decode_v2": true,
+   "image_checked": true,
+   "image_v4": true,
+   "shop": false,
+   "shop_name": null
+  },
+  {
+   "id": "c538c62c823095b6",
+   "title": "【セブン-イレブン】10月13日発売！新商品麺類44選（全国）～「スープに沼る チーズトマトパスタ」「ふんわり玉子が出汁にとけこむ かき玉うどん」ほか～",
+   "link": "https://entabe.jp/amp/61765/summary-seveneleven-october-13th-new-men-zenkoku",
+   "source": "えん食べ [グルメニュース]",
+   "image": "https://image.entabe.jp/upload/20261008/images/thumb_seven-eleven-men-zenkoku-20261008-v2.jpg",
+   "category": "conbini",
+   "area": "東海",
+   "published": "2026-10-13T11:30:00+09:00",
+   "provider": "google",
+   "added": "2026-10-13T13:40:33+09:00",
    "decode_v2": true,
    "image_checked": true,
    "image_v4": true,
@@ -572,6 +589,23 @@
    "shop_name": null
   },
   {
+   "id": "9f31e2f2dad10cda",
+   "title": "【4月14日発売】ファミリーマート 新商品スイーツまとめ「食べマスモッチ ポムポムプリン&ポチャッコ」「とろける食感ぎゅっといちご」など",
+   "link": "https://entabe.jp/60026/summary-familymart-april-14th-new-sweet",
+   "source": "えん食べ [グルメニュース]",
+   "image": "https://image.entabe.jp/upload/20260411/images/000.jpg",
+   "category": "conbini",
+   "area": "東海",
+   "published": "2026-10-11T00:45:00+09:00",
+   "provider": "google",
+   "added": "2026-10-13T13:40:33+09:00",
+   "decode_v2": true,
+   "image_checked": true,
+   "image_v4": true,
+   "shop": false,
+   "shop_name": null
+  },
+  {
    "id": "db3b53cae70ac3be",
    "title": "「パンダコパンダ」誕生55周年記念！レトロかわいいローソンオリジナルグッズが数量限定で登場♪",
    "link": "https://topics.smt.docomo.ne.jp/article/animeanime/entertainment/animeanime-103605?page=1",
@@ -735,6 +769,23 @@
    "published": "2026-10-10T16:00:00+09:00",
    "provider": "google",
    "added": "2026-10-13T09:32:47+09:00",
+   "decode_v2": true,
+   "image_checked": true,
+   "image_v4": true,
+   "shop": false,
+   "shop_name": null
+  },
+  {
+   "id": "fdd27adf7d849016",
+   "title": "これが最強！東海エリアで行くべき本場の「ど豚骨」ラーメン4選",
+   "link": "https://www.walkerplus.com/article/164842/",
+   "source": "ウォーカープラス",
+   "image": "https://news.walkerplus.com/article/164842/979560_615.jpg",
+   "category": "wadai",
+   "area": "東海",
+   "published": "2026-10-10T16:00:00+09:00",
+   "provider": "google",
+   "added": "2026-10-13T13:40:33+09:00",
    "decode_v2": true,
    "image_checked": true,
    "image_v4": true,
