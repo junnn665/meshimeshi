@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-14T00:23:05+09:00",
+ "updated": "2026-10-14T01:23:02+09:00",
  "items": [
   {
    "id": "995d2c9921ad971c",
@@ -28,6 +28,23 @@
    "published": "2026-10-13T22:29:18+09:00",
    "provider": "google",
    "added": "2026-10-13T23:24:18+09:00",
+   "decode_v2": true,
+   "image_checked": true,
+   "image_v4": true,
+   "shop": false,
+   "shop_name": null
+  },
+  {
+   "id": "afa30180eccbfe0a",
+   "title": "ファミリーマートから新登場！総合人気1位のフレーバーをイメージした「280円のスイーツ」を実食レポ（いぬきち） - エキスパート",
+   "link": "https://news.yahoo.co.jp/expert/articles/b983ca11258ca50ae9ab66964a4c19d7e8ba8651",
+   "source": "Yahoo!ニュース",
+   "image": "https://newsatcl-pctr.c.yimg.jp/t/iwiz-yn/creators/inukichi/02741843/title-1791893886899.jpeg?exp=10800",
+   "category": "conbini",
+   "area": "東海",
+   "published": "2026-10-13T21:01:19+09:00",
+   "provider": "google",
+   "added": "2026-10-14T01:23:02+09:00",
    "decode_v2": true,
    "image_checked": true,
    "image_v4": true,
