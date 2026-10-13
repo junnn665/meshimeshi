@@ -8,7 +8,7 @@ const CORE = 'meshi-core-v1';
 const MEDIA = 'meshi-media-v1';
 const MEDIA_MAX = 150;
 const PRECACHE = [
-  './', 'index.html', 'gacha.html', 'manifest.webmanifest',
+  './', 'index.html', 'gacha.html', 'vote.html', 'manifest.webmanifest',
   'assets/style.css', 'assets/app.js', 'assets/config.js',
   'assets/icon.svg', 'assets/icon-192.png', 'data/news.json',
 ];

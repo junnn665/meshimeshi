@@ -885,6 +885,106 @@
     return wrap;
   }
 
+  // ---- 「行った！」記録とスタンプ帳 ----
+  function getVisited() {
+    var v = store.get('meshi.visited', []);
+    return Array.isArray(v) ? v : [];
+  }
+  function isVisited(id) { return getVisited().some(function (x) { return x.id === id; }); }
+  function setVisited(entry, on) {
+    var v = getVisited().filter(function (x) { return x.id !== entry.id; });
+    if (on) {
+      v.unshift({ id: entry.id, name: entry.name, url: entry.url, photo: entry.photo || null,
+        genre: entry.genre || 'その他', area: entry.area || '', color: entry.color || '#2B2118',
+        news: !!entry.news, at: new Date().toISOString() });
+    }
+    store.set('meshi.visited', v.slice(0, 500));
+    // 同じお店の「行った！」ボタンをすべてそろえる
+    document.querySelectorAll('.visit-btn[data-id="' + entry.id + '"]').forEach(syncVisitBtn);
+    renderStamps();
+  }
+  function syncVisitBtn(b) {
+    var on = isVisited(b.dataset.id);
+    b.setAttribute('aria-pressed', String(on));
+    b.querySelector('.visit-label').textContent = on ? '行った！' : (b.classList.contains('small') ? '行った？' : 'ここに行った！');
+  }
+  function visitButton(entry, size) {
+    var b = el('button', 'visit-btn ' + size);
+    b.type = 'button';
+    b.dataset.id = entry.id;
+    var stamp = el('span', 'visit-stamp', '済');
+    stamp.setAttribute('aria-hidden', 'true');
+    b.appendChild(stamp);
+    b.appendChild(el('span', 'visit-label'));
+    syncVisitBtn(b);
+    b.addEventListener('click', function () {
+      var on = !isVisited(entry.id);
+      setVisited(entry, on);
+      if (on) {
+        b.classList.remove('pon'); void b.offsetWidth; b.classList.add('pon');
+        var g = stampGenre(entry);
+        var n = getVisited().filter(function (x) { return stampGenre(x) === g; }).length;
+        gToast('スタンプゲット！ ' + g + ' ' + n + '個目');
+      }
+    });
+    return b;
+  }
+  function stampGenre(x) { return x.news ? '話題のお店' : (x.genre || 'その他'); }
+  function renderStamps() {
+    var box = $('stamp-grid');
+    if (!box) return;
+    var v = getVisited();
+    var genres = ((gacha.meta && gacha.meta.genres) || []).concat(['その他', '話題のお店']);
+    var count = {};
+    v.forEach(function (x) { var g = stampGenre(x); count[g] = (count[g] || 0) + 1; });
+    box.textContent = '';
+    var done = 0;
+    genres.forEach(function (g, i) {
+      var n = count[g] || 0;
+      if (n) done++;
+      var cell = el('div', 'stamp' + (n ? ' on' : ''));
+      cell.style.setProperty('--c', g === '話題のお店' ? '#B42318' : genreColor(g));
+      cell.style.setProperty('--r', ((i * 37) % 24 - 12) + 'deg');
+      var ring = el('span', 'stamp-ring');
+      ring.appendChild(el('span', 'stamp-name', g));
+      if (n) ring.appendChild(el('span', 'stamp-count', '×' + n));
+      cell.appendChild(ring);
+      box.appendChild(cell);
+    });
+    $('stamp-summary').textContent = '行ったお店 ' + v.length + '軒 ・ ジャンル制覇 ' + done + ' / ' + genres.length;
+    var list = $('stamp-list');
+    list.textContent = '';
+    $('stamp-empty').hidden = v.length > 0;
+    v.forEach(function (x) {
+      var li = el('li', 'sl-item');
+      var a = el('a', 'sl-link');
+      a.href = x.url; a.target = '_blank'; a.rel = 'noopener';
+      var dot = el('span', 'sl-dot');
+      dot.style.background = x.news ? '#B42318' : (x.color || '#2B2118');
+      a.appendChild(dot);
+      a.appendChild(el('span', 'sl-name', x.name));
+      a.appendChild(el('span', 'sl-meta', [stampGenre(x), x.area, relTime(x.at)].filter(Boolean).join(' ・ ')));
+      li.appendChild(a);
+      var del = el('button', 'sl-del', '×');
+      del.type = 'button';
+      del.setAttribute('aria-label', x.name + ' の記録を消す');
+      del.addEventListener('click', function () { setVisited(x, false); });
+      li.appendChild(del);
+      list.appendChild(li);
+    });
+  }
+  // ガチャのページ用の小さなお知らせ
+  var gToastTimer = null;
+  function gToast(text) {
+    var t = $('g-toast');
+    if (!t) return;
+    t.textContent = text;
+    t.hidden = false;
+    t.classList.remove('show'); void t.offsetWidth; t.classList.add('show');
+    clearTimeout(gToastTimer);
+    gToastTimer = setTimeout(function () { t.classList.remove('show'); setTimeout(function () { t.hidden = true; }, 300); }, 2600);
+  }
+
   // ---- 履歴 ----
   var HISTORY_MAX = 30;
   function getHistory() {
@@ -896,6 +996,7 @@
     h.unshift(entry);
     store.set('meshi.gHistory', h.slice(0, HISTORY_MAX));
     renderHistory();
+    renderStamps();
   }
   function renderHistory() {
     var box = $('g-history');
@@ -926,6 +1027,7 @@
       a.appendChild(tx);
       if (x.news) a.appendChild(el('span', 'gh-badge', '話題枠'));
       li.appendChild(a);
+      li.appendChild(visitButton(x, 'small'));
       list.appendChild(li);
     });
   }
@@ -973,9 +1075,11 @@
     box.appendChild(art);
 
     var mapQ = sh.name + ' ' + (sh.address || (sh.lat && sh.lng ? sh.lat + ',' + sh.lng : ''));
+    var entry = { id: item.id, name: sh.name, url: sh.url, photo: sh.photo, genre: sh.genre, area: item.area, color: color, at: new Date().toISOString() };
+    if (isRare({ shop: sh })) markRare(box, art);
     finishResult(box, 'https://www.google.com/maps/search/?api=1&query=' + encodeURIComponent(mapQ),
-      shareBox(sh.name, sh.genre + (item.area ? '・' + item.area : ''), sh.url));
-    addHistory({ id: item.id, name: sh.name, url: sh.url, photo: sh.photo, genre: sh.genre, area: item.area, color: color, at: new Date().toISOString() });
+      shareBox(sh.name, sh.genre + (item.area ? '・' + item.area : ''), sh.url), entry);
+    addHistory(entry);
   }
 
   function showNews(it) {
@@ -1007,9 +1111,73 @@
     art.appendChild(saveButton(it));
     box.appendChild(art);
 
+    var entry = { id: it.id, name: it.shop_name, url: it.link, photo: it.image, genre: '話題のお店', area: it.area, color: cat.color, news: true, at: new Date().toISOString() };
+    markRare(box, art);
     finishResult(box, 'https://www.google.com/maps/search/?api=1&query=' + encodeURIComponent(it.shop_name + ' ' + (it.area || '')),
-      shareBox(it.shop_name, it.area, it.link));
-    addHistory({ id: it.id, name: it.shop_name, url: it.link, photo: it.image, genre: '話題のお店', area: it.area, color: cat.color, news: true, at: new Date().toISOString() });
+      shareBox(it.shop_name, it.area, it.link), entry);
+    addHistory(entry);
+  }
+
+  // ---- レア：人気5位以内のお店・話題枠 ----
+  var RARE_TOP = 5;
+  function isRare(p) {
+    return !!(p && (p.news || (p.shop && p.shop.rank && p.shop.rank <= RARE_TOP)));
+  }
+  function markRare(box, card) {
+    var head = box.querySelector('.g-hit');
+    if (head) head.insertBefore(el('span', 'rare-ribbon', '★レア'), head.firstChild);
+    if (card) card.classList.add('rare');
+  }
+
+  // ---- みんなで投票（3連の3軒をLINEで送る）----
+  function b64urlEncode(str) {
+    var bytes = new TextEncoder().encode(str), bin = '';
+    bytes.forEach(function (b) { bin += String.fromCharCode(b); });
+    return btoa(bin).replace(/\+/g, '-').replace(/\//g, '_').replace(/=+$/, '');
+  }
+  function b64urlDecode(s) {
+    s = s.replace(/-/g, '+').replace(/_/g, '/');
+    while (s.length % 4) s += '=';
+    var bin = atob(s), bytes = new Uint8Array(bin.length);
+    for (var i = 0; i < bin.length; i++) bytes[i] = bin.charCodeAt(i);
+    return new TextDecoder().decode(bytes);
+  }
+  var NUMS = ['①', '②', '③'];
+  function voteUrl(picks) {
+    var data = picks.map(function (p) {
+      var sh = p.shop, it = p.news;
+      var name = sh ? sh.name : it.shop_name;
+      return {
+        n: name, g: sh ? sh.genre : '話題のお店', u: sh ? sh.url : it.link, p: (sh ? sh.photo : it.image) || '',
+        a: sh ? (shopAsItem(sh).area || '') : (it.area || ''),
+        b: sh && sh.budget ? sh.budget.replace(/（.*$/, '') : '',
+        m: 'https://www.google.com/maps/search/?api=1&query=' + encodeURIComponent(name + ' ' + (sh ? (sh.address || '') : (it.area || '')))
+      };
+    });
+    return new URL('vote.html', location.href).href.split('#')[0] + '#d=' + b64urlEncode(JSON.stringify(data));
+  }
+  function voteBox(picks) {
+    var url = voteUrl(picks);
+    var names = picks.map(function (p, i) { return NUMS[i] + (p.shop ? p.shop.name : p.news.shop_name); }).join('\n');
+    var text = '飯ガチャで3軒出たよ！どこに行きたい？投票して〜\n' + names + '\n投票はこちら👇\n' + url;
+    var wrap = el('div', 'vote-box');
+    wrap.appendChild(el('p', 'vote-lead', 'みんなで決める'));
+    var line = el('a', 'vote-line', 'LINEで投票をお願いする');
+    line.href = 'https://line.me/R/share?text=' + encodeURIComponent(text);
+    line.target = '_blank';
+    line.rel = 'noopener';
+    wrap.appendChild(line);
+    var more = el('button', 'vote-more', navigator.share ? 'ほかのアプリで送る' : '投票リンクをコピー');
+    more.type = 'button';
+    more.addEventListener('click', function () {
+      if (navigator.share) {
+        navigator.share({ title: '飯ガチャ投票', text: '飯ガチャで3軒出たよ！どこに行きたい？\n' + names, url: url }).catch(function () {});
+      } else if (navigator.clipboard) {
+        navigator.clipboard.writeText(text).then(function () { more.textContent = 'コピーしました'; });
+      }
+    });
+    wrap.appendChild(more);
+    return wrap;
   }
 
   function showTrio(picks) {
@@ -1022,9 +1190,10 @@
     var list = el('div', 'g-trio');
     picks.forEach(function (p, i) {
       var sh = p.shop, it = p.news;
-      var b = el('button', 'g-trio-card');
+      var b = el('button', 'g-trio-card' + (isRare(p) ? ' rare' : ''));
       b.type = 'button';
       b.style.setProperty('--i', i);
+      if (isRare(p)) b.appendChild(el('span', 'trio-rare', '★レア'));
       var color = sh ? genreColor(sh.genre) : (CAT[it.category] || CAT.wadai).color;
       var th = el('span', 'g-trio-thumb');
       th.style.setProperty('--c', color);
@@ -1064,17 +1233,23 @@
     });
     box.appendChild(list);
     var actions = el('div', 'g-actions');
+    if (picks.length > 1) box.appendChild(voteBox(picks));
     var again = el('button', 'g-again', 'もう1回3連まわす');
     again.type = 'button';
     again.addEventListener('click', spin);
     actions.appendChild(again);
     box.appendChild(actions);
+    if (picks.some(isRare)) {
+      var h = box.querySelector('.g-hit');
+      if (h) h.insertBefore(el('span', 'rare-ribbon', '★レア入り'), h.firstChild);
+    }
     $('machine').hidden = true;
     box.hidden = false;
     box.classList.remove('show'); void box.offsetWidth; box.classList.add('show');
   }
 
-  function finishResult(box, mapUrl, share) {
+  function finishResult(box, mapUrl, share, entry) {
+    if (entry) box.appendChild(visitButton(entry, 'big'));
     var actions = el('div', 'g-actions');
     if (gacha.trio && gacha.trio.length > 1) {
       var back = el('button', 'g-again g-back', '← 3軒にもどる');
@@ -1119,9 +1294,13 @@
     drop.style.setProperty('--c', color);
     m.classList.remove('spinning', 'dropping', 'opening');
     m.classList.toggle('triple', picks.length > 1);
+    var rare = picks.some(isRare);
+    m.classList.toggle('rare', rare);
     picks.forEach(function (p, i) {
-      var d = $('drop' + (i + 1));
-      if (d) d.style.setProperty('--c', p.shop ? genreColor(p.shop.genre) : '#FFC93C');
+      var d = i === 0 ? drop : $('drop' + (i + 1));
+      if (!d) return;
+      if (i > 0) d.style.setProperty('--c', p.shop ? genreColor(p.shop.genre) : '#FFC93C');
+      d.classList.toggle('gold', isRare(p));   // レアは金色のカプセル
     });
 
     var stage = document.querySelector('.gacha-stage');
@@ -1134,7 +1313,7 @@
     try { reduce = window.matchMedia('(prefers-reduced-motion: reduce)').matches; } catch (e) { /* noop */ }
     var finish = function () {
       gacha.busy = false;
-      m.classList.remove('spinning', 'dropping', 'opening');
+      m.classList.remove('spinning', 'dropping', 'opening', 'rare-flash');
       if (picks.length > 1) showTrio(picks);
       else if (pick.shop) showShop(pick.shop); else showNews(pick.news);
       $('g-spin').disabled = !gacha.pool.length && !gacha.newsPool.length;
@@ -1144,8 +1323,15 @@
     void m.offsetWidth;
     m.classList.add('spinning');                                      // ハンドルが回る
     setTimeout(function () { m.classList.add('dropping'); }, 1000);  // カプセルが出る
-    setTimeout(function () { m.classList.add('opening'); }, 1800);   // カプセルが開く
-    setTimeout(finish, 2350);
+    if (rare) {
+      // レア：金色のカプセルが光って「レア確定！」、少し長めにためてから開く
+      setTimeout(function () { m.classList.add('rare-flash'); }, 1700);
+      setTimeout(function () { m.classList.add('opening'); }, 2600);
+      setTimeout(function () { finish(); m.classList.remove('rare', 'rare-flash'); }, 3200);
+    } else {
+      setTimeout(function () { m.classList.add('opening'); }, 1800);   // カプセルが開く
+      setTimeout(finish, 2350);
+    }
   }
 
   function setSpinLabel() {
@@ -1275,6 +1461,7 @@
   }
 
   function buildGacha() {
+    renderStamps();
     $('g-spin').addEventListener('click', spin);
     $('g-spin').disabled = true;
     $('mood-close').addEventListener('click', closeMood);
@@ -1317,6 +1504,7 @@
       });
       pills('g-radius', RADII, gacha.radius, function (id) { gacha.radius = id; store.set('meshi.gRadius', id); });
       buildGenrePills();
+      renderStamps();   // ジャンルの一覧がそろったので描き直す
       pills('g-count', [{ id: 'one', label: '1軒' }, { id: 'three', label: '3連（3軒から選ぶ）' }],
         gacha.multi ? 'three' : 'one', function (id) {
           gacha.multi = id === 'three';
@@ -1511,6 +1699,65 @@
   }
   // ガチャのページ
   if ($('gacha')) buildGacha();
+  // 投票のページ
+  if ($('vote')) buildVote();
+
+  function buildVote() {
+    var data = null;
+    try {
+      var m = /[#&]d=([^&]+)/.exec(location.hash);
+      data = m ? JSON.parse(b64urlDecode(m[1])) : null;
+    } catch (e) { data = null; }
+    var list = $('vote-list');
+    if (!Array.isArray(data) || !data.length) {
+      $('vote-status').textContent = '投票のリンクが読み取れませんでした。送ってくれた人にもう一度リンクを送ってもらってください。';
+      return;
+    }
+    var key = 'meshi.voted.' + location.hash.slice(0, 80);
+    var voted = store.get(key, null);
+    data.slice(0, 3).forEach(function (x, i) {
+      var card = el('article', 'vote-card');
+      card.style.setProperty('--i', i);
+      var th = el('span', 'vote-thumb');
+      if (x.p && /^https?:/.test(x.p)) {
+        var img = document.createElement('img');
+        img.src = x.p; img.alt = ''; img.referrerPolicy = 'no-referrer';
+        img.addEventListener('error', function () { img.remove(); });
+        th.appendChild(img);
+      }
+      th.appendChild(el('span', 'vote-num', NUMS[i]));
+      card.appendChild(th);
+      var body = el('div', 'vote-body');
+      body.appendChild(el('span', 'vote-genre', x.g || ''));
+      body.appendChild(el('p', 'vote-name', x.n || ''));
+      var meta = [x.a, x.b].filter(Boolean).join(' ・ ');
+      if (meta) body.appendChild(el('p', 'vote-meta', meta));
+      var links = el('div', 'vote-links');
+      [[x.u, '詳しく見る'], [x.m, 'Googleで口コミ']].forEach(function (l) {
+        if (!l[0] || !/^https?:/.test(l[0])) return;
+        var a = el('a', 'vote-link', l[1]);
+        a.href = l[0]; a.target = '_blank'; a.rel = 'noopener';
+        links.appendChild(a);
+      });
+      body.appendChild(links);
+      var btn = el('a', 'vote-btn' + (voted === i ? ' done' : ''), voted === i ? NUMS[i] + 'に投票しました' : NUMS[i] + 'に1票！（LINEで送る）');
+      var text = '【飯ガチャ投票】' + NUMS[i] + '「' + x.n + '」に1票！\n' + location.href;
+      btn.href = 'https://line.me/R/share?text=' + encodeURIComponent(text);
+      btn.target = '_blank';
+      btn.rel = 'noopener';
+      btn.addEventListener('click', function () {
+        store.set(key, i);
+        document.querySelectorAll('.vote-btn').forEach(function (o, j) {
+          o.classList.toggle('done', j === i);
+          o.textContent = j === i ? NUMS[j] + 'に投票しました' : NUMS[j] + 'に1票！（LINEで送る）';
+        });
+      });
+      body.appendChild(btn);
+      card.appendChild(body);
+      list.appendChild(card);
+    });
+    $('vote-status').textContent = voted != null ? 'あなたは' + NUMS[voted] + 'に投票済みです（選び直しもできます）' : '';
+  }
 
   // ---------- ホーム画面アプリ ----------
   function showOffline(on) {

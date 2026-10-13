@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>飯ガチャ投票｜飯飯食堂</title>
+<meta name="description" content="飯ガチャで出た3軒から、行きたいお店に投票しよう">
+<meta name="theme-color" content="#2B2118">
+<meta property="og:title" content="飯ガチャ投票｜どこに行きたい？">
+<meta property="og:description" content="飯ガチャで出た3軒から、行きたいお店に1票！">
+<meta property="og:type" content="website">
+<link rel="icon" href="assets/icon.svg" type="image/svg+xml">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="飯飯食堂">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Zen+Maru+Gothic:wght@500;700;900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body class="gacha-page">
+<header class="mini-header">
+  <div class="wrap mini-inner">
+    <a class="mini-logo" href="./">飯飯食堂</a>
+    <nav class="mini-nav" aria-label="サイト">
+      <a href="gacha.html">飯ガチャ</a>
+    </nav>
+  </div>
+</header>
+
+<main class="wrap main">
+  <section class="vote" id="vote" aria-labelledby="vote-heading">
+    <p class="vote-kicker">飯ガチャ投票</p>
+    <h1 class="vote-heading" id="vote-heading">どこに行きたい？</h1>
+    <p class="vote-lead2">飯ガチャで出た3軒から、行きたいお店を1つ選んでね。ボタンを押すとLINEが開くので、グループに送って投票してください。</p>
+    <p class="vote-status" id="vote-status"></p>
+    <div class="vote-list" id="vote-list"></div>
+    <a class="vote-self" href="gacha.html">自分も飯ガチャを回してみる →</a>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <p>お店の情報はホットペッパーグルメ Webサービス、© OpenStreetMap contributors、各ニュースサイトのものです。最新の営業時間などは各お店のページでご確認ください。</p>
+    <p>© 飯飯食堂</p>
+  </div>
+</footer>
+
+<script src="assets/config.js"></script>
+<script src="assets/app.js"></script>
+</body>
+</html>

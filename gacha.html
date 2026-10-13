@@ -27,6 +27,7 @@
     <a class="mini-logo" href="./">飯飯食堂</a>
     <nav class="mini-nav" aria-label="サイト">
       <a href="./">記事一覧</a>
+      <a href="#stamps">スタンプ帳</a>
       <a href="./#saved">行きたい</a>
     </nav>
   </div>
@@ -89,6 +90,20 @@
     </p>
   </section>
 
+  <section class="stamps" id="stamps" aria-labelledby="stamps-heading">
+    <div class="stamps-head">
+      <h2 id="stamps-heading">スタンプ帳</h2>
+      <p class="stamps-summary" id="stamp-summary"></p>
+    </div>
+    <p class="stamps-lead">ガチャで出たお店に行ったら「ここに行った！」を押そう。ジャンルごとにスタンプがたまっていきます。</p>
+    <div class="stamp-grid" id="stamp-grid"></div>
+    <details class="stamp-details">
+      <summary>行ったお店の一覧</summary>
+      <p class="gh-empty" id="stamp-empty">まだ記録はありません。</p>
+      <ol class="sl-list" id="stamp-list"></ol>
+    </details>
+  </section>
+
   <section class="g-history" id="g-history" aria-labelledby="g-history-heading">
     <div class="gh-head">
       <h2 id="g-history-heading">ガチャ履歴</h2>
@@ -107,6 +122,8 @@
     <p>© 飯飯食堂</p>
   </div>
 </footer>
+
+<div class="toast" id="g-toast" role="status" aria-live="polite" hidden></div>
 
 <div class="mood-overlay" id="mood" hidden>
   <div class="mood-card" role="dialog" aria-modal="true" aria-labelledby="mood-title">

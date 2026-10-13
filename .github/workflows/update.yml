@@ -64,9 +64,9 @@ jobs:
       - name: ファイルに版番号をつける
         run: |
           V="${GITHUB_SHA::7}-${GITHUB_RUN_NUMBER}"
-          sed -i -E "s#(assets/(app\.js|style\.css|config\.js))\"#\1?v=${V}\"#g" index.html gacha.html
+          sed -i -E "s#(assets/(app\.js|style\.css|config\.js))\"#\1?v=${V}\"#g" index.html gacha.html vote.html
           sed -i "s/__BUILD__/${V}/" sw.js
-          grep -o 'assets/[a-z]*\.[a-z]*?v=[^"]*' index.html gacha.html
+          grep -o 'assets/[a-z]*\.[a-z]*?v=[^"]*' index.html gacha.html vote.html
 
       - uses: actions/configure-pages@v5
 

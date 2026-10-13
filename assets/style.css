@@ -758,3 +758,144 @@ body.no-scroll { overflow: hidden; }
 .g-map-icon { display: inline-flex; width: 18px; height: 18px; }
 .g-map-icon svg { width: 100%; height: 100%; fill: currentColor; }
 .g-credit a { color: rgba(255, 253, 247, 0.85); text-decoration: underline; }
+
+/* ===== 「行った！」とスタンプ帳 ===== */
+.visit-btn {
+  position: relative; display: inline-flex; align-items: center; justify-content: center; gap: 8px;
+  font-family: inherit; font-weight: 900; cursor: pointer; color: var(--ink);
+  background: #fff; border: 2px solid var(--ink); border-radius: 999px;
+}
+.visit-btn.big { width: 100%; min-height: 52px; font-size: 16px; box-shadow: 3px 3px 0 rgba(0, 0, 0, .35); }
+.visit-btn.small { flex: none; align-self: center; min-height: 36px; padding: 0 12px 0 6px; font-size: 12px; margin-right: 8px; }
+.visit-stamp {
+  display: inline-flex; align-items: center; justify-content: center; width: 30px; height: 30px; border-radius: 50%;
+  border: 2px dashed rgba(43, 33, 24, .35); color: transparent; font-size: 14px; font-weight: 900;
+}
+.visit-btn.small .visit-stamp { width: 24px; height: 24px; font-size: 11px; }
+.visit-btn[aria-pressed="true"] { background: #FFF1EC; border-color: #B42318; color: #B42318; }
+.visit-btn[aria-pressed="true"] .visit-stamp {
+  border: 2px solid #B42318; color: #B42318; transform: rotate(-12deg);
+  background: radial-gradient(circle, #fff 55%, rgba(180, 35, 24, .08) 56%);
+}
+.visit-btn.pon .visit-stamp { animation: pon .45s cubic-bezier(.3, 1.8, .5, 1); }
+@keyframes pon { 0% { transform: scale(2.2) rotate(-30deg); opacity: 0; } 60% { opacity: 1; } 100% { transform: scale(1) rotate(-12deg); } }
+.gh-item { display: flex; align-items: center; }
+.gh-item .gh-link { flex: 1; min-width: 0; }
+
+.stamps {
+  background: #FFF6E3; border: 2px solid var(--ink); border-radius: 22px; padding: 18px 16px 16px;
+  display: flex; flex-direction: column; gap: 12px; box-shadow: 4px 4px 0 rgba(43, 33, 24, .2);
+}
+.stamps-head { display: flex; flex-wrap: wrap; align-items: baseline; justify-content: space-between; gap: 4px 12px; }
+.stamps-head h2 { margin: 0; font-size: 24px; font-weight: 900; }
+.stamps-summary { margin: 0; font-size: 13px; font-weight: 700; color: #B42318; }
+.stamps-lead { margin: 0; font-size: 13px; line-height: 1.7; color: var(--sub); }
+.stamp-grid { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 10px; }
+@media (min-width: 640px) { .stamp-grid { grid-template-columns: repeat(7, minmax(0, 1fr)); } }
+.stamp { display: flex; justify-content: center; }
+.stamp-ring {
+  width: 100%; max-width: 86px; aspect-ratio: 1; border-radius: 50%;
+  display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 2px; text-align: center;
+  border: 2px dashed rgba(43, 33, 24, .25); color: rgba(43, 33, 24, .4); padding: 4px;
+}
+.stamp-name { font-size: 11px; font-weight: 900; line-height: 1.2; word-break: keep-all; overflow-wrap: anywhere; }
+.stamp-count { font-size: 12px; font-weight: 900; }
+.stamp.on .stamp-ring {
+  border: 3px solid var(--c); color: var(--c); transform: rotate(var(--r));
+  background: radial-gradient(circle, #fff 58%, color-mix(in srgb, var(--c) 10%, #fff) 60%);
+  box-shadow: inset 0 0 0 2px #fff, inset 0 0 0 4px color-mix(in srgb, var(--c) 60%, #fff);
+}
+.stamp-details summary { cursor: pointer; font-size: 14px; font-weight: 900; padding: 6px 0; }
+.sl-list { list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; gap: 6px; }
+.sl-item { display: flex; align-items: center; gap: 6px; background: #fff; border: 1.5px solid rgba(43, 33, 24, .2); border-radius: 12px; }
+.sl-link { flex: 1; min-width: 0; display: grid; grid-template-columns: 12px minmax(0, 1fr); gap: 2px 10px; padding: 10px 12px; color: var(--ink); }
+.sl-dot { grid-row: 1 / span 2; align-self: center; width: 12px; height: 12px; border-radius: 50%; }
+.sl-name { font-size: 15px; font-weight: 900; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.sl-meta { font-size: 11px; color: var(--muted); }
+.sl-del { flex: none; width: 40px; height: 40px; border: 0; background: transparent; color: var(--muted); font-size: 18px; cursor: pointer; }
+
+/* ===== レア演出 ===== */
+.drop.gold .cap-top { background: linear-gradient(135deg, #FFF3B0 0%, #FFD24A 35%, #E0A800 70%, #FFF3B0 100%); }
+.drop.gold .cap-bottom { background: linear-gradient(135deg, #fff 0%, #FFF6D6 100%); }
+.machine.rare .drop.gold { filter: drop-shadow(0 0 10px #FFD24A); }
+.machine.rare::before {
+  content: ""; position: absolute; left: 50%; top: 52%; width: 420px; height: 420px; margin: -210px 0 0 -210px; z-index: -1;
+  background: repeating-conic-gradient(rgba(255, 210, 74, .55) 0 10deg, transparent 10deg 20deg);
+  border-radius: 50%; -webkit-mask-image: radial-gradient(circle, #000 30%, transparent 70%); mask-image: radial-gradient(circle, #000 30%, transparent 70%);
+  opacity: 0; transition: opacity .4s;
+}
+.machine.rare.dropping::before { opacity: 1; animation: rays 3s linear infinite; }
+@keyframes rays { to { transform: rotate(360deg); } }
+.machine.rare.spinning .dome { animation: rare-shake .12s linear 8; }
+@keyframes rare-shake { 25% { transform: translateX(-3px) rotate(-2deg); } 75% { transform: translateX(3px) rotate(2deg); } }
+.machine.rare-flash::after {
+  content: "レア確定！"; position: absolute; left: 50%; top: 40%; z-index: 5; white-space: nowrap;
+  padding: 8px 16px; border-radius: 12px; border: 3px solid var(--ink);
+  background: linear-gradient(135deg, #FFF3B0, #FFD24A 50%, #E0A800); color: var(--ink);
+  font-size: 22px; font-weight: 900; letter-spacing: .08em; box-shadow: 0 0 24px rgba(255, 210, 74, .9);
+  animation: rare-pop .5s cubic-bezier(.3, 1.8, .5, 1) both;
+}
+@keyframes rare-pop { from { transform: translate(-50%, -50%) scale(0) rotate(-15deg); } to { transform: translate(-50%, -50%) scale(1) rotate(-6deg); } }
+.rare-ribbon {
+  display: inline-block; margin-right: 8px; padding: 3px 10px; border-radius: 6px;
+  background: linear-gradient(135deg, #FFF3B0, #FFD24A 50%, #E0A800); color: var(--ink); font-size: 14px; font-weight: 900;
+  border: 2px solid var(--ink); transform: rotate(-4deg);
+}
+.g-card.rare { border-color: #E0A800; box-shadow: 0 0 0 3px #FFD24A, 0 0 24px rgba(255, 210, 74, .6); }
+.g-trio-card.rare { position: relative; border-color: #E0A800; box-shadow: 0 0 0 3px #FFD24A, 3px 3px 0 rgba(0, 0, 0, .35); }
+.trio-rare {
+  position: absolute; right: 10px; top: -10px; padding: 2px 8px; border-radius: 6px; font-size: 11px; font-weight: 900;
+  background: linear-gradient(135deg, #FFF3B0, #FFD24A 50%, #E0A800); border: 2px solid var(--ink); color: var(--ink);
+}
+
+/* ===== みんなで投票 ===== */
+.vote-box {
+  display: flex; flex-wrap: wrap; align-items: center; justify-content: center; gap: 8px;
+  padding: 14px; border-radius: 16px; border: 2px dashed rgba(255, 253, 247, .5);
+}
+.vote-lead { width: 100%; margin: 0 0 2px; text-align: center; font-size: 13px; font-weight: 900; color: var(--yellow); }
+.vote-line {
+  display: inline-flex; align-items: center; min-height: 46px; padding: 0 20px; border-radius: 999px;
+  background: #06C755; color: #fff; font-size: 15px; font-weight: 900;
+}
+.vote-line:hover { color: #fff; filter: brightness(1.05); }
+.vote-more {
+  min-height: 46px; padding: 0 16px; border-radius: 999px; cursor: pointer;
+  background: transparent; color: var(--ground); border: 2px solid var(--ground); font-family: inherit; font-size: 13px; font-weight: 900;
+}
+
+.vote { display: flex; flex-direction: column; gap: 12px; }
+.vote-kicker { margin: 0; font-size: 13px; font-weight: 900; color: #B42318; letter-spacing: .1em; }
+.vote-heading { margin: 0; font-size: 36px; font-weight: 900; letter-spacing: .04em; }
+.vote-lead2 { margin: 0; font-size: 14px; line-height: 1.8; color: var(--sub); }
+.vote-status { margin: 0; font-size: 14px; font-weight: 700; color: #B42318; }
+.vote-status:empty { display: none; }
+.vote-list { display: flex; flex-direction: column; gap: 14px; }
+.vote-card {
+  display: grid; grid-template-columns: 96px minmax(0, 1fr); gap: 12px; padding: 12px;
+  background: #fff; border: 2px solid var(--ink); border-radius: 18px; box-shadow: 4px 4px 0 var(--ink);
+  animation: trio-in .45s cubic-bezier(.3, 1.5, .5, 1) both; animation-delay: calc(var(--i, 0) * 120ms);
+}
+.vote-thumb { position: relative; width: 96px; height: 96px; border-radius: 14px; overflow: hidden; background: var(--photo); border: 2px solid var(--ink); }
+.vote-thumb img { width: 100%; height: 100%; object-fit: cover; display: block; }
+.vote-num { position: absolute; left: 4px; top: 2px; font-size: 26px; font-weight: 900; color: var(--ink); text-shadow: 0 0 4px #fff, 0 0 4px #fff; }
+.vote-body { display: flex; flex-direction: column; gap: 6px; min-width: 0; }
+.vote-genre { align-self: flex-start; font-size: 11px; font-weight: 900; padding: 2px 9px; border-radius: 999px; background: var(--ink); color: var(--yellow); }
+.vote-name { margin: 0; font-size: 18px; font-weight: 900; line-height: 1.35; }
+.vote-meta { margin: 0; font-size: 12px; color: var(--muted); }
+.vote-links { display: flex; flex-wrap: wrap; gap: 4px 14px; font-size: 13px; font-weight: 700; }
+.vote-link { text-decoration: underline; text-underline-offset: 3px; }
+.vote-btn {
+  display: inline-flex; align-items: center; justify-content: center; min-height: 46px; margin-top: 4px; padding: 0 14px;
+  border-radius: 999px; background: #06C755; color: #fff; font-size: 14px; font-weight: 900; text-align: center;
+}
+.vote-btn:hover { color: #fff; filter: brightness(1.05); }
+.vote-btn.done { background: #fff; color: #058A3C; border: 2px solid #06C755; }
+.vote-self { align-self: center; padding: 12px; font-weight: 900; }
+@media (max-width: 420px) {
+  .vote-card { grid-template-columns: 76px minmax(0, 1fr); }
+  .vote-thumb { width: 76px; height: 76px; }
+  .vote-heading { font-size: 30px; }
+}
+.gacha-stage { overflow: hidden; }
+.machine.rare { isolation: isolate; }
