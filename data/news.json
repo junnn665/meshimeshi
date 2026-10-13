@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-13T14:21:43+09:00",
+ "updated": "2026-10-13T15:28:06+09:00",
  "items": [
   {
    "id": "73f2c5cbd4dc6851",
@@ -13,6 +13,22 @@
    "provider": "google",
    "added": "2026-10-13T14:07:46+09:00",
    "decode_v2": true,
+   "image_checked": true,
+   "image_v4": true,
+   "shop": false,
+   "shop_name": null
+  },
+  {
+   "id": "630fb0a8a0f465d5",
+   "title": "43期目も「すしに真っすぐ！」スシローの原点、鮪の王様“本鮪”の中とろが税込110円～！さらに、一皿で二度おいしい食べ比べ商品も登場",
+   "link": "https://prtimes.jp/main/html/rd/p/000000849.000049164.html",
+   "source": "PR TIMES",
+   "image": "https://prcdn.freetls.fastly.net/release_image/49164/849/49164-849-d2de55e6b52d26acc9c461d984e3ef14-1772x1063.jpg?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260",
+   "category": "chain",
+   "area": "全国",
+   "published": "2026-10-13T13:00:00+09:00",
+   "provider": "prtimes",
+   "added": "2026-10-13T15:28:06+09:00",
    "image_checked": true,
    "image_v4": true,
    "shop": false,
