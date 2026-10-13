@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-13T19:22:46+09:00",
+ "updated": "2026-10-13T19:45:32+09:00",
  "items": [
   {
    "id": "015fb4b48220c612",
@@ -1804,6 +1804,23 @@
    "published": "2026-10-08T16:00:00+09:00",
    "provider": "google",
    "added": "2026-10-11T19:18:40+09:00",
+   "decode_v2": true,
+   "image_checked": true,
+   "image_v4": true,
+   "shop": false,
+   "shop_name": null
+  },
+  {
+   "id": "9e2b8d5e0dfca10e",
+   "title": "札幌で誕生した生ドーナツの人気店「MILK DO dore iku？」が名古屋にオープン！新感覚ドーナツを味わおう",
+   "link": "https://www.walkerplus.com/article/1202048/",
+   "source": "ウォーカープラス",
+   "image": "https://news.walkerplus.com/article/1202048/13161990_615.jpg",
+   "category": "shinten",
+   "area": "名古屋",
+   "published": "2026-10-08T16:00:00+09:00",
+   "provider": "google",
+   "added": "2026-10-13T19:45:32+09:00",
    "decode_v2": true,
    "image_checked": true,
    "image_v4": true,
