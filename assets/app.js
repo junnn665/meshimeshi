@@ -538,7 +538,7 @@
     [/thai|indian|nepal|vietnamese|asian|indonesian|turkish|mexican|curry_house/, 'エスニック'],
     [/coffee|cafe|cake|dessert|crepe|pancake|bakery|tea|ice_cream|donut/, 'カフェ'],
     [/sushi|japanese|udon|soba|noodle|tempura|tonkatsu|donburi|teishoku|kaiseki|unagi|yakitori|oden|onigiri|katsu|shabu|sukiyaki/, '和食'],
-    [/burger|steak|western|american|hamburg|omurice|curry|fried_chicken|sandwich|diner/, '洋食']
+    [/burger|steak|western|american|hamburg|omurice|curry|chicken|sandwich|diner|grill|hot_dog|fish_and_chips|bistro/, '洋食']
   ];
   function osmGenre(tags) {
     var c = (tags.cuisine || '').toLowerCase();
@@ -550,7 +550,11 @@
     if (/寿司|鮨|すし|うどん|そば|蕎麦|定食|食堂|天ぷら|とんかつ|丼/.test(n)) return '和食';
     if (/焼肉|ホルモン/.test(n)) return '焼肉';
     if (/居酒屋|酒場/.test(n)) return '居酒屋';
-    if (/カフェ|珈琲|コーヒー|喫茶/.test(n)) return 'カフェ';
+    if (/カフェ|珈琲|コーヒー|喫茶|ベーカリー|パン/.test(n)) return 'カフェ';
+    if (/ダイナー|バーガー|グリル|ステーキ|洋食|ハンバーグ|オムライス|チキン/.test(n)) return '洋食';
+    if (/中華|餃子|飯店/.test(n)) return '中華';
+    if (/カレー|インド|タイ料理|ベトナム/.test(n)) return 'エスニック';
+    if (/ピザ|パスタ|イタリア|トラットリア|ビストロ/.test(n)) return 'イタリアン';
     return 'その他';
   }
   // OSM の営業時間（例 "Mo-Fr 11:00-14:00,17:00-22:00; Sa,Su 11:00-21:00"）→ 曜日ごとの時間帯
@@ -773,7 +777,8 @@
           ? '近くにこの条件のお店が見つかりませんでした。距離を広げるか条件を変えてみてください。'
           : 'この条件のお店が見つかりませんでした。条件を変えてみてください。';
       } else {
-        msg = 'お店 ' + n + ' 軒' + (k ? '＋話題枠 ' + k + ' 軒' : '') + 'から1軒選びます';
+        msg = 'お店 ' + n + ' 軒' + (k ? '＋話題枠 ' + k + ' 軒' : '') + 'から' +
+          (gacha.multi ? Math.min(3, n + k) + '軒' : '1軒') + '選びます';
         if (gacha.area === 'near') msg = '現在地から' + (RADII.filter(function (r) { return r.id === gacha.radius; })[0].label) + '以内の' + msg;
       }
       $('g-pool').textContent = msg;
