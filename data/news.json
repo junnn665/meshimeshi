@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-13T21:28:09+09:00",
+ "updated": "2026-10-13T22:27:39+09:00",
  "items": [
   {
    "id": "6ad6dfa10e1404ad",
@@ -68,6 +68,23 @@
    "image_v4": true,
    "shop": true,
    "shop_name": "ガパオライス"
+  },
+  {
+   "id": "6de06149daa11273",
+   "title": "【藤枝初上陸】全国200店舗展開 行列ができる居酒屋『新時代』が静岡・藤枝に2026年10月29日(木)グランドオープン",
+   "link": "https://prtimes.jp/main/html/rd/p/000000278.000070373.html",
+   "source": "PR TIMES",
+   "image": "https://prcdn.freetls.fastly.net/release_image/70373/278/70373-278-ecc53691b2c9cf682577eee01f294f20-2160x2700.jpg?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260",
+   "category": "shinten",
+   "area": "静岡",
+   "published": "2026-10-13T17:46:31+09:00",
+   "provider": "google",
+   "added": "2026-10-13T22:27:39+09:00",
+   "decode_v2": true,
+   "image_checked": true,
+   "image_v4": true,
+   "shop": false,
+   "shop_name": null
   },
   {
    "id": "bf87da546d19c4c0",
