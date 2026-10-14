@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-14T19:32:51+09:00",
+ "updated": "2026-10-14T20:31:58+09:00",
  "items": [
   {
    "id": "36699449480fa740",
@@ -436,6 +436,23 @@
    "shop_name": null
   },
   {
+   "id": "191b58a9b23669fb",
+   "title": "地元に愛される●●丼とは！？ 1枚の写真をたよりに老舗人気グルメを探せ！ 愛知・犬山市 前編【AmBitiousの このマチおじゃまシャス！】",
+   "link": "https://locipo.jp/creative/d8d186a5-d8a0-466f-90ae-6778853f929b",
+   "source": "Locipo(ロキポ)",
+   "image": "https://assets.locipo.jp/creatives/180881/original-d8d186a5-d8a0-466f-90ae-6778853f929b-20261013025710.png",
+   "category": "wadai",
+   "area": "愛知",
+   "published": "2026-10-14T02:05:24+09:00",
+   "provider": "google",
+   "added": "2026-10-14T20:31:58+09:00",
+   "decode_v2": true,
+   "image_checked": true,
+   "image_v4": true,
+   "shop": false,
+   "shop_name": null
+  },
+  {
    "id": "4892b30a12c5a08f",
    "title": "ピアノ・ヴァイオリンなどの生演奏で彩る「クリスマスディナー2026」名古屋駅すぐのクルヴェットダイニングにて予約受付スタート【ブラス】",
    "link": "https://crea.bunshun.jp/ud/pressrelease/6acf3a357079c86991000004",
@@ -647,6 +664,23 @@
    "published": "2026-10-13T16:00:00+09:00",
    "provider": "google",
    "added": "2026-10-13T19:22:46+09:00",
+   "decode_v2": true,
+   "image_checked": true,
+   "image_v4": true,
+   "shop": false,
+   "shop_name": null
+  },
+  {
+   "id": "ab5ddc329e4edae0",
+   "title": "今週新発売のスイーツ",
+   "link": "http://www.excite.co.jp/news/article/Mognavi_2026101307/",
+   "source": "Excite エキサイト",
+   "image": null,
+   "category": "chain",
+   "area": "東海",
+   "published": "2026-10-13T16:00:00+09:00",
+   "provider": "google",
+   "added": "2026-10-14T20:31:58+09:00",
    "decode_v2": true,
    "image_checked": true,
    "image_v4": true,
@@ -2021,6 +2055,23 @@
    "image_v4": true,
    "shop": false,
    "shop_name": null
+  },
+  {
+   "id": "acdfeca7bba63e10",
+   "title": "地域のじーちゃんばーちゃんがおむすび屋になる！？名古屋に「街仲食堂」をつくる！",
+   "link": "https://camp-fire.jp/projects/980659/view",
+   "source": "CAMPFIRE (キャンプファイヤー)",
+   "image": "https://static.camp-fire.jp/uploads/project_version/image/1664488/fa7a628e-9342-4bb3-98d1-11c9f6e12b3d.png?auto=format&fit=fill&ref=projects_overview&w=1200&h=675&fill=blur",
+   "category": "shinten",
+   "area": "名古屋",
+   "published": "2026-10-09T16:00:00+09:00",
+   "provider": "google",
+   "added": "2026-10-14T20:31:58+09:00",
+   "decode_v2": true,
+   "image_checked": true,
+   "image_v4": true,
+   "shop": true,
+   "shop_name": "街仲食堂"
   },
   {
    "id": "6bb6f137cd460c2a",
