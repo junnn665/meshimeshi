@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-15T04:34:07+09:00",
+ "updated": "2026-10-15T05:29:58+09:00",
  "items": [
   {
    "id": "90c4f01e58149d83",
@@ -12,6 +12,23 @@
    "published": "2026-10-14T23:40:02+09:00",
    "provider": "prtimes",
    "added": "2026-10-15T00:36:05+09:00",
+   "image_checked": true,
+   "image_v4": true,
+   "shop": false,
+   "shop_name": null
+  },
+  {
+   "id": "3388ac732575b91d",
+   "title": "スガキヤ×二郎系に今年は”汁なし”が仲間入り！「スガジロー2026」が2026年10月22日（木）よりスガキヤ各店にて発売開始 スープも麺もさらにパワーアップ【名古屋発】",
+   "link": "https://nagoyato.com/posts/20048",
+   "source": "ナゴヤトコトン",
+   "image": "https://nagoyato.com/wp-content/uploads/2026/10/sub3.jpg",
+   "category": "chain",
+   "area": "名古屋",
+   "published": "2026-10-14T22:44:06+09:00",
+   "provider": "google",
+   "added": "2026-10-15T05:29:58+09:00",
+   "decode_v2": true,
    "image_checked": true,
    "image_v4": true,
    "shop": false,
