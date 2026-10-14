@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-14T14:30:10+09:00",
+ "updated": "2026-10-14T15:37:21+09:00",
  "items": [
   {
    "id": "e2fd6e7aab2ce24e",
@@ -12,6 +12,22 @@
    "published": "2026-10-14T13:40:45+09:00",
    "provider": "prtimes",
    "added": "2026-10-14T14:30:10+09:00",
+   "image_checked": true,
+   "image_v4": true,
+   "shop": false,
+   "shop_name": null
+  },
+  {
+   "id": "4534f29a948c8c43",
+   "title": "大晦日の夜空を彩る約250発の花火と、年末年始限定「ローストビーフ寿司」などの特別ビュッフェを提供【グランドメルキュール伊勢志摩リゾート＆スパ】",
+   "link": "https://prtimes.jp/main/html/rd/p/000001108.000052177.html",
+   "source": "PR TIMES",
+   "image": "https://prcdn.freetls.fastly.net/release_image/52177/1108/52177-1108-5f8cc6638dd685d761430f2a476563c8-3900x2600.jpg?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260",
+   "category": "chain",
+   "area": "三重",
+   "published": "2026-10-14T13:00:00+09:00",
+   "provider": "prtimes",
+   "added": "2026-10-14T15:37:21+09:00",
    "image_checked": true,
    "image_v4": true,
    "shop": false,
