@@ -1,6 +1,23 @@
 {
- "updated": "2026-10-14T12:30:04+09:00",
+ "updated": "2026-10-14T13:32:47+09:00",
  "items": [
+  {
+   "id": "975be90c9966c0da",
+   "title": "大得！東海３県ローカルスーパー▽魚介詰合せ１００円＆ステーキ半額",
+   "link": "https://tver.jp/episodes/eplf13g0ss",
+   "source": "TVer",
+   "image": null,
+   "category": "wadai",
+   "area": "東海",
+   "published": "2026-10-14T12:21:06+09:00",
+   "provider": "google",
+   "added": "2026-10-14T13:32:47+09:00",
+   "decode_v2": true,
+   "image_checked": true,
+   "image_v4": true,
+   "shop": false,
+   "shop_name": null
+  },
   {
    "id": "746c272217020b3e",
    "title": "【2026年10月第3週】コンビニサンドイッチ・コンビニパンの新商品！照焼チキンとたまごサンドやバタースコッチなどまとめ",
@@ -13,6 +30,22 @@
    "provider": "google",
    "added": "2026-10-14T11:28:55+09:00",
    "decode_v2": true,
+   "image_checked": true,
+   "image_v4": true,
+   "shop": false,
+   "shop_name": null
+  },
+  {
+   "id": "e5eb5751215cf9ea",
+   "title": "「ほっともっと」王道の美味しさ！牛肉と野菜の旨味を堪能できる『牛すき焼き弁当』『牛すき重』『倍盛牛すき焼き弁当(肉2倍)』新発売",
+   "link": "https://prtimes.jp/main/html/rd/p/000001685.000054093.html",
+   "source": "PR TIMES",
+   "image": "https://prcdn.freetls.fastly.net/release_image/54093/1685/54093-1685-1c0cd6fbdb553514018b3b5c15c58206-1080x1440.png?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260",
+   "category": "deka",
+   "area": "全国",
+   "published": "2026-10-14T11:00:00+09:00",
+   "provider": "prtimes",
+   "added": "2026-10-14T13:32:47+09:00",
    "image_checked": true,
    "image_v4": true,
    "shop": false,

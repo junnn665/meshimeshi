@@ -1,9 +1,11 @@
 {
- "updated": "2026-10-14T12:30:04+09:00",
- "items": 303,
- "with_image": 281,
- "google_decode_ok": 0,
+ "updated": "2026-10-14T13:32:47+09:00",
+ "items": 305,
+ "with_image": 282,
+ "google_decode_ok": 1,
  "google_decode_failed": 0,
  "google_decode_samples": [],
- "image_failures": []
+ "image_failures": [
+  "tver.jp: og:image なし (2448 文字)"
+ ]
 }
