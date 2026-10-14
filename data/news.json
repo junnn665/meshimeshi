@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-15T07:28:58+09:00",
+ "updated": "2026-10-15T08:27:21+09:00",
  "items": [
   {
    "id": "90c4f01e58149d83",
@@ -246,6 +246,22 @@
    "provider": "google",
    "added": "2026-10-14T13:32:47+09:00",
    "decode_v2": true,
+   "image_checked": true,
+   "image_v4": true,
+   "shop": false,
+   "shop_name": null
+  },
+  {
+   "id": "362aa96095e5737d",
+   "title": "名古屋めしと広島名物が合体！和食麺処サガミにて「広島県産大粒 ...",
+   "link": "https://nagoyato.com/posts/20017",
+   "source": "nagoyato",
+   "image": "http://www.bing.com/th?id=ONUT.eXuRUNdHTbVtQmMKF6RmDw&pid=News",
+   "category": "chain",
+   "area": "名古屋",
+   "published": "2026-10-14T12:00:00+09:00",
+   "provider": "bing",
+   "added": "2026-10-15T08:27:21+09:00",
    "image_checked": true,
    "image_v4": true,
    "shop": false,
