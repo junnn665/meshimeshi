@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-15T01:33:52+09:00",
+ "updated": "2026-10-15T02:32:07+09:00",
  "items": [
   {
    "id": "90c4f01e58149d83",
@@ -781,6 +781,23 @@
    "published": "2026-10-13T14:00:02+09:00",
    "provider": "google",
    "added": "2026-10-13T14:07:46+09:00",
+   "decode_v2": true,
+   "image_checked": true,
+   "image_v4": true,
+   "shop": false,
+   "shop_name": null
+  },
+  {
+   "id": "00ee447468bf6341",
+   "title": "栗フェス in Nagoya 2026 来月開催！秋の味覚「栗」メニュー集結！ | 東海テレビ放送株式会社のプレスリリース",
+   "link": "https://prtimes.jp/main/html/rd/p/000000654.000012860.html",
+   "source": "PR TIMES",
+   "image": "https://prcdn.freetls.fastly.net/release_image/12860/654/12860-654-8fade98aad4a4f59964139ade1345cbe-1909x2700.jpg?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260",
+   "category": "wadai",
+   "area": "東海",
+   "published": "2026-10-13T13:00:01+09:00",
+   "provider": "google",
+   "added": "2026-10-15T02:32:07+09:00",
    "decode_v2": true,
    "image_checked": true,
    "image_v4": true,
