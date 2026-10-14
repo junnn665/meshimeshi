@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-15T00:36:05+09:00",
+ "updated": "2026-10-15T01:33:52+09:00",
  "items": [
   {
    "id": "90c4f01e58149d83",
@@ -12,6 +12,23 @@
    "published": "2026-10-14T23:40:02+09:00",
    "provider": "prtimes",
    "added": "2026-10-15T00:36:05+09:00",
+   "image_checked": true,
+   "image_v4": true,
+   "shop": false,
+   "shop_name": null
+  },
+  {
+   "id": "d3e9b30cd4ef35c9",
+   "title": "タニタカフェに秋限定メニュー「サワラの塩麹オーブン焼き～秋ナスのマリネとコク旨おろしたれ～」が登場！（Kae） - エキスパート",
+   "link": "https://news.yahoo.co.jp/expert/articles/42939244cc0c09198b8a0cc6458aed6b833db9ae",
+   "source": "Yahoo!ニュース",
+   "image": "https://newsatcl-pctr.c.yimg.jp/t/iwiz-yn/creators/kae/02741474/title-1791866527960.jpeg?exp=10800",
+   "category": "chain",
+   "area": "東海",
+   "published": "2026-10-14T20:01:20+09:00",
+   "provider": "google",
+   "added": "2026-10-15T01:33:52+09:00",
+   "decode_v2": true,
    "image_checked": true,
    "image_v4": true,
    "shop": false,
