@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-14T16:39:43+09:00",
+ "updated": "2026-10-14T17:34:09+09:00",
  "items": [
   {
    "id": "fd6304bd4712b50f",
@@ -64,6 +64,23 @@
    "image_v4": true,
    "shop": true,
    "shop_name": "焼肉スエヒロ館"
+  },
+  {
+   "id": "ab57e7165052eb6d",
+   "title": "【コスパ最高!!60分食べ放題♪】11/18迄！平日ランチは1,099円！バラエティー豊かな食べ放題『ニラックスブッフェ』で人気の45分コース『プチブッフェ』を60分に延長！食欲の秋は食べ放題を満喫！",
+   "link": "https://mantan-web.jp/prtimes/article/20261014prt00m200000132a.html",
+   "source": "MANTANWEB",
+   "image": "https://prtimes.jp/img/33462/1281/resize/d33462-1281-a8d9fe13c48dcf63ca17-8.jpg",
+   "category": "yasuuma",
+   "area": "東海",
+   "published": "2026-10-14T12:29:09+09:00",
+   "provider": "google",
+   "added": "2026-10-14T17:34:09+09:00",
+   "decode_v2": true,
+   "image_checked": true,
+   "image_v4": true,
+   "shop": false,
+   "shop_name": null
   },
   {
    "id": "975be90c9966c0da",
