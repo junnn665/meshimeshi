@@ -1,6 +1,40 @@
 {
- "updated": "2026-10-14T08:25:37+09:00",
+ "updated": "2026-10-14T09:38:58+09:00",
  "items": [
+  {
+   "id": "ba0034ab9ae33fd6",
+   "title": "【コメダ珈琲店】お好み焼きバーガー【数量限定・期間限定メニュー】",
+   "link": "https://foodfighter.jp/komeda-okonomiyaki-burger",
+   "source": "https://foodfighter.jp/",
+   "image": "https://foodfighter.jp/wp-content/uploads/2026/10/263926dfd02cd8f24d52405b376d06ed.jpg",
+   "category": "chain",
+   "area": "東海",
+   "published": "2026-10-14T08:52:36+09:00",
+   "provider": "google",
+   "added": "2026-10-14T09:38:58+09:00",
+   "decode_v2": true,
+   "image_checked": true,
+   "image_v4": true,
+   "shop": false,
+   "shop_name": null
+  },
+  {
+   "id": "0ddd29faf2f19b7b",
+   "title": "【究極の味変】名駅エリアで発見！花かつおを大量投入する絶品まぜそば",
+   "link": "https://news.livedoor.com/article/detail/32560193/",
+   "source": "ライブドアニュース",
+   "image": "https://image.news.livedoor.com/newsimage/stf/c/5/c5f7e_1845_e9b6b2dc_abf61a0d.jpg",
+   "category": "wadai",
+   "area": "名古屋",
+   "published": "2026-10-14T07:33:58+09:00",
+   "provider": "google",
+   "added": "2026-10-14T09:38:58+09:00",
+   "decode_v2": true,
+   "image_checked": true,
+   "image_v4": true,
+   "shop": true,
+   "shop_name": null
+  },
   {
    "id": "b3f17a0916027d1c",
    "title": "「こりゃ旨いな！！」名駅地下の老舗中華で味わうアツアツ絶品麻婆飯",
