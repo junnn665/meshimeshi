@@ -1,6 +1,40 @@
 {
- "updated": "2026-10-14T09:38:58+09:00",
+ "updated": "2026-10-14T10:31:37+09:00",
  "items": [
+  {
+   "id": "4d3cb3f5cddffa06",
+   "title": "【2026年10月第3週】コンビニおにぎり・コンビニ手巻寿司の新商品！サーモンの寿司や舞茸入り五目おこわなど秋の新作まとめ",
+   "link": "https://mognavi.jp/news/matome/gen-newProduct-28492/",
+   "source": "もぐナビ",
+   "image": null,
+   "category": "conbini",
+   "area": "東海",
+   "published": "2026-10-14T10:17:04+09:00",
+   "provider": "google",
+   "added": "2026-10-14T10:31:37+09:00",
+   "decode_v2": true,
+   "image_checked": true,
+   "image_v4": true,
+   "shop": false,
+   "shop_name": null
+  },
+  {
+   "id": "8f211d00a10bc349",
+   "title": "【和牛焼肉 NIKUGEN 赤坂店】1周年記念！アメリカングルメフェス“本祭”を10月16日(金)より開催",
+   "link": "https://prtimes.jp/main/html/rd/p/000001576.000044964.html",
+   "source": "PR TIMES",
+   "image": "https://prcdn.freetls.fastly.net/release_image/44964/1576/44964-1576-f8d01b6864db22714a955fadaf622c25-882x480.jpg?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260",
+   "category": "shinten",
+   "area": "東海",
+   "published": "2026-10-14T10:00:02+09:00",
+   "provider": "google",
+   "added": "2026-10-14T10:31:37+09:00",
+   "decode_v2": true,
+   "image_checked": true,
+   "image_v4": true,
+   "shop": false,
+   "shop_name": null
+  },
   {
    "id": "ba0034ab9ae33fd6",
    "title": "【コメダ珈琲店】お好み焼きバーガー【数量限定・期間限定メニュー】",

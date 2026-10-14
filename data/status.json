@@ -1,9 +1,11 @@
 {
- "updated": "2026-10-14T09:38:58+09:00",
- "items": 299,
- "with_image": 278,
+ "updated": "2026-10-14T10:31:37+09:00",
+ "items": 301,
+ "with_image": 279,
  "google_decode_ok": 2,
  "google_decode_failed": 0,
  "google_decode_samples": [],
- "image_failures": []
+ "image_failures": [
+  "mognavi.jp: HTTPError: HTTP Error 403: Forbidden"
+ ]
 }
