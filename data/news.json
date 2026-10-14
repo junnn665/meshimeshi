@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-14T20:31:58+09:00",
+ "updated": "2026-10-14T21:38:16+09:00",
  "items": [
   {
    "id": "36699449480fa740",
@@ -1157,6 +1157,23 @@
    "shop_name": null
   },
   {
+   "id": "61deeff969742506",
+   "title": "【東海限定】とんてき弁当",
+   "link": "https://entabe.jp/articleImages/detail/472889",
+   "source": "えん食べ [グルメニュース]",
+   "image": "https://image.entabe.jp/entabe1024.png",
+   "category": "chain",
+   "area": "東海",
+   "published": "2026-10-12T13:49:36+09:00",
+   "provider": "google",
+   "added": "2026-10-14T21:38:16+09:00",
+   "decode_v2": true,
+   "image_checked": true,
+   "image_v4": true,
+   "shop": false,
+   "shop_name": null
+  },
+  {
    "id": "1909411cd8667b65",
    "title": "ローソンの「エニマイくじ ホロライブ」に注目！大神ミオの鍋敷き＆ミトン、桃鈴ねねのスイーツボウルなど実用的なアイテムも",
    "link": "http://www.excite.co.jp/news/article/Inside_189135/",
@@ -1367,6 +1384,23 @@
    "published": "2026-10-11T19:00:01+09:00",
    "provider": "google",
    "added": "2026-10-11T19:18:40+09:00",
+   "decode_v2": true,
+   "image_checked": true,
+   "image_v4": true,
+   "shop": false,
+   "shop_name": null
+  },
+  {
+   "id": "34362a9535f7013b",
+   "title": "名古屋式モーニングが東京で大ブレイク中!?「コメダ珈琲」の魅力",
+   "link": "https://www.walkerplus.com/article/33106/",
+   "source": "ウォーカープラス",
+   "image": "https://news.walkerplus.com/article/33106/156995_615.jpg",
+   "category": "yasuuma",
+   "area": "名古屋",
+   "published": "2026-10-11T16:00:00+09:00",
+   "provider": "google",
+   "added": "2026-10-14T21:38:16+09:00",
    "decode_v2": true,
    "image_checked": true,
    "image_v4": true,
