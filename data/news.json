@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-14T22:36:59+09:00",
+ "updated": "2026-10-14T23:32:45+09:00",
  "items": [
   {
    "id": "36699449480fa740",
@@ -12,6 +12,23 @@
    "published": "2026-10-14T19:12:42+09:00",
    "provider": "google",
    "added": "2026-10-14T19:32:51+09:00",
+   "decode_v2": true,
+   "image_checked": true,
+   "image_v4": true,
+   "shop": false,
+   "shop_name": null
+  },
+  {
+   "id": "94b1ce8e0eaf3edf",
+   "title": "すし丸道後店、2026年お盆の限定メニュー販売1位はぶっかけ鯛めし膳",
+   "link": "https://news.dellows.jp/101735/?from=recommend_list",
+   "source": "Dellows News",
+   "image": "https://news.dellows.jp/wp-content/uploads/2026/09/101735_1.jpg",
+   "category": "chain",
+   "area": "東海",
+   "published": "2026-10-14T18:29:56+09:00",
+   "provider": "google",
+   "added": "2026-10-14T23:32:45+09:00",
    "decode_v2": true,
    "image_checked": true,
    "image_v4": true,
@@ -228,6 +245,22 @@
    "published": "2026-10-14T11:00:00+09:00",
    "provider": "prtimes",
    "added": "2026-10-14T14:30:10+09:00",
+   "image_checked": true,
+   "image_v4": true,
+   "shop": false,
+   "shop_name": null
+  },
+  {
+   "id": "5dd7205cad99295f",
+   "title": "【スガキヤ】昨年15万食完売！大好評「スガジローラーメン」が進化して復活！今年はよりがっつりの新商品油そばも登場し10月22日（木）より数量限定で発売",
+   "link": "https://prtimes.jp/main/html/rd/p/000000061.000097460.html",
+   "source": "PR TIMES",
+   "image": "https://prcdn.freetls.fastly.net/release_image/97460/61/97460-61-2da102b3a6db0996faa454ca6f28cb92-1684x2384.jpg?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260",
+   "category": "deka",
+   "area": "全国",
+   "published": "2026-10-14T11:00:00+09:00",
+   "provider": "prtimes",
+   "added": "2026-10-14T23:32:45+09:00",
    "image_checked": true,
    "image_v4": true,
    "shop": false,
