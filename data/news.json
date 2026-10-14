@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-14T11:28:55+09:00",
+ "updated": "2026-10-14T12:30:04+09:00",
  "items": [
   {
    "id": "746c272217020b3e",
@@ -47,6 +47,22 @@
    "provider": "google",
    "added": "2026-10-14T10:31:37+09:00",
    "decode_v2": true,
+   "image_checked": true,
+   "image_v4": true,
+   "shop": false,
+   "shop_name": null
+  },
+  {
+   "id": "fb8cdac433b0b1b8",
+   "title": "東海オンエア りょうのR-LAB.が運営するスイーツブランド「La Maison du R」が沖縄県へ初出店！",
+   "link": "https://prtimes.jp/main/html/rd/p/000000015.000109471.html",
+   "source": "PR TIMES",
+   "image": "https://prcdn.freetls.fastly.net/release_image/109471/15/109471-15-d267e67faa99326df4b03f5f60742e0f-904x752.png?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260",
+   "category": "shinten",
+   "area": "東海",
+   "published": "2026-10-14T10:00:00+09:00",
+   "provider": "prtimes",
+   "added": "2026-10-14T12:30:04+09:00",
    "image_checked": true,
    "image_v4": true,
    "shop": false,
