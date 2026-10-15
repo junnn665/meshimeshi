@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-15T08:27:21+09:00",
+ "updated": "2026-10-15T09:38:15+09:00",
  "items": [
   {
    "id": "90c4f01e58149d83",
@@ -32,6 +32,22 @@
    "image_checked": true,
    "image_v4": true,
    "shop": false,
+   "shop_name": null
+  },
+  {
+   "id": "5628c464eda6ba54",
+   "title": "名古屋のザ・モーニング",
+   "link": "https://note.com/clever_swan48/n/n4a5b9d64f9d6",
+   "source": "note",
+   "image": "https://d2l930y2yx77uc.cloudfront.net/production/social_images/e00f00bfdc20c881c1f97f13473c333af67f9d32.png",
+   "category": "yasuuma",
+   "area": "名古屋",
+   "published": "2026-10-14T20:33:00+09:00",
+   "provider": "bing",
+   "added": "2026-10-15T09:38:15+09:00",
+   "image_checked": true,
+   "image_v4": true,
+   "shop": true,
    "shop_name": null
   },
   {
@@ -1483,6 +1499,23 @@
    "published": "2026-10-12T05:12:24+09:00",
    "provider": "google",
    "added": "2026-10-13T12:21:00+09:00",
+   "decode_v2": true,
+   "image_checked": true,
+   "image_v4": true,
+   "shop": false,
+   "shop_name": null
+  },
+  {
+   "id": "b0276716e6b97834",
+   "title": "僕のヒーローアカデミアカフェーWE ARE HERO HOLICSー｜僕のヒーローアカデミアのコラボ・イベント 開催期間・場所・グッズ",
+   "link": "https://charagoo.jp/collab/event/1932c665da40/",
+   "source": "キャラグー",
+   "image": "https://charagoo.jp/wp-content/uploads/2026/09/myhero-news-20261016.jpg",
+   "category": "chain",
+   "area": "東海",
+   "published": "2026-10-12T04:43:06+09:00",
+   "provider": "google",
+   "added": "2026-10-15T09:38:15+09:00",
    "decode_v2": true,
    "image_checked": true,
    "image_v4": true,

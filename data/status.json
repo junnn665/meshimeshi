@@ -1,11 +1,9 @@
 {
- "updated": "2026-10-15T08:27:21+09:00",
- "items": 335,
- "with_image": 311,
- "google_decode_ok": 0,
+ "updated": "2026-10-15T09:38:15+09:00",
+ "items": 337,
+ "with_image": 313,
+ "google_decode_ok": 1,
  "google_decode_failed": 0,
  "google_decode_samples": [],
- "image_failures": [
-  "nagoyato.com: URLError: <urlopen error timed out>"
- ]
+ "image_failures": []
 }
