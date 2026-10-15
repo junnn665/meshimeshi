@@ -1,6 +1,23 @@
 {
- "updated": "2026-10-15T09:38:15+09:00",
+ "updated": "2026-10-15T10:32:04+09:00",
  "items": [
+  {
+   "id": "6d70cf3a5bd51cfe",
+   "title": "【本厚木ミロード】名古屋のソウルフード「スガキヤ」が10月29日(木)にオープン！本厚木ミロードイースト店限定の「朝ラーメンセット」が登場！特別クーポンや限定グッズなど3つの豪華特典もご用意",
+   "link": "https://prtimes.jp/main/html/rd/p/000000306.000063373.html",
+   "source": "PR TIMES",
+   "image": "https://prcdn.freetls.fastly.net/release_image/63373/306/63373-306-865c4f6299e4d0ff03222c8b832038d8-1280x1280.jpg?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260",
+   "category": "shinten",
+   "area": "名古屋",
+   "published": "2026-10-15T10:00:02+09:00",
+   "provider": "google",
+   "added": "2026-10-15T10:32:04+09:00",
+   "decode_v2": true,
+   "image_checked": true,
+   "image_v4": true,
+   "shop": false,
+   "shop_name": null
+  },
   {
    "id": "90c4f01e58149d83",
    "title": "【全国初登場！】通販でしか買えないルタオスイーツ「スコーンフィ」が初登場！ジェイアール名古屋タカシマヤ限定で10月14日（水）より6日間限定で特別販売。",
@@ -1927,6 +1944,23 @@
    "image_checked": true,
    "image_v4": true,
    "shop": false,
+   "shop_name": null
+  },
+  {
+   "id": "4661299c9ac5ecb1",
+   "title": "1貫605円で味わう大トロ！すしの美登利 名古屋栄三越店の極上大トロ",
+   "link": "https://dtimes.jp/post-1412060/",
+   "source": "Dtimes",
+   "image": "https://dtimes.jp/wp-content/uploads/2026/10/dtimes-engine-01db93511b605d9b4e4d7f235d4ad937-20261009-7197f6.jpg",
+   "category": "yasuuma",
+   "area": "名古屋",
+   "published": "2026-10-10T11:51:53+09:00",
+   "provider": "google",
+   "added": "2026-10-15T10:32:04+09:00",
+   "decode_v2": true,
+   "image_checked": true,
+   "image_v4": true,
+   "shop": true,
    "shop_name": null
   },
   {
