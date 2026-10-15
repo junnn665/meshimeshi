@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-16T07:29:01+09:00",
+ "updated": "2026-10-16T08:24:36+09:00",
  "items": [
   {
    "id": "69cf5240029f9092",
@@ -16,6 +16,23 @@
    "image_v4": true,
    "shop": false,
    "shop_name": null
+  },
+  {
+   "id": "9539e5896a7dec3f",
+   "title": "JR名古屋タカシマヤのベーカリーがリニューアル！『PAUL』『THE CITY BAKERY』は11月12日に新規オープン",
+   "link": "https://jouhou.nagoya/takashimaya-bakery-2026011/",
+   "source": "名古屋情報通",
+   "image": "https://jouhou.nagoya/wp-content/uploads/2026/10/takashimaya-bakery-2026011001-600x400.jpg",
+   "category": "shinten",
+   "area": "名古屋",
+   "published": "2026-10-15T20:00:29+09:00",
+   "provider": "google",
+   "added": "2026-10-16T08:24:36+09:00",
+   "decode_v2": true,
+   "image_checked": true,
+   "image_v4": true,
+   "shop": true,
+   "shop_name": "PAUL"
   },
   {
    "id": "7ab0c6408eff7966",

@@ -1,11 +1,11 @@
 {
- "updated": "2026-10-16T07:29:01+09:00",
- "items": 373,
- "with_image": 347,
- "google_decode_ok": 1,
+ "updated": "2026-10-16T08:24:36+09:00",
+ "items": 374,
+ "with_image": 348,
+ "google_decode_ok": 2,
  "google_decode_failed": 0,
  "google_decode_samples": [],
  "image_failures": [
-  "thetv.jp: og:image なし (42371 文字)"
+  "thetv.jp: og:image なし (42359 文字)"
  ]
 }
