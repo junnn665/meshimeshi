@@ -1,6 +1,40 @@
 {
- "updated": "2026-10-15T18:33:30+09:00",
+ "updated": "2026-10-15T19:32:50+09:00",
  "items": [
+  {
+   "id": "7ab0c6408eff7966",
+   "title": "「恵那どり」でバターチキンカレー 東海学院大の学生が開発",
+   "link": "https://www.gifu-np.co.jp/articles/-/784027",
+   "source": "岐阜新聞デジタル",
+   "image": "https://gifu-np.ismcdn.jp/mwimgs/c/b/-/img_cb2169d50683b7f5807d6d670943fcec771545.jpg",
+   "category": "wadai",
+   "area": "東海",
+   "published": "2026-10-15T19:20:00+09:00",
+   "provider": "google",
+   "added": "2026-10-15T19:32:50+09:00",
+   "decode_v2": true,
+   "image_checked": true,
+   "image_v4": true,
+   "shop": false,
+   "shop_name": null
+  },
+  {
+   "id": "3fc6dd1b6c8bb908",
+   "title": "『コメダ和喫茶 おかげ庵』関西・大阪初出店の場所＆日程が発表 愛知・安城市にも初出店【出店スケジュール】",
+   "link": "https://www.agara.co.jp/article/699667?top=oricon",
+   "source": "AGARA 紀伊民報",
+   "image": "https://www.agara.co.jp/image/article/size1/9/e/6/d/9e6d44a62db75bae6ed808e8ebf5705f_1.jpg",
+   "category": "shinten",
+   "area": "愛知",
+   "published": "2026-10-15T18:15:00+09:00",
+   "provider": "google",
+   "added": "2026-10-15T19:32:50+09:00",
+   "decode_v2": true,
+   "image_checked": true,
+   "image_v4": true,
+   "shop": false,
+   "shop_name": null
+  },
   {
    "id": "7854c7fbb568dab7",
    "title": "「sanrio house」名古屋PARCO店のカフェメニュー公開！10月29日オープンで4キャラのクレープも",
