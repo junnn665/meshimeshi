@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-16T02:30:22+09:00",
+ "updated": "2026-10-16T03:34:12+09:00",
  "items": [
   {
    "id": "69cf5240029f9092",
@@ -242,6 +242,23 @@
    "published": "2026-10-15T12:02:03+09:00",
    "provider": "google",
    "added": "2026-10-15T12:30:08+09:00",
+   "decode_v2": true,
+   "image_checked": true,
+   "image_v4": true,
+   "shop": false,
+   "shop_name": null
+  },
+  {
+   "id": "c33f385b9fcd0c2e",
+   "title": "ジャンクなおいしさを満喫♡一度食べたらハマる!? 話題のやみつきグルメ3選",
+   "link": "https://article.auone.jp/d31d4c0b-1a5a-4386-9cdd-d9ad383cf6c0",
+   "source": "au Webポータル",
+   "image": "https://newportal.portal.auone.jp/media/thumbnails/2026/10/15/https___news_jp_i_1483294156083610534_w1200.webp",
+   "category": "wadai",
+   "area": "東海",
+   "published": "2026-10-15T11:41:00+09:00",
+   "provider": "google",
+   "added": "2026-10-16T03:34:12+09:00",
    "decode_v2": true,
    "image_checked": true,
    "image_v4": true,
