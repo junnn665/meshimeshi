@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-15T12:30:08+09:00",
+ "updated": "2026-10-15T13:30:32+09:00",
  "items": [
   {
    "id": "a07c50a146a8cf76",
@@ -13,6 +13,22 @@
    "provider": "google",
    "added": "2026-10-15T12:30:08+09:00",
    "decode_v2": true,
+   "image_checked": true,
+   "image_v4": true,
+   "shop": false,
+   "shop_name": null
+  },
+  {
+   "id": "59a72be3aedb6194",
+   "title": "スカニアジャパン、北海道ふそう苫小牧支店を認定サービス拠点に追加",
+   "link": "https://prtimes.jp/main/html/rd/p/000000008.000174040.html",
+   "source": "PR TIMES",
+   "image": "https://prcdn.freetls.fastly.net/release_image/174040/8/174040-8-0ddc72b526c419907320875228ef439d-561x353.png?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260",
+   "category": "chain",
+   "area": "愛知",
+   "published": "2026-10-15T11:40:00+09:00",
+   "provider": "prtimes",
+   "added": "2026-10-15T13:30:32+09:00",
    "image_checked": true,
    "image_v4": true,
    "shop": false,
@@ -219,6 +235,23 @@
    "shop_name": null
   },
   {
+   "id": "27d050e0720b0272",
+   "title": "【焼鳥ダイニングいただきコッコちゃん】1号店オープンから23周年！オリジナルグッズが当たる抽選プレゼントイベント「秋のコッコちゃん祭り2026」を10月26日より開催！",
+   "link": "https://sendai.keizai.biz/release/664706/",
+   "source": "仙台経済新聞",
+   "image": "https://prcdn.freetls.fastly.net/release_image/78678/215/78678-215-1c97163b51c6426b47f4eacd8592774a-2560x1440.png?width=536&quality=85%2C75&format=jpeg&auto=webp&fit=bounds&bg-color=fff",
+   "category": "shinten",
+   "area": "東海",
+   "published": "2026-10-14T18:32:33+09:00",
+   "provider": "google",
+   "added": "2026-10-15T13:30:32+09:00",
+   "decode_v2": true,
+   "image_checked": true,
+   "image_v4": true,
+   "shop": false,
+   "shop_name": null
+  },
+  {
    "id": "94b1ce8e0eaf3edf",
    "title": "すし丸道後店、2026年お盆の限定メニュー販売1位はぶっかけ鯛めし膳",
    "link": "https://news.dellows.jp/101735/?from=recommend_list",
@@ -403,7 +436,7 @@
   },
   {
    "id": "362aa96095e5737d",
-   "title": "名古屋めしと広島名物が合体！和食麺処サガミにて「広島県産大粒 ...",
+   "title": "名古屋めしと広島名物が合体！和食麺処サガミにて「広島県産大粒牡蠣と広島味めぐり」フェアが2026年10月21日よりスタート【名古屋発】",
    "link": "https://nagoyato.com/posts/20017",
    "source": "nagoyato",
    "image": "http://www.bing.com/th?id=ONUT.eXuRUNdHTbVtQmMKF6RmDw&pid=News",
