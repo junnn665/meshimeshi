@@ -1053,3 +1053,47 @@ main > .ev-notice { margin-bottom: 12px; }
 .ev-notice-thumb.no-photo { display: none; }
 .ev-wk-card, .ev-card { overflow: hidden; }
 .ev-photo-pop:has(.no-photo) { display: none; }
+
+/* 屋内・屋外 */
+.ev-place { padding: 1px 8px; border-radius: 999px; font-size: 11px; font-weight: 900; border: 1.5px solid currentColor; }
+.ev-place.indoor { color: #0E7490; background: #E6F4F7; }
+.ev-place.outdoor { color: #3F7D20; background: #EEF7E6; }
+
+/* 同じイベントの記事 */
+.ev-more { font-size: 12px; }
+.ev-more summary {
+  display: inline-flex; align-items: center; min-height: 32px; padding: 0 10px; border-radius: 999px; cursor: pointer;
+  background: #FFF6E3; border: 1.5px dashed rgba(43, 33, 24, .45); font-weight: 900; color: var(--sub); list-style: none;
+}
+.ev-more summary::-webkit-details-marker { display: none; }
+.ev-more summary::after { content: '▾'; margin-left: 6px; }
+.ev-more[open] summary::after { content: '▴'; }
+.ev-more-list { margin: 8px 0 0; padding: 0 0 0 18px; display: flex; flex-direction: column; gap: 6px; line-height: 1.5; }
+.ev-more-list a { color: var(--ink); text-decoration: underline; font-weight: 700; }
+
+/* カレンダーに追加 */
+.ev-cal { position: relative; }
+.ev-cal-btn {
+  display: inline-flex; align-items: center; gap: 4px; min-height: 36px; padding: 0 12px; border-radius: 999px; cursor: pointer;
+  background: #fff; color: var(--ink); border: 2px solid var(--ink); font-size: 12px; font-weight: 900; list-style: none;
+}
+.ev-cal-btn::-webkit-details-marker { display: none; }
+.ev-cal[open] .ev-cal-btn { background: var(--ink); color: var(--yellow); }
+.ev-cal-menu {
+  margin-top: 6px; display: flex; flex-direction: column; gap: 6px; padding: 10px; border-radius: 12px;
+  background: #FFF6E3; border: 2px solid var(--ink); min-width: 220px;
+}
+.ev-cal-link {
+  display: flex; align-items: center; min-height: 40px; padding: 0 12px; border-radius: 10px; background: #fff;
+  border: 1.5px solid rgba(43, 33, 24, .35); font-size: 13px; font-weight: 900; color: var(--ink); text-decoration: none;
+}
+.ev-cal-note { margin: 0; font-size: 11px; color: var(--muted); line-height: 1.5; }
+.ev-card-foot .ev-cal { flex-basis: auto; }
+.ev-card-foot .ev-cal[open] { flex-basis: 100%; }
+
+/* トップの入口：今日の件数 */
+.ev-entry-live { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 4px; }
+.ev-entry-live em {
+  font-style: normal; padding: 2px 10px; border-radius: 999px; background: #fff; color: #B42318; font-size: 12px; font-weight: 900;
+}
+.ev-entry-live em + em { color: #0E7490; }

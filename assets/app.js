@@ -39,7 +39,9 @@
     star: '<path d="M12 3.5l2.6 5.3 5.9.9-4.3 4.1 1 5.8-5.2-2.7-5.2 2.7 1-5.8-4.3-4.1 5.9-.9z"/>',
     heart: '<path d="M12 20s-7.5-4.6-9.2-9.3C1.6 7.3 3.8 4 7.2 4c2 0 3.6 1.1 4.8 2.8C13.2 5.1 14.8 4 16.8 4c3.4 0 5.6 3.3 4.4 6.7C19.5 15.4 12 20 12 20z"/>',
     search: '<circle cx="11" cy="11" r="7"/><path d="M20 20l-3.5-3.5"/>',
-    pin: '<path d="M12 21s-7-6.2-7-11.5A7 7 0 0 1 19 9.5C19 14.8 12 21 12 21z"/><circle cx="12" cy="9.5" r="2.5"/>'
+    pin: '<path d="M12 21s-7-6.2-7-11.5A7 7 0 0 1 19 9.5C19 14.8 12 21 12 21z"/><circle cx="12" cy="9.5" r="2.5"/>',
+    cal: '<rect x="3.5" y="5" width="17" height="15" rx="2"/><path d="M3.5 10h17M8 3v4M16 3v4"/>',
+    umbrella: '<path d="M3 12a9 9 0 0 1 18 0z"/><path d="M12 12v6a2 2 0 0 0 4 0"/><path d="M12 3v0"/>'
   };
   function svg(id, cls) {
     var s = document.createElement('span');
@@ -206,6 +208,67 @@
     target.insertBefore(box, before || null);
   }
 
+  // 同じイベント（group が同じ）の記事を1つにまとめる
+  function groupEvents(list) {
+    var map = {}, order = [];
+    list.forEach(function (it) {
+      var k = it.group || it.id;
+      if (!map[k]) { map[k] = []; order.push(k); }
+      map[k].push(it);
+    });
+    var score = function (x) { return (x.start ? 2 : 0) + (x.end ? 1 : 0) + (x.venue ? 2 : 0) + (x.image ? 1 : 0); };
+    return order.map(function (k) {
+      var arts = map[k].slice().sort(function (a, b) { return Date.parse(b.published) - Date.parse(a.published); });
+      var best = arts.slice().sort(function (a, b) { return score(b) - score(a); })[0];
+      var g = {};
+      Object.keys(best).forEach(function (key) { g[key] = best[key]; });
+      g.group = k;
+      g.articles = arts;
+      var starts = arts.map(function (x) { return x.start; }).filter(Boolean).sort();
+      var ends = arts.map(function (x) { return x.end; }).filter(Boolean).sort();
+      g.start = starts[0];
+      g.end = ends.length ? ends[ends.length - 1] : undefined;
+      arts.forEach(function (x) {
+        if (!g.venue && x.venue) { g.venue = x.venue; g.lat = x.lat; g.lng = x.lng; }
+        if (!g.place && x.place) g.place = x.place;
+        if (!g.image && x.image) g.image = x.image;
+      });
+      return g;
+    });
+  }
+  function eventName(it) {
+    var m = /[「『]([^」』]{2,40})[」』]/.exec(it.title || '');
+    return m ? m[1] : it.title;
+  }
+  function calDates(it) {
+    var s = it.start || todayJst();
+    var e = it.end || it.start || s;
+    if (e < s) e = s;
+    return { s: s.replace(/-/g, ''), e: addDays(e, 1).replace(/-/g, '') };
+  }
+  function googleCalUrl(it) {
+    var d = calDates(it);
+    return 'https://calendar.google.com/calendar/render?action=TEMPLATE' +
+      '&text=' + encodeURIComponent(eventName(it)) +
+      '&dates=' + d.s + '/' + d.e +
+      '&details=' + encodeURIComponent(it.title + '\n' + it.link + '\n（飯飯食堂より。日程は記事でご確認ください）') +
+      (it.venue ? '&location=' + encodeURIComponent(it.venue) : '');
+  }
+  function icsDataUrl(it) {
+    var d = calDates(it);
+    var esc = function (t) { return String(t).replace(/\\/g, '\\\\').replace(/[;,]/g, function (c) { return '\\' + c; }).replace(/\n/g, '\\n'); };
+    var lines = ['BEGIN:VCALENDAR', 'VERSION:2.0', 'PRODID:-//meshimeshi//events//JA', 'BEGIN:VEVENT',
+      'UID:' + (it.group || it.id) + '@meshimeshi',
+      'DTSTAMP:' + new Date().toISOString().replace(/[-:]/g, '').slice(0, 15) + 'Z',
+      'DTSTART;VALUE=DATE:' + d.s, 'DTEND;VALUE=DATE:' + d.e,
+      'SUMMARY:' + esc(eventName(it)),
+      'DESCRIPTION:' + esc(it.title + '\n' + it.link),
+      'URL:' + it.link];
+    if (it.venue) lines.push('LOCATION:' + esc(it.venue));
+    lines.push('END:VEVENT', 'END:VCALENDAR');
+    return 'data:text/calendar;charset=utf-8,' + encodeURIComponent(lines.join('\r\n'));
+  }
+
   function isNew(it) {
     return prevVisit > 0 && it.added && Date.parse(it.added) > prevVisit;
   }
@@ -221,7 +284,7 @@
       state.savedItems.unshift({
         id: it.id, title: it.title, link: it.link, source: it.source, image: it.image,
         category: it.category, genre: it.genre, area: it.area, published: it.published,
-        start: it.start, end: it.end, venue: it.venue, lat: it.lat, lng: it.lng,
+        start: it.start, end: it.end, venue: it.venue, lat: it.lat, lng: it.lng, place: it.place, group: it.group,
         savedAt: new Date().toISOString()
       });
     }
@@ -1766,6 +1829,23 @@
     if (top < 0 || top > window.innerHeight) $('heading').scrollIntoView({ behavior: 'smooth', block: 'start' });
   }
 
+  // トップページのイベントマップ入口に「今日は○件開催中・今週末は○件」
+  function updateEvEntry() {
+    var box = document.querySelector('.ev-entry-text');
+    if (!box) return;
+    var groups = groupEvents(state.items.filter(function (it) { return it.category === 'event'; }));
+    var wk = weekendJst();
+    var now = groups.filter(function (g) { return eventStatus(g).id === 'now'; }).length;
+    var week = groups.filter(function (g) { return onWeekend(g, wk); }).length;
+    var old = box.querySelector('.ev-entry-live');
+    if (old) old.remove();
+    if (!now && !week) return;
+    var live = el('span', 'ev-entry-live');
+    if (now) live.appendChild(el('em', null, '今日は' + now + '件開催中'));
+    if (week) live.appendChild(el('em', null, '今週末は' + week + '件'));
+    box.appendChild(live);
+  }
+
   function load(opts) {
     opts = opts || {};
     var btn = $('refresh');
@@ -1788,6 +1868,7 @@
           $('updated').textContent = '最終更新：' + d.toLocaleString('ja-JP', { timeZone: 'Asia/Tokyo' });
         }
         renderTicker();
+        updateEvEntry();
         refreshView();
         centerActive(false);
         return true;
@@ -1860,6 +1941,7 @@
     var FILTERS = [
       { id: 'active', label: '開催中・これから' },
       { id: 'now', label: '開催中だけ' },
+      { id: 'indoor', label: '雨でもOK（屋内）' },
       { id: 'saved', label: '行きたいだけ' },
       { id: 'all', label: 'すべて（終了も）' }
     ];
@@ -1882,7 +1964,8 @@
     function visible(it) {
       var st = eventStatus(it).id;
       if (ev.filter === 'now') return st === 'now';
-      if (ev.filter === 'saved') return isSaved(it.id);
+      if (ev.filter === 'saved') return gSaved(it);
+      if (ev.filter === 'indoor') return st !== 'past' && it.place === 'indoor';
       if (ev.filter === 'active') return st !== 'past';
       return true;
     }
@@ -1930,15 +2013,19 @@
       var m = ev.markers[it.venue];
       if (m) setTimeout(function () { m.openPopup(); }, 850);
     }
+    function gSaved(g) {
+      return (g.articles || [g]).some(function (a) { return isSaved(a.id); });
+    }
     function saveButton(it) {
-      var on = isSaved(it.id);
+      var on = gSaved(it);
       var b = el('button', 'ev-save' + (on ? ' on' : ''));
       b.type = 'button';
       b.setAttribute('aria-pressed', String(on));
       b.appendChild(svg('heart', 'ev-save-icon'));
       b.appendChild(document.createTextNode(on ? '行きたい済み' : '行きたい'));
       b.addEventListener('click', function () {
-        toggleSaved(it);
+        if (on) (it.articles || [it]).forEach(function (a) { if (isSaved(a.id)) toggleSaved(a); });
+        else toggleSaved(it);
         render();
         if (!on) gToastEv(it);
       });
@@ -1954,6 +2041,49 @@
       t.hidden = false;
       clearTimeout(gToastEv.timer);
       gToastEv.timer = setTimeout(function () { t.hidden = true; }, 3600);
+    }
+
+    function calMenu(it) {
+      var d = el('details', 'ev-cal');
+      var sm = el('summary', 'ev-cal-btn');
+      sm.appendChild(svg('cal', 'ev-onmap-icon'));
+      sm.appendChild(document.createTextNode('カレンダーに追加'));
+      d.appendChild(sm);
+      var menu = el('div', 'ev-cal-menu');
+      var a1 = el('a', 'ev-cal-link', 'iPhone・スマホのカレンダー');
+      if (it.fromData && it.group) a1.href = 'cal/' + it.group + '.ics';
+      else { a1.href = icsDataUrl(it); a1.setAttribute('download', 'event.ics'); }
+      var a2 = el('a', 'ev-cal-link', 'Googleカレンダー');
+      a2.href = googleCalUrl(it); a2.target = '_blank'; a2.rel = 'noopener';
+      menu.appendChild(a1);
+      menu.appendChild(a2);
+      menu.appendChild(el('p', 'ev-cal-note', calNote(it)));
+      d.appendChild(menu);
+      return d;
+    }
+    function calNote(it) {
+      if (!it.start) return '開始日がわからないため、今日から' + fmtDay(it.end) + 'までで入れます';
+      return eventRange(it) + 'の終日の予定として入れます';
+    }
+    function moreArticles(it) {
+      var d = el('details', 'ev-more');
+      d.appendChild(el('summary', null, 'このイベントの記事 ' + it.articles.length + '本'));
+      var ul = el('ul', 'ev-more-list');
+      it.articles.forEach(function (x) {
+        var li = el('li');
+        var a = el('a', null, x.title);
+        a.href = x.link; a.target = '_blank'; a.rel = 'noopener';
+        li.appendChild(a);
+        li.appendChild(el('span', 'ev-src', ' ' + (x.source || '')));
+        ul.appendChild(li);
+      });
+      d.appendChild(ul);
+      return d;
+    }
+    function placeTag(it) {
+      if (it.place === 'indoor') return el('span', 'ev-place indoor', '屋内');
+      if (it.place === 'outdoor') return el('span', 'ev-place outdoor', '屋外');
+      return null;
     }
 
     function renderWeekend() {
@@ -1978,11 +2108,16 @@
         var top = el('div', 'ev-card-head');
         top.appendChild(el('span', 'ev-status ' + st.id, st.label));
         top.appendChild(el('span', 'ev-when', eventRange(it)));
+        var wpt = placeTag(it);
+        if (wpt) top.appendChild(wpt);
         c.appendChild(top);
         var a = el('a', 'ev-wk-title', it.title);
         a.href = it.link; a.target = '_blank'; a.rel = 'noopener';
         c.appendChild(a);
-        if (it.venue) c.appendChild(el('p', 'ev-wk-venue', it.venue));
+        if (it.venue || (it.articles && it.articles.length > 1)) {
+          c.appendChild(el('p', 'ev-wk-venue', [it.venue, it.articles && it.articles.length > 1 ? '記事' + it.articles.length + '本' : '']
+            .filter(Boolean).join(' ・ ')));
+        }
         var foot = el('div', 'ev-wk-foot');
         if (it.venue && ev.map) {
           var go = el('button', 'ev-onmap');
@@ -2039,10 +2174,13 @@
         var head = el('div', 'ev-card-head');
         head.appendChild(el('span', 'ev-status ' + st.id, st.label));
         head.appendChild(el('span', 'ev-when', eventRange(it)));
+        var pt = placeTag(it);
+        if (pt) head.appendChild(pt);
         c.appendChild(head);
         var a = el('a', 'ev-title', it.title);
         a.href = it.link; a.target = '_blank'; a.rel = 'noopener';
         c.appendChild(a);
+        if (it.articles && it.articles.length > 1) c.appendChild(moreArticles(it));
         var foot = el('div', 'ev-card-foot');
         if (it.venue) {
           var go = el('button', 'ev-onmap');
@@ -2053,6 +2191,7 @@
           foot.appendChild(go);
         }
         foot.appendChild(saveButton(it));
+        if ((it.start || it.end) && st.id !== 'past') foot.appendChild(calMenu(it));
         foot.appendChild(el('span', 'ev-src', it.source || ''));
         c.appendChild(foot);
         target.appendChild(c);
@@ -2070,19 +2209,26 @@
         return r.json();
       })
       .then(function (d) {
-        ev.items = (d.items || []).filter(function (it) { return it.category === 'event'; });
+        ev.items = groupEvents((d.items || []).filter(function (it) { return it.category === 'event'; }));
+        ev.items.forEach(function (g) { g.fromData = true; });
         // 記事一覧から消えた「行きたい」イベントも残す
-        var ids = {};
-        ev.items.forEach(function (it) { ids[it.id] = true; });
-        state.savedItems.forEach(function (it) { if (it.category === 'event' && !ids[it.id]) ev.items.push(it); });
-        // 保存してある日程を最新の読み取り結果にそろえる
+        var owner = {};
+        ev.items.forEach(function (g) { g.articles.forEach(function (a) { owner[a.id] = g; }); });
+        state.savedItems.forEach(function (it) {
+          if (it.category === 'event' && !owner[it.id]) {
+            var g = {};
+            Object.keys(it).forEach(function (k) { g[k] = it[k]; });
+            g.articles = [it];
+            ev.items.push(g);
+          }
+        });
+        // 保存してある日程を最新の読み取り結果（まとめた日程）にそろえる
         var changed = false;
         state.savedItems.forEach(function (s) {
-          ev.items.forEach(function (it) {
-            if (it.id === s.id && (it.start !== s.start || it.end !== s.end || it.venue !== s.venue)) {
-              s.start = it.start; s.end = it.end; s.venue = it.venue; s.lat = it.lat; s.lng = it.lng; changed = true;
-            }
-          });
+          var g = owner[s.id];
+          if (g && (g.start !== s.start || g.end !== s.end || g.venue !== s.venue || g.place !== s.place)) {
+            s.start = g.start; s.end = g.end; s.venue = g.venue; s.lat = g.lat; s.lng = g.lng; s.place = g.place; changed = true;
+          }
         });
         if (changed) store.set('meshi.saved', state.savedItems);
         render();

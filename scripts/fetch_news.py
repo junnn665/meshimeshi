@@ -280,7 +280,8 @@ def categorize(title: str, default: str) -> str:
         if any(w in title for w in words):
             return cat
     # デカ盛りは見出しにそれらしい言葉があるときだけ（検索語がデカ盛りでも中身がちがう記事がある）
-    return "wadai" if default == "deka" else default
+    # イベントも同じ（イベントの検索で拾った、お店の記事やまとめ記事はイベントにしない）
+    return "wadai" if default in ("deka", "event") else default
 
 
 def detect_area(title: str, regional: bool) -> str:
@@ -653,6 +654,7 @@ def main() -> int:
         events.annotate(it, venue_coords)
     # イベントは東海のもの（東海の地名か、既知の会場が見出しにある）だけ残す
     items = [it for it in items if it["category"] != "event" or is_tokai_event(it)]
+    events.assign_groups(items)
     DATA_FILE.parent.mkdir(parents=True, exist_ok=True)
     payload = {"updated": NOW.astimezone(JST).isoformat(timespec="seconds"), "items": items}
     DATA_FILE.write_text(json.dumps(payload, ensure_ascii=False, indent=1) + "\n", "utf-8")

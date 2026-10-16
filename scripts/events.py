@@ -68,6 +68,34 @@ VENUES = [
     ("静岡", ["静岡駅"], 34.9719, 138.3890, "静岡駅"),
 ]
 
+# 雨の日フィルター用：屋内の会場 / 屋外の会場（どちらでもない会場は見出しの言葉で判断）
+INDOOR_VENUES = {
+    "中日ビル", "名古屋三越 栄店", "松坂屋名古屋店", "ジェイアール名古屋タカシマヤ", "名鉄百貨店",
+    "名古屋PARCO", "イオンモール熱田", "ナゴヤドーム", "吹上ホール", "ポートメッセなごや",
+    "Aichi Sky Expo", "中部国際空港", "ららぽーと愛知東郷",
+}
+OUTDOOR_VENUES = {
+    "久屋大通公園", "オアシス21", "名古屋城", "名城公園", "白川公園", "鶴舞公園", "円頓寺商店街",
+    "大曽根商店街", "大須商店街", "覚王山日泰寺", "熱田神宮", "東別院", "鈴鹿フラワーパーク", "リトルワールド",
+    "東山動植物園", "名古屋港ガーデンふ頭", "モリコロパーク", "長良川", "名古屋テレビ塔", "ノリタケの森",
+}
+INDOOR_WORDS = ["物産展", "百貨店", "催事", "展示場", "ホール", "館内", "屋内", "地下街"]
+OUTDOOR_WORDS = ["公園", "屋外", "野外", "キッチンカー", "屋台", "ビアガーデン", "河川敷", "広場", "ヒロバ"]
+
+
+def place_type(title: str, venue) -> str | None:
+    """'indoor'（屋内）/ 'outdoor'（屋外）/ None（わからない）"""
+    if venue in INDOOR_VENUES:
+        return "indoor"
+    if venue in OUTDOOR_VENUES:
+        return "outdoor"
+    if any(w in title for w in INDOOR_WORDS):
+        return "indoor"
+    if any(w in title for w in OUTDOOR_WORDS):
+        return "outdoor"
+    return None
+
+
 EVENT_WORDS = [
     "フェス", "フェスタ", "祭り", "まつり", "祭典", "マルシェ", "物産展", "屋台", "キッチンカー",
     "フードトラック", "ビアガーデン", "オクトーバーフェスト", "グルメイベント", "催事", "収穫祭",
@@ -78,7 +106,7 @@ EVENT_WORDS = [
 # お店やチェーンのキャンペーン・新商品などはイベントにしない
 NOT_EVENT_WORDS = ["期間限定", "コラボ", "キャンペーン", "発売", "新作", "新商品", "オープン", "閉店", "クーポン",
                    "周年", "おせち", "予約", "抽選", "初出店", "出店予定", "セブン", "ファミマ", "ファミリーマート",
-                   "ローソン", "監修"]
+                   "ローソン", "監修", "鉱物", "宝石", "実証実験", "情報まとめ", "イベント情報"]
 CHAIN_WORDS: list[str] = []  # fetch_news.py から全国チェーンの店名を受け取る
 
 
@@ -86,6 +114,10 @@ def is_event(title: str) -> bool:
     if any(w in title for w in NOT_EVENT_WORDS) or any(w in title for w in CHAIN_WORDS):
         return False
     if any(w in title for w in EVENT_WORDS):
+        return True
+    # 「肉グルメが大集結！〜 FEST」「試食体験イベント」のように、食べ物の集まり・催し
+    food = any(w in title for w in ("グルメ", "試食", "食べ比べ", "食べ歩き", "屋台"))
+    if food and any(w in title for w in ("集結", "大集合", "FEST", "Fest", "イベント")):
         return True
     # 「〇〇公園で△日に開催」のように、会場がわかって「開催」とあるもの
     return "開催" in title and find_venue(title) is not None
@@ -226,7 +258,7 @@ def refresh_venue_coords(max_lookups: int = 6) -> dict:
 
 def annotate(it: dict, coords: dict) -> None:
     """イベントの記事に、会場・座標・開催日をつける。"""
-    for k in ("venue", "lat", "lng", "start", "end"):
+    for k in ("venue", "lat", "lng", "start", "end", "place"):
         it.pop(k, None)
     if it.get("category") != "event":
         return
@@ -238,8 +270,50 @@ def annotate(it: dict, coords: dict) -> None:
         pub = dt.date.fromisoformat(it["published"][:10])
     except (KeyError, ValueError):
         pub = dt.date.today()
+    pt = place_type(it["title"], it.get("venue"))
+    if pt:
+        it["place"] = pt
     s, e = parse_dates(it["title"], pub)
     if s:
         it["start"] = s
     if e:
         it["end"] = e
+
+
+# ---------------------------------------------------------------------------
+# 同じイベントの記事をまとめる
+# ---------------------------------------------------------------------------
+P_NAME = re.compile(r"[「『]([^」』]{2,40})[」』]")
+
+
+def event_name(title: str) -> str | None:
+    """見出しの「」『』の中をイベント名とみなす（例：「魅惑のパンフェスタ」）。"""
+    t = unicodedata.normalize("NFKC", title)
+    for m in P_NAME.finditer(t):
+        name = m.group(1)
+        if any(w in name for w in EVENT_WORDS) or re.search(r"(展|市|祭|FEST|Fest|フェア|マーケット|ストリート)", name):
+            return re.sub(r"\s+", "", name).lower()
+    return None
+
+
+def assign_groups(items: list) -> None:
+    """同じ会場・同じイベント名の記事に、同じ group をつける。
+    会場がわからない記事は、同じ名前の会場つきのまとまりが1つだけならそこに入れる。"""
+    import hashlib
+    evs = [it for it in items if it.get("category") == "event"]
+    for it in items:
+        it.pop("group", None)
+    by_name_venue = {}
+    for it in evs:
+        name = event_name(it["title"])
+        it["_name"] = name
+        if name and it.get("venue"):
+            by_name_venue.setdefault(name, set()).add(it["venue"])
+    for it in evs:
+        name = it.pop("_name")
+        venue = it.get("venue")
+        if name and not venue and len(by_name_venue.get(name, ())) == 1:
+            venue = next(iter(by_name_venue[name]))
+        key = f"{name}|{venue or ''}" if name else f"id|{it['id']}"
+        it["group"] = hashlib.sha1(key.encode("utf-8")).hexdigest()[:12]
+

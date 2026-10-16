@@ -60,6 +60,10 @@ jobs:
           HOTPEPPER_API_KEY: ${{ secrets.HOTPEPPER_API_KEY }}
         run: python scripts/fetch_shops.py
 
+      # イベントの「カレンダーに追加」用ファイル（リポジトリには保存しない）
+      - name: カレンダーファイルを作る
+        run: python scripts/make_ics.py
+
       # スマホに古いファイルが残らないよう、読み込むファイルに版番号をつける
       - name: ファイルに版番号をつける
         run: |
