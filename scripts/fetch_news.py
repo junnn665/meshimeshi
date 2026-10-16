@@ -627,6 +627,9 @@ def main() -> int:
         it["shop"] = is_shop_article(it)
         it["shop_name"] = shop_name(it["title"]) if it["shop"] else None
         events.annotate(it, venue_coords)
+    # イベントは東海のもの（東海の地名か、既知の会場が見出しにある）だけ残す
+    items = [it for it in items if it["category"] != "event"
+             or it.get("venue") or any(w in it["title"] for w in TOKAI_WORDS)]
     DATA_FILE.parent.mkdir(parents=True, exist_ok=True)
     payload = {"updated": NOW.astimezone(JST).isoformat(timespec="seconds"), "items": items}
     DATA_FILE.write_text(json.dumps(payload, ensure_ascii=False, indent=1) + "\n", "utf-8")
