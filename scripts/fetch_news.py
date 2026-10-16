@@ -58,6 +58,13 @@ QUERIES = [
     ("名古屋 物産展", "event", True),
     ("名古屋 キッチンカー イベント", "event", True),
     ("愛知 グルメフェス", "event", True),
+    ("名古屋 餃子 祭り OR フェス", "event", True),
+    ("名古屋 ラーメン 祭り OR フェス OR 博", "event", True),
+    ("名古屋 肉フェス OR 肉祭り", "event", True),
+    ("名古屋 からあげ OR 唐揚げ フェス OR 祭り", "event", True),
+    ("名古屋 オクトーバーフェスト OR ビールフェス", "event", True),
+    ("名古屋 スイーツ OR パン フェス OR 祭り", "event", True),
+    ("名古屋 カレー OR 寿司 OR ご当地 グルメ 祭り OR フェス", "event", True),
     # デカ盛り・インパクト系
     ("名古屋 デカ盛り", "deka", True),
     ("愛知 デカ盛り", "deka", True),
