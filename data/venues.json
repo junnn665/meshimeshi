@@ -28,5 +28,35 @@
   "lat": 35.17123,
   "lng": 136.88272,
   "source": "nominatim"
+ },
+ "名鉄百貨店": {
+  "lat": 35.16531,
+  "lng": 136.90791,
+  "source": "nominatim"
+ },
+ "名古屋駅": {
+  "lat": 35.17298,
+  "lng": 136.88165,
+  "source": "nominatim"
+ },
+ "名古屋城": {
+  "lat": 35.1844,
+  "lng": 136.9001,
+  "source": "nominatim"
+ },
+ "名城公園": {
+  "lat": 35.19046,
+  "lng": 136.90482,
+  "source": "nominatim"
+ },
+ "大須商店街": {
+  "lat": 35.1596,
+  "lng": 136.9016,
+  "source": "builtin"
+ },
+ "金山": {
+  "lat": 35.14443,
+  "lng": 136.90016,
+  "source": "nominatim"
  }
 }
