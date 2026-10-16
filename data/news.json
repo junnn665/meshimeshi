@@ -1,6 +1,25 @@
 {
- "updated": "2026-10-17T04:29:02+09:00",
+ "updated": "2026-10-17T05:27:57+09:00",
  "items": [
+  {
+   "id": "3ee69b2b350a3d44",
+   "title": "「公開空地」の活用へ実証 座敷やキッチンカー設置 名古屋都市再開発促進協",
+   "link": "https://www.chukei-news.co.jp/news/2026/10/17/OK0002610170201_07/",
+   "source": "中部経済新聞",
+   "image": "https://www.chukei-news.co.jp/images/20261016_203346_14367.jpg",
+   "category": "event",
+   "area": "名古屋",
+   "published": "2026-10-17T05:00:00+09:00",
+   "provider": "google",
+   "added": "2026-10-17T05:27:57+09:00",
+   "decode_v2": true,
+   "image_checked": true,
+   "image_v4": true,
+   "shop": true,
+   "shop_name": "公開空地",
+   "place": "outdoor",
+   "group": "288244515554"
+  },
   {
    "id": "b9d5452f17fae2a2",
    "title": "名古屋グルメ】平日でも大行列！16年貫く唯一無二の「チャーラー」太陽食堂 Nagoya Ramen The Ultimate Ramen & Fried Rice",
@@ -539,6 +558,23 @@
    "published": "2026-10-15T19:20:00+09:00",
    "provider": "google",
    "added": "2026-10-15T19:32:50+09:00",
+   "decode_v2": true,
+   "image_checked": true,
+   "image_v4": true,
+   "shop": false,
+   "shop_name": null
+  },
+  {
+   "id": "2d832125d5f591da",
+   "title": "人気餃子店が伊勢丹新宿店に集結「餃子パニック！！」浜松の王道野菜ギョウザ＆プリプリ海老",
+   "link": "https://www.fashion-press.net/news/149328",
+   "source": "ファッションプレス",
+   "image": "https://www.fashion-press.net/img/news/149328/top.jpg?1785466281",
+   "category": "wadai",
+   "area": "静岡",
+   "published": "2026-10-15T19:11:13+09:00",
+   "provider": "google",
+   "added": "2026-10-17T05:27:57+09:00",
    "decode_v2": true,
    "image_checked": true,
    "image_v4": true,
@@ -6319,41 +6355,6 @@
    "added": "2026-10-05T19:38:34+09:00",
    "shop": false,
    "shop_name": null
-  },
-  {
-   "id": "ce89efd758fb10ed",
-   "title": "ケンタッキー「カーネルクリスピー」が半額の140円に！10/13までの2週間限定、にんにく醤油チキン340円や10月スタートの「Vポイント2倍」も｜グルメとフード",
-   "link": "https://tetsudo-ch.com/13040274.html",
-   "source": "旅とおでかけ 鉄道チャンネル",
-   "image": null,
-   "category": "chain",
-   "area": "東海",
-   "published": "2026-10-05T19:00:27+09:00",
-   "provider": "google",
-   "added": "2026-10-11T16:19:48+09:00",
-   "decode_v2": true,
-   "image_checked": true,
-   "image_v4": true,
-   "shop": false,
-   "shop_name": null
-  },
-  {
-   "id": "71b69dd5c90153f5",
-   "title": "「築地すしくろ」名古屋ハエラに東海初出店、本格江戸寿司＆お酒を気軽に楽しむ“寿司酒場”",
-   "link": "https://www.fashion-press.net/news/147005",
-   "source": "ファッションプレス",
-   "image": "https://www.fashion-press.net/img/news/147005/top.jpg?1780405184",
-   "category": "shinten",
-   "area": "名古屋",
-   "published": "2026-10-05T18:37:56+09:00",
-   "provider": "google",
-   "decode_tried": true,
-   "image_checked": true,
-   "decode_v2": true,
-   "image_v3": true,
-   "added": "2026-10-05T18:37:56+09:00",
-   "shop": true,
-   "shop_name": "築地すしくろ"
   }
  ]
 }
