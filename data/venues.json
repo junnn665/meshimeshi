@@ -118,5 +118,35 @@
   "lat": 35.37398,
   "lng": 137.02571,
   "source": "nominatim"
+ },
+ "滝子": {
+  "lat": 35.14268,
+  "lng": 136.93329,
+  "source": "nominatim"
+ },
+ "名古屋テレビ塔": {
+  "lat": 35.1723,
+  "lng": 136.9086,
+  "source": "builtin"
+ },
+ "ナゴヤドーム": {
+  "lat": 35.186,
+  "lng": 136.9474,
+  "source": "nominatim"
+ },
+ "吹上ホール": {
+  "lat": 35.15923,
+  "lng": 136.92996,
+  "source": "nominatim"
+ },
+ "東山動植物園": {
+  "lat": 35.15653,
+  "lng": 136.98182,
+  "source": "nominatim"
+ },
+ "名古屋港ガーデンふ頭": {
+  "lat": 35.091,
+  "lng": 136.88,
+  "source": "builtin"
  }
 }
