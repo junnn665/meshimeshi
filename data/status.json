@@ -1,11 +1,12 @@
 {
- "updated": "2026-10-16T17:32:52+09:00",
- "items": 389,
- "with_image": 363,
- "google_decode_ok": 1,
+ "updated": "2026-10-16T17:36:13+09:00",
+ "items": 399,
+ "with_image": 375,
+ "google_decode_ok": 43,
  "google_decode_failed": 0,
  "google_decode_samples": [],
  "image_failures": [
-  "thetv.jp: og:image なし (42503 文字)"
+  "thetv.jp: og:image なし (42448 文字)",
+  "go2senkyo.com: og:image なし (2004 文字)"
  ]
 }
