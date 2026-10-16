@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-16T21:38:09+09:00",
+ "updated": "2026-10-16T22:39:44+09:00",
  "items": [
   {
    "id": "1b3973fe0fe94205",
@@ -66,6 +66,23 @@
    "image_v4": true,
    "shop": false,
    "shop_name": null
+  },
+  {
+   "id": "d74826553d250c74",
+   "title": "《豚丼屋TONTON》岐阜「羽島店」オープン日変更のお知らせ",
+   "link": "https://prtimes.jp/main/html/rd/p/000000007.000189841.html",
+   "source": "PR TIMES",
+   "image": "https://prcdn.freetls.fastly.net/release_image/189841/7/189841-7-d886997596b0840c10bc83fb75adfee6-2600x1224.jpg?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260",
+   "category": "shinten",
+   "area": "岐阜",
+   "published": "2026-10-16T15:04:31+09:00",
+   "provider": "google",
+   "added": "2026-10-16T22:39:44+09:00",
+   "decode_v2": true,
+   "image_checked": true,
+   "image_v4": true,
+   "shop": true,
+   "shop_name": "羽島店"
   },
   {
    "id": "c4d56f831d3ca08e",
@@ -338,6 +355,23 @@
    "image_v4": true,
    "shop": true,
    "shop_name": "公開空地"
+  },
+  {
+   "id": "cfa3deb746ec27c0",
+   "title": "「ちいかわクリスマスマーケット」幕張豊砂で11/24から！先行抽選は10/15～25まで、どう申し込む？ 限定フード全35種、入場は大人2,500円",
+   "link": "https://tetsudo-ch.com/13041326.html",
+   "source": "旅とおでかけ 鉄道チャンネル",
+   "image": null,
+   "category": "wadai",
+   "area": "東海",
+   "published": "2026-10-16T10:10:45+09:00",
+   "provider": "google",
+   "added": "2026-10-16T22:39:44+09:00",
+   "decode_v2": true,
+   "image_checked": true,
+   "image_v4": true,
+   "shop": false,
+   "shop_name": null
   },
   {
    "id": "af06b90ab563f651",
@@ -6355,38 +6389,6 @@
    "decode_v2": true,
    "image_checked": true,
    "image_v4": true,
-   "shop": false,
-   "shop_name": null
-  },
-  {
-   "id": "e63f42b4fb71474f",
-   "title": "丸亀製麺、約4年ぶりにグランドメニュー拡充 地域限定メニューの“初”全国展開も",
-   "link": "https://www.sanin-chuo.co.jp/articles/-/1091868",
-   "source": "山陰中央新報デジタル",
-   "image": "https://sanin-chuo.ismcdn.jp/mwimgs/8/1/1200m/img_8115193693713572e7b6a2da14f62d5b75457.jpg",
-   "category": "chain",
-   "area": "東海",
-   "published": "2026-10-05T13:41:00+09:00",
-   "provider": "bing",
-   "image_checked": true,
-   "added": "2026-10-05T13:41:00+09:00",
-   "shop": false,
-   "shop_name": null
-  },
-  {
-   "id": "2f94204e49f6c2a3",
-   "title": "セブン-イレブンから新登場!【話題のコラボ】やみつきになってしまう美味しさ「699円のお弁当」を実食（いぬきち） - エキスパート",
-   "link": "https://news.yahoo.co.jp/expert/articles/f42eee481c20b8c8fd2a9f847725fd9830b7fb03",
-   "source": "Yahoo!ニュース",
-   "image": "https://newsatcl-pctr.c.yimg.jp/t/iwiz-yn/creators/inukichi/02735756/title-1791172665993.jpeg?exp=10800",
-   "category": "conbini",
-   "area": "東海",
-   "published": "2026-10-05T13:01:05+09:00",
-   "provider": "google",
-   "decode_tried": true,
-   "image_checked": true,
-   "decode_v2": true,
-   "added": "2026-10-05T13:01:05+09:00",
    "shop": false,
    "shop_name": null
   }
