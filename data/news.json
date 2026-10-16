@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-16T20:30:45+09:00",
+ "updated": "2026-10-16T21:38:09+09:00",
  "items": [
   {
    "id": "1b3973fe0fe94205",
@@ -144,6 +144,23 @@
    "published": "2026-10-16T14:00:00+09:00",
    "provider": "google",
    "added": "2026-10-16T20:16:40+09:00",
+   "decode_v2": true,
+   "image_checked": true,
+   "image_v4": true,
+   "shop": false,
+   "shop_name": null
+  },
+  {
+   "id": "bab37e48c028e19c",
+   "title": "王道のおかずを盛り合わせたワンコインの「ファミマ・ザ・海苔弁当」 ファミマルの弁当史上最速100万食突破",
+   "link": "https://www.oricon.co.jp/news/2486860/full/",
+   "source": "オリコンニュース",
+   "image": "https://contents.oricon.co.jp/upimg/news/2487000/2486860/20261016_134016_p_o_71505831.jpg",
+   "category": "conbini",
+   "area": "東海",
+   "published": "2026-10-16T13:43:00+09:00",
+   "provider": "google",
+   "added": "2026-10-16T21:38:09+09:00",
    "decode_v2": true,
    "image_checked": true,
    "image_v4": true,
@@ -2296,6 +2313,23 @@
    "published": "2026-10-13T12:00:00+09:00",
    "provider": "google",
    "added": "2026-10-16T17:36:13+09:00",
+   "decode_v2": true,
+   "image_checked": true,
+   "image_v4": true,
+   "shop": false,
+   "shop_name": null
+  },
+  {
+   "id": "becf6d547326784b",
+   "title": "ケンタッキーのバーガーメニューを43年ぶり刷新 「オリジナルチキンバーガーズ」登場",
+   "link": "https://www.j-cast.com/trend/2026/10/13518422.html?p=all",
+   "source": "J-CAST ニュース",
+   "image": "https://www.j-cast.com/trend/images/origin/2026/10/trend_20261013114248.jpg",
+   "category": "chain",
+   "area": "東海",
+   "published": "2026-10-13T12:00:00+09:00",
+   "provider": "google",
+   "added": "2026-10-16T21:38:09+09:00",
    "decode_v2": true,
    "image_checked": true,
    "image_v4": true,
@@ -6354,38 +6388,6 @@
    "decode_v2": true,
    "added": "2026-10-05T13:01:05+09:00",
    "shop": false,
-   "shop_name": null
-  },
-  {
-   "id": "700a02e8ec0e7916",
-   "title": "タイカレーやガパオライスといったタイのグルメにタイ式 ...",
-   "link": "https://news.yahoo.co.jp/articles/5819a18eb1786959fcb4f9464870344c818fa004",
-   "source": "Yahoo!ニュース",
-   "image": "http://www.bing.com/th?id=ONUT.C6BASHa2_bEkxQnFlRE9-Q&pid=News",
-   "category": "wadai",
-   "area": "東海",
-   "published": "2026-10-03T12:02:00+09:00",
-   "provider": "bing",
-   "added": "2026-10-16T20:30:45+09:00",
-   "image_checked": true,
-   "image_v4": true,
-   "shop": false,
-   "shop_name": null
-  },
-  {
-   "id": "bda849612767759e",
-   "title": "【名古屋グルメ食べ歩き】コスパ最強！地下街の町中華で味わう ...",
-   "link": "https://news.livedoor.com/article/detail/32479306/",
-   "source": "ライブドアニュース",
-   "image": "https://image.news.livedoor.com/newsimage/stf/7/4/7407a_1845_8c4b993d_a24de559.jpg",
-   "category": "yasuuma",
-   "area": "名古屋",
-   "published": "2026-10-03T02:00:00+09:00",
-   "provider": "bing",
-   "added": "2026-10-16T20:30:45+09:00",
-   "image_checked": true,
-   "image_v4": true,
-   "shop": true,
    "shop_name": null
   }
  ]

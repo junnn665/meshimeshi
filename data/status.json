@@ -1,16 +1,15 @@
 {
- "updated": "2026-10-16T20:30:45+09:00",
+ "updated": "2026-10-16T21:38:09+09:00",
  "items": 374,
  "with_image": 353,
- "google_decode_ok": 26,
+ "google_decode_ok": 28,
  "google_decode_failed": 0,
  "google_decode_samples": [],
  "image_failures": [
   "www.excite.co.jp: HTTPError: HTTP Error 403: Forbidden",
   "www.excite.co.jp: HTTPError: HTTP Error 403: Forbidden",
-  "thetv.jp: og:image なし (42553 文字)",
+  "thetv.jp: og:image なし (42495 文字)",
   "www.excite.co.jp: HTTPError: HTTP Error 403: Forbidden",
-  "go2senkyo.com: og:image なし (2004 文字)",
-  "news.yahoo.co.jp: HTTPError: HTTP Error 404: Not Found"
+  "go2senkyo.com: og:image なし (2004 文字)"
  ]
 }
