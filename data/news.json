@@ -1,6 +1,23 @@
 {
- "updated": "2026-10-16T12:30:07+09:00",
+ "updated": "2026-10-16T13:30:33+09:00",
  "items": [
+  {
+   "id": "11f8a28b45b58e53",
+   "title": "名古屋の味スガキヤが横浜出店 関東3度目の挑戦 ラーメン490円、コスト削減がカギ",
+   "link": "https://news.tv-asahi.co.jp/news_economy/articles/900202034.html",
+   "source": "テレ朝NEWS",
+   "image": "https://news.tv-asahi.co.jp/articles_img/900202034_1200.jpg",
+   "category": "yasuuma",
+   "area": "名古屋",
+   "published": "2026-10-16T12:43:00+09:00",
+   "provider": "google",
+   "added": "2026-10-16T13:30:33+09:00",
+   "decode_v2": true,
+   "image_checked": true,
+   "image_v4": true,
+   "shop": false,
+   "shop_name": null
+  },
   {
    "id": "bb7a2825efe9a362",
    "title": "名古屋の「エビ愛」がすごかった！ エビが主役の名古屋めし3選【ご当地グルメ“旅”歩き】",
