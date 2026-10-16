@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-17T02:27:53+09:00",
+ "updated": "2026-10-17T03:32:26+09:00",
  "items": [
   {
    "id": "7a52827c4e47d206",
@@ -2487,6 +2487,23 @@
    "shop_name": "名古屋辛麺 鯱輪"
   },
   {
+   "id": "082b2998bab8d375",
+   "title": "【2026年10月発売!】今週発売! ファミリーマートの注目新作スイーツ5選",
+   "link": "https://news.mynavi.jp/article/20261013-5111359/",
+   "source": "マイナビニュース",
+   "image": "https://news.mynavi.jp/article/20261013-5111359/ogp_images/ogp.jpg",
+   "category": "conbini",
+   "area": "東海",
+   "published": "2026-10-13T11:02:45+09:00",
+   "provider": "google",
+   "added": "2026-10-17T03:32:26+09:00",
+   "decode_v2": true,
+   "image_checked": true,
+   "image_v4": true,
+   "shop": false,
+   "shop_name": null
+  },
+  {
    "id": "b371f870263c76f0",
    "title": "「待ってました！待ち遠しい」『資さんうどん』が東海初上陸 1月 ...",
    "link": "https://news.yahoo.co.jp/articles/c954eade4ab46e67011357ecf761b09867853381",
@@ -3966,7 +3983,7 @@
   },
   {
    "id": "9d0d5d9effa6ec85",
-   "title": "ジェイアール名古屋タカシマヤ「魅惑のパンフェスタ」に、BANKAKU KITCHENの新メニューが3種登場！（PR TIMES）",
+   "title": "ジェイアール名古屋タカシマヤ「魅惑のパンフェスタ」に、BANKAKU KITCHENの新メニューが3種登場！｜Infoseekニュース",
    "link": "https://prtimes.jp/main/html/rd/p/000000109.000078605.html",
    "source": "PR TIMES",
    "image": "https://prcdn.freetls.fastly.net/release_image/78605/109/78605-109-5558daa2f3860456fecde07131444796-1543x867.jpg?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260",
@@ -6353,23 +6370,6 @@
    "image_checked": true,
    "decode_v2": true,
    "added": "2026-10-05T17:45:59+09:00",
-   "shop": false,
-   "shop_name": null
-  },
-  {
-   "id": "dc1d4299e33d3d7d",
-   "title": "70歳以上が主役の食堂「おにみそ」、10月16日オープン",
-   "link": "https://www.value-press.com/pressrelease/381883",
-   "source": "valuepress",
-   "image": "https://files.value-press.com/czMjZXllY2F0Y2gjNzY5NDIjNzY5NDJfeGJ4WXNFakZyaC5qcGc.jpg?size=eyecatch",
-   "category": "shinten",
-   "area": "東海",
-   "published": "2026-10-05T17:00:00+09:00",
-   "provider": "google",
-   "added": "2026-10-11T20:17:48+09:00",
-   "decode_v2": true,
-   "image_checked": true,
-   "image_v4": true,
    "shop": false,
    "shop_name": null
   }
