@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-17T07:27:53+09:00",
+ "updated": "2026-10-17T08:24:53+09:00",
  "items": [
   {
    "id": "1a82ecd609635535",
@@ -3320,6 +3320,23 @@
    "shop_name": null
   },
   {
+   "id": "ba07340809ebdd9f",
+   "title": "記念日デート、どこに行く？特別な日に訪れたい名古屋のフレンチレストラン3選",
+   "link": "https://www.walkerplus.com/article/213074/",
+   "source": "ウォーカープラス",
+   "image": "https://news.walkerplus.com/article/213074/1333300_615.jpg",
+   "category": "wadai",
+   "area": "名古屋",
+   "published": "2026-10-11T16:00:00+09:00",
+   "provider": "google",
+   "added": "2026-10-17T08:24:53+09:00",
+   "decode_v2": true,
+   "image_checked": true,
+   "image_v4": true,
+   "shop": false,
+   "shop_name": null
+  },
+  {
    "id": "a6c81bae669cc425",
    "title": "【あみやき亭中部地区店舗】平日半額フェアを開催！平日限定のお得なチャンス！人気の焼肉メニュー全10商品が半額になる「平日半額フェア」を店舗限定で開催します！ぜひこの機会にご利用ください。",
    "link": "https://prtimes.jp/main/html/rd/p/000000393.000130952.html",
@@ -6287,40 +6304,6 @@
    "image_checked": true,
    "image_v4": true,
    "shop": true,
-   "shop_name": null
-  },
-  {
-   "id": "802f67180a583473",
-   "title": "愛知の老舗喫茶「フレンズ」が物価高の今もデカ盛りにこだわり続ける理由 (2026年10月5日掲載)",
-   "link": "https://news.livedoor.com/topics/detail/32493636/",
-   "source": "ライブドアニュース",
-   "image": "https://image.news.livedoor.com/newsimage/stf/b/f/bfa7e_1780_7045c5e5065ca82ac3ab2581cb8b6456.jpg",
-   "category": "deka",
-   "area": "愛知",
-   "published": "2026-10-06T06:55:21+09:00",
-   "provider": "google",
-   "decode_tried": true,
-   "image_checked": true,
-   "decode_v2": true,
-   "added": "2026-10-06T06:55:21+09:00",
-   "shop": true,
-   "shop_name": "フレンズ"
-  },
-  {
-   "id": "e041170bea6b8358",
-   "title": "マックカフェにチョコとアーモンドの期間限定メニュー",
-   "link": "https://www.walkerplus.com/article/71087/",
-   "source": "ウォーカープラス",
-   "image": "https://news.walkerplus.com/article/71087/398905_615.jpg",
-   "category": "chain",
-   "area": "東海",
-   "published": "2026-10-06T06:29:23+09:00",
-   "provider": "google",
-   "decode_tried": true,
-   "image_checked": true,
-   "decode_v2": true,
-   "added": "2026-10-06T06:29:23+09:00",
-   "shop": false,
    "shop_name": null
   }
  ]
