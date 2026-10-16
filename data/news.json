@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-17T01:30:40+09:00",
+ "updated": "2026-10-17T02:27:53+09:00",
  "items": [
   {
    "id": "7a52827c4e47d206",
@@ -1715,6 +1715,23 @@
    "published": "2026-10-14T08:52:36+09:00",
    "provider": "google",
    "added": "2026-10-14T09:38:58+09:00",
+   "decode_v2": true,
+   "image_checked": true,
+   "image_v4": true,
+   "shop": false,
+   "shop_name": null
+  },
+  {
+   "id": "c08873fb1150ef29",
+   "title": "文具店のスコーンモーニング【東海３県・モーニングにメ～ロメロ！】Collection No.１１５８",
+   "link": "https://locipo.jp/creative/a247017d-5c06-4aef-a003-99e0a1f4db58",
+   "source": "Locipo(ロキポ)",
+   "image": "https://assets.locipo.jp/creatives/180880/original-a247017d-5c06-4aef-a003-99e0a1f4db58-20261013021911.jpg",
+   "category": "yasuuma",
+   "area": "東海",
+   "published": "2026-10-14T08:00:16+09:00",
+   "provider": "google",
+   "added": "2026-10-17T02:27:53+09:00",
    "decode_v2": true,
    "image_checked": true,
    "image_v4": true,
@@ -6353,23 +6370,6 @@
    "decode_v2": true,
    "image_checked": true,
    "image_v4": true,
-   "shop": false,
-   "shop_name": null
-  },
-  {
-   "id": "32d35219ce45418f",
-   "title": "【2026年10月発売!】今週発売! ファミリーマートの注目新作スイーツ5選｜Infoseekニュース",
-   "link": "https://news.mynavi.jp/article/20261005-5075924/",
-   "source": "マイナビニュース",
-   "image": "https://news.mynavi.jp/article/20261005-5075924/ogp_images/ogp.jpg",
-   "category": "conbini",
-   "area": "東海",
-   "published": "2026-10-05T16:12:44+09:00",
-   "provider": "google",
-   "decode_tried": true,
-   "image_checked": true,
-   "decode_v2": true,
-   "added": "2026-10-05T16:12:44+09:00",
    "shop": false,
    "shop_name": null
   }
