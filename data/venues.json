@@ -148,5 +148,35 @@
   "lat": 35.091,
   "lng": 136.88,
   "source": "builtin"
+ },
+ "ポートメッセなごや": {
+  "lat": 35.04789,
+  "lng": 136.84429,
+  "source": "nominatim"
+ },
+ "モリコロパーク": {
+  "lat": 35.16961,
+  "lng": 137.09096,
+  "source": "nominatim"
+ },
+ "Aichi Sky Expo": {
+  "lat": 34.8715,
+  "lng": 136.8132,
+  "source": "builtin"
+ },
+ "中部国際空港": {
+  "lat": 34.85994,
+  "lng": 136.81618,
+  "source": "nominatim"
+ },
+ "ららぽーと愛知東郷": {
+  "lat": 35.09935,
+  "lng": 137.04667,
+  "source": "nominatim"
+ },
+ "名古屋PARCO": {
+  "lat": 35.16172,
+  "lng": 136.90745,
+  "source": "nominatim"
  }
 }

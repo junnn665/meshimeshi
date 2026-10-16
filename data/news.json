@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-16T18:25:57+09:00",
+ "updated": "2026-10-16T18:31:51+09:00",
  "items": [
   {
    "id": "9cc576982d6d41b8",
@@ -1101,6 +1101,23 @@
    "venue": "ジェイアール名古屋タカシマヤ",
    "lat": 35.17123,
    "lng": 136.88272
+  },
+  {
+   "id": "4ec20aa791fc0aa9",
+   "title": "神宮前に『サッポロラーメン専門 荒畑』がオープン",
+   "link": "https://jouhou.nagoya/sappororamen-arahata-jingumae/",
+   "source": "名古屋情報通",
+   "image": "https://jouhou.nagoya/wp-content/uploads/2026/10/sappororamen-arahata001-600x399.jpg",
+   "category": "shinten",
+   "area": "東海",
+   "published": "2026-10-14T16:00:00+09:00",
+   "provider": "google",
+   "added": "2026-10-16T18:31:51+09:00",
+   "decode_v2": true,
+   "image_checked": true,
+   "image_v4": true,
+   "shop": false,
+   "shop_name": null
   },
   {
    "id": "fd6304bd4712b50f",
@@ -6262,40 +6279,6 @@
    "image": "https://news.walkerplus.com/article/1148612/12017794_615.jpg",
    "category": "wadai",
    "area": "東海",
-   "published": "2026-10-04T16:00:00+09:00",
-   "provider": "google",
-   "decode_tried": true,
-   "image_checked": true,
-   "decode_v2": true,
-   "added": "2026-10-04T16:00:00+09:00",
-   "shop": false,
-   "shop_name": null
-  },
-  {
-   "id": "72e56a9b1f219d8f",
-   "title": "『矢場味仙』が栄・松坂屋名古屋店にオープン！店舗限定で台湾ミンチカレー、担々麺なども提供",
-   "link": "https://jouhou.nagoya/yabamisen-matsuzakaya-repo/",
-   "source": "名古屋情報通",
-   "image": "https://jouhou.nagoya/wp-content/uploads/2026/09/yabamisen001-600x400.jpg",
-   "category": "shinten",
-   "area": "名古屋",
-   "published": "2026-10-04T16:00:00+09:00",
-   "provider": "google",
-   "decode_tried": true,
-   "image_checked": true,
-   "decode_v2": true,
-   "added": "2026-10-04T16:00:00+09:00",
-   "shop": true,
-   "shop_name": "矢場味仙"
-  },
-  {
-   "id": "c1e7cfcb57947180",
-   "title": "濃厚熱々な札幌ラーメンを味わえる店『戸倉』金山駅近くにオープン",
-   "link": "https://jouhou.nagoya/sappororamen-tokura/",
-   "source": "名古屋情報通",
-   "image": "https://jouhou.nagoya/wp-content/uploads/2026/09/sappororamen-tokura001-600x400.jpg",
-   "category": "shinten",
-   "area": "名古屋",
    "published": "2026-10-04T16:00:00+09:00",
    "provider": "google",
    "decode_tried": true,
