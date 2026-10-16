@@ -136,6 +136,71 @@
     return { id: 'unknown', label: '日程不明' };
   }
 
+  function addDays(iso, n) {
+    var d = new Date(Date.parse(iso + 'T00:00:00Z') + n * 86400000);
+    return d.toISOString().slice(0, 10);
+  }
+  // 今週末（土日）。土日に見ているときはその週末
+  function weekendJst() {
+    var t = todayJst();
+    var dow = new Date(t + 'T00:00:00Z').getUTCDay();
+    var sat = dow === 0 ? addDays(t, -1) : addDays(t, 6 - dow);
+    return { sat: sat, sun: addDays(sat, 1) };
+  }
+  function onWeekend(it, wk) {
+    if (!it.start && !it.end) return false;
+    if (eventStatus(it).id === 'past') return false;
+    var s = it.start || '0000-00-00', e = it.end || it.start;
+    return s <= wk.sun && e >= wk.sat;
+  }
+  // 行きたいイベントのお知らせ（始まる日・最終日の前日など）
+  function eventNotices() {
+    var t = todayJst(), tm = addDays(t, 1);
+    var out = [];
+    state.savedItems.forEach(function (it) {
+      if (it.category !== 'event') return;
+      var oneDay = it.start && (!it.end || it.end === it.start);
+      var msg = null, lv = 1;
+      if (oneDay && it.start === t) { msg = '今日開催'; lv = 0; }
+      else if (oneDay && it.start === tm) msg = '明日開催';
+      else if (it.end === t) { msg = '今日が最終日'; lv = 0; }
+      else if (it.start === t) { msg = '今日から開催'; lv = 0; }
+      else if (it.end === tm) msg = '明日で終わり';
+      else if (it.start === tm) msg = '明日から開催';
+      if (msg) out.push({ it: it, msg: msg, lv: lv });
+    });
+    return out.sort(function (a, b) { return a.lv - b.lv; });
+  }
+  function renderNotices(target, before) {
+    if (!target) return;
+    var old = document.getElementById('ev-notice');
+    if (old) old.remove();
+    var list = eventNotices();
+    if (!list.length) return;
+    var key = todayJst() + ':' + list.map(function (n) { return n.it.id + n.msg; }).join('|');
+    if (store.get('meshi.evNoticeHide', '') === key) return;
+    var box = el('aside', 'ev-notice');
+    box.id = 'ev-notice';
+    box.setAttribute('role', 'status');
+    var head = el('div', 'ev-notice-head');
+    head.appendChild(el('b', null, '行きたいイベントのお知らせ'));
+    var x = el('button', 'ev-notice-close', '×');
+    x.type = 'button';
+    x.setAttribute('aria-label', '今日はもう表示しない');
+    x.addEventListener('click', function () { store.set('meshi.evNoticeHide', key); box.remove(); });
+    head.appendChild(x);
+    box.appendChild(head);
+    list.forEach(function (n) {
+      var row = el('a', 'ev-notice-row');
+      row.href = n.it.link; row.target = '_blank'; row.rel = 'noopener';
+      row.appendChild(el('span', 'ev-notice-tag' + (n.lv === 0 ? ' today' : ''), n.msg));
+      row.appendChild(el('span', 'ev-notice-title', n.it.title));
+      if (n.it.venue) row.appendChild(el('span', 'ev-notice-venue', n.it.venue));
+      box.appendChild(row);
+    });
+    target.insertBefore(box, before || null);
+  }
+
   function isNew(it) {
     return prevVisit > 0 && it.added && Date.parse(it.added) > prevVisit;
   }
@@ -151,6 +216,7 @@
       state.savedItems.unshift({
         id: it.id, title: it.title, link: it.link, source: it.source, image: it.image,
         category: it.category, genre: it.genre, area: it.area, published: it.published,
+        start: it.start, end: it.end, venue: it.venue, lat: it.lat, lng: it.lng,
         savedAt: new Date().toISOString()
       });
     }
@@ -1745,6 +1811,11 @@
   if ($('vote')) buildVote();
   // ごはんイベントマップのページ
   if ($('ev-map')) buildEvents();
+  // トップページ：行きたいイベントのお知らせ
+  (function () {
+    var entry = document.querySelector('.ev-entry');
+    if (entry && $('grid')) renderNotices(entry.parentNode, entry);
+  })();
 
   function buildEvents() {
     var SPOTS = {
@@ -1784,6 +1855,7 @@
     var FILTERS = [
       { id: 'active', label: '開催中・これから' },
       { id: 'now', label: '開催中だけ' },
+      { id: 'saved', label: '行きたいだけ' },
       { id: 'all', label: 'すべて（終了も）' }
     ];
     if (!FILTERS.some(function (f) { return f.id === ev.filter; })) ev.filter = 'active';
@@ -1805,6 +1877,7 @@
     function visible(it) {
       var st = eventStatus(it).id;
       if (ev.filter === 'now') return st === 'now';
+      if (ev.filter === 'saved') return isSaved(it.id);
       if (ev.filter === 'active') return st !== 'past';
       return true;
     }
@@ -1835,7 +1908,84 @@
       return wrap;
     }
 
+    function showOnMap(it) {
+      if (!ev.map) return;
+      $('ev-map').scrollIntoView({ behavior: 'smooth', block: 'center' });
+      ev.map.flyTo([it.lat, it.lng], 17, { duration: 0.8 });
+      var m = ev.markers[it.venue];
+      if (m) setTimeout(function () { m.openPopup(); }, 850);
+    }
+    function saveButton(it) {
+      var on = isSaved(it.id);
+      var b = el('button', 'ev-save' + (on ? ' on' : ''));
+      b.type = 'button';
+      b.setAttribute('aria-pressed', String(on));
+      b.appendChild(svg('heart', 'ev-save-icon'));
+      b.appendChild(document.createTextNode(on ? '行きたい済み' : '行きたい'));
+      b.addEventListener('click', function () {
+        toggleSaved(it);
+        render();
+        if (!on) gToastEv(it);
+      });
+      return b;
+    }
+    function gToastEv(it) {
+      var st = eventStatus(it).id;
+      var t = $('ev-toast');
+      if (!t) return;
+      t.textContent = (it.start || it.end) && st !== 'past'
+        ? '保存しました。始まる日や最終日の前日に、このページとトップでお知らせします'
+        : '保存しました（日程が分からないため、お知らせはできません）';
+      t.hidden = false;
+      clearTimeout(gToastEv.timer);
+      gToastEv.timer = setTimeout(function () { t.hidden = true; }, 3600);
+    }
+
+    function renderWeekend() {
+      var box = $('ev-weekend');
+      if (!box) return;
+      var wk = weekendJst();
+      var list = sorted(ev.items.filter(function (it) { return onWeekend(it, wk); }));
+      box.textContent = '';
+      var head = el('div', 'ev-wk-head');
+      head.appendChild(el('h2', null, '今週末のおすすめ'));
+      head.appendChild(el('span', 'ev-wk-days', fmtDay(wk.sat) + '・' + fmtDay(wk.sun)));
+      box.appendChild(head);
+      if (!list.length) {
+        box.appendChild(el('p', 'ev-wk-empty', '今週末に開催のイベントはまだ見つかっていません。新しいニュースが入ったらここに出ます。'));
+        return;
+      }
+      var row = el('div', 'ev-wk-row');
+      list.forEach(function (it) {
+        var st = eventStatus(it);
+        var c = el('article', 'ev-wk-card');
+        var top = el('div', 'ev-card-head');
+        top.appendChild(el('span', 'ev-status ' + st.id, st.label));
+        top.appendChild(el('span', 'ev-when', eventRange(it)));
+        c.appendChild(top);
+        var a = el('a', 'ev-wk-title', it.title);
+        a.href = it.link; a.target = '_blank'; a.rel = 'noopener';
+        c.appendChild(a);
+        if (it.venue) c.appendChild(el('p', 'ev-wk-venue', it.venue));
+        var foot = el('div', 'ev-wk-foot');
+        if (it.venue && ev.map) {
+          var go = el('button', 'ev-onmap');
+          go.type = 'button';
+          go.appendChild(svg('pin', 'ev-onmap-icon'));
+          go.appendChild(document.createTextNode('地図'));
+          go.addEventListener('click', function () { showOnMap(it); });
+          foot.appendChild(go);
+        }
+        foot.appendChild(saveButton(it));
+        c.appendChild(foot);
+        row.appendChild(c);
+      });
+      box.appendChild(row);
+    }
+
     function render() {
+      renderWeekend();
+      renderNotices($('ev-notice-slot'));
       var list = sorted(ev.items.filter(visible));
       // 地図：会場ごとに1本のピン
       if (ev.map) {
@@ -1882,15 +2032,10 @@
           go.type = 'button';
           go.appendChild(svg('pin', 'ev-onmap-icon'));
           go.appendChild(document.createTextNode(it.venue + 'を地図で見る'));
-          go.addEventListener('click', function () {
-            if (!ev.map) return;
-            $('ev-map').scrollIntoView({ behavior: 'smooth', block: 'center' });
-            ev.map.flyTo([it.lat, it.lng], 17, { duration: 0.8 });
-            var m = ev.markers[it.venue];
-            if (m) setTimeout(function () { m.openPopup(); }, 850);
-          });
+          go.addEventListener('click', function () { showOnMap(it); });
           foot.appendChild(go);
         }
+        foot.appendChild(saveButton(it));
         foot.appendChild(el('span', 'ev-src', it.source || ''));
         c.appendChild(foot);
         target.appendChild(c);
@@ -1909,6 +2054,20 @@
       })
       .then(function (d) {
         ev.items = (d.items || []).filter(function (it) { return it.category === 'event'; });
+        // 記事一覧から消えた「行きたい」イベントも残す
+        var ids = {};
+        ev.items.forEach(function (it) { ids[it.id] = true; });
+        state.savedItems.forEach(function (it) { if (it.category === 'event' && !ids[it.id]) ev.items.push(it); });
+        // 保存してある日程を最新の読み取り結果にそろえる
+        var changed = false;
+        state.savedItems.forEach(function (s) {
+          ev.items.forEach(function (it) {
+            if (it.id === s.id && (it.start !== s.start || it.end !== s.end || it.venue !== s.venue)) {
+              s.start = it.start; s.end = it.end; s.venue = it.venue; s.lat = it.lat; s.lng = it.lng; changed = true;
+            }
+          });
+        });
+        if (changed) store.set('meshi.saved', state.savedItems);
         render();
       })
       .catch(function () {

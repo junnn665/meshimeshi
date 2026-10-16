@@ -39,6 +39,8 @@
     <p class="ev-kicker">開催中・これからのグルメイベント</p>
     <h1 class="ev-heading" id="ev-heading">ごはんイベントマップ</h1>
     <p class="ev-lead">フェス・マルシェ・物産展など、ニュースで見つけたごはんのイベントを地図にのせています。会場と日程は記事の見出しから読み取っているので、お出かけ前に記事で確認してください。</p>
+    <div id="ev-notice-slot"></div>
+    <section class="ev-weekend" id="ev-weekend" aria-label="今週末のおすすめ"></section>
     <div class="ev-spots" id="ev-spots" role="group" aria-label="場所へ移動"></div>
     <div class="ev-map" id="ev-map" role="region" aria-label="イベントの地図"></div>
     <div class="ev-legend" aria-hidden="true">
@@ -52,6 +54,7 @@
     </div>
     <p class="gh-empty" id="ev-empty" hidden>いまのところ、この条件のイベントは見つかっていません。1時間ごとに新しいニュースを確認しています。</p>
     <div class="ev-list" id="ev-list"></div>
+    <div class="toast" id="ev-toast" role="status" aria-live="polite" hidden></div>
   </section>
 </main>
 
