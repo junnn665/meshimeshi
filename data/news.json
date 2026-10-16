@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-17T00:30:25+09:00",
+ "updated": "2026-10-17T01:30:40+09:00",
  "items": [
   {
    "id": "7a52827c4e47d206",
@@ -1392,6 +1392,22 @@
    "provider": "google",
    "added": "2026-10-14T22:36:59+09:00",
    "decode_v2": true,
+   "image_checked": true,
+   "image_v4": true,
+   "shop": false,
+   "shop_name": null
+  },
+  {
+   "id": "b4694ee4801833c9",
+   "title": "秋キャンプの“仕込み”はお酒から！？デカ盛り洋食店「とらや ...",
+   "link": "https://note.com/fmgig_nagoya/n/n83fbca4ead8f",
+   "source": "note",
+   "image": "https://assets.st-note.com/production/uploads/images/315298823/rectangle_large_type_2_23fd66378e71ff0b8ed5740473df7e21.png?fit=bounds&quality=85&width=1280",
+   "category": "deka",
+   "area": "東海",
+   "published": "2026-10-14T14:00:00+09:00",
+   "provider": "bing",
+   "added": "2026-10-17T01:30:40+09:00",
    "image_checked": true,
    "image_v4": true,
    "shop": false,
@@ -3278,6 +3294,22 @@
    "provider": "google",
    "added": "2026-10-16T19:32:15+09:00",
    "decode_v2": true,
+   "image_checked": true,
+   "image_v4": true,
+   "shop": false,
+   "shop_name": null
+  },
+  {
+   "id": "b9e032333c15b070",
+   "title": "海の幸で「Sea級」グルメ 31日から七尾・和倉で全国大会 大黒摩季 ...",
+   "link": "https://www.hokkoku.co.jp/articles/-/2256075",
+   "source": "北國新聞",
+   "image": "https://hokkoku.ismcdn.jp/mwimgs/e/4/1200wm/img_e4c544d1b8c641f1480fe7d423f86d95174290.jpg",
+   "category": "wadai",
+   "area": "東海",
+   "published": "2026-10-11T07:00:00+09:00",
+   "provider": "bing",
+   "added": "2026-10-17T01:30:40+09:00",
    "image_checked": true,
    "image_v4": true,
    "shop": false,
@@ -6338,23 +6370,6 @@
    "image_checked": true,
    "decode_v2": true,
    "added": "2026-10-05T16:12:44+09:00",
-   "shop": false,
-   "shop_name": null
-  },
-  {
-   "id": "117853f7896f5480",
-   "title": "9月14日(月)オープン！ららぽーと愛知東郷の注目グルメ店5選",
-   "link": "https://www.walkerplus.com/article/1006084/",
-   "source": "ウォーカープラス",
-   "image": "https://news.walkerplus.com/article/1006084/10045863_615.jpg",
-   "category": "shinten",
-   "area": "愛知",
-   "published": "2026-10-05T16:00:00+09:00",
-   "provider": "google",
-   "decode_tried": true,
-   "image_checked": true,
-   "decode_v2": true,
-   "added": "2026-10-05T16:00:00+09:00",
    "shop": false,
    "shop_name": null
   }
