@@ -1767,9 +1767,14 @@
     // 場所のボタン
     var spots = $('ev-spots');
     Object.keys(SPOTS).forEach(function (k) {
-      var b = el('button', 'ev-spot', SPOTS[k].label);
+      var b = el('button', 'ev-spot' + (k === 'sakae' ? ' is-on' : ''), SPOTS[k].label);
       b.type = 'button';
+      b.setAttribute('aria-pressed', k === 'sakae' ? 'true' : 'false');
       b.addEventListener('click', function () {
+        Array.prototype.forEach.call(spots.children, function (x) {
+          x.classList.toggle('is-on', x === b);
+          x.setAttribute('aria-pressed', x === b ? 'true' : 'false');
+        });
         if (ev.map) ev.map.flyTo(SPOTS[k].c, SPOTS[k].z, { duration: 0.8 });
         $('ev-map').scrollIntoView({ behavior: 'smooth', block: 'center' });
       });

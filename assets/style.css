@@ -931,7 +931,7 @@ body.no-scroll { overflow: hidden; }
   min-height: 40px; padding: 0 14px; border-radius: 999px; cursor: pointer; font-family: inherit; font-size: 13px; font-weight: 900;
   background: #fff; color: var(--ink); border: 2px solid var(--ink);
 }
-.ev-spot:first-child { background: #0E7490; color: #fff; border-color: #0E7490; }
+.ev-spot.is-on { background: #0E7490; color: #fff; border-color: #0E7490; }
 .ev-map {
   height: 58vh; min-height: 320px; max-height: 560px; border-radius: 18px; border: 2px solid var(--ink); overflow: hidden;
   box-shadow: 4px 4px 0 rgba(43, 33, 24, .25); background: #E9E4D8; z-index: 0;
