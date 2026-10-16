@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>ごはんイベントマップ｜飯飯食堂</title>
+<meta name="description" content="久屋大通・栄・名駅など、東海・名古屋で開催中・これからのグルメイベントを地図で">
+<meta name="theme-color" content="#2B2118">
+<meta property="og:title" content="ごはんイベントマップ｜飯飯食堂">
+<meta property="og:description" content="いま久屋大通でやってるグルメイベントは？ 地図でチェック">
+<meta property="og:type" content="website">
+<link rel="icon" href="assets/icon.svg" type="image/svg+xml">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="飯飯食堂">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Zen+Maru+Gothic:wght@500;700;900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/vendor/leaflet/leaflet.css">
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body class="gacha-page events-page">
+<div class="offline-bar" id="offline-bar" hidden>電波がないため、前回読み込んだ内容を表示しています</div>
+<header class="mini-header">
+  <div class="wrap mini-inner">
+    <a class="mini-logo" href="./">飯飯食堂</a>
+    <nav class="mini-nav" aria-label="サイト">
+      <a href="./">記事一覧</a>
+      <a href="gacha.html">飯ガチャ</a>
+    </nav>
+  </div>
+</header>
+
+<main class="wrap main">
+  <section class="ev" aria-labelledby="ev-heading">
+    <p class="ev-kicker">開催中・これからのグルメイベント</p>
+    <h1 class="ev-heading" id="ev-heading">ごはんイベントマップ</h1>
+    <p class="ev-lead">フェス・マルシェ・物産展など、ニュースで見つけたごはんのイベントを地図にのせています。会場と日程は記事の見出しから読み取っているので、お出かけ前に記事で確認してください。</p>
+    <div class="ev-spots" id="ev-spots" role="group" aria-label="場所へ移動"></div>
+    <div class="ev-map" id="ev-map" role="region" aria-label="イベントの地図"></div>
+    <div class="ev-legend" aria-hidden="true">
+      <span><i class="ev-dot now"></i>開催中</span><span><i class="ev-dot soon"></i>これから</span>
+      <span><i class="ev-dot unknown"></i>日程不明</span><span><i class="ev-dot past"></i>終了</span>
+    </div>
+    <div class="g-pills ev-filters" id="ev-filters" role="group" aria-label="表示するイベント"></div>
+    <div class="ev-list-head">
+      <h2>イベント一覧</h2>
+      <p class="ev-count" id="ev-count"></p>
+    </div>
+    <p class="gh-empty" id="ev-empty" hidden>いまのところ、この条件のイベントは見つかっていません。1時間ごとに新しいニュースを確認しています。</p>
+    <div class="ev-list" id="ev-list"></div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <p>地図：© OpenStreetMap contributors。イベントの情報は各ニュースサイトの記事から集めています。日程や内容は変わることがあるので、必ず記事・公式情報でご確認ください。</p>
+    <p>© 飯飯食堂</p>
+  </div>
+</footer>
+
+<script src="assets/vendor/leaflet/leaflet.js"></script>
+<script src="assets/config.js"></script>
+<script src="assets/app.js"></script>
+</body>
+</html>

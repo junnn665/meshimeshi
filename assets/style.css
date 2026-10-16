@@ -899,3 +899,88 @@ body.no-scroll { overflow: hidden; }
 }
 .gacha-stage { overflow: hidden; }
 .machine.rare { isolation: isolate; }
+
+/* ===== ごはんイベント ===== */
+.ev-line { display: flex; flex-wrap: wrap; align-items: center; gap: 6px; font-size: 12px; }
+.ev-status {
+  display: inline-flex; align-items: center; padding: 2px 9px; border-radius: 999px; font-size: 11px; font-weight: 900; white-space: nowrap;
+  background: #E5E1D8; color: var(--ink);
+}
+.ev-status.now { background: #D92D20; color: #fff; }
+.ev-status.soon { background: #FFC93C; color: var(--ink); }
+.ev-status.past { background: #CFCAC0; color: #5C4E40; }
+.ev-when { color: var(--sub); font-weight: 700; }
+
+.ev-entry {
+  display: flex; align-items: center; gap: 12px; padding: 14px 16px; border-radius: 18px;
+  background: #0E7490; color: #fff; box-shadow: 4px 4px 0 rgba(43, 33, 24, .25);
+}
+.ev-entry:hover { color: #fff; transform: translate(-1px, -1px); }
+.ev-entry-icon { flex: none; width: 44px; height: 44px; border-radius: 50%; background: #fff; color: #0E7490; display: flex; align-items: center; justify-content: center; }
+.ev-entry-icon svg { width: 24px; height: 24px; }
+.ev-entry-text { flex: 1; min-width: 0; display: flex; flex-direction: column; gap: 2px; font-size: 12px; line-height: 1.5; color: rgba(255, 255, 255, .85); }
+.ev-entry-text b { font-size: 18px; color: #fff; letter-spacing: .04em; }
+.ev-entry-arrow { flex: none; font-size: 20px; font-weight: 900; }
+
+.ev { display: flex; flex-direction: column; gap: 12px; }
+.ev-kicker { margin: 0; font-size: 13px; font-weight: 900; color: #0E7490; letter-spacing: .08em; }
+.ev-heading { margin: 0; font-size: 32px; font-weight: 900; letter-spacing: .04em; }
+.ev-lead { margin: 0; font-size: 13px; line-height: 1.8; color: var(--sub); }
+.ev-spots { display: flex; flex-wrap: wrap; gap: 6px; }
+.ev-spot {
+  min-height: 40px; padding: 0 14px; border-radius: 999px; cursor: pointer; font-family: inherit; font-size: 13px; font-weight: 900;
+  background: #fff; color: var(--ink); border: 2px solid var(--ink);
+}
+.ev-spot:first-child { background: #0E7490; color: #fff; border-color: #0E7490; }
+.ev-map {
+  height: 58vh; min-height: 320px; max-height: 560px; border-radius: 18px; border: 2px solid var(--ink); overflow: hidden;
+  box-shadow: 4px 4px 0 rgba(43, 33, 24, .25); background: #E9E4D8; z-index: 0;
+}
+.ev-map-failed { display: flex; align-items: center; justify-content: center; padding: 16px; text-align: center; font-weight: 700; color: var(--sub); }
+.ev-legend { display: flex; flex-wrap: wrap; gap: 4px 14px; font-size: 12px; font-weight: 700; color: var(--sub); }
+.ev-legend span { display: inline-flex; align-items: center; gap: 5px; }
+.ev-dot { width: 12px; height: 12px; border-radius: 50%; border: 2px solid var(--ink); display: inline-block; background: #E5E1D8; }
+.ev-dot.now { background: #D92D20; } .ev-dot.soon { background: #FFC93C; } .ev-dot.past { background: #CFCAC0; }
+.ev-filters .g-pill { color: var(--ink); border-color: rgba(43, 33, 24, .35); }
+.ev-filters .g-pill[aria-pressed="true"] { background: var(--ink); border-color: var(--ink); color: var(--yellow); }
+
+/* 地図のピン */
+.ev-pin-wrap { background: none; border: 0; }
+.ev-pin {
+  position: relative; display: block; width: 34px; height: 34px; border-radius: 50% 50% 50% 0; transform: rotate(-45deg);
+  background: #E5E1D8; border: 3px solid var(--ink); box-shadow: 2px 2px 0 rgba(0, 0, 0, .3);
+}
+.ev-pin.now { background: #D92D20; } .ev-pin.soon { background: #FFC93C; } .ev-pin.past { background: #CFCAC0; }
+.ev-pin-n {
+  position: absolute; inset: 0; display: flex; align-items: center; justify-content: center; transform: rotate(45deg);
+  font: 900 13px/1 'Zen Maru Gothic', sans-serif; color: #fff; text-shadow: 0 0 2px rgba(0, 0, 0, .6);
+}
+.ev-pin.soon .ev-pin-n, .ev-pin.unknown .ev-pin-n, .ev-pin.past .ev-pin-n { color: var(--ink); text-shadow: none; }
+.ev-pop { font-family: 'Zen Maru Gothic', sans-serif; display: flex; flex-direction: column; gap: 10px; }
+.ev-pop-venue { margin: 0; font-size: 15px; font-weight: 900; color: var(--ink); }
+.ev-pop-row { display: flex; flex-direction: column; align-items: flex-start; gap: 3px; padding-top: 8px; border-top: 1px dashed rgba(43, 33, 24, .25); }
+.ev-pop-title { font-size: 13px; font-weight: 700; line-height: 1.5; color: var(--ink) !important; text-decoration: underline; }
+.ev-pop-when { font-size: 11px; color: var(--muted); }
+.leaflet-container a.leaflet-popup-close-button { width: 32px; height: 32px; font-size: 22px; }
+
+/* 一覧 */
+.ev-list-head { display: flex; flex-wrap: wrap; align-items: baseline; justify-content: space-between; gap: 4px 12px; margin-top: 8px; }
+.ev-list-head h2 { margin: 0; font-size: 22px; font-weight: 900; }
+.ev-count { margin: 0; font-size: 12px; color: var(--muted); }
+.ev-list { display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 12px; }
+.ev-sub { grid-column: 1 / -1; margin: 10px 0 0; font-size: 15px; font-weight: 900; color: var(--sub); }
+.ev-card {
+  display: flex; flex-direction: column; gap: 8px; padding: 14px; border-radius: 16px; background: #fff;
+  border: 2px solid var(--ink); box-shadow: 3px 3px 0 rgba(43, 33, 24, .3);
+}
+.ev-card.past { opacity: .7; }
+.ev-card-head { display: flex; flex-wrap: wrap; align-items: center; gap: 6px; font-size: 12px; }
+.ev-title { font-size: 15px; font-weight: 900; line-height: 1.55; color: var(--ink); }
+.ev-card-foot { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 6px; margin-top: auto; }
+.ev-onmap {
+  display: inline-flex; align-items: center; gap: 4px; min-height: 36px; padding: 0 12px; border-radius: 999px; cursor: pointer;
+  background: #E6F4F7; color: #0E7490; border: 2px solid #0E7490; font-family: inherit; font-size: 12px; font-weight: 900;
+}
+.ev-onmap-icon { display: inline-flex; width: 16px; height: 16px; }
+.ev-onmap-icon svg { width: 100%; height: 100%; }
+.ev-src { font-size: 11px; color: var(--muted); }

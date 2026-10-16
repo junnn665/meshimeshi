@@ -40,6 +40,15 @@
 - OpenStreetMap のお店には写真・予算・順位がないため、「予算」「人気上位」で絞ったときは候補に入りません。
 - 表示には © OpenStreetMap contributors の表記を入れています。
 
+## ごはんイベントマップ（events.html）
+
+- `scripts/events.py` … ニュースの見出しから、フェス・マルシェ・物産展などのごはんイベントを見分け、
+  会場（`VENUES` の一覧）と開催日を読み取ります。お店のキャンペーンやチェーンの新商品はイベントにしません。
+- 会場の座標は `VENUES` の値を基本に、公開時に OpenStreetMap の地名検索（Nominatim）で確かめ、
+  `data/venues.json` に保存します（1回の実行で数件・1秒に1回まで）。
+- 地図は Leaflet（`assets/vendor/leaflet`、BSDライセンス）と OpenStreetMap のタイルで表示します。
+- 新しい会場を増やすときは `VENUES` に「表示名・見出しで探す言葉・緯度・経度・地名検索の言葉」を足します。
+
 ## 調整したいとき
 
 - 集めるキーワード … `scripts/fetch_news.py` の `QUERIES`

@@ -37,7 +37,7 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/news.json data/status.json
+          git add data/news.json data/status.json data/venues.json
           if git diff --cached --quiet; then
             echo "変更なし"
           else
@@ -64,9 +64,9 @@ jobs:
       - name: ファイルに版番号をつける
         run: |
           V="${GITHUB_SHA::7}-${GITHUB_RUN_NUMBER}"
-          sed -i -E "s#(assets/(app\.js|style\.css|config\.js))\"#\1?v=${V}\"#g" index.html gacha.html vote.html
+          sed -i -E "s#(assets/(app\.js|style\.css|config\.js))\"#\1?v=${V}\"#g" index.html gacha.html vote.html events.html
           sed -i "s/__BUILD__/${V}/" sw.js
-          grep -o 'assets/[a-z]*\.[a-z]*?v=[^"]*' index.html gacha.html vote.html
+          grep -o 'assets/[a-z]*\.[a-z]*?v=[^"]*' index.html gacha.html vote.html events.html
 
       - uses: actions/configure-pages@v5
 

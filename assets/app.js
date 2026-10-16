@@ -8,7 +8,8 @@
     { id: 'shinten', label: '新店', color: '#3F6212' },
     { id: 'chain', label: 'チェーン新作', color: '#1D4ED8' },
     { id: 'conbini', label: 'コンビニ', color: '#86198F' },
-    { id: 'yasuuma', label: '安うま', color: '#A16207' }
+    { id: 'yasuuma', label: '安うま', color: '#A16207' },
+    { id: 'event', label: 'イベント', color: '#0E7490' }
   ];
   var CAT = {};
   CATEGORIES.forEach(function (c) { CAT[c.id] = c; });
@@ -33,6 +34,8 @@
     chain: '<path d="M12 3l2 6 6 2-6 2-2 6-2-6-6-2 6-2z"/><path d="M19 3v3M17.5 4.5h3"/>',
     conbini: '<path d="M12 4C10 4 4 13.5 4 17a3 3 0 0 0 3 3h10a3 3 0 0 0 3-3c0-3.5-6-13-8-13z"/><path d="M9 15h6v5H9z"/>',
     yasuuma: '<circle cx="12" cy="12" r="9"/><path d="M9 7l3 4 3-4M12 11v6M9 12.5h6M9 15h6"/>',
+    event: '<path d="M3 20L12 4l9 16z"/><path d="M12 4v-1.5M12 2.5l4 1.5-4 1.5"/><path d="M9.5 20l2.5-5 2.5 5"/>',
+    pin: '<path d="M12 21s-6.5-6.2-6.5-11a6.5 6.5 0 0 1 13 0c0 4.8-6.5 11-6.5 11z"/><circle cx="12" cy="10" r="2.4"/>',
     star: '<path d="M12 3.5l2.6 5.3 5.9.9-4.3 4.1 1 5.8-5.2-2.7-5.2 2.7 1-5.8-4.3-4.1 5.9-.9z"/>',
     heart: '<path d="M12 20s-7.5-4.6-9.2-9.3C1.6 7.3 3.8 4 7.2 4c2 0 3.6 1.1 4.8 2.8C13.2 5.1 14.8 4 16.8 4c3.4 0 5.6 3.3 4.4 6.7C19.5 15.4 12 20 12 20z"/>',
     search: '<circle cx="11" cy="11" r="7"/><path d="M20 20l-3.5-3.5"/>',
@@ -99,6 +102,38 @@
     if (diff < 86400 * 7) return Math.floor(diff / 86400) + '日前';
     var d = new Date(t);
     return (d.getMonth() + 1) + '/' + d.getDate();
+  }
+
+  // ---- ごはんイベントの日付 ----
+  var WD = '日月火水木金土';
+  function todayJst() {
+    var d = new Date(Date.now() + 9 * 3600000);
+    return d.toISOString().slice(0, 10);
+  }
+  function fmtDay(iso) {
+    var d = new Date(iso + 'T00:00:00+09:00');
+    return (d.getMonth() + 1) + '/' + d.getDate() + '（' + WD.charAt(d.getDay()) + '）';
+  }
+  function eventRange(it) {
+    if (it.start && it.end && it.start !== it.end) return fmtDay(it.start) + '〜' + fmtDay(it.end);
+    if (it.start) return fmtDay(it.start);
+    if (it.end) return fmtDay(it.end) + 'まで';
+    return '日程は記事で確認';
+  }
+  function dayDiff(a, b) { return Math.round((Date.parse(b) - Date.parse(a)) / 86400000); }
+  // 'now' 開催中 / 'soon' これから / 'past' 終了 / 'unknown' 日程不明
+  function eventStatus(it) {
+    var t = todayJst();
+    if (it.end && it.end < t) return { id: 'past', label: '終了' };
+    if (it.start && it.start > t) {
+      var n = dayDiff(t, it.start);
+      return { id: 'soon', label: n === 1 ? '明日から' : 'あと' + n + '日' };
+    }
+    if (it.start || it.end) {
+      var left = it.end ? dayDiff(t, it.end) : null;
+      return { id: 'now', label: left === 0 ? '今日まで' : '開催中' };
+    }
+    return { id: 'unknown', label: '日程不明' };
   }
 
   function isNew(it) {
@@ -340,6 +375,13 @@
     meta.appendChild(el('span', 'when', when));
     body.appendChild(meta);
     body.appendChild(el('span', 'title', it.title));
+    if (it.category === 'event') {
+      var st = eventStatus(it);
+      var evl = el('span', 'ev-line');
+      evl.appendChild(el('span', 'ev-status ' + st.id, st.label));
+      evl.appendChild(el('span', 'ev-when', eventRange(it) + (it.venue ? ' ・ ' + it.venue : '')));
+      body.appendChild(evl);
+    }
     body.appendChild(el('span', 'source', '出典：' + (it.source || '不明')));
     a.appendChild(body);
     art.appendChild(a);
@@ -1701,6 +1743,173 @@
   if ($('gacha')) buildGacha();
   // 投票のページ
   if ($('vote')) buildVote();
+  // ごはんイベントマップのページ
+  if ($('ev-map')) buildEvents();
+
+  function buildEvents() {
+    var SPOTS = {
+      sakae: { label: '久屋大通・栄', c: [35.1700, 136.9080], z: 16 },
+      meieki: { label: '名駅', c: [35.1705, 136.8830], z: 16 },
+      osu: { label: '大須・金山', c: [35.1520, 136.9030], z: 15 },
+      all: { label: '東海ぜんぶ', c: [35.10, 136.95], z: 9 }
+    };
+    var ev = { items: [], filter: store.get('meshi.evFilter', 'active'), markers: {}, map: null };
+    var hasMap = typeof window.L !== 'undefined';
+    if (hasMap) {
+      ev.map = L.map('ev-map', { zoomControl: true, scrollWheelZoom: false }).setView(SPOTS.sakae.c, 15);
+      L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+        maxZoom: 19, attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+      }).addTo(ev.map);
+    } else {
+      $('ev-map').textContent = '地図を読み込めませんでした。下の一覧をご覧ください。';
+      $('ev-map').classList.add('ev-map-failed');
+    }
+    // 場所のボタン
+    var spots = $('ev-spots');
+    Object.keys(SPOTS).forEach(function (k) {
+      var b = el('button', 'ev-spot', SPOTS[k].label);
+      b.type = 'button';
+      b.addEventListener('click', function () {
+        if (ev.map) ev.map.flyTo(SPOTS[k].c, SPOTS[k].z, { duration: 0.8 });
+        $('ev-map').scrollIntoView({ behavior: 'smooth', block: 'center' });
+      });
+      spots.appendChild(b);
+    });
+    // 絞り込み
+    var FILTERS = [
+      { id: 'active', label: '開催中・これから' },
+      { id: 'now', label: '開催中だけ' },
+      { id: 'all', label: 'すべて（終了も）' }
+    ];
+    if (!FILTERS.some(function (f) { return f.id === ev.filter; })) ev.filter = 'active';
+    var fbox = $('ev-filters');
+    FILTERS.forEach(function (f) {
+      var b = el('button', 'g-pill ev-filter', f.label);
+      b.type = 'button';
+      b.setAttribute('aria-pressed', String(ev.filter === f.id));
+      b.addEventListener('click', function () {
+        ev.filter = f.id;
+        store.set('meshi.evFilter', f.id);
+        Array.prototype.forEach.call(fbox.children, function (x) { x.setAttribute('aria-pressed', String(x === b)); });
+        render();
+      });
+      fbox.appendChild(b);
+    });
+
+    var ORDER = { now: 0, soon: 1, unknown: 2, past: 3 };
+    function visible(it) {
+      var st = eventStatus(it).id;
+      if (ev.filter === 'now') return st === 'now';
+      if (ev.filter === 'active') return st !== 'past';
+      return true;
+    }
+    function sorted(list) {
+      return list.slice().sort(function (a, b) {
+        var sa = eventStatus(a).id, sb = eventStatus(b).id;
+        if (ORDER[sa] !== ORDER[sb]) return ORDER[sa] - ORDER[sb];
+        if (sa === 'soon') return (a.start || '').localeCompare(b.start || '');
+        if (sa === 'now') return (a.end || '9999').localeCompare(b.end || '9999');
+        return Date.parse(b.published) - Date.parse(a.published);
+      });
+    }
+
+    function popupHtml(venue, list) {
+      var wrap = document.createElement('div');
+      wrap.className = 'ev-pop';
+      wrap.appendChild(el('p', 'ev-pop-venue', venue));
+      list.forEach(function (it) {
+        var st = eventStatus(it);
+        var row = el('div', 'ev-pop-row');
+        row.appendChild(el('span', 'ev-status ' + st.id, st.label));
+        var a = el('a', 'ev-pop-title', it.title);
+        a.href = it.link; a.target = '_blank'; a.rel = 'noopener';
+        row.appendChild(a);
+        row.appendChild(el('span', 'ev-pop-when', eventRange(it)));
+        wrap.appendChild(row);
+      });
+      return wrap;
+    }
+
+    function render() {
+      var list = sorted(ev.items.filter(visible));
+      // 地図：会場ごとに1本のピン
+      if (ev.map) {
+        Object.keys(ev.markers).forEach(function (k) { ev.markers[k].remove(); });
+        ev.markers = {};
+        var byVenue = {};
+        list.forEach(function (it) {
+          if (it.lat == null) return;
+          (byVenue[it.venue] = byVenue[it.venue] || []).push(it);
+        });
+        Object.keys(byVenue).forEach(function (v) {
+          var items = byVenue[v];
+          var best = items.map(function (x) { return eventStatus(x).id; }).sort(function (a, b) { return ORDER[a] - ORDER[b]; })[0];
+          var icon = L.divIcon({
+            className: 'ev-pin-wrap',
+            html: '<span class="ev-pin ' + best + '"><span class="ev-pin-n">' + items.length + '</span></span>',
+            iconSize: [34, 42], iconAnchor: [17, 40], popupAnchor: [0, -36]
+          });
+          var m = L.marker([items[0].lat, items[0].lng], { icon: icon, title: v, keyboard: true }).addTo(ev.map);
+          m.bindPopup(popupHtml(v, items), { maxWidth: 280 });
+          ev.markers[v] = m;
+        });
+      }
+      // 一覧
+      var box = $('ev-list');
+      box.textContent = '';
+      var withPlace = list.filter(function (it) { return it.venue; });
+      var noPlace = list.filter(function (it) { return !it.venue; });
+      $('ev-count').textContent = list.length ? '全' + list.length + '件（地図にのせたもの ' + withPlace.length + '件）' : '';
+      $('ev-empty').hidden = list.length > 0;
+      var addCard = function (it, target) {
+        var st = eventStatus(it);
+        var c = el('article', 'ev-card ' + st.id);
+        var head = el('div', 'ev-card-head');
+        head.appendChild(el('span', 'ev-status ' + st.id, st.label));
+        head.appendChild(el('span', 'ev-when', eventRange(it)));
+        c.appendChild(head);
+        var a = el('a', 'ev-title', it.title);
+        a.href = it.link; a.target = '_blank'; a.rel = 'noopener';
+        c.appendChild(a);
+        var foot = el('div', 'ev-card-foot');
+        if (it.venue) {
+          var go = el('button', 'ev-onmap');
+          go.type = 'button';
+          go.appendChild(svg('pin', 'ev-onmap-icon'));
+          go.appendChild(document.createTextNode(it.venue + 'を地図で見る'));
+          go.addEventListener('click', function () {
+            if (!ev.map) return;
+            $('ev-map').scrollIntoView({ behavior: 'smooth', block: 'center' });
+            ev.map.flyTo([it.lat, it.lng], 17, { duration: 0.8 });
+            var m = ev.markers[it.venue];
+            if (m) setTimeout(function () { m.openPopup(); }, 850);
+          });
+          foot.appendChild(go);
+        }
+        foot.appendChild(el('span', 'ev-src', it.source || ''));
+        c.appendChild(foot);
+        target.appendChild(c);
+      };
+      withPlace.forEach(function (it) { addCard(it, box); });
+      if (noPlace.length) {
+        box.appendChild(el('h3', 'ev-sub', '場所は記事で確認'));
+        noPlace.forEach(function (it) { addCard(it, box); });
+      }
+    }
+
+    fetch('data/news.json?t=' + Date.now(), { cache: 'no-store' })
+      .then(function (r) {
+        if (r.headers.get('X-Meshi-Offline') === '1') showOffline(true);
+        return r.json();
+      })
+      .then(function (d) {
+        ev.items = (d.items || []).filter(function (it) { return it.category === 'event'; });
+        render();
+      })
+      .catch(function () {
+        $('ev-count').textContent = 'イベント情報を読み込めませんでした。';
+      });
+  }
 
   function buildVote() {
     var data = null;

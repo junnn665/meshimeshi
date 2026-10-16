@@ -24,6 +24,8 @@ import urllib.request
 import xml.etree.ElementTree as ET
 from pathlib import Path
 
+import events  # ごはんイベントの会場・日付の読み取り（scripts/events.py）
+
 ROOT = Path(__file__).resolve().parent.parent
 DATA_FILE = ROOT / "data" / "news.json"
 
@@ -45,6 +47,17 @@ UA = (
 # ここを書き換えれば集めるニュースを調整できる
 # ---------------------------------------------------------------------------
 QUERIES = [
+    # ごはんイベント（フェス・マルシェ・物産展など）
+    ("名古屋 グルメ イベント", "event", True),
+    ("名古屋 グルメフェス", "event", True),
+    ("久屋大通 フェス", "event", True),
+    ("久屋大通公園 グルメ", "event", True),
+    ("オアシス21 グルメ イベント", "event", True),
+    ("栄 フードフェス OR 屋台", "event", True),
+    ("名古屋 マルシェ", "event", True),
+    ("名古屋 物産展", "event", True),
+    ("名古屋 キッチンカー イベント", "event", True),
+    ("愛知 グルメフェス", "event", True),
     # デカ盛り・インパクト系
     ("名古屋 デカ盛り", "deka", True),
     ("愛知 デカ盛り", "deka", True),
@@ -85,6 +98,7 @@ FOOD_WORDS = [
     "ハンバーグ", "ステーキ", "天むす", "ひつまぶし", "手羽先", "台湾", "おにぎり",
     "弁当", "惣菜", "アイス", "かき氷", "たこ焼き", "お好み焼き", "居酒屋", "ビュッフェ",
     "デカ盛り", "大盛り", "食べ歩き", "食べられる", "味わえる", "グルメ",
+    "屋台", "キッチンカー", "マルシェ", "物産展", "ビール", "フード", "肉フェス", "餃子フェス",
 ]
 
 # 東海以外の地域名（東海の地名が無く、これが入っている記事は除外）
@@ -249,7 +263,12 @@ def is_wanted(title: str) -> bool:
     return tokai or not other
 
 
+events.CHAIN_WORDS = CHAIN_WORDS
+
+
 def categorize(title: str, default: str) -> str:
+    if events.is_event(title):
+        return "event"
     for cat, words in CATEGORY_RULES:
         if any(w in title for w in words):
             return cat
@@ -600,12 +619,14 @@ def main() -> int:
     add_images(items)
     # Googleニュースのリンクは変換後に行き先がわかるので、ここで除外する
     items = [it for it in items if not is_blocked(it["link"])]
+    venue_coords = events.refresh_venue_coords()
     for it in items:
         # 判定ルールを直したときに過去の記事にも反映されるよう、毎回つけ直す
         it["area"] = detect_area(it["title"], it.get("area") != "全国")
         it["category"] = categorize(it["title"], it.get("category", "wadai"))
         it["shop"] = is_shop_article(it)
         it["shop_name"] = shop_name(it["title"]) if it["shop"] else None
+        events.annotate(it, venue_coords)
     DATA_FILE.parent.mkdir(parents=True, exist_ok=True)
     payload = {"updated": NOW.astimezone(JST).isoformat(timespec="seconds"), "items": items}
     DATA_FILE.write_text(json.dumps(payload, ensure_ascii=False, indent=1) + "\n", "utf-8")
