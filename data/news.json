@@ -1,6 +1,23 @@
 {
- "updated": "2026-10-17T03:32:26+09:00",
+ "updated": "2026-10-17T04:29:02+09:00",
  "items": [
+  {
+   "id": "b9d5452f17fae2a2",
+   "title": "名古屋グルメ】平日でも大行列！16年貫く唯一無二の「チャーラー」太陽食堂 Nagoya Ramen The Ultimate Ramen & Fried Rice",
+   "link": "https://youtu.be/yYY40zKjiUk?si=r_bba2OVf8H9Zhnf",
+   "source": "YouTube",
+   "image": null,
+   "category": "wadai",
+   "area": "名古屋",
+   "published": "2026-10-17T03:04:32+09:00",
+   "provider": "google",
+   "added": "2026-10-17T04:29:02+09:00",
+   "decode_v2": true,
+   "image_checked": true,
+   "image_v4": true,
+   "shop": true,
+   "shop_name": "チャーラー"
+  },
   {
    "id": "7a52827c4e47d206",
    "title": "激安コインパで聞いた安ウマ店 名古屋市「GOD TENDER 高畑店」スタンプでローストビーフ丼が0円！＆名古屋市「焼肉 タン革命 上飯田駅前店」ウメタンとドリンクが無料！ 『PS純金（ゴールド）』 | グルメ | よみもの",
@@ -6337,41 +6354,6 @@
    "added": "2026-10-05T18:37:56+09:00",
    "shop": true,
    "shop_name": "築地すしくろ"
-  },
-  {
-   "id": "db320c2ae1461312",
-   "title": "「ハエラ」おすすめレストラン＆カフェ特集、“名古屋栄駅直結”の注目グルメスポットは？",
-   "link": "https://www.fashion-press.net/news/147003",
-   "source": "ファッションプレス",
-   "image": "https://www.fashion-press.net/img/news/147003/top.jpg?1780468450",
-   "category": "wadai",
-   "area": "名古屋",
-   "published": "2026-10-05T18:04:08+09:00",
-   "provider": "google",
-   "decode_tried": true,
-   "image_checked": true,
-   "decode_v2": true,
-   "image_v3": true,
-   "added": "2026-10-05T18:04:08+09:00",
-   "shop": false,
-   "shop_name": null
-  },
-  {
-   "id": "02a1c060775c5a49",
-   "title": "いちごスイーツやローストターキーも！名古屋のホテルでクリスマス＆いちごのブッフェ",
-   "link": "https://report.iko-yo.net/articles/34283",
-   "source": "いこーよニュース",
-   "image": "https://d28w2qw7dtr435.cloudfront.net/uploaded/cover_images/images/34042/normal.jpg?1791172629",
-   "category": "chain",
-   "area": "名古屋",
-   "published": "2026-10-05T17:45:59+09:00",
-   "provider": "google",
-   "decode_tried": true,
-   "image_checked": true,
-   "decode_v2": true,
-   "added": "2026-10-05T17:45:59+09:00",
-   "shop": false,
-   "shop_name": null
   }
  ]
 }
