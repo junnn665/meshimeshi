@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-16T08:24:36+09:00",
+ "updated": "2026-10-16T09:38:03+09:00",
  "items": [
   {
    "id": "69cf5240029f9092",
@@ -50,6 +50,22 @@
    "image_v4": true,
    "shop": false,
    "shop_name": null
+  },
+  {
+   "id": "2805179de8efe29d",
+   "title": "「焼肉の原点回帰！たれにとことんこだわった焼肉を炊き立てのご飯と共に。」「浜松町 たれ焼肉のんき 裏」が10/15(木)にオープン",
+   "link": "https://prtimes.jp/main/html/rd/p/000000017.000162488.html",
+   "source": "PR TIMES",
+   "image": "https://prcdn.freetls.fastly.net/release_image/162488/17/162488-17-9e9802efb6543dc3e106f0747cfc3f74-3302x2201.jpg?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260",
+   "category": "shinten",
+   "area": "静岡",
+   "published": "2026-10-15T19:06:41+09:00",
+   "provider": "prtimes",
+   "added": "2026-10-16T09:38:03+09:00",
+   "image_checked": true,
+   "image_v4": true,
+   "shop": true,
+   "shop_name": "浜松町 たれ焼肉のんき 裏"
   },
   {
    "id": "3fc6dd1b6c8bb908",
