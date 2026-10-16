@@ -193,6 +193,11 @@
     list.forEach(function (n) {
       var row = el('a', 'ev-notice-row');
       row.href = n.it.link; row.target = '_blank'; row.rel = 'noopener';
+      if (n.it.image) {
+        var th = photo(n.it, CAT.event || { label: 'イベント', color: '#0E7490' }, false);
+        th.classList.add('ev-notice-thumb');
+        row.appendChild(th);
+      }
       row.appendChild(el('span', 'ev-notice-tag' + (n.lv === 0 ? ' today' : ''), n.msg));
       row.appendChild(el('span', 'ev-notice-title', n.it.title));
       if (n.it.venue) row.appendChild(el('span', 'ev-notice-venue', n.it.venue));
@@ -1898,6 +1903,7 @@
       list.forEach(function (it) {
         var st = eventStatus(it);
         var row = el('div', 'ev-pop-row');
+        if (it.image) row.appendChild(evPhoto(it, 'ev-photo-pop'));
         row.appendChild(el('span', 'ev-status ' + st.id, st.label));
         var a = el('a', 'ev-pop-title', it.title);
         a.href = it.link; a.target = '_blank'; a.rel = 'noopener';
@@ -1908,6 +1914,15 @@
       return wrap;
     }
 
+    var EVCAT = CAT.event || { label: 'イベント', color: '#0E7490' };
+    function evPhoto(it, cls) {
+      var a = el('a', 'ev-photo ' + cls);
+      a.href = it.link; a.target = '_blank'; a.rel = 'noopener';
+      a.setAttribute('aria-hidden', 'true');
+      a.tabIndex = -1;
+      a.appendChild(photo(it, EVCAT, false));
+      return a;
+    }
     function showOnMap(it) {
       if (!ev.map) return;
       $('ev-map').scrollIntoView({ behavior: 'smooth', block: 'center' });
@@ -1959,6 +1974,7 @@
       list.forEach(function (it) {
         var st = eventStatus(it);
         var c = el('article', 'ev-wk-card');
+        c.appendChild(evPhoto(it, 'ev-photo-wk'));
         var top = el('div', 'ev-card-head');
         top.appendChild(el('span', 'ev-status ' + st.id, st.label));
         top.appendChild(el('span', 'ev-when', eventRange(it)));
@@ -2005,7 +2021,7 @@
             iconSize: [34, 42], iconAnchor: [17, 40], popupAnchor: [0, -36]
           });
           var m = L.marker([items[0].lat, items[0].lng], { icon: icon, title: v, keyboard: true }).addTo(ev.map);
-          m.bindPopup(popupHtml(v, items), { maxWidth: 280 });
+          m.bindPopup(popupHtml(v, items), { maxWidth: 280, maxHeight: 360 });
           ev.markers[v] = m;
         });
       }
@@ -2019,6 +2035,7 @@
       var addCard = function (it, target) {
         var st = eventStatus(it);
         var c = el('article', 'ev-card ' + st.id);
+        c.appendChild(evPhoto(it, 'ev-photo-card'));
         var head = el('div', 'ev-card-head');
         head.appendChild(el('span', 'ev-status ' + st.id, st.label));
         head.appendChild(el('span', 'ev-when', eventRange(it)));

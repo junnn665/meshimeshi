@@ -1038,3 +1038,18 @@ body.no-scroll { overflow: hidden; }
 .ev-notice-title { flex: 1 1 200px; min-width: 0; font-size: 13px; font-weight: 700; line-height: 1.5; text-decoration: underline; }
 .ev-notice-venue { font-size: 12px; color: #0E7490; font-weight: 700; }
 main > .ev-notice { margin-bottom: 12px; }
+
+/* イベントの写真 */
+.ev-photo { display: block; color: inherit; }
+.ev-photo .photo { height: 100%; border-bottom: 0; }
+.ev-photo .photo-fallback { padding: 8px 16px; gap: 4px; }
+.ev-photo .photo-fallback .tab-icon { width: 26px; height: 26px; }
+.ev-photo .fb-label { font-size: 15px; }
+.ev-photo-card { height: 150px; margin: -14px -14px 2px; border-bottom: 2px solid var(--ink); border-radius: 14px 14px 0 0; overflow: hidden; }
+.ev-photo-wk { height: 120px; margin: -12px -12px 2px; border-bottom: 2px solid var(--ink); border-radius: 12px 12px 0 0; overflow: hidden; }
+.ev-photo-pop { width: 100%; height: 96px; border-radius: 10px; overflow: hidden; border: 1.5px solid var(--ink); }
+.ev-photo-pop .photo.no-photo { display: none; }
+.ev-notice-thumb { flex: none; width: 52px; height: 52px; border-radius: 10px; border: 1.5px solid var(--ink); overflow: hidden; }
+.ev-notice-thumb.no-photo { display: none; }
+.ev-wk-card, .ev-card { overflow: hidden; }
+.ev-photo-pop:has(.no-photo) { display: none; }
