@@ -1,12 +1,16 @@
 {
- "updated": "2026-10-16T17:56:18+09:00",
- "items": 377,
- "with_image": 354,
- "google_decode_ok": 21,
+ "updated": "2026-10-16T17:59:53+09:00",
+ "items": 376,
+ "with_image": 353,
+ "google_decode_ok": 23,
  "google_decode_failed": 0,
  "google_decode_samples": [],
  "image_failures": [
-  "thetv.jp: og:image なし (42456 文字)",
-  "go2senkyo.com: og:image なし (2004 文字)"
+  "thetv.jp: og:image なし (42503 文字)",
+  "news.dellows.jp: URLError: <urlopen error timed out>",
+  "kobe-journal.com: URLError: <urlopen error timed out>",
+  "go2senkyo.com: og:image なし (2004 文字)",
+  "funabashi-tsushin.com: URLError: <urlopen error timed out>",
+  "love-spo.com: URLError: <urlopen error timed out>"
  ]
 }

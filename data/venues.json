@@ -88,5 +88,35 @@
   "lat": 35.19215,
   "lng": 136.93794,
   "source": "nominatim"
+ },
+ "覚王山日泰寺": {
+  "lat": 35.17116,
+  "lng": 136.95521,
+  "source": "nominatim"
+ },
+ "熱田神宮": {
+  "lat": 35.12543,
+  "lng": 136.90925,
+  "source": "nominatim"
+ },
+ "東別院": {
+  "lat": 35.15198,
+  "lng": 136.90212,
+  "source": "nominatim"
+ },
+ "イオンモール熱田": {
+  "lat": 35.13636,
+  "lng": 136.90989,
+  "source": "nominatim"
+ },
+ "鈴鹿フラワーパーク": {
+  "lat": 34.884,
+  "lng": 136.565,
+  "source": "builtin"
+ },
+ "リトルワールド": {
+  "lat": 35.37398,
+  "lng": 137.02571,
+  "source": "nominatim"
  }
 }
