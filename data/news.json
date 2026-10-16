@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-16T15:36:22+09:00",
+ "updated": "2026-10-16T16:37:31+09:00",
  "items": [
   {
    "id": "c4d56f831d3ca08e",
@@ -68,6 +68,22 @@
    "shop_name": "賛否両論"
   },
   {
+   "id": "0a76d1b5c1b31aba",
+   "title": "【静岡・浜松で油そばが500円に！】『東京油組総本店 浜松組』開店1周年を記念し、10月23日（金）・24日（土）の2日間限定キャンペーンを開催！",
+   "link": "https://prtimes.jp/main/html/rd/p/000000792.000031747.html",
+   "source": "PR TIMES",
+   "image": "https://prcdn.freetls.fastly.net/release_image/31747/792/31747-792-98f5acccd370c180438e3743b27d8a2d-2922x1539.png?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260",
+   "category": "shinten",
+   "area": "静岡",
+   "published": "2026-10-16T13:09:47+09:00",
+   "provider": "prtimes",
+   "added": "2026-10-16T16:37:31+09:00",
+   "image_checked": true,
+   "image_v4": true,
+   "shop": false,
+   "shop_name": null
+  },
+  {
    "id": "11f8a28b45b58e53",
    "title": "名古屋の味スガキヤが横浜出店 関東3度目の挑戦 ラーメン490円、コスト削減がカギ",
    "link": "https://news.tv-asahi.co.jp/news_economy/articles/900202034.html",
@@ -103,7 +119,7 @@
   },
   {
    "id": "bb7a2825efe9a362",
-   "title": "名古屋の「エビ愛」がすごかった！ エビが主役の名古屋めし3選【ご当地グルメ“旅”歩き】",
+   "title": "名古屋の「エビ愛」がすごかった！ エビが主役の名古屋めし3選【ご当地グルメ“旅”歩き】（おとなの週末）",
    "link": "https://otonano-shumatsu.com/articles/590813",
    "source": "おとなの週末Web",
    "image": "https://otonano-shumatsu.com/wp-content/uploads/2026/10/toake_gotochi_20261016_eyecatch.jpg",
