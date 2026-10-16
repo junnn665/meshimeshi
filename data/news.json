@@ -1,6 +1,23 @@
 {
- "updated": "2026-10-17T05:27:57+09:00",
+ "updated": "2026-10-17T06:27:35+09:00",
  "items": [
+  {
+   "id": "1a82ecd609635535",
+   "title": "モーニング娘。‘26井上春華、スポーツの日にちなんで得意な競技を告白",
+   "link": "https://hicbc.com/magazine/article/?id=radichubu-65410",
+   "source": "hicbc.com",
+   "image": "https://radichubu.jp/files/topics/65410_ext_01_0.jpeg",
+   "category": "yasuuma",
+   "area": "東海",
+   "published": "2026-10-17T05:55:00+09:00",
+   "provider": "google",
+   "added": "2026-10-17T06:27:35+09:00",
+   "decode_v2": true,
+   "image_checked": true,
+   "image_v4": true,
+   "shop": false,
+   "shop_name": null
+  },
   {
    "id": "3ee69b2b350a3d44",
    "title": "「公開空地」の活用へ実証 座敷やキッチンカー設置 名古屋都市再開発促進協",
@@ -6336,23 +6353,6 @@
    "added": "2026-10-16T20:18:52+09:00",
    "image_checked": true,
    "image_v4": true,
-   "shop": false,
-   "shop_name": null
-  },
-  {
-   "id": "0ee8e21a36e801e8",
-   "title": "【名古屋】個性光る！町中華のカレー 中華一筋38年の店主が作るカレー、こだわり11種のスパイスカレー、老舗町中華のまかないから生まれたカレー",
-   "link": "https://locipo.jp/creative/e8db42c0-78ea-4258-902e-efcf5fbb3480",
-   "source": "Locipo(ロキポ)",
-   "image": "https://assets.locipo.jp/creatives/180363/original-e8db42c0-78ea-4258-902e-efcf5fbb3480-20261005091959.png",
-   "category": "yasuuma",
-   "area": "名古屋",
-   "published": "2026-10-05T19:38:34+09:00",
-   "provider": "google",
-   "decode_tried": true,
-   "image_checked": true,
-   "decode_v2": true,
-   "added": "2026-10-05T19:38:34+09:00",
    "shop": false,
    "shop_name": null
   }

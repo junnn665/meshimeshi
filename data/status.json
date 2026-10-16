@@ -1,14 +1,14 @@
 {
- "updated": "2026-10-17T05:27:57+09:00",
+ "updated": "2026-10-17T06:27:35+09:00",
  "items": 372,
  "with_image": 350,
- "google_decode_ok": 30,
+ "google_decode_ok": 29,
  "google_decode_failed": 0,
  "google_decode_samples": [],
  "image_failures": [
   "www.excite.co.jp: HTTPError: HTTP Error 403: Forbidden",
   "www.excite.co.jp: HTTPError: HTTP Error 403: Forbidden",
-  "thetv.jp: og:image なし (42482 文字)",
+  "thetv.jp: og:image なし (42455 文字)",
   "www.excite.co.jp: HTTPError: HTTP Error 403: Forbidden",
   "go2senkyo.com: og:image なし (2004 文字)"
  ]
