@@ -58,5 +58,35 @@
   "lat": 35.14443,
   "lng": 136.90016,
   "source": "nominatim"
+ },
+ "白川公園": {
+  "lat": 35.16448,
+  "lng": 136.89999,
+  "source": "nominatim"
+ },
+ "鶴舞公園": {
+  "lat": 35.15505,
+  "lng": 136.91992,
+  "source": "nominatim"
+ },
+ "ささしまライブ": {
+  "lat": 35.16168,
+  "lng": 136.88162,
+  "source": "nominatim"
+ },
+ "ノリタケの森": {
+  "lat": 35.17949,
+  "lng": 136.88129,
+  "source": "nominatim"
+ },
+ "円頓寺商店街": {
+  "lat": 35.17626,
+  "lng": 136.89126,
+  "source": "nominatim"
+ },
+ "大曽根商店街": {
+  "lat": 35.19215,
+  "lng": 136.93794,
+  "source": "nominatim"
  }
 }
