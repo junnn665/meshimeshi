@@ -178,5 +178,35 @@
   "lat": 35.16172,
   "lng": 136.90745,
   "source": "nominatim"
+ },
+ "栄": {
+  "lat": 35.16796,
+  "lng": 136.89203,
+  "source": "nominatim"
+ },
+ "豊橋駅": {
+  "lat": 34.763,
+  "lng": 137.3825,
+  "source": "builtin"
+ },
+ "岐阜駅": {
+  "lat": 35.40949,
+  "lng": 136.75698,
+  "source": "nominatim"
+ },
+ "長良川": {
+  "lat": 35.4403,
+  "lng": 136.76991,
+  "source": "nominatim"
+ },
+ "四日市": {
+  "lat": 34.96704,
+  "lng": 136.6186,
+  "source": "nominatim"
+ },
+ "伊勢": {
+  "lat": 34.46245,
+  "lng": 136.72291,
+  "source": "nominatim"
  }
 }
