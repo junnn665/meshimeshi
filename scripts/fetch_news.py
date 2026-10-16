@@ -616,6 +616,23 @@ def build(raw: list[dict], existing: list[dict]) -> list[dict]:
     return out[:MAX_ITEMS]
 
 
+# 東海以外の地名（「京都伏見」の伏見のように、名古屋の地名と重なる見出しを外すため）
+OTHER_REGION_WORDS = [
+    "北海道", "札幌", "仙台", "東北", "東京", "都内", "渋谷", "新宿", "池袋", "横浜", "川崎", "千葉", "埼玉",
+    "関東", "大阪", "京都", "神戸", "関西", "奈良", "和歌山", "滋賀", "兵庫", "広島", "岡山", "四国",
+    "九州", "福岡", "博多", "沖縄", "新潟", "金沢", "富山", "長野", "山梨",
+]
+STRONG_TOKAI_WORDS = ["名古屋", "愛知", "岐阜", "三重", "東海", "名駅"]
+
+
+def is_tokai_event(it):
+    t = it["title"]
+    if any(w in t for w in OTHER_REGION_WORDS) and not any(w in t for w in STRONG_TOKAI_WORDS):
+        # 「北海道物産展 松坂屋」のように、はっきりした会場があれば残す（「栄」だけでは残さない）
+        return bool(it.get("venue")) and it["venue"] != "栄"
+    return bool(it.get("venue")) or any(w in t for w in TOKAI_WORDS)
+
+
 def main() -> int:
     existing = load_existing()
     raw = collect()
@@ -635,8 +652,7 @@ def main() -> int:
         it["shop_name"] = shop_name(it["title"]) if it["shop"] else None
         events.annotate(it, venue_coords)
     # イベントは東海のもの（東海の地名か、既知の会場が見出しにある）だけ残す
-    items = [it for it in items if it["category"] != "event"
-             or it.get("venue") or any(w in it["title"] for w in TOKAI_WORDS)]
+    items = [it for it in items if it["category"] != "event" or is_tokai_event(it)]
     DATA_FILE.parent.mkdir(parents=True, exist_ok=True)
     payload = {"updated": NOW.astimezone(JST).isoformat(timespec="seconds"), "items": items}
     DATA_FILE.write_text(json.dumps(payload, ensure_ascii=False, indent=1) + "\n", "utf-8")
