@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-17T06:27:35+09:00",
+ "updated": "2026-10-17T07:27:53+09:00",
  "items": [
   {
    "id": "1a82ecd609635535",
@@ -407,6 +407,23 @@
    "image_v4": true,
    "shop": true,
    "shop_name": "ありえない"
+  },
+  {
+   "id": "99dc5ca167b872fb",
+   "title": "栃木・鹿沼に新ご当地グルメが誕生。全て地元食材で作る辛麺専門店が10月17日グランドオープン",
+   "link": "https://otonano-shumatsu.com/articles/591301",
+   "source": "おとなの週末Web",
+   "image": "https://otonano-shumatsu.com/wp-content/uploads/2026/10/d274d49d0f38994630911339526d3fc5.jpg",
+   "category": "shinten",
+   "area": "東海",
+   "published": "2026-10-16T11:00:35+09:00",
+   "provider": "google",
+   "added": "2026-10-17T07:27:53+09:00",
+   "decode_v2": true,
+   "image_checked": true,
+   "image_v4": true,
+   "shop": false,
+   "shop_name": null
   },
   {
    "id": "c5808d0214951aa9",
@@ -6303,56 +6320,6 @@
    "image_checked": true,
    "decode_v2": true,
    "added": "2026-10-06T06:29:23+09:00",
-   "shop": false,
-   "shop_name": null
-  },
-  {
-   "id": "0ca7477b65af5a0b",
-   "title": "Breakfast Run Club｜名古屋・東海のご褒美モーニング朝ラン【初心者歓迎】｜名古屋でランニングならRunup",
-   "link": "https://run-up.net/event/25167/",
-   "source": "ランアップ",
-   "image": "https://run-up.net/blog/wp-content/uploads/2026/02/ブレックファーストラン-698ae745c806f.jpg",
-   "category": "yasuuma",
-   "area": "名古屋",
-   "published": "2026-10-06T05:38:39+09:00",
-   "provider": "google",
-   "added": "2026-10-12T22:35:49+09:00",
-   "decode_v2": true,
-   "image_checked": true,
-   "image_v4": true,
-   "shop": true,
-   "shop_name": null
-  },
-  {
-   "id": "02f2acac68cb1d82",
-   "title": "ラーメン業界に衝撃走る！！【セブン】この価格でこんなマジな一杯が食べられるとは…！「超有名店監修だとッ！？」絶品新作！",
-   "link": "https://yomuno.jp/posts/142858",
-   "source": "ヨムーノ",
-   "image": "https://image.yomuno.jp/store/article/142858/header_image/large-bbb3a65aa0a553e68030c9dfa255f4b0.jpeg",
-   "category": "wadai",
-   "area": "東海",
-   "published": "2026-10-06T05:14:40+09:00",
-   "provider": "google",
-   "decode_tried": true,
-   "image_checked": true,
-   "decode_v2": true,
-   "added": "2026-10-06T05:14:40+09:00",
-   "shop": false,
-   "shop_name": null
-  },
-  {
-   "id": "361a48611be8ec3e",
-   "title": "ジューシーなアメリカンポーク×Y.MARKETコラボの限定クラフトビール ...",
-   "link": "https://love-spo.com/article/%e3%82%b8%e3%83%a5%e3%83%bc%e3%82%b7%e3%83%bc%e3%81%aa%e3%82%a2%e3%83%a1%e3%83%aa%e3%82%ab%e3%83%b3%e3%83%9d%e3%83%bc%e3%82%afxy-market%e3%82%b3%e3%83%a9%e3%83%9c%e3%81%ae%e9%99%90%e5%ae%9a/",
-   "source": "ラブすぽ",
-   "image": "https://love-spo.com/wp-content/uploads/2026/10/48223-246-8775dff3923c16b67dd58a2e85e89002-560x315-1.png",
-   "category": "wadai",
-   "area": "東海",
-   "published": "2026-10-06T02:00:00+09:00",
-   "provider": "bing",
-   "added": "2026-10-16T20:18:52+09:00",
-   "image_checked": true,
-   "image_v4": true,
    "shop": false,
    "shop_name": null
   }
