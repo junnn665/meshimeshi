@@ -208,5 +208,15 @@
   "lat": 34.46245,
   "lng": 136.72291,
   "source": "nominatim"
+ },
+ "浜松": {
+  "lat": 34.7052,
+  "lng": 137.7337,
+  "source": "nominatim"
+ },
+ "静岡": {
+  "lat": 34.97185,
+  "lng": 138.38985,
+  "source": "nominatim"
  }
 }

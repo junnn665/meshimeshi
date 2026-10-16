@@ -1,6 +1,22 @@
 {
- "updated": "2026-10-16T19:32:15+09:00",
+ "updated": "2026-10-16T19:52:06+09:00",
  "items": [
+  {
+   "id": "1b3973fe0fe94205",
+   "title": "かっぱ寿司４日間限定のお得なラインアップ！「秋のお得なセットメニュー」が登場！ミナミマグロ３種とサーモン３種の食べ比べ、〆にぴったりなラーメンや人気の「ミニアサイーボウル」まで！",
+   "link": "https://prtimes.jp/main/html/rd/p/000001235.000018731.html",
+   "source": "PR TIMES",
+   "image": "https://prcdn.freetls.fastly.net/release_image/18731/1235/18731-1235-9611b5323f1145204c6bb5b1075e2810-1409x825.png?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260",
+   "category": "yasuuma",
+   "area": "全国",
+   "published": "2026-10-16T19:41:04+09:00",
+   "provider": "prtimes",
+   "added": "2026-10-16T19:52:06+09:00",
+   "image_checked": true,
+   "image_v4": true,
+   "shop": false,
+   "shop_name": null
+  },
   {
    "id": "ad43ad0231f811f7",
    "title": "タヒチ産・真珠や虫入り琥珀も 世界中の鉱物・宝石20万点以上が集まる「名古屋ミネラルマルシェ」開幕（テレビ愛知）",
@@ -977,6 +993,23 @@
    "image_checked": true,
    "image_v4": true,
    "shop": true,
+   "shop_name": null
+  },
+  {
+   "id": "26375aaeaa4942ab",
+   "title": "コメダ珈琲店の「お好み焼バーガー」「シロノワール キャラメルアップル」などが限定登場",
+   "link": "https://jouhou.nagoya/komeda202610/",
+   "source": "名古屋情報通",
+   "image": "https://jouhou.nagoya/wp-content/uploads/2026/10/komeda202610001-600x370.jpg",
+   "category": "chain",
+   "area": "東海",
+   "published": "2026-10-14T20:16:11+09:00",
+   "provider": "google",
+   "added": "2026-10-16T19:52:06+09:00",
+   "decode_v2": true,
+   "image_checked": true,
+   "image_v4": true,
+   "shop": false,
    "shop_name": null
   },
   {
@@ -2354,7 +2387,7 @@
   },
   {
    "id": "64fa4ffc0150b27c",
-   "title": "約70店のパンが名古屋に集結、人気店の味を一度に楽しめる！ 「パンマルシェ26」11月3日開催",
+   "title": "約70店のパンが名古屋に集結、人気店の味を一度に楽しめる！ 「パンマルシェ26」11月3日開催 (オーヴォ)",
    "link": "https://ovo.kyodo.co.jp/news/life/a-2094133",
    "source": "OVO [オーヴォ]",
    "image": "https://d10tw3woq6mt3i.cloudfront.net/wp-content/uploads/2026/10/main-12-e1791515332802.jpg",
@@ -6232,41 +6265,6 @@
    "decode_v2": true,
    "image_checked": true,
    "added": "2026-10-05T09:30:00+09:00",
-   "shop": false,
-   "shop_name": null
-  },
-  {
-   "id": "8b17a6640eafdc07",
-   "title": "サンリオハウス3号店が名古屋PARCOにオープン、初のカフェブースを併設",
-   "link": "https://news.nicovideo.jp/watch/nw19844162",
-   "source": "ニコニコニュース",
-   "image": null,
-   "category": "shinten",
-   "area": "名古屋",
-   "published": "2026-10-05T07:03:28+09:00",
-   "provider": "google",
-   "decode_tried": true,
-   "image_checked": true,
-   "decode_v2": true,
-   "image_v3": true,
-   "image_v4": true,
-   "added": "2026-10-05T07:03:28+09:00",
-   "shop": true,
-   "shop_name": null
-  },
-  {
-   "id": "bf6279ea22d8fa0c",
-   "title": "山里にポツンと…“竹かごランチ”が人気の古民家レストラン 体に優しい料理は店主からの「幸せのおすそ分け」",
-   "link": "https://www.fnn.jp/articles/-/1126606?display=full",
-   "source": "FNNプライムオンライン",
-   "image": "https://fnn.ismcdn.jp/mwimgs/e/5/600/img_e5ff886fe29196b3092ad8e7d4802fd1273411.jpg",
-   "category": "wadai",
-   "area": "東海",
-   "published": "2026-10-05T06:00:00+09:00",
-   "provider": "google",
-   "decode_v2": true,
-   "image_checked": true,
-   "added": "2026-10-05T06:00:00+09:00",
    "shop": false,
    "shop_name": null
   }
