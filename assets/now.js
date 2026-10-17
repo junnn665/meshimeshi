@@ -527,6 +527,7 @@
     ]);
   }
   function startNow(from, label, slipOpened) {
+    now.mode = 'free';
     now.from = from; now.fromLabel = label;
     $('nw-status').textContent = '';
     $('nw-go').disabled = true;
@@ -649,7 +650,7 @@
   function storyCard(step, n) {
     var it = step.item;
     var card = el('div', 'nw-pick');
-    card.appendChild(el('span', 'nw-pick-n', String(n)));
+    card.appendChild(el('span', 'nw-pick-n' + (String(n).length > 1 ? ' word' : ''), String(n)));
     var body = el('div', 'nw-pick-body');
     if (step.kind === 'event') {
       body.appendChild(el('span', 'nw-tag event', 'イベント・' + M.eventStatus(it).label));
@@ -684,6 +685,7 @@
   function renderStory() {
     var box = $('nw-story');
     box.textContent = '';
+    if (now.mode === 'fixed') { renderFixedStory(box); return; }
     var st = makeStory();
     now.story = st;
     box.appendChild(el('p', 'nw-story-kicker', 'いまのおすすめ'));
@@ -763,24 +765,405 @@
     var mo = now.mapObj;
     if (!mo) return;
     mo.layer.clearLayers();
-    var pts = [[now.from.lat, now.from.lng]];
-    L.marker([now.from.lat, now.from.lng], { icon: pin('今', 'here'), title: now.fromLabel }).addTo(mo.layer)
-      .bindPopup(now.fromLabel);
+    var pts = [];
+    var me = now.mode === 'fixed' ? now.here : now.from;
+    if (me) {
+      pts.push([me.lat, me.lng]);
+      L.marker([me.lat, me.lng], { icon: pin('今', 'here'), title: '今いるところ' }).addTo(mo.layer).bindPopup(now.mode === 'fixed' ? '今いるところ' : now.fromLabel);
+    }
     var st = now.story;
     if (st) {
-      [st.first, st.second].forEach(function (s, i) {
+      var list = st.steps || [st.first, st.second];
+      var n = 0;
+      list.forEach(function (s) {
         if (!s) return;
-        var name = s.kind === 'event' ? M.eventName(s.item) : s.item.name;
-        L.marker([+s.p.lat, +s.p.lng], { icon: pin(String(i + 1), s.kind === 'event' ? 'event' : 'shop'), title: name })
-          .addTo(mo.layer).bindPopup(name);
+        n++;
+        var name = stepName(s);
+        var cls = s.fixed ? 'fixed' : (s.kind === 'event' ? 'event' : 'shop');
+        L.marker([+s.p.lat, +s.p.lng], { icon: pin(s.fixed ? '★' : String(n), cls), title: name })
+          .addTo(mo.layer).bindPopup((s.at != null ? hm(s.at) + ' ' : '') + name);
         pts.push([+s.p.lat, +s.p.lng]);
       });
       L.polyline(pts, { color: '#D92D20', weight: 4, dashArray: '6 8', opacity: 0.8 }).addTo(mo.layer);
     }
     setTimeout(function () {
       mo.map.invalidateSize();
-      mo.map.fitBounds(pts.length > 1 ? pts : [pts[0], pts[0]], { padding: [40, 40], maxZoom: 16 });
+      if (pts.length) mo.map.fitBounds(pts.length > 1 ? pts : [pts[0], pts[0]], { padding: [40, 40], maxZoom: 16 });
     }, 50);
+  }
+
+  function stepName(s) {
+    if (s.kind === 'event') return M.eventName(s.item);
+    return s.item.name;
+  }
+
+  // =====================================================================
+  // 行き先が決まっているとき：その「前」と「あと」を提案
+  // =====================================================================
+  var fix = { place: null, at: 'now', time: null, stay: null, stayTouched: false, want: store.get('meshi.fixWant', 'both') };
+  var AT_OPTS = [{ id: 'now', label: '今すぐ' }, { id: '30', label: '30分後' }, { id: '60', label: '1時間後' }, { id: '120', label: '2時間後' }, { id: 'time', label: '時刻を指定' }];
+  var STAY_OPTS = [{ id: 30, label: '30分' }, { id: 60, label: '1時間' }, { id: 90, label: '1時間半' }, { id: 120, label: '2時間' }, { id: 180, label: '3時間' }];
+  var WANT_OPTS = [{ id: 'both', label: '前とあと' }, { id: 'before', label: '前だけ' }, { id: 'after', label: 'あとだけ' }];
+
+  function fixIsFood(p) { return p && p.kind === 'shop' && p.item.genre !== 'カフェ'; }
+  function fixIsCafe(p) { return p && p.kind === 'shop' && p.item.genre === 'カフェ'; }
+  function defaultStay(p) {
+    if (!p) return 90;
+    if (p.kind === 'shop') return p.item.genre === 'カフェ' ? 60 : (p.item.genre === '居酒屋' || p.item.genre === '焼肉' ? 120 : 60);
+    return 90;
+  }
+  // 着く時刻（今日の 0:00 からの分。日をまたぐときは 1440 を超える）
+  function fixArriveMin() {
+    var nowMin = minutesOf(jstNow());
+    if (fix.at === 'now') return nowMin + 5;
+    if (fix.at === 'time' && fix.time) {
+      var p = fix.time.split(':');
+      var m = +p[0] * 60 + +p[1];
+      if (m < nowMin - 60) m += 1440;   // 1時間より前なら明日の深夜とみなす
+      return Math.max(m, nowMin);
+    }
+    return nowMin + (+fix.at || 0);
+  }
+  function minToDate(min) {
+    var d = new Date(jstNow());
+    d.setHours(0, 0, 0, 0);
+    return new Date(d.getTime() + min * 60000);
+  }
+
+  // 候補探し：手元のお店・イベント・会場から。見つからなければ地図（Nominatim）で
+  function localPlaces(q) {
+    var qn = M.normName(q);
+    if (!qn) return [];
+    var out = [];
+    data.events.forEach(function (g) {
+      if (g.lat == null) return;
+      var hay = M.normName(M.eventName(g) + ' ' + (g.venue || ''));
+      if (hay.indexOf(qn) >= 0) out.push({ kind: 'event', item: g, name: M.eventName(g), sub: g.venue + ' ・ ' + M.eventRange(g), lat: +g.lat, lng: +g.lng, score: 3 });
+    });
+    data.shops.forEach(function (sh) {
+      if (sh.lat == null) return;
+      var nn = M.normName(sh.name);
+      var i = nn.indexOf(qn);
+      if (i >= 0) out.push({ kind: 'shop', item: sh, name: sh.name, sub: [sh.genre, sh.address].filter(Boolean).join(' ・ '), lat: +sh.lat, lng: +sh.lng, score: i === 0 ? 2 : 1 });
+    });
+    SPOTS.forEach(function (sp) {
+      if (M.normName(sp.label).indexOf(qn) >= 0) out.push({ kind: 'place', item: { name: sp.label }, name: sp.label, sub: '名古屋の街', lat: sp.lat, lng: sp.lng, score: 1 });
+    });
+    return out.sort(function (a, b) { return b.score - a.score; }).slice(0, 8);
+  }
+  function geoPlaces(q) {
+    var url = 'https://nominatim.openstreetmap.org/search?format=jsonv2&limit=6&countrycodes=jp&accept-language=ja' +
+      '&viewbox=136.3,35.7,137.8,34.5&q=' + encodeURIComponent(q);
+    return fetch(url, { headers: { 'Accept': 'application/json' } })
+      .then(function (r) { if (!r.ok) throw new Error(r.status); return r.json(); })
+      .then(function (list) {
+        return (list || []).map(function (x) {
+          var parts = (x.display_name || '').split(',').map(function (t) { return t.trim(); });
+          return { kind: 'place', item: { name: x.name || parts[0], address: parts.slice(1, 4).reverse().join('') }, name: x.name || parts[0],
+            sub: parts.slice(1, 4).join('、'), lat: +x.lat, lng: +x.lon };
+        });
+      });
+  }
+  function showSugg(list, q, fromMap) {
+    var box = $('nw-fix-sugg');
+    box.textContent = '';
+    list.forEach(function (p) {
+      var b = el('button', 'nw-sugg');
+      b.type = 'button';
+      b.appendChild(el('span', 'nw-sugg-kind ' + p.kind, p.kind === 'event' ? 'イベント' : p.kind === 'shop' ? 'お店' : '場所'));
+      var t = el('span', 'nw-sugg-text');
+      t.appendChild(el('b', null, p.name));
+      if (p.sub) t.appendChild(el('span', null, p.sub));
+      b.appendChild(t);
+      b.addEventListener('click', function () { chooseFix(p); });
+      box.appendChild(b);
+    });
+    if (!fromMap && q) {
+      var m = el('button', 'nw-sugg map');
+      m.type = 'button';
+      m.appendChild(el('span', 'nw-sugg-kind place', '地図'));
+      m.appendChild(el('span', 'nw-sugg-text', '「' + q + '」を地図で探す'));
+      m.addEventListener('click', function () {
+        box.textContent = '';
+        box.appendChild(el('p', 'nw-empty', '地図で探しています…'));
+        geoPlaces(q).then(function (l) {
+          if (!l.length) { box.textContent = ''; box.appendChild(el('p', 'nw-empty', '見つかりませんでした。別の書き方で試してください。')); return; }
+          showSugg(l, q, true);
+        }).catch(function () {
+          box.textContent = '';
+          box.appendChild(el('p', 'nw-empty', '地図の検索につながりませんでした。少し時間をおいて試してください。'));
+        });
+      });
+      box.appendChild(m);
+    }
+    if (!list.length && fromMap) box.appendChild(el('p', 'nw-empty', '見つかりませんでした。'));
+  }
+  function chooseFix(p) {
+    fix.place = p;
+    if (!fix.stayTouched) fix.stay = defaultStay(p);
+    $('nw-fix-sugg').textContent = '';
+    $('nw-fix-q').value = '';
+    var c = $('nw-fix-chosen');
+    c.textContent = '';
+    c.hidden = false;
+    c.appendChild(el('span', 'nw-sugg-kind ' + p.kind, p.kind === 'event' ? 'イベント' : p.kind === 'shop' ? 'お店' : '場所'));
+    var t = el('span', 'nw-sugg-text');
+    t.appendChild(el('b', null, p.name));
+    if (p.sub) t.appendChild(el('span', null, p.sub));
+    c.appendChild(t);
+    var x = el('button', 'nw-fix-clear', '×');
+    x.type = 'button';
+    x.setAttribute('aria-label', '行き先を選び直す');
+    x.addEventListener('click', function () { fix.place = null; c.hidden = true; $('nw-fix-go').disabled = true; $('nw-fix-q').focus(); });
+    c.appendChild(x);
+    $('nw-fix-go').disabled = false;
+    renderFixPills();
+  }
+  function renderFixPills() {
+    pillsInto('nw-fix-at', AT_OPTS, fix.at, function (id) {
+      fix.at = id;
+      $('nw-fix-time').hidden = id !== 'time';
+      if (id === 'time') {
+        if (!fix.time) {
+          var m = Math.ceil((minutesOf(jstNow()) + 60) / 15) * 15;
+          fix.time = ('0' + Math.floor(m / 60) % 24).slice(-2) + ':' + ('0' + m % 60).slice(-2);
+          $('nw-fix-time').value = fix.time;
+        }
+        $('nw-fix-time').focus();
+      }
+    });
+    pillsInto('nw-fix-stay', STAY_OPTS, fix.stay || defaultStay(fix.place), function (id) { fix.stay = id; fix.stayTouched = true; });
+    pillsInto('nw-fix-want', WANT_OPTS, fix.want, function (id) { fix.want = id; store.set('meshi.fixWant', id); });
+  }
+
+  function startFixed() {
+    var p = fix.place;
+    if (!p) return;
+    now.mode = 'fixed';
+    now.from = { lat: p.lat, lng: p.lng };
+    now.fromLabel = p.name + 'のまわり';
+    $('nw-result').hidden = true;
+    $('nw-status').textContent = '';
+    $('nw-fix-go').disabled = true;
+    var slip = nowSlip;
+    slip.open([
+      { id: 'news', label: '今日のネタ（話題のお店・イベント）を仕入れる' },
+      { id: 'shops', label: 'お店リストを広げる' },
+      { id: 'osm', label: '「' + p.name + '」のまわりを地図で探す', slow: '地図データの返事待ち…' },
+      { id: 'wx', label: '空模様を見る' },
+      { id: 'cook', label: '前とあとの寄り道を組み立てる' }
+    ]);
+    // 今いるところ（わかれば地図に出す。待たない）
+    if (navigator.geolocation && !now.here) M.locate().then(function (h) { now.here = h; if (!$('nw-result').hidden) renderNowMap(); }).catch(function () { /* なくてよい */ });
+    Promise.all([trackParts(slip), (slip.cook('osm'), osmWithin(now.from, 900, slip))]).then(function (r) {
+      slip.cook('cook');
+      now.lastShops = M.mergeShops(data.shops, r[1]);
+      buildNow(now.lastShops);
+      slip.done('cook');
+      return slip.finish();
+    }).then(function () {
+      $('nw-result').hidden = false;
+      renderNowMap();
+      $('nw-story').scrollIntoView({ behavior: 'smooth', block: 'start' });
+    }).catch(function () {
+      slip.fail();
+      $('nw-status').textContent = 'データを読み込めませんでした。電波のよい場所でもう一度お試しください。';
+    }).then(function () { $('nw-fix-go').disabled = false; });
+  }
+
+  // 行き先の前とあとを選ぶ
+  // opts.keep = { before: 店, after: 店 } はそのまま使う / opts.avoid = { 店id: 1 } は選ばない
+  function makeFixedStory(opts) {
+    opts = opts || {};
+    var keep = opts.keep || {};
+    var c = now.ctx, F = fix.place;
+    var nowMin = minutesOf(c.t);
+    var arrive = fixArriveMin();
+    var stay = fix.stay || defaultStay(F);
+    var leave = arrive + stay;
+    var rainSoon = c.wx && (c.wx.nowRain || c.wx.rainFrom);
+    var maxD = rainSoon ? 350 : 650;
+    var food = fixIsFood(F), cafe = fixIsCafe(F);
+    var used = {};
+    Object.keys(opts.avoid || {}).forEach(function (k) { used[k] = 1; });
+    if (F.kind === 'shop') used[F.item.id] = 1;
+    if (keep.before) used[keep.before.item.id] = 1;
+    if (keep.after) used[keep.after.item.id] = 1;
+    var steps = [], text = [], notes = [];
+    var fixedStep = { kind: F.kind === 'event' ? 'event' : (F.kind === 'shop' ? 'shop' : 'place'), item: F.kind === 'place' ? { name: F.name, address: F.item.address } : F.item,
+      p: { lat: F.lat, lng: F.lng }, at: arrive, fixed: true, stay: stay };
+    var avoidGenre = null;
+    var pickNear = function (atMin, slot, untilMin) {
+      var at = minToDate(atMin), until = minToDate(untilMin);
+      var list = openShops(c.shops, at, slot, F, maxD, false).filter(function (sh) {
+        return !used[sh.id] && M.isOpenNow(sh, until) !== false;
+      });
+      if (avoidGenre) {   // 前と同じジャンルは、ほかに候補があれば避ける
+        var other = list.filter(function (sh) { return sh.genre !== avoidGenre; });
+        if (other.length) list = other;
+      }
+      if (!list.length) list = openShops(c.shops, at, slot, F, maxD * 1.6, false).filter(function (sh) { return !used[sh.id]; });
+      return list.length ? pick(list, 3) : null;
+    };
+    var nameF = '「' + F.name + '」';
+    // 前
+    if (fix.want !== 'after') {
+      var room = arrive - nowMin;
+      if (room < 35) {
+        text.push(nameF + 'まであと' + Math.max(0, Math.round(room)) + '分なので、前の寄り道はなしでOK。');
+      } else {
+        var dur = Math.min(room - 10, food ? 45 : 60);
+        var bStart = arrive - dur - 5;
+        var bSlot = food ? (slotAt(bStart % 1440) === 'morning' ? 'morning' : 'cafe') : (cafe ? slotAt(bStart % 1440) : slotAt(bStart % 1440));
+        if (bSlot === 'late' && !food) bSlot = 'dinner';
+        var b = keep.before ? keep.before.item : pickNear(bStart, bSlot, arrive - 5);
+        if (keep.before) { bStart = keep.before.at; dur = keep.before.dur; }
+        if (!b && dur > 35) {   // まだ開いていなければ、着く直前の短い寄り道で探し直す
+          dur = 30; bStart = arrive - 35;
+          b = pickNear(bStart, food ? 'cafe' : slotAt(bStart % 1440), arrive - 5);
+        }
+        if (b) {
+          used[b.id] = 1;
+          avoidGenre = b.genre;
+          steps.push({ kind: 'shop', item: b, p: b, at: bStart, role: 'before', dur: dur });
+          var why = sitWhy(b);
+          text.push(nameF + 'に' + hm(arrive) + 'ごろ行く前に、そこから' + walkText(dist(b, F)) + 'の' + b.genre + '「' + b.name + '」で' +
+            (food ? 'ひと息' : (bSlot === 'cafe' || bSlot === 'morning' ? 'ひと息' : '腹ごしらえ')) + (why.length ? '（' + why.slice(0, 2).join('・') + '）' : '') + '。');
+        } else {
+          text.push(nameF + 'の前に寄れそうな開いているお店は、近くに見つかりませんでした。');
+        }
+      }
+    }
+    steps.push(fixedStep);
+    // あと
+    if (fix.want !== 'before') {
+      var aSlot;
+      var lm = leave % 1440;
+      if (food) aSlot = (lm >= 1020 || lm < 300) ? 'second' : 'cafe';
+      else if (cafe) aSlot = slotAt(lm) === 'cafe' ? 'dinner' : slotAt(lm);
+      else aSlot = slotAt(lm);
+      if (aSlot === 'morning' && avoidGenre === 'カフェ' && lm >= 600) aSlot = 'lunch';   // 朝のカフェのあとは早めのランチ
+      if (leave > 1440 + 150) {
+        text.push('出るのが遅い時間なので、あとの寄り道はなしにしました。');
+      } else {
+        var a = keep.after ? keep.after.item : pickNear(leave + 5, aSlot, leave + 50);
+        if (!a && !keep.after) {   // その時間帯のお店がまだ開いていなければ、カフェ → 開いている店ならどこでも
+          avoidGenre = null;
+          a = pickNear(leave + 5, 'cafe', leave + 40);
+          if (a) aSlot = 'cafe';
+        }
+        if (a) {
+          used[a.id] = 1;
+          steps.push({ kind: 'shop', item: a, p: a, at: leave + Math.round(dist(a, F) / WALK), role: 'after' });
+          var whyA = sitWhy(a);
+          var word = aSlot === 'second' ? '2軒目に' : (aSlot === 'cafe' || aSlot === 'morning' ? 'ひと息つきに' : 'ごはんに');
+          text.push((steps.length > 2 ? 'そのあと' : nameF + 'のあと') + '（' + hm(leave) + 'ごろ）は、' + walkText(dist(a, F)) + 'の' + a.genre + '「' + a.name + '」へ' + word +
+            (whyA.length ? '（' + whyA.slice(0, 2).join('・') + '）' : '') + '。');
+        } else {
+          text.push(hm(leave) + 'ごろに開いているお店は、近くに見つかりませんでした。');
+        }
+      }
+    }
+    if (c.wx && c.wx.rainFrom && c.wx.rainFrom * 60 <= leave % 1440 + 60) notes.push(c.wx.rainFrom + '時ごろから雨の予報なので、近いお店を選んでいます。');
+    else if (c.wx && c.wx.nowRain) notes.push('雨なので、近いお店を選んでいます。');
+    return { steps: steps, text: sitLead() + text.concat(notes).join(''), arrive: arrive, leave: leave };
+  }
+
+  function renderFixedStory(box, given) {
+    var st = given || makeFixedStory();
+    now.story = st;
+    box.appendChild(el('p', 'nw-story-kicker', '「' + fix.place.name + '」の前とあと'));
+    box.appendChild(el('p', 'nw-story-text', st.text || '近くに寄れそうなお店が見つかりませんでした。'));
+    var ol = el('ol', 'nw-steps nw-fix-steps');
+    var n = 0;
+    st.steps.forEach(function (s, i) {
+      if (i > 0) {
+        var d = dist(s.p, st.steps[i - 1].p);
+        var w = el('li', 'nw-walk');
+        w.appendChild(el('span', null, walkText(d)));
+        ol.appendChild(w);
+      }
+      var li = el('li', 'nw-step');
+      li.appendChild(el('span', 'nw-step-time', hm(s.at)));
+      var card;
+      if (s.fixed) {
+        card = el('div', 'nw-step-card fixed');
+        card.appendChild(el('span', 'nw-pick-n star', '★'));
+        var body = el('div', 'nw-pick-body');
+        body.appendChild(el('span', 'nw-tag fixed', '決まってる行き先・' + (s.stay >= 60 ? (s.stay / 60) + '時間' : s.stay + '分')));
+        var a = el('a', 'nw-pick-title', stepName(s));
+        a.href = s.kind === 'event' ? s.item.link : (s.kind === 'shop' ? shopLink(s.item) : 'https://www.google.com/maps/search/?api=1&query=' + encodeURIComponent(s.p.lat + ',' + s.p.lng));
+        a.target = '_blank'; a.rel = 'noopener';
+        body.appendChild(a);
+        if (s.kind === 'event') body.appendChild(el('p', 'nw-row-sub', s.item.venue + ' ・ ' + M.eventRange(s.item)));
+        else if (s.kind === 'shop') body.appendChild(el('p', 'nw-row-sub', [s.item.genre, s.item.budget].filter(Boolean).join(' ・ ')));
+        var dd = el('a', 'nw-dir', '道順');
+        dd.href = mapsDir(s.p); dd.target = '_blank'; dd.rel = 'noopener';
+        body.appendChild(dd);
+        card.appendChild(thumb(s.kind === 'event' ? s.item.image : (s.kind === 'shop' ? s.item.photo : null)));
+        card.appendChild(body);
+      } else {
+        n++;
+        card = storyCard(s, s.role === 'before' ? '前' : 'あと');
+        card.classList.add('nw-step-card');
+        var other = el('button', 'nw-mini', 'ほかの候補');
+        other.type = 'button';
+        other.addEventListener('click', function () { swapFixed(s.role); });
+        card.querySelector('.nw-pick-body').appendChild(other);
+      }
+      li.appendChild(card);
+      ol.appendChild(li);
+    });
+    box.appendChild(ol);
+    var acts = el('div', 'nw-plan-actions');
+    var again = el('button', 'nw-act', '別の案にする');
+    again.type = 'button';
+    again.addEventListener('click', function () { $('nw-story').textContent = ''; renderFixedStory($('nw-story')); renderNowMap(); });
+    acts.appendChild(again);
+    var pts = st.steps.map(function (s) { return (+s.p.lat).toFixed(6) + ',' + (+s.p.lng).toFixed(6); });
+    if (pts.length > 1) {
+      var r = el('a', 'nw-act', 'Googleマップで道順');
+      r.href = 'https://www.google.com/maps/dir/?api=1&travelmode=walking&origin=' + encodeURIComponent(pts[0]) +
+        '&destination=' + encodeURIComponent(pts[pts.length - 1]) + (pts.length > 2 ? '&waypoints=' + encodeURIComponent(pts.slice(1, -1).join('|')) : '');
+      r.target = '_blank'; r.rel = 'noopener';
+      acts.appendChild(r);
+    }
+    box.appendChild(acts);
+  }
+  // 前（または、あと）だけ選び直す。もう片方はそのまま
+  var fixTried = { before: {}, after: {} };
+  function swapFixed(role) {
+    var keep = {}, avoid = {};
+    now.story.steps.forEach(function (s) {
+      if (!s.role) return;
+      if (s.role === role) fixTried[role][s.item.id] = 1;
+      else keep[s.role] = s;
+    });
+    Object.keys(fixTried[role]).forEach(function (k) { avoid[k] = 1; });
+    var next = makeFixedStory({ keep: keep, avoid: avoid });
+    if (!next.steps.some(function (s) { return s.role === role; })) {
+      fixTried[role] = {};   // 候補を一周したら最初から
+      next = makeFixedStory({ keep: keep });
+    }
+    var box = $('nw-story');
+    box.textContent = '';
+    renderFixedStory(box, next);
+    renderNowMap();
+  }
+
+  function initFix() {
+    var timer = null;
+    var q = $('nw-fix-q');
+    var run = function () {
+      var v = q.value.trim();
+      if (!v) { $('nw-fix-sugg').textContent = ''; return; }
+      loadData().then(function () { showSugg(localPlaces(v), v, false); });
+    };
+    q.addEventListener('input', function () { clearTimeout(timer); timer = setTimeout(run, 200); });
+    $('nw-fix-form').addEventListener('submit', function (e) { e.preventDefault(); clearTimeout(timer); run(); q.blur(); });
+    $('nw-fix-time').addEventListener('change', function () { fix.time = $('nw-fix-time').value || null; });
+    $('nw-fix-go').addEventListener('click', startFixed);
+    renderFixPills();
   }
 
   function initNow() {
@@ -1179,6 +1562,7 @@
   if (!SITS.some(function (x) { return x.id === sit.id; })) sit.id = 'any';
   if (!PEOPLE.some(function (x) { return x.id === sit.n; })) sit.n = 4;
   initNow();
+  initFix();
   initPlan();
   renderSit();
   if (location.hash === '#plan') showTab('plan');

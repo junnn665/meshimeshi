@@ -63,6 +63,29 @@
           <div class="nw-spots" id="nw-spots" role="group" aria-label="出発する場所"></div>
         </div>
       </div>
+      <details class="nw-fix" id="nw-fix">
+        <summary>
+          <span class="nw-fix-icon" aria-hidden="true">★</span>
+          <span class="nw-fix-sum"><b>行き先はもう決まってる？</b><span>決まっている店・イベント・場所の「前」と「あと」に寄るところを提案します</span></span>
+        </summary>
+        <div class="nw-fix-body">
+          <label class="nw-fix-label" for="nw-fix-q">決まっている行き先</label>
+          <form class="nw-fix-search" id="nw-fix-form" role="search">
+            <input type="search" id="nw-fix-q" placeholder="お店・イベント・場所（例：名古屋城、ドデ祭）" autocomplete="off" enterkeyhint="search">
+            <button type="submit" class="nw-fix-find">探す</button>
+          </form>
+          <div class="nw-fix-sugg" id="nw-fix-sugg"></div>
+          <div class="nw-fix-chosen" id="nw-fix-chosen" hidden></div>
+          <p class="g-label" id="nw-fix-at-label">何時に着く？</p>
+          <div class="g-pills" id="nw-fix-at" role="group" aria-labelledby="nw-fix-at-label"></div>
+          <input type="time" class="nw-fix-time" id="nw-fix-time" step="900" aria-label="着く時刻" hidden>
+          <p class="g-label" id="nw-fix-stay-label">そこにいる時間</p>
+          <div class="g-pills" id="nw-fix-stay" role="group" aria-labelledby="nw-fix-stay-label"></div>
+          <p class="g-label" id="nw-fix-want-label">提案してほしいのは</p>
+          <div class="g-pills" id="nw-fix-want" role="group" aria-labelledby="nw-fix-want-label"></div>
+          <button type="button" class="nw-go nw-make" id="nw-fix-go" disabled>前とあとを提案してもらう</button>
+        </div>
+      </details>
       <p class="nw-status" id="nw-status" role="status" aria-live="polite"></p>
       <div class="slip" id="nw-slip" hidden></div>
       <div id="nw-result" hidden>
