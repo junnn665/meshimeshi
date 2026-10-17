@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-18T00:25:46+09:00",
+ "updated": "2026-10-18T01:26:20+09:00",
  "items": [
   {
    "id": "ee26dc14cbbe8502",
@@ -636,6 +636,23 @@
    "shop_name": null
   },
   {
+   "id": "8317af0e9d29cf51",
+   "title": "画像・写真 | 松のや、値段そのまま「倍量フェア」開催 唐揚げ3個→6個＆カキフライ2個→4個に 3枚目",
+   "link": "https://www.oricon.co.jp/news/2486833/photo/3/",
+   "source": "オリコンニュース",
+   "image": "https://contents.oricon.co.jp/upimg/news/2487000/2486833/20261016_122526_p_o_28048079.jpg",
+   "category": "wadai",
+   "area": "東海",
+   "published": "2026-10-16T12:37:00+09:00",
+   "provider": "google",
+   "added": "2026-10-18T01:26:20+09:00",
+   "decode_v2": true,
+   "image_checked": true,
+   "image_v4": true,
+   "shop": false,
+   "shop_name": null
+  },
+  {
    "id": "bb7a2825efe9a362",
    "title": "名古屋の「エビ愛」がすごかった！ エビが主役の名古屋めし3選【ご当地グルメ“旅”歩き】（おとなの週末）",
    "link": "https://otonano-shumatsu.com/articles/590813",
@@ -1030,6 +1047,23 @@
    "image_checked": true,
    "image_v4": true,
    "shop": false,
+   "shop_name": null
+  },
+  {
+   "id": "cfe3d9ca928c15a8",
+   "title": "サンリオハウス初のカフェ併設店舗が名古屋パルコに、おめかしキティの限定クリアタンブラーも",
+   "link": "https://www.fashion-press.net/news/151312",
+   "source": "ファッションプレス",
+   "image": "https://www.fashion-press.net/img/news/151312/top.jpg?1790222891",
+   "category": "shinten",
+   "area": "名古屋",
+   "published": "2026-10-15T16:40:00+09:00",
+   "provider": "google",
+   "added": "2026-10-18T01:26:20+09:00",
+   "decode_v2": true,
+   "image_checked": true,
+   "image_v4": true,
+   "shop": true,
    "shop_name": null
   },
   {
@@ -6274,40 +6308,6 @@
    "added": "2026-10-07T10:57:12+09:00",
    "shop": true,
    "shop_name": "ピッチャーコロ"
-  },
-  {
-   "id": "58034e3174fe8272",
-   "title": "マクドナルドに愛知県限定メニュー！14年ぶりに登場",
-   "link": "https://www.walkerplus.com/article/78599/",
-   "source": "ウォーカープラス",
-   "image": "https://news.walkerplus.com/article/78599/443641_615.jpg",
-   "category": "chain",
-   "area": "愛知",
-   "published": "2026-10-07T10:53:41+09:00",
-   "provider": "google",
-   "decode_tried": true,
-   "image_checked": true,
-   "decode_v2": true,
-   "added": "2026-10-07T10:53:41+09:00",
-   "shop": false,
-   "shop_name": null
-  },
-  {
-   "id": "a93ed777c6e5234e",
-   "title": "コメダ初の”お好み焼き”が登場！ 「千房」との初コラボによる「お好み焼バーガー」が2026年10月14日より数量限定で発売開始【名古屋発】",
-   "link": "https://nagoyato.com/posts/19758",
-   "source": "ナゴヤトコトン",
-   "image": "https://nagoyato.com/wp-content/uploads/2026/10/LL_img_637677_2.jpg",
-   "category": "chain",
-   "area": "名古屋",
-   "published": "2026-10-07T09:49:53+09:00",
-   "provider": "google",
-   "decode_tried": true,
-   "image_checked": true,
-   "decode_v2": true,
-   "added": "2026-10-07T09:49:53+09:00",
-   "shop": false,
-   "shop_name": null
   }
  ]
 }
