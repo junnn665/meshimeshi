@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-18T02:24:15+09:00",
+ "updated": "2026-10-18T03:27:49+09:00",
  "items": [
   {
    "id": "58034e3174fe8272",
@@ -508,6 +508,23 @@
    "published": "2026-10-16T14:58:00+09:00",
    "provider": "google",
    "added": "2026-10-16T15:36:22+09:00",
+   "decode_v2": true,
+   "image_checked": true,
+   "image_v4": true,
+   "shop": false,
+   "shop_name": null
+  },
+  {
+   "id": "0ff524c626b22dc7",
+   "title": "【オススメ】名古屋モーニング6選 #nagoya #モーニングルーティン Bp (oKkzdqa6XN)",
+   "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5qclZJX1k4UVp4b28xNHphZXd0S2VyZVdmUm1IT2s0WG9ITWFmZnBWYmZhQ1JBemlhcFd2QVNMbVlKNVNWdFA5Nmg4ZHZERWJqNWJsYjVrS2F2OUtIMk9TYnVLbmlyb1FodHdj?oc=5",
+   "source": "Unisba Media",
+   "image": null,
+   "category": "yasuuma",
+   "area": "名古屋",
+   "published": "2026-10-16T14:12:10+09:00",
+   "provider": "google",
+   "added": "2026-10-18T03:27:49+09:00",
    "decode_v2": true,
    "image_checked": true,
    "image_v4": true,
@@ -6308,6 +6325,22 @@
    "added": "2026-10-07T11:00:02+09:00",
    "shop": false,
    "shop_name": null
+  },
+  {
+   "id": "135a2035ae5eebcf",
+   "title": "名古屋・名駅柳橋エリアに大衆居酒屋「勝男」オープン！",
+   "link": "https://www.asahi.com/and/pressrelease/16947418",
+   "source": "朝日新聞デジタル",
+   "image": "https://www.asahi.com/and/ogp/ogp_and.png",
+   "category": "shinten",
+   "area": "名古屋",
+   "published": "2026-10-07T06:59:00+09:00",
+   "provider": "bing",
+   "added": "2026-10-18T03:27:49+09:00",
+   "image_checked": true,
+   "image_v4": true,
+   "shop": true,
+   "shop_name": "勝男"
   }
  ]
 }

@@ -1,15 +1,13 @@
 {
- "updated": "2026-10-18T02:24:15+09:00",
- "items": 369,
- "with_image": 346,
- "google_decode_ok": 32,
- "google_decode_failed": 0,
- "google_decode_samples": [],
- "image_failures": [
-  "www.excite.co.jp: HTTPError: HTTP Error 403: Forbidden",
-  "www.excite.co.jp: HTTPError: HTTP Error 403: Forbidden",
-  "media.unisba.ac.id: HTTPError: HTTP Error 403: Forbidden",
-  "tetsudo-ch.com: HTTPError: HTTP Error 403: Forbidden",
-  "www.excite.co.jp: HTTPError: HTTP Error 403: Forbidden"
- ]
+ "updated": "2026-10-18T03:27:49+09:00",
+ "items": 371,
+ "with_image": 347,
+ "google_decode_ok": 0,
+ "google_decode_failed": 30,
+ "google_decode_samples": [
+  "error: HTTPError: HTTP Error 429: Too Many Requests",
+  "error: HTTPError: HTTP Error 429: Too Many Requests",
+  "error: HTTPError: HTTP Error 429: Too Many Requests"
+ ],
+ "image_failures": []
 }
