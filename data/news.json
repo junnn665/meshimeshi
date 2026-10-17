@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-17T19:25:31+09:00",
+ "updated": "2026-10-17T19:28:05+09:00",
  "items": [
   {
    "id": "ee26dc14cbbe8502",
@@ -2445,6 +2445,23 @@
    "shop_name": null
   },
   {
+   "id": "3f09f6189105b6f4",
+   "title": "名古屋観光ホテル1階にオープンした「名古屋めし食堂丸八 伏見別邸」でなごやめしざんまい！人気店の味が一堂に集結",
+   "link": "https://www.walkerplus.com/article/1442023/",
+   "source": "ウォーカープラス",
+   "image": "https://news.walkerplus.com/article/1442023/18558144_615.jpg",
+   "category": "shinten",
+   "area": "名古屋",
+   "published": "2026-10-14T01:08:07+09:00",
+   "provider": "google",
+   "added": "2026-10-17T19:28:05+09:00",
+   "decode_v2": true,
+   "image_checked": true,
+   "image_v4": true,
+   "shop": true,
+   "shop_name": "名古屋めし食堂丸八 伏見別邸"
+  },
+  {
    "id": "995d2c9921ad971c",
    "title": "高校生による「豊橋カフェDONコンテスト」応募総数116件の頂点が決定！",
    "link": "https://prtimes.jp/main/html/rd/p/000000073.000082210.html",
@@ -3560,6 +3577,23 @@
    "published": "2026-10-12T06:00:00+09:00",
    "provider": "google",
    "added": "2026-10-12T11:20:55+09:00",
+   "decode_v2": true,
+   "image_checked": true,
+   "image_v4": true,
+   "shop": false,
+   "shop_name": null
+  },
+  {
+   "id": "aaa768b724ac32bd",
+   "title": "名古屋・驛麺通りで8周年イベント開催! 期間限定麺が登場",
+   "link": "https://www.walkerplus.com/article/18835/",
+   "source": "ウォーカープラス",
+   "image": "https://news.walkerplus.com/article/18835/74059_615.jpg",
+   "category": "chain",
+   "area": "名古屋",
+   "published": "2026-10-12T05:19:30+09:00",
+   "provider": "google",
+   "added": "2026-10-17T19:28:05+09:00",
    "decode_v2": true,
    "image_checked": true,
    "image_v4": true,
@@ -6298,56 +6332,6 @@
    "start": "2026-10-10",
    "end": "2026-10-12",
    "group": "4fd7961684b1"
-  },
-  {
-   "id": "32cc841090ee00be",
-   "title": "和食さと全202店で「ナイト割」第3弾、21時以降ハイボールなど3品が何杯でも110円！ 鶏皮串108円など9品も半額に、いつまで実施？｜グルメとフード",
-   "link": "https://tetsudo-ch.com/13040643.html",
-   "source": "旅とおでかけ 鉄道チャンネル",
-   "image": null,
-   "category": "chain",
-   "area": "東海",
-   "published": "2026-10-07T07:30:32+09:00",
-   "provider": "google",
-   "decode_v2": true,
-   "image_checked": true,
-   "image_v3": true,
-   "image_v4": true,
-   "added": "2026-10-07T07:30:32+09:00",
-   "shop": false,
-   "shop_name": null
-  },
-  {
-   "id": "135a2035ae5eebcf",
-   "title": "名古屋・名駅柳橋エリアに大衆居酒屋「勝男」オープン！",
-   "link": "https://www.asahi.com/and/pressrelease/16947418",
-   "source": "朝日新聞デジタル",
-   "image": "https://www.asahi.com/and/ogp/ogp_and.png",
-   "category": "shinten",
-   "area": "名古屋",
-   "published": "2026-10-07T06:59:00+09:00",
-   "provider": "bing",
-   "image_checked": true,
-   "added": "2026-10-07T06:59:00+09:00",
-   "shop": true,
-   "shop_name": "勝男"
-  },
-  {
-   "id": "80d472fe8cc38731",
-   "title": "「ゲートタワープラザ レストラン街」で食べられる！東海のご当地食材を生かした限定メニュー5選!!",
-   "link": "https://www.walkerplus.com/article/106167/",
-   "source": "ウォーカープラス",
-   "image": "https://news.walkerplus.com/article/106167/587833_615.jpg",
-   "category": "wadai",
-   "area": "東海",
-   "published": "2026-10-07T06:06:59+09:00",
-   "provider": "google",
-   "decode_tried": true,
-   "image_checked": true,
-   "decode_v2": true,
-   "added": "2026-10-07T06:06:59+09:00",
-   "shop": false,
-   "shop_name": null
   }
  ]
 }
