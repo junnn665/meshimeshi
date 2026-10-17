@@ -1,6 +1,23 @@
 {
- "updated": "2026-10-17T11:28:22+09:00",
+ "updated": "2026-10-17T12:27:21+09:00",
  "items": [
+  {
+   "id": "a6807e1780b8dbff",
+   "title": "焼山で見つけた本格カレーランチ！「カナルキッチン」で大満足のひととき",
+   "link": "https://article.auone.jp/d5a471a0-04ef-4e08-aea6-9d2d45a112fb",
+   "source": "au Webポータル",
+   "image": "https://newportal.portal.auone.jp/media/thumbnails/2026/10/17/https___news_jp_i_1484023221928919467_w600.webp",
+   "category": "yasuuma",
+   "area": "東海",
+   "published": "2026-10-17T11:58:00+09:00",
+   "provider": "google",
+   "added": "2026-10-17T12:27:21+09:00",
+   "decode_v2": true,
+   "image_checked": true,
+   "image_v4": true,
+   "shop": false,
+   "shop_name": null
+  },
   {
    "id": "0bcb382bd68173a1",
    "title": "台湾まぜそば発祥の店グループ 名古屋の店舗が10月30日で閉店へ 5年8カ月で幕",
@@ -2405,6 +2422,23 @@
    "shop_name": null
   },
   {
+   "id": "b466d4a8560a3a75",
+   "title": "ガストから“成熟アボカド”を楽しめる新メニュー登場",
+   "link": "https://www.walkerplus.com/article/47149/",
+   "source": "ウォーカープラス",
+   "image": null,
+   "category": "chain",
+   "area": "東海",
+   "published": "2026-10-13T16:00:00+09:00",
+   "provider": "google",
+   "added": "2026-10-17T12:27:21+09:00",
+   "decode_v2": true,
+   "image_checked": true,
+   "image_v4": true,
+   "shop": false,
+   "shop_name": null
+  },
+  {
    "id": "e468adf5eafe85cc",
    "title": "資さんうどん／東海地域1号店「熱田一番店」名古屋市に27年1月下旬オープン",
    "link": "https://www.ryutsuu.biz/store/s101379.html",
@@ -3897,6 +3931,23 @@
    "image_checked": true,
    "image_v4": true,
    "shop": true,
+   "shop_name": null
+  },
+  {
+   "id": "942cd46e58cd375e",
+   "title": "旬の食材たっぷりのドトール新メニュー7種類発売！",
+   "link": "https://www.walkerplus.com/article/86128/",
+   "source": "ウォーカープラス",
+   "image": null,
+   "category": "chain",
+   "area": "東海",
+   "published": "2026-10-10T16:00:00+09:00",
+   "provider": "google",
+   "added": "2026-10-17T12:27:21+09:00",
+   "decode_v2": true,
+   "image_checked": true,
+   "image_v4": true,
+   "shop": false,
    "shop_name": null
   },
   {
@@ -6304,23 +6355,6 @@
    "image_checked": true,
    "decode_v2": true,
    "added": "2026-10-06T12:43:00+09:00",
-   "shop": false,
-   "shop_name": null
-  },
-  {
-   "id": "b3cbf1ff4679bf46",
-   "title": "セブンの冷凍棚空っぽになりそう…！人気の町中華店の味が手軽に！名店が監修した新作グルメ",
-   "link": "https://love-spo.com/article/miti20261006-3/",
-   "source": "ラブすぽ",
-   "image": "https://love-spo.com/wp-content/uploads/2026/09/0-308.jpg",
-   "category": "wadai",
-   "area": "東海",
-   "published": "2026-10-06T12:26:06+09:00",
-   "provider": "google",
-   "decode_tried": true,
-   "image_checked": true,
-   "decode_v2": true,
-   "added": "2026-10-06T12:26:06+09:00",
    "shop": false,
    "shop_name": null
   }
