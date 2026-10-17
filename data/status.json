@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-17T21:30:41+09:00",
+ "updated": "2026-10-17T22:29:09+09:00",
  "items": 370,
  "with_image": 347,
  "google_decode_ok": 30,
@@ -9,7 +9,7 @@
   "www.excite.co.jp: HTTPError: HTTP Error 403: Forbidden",
   "www.excite.co.jp: HTTPError: HTTP Error 403: Forbidden",
   "media.unisba.ac.id: HTTPError: HTTP Error 403: Forbidden",
-  "www.excite.co.jp: HTTPError: HTTP Error 403: Forbidden",
+  "tetsudo-ch.com: HTTPError: HTTP Error 403: Forbidden",
   "go2senkyo.com: og:image なし (2004 文字)"
  ]
 }
