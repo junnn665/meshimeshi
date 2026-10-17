@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-17T09:38:52+09:00",
+ "updated": "2026-10-17T10:30:37+09:00",
  "items": [
   {
    "id": "ca00a3ab162cf8ce",
@@ -166,6 +166,23 @@
    "published": "2026-10-16T18:04:10+09:00",
    "provider": "google",
    "added": "2026-10-16T18:25:57+09:00",
+   "decode_v2": true,
+   "image_checked": true,
+   "image_v4": true,
+   "shop": false,
+   "shop_name": null
+  },
+  {
+   "id": "b8ccc32d973b77cb",
+   "title": "淡路島『UNDOKAI WORLD CUP 2026』開幕まであと2週間 淡路島グルメや手持ち花火体験など、家族で楽しめるコンテンツが続々決定",
+   "link": "https://sportsmania.jp/368019/",
+   "source": "スポーツマニア",
+   "image": "https://prcdn.freetls.fastly.net/release_image/16751/2327/16751-2327-bca29397cb9e03174d396f083353c4ff-1754x813.png?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260",
+   "category": "wadai",
+   "area": "東海",
+   "published": "2026-10-16T17:52:00+09:00",
+   "provider": "google",
+   "added": "2026-10-17T10:30:37+09:00",
    "decode_v2": true,
    "image_checked": true,
    "image_v4": true,
