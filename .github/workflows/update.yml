@@ -33,11 +33,14 @@ jobs:
       - name: ニュースを取得
         run: python scripts/fetch_news.py
 
+      - name: 天気予報を取得
+        run: python scripts/fetch_weather.py
+
       - name: 変更があれば保存
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/news.json data/status.json data/venues.json
+          git add data/news.json data/status.json data/venues.json $(ls data/weather.json 2>/dev/null)
           if git diff --cached --quiet; then
             echo "変更なし"
           else

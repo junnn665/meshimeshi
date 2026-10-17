@@ -1951,14 +1951,17 @@
       var b = el('button', 'g-pill ev-filter', f.label);
       b.type = 'button';
       b.setAttribute('aria-pressed', String(ev.filter === f.id));
-      b.addEventListener('click', function () {
-        ev.filter = f.id;
-        store.set('meshi.evFilter', f.id);
-        Array.prototype.forEach.call(fbox.children, function (x) { x.setAttribute('aria-pressed', String(x === b)); });
-        render();
-      });
+      b.dataset.filter = f.id;
+      b.addEventListener('click', function () { setFilter(f.id); });
       fbox.appendChild(b);
     });
+
+    function setFilter(id) {
+      ev.filter = id;
+      store.set('meshi.evFilter', id);
+      Array.prototype.forEach.call(fbox.children, function (x) { x.setAttribute('aria-pressed', String(x.dataset.filter === id)); });
+      render();
+    }
 
     var ORDER = { now: 0, soon: 1, unknown: 2, past: 3 };
     function visible(it) {
@@ -2086,6 +2089,37 @@
       return null;
     }
 
+    // ---- 天気（data/weather.json：Open-Meteo の名古屋の予報） ----
+    function wxDay(date) {
+      var w = ev.weather;
+      if (!w || !w.days) return null;
+      if (Date.now() - Date.parse(w.updated) > 2 * 86400000) return null; // 古すぎる予報は使わない
+      for (var i = 0; i < w.days.length; i++) if (w.days[i].date === date) return w.days[i];
+      return null;
+    }
+    function wxKind(d) {
+      var c = d.code;
+      if ((c >= 71 && c <= 77) || c === 85 || c === 86) return 'snow';
+      if ((c >= 51 && c <= 67) || (c >= 80 && c <= 82) || c >= 95) return 'rain';
+      if (c >= 2) return 'cloud';
+      return 'sun';
+    }
+    var WX = { sun: ['☀️', '晴れ'], cloud: ['☁️', 'くもり'], rain: ['☔', '雨'], snow: ['⛄', '雪'] };
+    function isRainy(d) {
+      var k = wxKind(d);
+      return (d.pop != null && d.pop >= 50) || ((k === 'rain' || k === 'snow') && (d.pop == null || d.pop >= 30)) || (d.rain != null && d.rain >= 2);
+    }
+    function wxChip(label, d) {
+      var k = wxKind(d);
+      var c = el('span', 'ev-wx' + (isRainy(d) ? ' rainy' : ''));
+      c.appendChild(el('b', null, label));
+      c.appendChild(el('span', 'ev-wx-icon', WX[k][0]));
+      c.appendChild(el('span', null, WX[k][1]));
+      if (d.tmax != null) c.appendChild(el('span', 'ev-wx-temp', Math.round(d.tmax) + '° / ' + Math.round(d.tmin) + '°'));
+      if (d.pop != null) c.appendChild(el('span', 'ev-wx-pop', '☂' + d.pop + '%'));
+      return c;
+    }
+
     function renderWeekend() {
       var box = $('ev-weekend');
       if (!box) return;
@@ -2096,6 +2130,37 @@
       head.appendChild(el('h2', null, '今週末のおすすめ'));
       head.appendChild(el('span', 'ev-wk-days', fmtDay(wk.sat) + '・' + fmtDay(wk.sun)));
       box.appendChild(head);
+      // 週末の天気（今日より前の日は出さない）
+      var today = todayJst();
+      var days = [[wk.sat, '土'], [wk.sun, '日']].filter(function (x) { return x[0] >= today; })
+        .map(function (x) { return { date: x[0], label: x[1], d: wxDay(x[0]) }; })
+        .filter(function (x) { return x.d; });
+      var rainyDays = days.filter(function (x) { return isRainy(x.d); });
+      if (days.length) {
+        var wx = el('div', 'ev-wx-row');
+        days.forEach(function (x) { wx.appendChild(wxChip(x.label + ' ' + fmtDay(x.date).replace(/（.）/, ''), x.d)); });
+        wx.appendChild(el('span', 'ev-wx-src', '名古屋の予報'));
+        box.appendChild(wx);
+      }
+      if (rainyDays.length) {
+        var indoorN = ev.items.filter(function (it) { return it.place === 'indoor' && eventStatus(it).id !== 'past'; }).length;
+        var rain = el('div', 'ev-rain');
+        var msg = rainyDays.map(function (x) { return x.label + '曜' + (x.d.pop != null ? '（' + x.d.pop + '%）' : ''); }).join('・');
+        rain.appendChild(el('p', null, '☔ ' + msg + 'は雨の予報です。屋内のイベントなら濡れずに楽しめます。'));
+        if (indoorN) {
+          var go = el('button', 'ev-rain-btn', '屋内のイベントを見る（' + indoorN + '件）');
+          go.type = 'button';
+          go.addEventListener('click', function () {
+            setFilter('indoor');
+            $('ev-list').scrollIntoView({ behavior: 'smooth', block: 'start' });
+          });
+          rain.appendChild(go);
+        }
+        box.appendChild(rain);
+        // 雨の週末は屋内を先に
+        var rank = { indoor: 0, undefined: 1, outdoor: 2 };
+        list = list.slice().sort(function (a, b) { return (rank[a.place] != null ? rank[a.place] : 1) - (rank[b.place] != null ? rank[b.place] : 1); });
+      }
       if (!list.length) {
         box.appendChild(el('p', 'ev-wk-empty', '今週末に開催のイベントはまだ見つかっていません。新しいニュースが入ったらここに出ます。'));
         return;
@@ -2110,6 +2175,7 @@
         top.appendChild(el('span', 'ev-when', eventRange(it)));
         var wpt = placeTag(it);
         if (wpt) top.appendChild(wpt);
+        if (rainyDays.length && it.place === 'outdoor') top.appendChild(el('span', 'ev-place rainwarn', '雨に注意'));
         c.appendChild(top);
         var a = el('a', 'ev-wk-title', it.title);
         a.href = it.link; a.target = '_blank'; a.rel = 'noopener';
@@ -2232,6 +2298,10 @@
         });
         if (changed) store.set('meshi.saved', state.savedItems);
         render();
+        fetch('data/weather.json?t=' + Date.now(), { cache: 'no-store' })
+          .then(function (r) { return r.ok ? r.json() : null; })
+          .then(function (w) { if (w) { ev.weather = w; renderWeekend(); } })
+          .catch(function () { /* 天気がなくてもイベントは出す */ });
       })
       .catch(function () {
         $('ev-count').textContent = 'イベント情報を読み込めませんでした。';

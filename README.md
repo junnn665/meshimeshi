@@ -54,6 +54,8 @@
 - カレンダーに追加 … 公開のときに `scripts/make_ics.py` が `cal/<group>.ics` を作ります（リポジトリには保存しない）。
   Googleカレンダーへのリンクも出します。
 - 雨の日フィルター … `events.py` の `INDOOR_VENUES` / `OUTDOOR_VENUES` と見出しの言葉で、屋内・屋外を判断します。
+- 週末の天気 … `scripts/fetch_weather.py` が Open-Meteo（無料・登録不要、CC BY 4.0）から名古屋の8日分の予報を取り、
+  `data/weather.json` に保存します。土日のどちらかが雨の予報なら「屋内のイベントを見る」を出し、屋内のイベントを先に並べます。
 - 新しい会場を増やすときは `VENUES` に「表示名・見出しで探す言葉・緯度・経度・地名検索の言葉」を足します。
 
 ## 調整したいとき

@@ -1097,3 +1097,26 @@ main > .ev-notice { margin-bottom: 12px; }
   font-style: normal; padding: 2px 10px; border-radius: 999px; background: #fff; color: #B42318; font-size: 12px; font-weight: 900;
 }
 .ev-entry-live em + em { color: #0E7490; }
+
+/* 週末の天気 */
+.ev-wx-row { display: flex; flex-wrap: wrap; align-items: center; gap: 6px; }
+.ev-wx {
+  display: inline-flex; align-items: center; gap: 5px; padding: 4px 10px; border-radius: 999px; background: #fff;
+  border: 2px solid var(--ink); font-size: 12px; font-weight: 700;
+}
+.ev-wx b { font-weight: 900; }
+.ev-wx-icon { font-size: 15px; line-height: 1; }
+.ev-wx-temp { color: var(--sub); }
+.ev-wx-pop { color: #0E7490; font-weight: 900; }
+.ev-wx.rainy { background: #E6F0FA; border-color: #1D5FA8; }
+.ev-wx-src { font-size: 11px; color: var(--sub); }
+.ev-rain {
+  display: flex; flex-wrap: wrap; align-items: center; gap: 8px 12px; padding: 10px 12px; border-radius: 14px;
+  background: #1D5FA8; color: #fff;
+}
+.ev-rain p { margin: 0; flex: 1 1 220px; font-size: 13px; font-weight: 900; line-height: 1.6; }
+.ev-rain-btn {
+  min-height: 40px; padding: 0 14px; border-radius: 999px; border: 2px solid #fff; background: #fff; color: #1D5FA8;
+  font-family: inherit; font-size: 13px; font-weight: 900; cursor: pointer;
+}
+.ev-place.rainwarn { color: #1D5FA8; background: #E6F0FA; }
