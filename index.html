@@ -40,6 +40,11 @@
 </div>
 
 <main class="wrap main">
+  <a class="now-entry" href="now.html">
+    <span class="now-entry-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 21s-6.5-6.2-6.5-11a6.5 6.5 0 0 1 13 0c0 4.8-6.5 11-6.5 11z"/><circle cx="12" cy="10" r="2.4"/></svg></span>
+    <span class="now-entry-text"><span class="now-entry-small">お腹すいた、どこ行こう？</span><b>今から行ける</b><span>近くで今やってるイベント・営業中の話題の店・天気をまとめて提案／お出かけプランも</span></span>
+    <span class="ev-entry-arrow" aria-hidden="true">→</span>
+  </a>
   <a class="gacha-entry" href="gacha.html">
     <span class="ge-text">
       <span class="ge-small">今日なに食べる？ 迷ったら</span>
@@ -57,6 +62,14 @@
     <span class="ev-entry-text"><b>ごはんイベントマップ</b><span>久屋大通・栄・名駅でいまやってるグルメイベントを地図で</span></span>
     <span class="ev-entry-arrow" aria-hidden="true">→</span>
   </a>
+
+  <section class="tr" id="trends" aria-labelledby="tr-heading" hidden>
+    <div class="tr-head">
+      <h2 id="tr-heading"><span class="tr-fire" aria-hidden="true">📈</span>急上昇グルメ</h2>
+      <span class="tr-sub">ここ3日で急に記事が増えている店・料理</span>
+    </div>
+    <div class="tr-row" id="tr-row"></div>
+  </section>
 
   <nav class="tabs" id="tabs" aria-label="カテゴリ"></nav>
 

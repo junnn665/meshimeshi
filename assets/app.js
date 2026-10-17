@@ -788,7 +788,10 @@
   }
   function loadOsm() {
     var radius = (RADII.filter(function (r) { return r.id === gacha.radius; })[0] || RADII[1]).m;
-    var lat = gacha.here.lat.toFixed(4), lng = gacha.here.lng.toFixed(4);
+    return loadOsmAt(gacha.here, radius);
+  }
+  function loadOsmAt(here, radius) {
+    var lat = here.lat.toFixed(4), lng = here.lng.toFixed(4);
     var key = lat + ',' + lng + ',' + radius;
     if (osmCache[key]) return Promise.resolve(osmCache[key]);
     var q = '[out:json][timeout:20];nwr["amenity"~"^(restaurant|cafe|fast_food|pub)$"]["name"](around:' +
@@ -1713,6 +1716,23 @@
   // テスト用に営業時間の読み取りを外から使えるようにする
   window.__meshiHours = { parseHours: parseHours, isOpenNow: isOpenNow, hasLunch: hasLunch };
 
+  // 「今から行ける」「お出かけプラン」（assets/now.js）から使う共通の部品
+  function loadAllShops() {
+    if (gacha.meta) return loadShops('near');
+    return fetch('data/shops/meta.json?t=' + Date.now(), { cache: 'no-store' })
+      .then(function (r) { if (!r.ok) throw new Error(r.status); return r.json(); })
+      .then(function (meta) { gacha.meta = meta; return loadShops('near'); });
+  }
+  window.MESHI = {
+    $: function (id) { return $(id); }, el: el, svg: svg, store: store, photo: photo, CAT: CAT,
+    todayJst: todayJst, fmtDay: fmtDay, addDays: addDays, eventStatus: eventStatus, eventRange: eventRange,
+    groupEvents: groupEvents, eventName: eventName, weekendJst: weekendJst,
+    distance: distance, fmtDistance: fmtDistance, isOpenNow: isOpenNow, hasLunch: hasLunch,
+    loadAllShops: loadAllShops, loadOsmAt: loadOsmAt, mergeShops: mergeShops, normName: normName,
+    locate: locate, GENRE_WORDS: GENRE_WORDS, showOffline: function (on) { showOffline(on); },
+    isSaved: isSaved, toggleSaved: toggleSaved
+  };
+
   // ---------- 一覧 ----------
   function headingText() {
     var parts = [];
@@ -1829,6 +1849,63 @@
     if (top < 0 || top > window.innerHeight) $('heading').scrollIntoView({ behavior: 'smooth', block: 'start' });
   }
 
+  // ---------- 急上昇グルメ（data/trends.json） ----------
+  var TR_KIND = { shop: 'お店', chain: 'チェーン', dish: '料理' };
+  function sparkline(daily, recentDays) {
+    var max = Math.max.apply(null, daily.concat([1]));
+    var w = 4, gap = 2, h = 26;
+    var bars = daily.map(function (v, i) {
+      var bh = Math.max(2, Math.round(v / max * h));
+      var hot = i >= daily.length - recentDays;
+      return '<rect x="' + (i * (w + gap)) + '" y="' + (h - bh) + '" width="' + w + '" height="' + bh + '" rx="1" fill="' + (hot ? '#D92D20' : '#CFC4AE') + '"/>';
+    }).join('');
+    var s = el('span', 'tr-spark');
+    s.setAttribute('aria-hidden', 'true');
+    s.innerHTML = '<svg viewBox="0 0 ' + (daily.length * (w + gap) - gap) + ' ' + h + '" preserveAspectRatio="none">' + bars + '</svg>';
+    return s;
+  }
+  function renderTrends() {
+    var sec = $('trends');
+    if (!sec) return;
+    fetch('data/trends.json?t=' + Date.now(), { cache: 'no-store' })
+      .then(function (r) { return r.ok ? r.json() : null; })
+      .then(function (d) {
+        var row = $('tr-row');
+        row.textContent = '';
+        var list = (d && d.items) || [];
+        if (!list.length) { sec.hidden = true; return; }
+        list.slice(0, 8).forEach(function (t, i) {
+          var b = el('button', 'tr-card');
+          b.type = 'button';
+          b.appendChild(el('span', 'tr-rank', String(i + 1)));
+          var top = el('span', 'tr-top');
+          top.appendChild(el('span', 'tr-kind ' + t.kind, TR_KIND[t.kind] || ''));
+          top.appendChild(el('span', 'tr-badge', t.new ? 'NEW' : (t.ratio >= 2.5 ? 'いつもの' + Math.round(t.ratio) + '倍' : '上昇中')));
+          b.appendChild(top);
+          b.appendChild(el('span', 'tr-label', t.label));
+          b.appendChild(sparkline(t.daily || [], d.recent_days || 3));
+          b.appendChild(el('span', 'tr-count', 'ここ3日で記事' + t.recent + '本'));
+          b.setAttribute('aria-label', t.label + '：ここ3日で記事' + t.recent + '本。押すとこの言葉で記事を探します');
+          b.addEventListener('click', function () {
+            $('q').value = t.q || t.label;
+            state.query = t.q || t.label;
+            state.tab = 'all';
+            state.saved = false;
+            state.shown = PAGE_SIZE;
+            Array.prototype.forEach.call($('tabs').children, function (x) {
+              x.setAttribute('aria-pressed', String(x.dataset.id === 'all'));
+            });
+            syncHash();
+            refreshView();
+            $('heading').scrollIntoView({ behavior: 'smooth', block: 'start' });
+          });
+          row.appendChild(b);
+        });
+        sec.hidden = false;
+      })
+      .catch(function () { sec.hidden = true; });
+  }
+
   // トップページのイベントマップ入口に「今日は○件開催中・今週末は○件」
   function updateEvEntry() {
     var box = document.querySelector('.ev-entry-text');
@@ -1869,6 +1946,7 @@
         }
         renderTicker();
         updateEvEntry();
+        renderTrends();
         refreshView();
         centerActive(false);
         return true;

@@ -33,6 +33,9 @@ jobs:
       - name: ニュースを取得
         run: python scripts/fetch_news.py
 
+      - name: 急上昇グルメを計算
+        run: python scripts/trends.py
+
       - name: 天気予報を取得
         run: python scripts/fetch_weather.py
 
@@ -40,7 +43,7 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/news.json data/status.json data/venues.json $(ls data/weather.json 2>/dev/null)
+          git add data/news.json data/status.json data/venues.json data/trends.json $(ls data/weather.json 2>/dev/null)
           if git diff --cached --quiet; then
             echo "変更なし"
           else
@@ -71,9 +74,9 @@ jobs:
       - name: ファイルに版番号をつける
         run: |
           V="${GITHUB_SHA::7}-${GITHUB_RUN_NUMBER}"
-          sed -i -E "s#(assets/(app\.js|style\.css|config\.js))\"#\1?v=${V}\"#g" index.html gacha.html vote.html events.html
+          sed -i -E "s#(assets/(app\.js|style\.css|config\.js|now\.js))\"#\1?v=${V}\"#g" index.html gacha.html vote.html events.html now.html
           sed -i "s/__BUILD__/${V}/" sw.js
-          grep -o 'assets/[a-z]*\.[a-z]*?v=[^"]*' index.html gacha.html vote.html events.html
+          grep -o 'assets/[a-z]*\.[a-z]*?v=[^"]*' index.html gacha.html vote.html events.html now.html
 
       - uses: actions/configure-pages@v5
 

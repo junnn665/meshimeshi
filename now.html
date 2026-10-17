@@ -1,0 +1,123 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>今から行ける｜飯飯食堂</title>
+<meta name="description" content="近くで今やってるグルメイベント、営業中の話題のお店、天気までまとめて、今から行けるごはんを提案。お出かけプランも自動で作ります">
+<meta name="theme-color" content="#2B2118">
+<meta property="og:title" content="今から行ける｜飯飯食堂">
+<meta property="og:description" content="お腹すいた、どこ行こう？をボタン1つで">
+<meta property="og:type" content="website">
+<link rel="icon" href="assets/icon.svg" type="image/svg+xml">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="飯飯食堂">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Zen+Maru+Gothic:wght@500;700;900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/vendor/leaflet/leaflet.css">
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body class="gacha-page now-page">
+<div class="offline-bar" id="offline-bar" hidden>電波がないため、前回読み込んだ内容を表示しています</div>
+<header class="mini-header">
+  <div class="wrap mini-inner">
+    <a class="mini-logo" href="./">飯飯食堂</a>
+    <nav class="mini-nav" aria-label="サイト">
+      <a href="./">記事一覧</a>
+      <a href="gacha.html">飯ガチャ</a>
+      <a href="events.html">イベント</a>
+    </nav>
+  </div>
+</header>
+
+<main class="wrap main">
+  <section class="nw" id="nw" aria-labelledby="nw-heading">
+    <p class="ev-kicker">お腹すいた、どこ行こう？</p>
+    <h1 class="ev-heading" id="nw-heading">今から行ける</h1>
+
+    <div class="nw-tabs" role="tablist" aria-label="使い方">
+      <button type="button" class="nw-tab" role="tab" id="nw-tab-now" aria-controls="nw-now" aria-selected="true">今から行ける</button>
+      <button type="button" class="nw-tab" role="tab" id="nw-tab-plan" aria-controls="nw-plan" aria-selected="false">お出かけプラン</button>
+    </div>
+
+    <!-- 今から行ける -->
+    <div class="nw-panel" id="nw-now" role="tabpanel" aria-labelledby="nw-tab-now">
+      <p class="ev-lead">近くで今日やっているイベント、営業中の話題のお店、これからの天気をまとめて、今から行けるごはんを提案します。</p>
+      <div class="nw-start">
+        <button type="button" class="nw-go" id="nw-go">
+          <span class="nw-go-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 21s-6.5-6.2-6.5-11a6.5 6.5 0 0 1 13 0c0 4.8-6.5 11-6.5 11z"/><circle cx="12" cy="10" r="2.4"/></svg></span>
+          <span>現在地から探す</span>
+        </button>
+        <div class="nw-or">
+          <span>現在地を使わないなら</span>
+          <div class="nw-spots" id="nw-spots" role="group" aria-label="出発する場所"></div>
+        </div>
+      </div>
+      <p class="nw-status" id="nw-status" role="status" aria-live="polite"></p>
+      <div id="nw-result" hidden>
+        <div class="nw-wx" id="nw-wx"></div>
+        <article class="nw-story" id="nw-story" aria-live="polite"></article>
+        <div class="ev-map nw-map" id="nw-map" role="region" aria-label="近くの地図"></div>
+        <section class="nw-sec" aria-labelledby="nw-ev-h">
+          <h2 id="nw-ev-h">今日やってるイベント</h2>
+          <div class="nw-list" id="nw-events"></div>
+        </section>
+        <section class="nw-sec" aria-labelledby="nw-buzz-h">
+          <h2 id="nw-buzz-h">近くの話題のお店</h2>
+          <div class="nw-list" id="nw-buzz"></div>
+        </section>
+        <section class="nw-sec" aria-labelledby="nw-open-h">
+          <h2 id="nw-open-h">今開いてるお店</h2>
+          <div class="g-pills nw-genres" id="nw-genres" role="group" aria-label="ジャンル"></div>
+          <div class="nw-list" id="nw-open"></div>
+        </section>
+      </div>
+    </div>
+
+    <!-- お出かけプラン -->
+    <div class="nw-panel" id="nw-plan" role="tabpanel" aria-labelledby="nw-tab-plan" hidden>
+      <p class="ev-lead">日にち・時間・場所を選ぶと、イベント→カフェ→ごはんのように、回る順番と時間を組みます。</p>
+      <div class="nw-form">
+        <div class="g-field"><p class="g-label">いつ</p><div class="g-pills" id="pl-day" role="group" aria-label="いつ"></div></div>
+        <div class="g-field"><p class="g-label">時間</p><div class="g-pills" id="pl-time" role="group" aria-label="時間"></div></div>
+        <div class="g-field"><p class="g-label">どこで</p><div class="g-pills" id="pl-area" role="group" aria-label="どこで"></div></div>
+        <button type="button" class="nw-go nw-make" id="pl-make">プランを作る</button>
+      </div>
+      <p class="nw-status" id="pl-status" role="status" aria-live="polite"></p>
+      <div id="pl-result" hidden>
+        <div class="nw-plan-head">
+          <h2 id="pl-title"></h2>
+          <div class="nw-wx" id="pl-wx"></div>
+        </div>
+        <ol class="nw-steps" id="pl-steps"></ol>
+        <div class="ev-map nw-map" id="pl-map" role="region" aria-label="プランの地図"></div>
+        <div class="nw-plan-actions">
+          <a class="nw-act" id="pl-route" target="_blank" rel="noopener">Googleマップで道順を見る</a>
+          <a class="nw-act line" id="pl-line" target="_blank" rel="noopener">LINEで送る</a>
+          <button type="button" class="nw-act" id="pl-again">別のプランにする</button>
+        </div>
+        <p class="nw-note">地図の線は回る順番を結んだものです。実際の道順はGoogleマップで確認してください。営業時間はお店の情報から読み取った目安です。</p>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <p><a href="https://webservice.recruit.co.jp/" target="_blank" rel="noopener"><img src="https://webservice.recruit.co.jp/banner/hotpepper-s.gif" alt="ホットペッパーグルメ Webサービス" width="135" height="17" title="ホットペッパーグルメ Webサービス"></a></p>
+    <p>お店の情報はホットペッパーグルメ Webサービスと © OpenStreetMap contributors のデータを使っています。地図：© OpenStreetMap contributors。天気：<a href="https://open-meteo.com/">Open-Meteo.com</a>（CC BY 4.0）。イベント・話題のお店は各ニュースサイトの記事から集めています。「営業中」は営業時間の文章から推測したもので、祝日や臨時休業は反映されません。位置情報は距離の計算にだけ使い、どこにも送信しません。</p>
+    <p>© 飯飯食堂</p>
+  </div>
+</footer>
+
+<script src="assets/vendor/leaflet/leaflet.js"></script>
+<script src="assets/config.js"></script>
+<script src="assets/app.js"></script>
+<script src="assets/now.js"></script>
+</body>
+</html>
