@@ -1,14 +1,13 @@
 {
- "updated": "2026-10-17T10:30:37+09:00",
- "items": 368,
- "with_image": 345,
- "google_decode_ok": 33,
+ "updated": "2026-10-17T11:28:22+09:00",
+ "items": 370,
+ "with_image": 347,
+ "google_decode_ok": 31,
  "google_decode_failed": 0,
  "google_decode_samples": [],
  "image_failures": [
   "www.excite.co.jp: HTTPError: HTTP Error 403: Forbidden",
   "www.excite.co.jp: HTTPError: HTTP Error 403: Forbidden",
-  "media.unisba.ac.id: HTTPError: HTTP Error 403: Forbidden",
   "www.excite.co.jp: HTTPError: HTTP Error 403: Forbidden",
   "go2senkyo.com: og:image なし (2004 文字)"
  ]

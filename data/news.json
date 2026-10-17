@@ -1,6 +1,39 @@
 {
- "updated": "2026-10-17T10:30:37+09:00",
+ "updated": "2026-10-17T11:28:22+09:00",
  "items": [
+  {
+   "id": "0bcb382bd68173a1",
+   "title": "台湾まぜそば発祥の店グループ 名古屋の店舗が10月30日で閉店へ 5年8カ月で幕",
+   "link": "https://www.shizuoka-life.jp/post-15472/",
+   "source": "静岡ライフ",
+   "image": "https://www.shizuoka-life.jp/wp-content/uploads/2026/10/5b80efb18aff3ab09495e2e0b4b53b88.jpg",
+   "category": "wadai",
+   "area": "名古屋",
+   "published": "2026-10-17T11:01:16+09:00",
+   "provider": "google",
+   "added": "2026-10-17T11:28:22+09:00",
+   "decode_v2": true,
+   "image_checked": true,
+   "image_v4": true,
+   "shop": false,
+   "shop_name": null
+  },
+  {
+   "id": "d5ee6db615e12ebe",
+   "title": "【きまぐれクック×ローソン】「魚介」の魅力をもっと身近に。カンジャンケジャン味のポテトチップスや鯛だし醤油らぁ麺などを商品化",
+   "link": "https://prtimes.jp/main/html/rd/p/000000350.000087236.html",
+   "source": "PR TIMES",
+   "image": "https://prcdn.freetls.fastly.net/release_image/87236/350/87236-350-43aea163e339a78e6957865f6f76f3ca-1020x643.jpg?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260",
+   "category": "conbini",
+   "area": "全国",
+   "published": "2026-10-17T10:40:38+09:00",
+   "provider": "prtimes",
+   "added": "2026-10-17T11:28:22+09:00",
+   "image_checked": true,
+   "image_v4": true,
+   "shop": false,
+   "shop_name": null
+  },
   {
    "id": "ca00a3ab162cf8ce",
    "title": "ファミマで「チョコのスティックケーキ」が2026年10月20日に発売、ワンハンドで食べられるスティックタイプの新作チョコケーキ",
