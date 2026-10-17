@@ -1,6 +1,24 @@
 {
- "updated": "2026-10-17T17:27:14+09:00",
+ "updated": "2026-10-17T18:26:19+09:00",
  "items": [
+  {
+   "id": "ee26dc14cbbe8502",
+   "title": "メ〜テレの番組出演者やアナウンサーが集結 番組紹介のグルメも 「ドデ祭」が始まる（メ〜テレ（名古屋テレビ））",
+   "link": "http://www.excite.co.jp/news/article/nagoyatv_1484096426816701275/",
+   "source": "Excite エキサイト",
+   "image": null,
+   "category": "event",
+   "area": "名古屋",
+   "published": "2026-10-17T16:49:00+09:00",
+   "provider": "google",
+   "added": "2026-10-17T18:26:19+09:00",
+   "decode_v2": true,
+   "image_checked": true,
+   "image_v4": true,
+   "shop": false,
+   "shop_name": null,
+   "group": "e9976f2b2eb2"
+  },
   {
    "id": "93216a6feabcc80b",
    "title": "【愛知・瀬戸】牡蠣好き必見！今年も牡蠣の季節がやってくる！11月から焼き牡蠣＆ガンガン焼き食べ放題、名物牡蠣しゃぶも登場 ウッドデザインパーク瀬戸",
@@ -121,6 +139,22 @@
    "provider": "google",
    "added": "2026-10-17T11:28:22+09:00",
    "decode_v2": true,
+   "image_checked": true,
+   "image_v4": true,
+   "shop": false,
+   "shop_name": null
+  },
+  {
+   "id": "ee93922bd1918a70",
+   "title": "愛知初出店のハワイアンが閉店へ 跡地に人気うどんチェーン 東海エリア1号店",
+   "link": "https://www.shizuoka-life.jp/post-15477/",
+   "source": "shizuoka-life",
+   "image": "https://www.shizuoka-life.jp/wp-content/uploads/2026/10/4c85c234076325c638e2c305400f29d6-3.jpg",
+   "category": "shinten",
+   "area": "愛知",
+   "published": "2026-10-17T11:01:00+09:00",
+   "provider": "bing",
+   "added": "2026-10-17T18:26:19+09:00",
    "image_checked": true,
    "image_v4": true,
    "shop": false,
@@ -6314,23 +6348,6 @@
    "added": "2026-10-07T04:20:49+09:00",
    "shop": true,
    "shop_name": "名古屋めし食堂丸八 伏見別邸"
-  },
-  {
-   "id": "5c0da3445c87fede",
-   "title": "【SixTONES/ジャニーズJr.の松村北斗さんやSKE48が登場】東海ラーメン界の最新情報を一冊に詰め込んだムック「ラーメンWalker東海2020」が10/3（木）発売に！",
-   "link": "https://www.walkerplus.com/article/207170/",
-   "source": "ウォーカープラス",
-   "image": "https://news.walkerplus.com/article/207170/1263253_615.jpg",
-   "category": "chain",
-   "area": "東海",
-   "published": "2026-10-07T04:01:26+09:00",
-   "provider": "google",
-   "decode_tried": true,
-   "image_checked": true,
-   "decode_v2": true,
-   "added": "2026-10-07T04:01:26+09:00",
-   "shop": false,
-   "shop_name": null
   }
  ]
 }
