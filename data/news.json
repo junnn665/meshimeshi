@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-17T12:27:21+09:00",
+ "updated": "2026-10-17T12:52:59+09:00",
  "items": [
   {
    "id": "a6807e1780b8dbff",
@@ -96,6 +96,23 @@
    "published": "2026-10-17T08:00:00+09:00",
    "provider": "google",
    "added": "2026-10-17T09:38:52+09:00",
+   "decode_v2": true,
+   "image_checked": true,
+   "image_v4": true,
+   "shop": false,
+   "shop_name": null
+  },
+  {
+   "id": "d5927efe8c02333d",
+   "title": "地元民が教える！名古屋で食べたいおすすめグルメ4選",
+   "link": "https://article.auone.jp/8fbaa759-2b94-4cb3-840a-93d618f246b9",
+   "source": "au Webポータル",
+   "image": "https://newportal.portal.auone.jp/media/thumbnails/2026/10/16/https___news_jp_i_1483940436601766044_w1200.webp",
+   "category": "wadai",
+   "area": "名古屋",
+   "published": "2026-10-17T06:29:00+09:00",
+   "provider": "google",
+   "added": "2026-10-17T12:52:59+09:00",
    "decode_v2": true,
    "image_checked": true,
    "image_v4": true,
@@ -6321,40 +6338,6 @@
    "image_checked": true,
    "decode_v2": true,
    "added": "2026-10-06T14:45:51+09:00",
-   "shop": false,
-   "shop_name": null
-  },
-  {
-   "id": "6e18145b9b951eed",
-   "title": "今週新発売のセブンイレブン麺",
-   "link": "http://www.excite.co.jp/news/article/Mognavi_2026100605/",
-   "source": "Excite エキサイト",
-   "image": null,
-   "category": "conbini",
-   "area": "東海",
-   "published": "2026-10-06T13:45:00+09:00",
-   "provider": "google",
-   "added": "2026-10-13T00:22:34+09:00",
-   "decode_v2": true,
-   "image_checked": true,
-   "image_v4": true,
-   "shop": false,
-   "shop_name": null
-  },
-  {
-   "id": "e7bfa3416823d45d",
-   "title": "「不思議な世界に迷い込んだみたい」オシャレなアンティーク店で絶品スイーツ！？アジア大会マラソンコース沿いでCBC中村アナがグルメ三昧（CBCテレビ）",
-   "link": "https://news.yahoo.co.jp/articles/366e035f4a7c781029bee391e5d6da4337622183",
-   "source": "Yahoo!ニュース",
-   "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20260929-90000001-cbc-000-3-view.jpg?exp=10800",
-   "category": "wadai",
-   "area": "東海",
-   "published": "2026-10-06T12:43:00+09:00",
-   "provider": "google",
-   "decode_tried": true,
-   "image_checked": true,
-   "decode_v2": true,
-   "added": "2026-10-06T12:43:00+09:00",
    "shop": false,
    "shop_name": null
   }
