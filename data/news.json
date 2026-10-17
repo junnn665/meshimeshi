@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-17T23:25:29+09:00",
+ "updated": "2026-10-18T00:25:46+09:00",
  "items": [
   {
    "id": "ee26dc14cbbe8502",
@@ -6308,30 +6308,6 @@
    "added": "2026-10-07T09:49:53+09:00",
    "shop": false,
    "shop_name": null
-  },
-  {
-   "id": "1500e2edbb56786a",
-   "title": "名古屋・栄に肉グルメが大集結！「PORKTOBER FEST in NAGOYA 2026」が2026年10月10日～12日までサカエヒロバスにて開催【出店者まとめ】",
-   "link": "https://nagoyato.com/posts/19746",
-   "source": "ナゴヤトコトン",
-   "image": "https://nagoyato.com/wp-content/uploads/2026/10/combi_2026_10_05_31-1.jpg",
-   "category": "event",
-   "area": "名古屋",
-   "published": "2026-10-07T09:00:46+09:00",
-   "provider": "google",
-   "added": "2026-10-13T06:19:17+09:00",
-   "decode_v2": true,
-   "image_checked": true,
-   "image_v4": true,
-   "shop": false,
-   "shop_name": null,
-   "venue": "栄",
-   "lat": 35.16796,
-   "lng": 136.89203,
-   "place": "outdoor",
-   "start": "2026-10-10",
-   "end": "2026-10-12",
-   "group": "4fd7961684b1"
   }
  ]
 }

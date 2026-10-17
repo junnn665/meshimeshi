@@ -1,7 +1,6 @@
 {
- "updated": "2026-10-17T14:25:59+00:00",
+ "updated": "2026-10-17T15:26:20+00:00",
  "days": [
-  "2026-10-04",
   "2026-10-05",
   "2026-10-06",
   "2026-10-07",
@@ -14,140 +13,11 @@
   "2026-10-14",
   "2026-10-15",
   "2026-10-16",
-  "2026-10-17"
+  "2026-10-17",
+  "2026-10-18"
  ],
  "recent_days": 3,
  "items": [
-  {
-   "label": "丸亀製麺",
-   "q": "丸亀製麺",
-   "kind": "chain",
-   "recent": 2,
-   "base_per_day": 0.0,
-   "ratio": 2.5,
-   "new": true,
-   "daily": [
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    1,
-    1,
-    0
-   ],
-   "articles": [
-    {
-     "id": "69cf5240029f9092",
-     "title": "tactoがデザインを担当した丸亀製麺の店舗向け「ハピカンダッシュボード」が2026年度グッドデザイン賞を受賞",
-     "link": "https://prtimes.jp/main/html/rd/p/000000005.000109951.html",
-     "source": "PR TIMES",
-     "image": "https://prcdn.freetls.fastly.net/release_image/109951/5/109951-5-fd5611cef859c6313562601bb2951197-1200x630.jpg?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260"
-    },
-    {
-     "id": "3a82196da877abc7",
-     "title": "トリドールHDとプレイドの共同開発による丸亀製麺の店舗向け「ハピカンダッシュボード」が2026年度グッドデザイン賞を受賞",
-     "link": "https://prtimes.jp/main/html/rd/p/000000368.000010620.html",
-     "source": "PR TIMES",
-     "image": "https://prcdn.freetls.fastly.net/release_image/10620/368/10620-368-f4542e5777b1f3f0b63c394259d7c283-1200x630.jpg?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260"
-    }
-   ]
-  },
-  {
-   "label": "スガキヤ",
-   "q": "スガキヤ",
-   "kind": "chain",
-   "recent": 4,
-   "base_per_day": 0.45,
-   "ratio": 1.9,
-   "new": false,
-   "daily": [
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    3,
-    0,
-    2,
-    2,
-    2,
-    0
-   ],
-   "articles": [
-    {
-     "id": "11f8a28b45b58e53",
-     "title": "名古屋の味スガキヤが横浜出店 関東3度目の挑戦 ラーメン490円、コスト削減がカギ",
-     "link": "https://news.tv-asahi.co.jp/news_economy/articles/900202034.html",
-     "source": "テレ朝NEWS",
-     "image": "https://news.tv-asahi.co.jp/articles_img/900202034_1200.jpg"
-    },
-    {
-     "id": "4a3d5f2b228e97fb",
-     "title": "【画像まとめ】名古屋の味スガキヤが横浜出店 関東3度目の挑戦 ラーメン490円、コスト削減がカギ",
-     "link": "https://news.tv-asahi.co.jp/news_economy/articles/photos/900202034.html?img=img_e9a26f0b1260ea7f8a0c9cf764d5efb7112825",
-     "source": "テレ朝NEWS",
-     "image": "https://news.tv-asahi.co.jp/articles_img/900202034_1920.jpg"
-    },
-    {
-     "id": "d0bb1f5c2eb17be0",
-     "title": "20年ぶりに関東再進出！名古屋発祥のラーメンチェーン「スガキヤ」が神奈川・長津田にOPEN！限定スナックも登場",
-     "link": "https://news.yahoo.co.jp/articles/05f6dc5495bc2c4dc7e01ece432fb9f3829d8250",
-     "source": "Yahoo!ニュース",
-     "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261015-01448779-tkwalk-000-1-view.jpg?exp=10800"
-    }
-   ]
-  },
-  {
-   "label": "ハンバーグ",
-   "q": "ハンバーグ",
-   "kind": "dish",
-   "recent": 2,
-   "base_per_day": 0.09,
-   "ratio": 1.96,
-   "new": false,
-   "daily": [
-    0,
-    0,
-    0,
-    0,
-    0,
-    1,
-    0,
-    0,
-    0,
-    0,
-    0,
-    1,
-    1,
-    0
-   ],
-   "articles": [
-    {
-     "id": "f67de0f9c7d128ae",
-     "title": "ステーキ＆ハンバーグが全品20％オフ！ブロンコビリー「大感謝祭」が10月・11月に連続開催 スタンプを貯めると最大30％オフのチャンスも【名古屋発】",
-     "link": "https://nagoyato.com/posts/20083",
-     "source": "ナゴヤトコトン",
-     "image": "https://nagoyato.com/wp-content/uploads/2026/10/sub3-1.jpg"
-    },
-    {
-     "id": "f10f0f1eb2a2eb02",
-     "title": "【ステーキのあさくま】お客様が選んだ3品すべてが商品化！「学生ハンバーグフェア」10月15日スタート！",
-     "link": "https://prtimes.jp/main/html/rd/p/000000308.000030130.html",
-     "source": "PR TIMES",
-     "image": "https://prcdn.freetls.fastly.net/release_image/30130/308/30130-308-36b3565ed5ff1b6a1d61d2bd5247f145-2000x826.jpg?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260"
-    }
-   ]
-  },
   {
    "label": "ケーキ",
    "q": "ケーキ",
@@ -159,7 +29,6 @@
    "daily": [
     0,
     0,
-    0,
     1,
     1,
     1,
@@ -170,7 +39,8 @@
     0,
     0,
     2,
-    2
+    2,
+    0
    ],
    "articles": [
     {
@@ -193,88 +63,6 @@
      "link": "https://prtimes.jp/main/html/rd/p/000000211.000053694.html",
      "source": "PR TIMES",
      "image": "https://prcdn.freetls.fastly.net/release_image/53694/211/53694-211-b7979fe600d3029fc944a56a7bfd2323-962x641.jpg?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260"
-    }
-   ]
-  },
-  {
-   "label": "ステーキ",
-   "q": "ステーキ",
-   "kind": "dish",
-   "recent": 2,
-   "base_per_day": 0.18,
-   "ratio": 1.62,
-   "new": false,
-   "daily": [
-    0,
-    0,
-    0,
-    0,
-    0,
-    1,
-    0,
-    0,
-    0,
-    0,
-    1,
-    1,
-    1,
-    0
-   ],
-   "articles": [
-    {
-     "id": "f67de0f9c7d128ae",
-     "title": "ステーキ＆ハンバーグが全品20％オフ！ブロンコビリー「大感謝祭」が10月・11月に連続開催 スタンプを貯めると最大30％オフのチャンスも【名古屋発】",
-     "link": "https://nagoyato.com/posts/20083",
-     "source": "ナゴヤトコトン",
-     "image": "https://nagoyato.com/wp-content/uploads/2026/10/sub3-1.jpg"
-    },
-    {
-     "id": "f10f0f1eb2a2eb02",
-     "title": "【ステーキのあさくま】お客様が選んだ3品すべてが商品化！「学生ハンバーグフェア」10月15日スタート！",
-     "link": "https://prtimes.jp/main/html/rd/p/000000308.000030130.html",
-     "source": "PR TIMES",
-     "image": "https://prcdn.freetls.fastly.net/release_image/30130/308/30130-308-36b3565ed5ff1b6a1d61d2bd5247f145-2000x826.jpg?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260"
-    }
-   ]
-  },
-  {
-   "label": "鍋",
-   "q": "鍋",
-   "kind": "dish",
-   "recent": 2,
-   "base_per_day": 0.18,
-   "ratio": 1.62,
-   "new": false,
-   "daily": [
-    0,
-    0,
-    0,
-    0,
-    0,
-    1,
-    0,
-    0,
-    1,
-    0,
-    0,
-    1,
-    1,
-    0
-   ],
-   "articles": [
-    {
-     "id": "af06b90ab563f651",
-     "title": "“炊きたての感動”を味わえる土鍋ごはん専門店が北千住に誕生お米ソムリエ厳選！毎月変わる銘柄米の「土鍋ごはん」専門店「KOTORABIYORI」10月23日（金）北千住マルイ9Fにオープン",
-     "link": "https://prtimes.jp/main/html/rd/p/000000049.000023738.html",
-     "source": "PR TIMES",
-     "image": "https://prcdn.freetls.fastly.net/release_image/23738/49/23738-49-52f477e9a02f4fe2f5e69ab5bb67b3c7-2048x1238.jpg?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260"
-    },
-    {
-     "id": "fa8c72dcc12a039d",
-     "title": "ミツカン、「〆鍋」の試食体験イベント「MIM食堂 ～〆鍋編～ in ミツカン本社」を初開催 - 愛知県半田市",
-     "link": "https://news.mynavi.jp/article/20261015-5128012/",
-     "source": "マイナビニュース",
-     "image": "https://news.mynavi.jp/article/20261015-5128012/index_images/index.jpg"
     }
    ]
   }
