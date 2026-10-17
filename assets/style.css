@@ -1281,3 +1281,66 @@ main > .ev-notice { margin-bottom: 12px; }
 .mini-inner { min-width: 0; }
 .mini-logo { flex: none; white-space: nowrap; }
 .tr-row { padding: 10px 2px 8px 10px; }
+
+/* ===== 進み具合：注文伝票 ===== */
+.slip {
+  position: relative; display: flex; flex-direction: column; gap: 10px; padding: 14px 14px 12px; border-radius: 6px;
+  background:
+    repeating-linear-gradient(to bottom, transparent 0 33px, rgba(29, 95, 168, .10) 33px 34px),
+    #fff;
+  border: 2px solid var(--ink); box-shadow: 4px 4px 0 rgba(43, 33, 24, .22);
+}
+.slip[hidden] { display: none; }
+.slip { border-top: 8px solid #D92D20; background-color: #fff; }
+.slip-head { display: flex; align-items: center; gap: 12px; padding-bottom: 10px; border-bottom: 2px dashed rgba(43, 33, 24, .35); }
+.slip-bowl { flex: none; width: 60px; height: 52px; }
+.slip-bowl svg { width: 100%; height: 100%; overflow: visible; }
+.slip-rice { transition: y .5s ease; }
+.slip-grains { fill: #EDE3CF; transition: transform .5s ease; }
+.slip-steam path { fill: none; stroke: rgba(43, 33, 24, .45); stroke-width: 2.4; stroke-linecap: round; animation: slip-steam 1.6s ease-in-out infinite; }
+.slip-steam path:nth-child(2) { animation-delay: .25s; }
+.slip-steam path:nth-child(3) { animation-delay: .5s; }
+@keyframes slip-steam { 0% { opacity: 0; transform: translateY(4px); } 40% { opacity: 1; } 100% { opacity: 0; transform: translateY(-6px); } }
+.slip-title { flex: 1; min-width: 0; display: flex; flex-direction: column; gap: 1px; }
+.slip-kicker {
+  align-self: flex-start; padding: 0 8px; border: 1.5px solid #D92D20; color: #D92D20; border-radius: 3px;
+  font-size: 11px; font-weight: 900; letter-spacing: .3em;
+}
+.slip-title b { font-size: 17px; font-weight: 900; }
+.slip-msg { font-size: 12px; font-weight: 900; color: #B42318; font-variant-numeric: tabular-nums; }
+.slip-stamp {
+  position: absolute; top: 10px; right: 12px; padding: 4px 10px; border: 3px double #D92D20; border-radius: 6px;
+  color: #D92D20; font-size: 16px; font-weight: 900; letter-spacing: .1em; background: rgba(255, 255, 255, .6);
+  transform: rotate(-12deg) scale(2.2); opacity: 0; pointer-events: none;
+}
+.slip.done .slip-stamp { animation: slip-stamp .35s cubic-bezier(.2, 1.4, .4, 1) forwards; }
+@keyframes slip-stamp { to { transform: rotate(-12deg) scale(1); opacity: 1; } }
+.slip-list { list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; }
+.slip-row { display: grid; grid-template-columns: 30px minmax(0, 1fr) auto; align-items: center; gap: 8px; min-height: 34px; padding: 3px 0; }
+.slip-mark {
+  width: 26px; height: 26px; border-radius: 50%; border: 2px dashed rgba(43, 33, 24, .35);
+  display: flex; align-items: center; justify-content: center; font-size: 12px; font-weight: 900; line-height: 1;
+}
+.slip-row.cook .slip-mark { border: 2px solid var(--ink); background: var(--yellow); animation: slip-pulse 1s ease-in-out infinite; }
+.slip-row.cook .slip-mark::after { content: '…'; }
+.slip-row.done .slip-mark { border: 2px solid #D92D20; background: #D92D20; color: #fff; transform: rotate(-10deg); }
+.slip-row.done .slip-mark::after { content: '済'; }
+.slip-row.skip .slip-mark { border: 2px solid #A39B8B; background: #EDE8DD; color: #6E6556; }
+.slip-row.skip .slip-mark::after { content: '略'; }
+@keyframes slip-pulse { 50% { transform: scale(1.12); } }
+.slip-text { display: flex; flex-direction: column; min-width: 0; }
+.slip-label { font-size: 14px; font-weight: 700; color: var(--ink); }
+.slip-row.wait .slip-label { color: var(--muted); }
+.slip-row.done .slip-label { text-decoration: line-through; text-decoration-color: rgba(217, 45, 32, .55); text-decoration-thickness: 2px; }
+.slip-note { font-size: 11px; color: var(--sub); line-height: 1.4; }
+.slip-note:empty { display: none; }
+.slip-skip {
+  min-height: 34px; padding: 0 12px; border-radius: 999px; border: 2px solid var(--ink); background: #fff; color: var(--ink);
+  font-family: inherit; font-size: 12px; font-weight: 900; cursor: pointer; white-space: nowrap;
+}
+.slip-skip[hidden] { display: none; }
+@media (prefers-reduced-motion: reduce) {
+  .slip-steam path, .slip-row.cook .slip-mark { animation: none; }
+  .slip.done .slip-stamp { animation: none; transform: rotate(-12deg); opacity: 1; }
+  .slip-rice, .slip-grains { transition: none; }
+}

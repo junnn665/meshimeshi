@@ -39,8 +39,9 @@
   // ---------- データの読み込み（1回だけ） ----------
   var data = { news: [], events: [], weather: null, shops: [], trends: null };
   var dataP = null;
-  function loadData() {
-    if (dataP) return dataP;
+  var parts = null;
+  function loadParts() {
+    if (parts) return parts;
     var news = fetch('data/news.json?t=' + Date.now(), { cache: 'no-store' })
       .then(function (r) { if (r.headers.get('X-Meshi-Offline') === '1') M.showOffline(true); return r.json(); })
       .then(function (d) {
@@ -51,15 +52,152 @@
       .then(function (r) { return r.ok ? r.json() : null; })
       .then(function (w) { data.weather = w; }).catch(function () { /* noop */ });
     var shops = M.loadAllShops().then(function (l) { data.shops = l; }).catch(function () { data.shops = []; });
-    dataP = Promise.all([news, wx, shops]);
+    parts = { news: news, wx: wx, shops: shops };
+    return parts;
+  }
+  function loadData() {
+    if (dataP) return dataP;
+    var p = loadParts();
+    dataP = Promise.all([p.news, p.wx, p.shops]);
     return dataP;
   }
   var osmMemo = {};
   function osmAround(p, radius) {
     var k = p.lat.toFixed(3) + ',' + p.lng.toFixed(3) + ',' + radius;
-    if (!osmMemo[k]) osmMemo[k] = M.loadOsmAt(p, radius).catch(function () { return []; });
+    if (!osmMemo[k]) osmMemo[k] = M.loadOsmAt(p, radius).catch(function () { return null; });
     return osmMemo[k];
   }
+  // 地図データの検索は混んでいると遅いので、待つのは OSM_WAIT ミリ秒まで（「待たずに見る」でも打ち切れる）
+  var OSM_WAIT = 6000;
+  function osmWithin(p, radius, slip) {
+    return new Promise(function (resolve) {
+      var done = false;
+      var finish = function (list, how) {
+        if (done) return;
+        done = true;
+        clearTimeout(timer);
+        if (slip) {
+          if (how === 'ok') slip.done('osm', list.length ? list.length + '軒みつかりました' : '');
+          else if (how === 'fail') slip.skip('osm', '地図データにつながらなかったので、お店データだけで探します');
+          else slip.skip('osm', how === 'skip' ? '待たずに先へ進みました' : '時間がかかっているので、お店データだけで先に進みます');
+        }
+        resolve(list || []);
+      };
+      var timer = setTimeout(function () { finish(null, 'timeout'); }, OSM_WAIT);
+      if (slip) slip.onSkip('osm', function () { finish(null, 'skip'); });
+      osmAround(p, radius).then(function (l) { finish(l || [], l ? 'ok' : 'fail'); });
+    });
+  }
+
+  // ---------- 進み具合（注文伝票） ----------
+  // steps: [{ id, label, icon }]
+  function Slip(boxId, title) {
+    this.box = $(boxId);
+    this.title = title;
+    this.rows = {};
+    this.order = [];
+    this.skipFns = {};
+  }
+  Slip.prototype.open = function (steps) {
+    var self = this, box = this.box;
+    box.textContent = '';
+    box.hidden = false;
+    box.classList.remove('done');
+    this.order = steps.map(function (s) { return s.id; });
+    this.state = {};
+    this.t0 = Date.now();
+    var head = el('div', 'slip-head');
+    var bowl = el('span', 'slip-bowl');
+    bowl.setAttribute('aria-hidden', 'true');
+    bowl.innerHTML = '<svg viewBox="0 0 64 56"><defs><clipPath id="' + box.id + '-clip"><path d="M6 26h52a26 22 0 0 1-52 0z"/></clipPath></defs>' +
+      '<g class="slip-steam"><path d="M22 14c0-4 3-5 3-9"/><path d="M32 14c0-4 3-5 3-9"/><path d="M42 14c0-4 3-5 3-9"/></g>' +
+      '<g clip-path="url(#' + box.id + '-clip)"><rect x="0" y="26" width="64" height="30" fill="#E3D6BC"/>' +
+      '<rect class="slip-rice" x="0" y="56" width="64" height="30" fill="#fff"/>' +
+      '<g class="slip-grains"><ellipse cx="18" cy="0" rx="2.4" ry="1.4"/><ellipse cx="28" cy="0" rx="2.4" ry="1.4"/><ellipse cx="38" cy="0" rx="2.4" ry="1.4"/><ellipse cx="47" cy="0" rx="2.4" ry="1.4"/></g></g>' +
+      '<path d="M6 26h52a26 22 0 0 1-52 0z" fill="none" stroke="#2B2118" stroke-width="3"/>' +
+      '<path d="M4 26h56" stroke="#2B2118" stroke-width="3" stroke-linecap="round"/>' +
+      '<path d="M24 49h16" stroke="#2B2118" stroke-width="3" stroke-linecap="round"/></svg>';
+    head.appendChild(bowl);
+    var ht = el('div', 'slip-title');
+    ht.appendChild(el('span', 'slip-kicker', '伝票'));
+    ht.appendChild(el('b', null, this.title));
+    this.msg = ht.appendChild(el('span', 'slip-msg', '仕込み中… 0 / ' + steps.length));
+    head.appendChild(ht);
+    this.stamp = head.appendChild(el('span', 'slip-stamp', 'できあがり'));
+    box.appendChild(head);
+    var ol = el('ol', 'slip-list');
+    steps.forEach(function (s) {
+      var li = el('li', 'slip-row wait');
+      li.appendChild(el('span', 'slip-mark', ''));
+      var tx = el('span', 'slip-text');
+      tx.appendChild(el('span', 'slip-label', s.label));
+      var note = tx.appendChild(el('span', 'slip-note', ''));
+      li.appendChild(tx);
+      var btn = el('button', 'slip-skip', '待たずに見る');
+      btn.type = 'button';
+      btn.hidden = true;
+      btn.addEventListener('click', function () { if (self.skipFns[s.id]) self.skipFns[s.id](); });
+      li.appendChild(btn);
+      ol.appendChild(li);
+      self.rows[s.id] = { li: li, note: note, btn: btn, slow: s.slow };
+    });
+    box.appendChild(ol);
+    this.update();
+    box.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+  };
+  Slip.prototype.set = function (id, st, note) {
+    var r = this.rows[id];
+    if (!r) return;
+    var prev = this.state[id];
+    if (prev === 'done' || prev === 'skip') return;
+    this.state[id] = st;
+    r.li.className = 'slip-row ' + st;
+    if (note != null) r.note.textContent = note;
+    clearTimeout(r.slowTimer);
+    if (st === 'cook') {
+      r.slowTimer = setTimeout(function () {
+        r.note.textContent = r.slow || 'ちょっと混んでいます…';
+        if (r.canSkip) r.btn.hidden = false;
+      }, 3500);
+    } else {
+      r.btn.hidden = true;
+    }
+    this.update();
+  };
+  Slip.prototype.cook = function (id, note) { this.set(id, 'cook', note); };
+  Slip.prototype.done = function (id, note) { this.set(id, 'done', note); };
+  Slip.prototype.skip = function (id, note) { this.set(id, 'skip', note); };
+  Slip.prototype.onSkip = function (id, fn) {
+    this.skipFns[id] = fn;
+    if (this.rows[id]) this.rows[id].canSkip = true;
+  };
+  Slip.prototype.track = function (id, promise, noteFn) {
+    var self = this;
+    this.cook(id);
+    return promise.then(function (v) { self.done(id, noteFn ? noteFn(v) : ''); return v; },
+      function (e) { self.skip(id, 'うまく読めませんでした'); throw e; });
+  };
+  Slip.prototype.update = function () {
+    var self = this;
+    var n = this.order.length;
+    var fin = this.order.filter(function (id) { return self.state[id] === 'done' || self.state[id] === 'skip'; }).length;
+    var rice = this.box.querySelector('.slip-rice');
+    var grains = this.box.querySelector('.slip-grains');
+    var y = 56 - 30 * (fin / n);
+    if (rice) rice.setAttribute('y', String(y));
+    if (grains) grains.setAttribute('transform', 'translate(0 ' + (y + 0.5) + ')');
+    if (this.msg) this.msg.textContent = (fin === n ? 'できあがり！ ' : '仕込み中… ') + fin + ' / ' + n;
+  };
+  // 全部済んだら「できあがり」の判子を見せてから閉じる
+  Slip.prototype.finish = function () {
+    var self = this;
+    this.box.classList.add('done');
+    var quick = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+    return new Promise(function (resolve) {
+      setTimeout(function () { self.box.hidden = true; resolve(); }, quick ? 150 : 650);
+    });
+  };
+  Slip.prototype.fail = function () { this.box.hidden = true; };
 
   // ---------- 小さな道具 ----------
   function dist(a, b) { return M.distance({ lat: +a.lat, lng: +a.lng }, { lat: +b.lat, lng: +b.lng }); }
@@ -269,15 +407,48 @@
   // =====================================================================
   var now = { from: null, fromLabel: '', mapObj: null, genre: 'all', ctx: null };
 
-  function startNow(from, label) {
+  var nowSlip = new Slip('nw-slip', '今から行けるごはん');
+  function nowSteps(withHere) {
+    var st = [];
+    if (withHere) st.push({ id: 'here', label: '現在地をたしかめる', slow: '位置情報の返事待ち…（屋内だと時間がかかることがあります）' });
+    st.push({ id: 'news', label: '今日のネタ（話題のお店・イベント）を仕入れる' });
+    st.push({ id: 'shops', label: 'お店リストを広げる' });
+    st.push({ id: 'osm', label: '近所のお店を地図で探す', slow: '地図データの返事待ち…' });
+    st.push({ id: 'wx', label: '空模様を見る' });
+    st.push({ id: 'cook', label: 'おすすめを盛りつける' });
+    return st;
+  }
+  // 記事・お店・天気の3つ（ページを開いたときから読み込み済みのことも多い）
+  function trackParts(slip) {
+    var p = loadParts();
+    return Promise.all([
+      slip.track('news', p.news, function () {
+        var ev = data.events.length, sh = data.news.filter(function (x) { return x.shop; }).length;
+        return '記事' + data.news.length + '本（イベント' + ev + '・お店の話題' + sh + '）';
+      }),
+      slip.track('shops', p.shops, function () { return data.shops.length ? data.shops.length + '軒' : 'お店データなし'; }),
+      slip.track('wx', p.wx, function () { return data.weather ? '名古屋の予報' : '予報なし'; })
+    ]);
+  }
+  function startNow(from, label, slipOpened) {
     now.from = from; now.fromLabel = label;
-    $('nw-status').textContent = 'お店・イベント・天気を集めています…';
+    $('nw-status').textContent = '';
     $('nw-go').disabled = true;
-    loadData().then(function () {
-      return osmAround(from, NEAR).then(function (osm) { return M.mergeShops(data.shops, osm); });
-    }).then(function (shops) {
+    var slip = nowSlip;
+    if (!slipOpened) slip.open(nowSteps(false));
+    var osmP = (function () { slip.cook('osm'); return osmWithin(from, NEAR, slip); })();
+    Promise.all([trackParts(slip), osmP]).then(function (r) {
+      slip.cook('cook');
+      var shops = M.mergeShops(data.shops, r[1]);
       buildNow(shops);
+      slip.done('cook');
+      return slip.finish();
+    }).then(function () {
+      $('nw-result').hidden = false;
+      renderNowMap();   // 見えるようになってから地図の大きさを合わせ直す
+      $('nw-story').scrollIntoView({ behavior: 'smooth', block: 'start' });
     }).catch(function () {
+      slip.fail();
       $('nw-status').textContent = 'データを読み込めませんでした。電波のよい場所でもう一度お試しください。';
     }).then(function () { $('nw-go').disabled = false; });
   }
@@ -298,7 +469,6 @@
     var openNear = openShops(near, t, null, from, NEAR, false);
     now.ctx = { shops: near, buzz: buzz, evs: evs, open: openNear, slot: slot, wx: wx, t: t };
 
-    $('nw-result').hidden = false;
     $('nw-status').textContent = now.fromLabel + 'から探しました（' + hm(min) + '時点）';
     // 天気
     if (wx) {
@@ -513,14 +683,20 @@
       b.type = 'button';
       b.addEventListener('click', function () {
         Array.prototype.forEach.call(spots.children, function (x) { x.classList.toggle('is-on', x === b); });
+        $('nw-result').hidden = true;
         startNow({ lat: s.lat, lng: s.lng }, s.label);
       });
       spots.appendChild(b);
     });
     $('nw-go').addEventListener('click', function () {
       Array.prototype.forEach.call(spots.children, function (x) { x.classList.remove('is-on'); });
-      $('nw-status').textContent = '現在地を確認しています…';
-      M.locate().then(function (p) { startNow(p, '現在地'); }).catch(function (err) {
+      $('nw-status').textContent = '';
+      $('nw-result').hidden = true;
+      nowSlip.open(nowSteps(true));
+      nowSlip.cook('here');
+      trackParts(nowSlip).catch(function () { /* 下でまとめて扱う */ });
+      M.locate().then(function (p) { nowSlip.done('here', '見つかりました'); startNow(p, '現在地', true); }).catch(function (err) {
+        nowSlip.fail();
         $('nw-status').textContent = err && err.code === 1
           ? '位置情報の利用が許可されていません。ブラウザの設定で許可するか、下の場所から選んでください。'
           : '現在地を取得できませんでした。下の場所から選んでください。';
@@ -779,20 +955,40 @@
     }, 50);
   }
 
+  var planSlip = new Slip('pl-slip', 'お出かけプラン');
   function buildPlan(reroll) {
-    $('pl-status').textContent = 'プランを考えています…';
+    $('pl-status').textContent = '';
     $('pl-make').disabled = true;
-    var hereP = plan.area === 'here' && !plan.here
-      ? M.locate().then(function (p) { plan.here = p; })
+    var needHere = plan.area === 'here' && !plan.here;
+    var slip = planSlip;
+    var steps = [];
+    if (needHere) steps.push({ id: 'here', label: '現在地をたしかめる', slow: '位置情報の返事待ち…' });
+    steps.push({ id: 'news', label: 'その日のイベントと話題のお店を仕入れる' });
+    steps.push({ id: 'shops', label: 'お店リストを広げる' });
+    steps.push({ id: 'osm', label: '近所のお店を地図で探す', slow: '地図データの返事待ち…' });
+    steps.push({ id: 'wx', label: 'その日の空模様を見る' });
+    steps.push({ id: 'cook', label: '回る順番と時間を組み立てる' });
+    slip.open(steps);
+    if (!reroll) $('pl-result').hidden = true;
+    var partsP = trackParts(slip);
+    var hereP = needHere
+      ? (slip.cook('here'), M.locate().then(function (p) { plan.here = p; slip.done('here', '見つかりました'); }))
       : Promise.resolve();
-    hereP.then(loadData).then(function () {
+    hereP.then(function () {
       var center = plan.area === 'here' ? plan.here : SPOTS.filter(function (s) { return s.id === plan.area; })[0];
-      return osmAround(center, 1500).then(function (osm) { plan.shops = M.mergeShops(data.shops, osm); });
-    }).then(function () {
+      slip.cook('osm');
+      return Promise.all([partsP, osmWithin(center, 1500, slip)]);
+    }).then(function (r) {
+      slip.cook('cook');
+      plan.shops = M.mergeShops(data.shops, r[1]);
       plan.current = makePlan(reroll);
+      slip.done('cook', plan.current.steps.length + 'か所');
+      return slip.finish();
+    }).then(function () {
       renderPlan();
       if (!reroll) $('pl-result').scrollIntoView({ behavior: 'smooth', block: 'start' });
     }).catch(function (err) {
+      slip.fail();
       $('pl-status').textContent = plan.area === 'here' && !plan.here
         ? (err && err.code === 1 ? '位置情報の利用が許可されていません。場所を選んでください。' : '現在地を取得できませんでした。場所を選んでください。')
         : 'データを読み込めませんでした。電波のよい場所でもう一度お試しください。';
