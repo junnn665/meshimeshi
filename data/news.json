@@ -1,6 +1,23 @@
 {
- "updated": "2026-10-18T07:42:39+09:00",
+ "updated": "2026-10-18T08:22:12+09:00",
  "items": [
+  {
+   "id": "d806d1638d6edad5",
+   "title": "名古屋の“パン好きの聖地”がさらに進化！ジェイアール名古屋タカシマヤの「パンゾーン」が2026年11月12日に拡大オープン 新たに3ブランドが仲間入り【名古屋駅】",
+   "link": "https://nagoyato.com/posts/20134",
+   "source": "ナゴヤトコトン",
+   "image": null,
+   "category": "shinten",
+   "area": "名古屋",
+   "published": "2026-10-18T07:58:00+09:00",
+   "provider": "google",
+   "added": "2026-10-18T08:22:12+09:00",
+   "decode_v2": true,
+   "image_checked": true,
+   "image_v4": true,
+   "shop": true,
+   "shop_name": "パンゾーン"
+  },
   {
    "id": "58034e3174fe8272",
    "title": "マクドナルドに愛知県限定メニュー！14年ぶりに登場",
@@ -1185,7 +1202,7 @@
   },
   {
    "id": "fa8c72dcc12a039d",
-   "title": "ミツカン、「〆鍋」の試食体験イベント「MIM食堂 ～〆鍋編～ in ミツカン本社」を初開催 - 愛知県半田市",
+   "title": "ミツカン、「〆鍋」の試食体験イベント「MIM食堂 ～〆鍋編～ in ミツカン本社」を初開催 - 愛知県半田市 (2026年10月15日掲載)",
    "link": "https://news.mynavi.jp/article/20261015-5128012/",
    "source": "マイナビニュース",
    "image": "https://news.mynavi.jp/article/20261015-5128012/index_images/index.jpg",
@@ -1199,6 +1216,8 @@
    "image_v4": true,
    "shop": false,
    "shop_name": null,
+   "start": "2026-10-15",
+   "end": "2026-10-15",
    "group": "82ae20a2f75b"
   },
   {
@@ -6339,40 +6358,6 @@
    "image_checked": true,
    "decode_v2": true,
    "added": "2026-10-07T11:12:45+09:00",
-   "shop": false,
-   "shop_name": null
-  },
-  {
-   "id": "ba68b07a7db832cb",
-   "title": "限定商品告知から5日後 人気ドーナツ店が突然の全店休業 名古屋店は開店から半年",
-   "link": "https://www.shizuoka-life.jp/post-15348/",
-   "source": "静岡ライフ",
-   "image": "https://www.shizuoka-life.jp/wp-content/uploads/2026/10/7fcf92cac65163c868d217f659144182.jpg",
-   "category": "shinten",
-   "area": "名古屋",
-   "published": "2026-10-07T11:05:39+09:00",
-   "provider": "google",
-   "decode_tried": true,
-   "image_checked": true,
-   "decode_v2": true,
-   "added": "2026-10-07T11:05:39+09:00",
-   "shop": false,
-   "shop_name": null
-  },
-  {
-   "id": "2add9ed87785f366",
-   "title": "【名古屋栄三越】秋のリニューアル～９階レストランフロアに新たに２つのレストランがオープン～",
-   "link": "https://prtimes.jp/main/html/rd/p/000000017.000185183.html",
-   "source": "PR TIMES",
-   "image": "https://prcdn.freetls.fastly.net/release_image/185183/17/185183-17-64fc0800b5730bac8933706bf042479a-1505x809.jpg?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260",
-   "category": "shinten",
-   "area": "名古屋",
-   "published": "2026-10-07T11:00:02+09:00",
-   "provider": "google",
-   "decode_tried": true,
-   "image_checked": true,
-   "decode_v2": true,
-   "added": "2026-10-07T11:00:02+09:00",
    "shop": false,
    "shop_name": null
   }
