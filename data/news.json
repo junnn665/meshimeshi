@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-18T06:25:06+09:00",
+ "updated": "2026-10-18T07:24:20+09:00",
  "items": [
   {
    "id": "58034e3174fe8272",
@@ -211,6 +211,22 @@
    "shop_name": null
   },
   {
+   "id": "e3f66a77db477a3c",
+   "title": "コメダの期間限定メニュー【2026年10月】シロノワールの値段・いつ ...",
+   "link": "https://note.com/gentei_menu/n/n4dcda24ae3b7",
+   "source": "note",
+   "image": "https://assets.st-note.com/production/uploads/images/324980262/rectangle_large_type_2_ed799bda2369596b518e33ed2a83be07.jpeg?fit=bounds&quality=85&width=1280",
+   "category": "chain",
+   "area": "東海",
+   "published": "2026-10-17T10:29:00+09:00",
+   "provider": "bing",
+   "added": "2026-10-18T07:24:20+09:00",
+   "image_checked": true,
+   "image_v4": true,
+   "shop": false,
+   "shop_name": null
+  },
+  {
    "id": "5be430199010774f",
    "title": "魚べいの期間限定メニュー【2026年10月最新】でかネタ祭の値段 ...",
    "link": "https://note.com/gentei_menu/n/ncedcb9f16e47",
@@ -241,6 +257,23 @@
    "image_checked": true,
    "image_v4": true,
    "shop": false,
+   "shop_name": null
+  },
+  {
+   "id": "2359910937c4fd0f",
+   "title": "【名古屋飯】名古屋12日間21食の記録！名古屋出張 孤独のボッチ飯！安くて旨い名古屋飯を出張ボッチがひたすら食べる✨【名古屋 出張ボッチ飯】",
+   "link": "https://youtu.be/2zzJm5itStA?si=DJ2yv78j7e_01HoA",
+   "source": "YouTube",
+   "image": null,
+   "category": "yasuuma",
+   "area": "名古屋",
+   "published": "2026-10-17T08:30:17+09:00",
+   "provider": "google",
+   "added": "2026-10-18T07:24:20+09:00",
+   "decode_v2": true,
+   "image_checked": true,
+   "image_v4": true,
+   "shop": true,
    "shop_name": null
   },
   {
@@ -1116,6 +1149,23 @@
    "image_v4": true,
    "shop": true,
    "shop_name": "ぴよりん"
+  },
+  {
+   "id": "da2dca00c50203d7",
+   "title": "ゴマ・味噌・抹茶の和テイストが話題！名古屋の日本茶＆和スイーツ店「YATAGARASU」が提供する、夏限定の絶品かき氷",
+   "link": "https://www.walkerplus.com/article/1200618/",
+   "source": "ウォーカープラス",
+   "image": "https://news.walkerplus.com/article/1200618/13150356_615.jpg",
+   "category": "wadai",
+   "area": "名古屋",
+   "published": "2026-10-15T16:00:00+09:00",
+   "provider": "google",
+   "added": "2026-10-18T07:24:20+09:00",
+   "decode_v2": true,
+   "image_checked": true,
+   "image_v4": true,
+   "shop": true,
+   "shop_name": "YATAGARASU"
   },
   {
    "id": "5b8dfaf5f3a33bb5",
@@ -6323,38 +6373,6 @@
    "image_checked": true,
    "decode_v2": true,
    "added": "2026-10-07T11:00:02+09:00",
-   "shop": false,
-   "shop_name": null
-  },
-  {
-   "id": "135a2035ae5eebcf",
-   "title": "名古屋・名駅柳橋エリアに大衆居酒屋「勝男」オープン！",
-   "link": "https://www.asahi.com/and/pressrelease/16947418",
-   "source": "朝日新聞デジタル",
-   "image": "https://www.asahi.com/and/ogp/ogp_and.png",
-   "category": "shinten",
-   "area": "名古屋",
-   "published": "2026-10-07T06:59:00+09:00",
-   "provider": "bing",
-   "added": "2026-10-18T03:27:49+09:00",
-   "image_checked": true,
-   "image_v4": true,
-   "shop": true,
-   "shop_name": "勝男"
-  },
-  {
-   "id": "3471c9bef99225a2",
-   "title": "セブンの冷凍棚空っぽになりそう…！人気の町中華店の味が手軽に ...",
-   "link": "https://love-spo.com/article/miti20261006-3/",
-   "source": "ラブすぽ",
-   "image": "https://love-spo.com/wp-content/uploads/2026/09/0-308.jpg",
-   "category": "wadai",
-   "area": "東海",
-   "published": "2026-10-06T02:00:00+09:00",
-   "provider": "bing",
-   "added": "2026-10-18T04:23:45+09:00",
-   "image_checked": true,
-   "image_v4": true,
    "shop": false,
    "shop_name": null
   }
