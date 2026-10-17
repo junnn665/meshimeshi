@@ -48,6 +48,11 @@
     <!-- 今から行ける -->
     <div class="nw-panel" id="nw-now" role="tabpanel" aria-labelledby="nw-tab-now">
       <p class="ev-lead">近くで今日やっているイベント、営業中の話題のお店、これからの天気をまとめて、今から行けるごはんを提案します。</p>
+      <div class="nw-who">
+        <p class="nw-who-label" id="nw-sit-label">だれと行く？</p>
+        <div class="g-pills" id="nw-sit" role="group" aria-labelledby="nw-sit-label"></div>
+        <div class="g-pills nw-people" id="nw-people" role="group" aria-label="人数" hidden></div>
+      </div>
       <div class="nw-start">
         <button type="button" class="nw-go" id="nw-go">
           <span class="nw-go-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 21s-6.5-6.2-6.5-11a6.5 6.5 0 0 1 13 0c0 4.8-6.5 11-6.5 11z"/><circle cx="12" cy="10" r="2.4"/></svg></span>
@@ -87,6 +92,8 @@
         <div class="g-field"><p class="g-label">いつ</p><div class="g-pills" id="pl-day" role="group" aria-label="いつ"></div></div>
         <div class="g-field"><p class="g-label">時間</p><div class="g-pills" id="pl-time" role="group" aria-label="時間"></div></div>
         <div class="g-field"><p class="g-label">どこで</p><div class="g-pills" id="pl-area" role="group" aria-label="どこで"></div></div>
+        <div class="g-field"><p class="g-label">だれと</p><div class="g-pills" id="pl-sit" role="group" aria-label="だれと"></div>
+          <div class="g-pills nw-people" id="pl-people" role="group" aria-label="人数" hidden></div></div>
         <button type="button" class="nw-go nw-make" id="pl-make">プランを作る</button>
       </div>
       <p class="nw-status" id="pl-status" role="status" aria-live="polite"></p>

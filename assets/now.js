@@ -28,6 +28,83 @@
     late: { label: '夜食', genres: ['ラーメン', '居酒屋'] },
     second: { label: '2軒目', genres: ['居酒屋', 'カフェ', 'ラーメン'] }
   };
+  // ---------- シチュエーション（だれと行く？） ----------
+  // g: ジャンルごとの倍率（書いてないジャンルは1）、f(sh, n): 設備などでの倍率、word: お店の紹介文で見る言葉
+  var MID = ['B002', 'B003', 'B008', 'B004'];          // 2001〜7000円
+  var CASUAL = ['B011', 'B001', 'B002', 'B003'];       // 1001〜4000円
+  var CHEAPS = ['B009', 'B010', 'B011', 'B001'];       // 〜2000円
+  var SITS = [
+    { id: 'any', label: 'おまかせ' },
+    { id: 'solo', label: 'ひとりで', lead: 'ひとりなら、',
+      g: { 'ラーメン': 1.6, '和食': 1.3, 'カフェ': 1.3, 'エスニック': 1.2, '洋食': 1.15, '中華': 1.1, '居酒屋': 0.55, '焼肉': 0.6, '韓国料理': 0.8, 'お好み焼き': 0.8 },
+      word: /カウンター|おひとり|一人|ひとり|定食|立ち飲み/,
+      f: function (sh) { return CHEAPS.indexOf(sh.budget_code) >= 0 ? 1.2 : 1; },
+      why: function (sh) { return [sh.budget_code && CHEAPS.indexOf(sh.budget_code) >= 0 ? '気軽な予算' : '', /カウンター/.test(sh.catch || '') ? 'カウンターあり' : '']; } },
+    { id: 'date', label: 'デート', lead: 'デートなら、',
+      g: { 'イタリアン': 1.6, 'カフェ': 1.4, '和食': 1.3, '焼肉': 1.2, '洋食': 1.2, 'エスニック': 1.05, '居酒屋': 0.75, '中華': 0.8, 'お好み焼き': 0.8, 'ラーメン': 0.4 },
+      word: /おしゃれ|オシャレ|隠れ家|夜景|ワイン|デート|カップル|記念日|個室|雰囲気|大人/,
+      f: function (sh) {
+        var x = 1;
+        if (sh.room) x *= 1.45;
+        if (sh.nosmoke) x *= 1.15;
+        if (MID.indexOf(sh.budget_code) >= 0) x *= 1.2;
+        if (sh.photo) x *= 1.15;
+        if (sh.genre === '居酒屋' && sh.room) x *= 1.3;   // 個室の居酒屋ならあり
+        return x;
+      },
+      why: function (sh) { return [sh.room ? '個室あり' : '', sh.nosmoke ? '全面禁煙' : '']; },
+      second: ['カフェ', 'イタリアン', '居酒屋'] },
+    { id: 'group', label: '友達と', lead: '友達{n}人なら、',
+      g: { '居酒屋': 1.6, '焼肉': 1.5, '韓国料理': 1.4, 'お好み焼き': 1.35, '中華': 1.3, 'イタリアン': 1.1, 'エスニック': 1.05, 'カフェ': 0.85 },
+      word: /飲み放題|食べ放題|大人数|宴会|ワイワイ|わいわい|女子会|パーティ|貸切/,
+      f: function (sh, n) {
+        var x = 1;
+        if (sh.genre === 'ラーメン') x *= n >= 4 ? 0.3 : 0.85;   // 大人数でラーメンはなし
+        if (sh.drink) x *= 1.4;
+        if (sh.course) x *= 1.1;
+        if (n >= 4 && (sh.room || sh.zashiki)) x *= 1.2;
+        if (sh.seats != null) { if (sh.seats < n * 3) x *= 0.5; else if (sh.seats >= n * 8) x *= 1.15; }
+        if (CASUAL.indexOf(sh.budget_code) >= 0) x *= 1.1;
+        return x;
+      },
+      why: function (sh, n) { return [sh.drink ? '飲み放題あり' : '', sh.seats ? sh.seats + '席' : '', n >= 4 && sh.room ? '個室あり' : (n >= 4 && sh.zashiki ? '座敷あり' : '')]; },
+      second: ['居酒屋', 'カフェ', 'ラーメン', '韓国料理'] },
+    { id: 'family', label: '家族・子連れ', lead: '家族なら、',
+      g: { 'お好み焼き': 1.4, '洋食': 1.4, '和食': 1.3, '焼肉': 1.25, 'イタリアン': 1.2, 'カフェ': 1.1, '中華': 1.1, 'エスニック': 0.8, '居酒屋': 0.3 },
+      word: /お子様|キッズ|ファミリー|座敷|家族|子連れ|ベビーカー/,
+      f: function (sh) {
+        var x = 1;
+        if (sh.kids === true) x *= 1.6;
+        if (sh.kids === false) x *= 0.15;
+        if (sh.zashiki) x *= 1.3;
+        if (sh.nosmoke) x *= 1.2;
+        if (sh.room) x *= 1.1;
+        return x;
+      },
+      why: function (sh) { return [sh.kids ? '子ども連れOK' : '', sh.zashiki ? '座敷あり' : '', sh.nosmoke ? '全面禁煙' : '']; },
+      second: ['カフェ', '洋食', '和食'] }
+  ];
+  var PEOPLE = [{ id: 2, label: '2人' }, { id: 3, label: '3人' }, { id: 4, label: '4人' }, { id: 6, label: '5〜6人' }, { id: 8, label: '7人〜' }];
+  var sit = { id: store.get('meshi.sit', 'any'), n: store.get('meshi.sitN', 4) };
+  function curSit() { return SITS.filter(function (x) { return x.id === sit.id; })[0] || SITS[0]; }
+  function sitFactor(sh) {
+    var S = curSit();
+    if (S.id === 'any') return 1;
+    var x = (S.g && S.g[sh.genre]) || 1;
+    if (S.word && S.word.test((sh.name || '') + ' ' + (sh.catch || ''))) x *= 1.3;
+    if (S.f) x *= S.f(sh, sit.n);
+    return x;
+  }
+  function sitWhy(sh) {
+    var S = curSit();
+    if (!S.why) return [];
+    return S.why(sh, sit.n).filter(Boolean);
+  }
+  function sitLead() {
+    var S = curSit();
+    return S.lead ? S.lead.replace('{n}', sit.n >= 8 ? '7' : String(sit.n)).replace('友達7人', '友達7人以上') : '';
+  }
+
   function slotAt(min) {
     if (min >= 300 && min < 630) return 'morning';
     if (min >= 630 && min < 870) return 'lunch';
@@ -243,7 +320,7 @@
     if (sh.photo) s *= 1.25;
     if (sh.rank) s *= 1 + (30 - Math.min(sh.rank, 30)) / 40;
     if (sh._buzz) s *= 1.8;
-    return s;
+    return s * sitFactor(sh);
   }
 
   // ---------- 天気 ----------
@@ -315,6 +392,9 @@
   }
   function genreMatch(sh, slot) {
     var s = SLOTS[slot];
+    var S = curSit();
+    if (S.id !== 'any' && sitFactor(sh) < 0.5) return false;   // シチュエーションに合わない店（席が足りない・子ども不可など）は出さない
+    if ((slot === 'second' || slot === 'late') && S.second) return S.second.indexOf(sh.genre) >= 0;
     if (s.genres.indexOf(sh.genre) >= 0) return true;
     return s.word ? s.word.test(sh.name + ' ' + (sh.catch || '')) : false;
   }
@@ -347,6 +427,21 @@
     }
     return t;
   }
+  // お店の設備の札（シチュエーションに関係するもの）
+  function feats(sh) {
+    var list = [];
+    if (sh.room) list.push('個室');
+    if (sh.drink) list.push('飲み放題');
+    if (sh.kids) list.push('子ども連れOK');
+    if (sh.zashiki) list.push('座敷');
+    if (sh.nosmoke) list.push('禁煙');
+    if (sh.seats) list.push(sh.seats + '席');
+    if (!list.length) return null;
+    var box = el('span', 'nw-feats');
+    var hot = sitWhy(sh).join(' ');
+    list.forEach(function (t) { box.appendChild(el('span', 'nw-feat' + (hot.indexOf(t.replace('OK', '')) >= 0 ? ' hot' : ''), t)); });
+    return box;
+  }
   function row(opts) {
     // opts: { img, tag, tagCls, title, href, sub, meta, dir, extra }
     var r = el('article', 'nw-row');
@@ -360,6 +455,7 @@
     a.href = opts.href; a.target = '_blank'; a.rel = 'noopener';
     b.appendChild(a);
     if (opts.sub) b.appendChild(el('p', 'nw-row-sub', opts.sub));
+    if (opts.shop) { var fs = feats(opts.shop); if (fs) b.appendChild(fs); }
     if (opts.dir) {
       var d = el('a', 'nw-dir', '道順');
       d.href = opts.dir; d.target = '_blank'; d.rel = 'noopener';
@@ -440,6 +536,7 @@
     Promise.all([trackParts(slip), osmP]).then(function (r) {
       slip.cook('cook');
       var shops = M.mergeShops(data.shops, r[1]);
+      now.lastShops = shops;
       buildNow(shops);
       slip.done('cook');
       return slip.finish();
@@ -500,19 +597,19 @@
       if (c.wx && c.wx.rainFrom && ev.place !== 'indoor') { text.push(c.wx.rainFrom + '時ごろから雨の予報なので、早めに回るのがおすすめ。'); first.rainSaid = true; }
     }
     // 2) 話題のお店（営業中）
-    var buzzOpen = c.buzz.filter(function (b) { return M.isOpenNow(b.shop, c.t) === true; })
+    var buzzOpen = c.buzz.filter(function (b) { return M.isOpenNow(b.shop, c.t) === true && sitFactor(b.shop) >= 0.9; })
       .sort(function (a, b) { return dist(a.shop, from) - dist(b.shop, from); });
     var meal = openShops(c.shops, c.t, slot, first ? first.p : from, first ? 900 : NEAR, false);
     if (!first) {
       if (buzzOpen.length && dist(buzzOpen[0].shop, from) <= NEAR * 1.5) {
         var bz = pick(buzzOpen, 2);
         first = { kind: 'shop', item: bz.shop, p: bz.shop, buzz: bz.article };
-        text.push(walkText(dist(bz.shop, from)) + 'の「' + bz.shop.name + '」が営業中。ニュースで話題のお店です。');
+        text.push(walkText(dist(bz.shop, from)) + 'の「' + bz.shop.name + '」が営業中' + whyText(bz.shop) + '。ニュースで話題のお店です。');
       } else if (meal.length) {
         var m1 = pick(meal, 4);
         first = { kind: 'shop', item: m1, p: m1 };
-        text.push(walkText(dist(m1, from)) + 'の' + m1.genre + '「' + m1.name + '」が営業中' +
-          (m1.rank && m1.rank <= 10 ? '（このあたりの人気店）。' : '。'));
+        var w1 = whyText(m1, m1.rank && m1.rank <= 10 ? 'このあたりの人気店' : '');
+        text.push(walkText(dist(m1, from)) + 'の' + m1.genre + '「' + m1.name + '」が営業中' + w1 + '。');
       }
     }
     if (!first) return null;
@@ -535,11 +632,18 @@
       else if (c.wx && c.wx.nowRain) lead = '雨なので、';
       var after = first.kind === 'event' ? (first.rainSaid ? '帰りは雨宿りもかねて' : '帰りは') : (nextSlot === 'second' ? 'そのあとは' : '食後は');
       var how = rain ? '近く（' + walkText(dist(s2, first.p)) + '）の' : '近くの';
-      text.push(lead + after + how + s2.genre + '「' + s2.name + '」（営業中）へ。');
+      var w2 = sitWhy(s2);
+      text.push(lead + after + how + s2.genre + '「' + s2.name + '」（営業中' + (w2.length ? '・' + w2.slice(0, 2).join('・') : '') + '）へ。');
     } else if (c.wx && c.wx.rainFrom) {
       text.push(c.wx.rainFrom + '時ごろから雨が降りそうなので、早めの移動がおすすめです。');
     }
-    return { first: first, second: second, text: text.join('') };
+    var lead0 = sitLead();
+    return { first: first, second: second, text: lead0 + text.join('') };
+  }
+  function whyText(sh, extra) {
+    var w = sitWhy(sh);
+    if (extra) w.unshift(extra);
+    return w.length ? '（' + w.slice(0, 2).join('・') + '）' : '';
   }
 
   function storyCard(step, n) {
@@ -560,6 +664,8 @@
       body.appendChild(b);
       var sub = [it.budget, it.access].filter(Boolean).join(' ・ ');
       if (sub) body.appendChild(el('p', 'nw-row-sub', sub));
+      var fs = feats(it);
+      if (fs) body.appendChild(fs);
       var art = step.buzz || it._buzz;
       if (art) {
         var na = el('a', 'nw-news-link', '話題の記事：' + art.title);
@@ -640,13 +746,14 @@
     });
     var ob = $('nw-open');
     ob.textContent = '';
-    var list = c.open.filter(function (sh) { return now.genre === 'all' || sh.genre === now.genre; })
-      .sort(function (a, b) { return dist(a, from) - dist(b, from); }).slice(0, 12);
+    var useSit = curSit().id !== 'any';
+    var list = c.open.filter(function (sh) { return (now.genre === 'all' || sh.genre === now.genre) && (!useSit || sitFactor(sh) >= 0.6); })
+      .sort(function (a, b) { return useSit ? shopScore(b, from) - shopScore(a, from) : dist(a, from) - dist(b, from); }).slice(0, 12);
     if (!list.length) ob.appendChild(el('p', 'nw-empty', '近くで今開いているお店が見つかりませんでした（営業時間がわかるお店だけを出しています）。'));
     list.forEach(function (sh) {
       ob.appendChild(row({
         img: sh.photo, tag: sh.genre, meta: walkText(dist(sh, from)),
-        title: sh.name, href: shopLink(sh), sub: [sh.budget, sh.catch].filter(Boolean).join(' ・ '), dir: mapsDir(sh)
+        title: sh.name, href: shopLink(sh), sub: [sh.budget, sh.catch].filter(Boolean).join(' ・ '), dir: mapsDir(sh), shop: sh
       }));
     });
   }
@@ -833,7 +940,8 @@
   function renderPlan() {
     var pl = plan.current;
     $('pl-result').hidden = false;
-    $('pl-title').textContent = M.fmtDay(pl.iso) + ' ' + pl.time.label.replace(/\s.*$/, '') + '・' + pl.areaLabel + 'プラン';
+    var who = curSit().id === 'any' ? '' : '・' + (curSit().id === 'group' ? '友達' + (sit.n >= 8 ? '7人〜' : sit.n + '人') : curSit().label);
+    $('pl-title').textContent = M.fmtDay(pl.iso) + ' ' + pl.time.label.replace(/\s.*$/, '') + '・' + pl.areaLabel + who + 'プラン';
     if (pl.dw) {
       wxChips($('pl-wx'), { code: pl.dw.code, tmax: pl.dw.tmax, tmin: pl.dw.tmin, pop: pl.dw.pop, rainy: pl.rainy,
         note: pl.rainy ? '雨の予報なので、屋内と近い場所を中心にしました' : '名古屋の予報' }, '天気');
@@ -874,6 +982,8 @@
         body.appendChild(b);
         var sub = [it.budget, c.unknown ? '営業時間は要確認' : '営業中の時間', '目安' + c.dur + '分'].filter(Boolean).join(' ・ ');
         body.appendChild(el('p', 'nw-row-sub', sub));
+        var pf = feats(it);
+        if (pf) body.appendChild(pf);
         if (c.buzz) {
           var na = el('a', 'nw-news-link', '話題の記事：' + c.buzz.title);
           na.href = c.buzz.link; na.target = '_blank'; na.rel = 'noopener';
@@ -1010,6 +1120,48 @@
     $('pl-again').addEventListener('click', function () { buildPlan(true); });
   }
 
+  // ---------- だれと行く？（今から行ける・プラン共通） ----------
+  function renderSit() {
+    [['nw-sit', 'nw-people'], ['pl-sit', 'pl-people']].forEach(function (ids) {
+      var box = $(ids[0]), pbox = $(ids[1]);
+      if (!box) return;
+      box.textContent = '';
+      SITS.forEach(function (x) {
+        var b = el('button', 'g-pill nw-sit-pill', x.label);
+        b.type = 'button';
+        b.setAttribute('aria-pressed', String(sit.id === x.id));
+        b.addEventListener('click', function () { setSit(x.id, sit.n); });
+        box.appendChild(b);
+      });
+      pbox.textContent = '';
+      pbox.hidden = sit.id !== 'group';
+      PEOPLE.forEach(function (x) {
+        var b = el('button', 'g-pill', x.label);
+        b.type = 'button';
+        b.setAttribute('aria-pressed', String(sit.n === x.id));
+        b.addEventListener('click', function () { setSit('group', x.id); });
+        pbox.appendChild(b);
+      });
+    });
+    var h = $('nw-open-h');
+    if (h) h.textContent = curSit().id === 'any' ? '今開いてるお店' : '今開いてるお店（' + (curSit().id === 'group' ? '友達' + sit.n + '人' : curSit().label) + '向きの順）';
+  }
+  function setSit(id, n) {
+    sit.id = id; sit.n = n;
+    store.set('meshi.sit', id);
+    store.set('meshi.sitN', n);
+    renderSit();
+    // 結果が出ていれば、読み込み直さずに選び直す
+    if (now.lastShops && !$('nw-result').hidden) {
+      buildNow(now.lastShops);
+      renderNowMap();
+    }
+    if (plan.current && !$('pl-result').hidden) {
+      plan.current = makePlan(true);
+      renderPlan();
+    }
+  }
+
   // ---------- タブ ----------
   function showTab(which) {
     var isPlan = which === 'plan';
@@ -1024,8 +1176,11 @@
   $('nw-tab-now').addEventListener('click', function () { showTab('now'); });
   $('nw-tab-plan').addEventListener('click', function () { showTab('plan'); });
 
+  if (!SITS.some(function (x) { return x.id === sit.id; })) sit.id = 'any';
+  if (!PEOPLE.some(function (x) { return x.id === sit.n; })) sit.n = 4;
   initNow();
   initPlan();
+  renderSit();
   if (location.hash === '#plan') showTab('plan');
   loadData(); // 先に読み込んでおく
 

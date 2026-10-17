@@ -24,7 +24,7 @@ JST = dt.timezone(dt.timedelta(hours=9))
 NOW = dt.datetime.now(JST)
 MAX_AGE_HOURS = 20   # これより新しければ取り直さない
 PER_QUERY = 100      # 1回の検索で取る件数（APIの上限）
-SCHEMA = 4           # 出力の形を変えたら上げる（上げると次の実行で取り直す）
+SCHEMA = 5           # 出力の形を変えたら上げる（上げると次の実行で取り直す）
 
 # 画面に出すエリア。keyword は住所などの部分一致（名古屋は名古屋市内に絞る）
 AREAS = [
@@ -119,7 +119,36 @@ def compact(shop: dict, genre_label: str) -> dict:
         "url": (shop.get("urls") or {}).get("pc", ""),
         "lat": shop.get("lat"),
         "lng": shop.get("lng"),
+        # シチュエーション（デート・友達と・家族で）に使う設備
+        "room": _yes(shop.get("private_room")),                 # 個室
+        "drink": _yes(shop.get("free_drink")),                  # 飲み放題
+        "course": _yes(shop.get("course")),                     # コース
+        "zashiki": _yes(shop.get("tatami")) or _yes(shop.get("horigotatsu")),
+        "kids": _kids(shop.get("child")),                       # 子ども連れ
+        "nosmoke": "全面禁煙" in str(shop.get("non_smoking") or ""),
+        "seats": _int(shop.get("capacity")),                    # 席数
+        "midnight": str(shop.get("midnight") or "").startswith("営業している"),
     }
+
+
+def _yes(v) -> bool:
+    return str(v or "").strip().startswith("あり")
+
+
+def _kids(v) -> bool | None:
+    t = str(v or "")
+    if not t:
+        return None
+    if "不可" in t:
+        return False
+    return ("歓迎" in t) or ("OK" in t) or ("可" in t)
+
+
+def _int(v) -> int | None:
+    try:
+        return int(str(v).strip())
+    except (TypeError, ValueError):
+        return None
 
 
 def main() -> int:

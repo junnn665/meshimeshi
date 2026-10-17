@@ -1344,3 +1344,13 @@ main > .ev-notice { margin-bottom: 12px; }
   .slip.done .slip-stamp { animation: none; transform: rotate(-12deg); opacity: 1; }
   .slip-rice, .slip-grains { transition: none; }
 }
+
+/* だれと行く？ */
+.nw-who { display: flex; flex-direction: column; gap: 6px; padding: 12px; border-radius: 16px; background: #fff; border: 2px solid var(--ink); }
+.nw-who-label { margin: 0; font-size: 13px; font-weight: 900; }
+.nw-people { padding-left: 10px; border-left: 3px solid #D92D20; }
+.nw-people[hidden] { display: none; }
+.nw-people .g-pill { min-height: 34px; font-size: 13px; }
+.nw-feats { display: flex; flex-wrap: wrap; gap: 4px; }
+.nw-feat { padding: 0 7px; border-radius: 4px; font-size: 11px; font-weight: 700; color: var(--sub); border: 1px solid rgba(43, 33, 24, .25); background: #fff; }
+.nw-feat.hot { color: #fff; background: #D92D20; border-color: #D92D20; font-weight: 900; }
