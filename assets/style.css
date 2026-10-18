@@ -1415,3 +1415,10 @@ main > .ev-notice { margin-bottom: 12px; }
 .nw-fix-steps { margin-top: 2px; }
 .nw-story .nw-step-time { color: var(--ink); }
 .nw-story .nw-walk { border-left-color: rgba(43, 33, 24, .5); }
+.nw-pl-fix { padding: 10px; margin: 4px 0; border-radius: 12px; background: #F4F8FC; border: 1.5px dashed #1D5FA8; }
+.nw-pl-fix .g-label { color: #1D5FA8; }
+.nw-pl-fix-opts { display: flex; flex-direction: column; gap: 6px; margin-top: 4px; }
+.nw-pl-fix-opts[hidden] { display: none; }
+.nw-pl-fix-at { display: flex; align-items: center; gap: 8px; font-size: 13px; font-weight: 900; }
+.nw-pl-fix-at .nw-fix-time { display: inline-block; }
+.g-pills.is-dim { opacity: .4; }

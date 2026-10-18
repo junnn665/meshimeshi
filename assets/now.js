@@ -864,8 +864,9 @@
         });
       });
   }
-  function showSugg(list, q, fromMap) {
-    var box = $('nw-fix-sugg');
+  function showSugg(list, q, fromMap, P) {
+    P = P || NOW_PICKER;
+    var box = $(P.pre + '-sugg');
     box.textContent = '';
     list.forEach(function (p) {
       var b = el('button', 'nw-sugg');
@@ -875,7 +876,7 @@
       t.appendChild(el('b', null, p.name));
       if (p.sub) t.appendChild(el('span', null, p.sub));
       b.appendChild(t);
-      b.addEventListener('click', function () { chooseFix(p); });
+      b.addEventListener('click', function () { chooseFix(p, P); });
       box.appendChild(b);
     });
     if (!fromMap && q) {
@@ -888,7 +889,7 @@
         box.appendChild(el('p', 'nw-empty', '地図で探しています…'));
         geoPlaces(q).then(function (l) {
           if (!l.length) { box.textContent = ''; box.appendChild(el('p', 'nw-empty', '見つかりませんでした。別の書き方で試してください。')); return; }
-          showSugg(l, q, true);
+          showSugg(l, q, true, P);
         }).catch(function () {
           box.textContent = '';
           box.appendChild(el('p', 'nw-empty', '地図の検索につながりませんでした。少し時間をおいて試してください。'));
@@ -898,12 +899,12 @@
     }
     if (!list.length && fromMap) box.appendChild(el('p', 'nw-empty', '見つかりませんでした。'));
   }
-  function chooseFix(p) {
-    fix.place = p;
-    if (!fix.stayTouched) fix.stay = defaultStay(p);
-    $('nw-fix-sugg').textContent = '';
-    $('nw-fix-q').value = '';
-    var c = $('nw-fix-chosen');
+  function chooseFix(p, P) {
+    P = P || NOW_PICKER;
+    P.onChoose(p);
+    $(P.pre + '-sugg').textContent = '';
+    $(P.pre + '-q').value = '';
+    var c = $(P.pre + '-chosen');
     c.textContent = '';
     c.hidden = false;
     c.appendChild(el('span', 'nw-sugg-kind ' + p.kind, p.kind === 'event' ? 'イベント' : p.kind === 'shop' ? 'お店' : '場所'));
@@ -914,10 +915,29 @@
     var x = el('button', 'nw-fix-clear', '×');
     x.type = 'button';
     x.setAttribute('aria-label', '行き先を選び直す');
-    x.addEventListener('click', function () { fix.place = null; c.hidden = true; $('nw-fix-go').disabled = true; $('nw-fix-q').focus(); });
+    x.addEventListener('click', function () { c.hidden = true; P.onClear(); $(P.pre + '-q').focus(); });
     c.appendChild(x);
-    $('nw-fix-go').disabled = false;
-    renderFixPills();
+  }
+  var NOW_PICKER = {
+    pre: 'nw-fix',
+    onChoose: function (p) {
+      fix.place = p;
+      if (!fix.stayTouched) fix.stay = defaultStay(p);
+      $('nw-fix-go').disabled = false;
+      renderFixPills();
+    },
+    onClear: function () { fix.place = null; $('nw-fix-go').disabled = true; }
+  };
+  function wirePicker(P) {
+    var timer = null;
+    var q = $(P.pre + '-q');
+    var run = function () {
+      var v = q.value.trim();
+      if (!v) { $(P.pre + '-sugg').textContent = ''; return; }
+      loadData().then(function () { showSugg(localPlaces(v), v, false, P); });
+    };
+    q.addEventListener('input', function () { clearTimeout(timer); timer = setTimeout(run, 200); });
+    $(P.pre + '-form').addEventListener('submit', function (e) { e.preventDefault(); clearTimeout(timer); run(); q.blur(); });
   }
   function renderFixPills() {
     pillsInto('nw-fix-at', AT_OPTS, fix.at, function (id) {
@@ -1152,15 +1172,7 @@
   }
 
   function initFix() {
-    var timer = null;
-    var q = $('nw-fix-q');
-    var run = function () {
-      var v = q.value.trim();
-      if (!v) { $('nw-fix-sugg').textContent = ''; return; }
-      loadData().then(function () { showSugg(localPlaces(v), v, false); });
-    };
-    q.addEventListener('input', function () { clearTimeout(timer); timer = setTimeout(run, 200); });
-    $('nw-fix-form').addEventListener('submit', function (e) { e.preventDefault(); clearTimeout(timer); run(); q.blur(); });
+    wirePicker(NOW_PICKER);
     $('nw-fix-time').addEventListener('change', function () { fix.time = $('nw-fix-time').value || null; });
     $('nw-fix-go').addEventListener('click', startFixed);
     renderFixPills();
@@ -1208,7 +1220,7 @@
     { id: 'evening', label: '夜 17:30〜', start: 1050,
       steps: [{ kind: 'event', dur: 60, alt: null }, { kind: 'meal', slot: 'dinner', dur: 75 }, { kind: 'meal', slot: 'second', dur: 60 }] }
   ];
-  var plan = { day: null, time: store.get('meshi.plTime', 'afternoon'), area: store.get('meshi.plArea', 'sakae'), here: null, steps: null, mapObj: null };
+  var plan = { fix: { place: null, time: '18:00', stay: null, stayTouched: false }, day: null, time: store.get('meshi.plTime', 'afternoon'), area: store.get('meshi.plArea', 'sakae'), here: null, steps: null, mapObj: null };
 
   function dayOptions() {
     var t = M.todayJst();
@@ -1266,7 +1278,88 @@
     return { kind: 'shop', item: sh, p: sh, name: sh.name, dur: step.dur, label: SLOTS[step.slot].label, unknown: sh._open !== true, buzz: sh._buzz };
   }
 
+  // 決まってる予定があるとき：その時刻は動かさず、前とあとをプランで埋める
+  function makeFixedPlan(reroll) {
+    var t = TIMES.filter(function (x) { return x.id === plan.time; })[0];
+    var F = plan.fix.place;
+    var center = { lat: F.lat, lng: F.lng };
+    var iso = plan.day;
+    var dw = dayWeather(iso);
+    var ctx = {
+      iso: iso, rainy: dayRainy(dw), reroll: reroll,
+      shops: plan.shops.filter(function (sh) { return sh.lat != null && dist(sh, center) <= 2500; }),
+      events: eventsOn(iso).filter(function (g) { return dist(g, center) <= 2500; })
+    };
+    ctx.buzz = buzzShops(ctx.shops);
+    var hmToMin = function (v) { var a = (v || '18:00').split(':'); return +a[0] * 60 + +a[1]; };
+    var fixedAt = hmToMin(plan.fix.time);
+    var stay = plan.fix.stay || defaultStay(F);
+    var start = t.start;
+    if (iso === M.todayJst()) {
+      var nm = minutesOf(jstNow());
+      if (nm > start) start = Math.ceil((nm + 10) / 15) * 15;
+    }
+    if (fixedAt < start) start = fixedAt;
+    var food = fixIsFood(F);
+    var used = {};
+    if (F.kind !== 'place') used[F.item.id] = 1;
+    var fixedStep = { kind: F.kind === 'event' ? 'event' : (F.kind === 'shop' ? 'shop' : 'place'), fixed: true,
+      item: F.kind === 'place' ? { id: 'place', name: F.name, address: F.item.address } : F.item,
+      p: center, name: F.name, at: fixedAt, dur: stay };
+    // 前：時間に余裕があるだけ（最大2か所）。着く時刻から逆算する
+    var room = fixedAt - start;
+    var before = [];
+    var mealAt = function (m) { var sl = slotAt(m % 1440); return sl === 'late' ? 'dinner' : sl; };
+    if (room >= 160) before = food ? [{ kind: 'event', dur: 75, alt: null }, { kind: 'meal', slot: 'cafe', dur: 40 }]
+      : [{ kind: 'event', dur: 75, alt: 'buzz' }, { kind: 'meal', slot: mealAt(fixedAt - 70), dur: 60 }];
+    else if (room >= 55) before = food ? [{ kind: 'meal', slot: 'cafe', dur: 40 }] : [{ kind: 'meal', slot: mealAt(fixedAt - 70), dur: 60 }];
+    var bSteps = [];
+    var cursor = fixedAt - 10;
+    for (var i = before.length - 1; i >= 0; i--) {
+      var d = before[i];
+      var at = cursor - d.dur;
+      ctx.first = false;
+      var c = chooseStep(d, ctx, center, at, used);
+      if (!c) continue;
+      // 同じジャンルが続くなら（カフェ→カフェなど）入れない
+      if (c.kind === 'shop' && bSteps.some(function (x) { return x.kind === 'shop' && x.item.genre === c.item.genre; })) continue;
+      c.at = at; c.def = d; c.dur = c.kind === 'event' ? d.dur : c.dur; used[c.item.id] = 1;
+      bSteps.unshift(c);
+      cursor = at - 10;
+    }
+    // あと：その時間帯に合わせて最大2か所（23時半まで）
+    var after = [];
+    var leave = fixedAt + stay;
+    var lm = leave % 1440;
+    if (food) after = [{ kind: 'meal', slot: lm >= 1020 || lm < 300 ? 'second' : 'cafe', dur: 60 }];
+    else {
+      var s1 = lm >= 1260 || lm < 300 ? 'second' : mealAt(lm);
+      after = [{ kind: 'meal', slot: s1, dur: s1 === 'cafe' ? 45 : 70 }];
+      // 2か所目：夜ごはんのあとは2軒目、昼すぎのカフェのあとは夜ごはん
+      if (s1 === 'dinner' && lm + 80 < 1290) after.push({ kind: 'meal', slot: 'second', dur: 60 });
+      else if ((s1 === 'cafe' || s1 === 'lunch') && lm + 60 >= 960) after.push({ kind: 'meal', slot: 'dinner', dur: 70, notBefore: 1050 });
+    }
+    var aSteps = [];
+    var from = center, m2 = leave;
+    after.forEach(function (d) {
+      if (d.notBefore && m2 < d.notBefore) m2 = d.notBefore;
+      if (m2 > 1410) return;
+      var c = chooseStep(d, ctx, from, m2 + 5, used);
+      if (!c) return;
+      m2 += 5 + Math.round(dist(c.p, from) / WALK);
+      c.at = m2; c.def = d; c.dur = d.dur; used[c.item.id] = 1;
+      aSteps.push(c);
+      m2 += d.dur;
+      from = c.p;
+    });
+    var steps = bSteps.concat([fixedStep], aSteps);
+    var pl = { steps: steps, center: center, areaLabel: F.name + 'まわり', iso: iso, dw: dw, rainy: ctx.rainy, ctx: ctx, time: t, fixedPlan: true, fixedAt: fixedAt };
+    retime(pl);
+    return pl;
+  }
+
   function makePlan(reroll) {
+    if (plan.fix && plan.fix.place) return makeFixedPlan(reroll);
     var t = TIMES.filter(function (x) { return x.id === plan.time; })[0];
     var spot = SPOTS.filter(function (s) { return s.id === plan.area; })[0];
     var center = plan.area === 'here' ? plan.here : { lat: spot.lat, lng: spot.lng };
@@ -1304,7 +1397,22 @@
     return { steps: steps, center: center, areaLabel: areaLabel, iso: iso, dw: dw, rainy: ctx.rainy, ctx: ctx, time: t };
   }
 
+  // 決まってる予定を数えない通し番号
+  function stopNo(steps, i) {
+    var n = 0;
+    for (var k = 0; k <= i; k++) if (!steps[k].fixed) n++;
+    return n;
+  }
   function retime(pl) {
+    if (pl.fixedPlan) {
+      // 時刻は決まってる予定に合わせてあるので、歩く時間だけ計算し直す
+      pl.steps.forEach(function (c, i) {
+        if (i === 0) { c.walk = null; c.walkM = null; return; }
+        var d = dist(c.p, pl.steps[i - 1].p);
+        c.walk = Math.round(d / WALK); c.walkM = d;
+      });
+      return;
+    }
     var min = pl.steps.length ? pl.steps[0].at : 0;
     var from = pl.steps.length ? pl.steps[0].p : pl.center;
     pl.steps.forEach(function (c, i) {
@@ -1324,7 +1432,9 @@
     var pl = plan.current;
     $('pl-result').hidden = false;
     var who = curSit().id === 'any' ? '' : '・' + (curSit().id === 'group' ? '友達' + (sit.n >= 8 ? '7人〜' : sit.n + '人') : curSit().label);
-    $('pl-title').textContent = M.fmtDay(pl.iso) + ' ' + pl.time.label.replace(/\s.*$/, '') + '・' + pl.areaLabel + who + 'プラン';
+    $('pl-title').textContent = pl.fixedPlan
+      ? M.fmtDay(pl.iso) + ' ' + hm(pl.fixedAt) + '「' + plan.fix.place.name + '」の前後' + who + 'プラン'
+      : M.fmtDay(pl.iso) + ' ' + pl.time.label.replace(/\s.*$/, '') + '・' + pl.areaLabel + who + 'プラン';
     if (pl.dw) {
       wxChips($('pl-wx'), { code: pl.dw.code, tmax: pl.dw.tmax, tmin: pl.dw.tmin, pop: pl.dw.pop, rainy: pl.rainy,
         note: pl.rainy ? '雨の予報なので、屋内と近い場所を中心にしました' : '名古屋の予報' }, '天気');
@@ -1347,11 +1457,19 @@
       }
       var li = el('li', 'nw-step');
       li.appendChild(el('span', 'nw-step-time', hm(c.at)));
-      var card = el('div', 'nw-step-card');
-      card.appendChild(el('span', 'nw-pick-n', String(i + 1)));
+      var card = el('div', 'nw-step-card' + (c.fixed ? ' fixed' : ''));
+      card.appendChild(el('span', 'nw-pick-n' + (c.fixed ? ' star' : ''), c.fixed ? '★' : String(stopNo(pl.steps, i))));
       var body = el('div', 'nw-pick-body');
       var it = c.item;
-      if (c.kind === 'event') {
+      if (c.fixed) {
+        body.appendChild(el('span', 'nw-tag fixed', '決まってる予定・' + (c.dur >= 60 ? (c.dur / 60) + '時間' : c.dur + '分')));
+        var fa = el('a', 'nw-pick-title', c.name);
+        fa.href = c.kind === 'event' ? it.link : (c.kind === 'shop' ? shopLink(it) : 'https://www.google.com/maps/search/?api=1&query=' + encodeURIComponent(c.p.lat + ',' + c.p.lng));
+        fa.target = '_blank'; fa.rel = 'noopener';
+        body.appendChild(fa);
+        if (c.kind === 'event') body.appendChild(el('p', 'nw-row-sub', it.venue + ' ・ ' + M.eventRange(it)));
+        else if (c.kind === 'shop') body.appendChild(el('p', 'nw-row-sub', [it.genre, it.budget].filter(Boolean).join(' ・ ')));
+      } else if (c.kind === 'event') {
         body.appendChild(el('span', 'nw-tag event', 'イベント' + (it.place === 'indoor' ? '・屋内' : it.place === 'outdoor' ? '・屋外' : '')));
         var a = el('a', 'nw-pick-title', c.name);
         a.href = it.link; a.target = '_blank'; a.rel = 'noopener';
@@ -1374,15 +1492,17 @@
         }
       }
       var acts = el('div', 'nw-step-acts');
-      var other = el('button', 'nw-mini', 'ほかの候補');
-      other.type = 'button';
-      other.addEventListener('click', function () { swapStep(i); });
-      acts.appendChild(other);
+      if (!c.fixed) {
+        var other = el('button', 'nw-mini', 'ほかの候補');
+        other.type = 'button';
+        other.addEventListener('click', function () { swapStep(i); });
+        acts.appendChild(other);
+      }
       var dir = el('a', 'nw-dir', '道順');
       dir.href = mapsDir(c.p); dir.target = '_blank'; dir.rel = 'noopener';
       acts.appendChild(dir);
       body.appendChild(acts);
-      card.appendChild(thumb(c.kind === 'event' ? it.image : (it.photo || (c.buzz && c.buzz.image))));
+      card.appendChild(thumb(c.kind === 'event' ? it.image : (c.kind === 'place' ? null : (it.photo || (c.buzz && c.buzz.image)))));
       card.appendChild(body);
       li.appendChild(card);
       ol.appendChild(li);
@@ -1396,7 +1516,7 @@
     if (mid.length) route += '&waypoints=' + encodeURIComponent(mid.join('|'));
     $('pl-route').href = route;
     var text = '【飯飯食堂 お出かけプラン】' + $('pl-title').textContent + '\n' +
-      pl.steps.map(function (c) { return hm(c.at) + ' ' + c.name + (c.kind === 'event' ? '（' + c.item.venue + '）' : '（' + c.item.genre + '）'); }).join('\n') +
+      pl.steps.map(function (c) { return hm(c.at) + ' ' + (c.fixed ? '★' : '') + c.name + (c.kind === 'event' ? '（' + c.item.venue + '）' : c.kind === 'place' ? '' : '（' + c.item.genre + '）'); }).join('\n') +
       '\n道順：' + route;
     $('pl-line').href = 'https://line.me/R/share?text=' + encodeURIComponent(text);
     renderPlanMap();
@@ -1406,6 +1526,7 @@
     var pl = plan.current;
     var c = pl.steps[i];
     var from = i === 0 ? pl.center : pl.steps[i - 1].p;
+    if (pl.fixedPlan) from = pl.center;
     var used = {};
     pl.steps.forEach(function (x) { used[x.item.id] = 1; });
     (c.tried = c.tried || {})[c.item.id] = 1;
@@ -1420,6 +1541,7 @@
     }
     if (!n) return;
     n.def = c.def; n.tried = c.tried;
+    if (pl.fixedPlan) { n.at = c.at; n.dur = c.dur; }
     pl.steps[i] = n;
     retime(pl);
     renderPlan();
@@ -1437,7 +1559,7 @@
       pts.push([pl.center.lat, pl.center.lng]);
     }
     pl.steps.forEach(function (c, i) {
-      L.marker([+c.p.lat, +c.p.lng], { icon: pin(String(i + 1), c.kind === 'event' ? 'event' : 'shop'), title: c.name })
+      L.marker([+c.p.lat, +c.p.lng], { icon: pin(c.fixed ? '★' : String(stopNo(pl.steps, i)), c.fixed ? 'fixed' : (c.kind === 'event' ? 'event' : 'shop')), title: c.name })
         .addTo(mo.layer).bindPopup(hm(c.at) + ' ' + c.name);
       pts.push([+c.p.lat, +c.p.lng]);
     });
@@ -1452,7 +1574,7 @@
   function buildPlan(reroll) {
     $('pl-status').textContent = '';
     $('pl-make').disabled = true;
-    var needHere = plan.area === 'here' && !plan.here;
+    var needHere = plan.area === 'here' && !plan.here && !plan.fix.place;
     var slip = planSlip;
     var steps = [];
     if (needHere) steps.push({ id: 'here', label: '現在地をたしかめる', slow: '位置情報の返事待ち…' });
@@ -1468,7 +1590,8 @@
       ? (slip.cook('here'), M.locate().then(function (p) { plan.here = p; slip.done('here', '見つかりました'); }))
       : Promise.resolve();
     hereP.then(function () {
-      var center = plan.area === 'here' ? plan.here : SPOTS.filter(function (s) { return s.id === plan.area; })[0];
+      var center = plan.fix.place ? { lat: plan.fix.place.lat, lng: plan.fix.place.lng }
+        : (plan.area === 'here' ? plan.here : SPOTS.filter(function (s) { return s.id === plan.area; })[0]);
       slip.cook('osm');
       return Promise.all([partsP, osmWithin(center, 1500, slip)]);
     }).then(function (r) {
@@ -1488,6 +1611,14 @@
     }).then(function () { $('pl-make').disabled = false; });
   }
 
+  function renderPlanFix() {
+    pillsInto('pl-fix-stay', STAY_OPTS, plan.fix.stay || defaultStay(plan.fix.place), function (id) { plan.fix.stay = id; plan.fix.stayTouched = true; });
+    var note = $('pl-fix-note');
+    note.hidden = !plan.fix.place;
+    if (plan.fix.place) note.textContent = '場所は「' + plan.fix.place.name + '」のまわりで組みます（「どこで」は使いません）。「時間」はプランを始める時刻です。';
+    $('pl-area').classList.toggle('is-dim', !!plan.fix.place);
+  }
+
   function initPlan() {
     var days = dayOptions();
     plan.day = days[0].id;
@@ -1500,6 +1631,21 @@
     if (!areas.some(function (a) { return a.id === plan.area; })) plan.area = 'sakae';
     pillsInto('pl-area', areas, plan.area, function (id) { plan.area = id; store.set('meshi.plArea', id); if (id === 'here') plan.here = null; });
     $('pl-make').addEventListener('click', function () { buildPlan(false); });
+    // 決まってる予定（あれば）
+    var PLAN_PICKER = {
+      pre: 'pl-fix',
+      onChoose: function (p) {
+        plan.fix.place = p;
+        if (!plan.fix.stayTouched) plan.fix.stay = defaultStay(p);
+        $('pl-fix-opts').hidden = false;
+        renderPlanFix();
+      },
+      onClear: function () { plan.fix.place = null; $('pl-fix-opts').hidden = true; renderPlanFix(); }
+    };
+    wirePicker(PLAN_PICKER);
+    $('pl-fix-time').value = plan.fix.time;
+    $('pl-fix-time').addEventListener('change', function () { plan.fix.time = $('pl-fix-time').value || '18:00'; });
+    renderPlanFix();
     $('pl-again').addEventListener('click', function () { buildPlan(true); });
   }
 

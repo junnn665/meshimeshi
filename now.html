@@ -115,6 +115,21 @@
         <div class="g-field"><p class="g-label">いつ</p><div class="g-pills" id="pl-day" role="group" aria-label="いつ"></div></div>
         <div class="g-field"><p class="g-label">時間</p><div class="g-pills" id="pl-time" role="group" aria-label="時間"></div></div>
         <div class="g-field"><p class="g-label">どこで</p><div class="g-pills" id="pl-area" role="group" aria-label="どこで"></div></div>
+        <div class="g-field nw-pl-fix">
+          <p class="g-label">決まってる予定（あれば）</p>
+          <form class="nw-fix-search" id="pl-fix-form" role="search">
+            <input type="search" id="pl-fix-q" placeholder="予約したお店・イベント・場所（例：名古屋城）" autocomplete="off" enterkeyhint="search" aria-label="決まってる予定">
+            <button type="submit" class="nw-fix-find">探す</button>
+          </form>
+          <div class="nw-fix-sugg" id="pl-fix-sugg"></div>
+          <div class="nw-fix-chosen" id="pl-fix-chosen" hidden></div>
+          <div class="nw-pl-fix-opts" id="pl-fix-opts" hidden>
+            <label class="nw-pl-fix-at">何時から <input type="time" class="nw-fix-time" id="pl-fix-time" step="900"></label>
+            <p class="g-label">いる時間</p>
+            <div class="g-pills" id="pl-fix-stay" role="group" aria-label="いる時間"></div>
+            <p class="nw-note" id="pl-fix-note" hidden></p>
+          </div>
+        </div>
         <div class="g-field"><p class="g-label">だれと</p><div class="g-pills" id="pl-sit" role="group" aria-label="だれと"></div>
           <div class="g-pills nw-people" id="pl-people" role="group" aria-label="人数" hidden></div></div>
         <button type="button" class="nw-go nw-make" id="pl-make">プランを作る</button>
