@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-18T10:31:00+09:00",
+ "updated": "2026-10-18T11:28:03+09:00",
  "items": [
   {
    "id": "cf99d5616e19d39c",
@@ -6401,23 +6401,6 @@
    "image_checked": true,
    "added": "2026-10-07T13:00:00+09:00",
    "shop": true,
-   "shop_name": null
-  },
-  {
-   "id": "6de2148c65a3e7c4",
-   "title": "アオキーズ・ピザ、「懐かしの昭和レトロフェア」10月15日(木)より開催！",
-   "link": "https://www.agara.co.jp/article/695991",
-   "source": "AGARA 紀伊民報",
-   "image": "https://prtimes.jp/img/159870/21/resize/d159870-21-bcae073f64fa8f6505bd-6.jpg",
-   "category": "chain",
-   "area": "東海",
-   "published": "2026-10-07T11:22:00+09:00",
-   "provider": "google",
-   "added": "2026-10-12T11:20:55+09:00",
-   "decode_v2": true,
-   "image_checked": true,
-   "image_v4": true,
-   "shop": false,
    "shop_name": null
   }
  ]

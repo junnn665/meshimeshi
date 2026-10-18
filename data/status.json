@@ -1,16 +1,13 @@
 {
- "updated": "2026-10-18T10:31:00+09:00",
- "items": 375,
- "with_image": 349,
- "google_decode_ok": 30,
+ "updated": "2026-10-18T11:28:03+09:00",
+ "items": 374,
+ "with_image": 348,
+ "google_decode_ok": 26,
  "google_decode_failed": 0,
  "google_decode_samples": [],
  "image_failures": [
-  "thetv.jp: og:image なし (42408 文字)",
+  "thetv.jp: og:image なし (42360 文字)",
   "www.excite.co.jp: HTTPError: HTTP Error 403: Forbidden",
-  "www.excite.co.jp: HTTPError: HTTP Error 403: Forbidden",
-  "tamapon.com: URLError: <urlopen error timed out>",
-  "news.dellows.jp: URLError: <urlopen error timed out>",
-  "kobe-journal.com: URLError: <urlopen error timed out>"
+  "www.excite.co.jp: HTTPError: HTTP Error 403: Forbidden"
  ]
 }
