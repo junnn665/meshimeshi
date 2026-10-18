@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-18T21:30:47+09:00",
+ "updated": "2026-10-18T22:29:07+09:00",
  "items": [
   {
    "id": "d0a72d148870cafe",
@@ -3161,6 +3161,23 @@
    "published": "2026-10-13T16:00:00+09:00",
    "provider": "google",
    "added": "2026-10-17T12:27:21+09:00",
+   "decode_v2": true,
+   "image_checked": true,
+   "image_v4": true,
+   "shop": false,
+   "shop_name": null
+  },
+  {
+   "id": "b1a6e72b02062f25",
+   "title": "ついに「幸せのパンケーキ」東海地方に上陸！オープン記念メニューは国内12店舗で！",
+   "link": "https://www.walkerplus.com/article/113932/",
+   "source": "ウォーカープラス",
+   "image": "https://news.walkerplus.com/article/113932/627843_615.jpg",
+   "category": "shinten",
+   "area": "東海",
+   "published": "2026-10-13T16:00:00+09:00",
+   "provider": "google",
+   "added": "2026-10-18T22:29:07+09:00",
    "decode_v2": true,
    "image_checked": true,
    "image_v4": true,
@@ -6373,6 +6390,22 @@
    "image_checked": true,
    "decode_v2": true,
    "added": "2026-10-07T17:31:00+09:00",
+   "shop": false,
+   "shop_name": null
+  },
+  {
+   "id": "14612808e5207a94",
+   "title": "【名古屋栄三越】秋のリニューアル～9階レストランフロアに新たに ...",
+   "link": "https://mantan-web.jp/prtimes/article/20261007prt00m200000388a.html",
+   "source": "MANTANWEB（まんたんウェブ）",
+   "image": "https://prtimes.jp/img/185183/17/resize/d185183-17-046e62ad8ebba4c151c8-8.jpg",
+   "category": "wadai",
+   "area": "名古屋",
+   "published": "2026-10-07T13:00:00+09:00",
+   "provider": "bing",
+   "added": "2026-10-18T22:29:07+09:00",
+   "image_checked": true,
+   "image_v4": true,
    "shop": false,
    "shop_name": null
   }
