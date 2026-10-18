@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-18T08:22:12+09:00",
+ "updated": "2026-10-18T09:38:41+09:00",
  "items": [
   {
    "id": "d806d1638d6edad5",
@@ -17,6 +17,27 @@
    "image_v4": true,
    "shop": true,
    "shop_name": "パンゾーン"
+  },
+  {
+   "id": "fec7f8c2f17b1d4a",
+   "title": "【実食レポ】栄で開催中のイベント「名古屋ラーメンまつり」で、珠玉の1杯に出合った！",
+   "link": "https://www.walkerplus.com/article/221984/",
+   "source": "ウォーカープラス",
+   "image": "https://news.walkerplus.com/article/221984/1383139_615.jpg",
+   "category": "event",
+   "area": "名古屋",
+   "published": "2026-10-18T00:27:51+09:00",
+   "provider": "google",
+   "added": "2026-10-18T09:38:41+09:00",
+   "decode_v2": true,
+   "image_checked": true,
+   "image_v4": true,
+   "shop": false,
+   "shop_name": null,
+   "venue": "栄",
+   "lat": 35.16796,
+   "lng": 136.89203,
+   "group": "488b206d7d62"
   },
   {
    "id": "58034e3174fe8272",
