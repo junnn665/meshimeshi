@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-19T04:23:39+09:00",
+ "updated": "2026-10-19T05:24:52+09:00",
  "items": [
   {
    "id": "f1ed4bc87cb952da",
@@ -131,6 +131,23 @@
    "published": "2026-10-18T08:40:21+09:00",
    "provider": "google",
    "added": "2026-10-18T19:25:48+09:00",
+   "decode_v2": true,
+   "image_checked": true,
+   "image_v4": true,
+   "shop": false,
+   "shop_name": null
+  },
+  {
+   "id": "eb1bc45781b2a8a0",
+   "title": "こわもて客がオーダーしたのはデカ盛りパフェ！一見コミカルだが、ファミリーレストランの従業員たちは緊張感で真っ青…／鳩ヶ森さん傑作選",
+   "link": "https://www.walkerplus.com/article/1447028/",
+   "source": "ウォーカープラス",
+   "image": "https://news.walkerplus.com/article/1447028/18754675_615.jpg",
+   "category": "deka",
+   "area": "東海",
+   "published": "2026-10-18T08:29:00+09:00",
+   "provider": "google",
+   "added": "2026-10-19T05:24:52+09:00",
    "decode_v2": true,
    "image_checked": true,
    "image_v4": true,
@@ -6389,40 +6406,6 @@
    "image_checked": true,
    "decode_v2": true,
    "added": "2026-10-07T19:37:45+09:00",
-   "shop": false,
-   "shop_name": null
-  },
-  {
-   "id": "d0e7207297397702",
-   "title": "【セブンイレブン】松江カツライスなど山陰グルメ6品が登場! 4県限定「山陰フェア」開催 - TSKさんいん中央テレビ『SOUP』と共同開発 (2026年10月7日掲載)",
-   "link": "https://news.livedoor.com/topics/detail/32512991/",
-   "source": "ライブドアニュース",
-   "image": "https://image.news.livedoor.com/newsimage/stf/3/7/3763b_1223_13576288f6c284cf7c0908a3eb09a2aa.jpg",
-   "category": "conbini",
-   "area": "東海",
-   "published": "2026-10-07T19:13:54+09:00",
-   "provider": "google",
-   "added": "2026-10-13T05:21:18+09:00",
-   "decode_v2": true,
-   "image_checked": true,
-   "image_v4": true,
-   "shop": false,
-   "shop_name": null
-  },
-  {
-   "id": "e5230bef17027404",
-   "title": "【10月13日～発売】セブン-イレブン 新商品スイーツまとめ「ニャンともとろける！チョコソースクレープ」「三層仕立て 抹茶デニッシュドーナツ」など",
-   "link": "https://entabe.jp/61735/summary-seveneleven-october-13th-new-sweets",
-   "source": "えん食べ [グルメニュース]",
-   "image": "https://image.entabe.jp/upload/20261006/images/000.jpg",
-   "category": "conbini",
-   "area": "東海",
-   "published": "2026-10-07T19:00:00+09:00",
-   "provider": "google",
-   "added": "2026-10-12T07:19:00+09:00",
-   "decode_v2": true,
-   "image_checked": true,
-   "image_v4": true,
    "shop": false,
    "shop_name": null
   }
