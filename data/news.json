@@ -1,6 +1,23 @@
 {
- "updated": "2026-10-18T23:25:53+09:00",
+ "updated": "2026-10-19T00:25:12+09:00",
  "items": [
+  {
+   "id": "f1ed4bc87cb952da",
+   "title": "ブルーボトルコーヒー カフェに秋限定メニューが登場！新作のミソキャメルラテや秋限定スイーツでくつろぎのペアリング体験を",
+   "link": "https://www.walkerplus.com/article/1439325/",
+   "source": "ウォーカープラス",
+   "image": "https://news.walkerplus.com/article/1439325/18460541_615.jpg",
+   "category": "chain",
+   "area": "東海",
+   "published": "2026-10-18T22:03:09+09:00",
+   "provider": "google",
+   "added": "2026-10-19T00:25:12+09:00",
+   "decode_v2": true,
+   "image_checked": true,
+   "image_v4": true,
+   "shop": false,
+   "shop_name": null
+  },
   {
    "id": "d0a72d148870cafe",
    "title": "メニュー10品が半額、2品が100円台 焼肉チェーンで19日から開始 愛知の5店舗",
@@ -6408,22 +6425,6 @@
    "image_v4": true,
    "shop": false,
    "shop_name": null
-  },
-  {
-   "id": "135a2035ae5eebcf",
-   "title": "名古屋・名駅柳橋エリアに大衆居酒屋「勝男」オープン！",
-   "link": "https://www.asahi.com/and/pressrelease/16947418",
-   "source": "朝日新聞デジタル",
-   "image": "https://www.asahi.com/and/ogp/ogp_and.png",
-   "category": "shinten",
-   "area": "名古屋",
-   "published": "2026-10-07T06:59:00+09:00",
-   "provider": "bing",
-   "added": "2026-10-18T23:25:53+09:00",
-   "image_checked": true,
-   "image_v4": true,
-   "shop": true,
-   "shop_name": "勝男"
   }
  ]
 }

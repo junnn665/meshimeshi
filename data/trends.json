@@ -1,7 +1,6 @@
 {
- "updated": "2026-10-18T14:26:28+00:00",
+ "updated": "2026-10-18T15:25:49+00:00",
  "days": [
-  "2026-10-05",
   "2026-10-06",
   "2026-10-07",
   "2026-10-08",
@@ -14,57 +13,9 @@
   "2026-10-15",
   "2026-10-16",
   "2026-10-17",
-  "2026-10-18"
+  "2026-10-18",
+  "2026-10-19"
  ],
  "recent_days": 3,
- "items": [
-  {
-   "label": "ケーキ",
-   "q": "ケーキ",
-   "kind": "dish",
-   "recent": 4,
-   "base_per_day": 0.55,
-   "ratio": 1.71,
-   "new": false,
-   "daily": [
-    0,
-    0,
-    0,
-    1,
-    1,
-    1,
-    0,
-    1,
-    2,
-    0,
-    0,
-    2,
-    2,
-    0
-   ],
-   "articles": [
-    {
-     "id": "ca00a3ab162cf8ce",
-     "title": "ファミマで「チョコのスティックケーキ」が2026年10月20日に発売、ワンハンドで食べられるスティックタイプの新作チョコケーキ",
-     "link": "https://convenicheck.com/newitem/newit_famima/138838/",
-     "source": "コンビニ チェッカー",
-     "image": "https://convenicheck.com/wp-content/uploads/2026/10/famima_chocostcake26101.jpg"
-    },
-    {
-     "id": "d607776572c743fe",
-     "title": "【10月20日〜発売】セブン-イレブン 新商品パンまとめ「ふわふわ食感ホットケーキパン」「紅はるかのしっとりリングドーナツ」",
-     "link": "https://topics.smt.docomo.ne.jp/amp/article/entabe/trend/entabe-61812",
-     "source": "ｄメニューニュース",
-     "image": "https://img.topics.smt.news.goo.ne.jp/picture/entabe/m_entabe-61812.jpg"
-    },
-    {
-     "id": "c4d56f831d3ca08e",
-     "title": "三重県産苺、奥伊勢柚子、伊勢茶をクリスマスケーキにホテルグリーンパーク津「Grissier」2026年クリスマスケーキ予約開始",
-     "link": "https://prtimes.jp/main/html/rd/p/000000211.000053694.html",
-     "source": "PR TIMES",
-     "image": "https://prcdn.freetls.fastly.net/release_image/53694/211/53694-211-b7979fe600d3029fc944a56a7bfd2323-962x641.jpg?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260"
-    }
-   ]
-  }
- ]
+ "items": []
 }
