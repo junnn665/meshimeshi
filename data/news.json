@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-18T18:26:22+09:00",
+ "updated": "2026-10-18T19:25:48+09:00",
  "items": [
   {
    "id": "34411147a38f7e67",
@@ -63,6 +63,23 @@
    "published": "2026-10-18T09:15:27+09:00",
    "provider": "google",
    "added": "2026-10-18T10:31:00+09:00",
+   "decode_v2": true,
+   "image_checked": true,
+   "image_v4": true,
+   "shop": false,
+   "shop_name": null
+  },
+  {
+   "id": "7e12c4c54d84465c",
+   "title": "高さ20センチ！“メガ盛り”バーガーが千円引きに",
+   "link": "https://www.walkerplus.com/article/92275/",
+   "source": "ウォーカープラス",
+   "image": "https://news.walkerplus.com/article/92275/516241_615.jpg",
+   "category": "deka",
+   "area": "東海",
+   "published": "2026-10-18T08:40:21+09:00",
+   "provider": "google",
+   "added": "2026-10-18T19:25:48+09:00",
    "decode_v2": true,
    "image_checked": true,
    "image_v4": true,
@@ -854,6 +871,22 @@
    "provider": "google",
    "added": "2026-10-18T01:26:20+09:00",
    "decode_v2": true,
+   "image_checked": true,
+   "image_v4": true,
+   "shop": false,
+   "shop_name": null
+  },
+  {
+   "id": "58537c6a45adfc68",
+   "title": "セブンの皿台湾を食べた。辛さより、ニンニクが強かった",
+   "link": "https://note.com/_alstroemeria_/n/n64491a50fdda",
+   "source": "note",
+   "image": "https://assets.st-note.com/production/uploads/images/324887635/rectangle_large_type_2_216af06386ede79349e4f006cdf08b59.png?fit=bounds&quality=85&width=1280",
+   "category": "wadai",
+   "area": "東海",
+   "published": "2026-10-16T12:13:00+09:00",
+   "provider": "bing",
+   "added": "2026-10-18T19:25:48+09:00",
    "image_checked": true,
    "image_v4": true,
    "shop": false,
@@ -6390,23 +6423,6 @@
    "decode_v2": true,
    "image_checked": true,
    "image_v4": true,
-   "shop": false,
-   "shop_name": null
-  },
-  {
-   "id": "efd71e678ee48a80",
-   "title": "焼豚中華そば 一番軒、期間限定「辛ニラそば」を10月8日より販売開始",
-   "link": "https://prtimes.jp/main/html/rd/p/000000037.000156848.html",
-   "source": "PR TIMES",
-   "image": "https://prcdn.freetls.fastly.net/release_image/156848/37/156848-37-9973c7eb36bf9398fc5462cc8948d6f6-1024x1536.jpg?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260",
-   "category": "chain",
-   "area": "東海",
-   "published": "2026-10-07T15:35:56+09:00",
-   "provider": "google",
-   "decode_tried": true,
-   "image_checked": true,
-   "decode_v2": true,
-   "added": "2026-10-07T15:35:56+09:00",
    "shop": false,
    "shop_name": null
   }
