@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-19T07:24:41+09:00",
+ "updated": "2026-10-19T08:23:22+09:00",
  "items": [
   {
    "id": "d1d5db7dfe2b5898",
@@ -17,6 +17,23 @@
    "image_v4": true,
    "shop": false,
    "shop_name": null
+  },
+  {
+   "id": "d40c112c06866415",
+   "title": "「一風堂」の看板ラーメンがワンコインで味わえる！名古屋駅ナカに新店",
+   "link": "https://www.walkerplus.com/article/91690/",
+   "source": "ウォーカープラス",
+   "image": "https://news.walkerplus.com/article/91690/513633_615.jpg",
+   "category": "shinten",
+   "area": "名古屋",
+   "published": "2026-10-18T22:26:38+09:00",
+   "provider": "google",
+   "added": "2026-10-19T08:23:22+09:00",
+   "decode_v2": true,
+   "image_checked": true,
+   "image_v4": true,
+   "shop": true,
+   "shop_name": "一風堂"
   },
   {
    "id": "f1ed4bc87cb952da",
@@ -294,6 +311,23 @@
    "shop": false,
    "shop_name": null,
    "group": "e9976f2b2eb2"
+  },
+  {
+   "id": "bae259c845d966c9",
+   "title": "野菜好きのための和食店が東海エリア初出店！レストラン「やさい家めい」",
+   "link": "https://www.walkerplus.com/article/105988/",
+   "source": "ウォーカープラス",
+   "image": "https://news.walkerplus.com/article/105988/586880_615.jpg",
+   "category": "shinten",
+   "area": "東海",
+   "published": "2026-10-17T16:32:43+09:00",
+   "provider": "google",
+   "added": "2026-10-19T08:23:22+09:00",
+   "decode_v2": true,
+   "image_checked": true,
+   "image_v4": true,
+   "shop": false,
+   "shop_name": null
   },
   {
    "id": "93216a6feabcc80b",
@@ -2184,6 +2218,23 @@
    "image_checked": true,
    "image_v4": true,
    "shop": true,
+   "shop_name": null
+  },
+  {
+   "id": "d94f2868537cac01",
+   "title": "【食べ放題】北京ダック＆トリュフ入り餃子も食べ放題！今だけ豪華コース全国でやってるよ（ぴあ）",
+   "link": "https://news.yahoo.co.jp/articles/ce54eafa664d1340b766bbe66978de9c0f48530c",
+   "source": "Yahoo!ニュース",
+   "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261014-00010010-piaeigat-000-1-view.jpg?exp=10800",
+   "category": "wadai",
+   "area": "東海",
+   "published": "2026-10-14T18:02:15+09:00",
+   "provider": "google",
+   "added": "2026-10-19T08:23:22+09:00",
+   "decode_v2": true,
+   "image_checked": true,
+   "image_v4": true,
+   "shop": false,
    "shop_name": null
   },
   {
@@ -6374,40 +6425,6 @@
    "added": "2026-10-07T23:04:00+09:00",
    "shop": true,
    "shop_name": "あんこ"
-  },
-  {
-   "id": "78c2d84637c72493",
-   "title": "名古屋モーニングの異端児“寿司モーニング”って!?",
-   "link": "https://www.walkerplus.com/article/12546/",
-   "source": "ウォーカープラス",
-   "image": "https://news.walkerplus.com/article/12546/42789_615.jpg",
-   "category": "yasuuma",
-   "area": "名古屋",
-   "published": "2026-10-07T21:23:15+09:00",
-   "provider": "google",
-   "decode_tried": true,
-   "image_checked": true,
-   "decode_v2": true,
-   "added": "2026-10-07T21:23:15+09:00",
-   "shop": true,
-   "shop_name": null
-  },
-  {
-   "id": "0fd2cf36842648e0",
-   "title": "｢ザ･ランドマーク名古屋栄｣ 地下2階～地上4階を占める｢HAERA｣には東海エリア初出店のグルメが続々！6月11日オープン",
-   "link": "https://newsdig.tbs.co.jp/articles/gallery/2718334",
-   "source": "TBS NEWS DIG",
-   "image": "https://newsdig.ismcdn.jp/mwimgs/9/4/1200w/img_945e1d5fcc3906682a67ee5523e9a06c355288.jpg",
-   "category": "shinten",
-   "area": "名古屋",
-   "published": "2026-10-07T20:28:00+09:00",
-   "provider": "google",
-   "added": "2026-10-11T22:19:49+09:00",
-   "decode_v2": true,
-   "image_checked": true,
-   "image_v4": true,
-   "shop": false,
-   "shop_name": null
   }
  ]
 }
