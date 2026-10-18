@@ -1,12 +1,13 @@
 {
- "updated": "2026-10-18T13:28:50+09:00",
- "items": 373,
- "with_image": 347,
- "google_decode_ok": 28,
+ "updated": "2026-10-18T14:26:32+09:00",
+ "items": 371,
+ "with_image": 345,
+ "google_decode_ok": 31,
  "google_decode_failed": 0,
  "google_decode_samples": [],
  "image_failures": [
   "thetv.jp: og:image なし (42410 文字)",
+  "www.excite.co.jp: HTTPError: HTTP Error 403: Forbidden",
   "www.excite.co.jp: HTTPError: HTTP Error 403: Forbidden",
   "www.excite.co.jp: HTTPError: HTTP Error 403: Forbidden"
  ]
