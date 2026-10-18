@@ -603,8 +603,9 @@
   // 曜日(0=月)ごとの営業時間 [[開始分, 終了分], ...] を返す。読めなければ null
   function parseHours(text) {
     if (!text) return null;
-    var t = text.replace(/[（(][^）)]*[）)]/g, ' ')   // L.O. などの補足を消す
-      .replace(/[〜~ー－-]/g, '～').replace(/：/g, ':').replace(/\s+/g, ' ');
+    // L.O. は補足のかっこの中にあるので、かっこは消さずに「時間帯の直後の L.O.」として読む
+    var t = text.normalize('NFKC').replace(/[（(]/g, ' (').replace(/[）)]/g, ') ')
+      .replace(/[〜~]/g, '～').replace(/[ー－-](?=\s*翌?\s*\d)/g, '～').replace(/：/g, ':').replace(/\s+/g, ' ');
     var re = /((?:(?:[月火水木金土日](?:～[月火水木金土日])?|祝日|祝前日|祝後日)[、,・]?\s*)+)\s*:\s*([^月火水木金土日祝]*)/g;
     var week = {};
     var found = false;
@@ -613,13 +614,25 @@
       var days = expandDays(m[1]);
       var times = [];
       var tr = /(\d{1,2}):(\d{2})\s*～\s*(翌\s*)?(\d{1,2}):(\d{2})/g;
-      var x;
-      while ((x = tr.exec(m[2]))) {
+      var x, seg = m[2], found2 = [];
+      while ((x = tr.exec(seg))) found2.push({ x: x, end: tr.lastIndex });
+      found2.forEach(function (f, k) {
+        var x = f.x;
         var s = +x[1] * 60 + +x[2];
         var e = +x[4] * 60 + +x[5];
         if (x[3] || e <= s) e += 1440; // 日をまたぐ
-        times.push([s, e]);
-      }
+        // この時間帯のすぐあと（次の時間帯まで）にある「料理L.O. 21:30」などを読む
+        var tail = seg.slice(f.end, k + 1 < found2.length ? found2[k + 1].x.index : seg.length);
+        var lo = /(?:料理|フード)?\s*L\.?\s*O\.?\s*[:：]?\s*(翌\s*)?(\d{1,2}):(\d{2})/i.exec(tail);
+        var loMin = null;
+        if (lo) {
+          loMin = +lo[2] * 60 + +lo[3];
+          if (lo[1] || loMin < s) loMin += 1440;
+          if (loMin > e || loMin < s) loMin = null;
+        }
+        // かっこの中の「ランチ 11:00～14:00」のような重なりは入れない
+        if (!times.some(function (r) { return r[0] === s && r[1] === e; })) times.push([s, e, loMin]);
+      });
       if (!times.length) continue;
       found = true;
       Object.keys(days).forEach(function (d) { week[d] = (week[d] || []).concat(times); });
@@ -638,6 +651,22 @@
     var yest = week[(d + 6) % 7] || [];
     return today.some(function (r) { return min >= r[0] && min < r[1]; }) ||
       yest.some(function (r) { return r[1] > 1440 && min + 1440 >= r[0] && min + 1440 < r[1]; });
+  }
+  // 今の時間帯の終わり：{ close: 閉店の分, lo: ラストオーダーの分 or null, leftClose, leftLo }（分は 0:00 から。深夜は 1440 超え）
+  function closingInfo(sh, now) {
+    var week = sh._hours !== undefined ? sh._hours : (sh._hours = parseHours(sh.open));
+    if (!week) return null;
+    now = now || new Date();
+    var d = dayIndex(now);
+    var min = now.getHours() * 60 + now.getMinutes();
+    var hit = null, base = min;
+    (week[d] || []).forEach(function (r) { if (!hit && min >= r[0] && min < r[1]) hit = r; });
+    if (!hit) {
+      (week[(d + 6) % 7] || []).forEach(function (r) { if (!hit && r[1] > 1440 && min + 1440 >= r[0] && min + 1440 < r[1]) { hit = r; base = min + 1440; } });
+    }
+    if (!hit) return null;
+    var lo = hit[2] != null ? hit[2] : null;
+    return { close: hit[1], lo: lo, leftClose: hit[1] - base, leftLo: lo != null ? lo - base : null };
   }
   function hasLunch(sh) {
     if (sh.lunch) return true;
@@ -1714,7 +1743,7 @@
   }
 
   // テスト用に営業時間の読み取りを外から使えるようにする
-  window.__meshiHours = { parseHours: parseHours, isOpenNow: isOpenNow, hasLunch: hasLunch };
+  window.__meshiHours = { parseHours: parseHours, isOpenNow: isOpenNow, hasLunch: hasLunch, closingInfo: closingInfo };
 
   // 「今から行ける」「お出かけプラン」（assets/now.js）から使う共通の部品
   function loadAllShops() {
@@ -1727,7 +1756,7 @@
     $: function (id) { return $(id); }, el: el, svg: svg, store: store, photo: photo, CAT: CAT,
     todayJst: todayJst, fmtDay: fmtDay, addDays: addDays, eventStatus: eventStatus, eventRange: eventRange,
     groupEvents: groupEvents, eventName: eventName, weekendJst: weekendJst,
-    distance: distance, fmtDistance: fmtDistance, isOpenNow: isOpenNow, hasLunch: hasLunch,
+    distance: distance, fmtDistance: fmtDistance, isOpenNow: isOpenNow, hasLunch: hasLunch, closingInfo: closingInfo,
     loadAllShops: loadAllShops, loadOsmAt: loadOsmAt, mergeShops: mergeShops, normName: normName,
     locate: locate, GENRE_WORDS: GENRE_WORDS, showOffline: function (on) { showOffline(on); },
     isSaved: isSaved, toggleSaved: toggleSaved

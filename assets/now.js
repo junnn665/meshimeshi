@@ -407,12 +407,64 @@
       if (d > maxDist) return false;
       var o = M.isOpenNow(sh, at);
       sh._open = o;
+      if (o === true && tooLate(sh, at)) return false;
       return o === true || (allowUnknown && o === null);
     }).sort(function (a, b) {
       var oa = a._open === true ? 1 : 0.55, ob = b._open === true ? 1 : 0.55;
       return shopScore(b, from) * ob - shopScore(a, from) * oa;
     });
   }
+
+  // ---------- ラストオーダー・閉店までの残り ----------
+  function fmtLeft(m) {
+    m = Math.max(0, Math.round(m));
+    if (m < 60) return m + '分';
+    return Math.floor(m / 60) + '時間' + (m % 60 ? (m % 60) + '分' : '');
+  }
+  // { text, cls } or null。cls: hot（30分以内）/ warm（1時間以内）/ over（L.O.済み）/ ''（余裕あり）
+  function loInfo(sh, at, prefix) {
+    var i = M.closingInfo && M.closingInfo(sh, at);
+    if (!i) return null;
+    var pre = prefix || '';
+    if (i.leftLo != null) {
+      if (i.leftLo <= 0) return { text: 'L.O.終了・閉店まで' + fmtLeft(i.leftClose), cls: 'over' };
+      if (i.leftLo <= 120) return { text: pre + 'L.O.まで' + fmtLeft(i.leftLo), cls: i.leftLo <= 30 ? 'hot' : (i.leftLo <= 60 ? 'warm' : '') };
+      return { text: 'L.O. ' + clock(i.lo), cls: '' };
+    }
+    if (i.leftClose <= 120) return { text: pre + '閉店まで' + fmtLeft(i.leftClose), cls: i.leftClose <= 30 ? 'hot' : (i.leftClose <= 60 ? 'warm' : '') };
+    return { text: clock(i.close) + 'まで', cls: '' };
+  }
+  // 閉店・L.O.の時刻（24:00、翌1:00 のように）
+  function clock(min) {
+    if (min === 1440) return '24:00';
+    if (min > 1440) return '翌' + hm(min - 1440);
+    return hm(min);
+  }
+  function loBadge(sh, at, prefix) {
+    var x = loInfo(sh, at, prefix);
+    return x ? el('span', 'nw-lo ' + x.cls, x.text) : null;
+  }
+  // もうすぐ終わる店（L.O.まで20分未満・閉店まで25分未満）は候補にしない
+  function tooLate(sh, at) {
+    var i = M.closingInfo && M.closingInfo(sh, at);
+    return !!i && ((i.leftLo != null && i.leftLo < 20) || i.leftClose < 25);
+  }
+
+  // ---------- 予算（1人あたりの目安） ----------
+  var PRICE = { B009: 500, B010: 800, B011: 1300, B001: 1800, B002: 2500, B003: 3500, B008: 4500, B004: 6000, B005: 8500, B006: 12500, B012: 17500, B013: 25000, B014: 35000 };
+  var GENRE_PRICE = { 'カフェ': 900, 'ラーメン': 1000, '和食': 1800, '洋食': 1500, '中華': 1500, 'イタリアン': 2500, '焼肉': 4000,
+    '居酒屋': 3500, '韓国料理': 3000, 'エスニック': 1500, 'お好み焼き': 1800 };
+  var EVENT_PRICE = 1000;   // イベントでの食べ歩きの目安
+  function priceOf(sh, slot) {
+    var base = PRICE[sh.budget_code] || GENRE_PRICE[sh.genre] || 1500;
+    if (slot === 'lunch') base = Math.min(base, sh.genre === '焼肉' ? 1800 : 1500);   // ホットペッパーの予算は夜の平均なので、昼は控えめに
+    else if (slot === 'cafe' || slot === 'morning') base = Math.min(base, 1300);
+    else if (slot === 'second') base = Math.round(base * 0.7);
+    return Math.round(base / 100) * 100;
+  }
+  function yen(n) { return n.toLocaleString('ja-JP') + '円'; }
+  var BUDGET_W = { morning: 0.5, lunch: 1.2, cafe: 0.5, dinner: 2.2, second: 1.1, late: 1, event: 0.8 };
+  function stepWeight(def) { return def.kind === 'event' ? BUDGET_W.event : (BUDGET_W[def.slot] || 1); }
 
   // ---------- 表示の部品 ----------
   function thumb(src) {
@@ -450,6 +502,7 @@
     var top = el('div', 'nw-row-top');
     if (opts.tag) top.appendChild(el('span', 'nw-tag ' + (opts.tagCls || ''), opts.tag));
     if (opts.meta) top.appendChild(el('span', 'nw-meta', opts.meta));
+    if (opts.shop) { var lb = loBadge(opts.shop, opts.at || jstNow()); if (lb) top.appendChild(lb); }
     b.appendChild(top);
     var a = el('a', 'nw-row-title', opts.title);
     a.href = opts.href; a.target = '_blank'; a.rel = 'noopener';
@@ -659,7 +712,12 @@
       body.appendChild(a);
       body.appendChild(el('p', 'nw-row-sub', it.venue + ' ・ ' + M.eventRange(it)));
     } else {
-      body.appendChild(el('span', 'nw-tag' + (step.buzz || it._buzz ? ' buzz' : ''), (step.buzz || it._buzz ? '話題・' : '') + it.genre + '・営業中'));
+      var tagRow = el('span', 'nw-row-top');
+      tagRow.appendChild(el('span', 'nw-tag' + (step.buzz || it._buzz ? ' buzz' : ''), (step.buzz || it._buzz ? '話題・' : '') + it.genre + '・営業中'));
+      var atD = step.at != null ? minToDate(step.at) : jstNow();
+      var lob = loBadge(it, atD, step.at != null ? '着いてから' : '');
+      if (lob) tagRow.appendChild(lob);
+      body.appendChild(tagRow);
       var b = el('a', 'nw-pick-title', it.name);
       b.href = shopLink(it); b.target = '_blank'; b.rel = 'noopener';
       body.appendChild(b);
@@ -730,7 +788,7 @@
       bb.appendChild(row({
         img: b.shop.photo || b.article.image, tag: o === true ? '営業中' : (o === false ? '準備中' : '営業時間は要確認'),
         tagCls: o === true ? 'open' : 'closed', meta: walkText(dist(b.shop, from)),
-        title: b.shop.name, href: shopLink(b.shop), sub: '話題：' + b.article.title, dir: mapsDir(b.shop)
+        title: b.shop.name, href: shopLink(b.shop), sub: '話題：' + b.article.title, dir: mapsDir(b.shop), shop: o === true ? b.shop : null
       }));
     });
     // 今開いているお店（ジャンルで絞れる）
@@ -1220,7 +1278,9 @@
     { id: 'evening', label: '夜 17:30〜', start: 1050,
       steps: [{ kind: 'event', dur: 60, alt: null }, { kind: 'meal', slot: 'dinner', dur: 75 }, { kind: 'meal', slot: 'second', dur: 60 }] }
   ];
-  var plan = { fix: { place: null, time: '18:00', stay: null, stayTouched: false }, day: null, time: store.get('meshi.plTime', 'afternoon'), area: store.get('meshi.plArea', 'sakae'), here: null, steps: null, mapObj: null };
+  var BUDGETS_PL = [{ id: 0, label: '指定なし' }, { id: 2000, label: '〜2,000円' }, { id: 3000, label: '〜3,000円' },
+    { id: 5000, label: '〜5,000円' }, { id: 8000, label: '〜8,000円' }, { id: 12000, label: '〜12,000円' }];
+  var plan = { budget: store.get('meshi.plBudget', 0), fix: { place: null, time: '18:00', stay: null, stayTouched: false }, day: null, time: store.get('meshi.plTime', 'afternoon'), area: store.get('meshi.plArea', 'sakae'), here: null, steps: null, mapObj: null };
 
   function dayOptions() {
     var t = M.todayJst();
@@ -1256,7 +1316,7 @@
       }).sort(function (a, b) { return dist(a, from) - dist(b, from); });
       if (evs.length) {
         var ev = ctx.reroll ? pick(evs, 3) : evs[0];
-        return { kind: 'event', item: ev, p: ev, name: M.eventName(ev), dur: step.dur };
+        return { kind: 'event', item: ev, p: ev, name: M.eventName(ev), dur: step.dur, price: EVENT_PRICE };
       }
       if (!step.alt) return null;
       if (step.alt === 'buzz') {
@@ -1265,7 +1325,7 @@
         }).sort(function (a, b) { return dist(a.shop, from) - dist(b.shop, from); });
         if (bz.length) {
           var b0 = ctx.reroll ? pick(bz, 3) : bz[0];
-          return { kind: 'shop', item: b0.shop, p: b0.shop, name: b0.shop.name, dur: 45, buzz: b0.article, label: '話題のお店' };
+          return { kind: 'shop', item: b0.shop, p: b0.shop, name: b0.shop.name, dur: 45, buzz: b0.article, label: '話題のお店', price: priceOf(b0.shop, 'cafe') };
         }
       }
       return chooseStep({ kind: 'meal', slot: 'cafe', dur: 45 }, ctx, from, at, used);
@@ -1274,8 +1334,37 @@
       .filter(function (sh) { return !used[sh.id]; });
     if (!list.length) list = openShops(ctx.shops, atDate, step.slot, from, 2000, true).filter(function (sh) { return !used[sh.id]; });
     if (!list.length) return null;
+    var over = false;
+    if (ctx.cap) {
+      // 予算内のお店だけにする。ひとつもなければ、いちばん安いあたりから
+      var inBudget = list.filter(function (sh) { return priceOf(sh, step.slot) <= ctx.cap * 1.1; });
+      if (inBudget.length) list = inBudget;
+      else { list = list.slice().sort(function (a, b) { return priceOf(a, step.slot) - priceOf(b, step.slot); }).slice(0, 3); over = true; }
+    }
     var sh = ctx.reroll ? pick(shuffleTop(list, 6), 6) : list[0];
-    return { kind: 'shop', item: sh, p: sh, name: sh.name, dur: step.dur, label: SLOTS[step.slot].label, unknown: sh._open !== true, buzz: sh._buzz };
+    return { kind: 'shop', item: sh, p: sh, name: sh.name, dur: step.dur, label: SLOTS[step.slot].label, unknown: sh._open !== true, buzz: sh._buzz,
+      price: priceOf(sh, step.slot), over: over };
+  }
+
+  // 予算の配り方：選ぶたびに「残りの予算 × この1か所の重み ÷ 残りの重み」を上限にする
+  function Budgeter(total, defs, fixedCost) {
+    this.total = total;
+    this.left = total ? total - (fixedCost || 0) : 0;
+    this.wLeft = defs.reduce(function (a, d) { return a + stepWeight(d); }, 0);
+  }
+  Budgeter.prototype.cap = function (def) {
+    if (!this.total) return null;
+    return Math.max(500, this.left * stepWeight(def) / Math.max(this.wLeft, 0.01));
+  };
+  Budgeter.prototype.spend = function (def, price) {
+    this.wLeft -= stepWeight(def);
+    if (this.total) this.left -= price || 0;
+  };
+  function fixedCostOf(F) {
+    if (!F) return 0;
+    if (F.kind === 'shop') return priceOf(F.item, 'dinner');
+    if (F.kind === 'event') return EVENT_PRICE;
+    return 0;
   }
 
   // 決まってる予定があるとき：その時刻は動かさず、前とあとをプランで埋める
@@ -1305,7 +1394,7 @@
     if (F.kind !== 'place') used[F.item.id] = 1;
     var fixedStep = { kind: F.kind === 'event' ? 'event' : (F.kind === 'shop' ? 'shop' : 'place'), fixed: true,
       item: F.kind === 'place' ? { id: 'place', name: F.name, address: F.item.address } : F.item,
-      p: center, name: F.name, at: fixedAt, dur: stay };
+      p: center, name: F.name, at: fixedAt, dur: stay, price: fixedCostOf(F) || null };
     // 前：時間に余裕があるだけ（最大2か所）。着く時刻から逆算する
     var room = fixedAt - start;
     var before = [];
@@ -1313,21 +1402,7 @@
     if (room >= 160) before = food ? [{ kind: 'event', dur: 75, alt: null }, { kind: 'meal', slot: 'cafe', dur: 40 }]
       : [{ kind: 'event', dur: 75, alt: 'buzz' }, { kind: 'meal', slot: mealAt(fixedAt - 70), dur: 60 }];
     else if (room >= 55) before = food ? [{ kind: 'meal', slot: 'cafe', dur: 40 }] : [{ kind: 'meal', slot: mealAt(fixedAt - 70), dur: 60 }];
-    var bSteps = [];
-    var cursor = fixedAt - 10;
-    for (var i = before.length - 1; i >= 0; i--) {
-      var d = before[i];
-      var at = cursor - d.dur;
-      ctx.first = false;
-      var c = chooseStep(d, ctx, center, at, used);
-      if (!c) continue;
-      // 同じジャンルが続くなら（カフェ→カフェなど）入れない
-      if (c.kind === 'shop' && bSteps.some(function (x) { return x.kind === 'shop' && x.item.genre === c.item.genre; })) continue;
-      c.at = at; c.def = d; c.dur = c.kind === 'event' ? d.dur : c.dur; used[c.item.id] = 1;
-      bSteps.unshift(c);
-      cursor = at - 10;
-    }
-    // あと：その時間帯に合わせて最大2か所（23時半まで）
+    // あとの予定も先に決めておき（予算を配るため）、前から順に選ぶ
     var after = [];
     var leave = fixedAt + stay;
     var lm = leave % 1440;
@@ -1339,12 +1414,32 @@
       if (s1 === 'dinner' && lm + 80 < 1290) after.push({ kind: 'meal', slot: 'second', dur: 60 });
       else if ((s1 === 'cafe' || s1 === 'lunch') && lm + 60 >= 960) after.push({ kind: 'meal', slot: 'dinner', dur: 70, notBefore: 1050 });
     }
+    var bud = new Budgeter(plan.budget, before.concat(after), fixedCostOf(F));
+    var bSteps = [];
+    var cursor = fixedAt - 10;
+    for (var i = before.length - 1; i >= 0; i--) {
+      var d = before[i];
+      var at = cursor - d.dur;
+      ctx.first = false;
+      ctx.cap = bud.cap(d);
+      var c = chooseStep(d, ctx, center, at, used);
+      bud.spend(d, c && c.price);
+      if (!c) continue;
+      // 同じジャンルが続くなら（カフェ→カフェなど）入れない
+      if (c.kind === 'shop' && bSteps.some(function (x) { return x.kind === 'shop' && x.item.genre === c.item.genre; })) continue;
+      c.at = at; c.def = d; c.dur = c.kind === 'event' ? d.dur : c.dur; used[c.item.id] = 1;
+      bSteps.unshift(c);
+      cursor = at - 10;
+    }
+    // あと：その時間帯に合わせて最大2か所（23時半まで）
     var aSteps = [];
     var from = center, m2 = leave;
     after.forEach(function (d) {
       if (d.notBefore && m2 < d.notBefore) m2 = d.notBefore;
       if (m2 > 1410) return;
+      ctx.cap = bud.cap(d);
       var c = chooseStep(d, ctx, from, m2 + 5, used);
+      bud.spend(d, c && c.price);
       if (!c) return;
       m2 += 5 + Math.round(dist(c.p, from) / WALK);
       c.at = m2; c.def = d; c.dur = d.dur; used[c.item.id] = 1;
@@ -1379,10 +1474,13 @@
       if (nm > min) min = Math.ceil((nm + 10) / 15) * 15;
     }
     var used = {}, from = center, steps = [];
+    var bud = new Budgeter(plan.budget, t.steps, 0);
     t.steps.forEach(function (st, i) {
       ctx.first = i === 0;
       if (st.notBefore && min < st.notBefore) min = st.notBefore;
+      ctx.cap = bud.cap(st);
       var c = chooseStep(st, ctx, from, min, used);
+      bud.spend(st, c && c.price);
       if (!c) return;
       var d = dist(c.p, from);
       var walk = i === 0 && plan.area !== 'here' ? 0 : Math.round(d / WALK);
@@ -1432,6 +1530,7 @@
     var pl = plan.current;
     $('pl-result').hidden = false;
     var who = curSit().id === 'any' ? '' : '・' + (curSit().id === 'group' ? '友達' + (sit.n >= 8 ? '7人〜' : sit.n + '人') : curSit().label);
+    if (plan.budget) who += '・1人' + yen(plan.budget) + 'まで';
     $('pl-title').textContent = pl.fixedPlan
       ? M.fmtDay(pl.iso) + ' ' + hm(pl.fixedAt) + '「' + plan.fix.place.name + '」の前後' + who + 'プラン'
       : M.fmtDay(pl.iso) + ' ' + pl.time.label.replace(/\s.*$/, '') + '・' + pl.areaLabel + who + 'プラン';
@@ -1441,6 +1540,18 @@
     } else {
       $('pl-wx').textContent = '';
     }
+    // 合計の目安
+    var total = pl.steps.reduce(function (a, c) { return a + (c.price || 0); }, 0);
+    var tb = $('pl-total');
+    tb.textContent = '';
+    tb.className = 'nw-total' + (plan.budget && total > plan.budget ? ' over' : (plan.budget ? ' ok' : ''));
+    tb.appendChild(el('span', 'nw-total-label', '合計の目安'));
+    tb.appendChild(el('b', null, '1人 約' + yen(total)));
+    if (plan.budget) tb.appendChild(el('span', 'nw-total-note', total > plan.budget
+      ? '予算' + yen(plan.budget) + 'を約' + yen(total - plan.budget) + 'こえています。「ほかの候補」で入れ替えられます'
+      : '予算' + yen(plan.budget) + 'の中に収まっています'));
+    tb.appendChild(el('span', 'nw-total-src', 'お店の予算（ホットペッパーの平均）からの目安です'));
+    pl.total = total;
     var ol = $('pl-steps');
     ol.textContent = '';
     if (!pl.steps.length) {
@@ -1469,20 +1580,25 @@
         body.appendChild(fa);
         if (c.kind === 'event') body.appendChild(el('p', 'nw-row-sub', it.venue + ' ・ ' + M.eventRange(it)));
         else if (c.kind === 'shop') body.appendChild(el('p', 'nw-row-sub', [it.genre, it.budget].filter(Boolean).join(' ・ ')));
+        if (c.price) body.appendChild(el('p', 'nw-price', '1人 約' + yen(c.price)));
       } else if (c.kind === 'event') {
         body.appendChild(el('span', 'nw-tag event', 'イベント' + (it.place === 'indoor' ? '・屋内' : it.place === 'outdoor' ? '・屋外' : '')));
         var a = el('a', 'nw-pick-title', c.name);
         a.href = it.link; a.target = '_blank'; a.rel = 'noopener';
         body.appendChild(a);
-        body.appendChild(el('p', 'nw-row-sub', it.venue + ' ・ ' + M.eventRange(it) + ' ・ 目安' + c.dur + '分'));
+        body.appendChild(el('p', 'nw-row-sub', it.venue + ' ・ ' + M.eventRange(it) + ' ・ いる時間の目安' + c.dur + '分'));
+        body.appendChild(el('p', 'nw-price', '食べ歩き 1人 約' + yen(c.price || EVENT_PRICE)));
       } else {
         var tagText = [c.label, (c.label || '').indexOf(it.genre) >= 0 ? '' : it.genre, c.buzz ? '話題' : ''].filter(Boolean).join('・');
         body.appendChild(el('span', 'nw-tag' + (c.buzz ? ' buzz' : ''), tagText));
         var b = el('a', 'nw-pick-title', it.name);
         b.href = shopLink(it); b.target = '_blank'; b.rel = 'noopener';
         body.appendChild(b);
-        var sub = [it.budget, c.unknown ? '営業時間は要確認' : '営業中の時間', '目安' + c.dur + '分'].filter(Boolean).join(' ・ ');
+        var sub = [c.unknown ? '営業時間は要確認' : '', 'いる時間の目安' + c.dur + '分'].filter(Boolean).join(' ・ ');
+        if (c.price) body.appendChild(el('p', 'nw-price' + (c.over ? ' over' : ''), '1人 約' + yen(c.price) + (c.over ? '（予算内のお店が近くになかったので、安めのお店）' : '')));
         body.appendChild(el('p', 'nw-row-sub', sub));
+        var plo = loBadge(it, dateAt(pl.iso, c.at), '着いてから');
+        if (plo) body.appendChild(plo);
         var pf = feats(it);
         if (pf) body.appendChild(pf);
         if (c.buzz) {
@@ -1517,6 +1633,7 @@
     $('pl-route').href = route;
     var text = '【飯飯食堂 お出かけプラン】' + $('pl-title').textContent + '\n' +
       pl.steps.map(function (c) { return hm(c.at) + ' ' + (c.fixed ? '★' : '') + c.name + (c.kind === 'event' ? '（' + c.item.venue + '）' : c.kind === 'place' ? '' : '（' + c.item.genre + '）'); }).join('\n') +
+      '\n合計の目安：1人 約' + yen(pl.total) + (plan.budget ? '（予算' + yen(plan.budget) + '）' : '') +
       '\n道順：' + route;
     $('pl-line').href = 'https://line.me/R/share?text=' + encodeURIComponent(text);
     renderPlanMap();
@@ -1533,6 +1650,8 @@
     Object.keys(c.tried).forEach(function (k) { used[k] = 1; });
     var ctx = pl.ctx;
     ctx.first = i === 0; ctx.reroll = true;
+    var others = pl.steps.reduce(function (a, x, j) { return a + (j === i ? 0 : (x.price || 0)); }, 0);
+    ctx.cap = plan.budget ? Math.max(500, plan.budget - others) : null;
     var n = chooseStep(c.def, ctx, from, c.at, used);
     if (!n) {
       // 候補がなくなったら最初から
@@ -1542,6 +1661,7 @@
     if (!n) return;
     n.def = c.def; n.tried = c.tried;
     if (pl.fixedPlan) { n.at = c.at; n.dur = c.dur; }
+    if (!n.price && c.def && c.def.kind === 'event') n.price = EVENT_PRICE;
     pl.steps[i] = n;
     retime(pl);
     renderPlan();
@@ -1630,6 +1750,12 @@
     if (navigator.geolocation) areas.push({ id: 'here', label: '現在地' });
     if (!areas.some(function (a) { return a.id === plan.area; })) plan.area = 'sakae';
     pillsInto('pl-area', areas, plan.area, function (id) { plan.area = id; store.set('meshi.plArea', id); if (id === 'here') plan.here = null; });
+    if (!BUDGETS_PL.some(function (x) { return x.id === plan.budget; })) plan.budget = 0;
+    pillsInto('pl-budget', BUDGETS_PL, plan.budget, function (id) {
+      plan.budget = id;
+      store.set('meshi.plBudget', id);
+      if (plan.current && !$('pl-result').hidden) { plan.current = makePlan(true); renderPlan(); }
+    });
     $('pl-make').addEventListener('click', function () { buildPlan(false); });
     // 決まってる予定（あれば）
     var PLAN_PICKER = {
