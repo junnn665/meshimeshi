@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-19T00:25:12+09:00",
+ "updated": "2026-10-19T01:26:59+09:00",
  "items": [
   {
    "id": "f1ed4bc87cb952da",
@@ -148,6 +148,23 @@
    "published": "2026-10-18T06:02:22+09:00",
    "provider": "google",
    "added": "2026-10-18T10:31:00+09:00",
+   "decode_v2": true,
+   "image_checked": true,
+   "image_v4": true,
+   "shop": false,
+   "shop_name": null
+  },
+  {
+   "id": "27c36220710c7c77",
+   "title": "「度重なる値上げで客離れ」「苦戦続く」ものの…リニューアルで強化！かつやの「439円･とん汁モーニング」に底力を感じた朝",
+   "link": "https://news.yahoo.co.jp/articles/2cc04071f5fd2a83986b689479bc67bb775f3ea3?page=4",
+   "source": "Yahoo!ニュース",
+   "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261018-00961451-toyo-000-1-view.jpg?exp=10800",
+   "category": "yasuuma",
+   "area": "東海",
+   "published": "2026-10-18T06:00:41+09:00",
+   "provider": "google",
+   "added": "2026-10-19T01:26:59+09:00",
    "decode_v2": true,
    "image_checked": true,
    "image_v4": true,
@@ -6425,6 +6442,22 @@
    "image_v4": true,
    "shop": false,
    "shop_name": null
+  },
+  {
+   "id": "135a2035ae5eebcf",
+   "title": "名古屋・名駅柳橋エリアに大衆居酒屋「勝男」オープン！",
+   "link": "https://www.asahi.com/and/pressrelease/16947418",
+   "source": "朝日新聞デジタル",
+   "image": "http://www.bing.com/th?id=ONUT.U4e88_DnYQb6ae0Iwr7XgQ&pid=News",
+   "category": "shinten",
+   "area": "名古屋",
+   "published": "2026-10-07T06:59:00+09:00",
+   "provider": "bing",
+   "added": "2026-10-19T01:26:59+09:00",
+   "image_checked": true,
+   "image_v4": true,
+   "shop": true,
+   "shop_name": "勝男"
   }
  ]
 }
