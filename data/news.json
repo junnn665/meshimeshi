@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-18T12:27:42+09:00",
+ "updated": "2026-10-18T13:28:50+09:00",
  "items": [
   {
    "id": "cf99d5616e19d39c",
@@ -1189,6 +1189,23 @@
    "shop_name": null
   },
   {
+   "id": "02a08659901e80a3",
+   "title": "ステーキのあさくま、投票で選ばれた学生ハンバーグ3品を期間限定発売！",
+   "link": "https://www.rbbtoday.com/article/2026/10/15/254453.html",
+   "source": "RBB TODAY",
+   "image": "https://www.rbbtoday.com/imgs/ogp_f/1050416.jpg",
+   "category": "chain",
+   "area": "東海",
+   "published": "2026-10-15T17:36:40+09:00",
+   "provider": "google",
+   "added": "2026-10-18T13:28:50+09:00",
+   "decode_v2": true,
+   "image_checked": true,
+   "image_v4": true,
+   "shop": false,
+   "shop_name": null
+  },
+  {
    "id": "8d8c406e68e4a3be",
    "title": "コメダ珈琲のキッチンカーも…ビル1階通路を“公開空地”として活用する実証実験 街の交流や地域活性化が狙い",
    "link": "https://topics.smt.docomo.ne.jp/amp/article/tokaitv/region/tokaitv-20261015-1705-48818",
@@ -2310,7 +2327,7 @@
   },
   {
    "id": "5dd7205cad99295f",
-   "title": "【スガキヤ】昨年15万食完売！大好評「スガジローラーメン」が進化して復活！今年はよりがっつりの新商品油そばも登場し10月22日（木）より数量限定で発売",
+   "title": "【スガキヤ】昨年15万食完売！大好評「スガジローラーメン」が進化して復活！今年はよりがっつりの新商品油そばも登場し10月22日（木）より数量限定で発売 | スガキコシステムズ株式会社のプレスリリース",
    "link": "https://prtimes.jp/main/html/rd/p/000000061.000097460.html",
    "source": "PR TIMES",
    "image": "https://prcdn.freetls.fastly.net/release_image/97460/61/97460-61-2da102b3a6db0996faa454ca6f28cb92-1684x2384.jpg?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260",
@@ -6371,36 +6388,6 @@
    "image_checked": true,
    "added": "2026-10-07T13:00:00+09:00",
    "shop": false,
-   "shop_name": null
-  },
-  {
-   "id": "14612808e5207a94",
-   "title": "【名古屋栄三越】秋のリニューアル～9階レストランフロアに新たに ...",
-   "link": "https://mantan-web.jp/prtimes/article/20261007prt00m200000388a.html",
-   "source": "MANTANWEB（まんたんウェブ）",
-   "image": "https://prtimes.jp/img/185183/17/resize/d185183-17-046e62ad8ebba4c151c8-8.jpg",
-   "category": "wadai",
-   "area": "名古屋",
-   "published": "2026-10-07T13:00:00+09:00",
-   "provider": "bing",
-   "image_checked": true,
-   "added": "2026-10-07T13:00:00+09:00",
-   "shop": false,
-   "shop_name": null
-  },
-  {
-   "id": "768f9e152a3d9a93",
-   "title": "すしの美登利、名古屋栄三越に10月31日オープン",
-   "link": "https://www.j-cast.com/trend/provider/atPress_trend/422531",
-   "source": "J-CAST ニュース",
-   "image": "http://www.bing.com/th?id=ONUT.x-9XEafUwNyiZssoGoQF_Q&pid=News",
-   "category": "shinten",
-   "area": "名古屋",
-   "published": "2026-10-07T13:00:00+09:00",
-   "provider": "bing",
-   "image_checked": true,
-   "added": "2026-10-07T13:00:00+09:00",
-   "shop": true,
    "shop_name": null
   }
  ]
