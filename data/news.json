@@ -1,6 +1,23 @@
 {
- "updated": "2026-10-18T15:32:15+09:00",
+ "updated": "2026-10-18T16:31:18+09:00",
  "items": [
+  {
+   "id": "821713d3832fc8dd",
+   "title": "名古屋スイーツ「ぴよりん」のかわいすぎるハロウィンバージョンが登場！",
+   "link": "https://www.walkerplus.com/article/120373/",
+   "source": "ウォーカープラス",
+   "image": "https://news.walkerplus.com/article/120373/664486_615.jpg",
+   "category": "wadai",
+   "area": "名古屋",
+   "published": "2026-10-18T13:43:12+09:00",
+   "provider": "google",
+   "added": "2026-10-18T16:31:18+09:00",
+   "decode_v2": true,
+   "image_checked": true,
+   "image_v4": true,
+   "shop": true,
+   "shop_name": "ぴよりん"
+  },
   {
    "id": "50d4b5cac000c7cc",
    "title": "大須「生ハンバーグ」動画が炎上、グルメYouTuberナゴグルの謝罪にも批判が殺到",
@@ -6372,22 +6389,6 @@
    "image_checked": true,
    "decode_v2": true,
    "added": "2026-10-07T15:13:30+09:00",
-   "shop": false,
-   "shop_name": null
-  },
-  {
-   "id": "14612808e5207a94",
-   "title": "【名古屋栄三越】秋のリニューアル～9階レストランフロアに新たに ...",
-   "link": "https://mantan-web.jp/prtimes/article/20261007prt00m200000388a.html",
-   "source": "MANTANWEB（まんたんウェブ）",
-   "image": "https://prtimes.jp/img/185183/17/resize/d185183-17-046e62ad8ebba4c151c8-8.jpg",
-   "category": "wadai",
-   "area": "名古屋",
-   "published": "2026-10-07T13:00:00+09:00",
-   "provider": "bing",
-   "added": "2026-10-18T15:32:15+09:00",
-   "image_checked": true,
-   "image_v4": true,
    "shop": false,
    "shop_name": null
   }
