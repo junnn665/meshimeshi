@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-18T22:29:07+09:00",
+ "updated": "2026-10-18T23:25:53+09:00",
  "items": [
   {
    "id": "d0a72d148870cafe",
@@ -6408,6 +6408,22 @@
    "image_v4": true,
    "shop": false,
    "shop_name": null
+  },
+  {
+   "id": "135a2035ae5eebcf",
+   "title": "名古屋・名駅柳橋エリアに大衆居酒屋「勝男」オープン！",
+   "link": "https://www.asahi.com/and/pressrelease/16947418",
+   "source": "朝日新聞デジタル",
+   "image": "https://www.asahi.com/and/ogp/ogp_and.png",
+   "category": "shinten",
+   "area": "名古屋",
+   "published": "2026-10-07T06:59:00+09:00",
+   "provider": "bing",
+   "added": "2026-10-18T23:25:53+09:00",
+   "image_checked": true,
+   "image_v4": true,
+   "shop": true,
+   "shop_name": "勝男"
   }
  ]
 }
