@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-19T03:28:22+09:00",
+ "updated": "2026-10-19T04:23:39+09:00",
  "items": [
   {
    "id": "f1ed4bc87cb952da",
@@ -29,6 +29,23 @@
    "published": "2026-10-18T20:05:43+09:00",
    "provider": "google",
    "added": "2026-10-18T20:25:11+09:00",
+   "decode_v2": true,
+   "image_checked": true,
+   "image_v4": true,
+   "shop": false,
+   "shop_name": null
+  },
+  {
+   "id": "b1687386f97f7939",
+   "title": "ナビトモ、ロコモコのミニチュアフード作りワークショップを10月9日に開催へ",
+   "link": "https://news.dellows.jp/524848/?from=related_list",
+   "source": "Dellows News",
+   "image": "https://news.dellows.jp/wp-content/uploads/2026/09/524848_1.jpg",
+   "category": "wadai",
+   "area": "東海",
+   "published": "2026-10-18T16:23:18+09:00",
+   "provider": "google",
+   "added": "2026-10-19T04:23:39+09:00",
    "decode_v2": true,
    "image_checked": true,
    "image_v4": true,
@@ -6408,24 +6425,6 @@
    "image_v4": true,
    "shop": false,
    "shop_name": null
-  },
-  {
-   "id": "9e5c51d9217d117e",
-   "title": "ポークたまごおにぎり専門店「ポーたま」名古屋ハエラに、うなぎの蒲焼＆味噌カツなど限定メニュー",
-   "link": "https://www.fashion-press.net/news/147042",
-   "source": "ファッションプレス",
-   "image": "https://www.fashion-press.net/img/news/147042/top.jpg?1780472687",
-   "category": "shinten",
-   "area": "名古屋",
-   "published": "2026-10-07T18:39:27+09:00",
-   "provider": "google",
-   "decode_tried": true,
-   "image_checked": true,
-   "decode_v2": true,
-   "image_v3": true,
-   "added": "2026-10-07T18:39:27+09:00",
-   "shop": true,
-   "shop_name": "ポーたま"
   }
  ]
 }
