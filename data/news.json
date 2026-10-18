@@ -1,6 +1,23 @@
 {
- "updated": "2026-10-18T19:25:48+09:00",
+ "updated": "2026-10-18T20:25:11+09:00",
  "items": [
+  {
+   "id": "d0a72d148870cafe",
+   "title": "メニュー10品が半額、2品が100円台 焼肉チェーンで19日から開始 愛知の5店舗",
+   "link": "https://www.shizuoka-life.jp/post-15504/",
+   "source": "静岡ライフ",
+   "image": "https://www.shizuoka-life.jp/wp-content/uploads/2026/10/60bfa829ded5a26d77467d3c8ed3e767.jpg",
+   "category": "wadai",
+   "area": "愛知",
+   "published": "2026-10-18T20:05:43+09:00",
+   "provider": "google",
+   "added": "2026-10-18T20:25:11+09:00",
+   "decode_v2": true,
+   "image_checked": true,
+   "image_v4": true,
+   "shop": false,
+   "shop_name": null
+  },
   {
    "id": "34411147a38f7e67",
    "title": "【きょうから】「ちいかわラーメン 豚」国内5店に期間限定メニュー “カニカマ”をトッピングした古本屋モチーフの『ラーメン豚 油そば』が登場",
@@ -723,7 +740,7 @@
   },
   {
    "id": "6ae5477464a07927",
-   "title": "【名古屋市中川区に初出店】無人カフェ「セルフカフェ高畑店」、オープン直後から利用が伸び、地域の“セカンドデスク”に。地下鉄東山線 高畑駅・八田駅から徒歩5分、6時〜24時・年中無休",
+   "title": "【名古屋市中川区に初出店】無人カフェ「セルフカフェ高畑店」、オープン直後から利用が伸び、地域の“セカンドデスク”に。地下鉄東山線 高畑駅・八田駅から徒歩5分、6時～24時・年中無休",
    "link": "https://prtimes.jp/main/html/rd/p/000001170.000045400.html",
    "source": "PR TIMES",
    "image": "https://prcdn.freetls.fastly.net/release_image/45400/1170/45400-1170-07bbb8717bb024b662e27ea5a4bae9d4-1920x1280.jpg?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260",
@@ -6403,23 +6420,6 @@
    "published": "2026-10-07T16:00:00+09:00",
    "provider": "google",
    "added": "2026-10-11T07:17:33+09:00",
-   "decode_v2": true,
-   "image_checked": true,
-   "image_v4": true,
-   "shop": false,
-   "shop_name": null
-  },
-  {
-   "id": "baadeaf97e51ad9a",
-   "title": "“カエルの唐揚げ”に“牛乳茶漬け”!? 東海エリアで見つけた珍メニュー",
-   "link": "https://www.walkerplus.com/article/20098/",
-   "source": "ウォーカープラス",
-   "image": "https://news.walkerplus.com/article/20098/79935_615.jpg",
-   "category": "wadai",
-   "area": "東海",
-   "published": "2026-10-07T16:00:00+09:00",
-   "provider": "google",
-   "added": "2026-10-12T08:18:10+09:00",
    "decode_v2": true,
    "image_checked": true,
    "image_v4": true,
