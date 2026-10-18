@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-19T02:24:59+09:00",
+ "updated": "2026-10-19T03:28:22+09:00",
  "items": [
   {
    "id": "f1ed4bc87cb952da",
@@ -2790,6 +2790,23 @@
    "image_v4": true,
    "shop": true,
    "shop_name": "名古屋コーチンの鶏塩そば"
+  },
+  {
+   "id": "ca9555603801278e",
+   "title": "“調理がほぼ筋トレ”の老舗喫茶店 雪崩必至の爆盛ナポリタンから客に「枕」と称される全長31cmオムライスまで",
+   "link": "https://article.auone.jp/c2f24ec7-e6f3-4ba1-b8ab-d391db0d9301",
+   "source": "au Webポータル",
+   "image": "https://newportal.portal.auone.jp/media/thumbnails/2026/10/14/https___news_jp_i_1482847195983004489_w1280.webp",
+   "category": "deka",
+   "area": "東海",
+   "published": "2026-10-14T06:05:00+09:00",
+   "provider": "google",
+   "added": "2026-10-19T03:28:22+09:00",
+   "decode_v2": true,
+   "image_checked": true,
+   "image_v4": true,
+   "shop": false,
+   "shop_name": null
   },
   {
    "id": "8ac724462a40d009",
