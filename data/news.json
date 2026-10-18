@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-18T17:59:47+09:00",
+ "updated": "2026-10-18T18:26:22+09:00",
  "items": [
   {
    "id": "34411147a38f7e67",
@@ -1081,6 +1081,24 @@
    "image_v4": true,
    "shop": false,
    "shop_name": null
+  },
+  {
+   "id": "7cdbd27d98a4853c",
+   "title": "『「名古屋ミネラルマルシェ」のお知らせ』",
+   "link": "https://t.co/VtF6pWBvtI",
+   "source": "Howl.link",
+   "image": null,
+   "category": "event",
+   "area": "名古屋",
+   "published": "2026-10-16T07:07:17+09:00",
+   "provider": "google",
+   "added": "2026-10-18T18:26:22+09:00",
+   "decode_v2": true,
+   "image_checked": true,
+   "image_v4": true,
+   "shop": true,
+   "shop_name": "「名古屋ミネラルマルシェ",
+   "group": "7ca7454820bc"
   },
   {
    "id": "915f520b01ddc9c5",
@@ -6389,23 +6407,6 @@
    "image_checked": true,
    "decode_v2": true,
    "added": "2026-10-07T15:35:56+09:00",
-   "shop": false,
-   "shop_name": null
-  },
-  {
-   "id": "77f2d76b0fa867cd",
-   "title": "ジョイフル×世界の山ちゃん、初コラボ 「幻のコショウ」を使用した限定メニュー4品発売（食品産業新聞社ニュースWEB）",
-   "link": "https://news.yahoo.co.jp/articles/040195d78571a6ea0774315853e367021ac4ece6?source=rss",
-   "source": "Yahoo!ニュース",
-   "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261007-00010014-ssnp-000-1-view.jpg?exp=10800",
-   "category": "chain",
-   "area": "東海",
-   "published": "2026-10-07T15:13:30+09:00",
-   "provider": "google",
-   "decode_tried": true,
-   "image_checked": true,
-   "decode_v2": true,
-   "added": "2026-10-07T15:13:30+09:00",
    "shop": false,
    "shop_name": null
   }
