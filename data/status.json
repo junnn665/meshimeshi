@@ -1,15 +1,14 @@
 {
- "updated": "2026-10-19T01:26:59+09:00",
- "items": 377,
- "with_image": 350,
- "google_decode_ok": 24,
+ "updated": "2026-10-19T02:24:59+09:00",
+ "items": 374,
+ "with_image": 347,
+ "google_decode_ok": 27,
  "google_decode_failed": 0,
  "google_decode_samples": [],
  "image_failures": [
   "media.unisba.ac.id: HTTPError: HTTP Error 403: Forbidden",
   "www.excite.co.jp: HTTPError: HTTP Error 403: Forbidden",
   "www.excite.co.jp: HTTPError: HTTP Error 403: Forbidden",
-  "www.excite.co.jp: HTTPError: HTTP Error 403: Forbidden",
-  "www.asahi.com: TimeoutError: The read operation timed out"
+  "www.excite.co.jp: HTTPError: HTTP Error 403: Forbidden"
  ]
 }

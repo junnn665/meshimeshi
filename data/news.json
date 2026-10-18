@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-19T01:26:59+09:00",
+ "updated": "2026-10-19T02:24:59+09:00",
  "items": [
   {
    "id": "f1ed4bc87cb952da",
@@ -2190,6 +2190,23 @@
    "lng": 136.88272,
    "place": "indoor",
    "group": "7864702ee677"
+  },
+  {
+   "id": "7714d8bc0331fe80",
+   "title": "MOW史上初“チョコソース充填”の濃厚アイスがセブンイレブン限定で登場 まるでフォンダンショコラのようなぜいたく食感",
+   "link": "https://www.agara.co.jp/article/698981",
+   "source": "AGARA 紀伊民報",
+   "image": "https://www.agara.co.jp/image/article/size1/f/1/8/5/f185b02fa4ecbc3b1be37022f1666310_1.jpg",
+   "category": "conbini",
+   "area": "東海",
+   "published": "2026-10-14T16:38:00+09:00",
+   "provider": "google",
+   "added": "2026-10-19T02:24:59+09:00",
+   "decode_v2": true,
+   "image_checked": true,
+   "image_v4": true,
+   "shop": false,
+   "shop_name": null
   },
   {
    "id": "4ec20aa791fc0aa9",
@@ -6392,72 +6409,6 @@
    "added": "2026-10-07T18:39:27+09:00",
    "shop": true,
    "shop_name": "ポーたま"
-  },
-  {
-   "id": "daec13f7137e28cf",
-   "title": "セブン-イレブン ふんわり玉子が出汁にとけこむ かき玉うどん の感想・クチコミ・商品情報",
-   "link": "https://mognavi.jp/product/1379788",
-   "source": "もぐナビ",
-   "image": "https://mognavi.jp/image/food/02/39/01/3641554_original.jpg",
-   "category": "conbini",
-   "area": "東海",
-   "published": "2026-10-07T18:21:37+09:00",
-   "provider": "google",
-   "added": "2026-10-11T19:18:40+09:00",
-   "decode_v2": true,
-   "image_checked": true,
-   "image_v4": true,
-   "shop": false,
-   "shop_name": null
-  },
-  {
-   "id": "a70c561a91ba2017",
-   "title": "“調理がほぼ筋トレ”の老舗喫茶店 雪崩必至の爆盛ナポリタンから客に「枕」と称される全長31cmオムライスまで（東海テレビ）",
-   "link": "https://topics.smt.docomo.ne.jp/amp/article/tokaitv/nation/tokaitv-20261007-1731-48545",
-   "source": "ｄメニューニュース",
-   "image": "https://img.topics.smt.news.goo.ne.jp/picture/tokaitv/m_tokaitv-20261007-1731-48545.jpg",
-   "category": "deka",
-   "area": "東海",
-   "published": "2026-10-07T17:31:00+09:00",
-   "provider": "google",
-   "decode_tried": true,
-   "image_checked": true,
-   "decode_v2": true,
-   "added": "2026-10-07T17:31:00+09:00",
-   "shop": false,
-   "shop_name": null
-  },
-  {
-   "id": "14612808e5207a94",
-   "title": "【名古屋栄三越】秋のリニューアル～9階レストランフロアに新たに ...",
-   "link": "https://mantan-web.jp/prtimes/article/20261007prt00m200000388a.html",
-   "source": "MANTANWEB（まんたんウェブ）",
-   "image": "https://prtimes.jp/img/185183/17/resize/d185183-17-046e62ad8ebba4c151c8-8.jpg",
-   "category": "wadai",
-   "area": "名古屋",
-   "published": "2026-10-07T13:00:00+09:00",
-   "provider": "bing",
-   "added": "2026-10-18T22:29:07+09:00",
-   "image_checked": true,
-   "image_v4": true,
-   "shop": false,
-   "shop_name": null
-  },
-  {
-   "id": "135a2035ae5eebcf",
-   "title": "名古屋・名駅柳橋エリアに大衆居酒屋「勝男」オープン！",
-   "link": "https://www.asahi.com/and/pressrelease/16947418",
-   "source": "朝日新聞デジタル",
-   "image": "http://www.bing.com/th?id=ONUT.U4e88_DnYQb6ae0Iwr7XgQ&pid=News",
-   "category": "shinten",
-   "area": "名古屋",
-   "published": "2026-10-07T06:59:00+09:00",
-   "provider": "bing",
-   "added": "2026-10-19T01:26:59+09:00",
-   "image_checked": true,
-   "image_v4": true,
-   "shop": true,
-   "shop_name": "勝男"
   }
  ]
 }
