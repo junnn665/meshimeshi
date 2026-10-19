@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-19T08:23:22+09:00",
+ "updated": "2026-10-19T09:39:34+09:00",
  "items": [
   {
    "id": "d1d5db7dfe2b5898",
@@ -1246,6 +1246,23 @@
    "published": "2026-10-16T08:30:00+09:00",
    "provider": "prtimes",
    "added": "2026-10-16T10:31:19+09:00",
+   "image_checked": true,
+   "image_v4": true,
+   "shop": false,
+   "shop_name": null
+  },
+  {
+   "id": "ab8dc93e8a3a3a92",
+   "title": "セブン-イレブン わかめご飯おむすび 三陸産わかめ使用 の感想・クチコミ・商品情報",
+   "link": "https://mognavi.jp/product/1196004",
+   "source": "もぐナビ",
+   "image": null,
+   "category": "conbini",
+   "area": "東海",
+   "published": "2026-10-16T07:24:18+09:00",
+   "provider": "google",
+   "added": "2026-10-19T09:39:34+09:00",
+   "decode_v2": true,
    "image_checked": true,
    "image_v4": true,
    "shop": false,
@@ -6393,38 +6410,6 @@
    "image_v4": true,
    "shop": true,
    "shop_name": "名古屋JAZZストリート"
-  },
-  {
-   "id": "b63163a6213058ac",
-   "title": "名駅すぐ！地元民に愛されている老舗グルメ3選!!",
-   "link": "https://www.walkerplus.com/article/203475/",
-   "source": "ウォーカープラス",
-   "image": "https://news.walkerplus.com/article/203475/1234678_615.jpg",
-   "category": "wadai",
-   "area": "名古屋",
-   "published": "2026-10-08T00:28:46+09:00",
-   "provider": "google",
-   "image_checked": true,
-   "decode_tried": true,
-   "decode_v2": true,
-   "added": "2026-10-08T00:28:46+09:00",
-   "shop": false,
-   "shop_name": null
-  },
-  {
-   "id": "a0db2efe56d57c69",
-   "title": "名古屋遠征とBucyoCoffee。なぜ名古屋のカフェには「あんこ」が多いの？",
-   "link": "https://note.com/iroha_168_manami/n/n2288c320b9d7",
-   "source": "note",
-   "image": "https://assets.st-note.com/production/uploads/images/321419233/rectangle_large_type_2_e2d51f9145a1a405db21929a6cc27355.jpeg?fit=bounds&quality=85&width=1280",
-   "category": "yasuuma",
-   "area": "名古屋",
-   "published": "2026-10-07T23:04:00+09:00",
-   "provider": "bing",
-   "image_checked": true,
-   "added": "2026-10-07T23:04:00+09:00",
-   "shop": true,
-   "shop_name": "あんこ"
   }
  ]
 }
