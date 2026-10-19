@@ -1,6 +1,22 @@
 {
- "updated": "2026-10-19T13:33:29+09:00",
+ "updated": "2026-10-19T14:32:23+09:00",
  "items": [
+  {
+   "id": "fc6d41d2af77caf7",
+   "title": "【スマホアクセサリー業界】対応機種数/コラボ数/デザイン数でNo1を誇るcaseplayから愛知のご当地ラーメン「キリマルラーメン」のスマートフォンケースが登場！",
+   "link": "https://prtimes.jp/main/html/rd/p/000000890.000058495.html",
+   "source": "PR TIMES",
+   "image": "https://prcdn.freetls.fastly.net/release_image/58495/890/58495-890-85d04c96d52611bcac864e645cdeab29-1600x880.jpg?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260",
+   "category": "chain",
+   "area": "愛知",
+   "published": "2026-10-19T13:40:44+09:00",
+   "provider": "prtimes",
+   "added": "2026-10-19T14:32:23+09:00",
+   "image_checked": true,
+   "image_v4": true,
+   "shop": false,
+   "shop_name": null
+  },
   {
    "id": "7e0c370cfa7ef440",
    "title": "ドミノ・ピザ、直径約40cmのXLサイズを注文すると“デカ盛り級”顔はめお面になる「ハロウィンボックス」でお届け！",
@@ -51,6 +67,23 @@
    "shop_name": "長寿食"
   },
   {
+   "id": "d13daeaf7a9f1732",
+   "title": "Alaska AirlinesとHawaiian Airlinesが、国際線スイート席のお客様向けに、シェフ監修の新メニューとプレミアムワインプログラムを導入",
+   "link": "https://www.47news.jp/15103112.html",
+   "source": "47NEWS",
+   "image": "https://img.cf.47news.jp/public/photo/64bf3d8006efd563e4ff72325ee3820f/photo.jpg",
+   "category": "chain",
+   "area": "東海",
+   "published": "2026-10-19T10:17:00+09:00",
+   "provider": "google",
+   "added": "2026-10-19T14:32:23+09:00",
+   "decode_v2": true,
+   "image_checked": true,
+   "image_v4": true,
+   "shop": false,
+   "shop_name": null
+  },
+  {
    "id": "df856f7b4933db74",
    "title": "【コープデリ】日本栄養大学食文化栄養学科の学生が開発した、スマートミール基準の弁当「サバとごぼうの韓国風甘辛だれ弁当」10月19日（月）から会員5生協の店舗で発売",
    "link": "https://prtimes.jp/main/html/rd/p/000000197.000153055.html",
@@ -85,7 +118,7 @@
   },
   {
    "id": "7c6c59ab5901171e",
-   "title": "【スガキヤ】売り切れ続出「スガジロー」パワーUP！ ラーメン＆油そば 数量限定で販売",
+   "title": "【スガキヤ】売り切れ続出「スガジロー」パワーUP！ ラーメン＆油そば 数量限定で販売（オトナンサー）",
    "link": "https://news.yahoo.co.jp/articles/063e7cf8a8725296a54723c9879479697e41ee4a",
    "source": "Yahoo!ニュース",
    "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261019-00401968-otonans-000-1-view.jpg?exp=10800",
@@ -6357,40 +6390,6 @@
    "decode_v2": true,
    "image_checked": true,
    "added": "2026-10-08T10:48:00+09:00",
-   "shop": false,
-   "shop_name": null
-  },
-  {
-   "id": "2c494e0972fbfac9",
-   "title": "「イタリアにお邪魔する」をコンセプトに、名古屋・池下に食材店×イタリアン「QQ（クイント・クインテ）」がオープン。食材店で選んだワインを奥のレストランで味わう「角打ちペアリング」も",
-   "link": "https://prtimes.jp/main/html/rd/p/000000004.000192235.html",
-   "source": "PR TIMES",
-   "image": "https://prcdn.freetls.fastly.net/release_image/192235/4/192235-4-835fb87494a66ddedbf22fa454c374ea-1600x1000.jpg?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260",
-   "category": "shinten",
-   "area": "名古屋",
-   "published": "2026-10-08T10:30:01+09:00",
-   "provider": "google",
-   "image_checked": true,
-   "decode_tried": true,
-   "decode_v2": true,
-   "added": "2026-10-08T10:30:01+09:00",
-   "shop": true,
-   "shop_name": "イタリアにお邪魔する"
-  },
-  {
-   "id": "f7214831dcaf8d4f",
-   "title": "キッチンカーランチをセブンイレブンで!? 新作「デミトマロコモコ」が登場、ブロッコリー、ポテトサラダなどの副菜付き",
-   "link": "https://article.auone.jp/28d56bda-3c4f-4394-86d5-0976a479abad",
-   "source": "au Webポータル",
-   "image": "https://newportal.portal.auone.jp/media/thumbnails/2026/10/08/https___news_mynavi_jp_article_20261008-5091544__w1200.webp",
-   "category": "conbini",
-   "area": "東海",
-   "published": "2026-10-08T10:17:00+09:00",
-   "provider": "google",
-   "image_checked": true,
-   "decode_tried": true,
-   "decode_v2": true,
-   "added": "2026-10-08T10:17:00+09:00",
    "shop": false,
    "shop_name": null
   }
