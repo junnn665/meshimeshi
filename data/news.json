@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-19T09:39:34+09:00",
+ "updated": "2026-10-19T10:34:47+09:00",
  "items": [
   {
    "id": "d1d5db7dfe2b5898",
@@ -2022,6 +2022,23 @@
    "published": "2026-10-14T21:46:00+09:00",
    "provider": "google",
    "added": "2026-10-18T14:26:32+09:00",
+   "decode_v2": true,
+   "image_checked": true,
+   "image_v4": true,
+   "shop": false,
+   "shop_name": null
+  },
+  {
+   "id": "b06d177fb8eae5d3",
+   "title": "名古屋のソウルフード「スガキヤ」20年ぶり関東エリアへ！ 名物のラーメン、クリームぜんざい実食リポ",
+   "link": "https://news.livedoor.com/article/detail/32567340/",
+   "source": "ライブドアニュース",
+   "image": "https://image.news.livedoor.com/newsimage/stf/1/2/12dcd_300_b5573ced_005208a2.jpg",
+   "category": "wadai",
+   "area": "名古屋",
+   "published": "2026-10-14T21:25:00+09:00",
+   "provider": "google",
+   "added": "2026-10-19T10:34:47+09:00",
    "decode_v2": true,
    "image_checked": true,
    "image_v4": true,
@@ -6394,22 +6411,6 @@
    "added": "2026-10-08T01:22:57+09:00",
    "shop": true,
    "shop_name": null
-  },
-  {
-   "id": "e067ddccdb9007b3",
-   "title": "名古屋でジャズとグルメを満喫！「名古屋JAZZストリート」が大曽根 ...",
-   "link": "https://nagoyato.com/posts/19780",
-   "source": "nagoyato",
-   "image": "https://nagoyato.com/wp-content/uploads/2026/10/628x_ea1e9d427fb5664c32c517a73e421e58_0e4e62d270b67c118fa68c48bc55826fba1a2648-1.jpg",
-   "category": "wadai",
-   "area": "名古屋",
-   "published": "2026-10-08T00:59:00+09:00",
-   "provider": "bing",
-   "added": "2026-10-16T17:38:11+09:00",
-   "image_checked": true,
-   "image_v4": true,
-   "shop": true,
-   "shop_name": "名古屋JAZZストリート"
   }
  ]
 }
