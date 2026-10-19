@@ -1,6 +1,39 @@
 {
- "updated": "2026-10-19T10:34:47+09:00",
+ "updated": "2026-10-19T11:30:40+09:00",
  "items": [
+  {
+   "id": "ae09d03a9e3172b0",
+   "title": "【いっちょう】名物デカ盛りスイーツが進化？！自分で仕上げる体験型＆圧倒的ボリューム！「スペシャル バナナマウンテン」2種が店舗限定で新登場！ | 株式会社クリエイト・レストランツ・ホールディングスのプレスリリース",
+   "link": "https://prtimes.jp/main/html/rd/p/000000156.000177867.html",
+   "source": "PR TIMES",
+   "image": "https://prcdn.freetls.fastly.net/release_image/177867/156/177867-156-e79c05de547b344bc108f901c63bc8ff-1000x786.jpg?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260",
+   "category": "deka",
+   "area": "東海",
+   "published": "2026-10-19T11:00:01+09:00",
+   "provider": "google",
+   "added": "2026-10-19T11:30:40+09:00",
+   "decode_v2": true,
+   "image_checked": true,
+   "image_v4": true,
+   "shop": false,
+   "shop_name": null
+  },
+  {
+   "id": "df856f7b4933db74",
+   "title": "【コープデリ】日本栄養大学食文化栄養学科の学生が開発した、スマートミール基準の弁当「サバとごぼうの韓国風甘辛だれ弁当」10月19日（月）から会員5生協の店舗で発売",
+   "link": "https://prtimes.jp/main/html/rd/p/000000197.000153055.html",
+   "source": "PR TIMES",
+   "image": "https://prcdn.freetls.fastly.net/release_image/153055/197/153055-197-e72197f044d1e3664073ccb5da818d15-1768x770.jpg?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260",
+   "category": "chain",
+   "area": "名古屋",
+   "published": "2026-10-19T10:00:00+09:00",
+   "provider": "prtimes",
+   "added": "2026-10-19T11:30:40+09:00",
+   "image_checked": true,
+   "image_v4": true,
+   "shop": false,
+   "shop_name": null
+  },
   {
    "id": "d1d5db7dfe2b5898",
    "title": "松坂屋名古屋店にハロウィンスイーツが大集合！今だけ買える「ごちそうパラダイス」のかわいいお化けスイーツ7選【矢場町・栄】",
@@ -3660,7 +3693,7 @@
   },
   {
    "id": "082b2998bab8d375",
-   "title": "【2026年10月発売!】今週発売! ファミリーマートの注目新作スイーツ5選",
+   "title": "【2026年10月発売!】今週発売! ファミリーマートの注目新作スイーツ5選｜Infoseekニュース",
    "link": "https://news.mynavi.jp/article/20261013-5111359/",
    "source": "マイナビニュース",
    "image": "https://news.mynavi.jp/article/20261013-5111359/ogp_images/ogp.jpg",
@@ -6375,41 +6408,6 @@
    "image_checked": true,
    "image_v4": true,
    "shop": false,
-   "shop_name": null
-  },
-  {
-   "id": "4c7a1b3de8973808",
-   "title": "東海３県・モーニングにメ～ロメロ！｜ドデスカ！",
-   "link": "https://www.nagoyatv.com/dode/morning/1659/06/",
-   "source": "nagoyatv.com",
-   "image": null,
-   "category": "yasuuma",
-   "area": "東海",
-   "published": "2026-10-08T03:10:07+09:00",
-   "provider": "google",
-   "decode_v2": true,
-   "image_checked": true,
-   "image_v3": true,
-   "image_v4": true,
-   "added": "2026-10-08T03:10:07+09:00",
-   "shop": false,
-   "shop_name": null
-  },
-  {
-   "id": "202ef92b2409d409",
-   "title": "愛知・パンの名店ＳＰ【太田×石井のデララバ】",
-   "link": "https://locipo.jp/creative/1462c290-7c4c-4c89-ada7-5e72b690dcbf",
-   "source": "Locipo(ロキポ)",
-   "image": "https://assets.locipo.jp/creatives/180335/original-1462c290-7c4c-4c89-ada7-5e72b690dcbf-20261008014601.jpg",
-   "category": "wadai",
-   "area": "愛知",
-   "published": "2026-10-08T01:22:57+09:00",
-   "provider": "google",
-   "image_checked": true,
-   "decode_tried": true,
-   "decode_v2": true,
-   "added": "2026-10-08T01:22:57+09:00",
-   "shop": true,
    "shop_name": null
   }
  ]
