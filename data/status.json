@@ -1,14 +1,12 @@
 {
- "updated": "2026-10-19T12:32:01+09:00",
- "items": 373,
- "with_image": 345,
+ "updated": "2026-10-19T13:33:29+09:00",
+ "items": 374,
+ "with_image": 346,
  "google_decode_ok": 28,
  "google_decode_failed": 0,
  "google_decode_samples": [],
  "image_failures": [
   "media.unisba.ac.id: HTTPError: HTTP Error 403: Forbidden",
-  "www.excite.co.jp: HTTPError: HTTP Error 403: Forbidden",
-  "www.excite.co.jp: HTTPError: HTTP Error 403: Forbidden",
-  "www.nagoyatv.com: og:image なし (42723 文字)"
+  "www.excite.co.jp: HTTPError: HTTP Error 403: Forbidden"
  ]
 }
