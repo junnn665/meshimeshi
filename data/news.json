@@ -1,6 +1,23 @@
 {
- "updated": "2026-10-19T17:39:24+09:00",
+ "updated": "2026-10-19T18:36:11+09:00",
  "items": [
+  {
+   "id": "8d70661c9cfe7907",
+   "title": "名古屋の老舗店が物価高でも600円ラーメンを提供、安さの秘密は自家製麺 (2026年10月19日掲載)",
+   "link": "https://news.livedoor.com/topics/detail/32604056/",
+   "source": "ライブドアニュース",
+   "image": "https://image.news.livedoor.com/newsimage/stf/9/6/96259_1780_c63734f1548c3a29877c24512408f047.jpg",
+   "category": "wadai",
+   "area": "名古屋",
+   "published": "2026-10-19T18:28:14+09:00",
+   "provider": "google",
+   "added": "2026-10-19T18:36:11+09:00",
+   "decode_v2": true,
+   "image_checked": true,
+   "image_v4": true,
+   "shop": true,
+   "shop_name": null
+  },
   {
    "id": "17a107fa0944c32a",
    "title": "【黒川】あの赤いキッチンカーが実店舗に！「からあげ178（いなば）」移転オープン",
@@ -6330,23 +6347,6 @@
    "published": "2026-10-08T16:00:00+09:00",
    "provider": "google",
    "added": "2026-10-11T17:20:17+09:00",
-   "decode_v2": true,
-   "image_checked": true,
-   "image_v4": true,
-   "shop": false,
-   "shop_name": null
-  },
-  {
-   "id": "6a4c878fd18d3f0a",
-   "title": "【10月6日〜発売】セブン・ファミマ・ローソン新作スイーツ特集｜「生ベイクドチーズケーキ」・「ラブポーションサーティワン風タルト」など注目デザートまとめ",
-   "link": "https://topics.smt.docomo.ne.jp/article/entabe/trend/entabe-61734?page=2",
-   "source": "ｄメニューニュース",
-   "image": "https://img.topics.smt.news.goo.ne.jp/picture/entabe/m_entabe-61734.jpg",
-   "category": "conbini",
-   "area": "東海",
-   "published": "2026-10-08T16:00:00+09:00",
-   "provider": "google",
-   "added": "2026-10-11T19:18:40+09:00",
    "decode_v2": true,
    "image_checked": true,
    "image_v4": true,
