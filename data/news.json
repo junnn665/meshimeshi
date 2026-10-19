@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-19T14:32:23+09:00",
+ "updated": "2026-10-19T15:43:37+09:00",
  "items": [
   {
    "id": "fc6d41d2af77caf7",
@@ -94,6 +94,23 @@
    "published": "2026-10-19T10:00:00+09:00",
    "provider": "prtimes",
    "added": "2026-10-19T11:30:40+09:00",
+   "image_checked": true,
+   "image_v4": true,
+   "shop": false,
+   "shop_name": null
+  },
+  {
+   "id": "423e3a7c9c6d0cac",
+   "title": "焼き牡蠣もガンガン焼きも食べ放題！小学生は半額の冬季限定プランが愛知・瀬戸に登場",
+   "link": "https://report.iko-yo.net/articles/34836",
+   "source": "いこーよニュース",
+   "image": "https://d28w2qw7dtr435.cloudfront.net/uploaded/cover_images/images/34862/normal.jpg?1792368586",
+   "category": "wadai",
+   "area": "愛知",
+   "published": "2026-10-19T09:24:57+09:00",
+   "provider": "google",
+   "added": "2026-10-19T15:43:37+09:00",
+   "decode_v2": true,
    "image_checked": true,
    "image_v4": true,
    "shop": false,
