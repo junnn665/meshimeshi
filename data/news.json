@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-20T19:30:40+09:00",
+ "updated": "2026-10-20T20:30:58+09:00",
  "items": [
   {
    "id": "e4c24afce8ed99c5",
@@ -67,6 +67,22 @@
    "image_v4": true,
    "shop": true,
    "shop_name": "あんこと生地が絶妙にマッチしている"
+  },
+  {
+   "id": "1077920951faba9f",
+   "title": "伊勢海老や鮑、金目鯛など海の幸を新春の食卓に。南房総を拠点に水産卸・寿司店を展開するヤマトサカナが「2027年 特製おせち2段重」を10月21日予約開始！3,000円分の優待券付き",
+   "link": "https://prtimes.jp/main/html/rd/p/000000316.000030130.html",
+   "source": "PR TIMES",
+   "image": "https://prcdn.freetls.fastly.net/release_image/30130/316/30130-316-59e8059cf5851a9ddb84838901ce08d4-868x1227.jpg?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260",
+   "category": "chain",
+   "area": "三重",
+   "published": "2026-10-20T17:40:37+09:00",
+   "provider": "prtimes",
+   "added": "2026-10-20T20:30:58+09:00",
+   "image_checked": true,
+   "image_v4": true,
+   "shop": false,
+   "shop_name": null
   },
   {
    "id": "daabdc32bc4cb6f0",
