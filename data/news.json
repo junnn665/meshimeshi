@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-21T06:30:50+09:00",
+ "updated": "2026-10-21T07:30:00+09:00",
  "items": [
   {
    "id": "15e0a85e1b335c15",
@@ -6484,22 +6484,6 @@
    "lng": 136.88272,
    "place": "indoor",
    "group": "7864702ee677"
-  },
-  {
-   "id": "56409e5a2f919ad0",
-   "title": "ふわとろ、激辛、ジャンクの極み…名古屋の「魔性のラーメン」3軒 ...",
-   "link": "https://otonano-shumatsu.com/articles/589537",
-   "source": "おとなの週末Web",
-   "image": "https://otonano-shumatsu.com/wp-content/uploads/2026/10/toake_gotochi_20261009_eyecatch2.jpg",
-   "category": "wadai",
-   "area": "名古屋",
-   "published": "2026-10-09T04:59:00+09:00",
-   "provider": "bing",
-   "added": "2026-10-21T06:30:50+09:00",
-   "image_checked": true,
-   "image_v4": true,
-   "shop": false,
-   "shop_name": null
   }
  ]
 }
