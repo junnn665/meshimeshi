@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-20T19:38:25+00:00",
+ "updated": "2026-10-20T20:31:20+00:00",
  "days": [
   "2026-10-08",
   "2026-10-09",
@@ -97,6 +97,47 @@
      "link": "https://trilltrill.jp/articles/5117786",
      "source": "TRILL",
      "image": "https://media.trilltrill.jp/articles/5117786/featured-image.3babd7c4145957b6302b316a70b61e4c?w=1200"
+    }
+   ]
+  },
+  {
+   "label": "ピザ",
+   "q": "ピザ",
+   "kind": "dish",
+   "recent": 2,
+   "base_per_day": 0.18,
+   "ratio": 1.62,
+   "new": false,
+   "daily": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    1,
+    0,
+    0,
+    1,
+    1,
+    0
+   ],
+   "articles": [
+    {
+     "id": "daabdc32bc4cb6f0",
+     "title": "【2026年版】ふるさと納税のピザ還元率ランキング！コスパ最強のおすすめ返礼品も紹介",
+     "link": "https://jimovege-works.jp/column/furusato-kangenritsu-pizza/",
+     "source": "ジモベジワークス",
+     "image": "https://jimovege-works.jp/column/wp-content//uploads/2026/10/06_22002945.jpg"
+    },
+    {
+     "id": "7e0c370cfa7ef440",
+     "title": "ドミノ・ピザ、直径約40cmのXLサイズを注文すると“デカ盛り級”顔はめお面になる「ハロウィンボックス」でお届け！",
+     "link": "https://prtimes.jp/main/html/rd/p/000000537.000029053.html",
+     "source": "PR TIMES",
+     "image": "https://prcdn.freetls.fastly.net/release_image/29053/537/29053-537-cfa99b3aa7f4ba5f7c0465b39bdae10b-1920x1280.jpg?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260"
     }
    ]
   }
