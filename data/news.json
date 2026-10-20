@@ -1,6 +1,23 @@
 {
- "updated": "2026-10-20T14:31:02+09:00",
+ "updated": "2026-10-20T15:36:39+09:00",
  "items": [
+  {
+   "id": "1f39712bec7d4b03",
+   "title": "ストリングスホテル 名古屋、2日間限定のチャペルコンサート付きディナー販売へ",
+   "link": "https://news.dellows.jp/809861/?from=top_category_area",
+   "source": "Dellows News",
+   "image": "https://news.dellows.jp/wp-content/uploads/2026/10/809861_1.jpg",
+   "category": "chain",
+   "area": "名古屋",
+   "published": "2026-10-20T14:40:45+09:00",
+   "provider": "google",
+   "added": "2026-10-20T15:36:39+09:00",
+   "decode_v2": true,
+   "image_checked": true,
+   "image_v4": true,
+   "shop": false,
+   "shop_name": null
+  },
   {
    "id": "186ad9d92d40f88c",
    "title": "【東海】2026年11月の親子向けおでかけ先＆イベント厳選 イルミ＆グルメ＆入場無料も",
@@ -88,7 +105,7 @@
   },
   {
    "id": "2c9b3c90cf3d7ea4",
-   "title": "石川県のソウルフード「チャンピオンカレー」の生カレーが、各地のファミリーマートに順次登場！",
+   "title": "石川県のソウルフード「チャンピオンカレー」の生カレーが、各地のファミリーマートに順次登場！｜Infoseekニュース",
    "link": "https://prtimes.jp/main/html/rd/p/000000132.000015963.html",
    "source": "PR TIMES",
    "image": "https://prcdn.freetls.fastly.net/release_image/15963/132/15963-132-2b30f1333fcc9979d984f0dc28302b2f-1280x670.jpg?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260",
@@ -6427,22 +6444,6 @@
    "image_v4": true,
    "shop": true,
    "shop_name": "定番～最新の手みやげベスト10"
-  },
-  {
-   "id": "fa61db42ecff4dd4",
-   "title": "ふわとろ、激辛、ジャンクの極み…名古屋の「魔性のラーメン」3軒をご当地グルメ通が推薦！ (2026年10月9日掲載)",
-   "link": "https://news.yahoo.co.jp/articles/aac9cc4e10365465050b2062be17481c29ebf081?page=2",
-   "source": "Yahoo!ニュース",
-   "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261009-00000005-matomeshi-000-1-view.jpg?exp=10800",
-   "category": "wadai",
-   "area": "名古屋",
-   "published": "2026-10-09T12:00:07+09:00",
-   "provider": "google",
-   "decode_v2": true,
-   "image_checked": true,
-   "added": "2026-10-09T12:00:07+09:00",
-   "shop": false,
-   "shop_name": null
   }
  ]
 }
