@@ -1,6 +1,39 @@
 {
- "updated": "2026-10-20T17:33:58+09:00",
+ "updated": "2026-10-20T18:32:43+09:00",
  "items": [
+  {
+   "id": "daabdc32bc4cb6f0",
+   "title": "【2026年版】ふるさと納税のピザ還元率ランキング！コスパ最強のおすすめ返礼品も紹介",
+   "link": "https://jimovege-works.jp/column/furusato-kangenritsu-pizza/",
+   "source": "ジモベジワークス",
+   "image": "https://jimovege-works.jp/column/wp-content//uploads/2026/10/06_22002945.jpg",
+   "category": "yasuuma",
+   "area": "東海",
+   "published": "2026-10-20T17:07:56+09:00",
+   "provider": "google",
+   "added": "2026-10-20T18:32:43+09:00",
+   "decode_v2": true,
+   "image_checked": true,
+   "image_v4": true,
+   "shop": false,
+   "shop_name": null
+  },
+  {
+   "id": "ee9a73d59ac41841",
+   "title": "お茶好きZ世代の“新しいお茶体験”。静岡茶×スイーツの極上ペアリングを楽しむ4年目となる『するがヌーン茶』が11月1日に開幕！",
+   "link": "https://prtimes.jp/main/html/rd/p/000000013.000185652.html",
+   "source": "PR TIMES",
+   "image": "https://prcdn.freetls.fastly.net/release_image/185652/13/185652-13-6c3caec8dc80957618cbe42147c41976-516x338.jpg?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260",
+   "category": "chain",
+   "area": "静岡",
+   "published": "2026-10-20T16:45:25+09:00",
+   "provider": "prtimes",
+   "added": "2026-10-20T18:32:43+09:00",
+   "image_checked": true,
+   "image_v4": true,
+   "shop": false,
+   "shop_name": null
+  },
   {
    "id": "c34f9779edcaa0d2",
    "title": "JR名古屋タカシマヤの京都物産展「京の老舗名品展」10月21日から26日まで開催",
@@ -24,6 +57,23 @@
    "start": "2026-10-21",
    "end": "2026-10-26",
    "group": "9ae07d1b9ca6"
+  },
+  {
+   "id": "7a3f7f4d5cd29e80",
+   "title": "【10月20日～発売】セブン・ファミマ・ローソン新作スイーツ特集｜「Uchi Café×ゴディバ ショコラパフェ」・「ダブルクリームエクレア」など注目デザートまとめ",
+   "link": "https://entabe.jp/amp/61909/seven-eleven-familymart-lawson-new-sweets-october-2026",
+   "source": "えん食べ [グルメニュース]",
+   "image": "https://image.entabe.jp/upload/20261020/images/thumbnail_20261020_web_3.jpg",
+   "category": "conbini",
+   "area": "東海",
+   "published": "2026-10-20T16:00:00+09:00",
+   "provider": "google",
+   "added": "2026-10-20T18:32:43+09:00",
+   "decode_v2": true,
+   "image_checked": true,
+   "image_v4": true,
+   "shop": false,
+   "shop_name": null
   },
   {
    "id": "11804cea4cf05e01",
@@ -6396,56 +6446,6 @@
    "lat": 35.17298,
    "lng": 136.88165,
    "group": "f1ac3c91ef4e"
-  },
-  {
-   "id": "8ebae9f73f617f79",
-   "title": "がっつりメシに！名古屋エリアの高コスパランチ6選",
-   "link": "https://www.walkerplus.com/article/143845/",
-   "source": "ウォーカープラス",
-   "image": "https://news.walkerplus.com/article/143845/820491_615.jpg",
-   "category": "deka",
-   "area": "名古屋",
-   "published": "2026-10-09T16:00:00+09:00",
-   "provider": "google",
-   "added": "2026-10-14T16:39:43+09:00",
-   "decode_v2": true,
-   "image_checked": true,
-   "image_v4": true,
-   "shop": false,
-   "shop_name": null
-  },
-  {
-   "id": "acdfeca7bba63e10",
-   "title": "地域のじーちゃんばーちゃんがおむすび屋になる！？名古屋に「街仲食堂」をつくる！",
-   "link": "https://camp-fire.jp/projects/980659/view",
-   "source": "CAMPFIRE (キャンプファイヤー)",
-   "image": "https://static.camp-fire.jp/uploads/project_version/image/1664488/fa7a628e-9342-4bb3-98d1-11c9f6e12b3d.png?auto=format&fit=fill&ref=projects_overview&w=1200&h=675&fill=blur",
-   "category": "shinten",
-   "area": "名古屋",
-   "published": "2026-10-09T16:00:00+09:00",
-   "provider": "google",
-   "added": "2026-10-14T20:31:58+09:00",
-   "decode_v2": true,
-   "image_checked": true,
-   "image_v4": true,
-   "shop": true,
-   "shop_name": "街仲食堂"
-  },
-  {
-   "id": "6bb6f137cd460c2a",
-   "title": "資さんうどん、熱田区へ2027年1月オープン決定！ファン歓喜の声が広がる",
-   "link": "https://t.co/1cifKJTDM2",
-   "source": "Howl.Link",
-   "image": "https://rts-pctr.c.yimg.jp/BgIFgYJGVIVv8u0nVJvw8B2FauAYMF4jOP5zFJAV4i6hjVpND1OjWZ7RVcmujne-SF0cmf4Olk6IK_nmgXh8Diz0eScvWH92NSmg92Pfh0YlqHWtm8TRSVrzk5XjacbSCkxvVVKv4J36j6bVJEUxCiCI1br4kJMDNt-aA2DNndJ1AhN4mz7EyVVqeJ6fYgH0jrBnXrFDdNZMrmLRDb-I_A==",
-   "category": "shinten",
-   "area": "東海",
-   "published": "2026-10-09T15:45:00+09:00",
-   "provider": "google",
-   "decode_v2": true,
-   "image_checked": true,
-   "added": "2026-10-09T15:45:00+09:00",
-   "shop": false,
-   "shop_name": null
   }
  ]
 }

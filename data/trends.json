@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-20T08:34:28+00:00",
+ "updated": "2026-10-20T09:33:18+00:00",
  "days": [
   "2026-10-07",
   "2026-10-08",
@@ -56,6 +56,88 @@
      "link": "https://prtimes.jp/main/html/rd/p/000000197.000153055.html",
      "source": "PR TIMES",
      "image": "https://prcdn.freetls.fastly.net/release_image/153055/197/153055-197-e72197f044d1e3664073ccb5da818d15-1768x770.jpg?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260"
+    }
+   ]
+  },
+  {
+   "label": "パフェ",
+   "q": "パフェ",
+   "kind": "dish",
+   "recent": 2,
+   "base_per_day": 0.09,
+   "ratio": 1.96,
+   "new": false,
+   "daily": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    1,
+    0,
+    1
+   ],
+   "articles": [
+    {
+     "id": "7a3f7f4d5cd29e80",
+     "title": "【10月20日～発売】セブン・ファミマ・ローソン新作スイーツ特集｜「Uchi Café×ゴディバ ショコラパフェ」・「ダブルクリームエクレア」など注目デザートまとめ",
+     "link": "https://entabe.jp/amp/61909/seven-eleven-familymart-lawson-new-sweets-october-2026",
+     "source": "えん食べ [グルメニュース]",
+     "image": "https://image.entabe.jp/upload/20261020/images/thumbnail_20261020_web_3.jpg"
+    },
+    {
+     "id": "eb1bc45781b2a8a0",
+     "title": "こわもて客がオーダーしたのはデカ盛りパフェ！一見コミカルだが、ファミリーレストランの従業員たちは緊張感で真っ青…／鳩ヶ森さん傑作選",
+     "link": "https://www.walkerplus.com/article/1447028/",
+     "source": "ウォーカープラス",
+     "image": "https://news.walkerplus.com/article/1447028/18754675_615.jpg"
+    }
+   ]
+  },
+  {
+   "label": "ピザ",
+   "q": "ピザ",
+   "kind": "dish",
+   "recent": 2,
+   "base_per_day": 0.18,
+   "ratio": 1.62,
+   "new": false,
+   "daily": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    1,
+    0,
+    0,
+    1,
+    1
+   ],
+   "articles": [
+    {
+     "id": "daabdc32bc4cb6f0",
+     "title": "【2026年版】ふるさと納税のピザ還元率ランキング！コスパ最強のおすすめ返礼品も紹介",
+     "link": "https://jimovege-works.jp/column/furusato-kangenritsu-pizza/",
+     "source": "ジモベジワークス",
+     "image": "https://jimovege-works.jp/column/wp-content//uploads/2026/10/06_22002945.jpg"
+    },
+    {
+     "id": "7e0c370cfa7ef440",
+     "title": "ドミノ・ピザ、直径約40cmのXLサイズを注文すると“デカ盛り級”顔はめお面になる「ハロウィンボックス」でお届け！",
+     "link": "https://prtimes.jp/main/html/rd/p/000000537.000029053.html",
+     "source": "PR TIMES",
+     "image": "https://prcdn.freetls.fastly.net/release_image/29053/537/29053-537-cfa99b3aa7f4ba5f7c0465b39bdae10b-1920x1280.jpg?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260"
     }
    ]
   }
