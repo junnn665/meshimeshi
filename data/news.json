@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-21T05:30:50+09:00",
+ "updated": "2026-10-21T06:30:50+09:00",
  "items": [
   {
    "id": "15e0a85e1b335c15",
@@ -51,6 +51,23 @@
    "image_v4": true,
    "shop": true,
    "shop_name": "サンリオハウス"
+  },
+  {
+   "id": "42e23e67605ccd5e",
+   "title": "坂角総本舖の坂角たまご使用メニューがザ・コンダーハウスに9月14日登場へ",
+   "link": "https://news.dellows.jp/313201/",
+   "source": "Dellows News",
+   "image": "https://news.dellows.jp/wp-content/uploads/2026/09/313201_1.jpg",
+   "category": "chain",
+   "area": "東海",
+   "published": "2026-10-20T21:09:34+09:00",
+   "provider": "google",
+   "added": "2026-10-21T06:30:50+09:00",
+   "decode_v2": true,
+   "image_checked": true,
+   "image_v4": true,
+   "shop": false,
+   "shop_name": null
   },
   {
    "id": "e4c24afce8ed99c5",
@@ -6467,6 +6484,22 @@
    "lng": 136.88272,
    "place": "indoor",
    "group": "7864702ee677"
+  },
+  {
+   "id": "56409e5a2f919ad0",
+   "title": "ふわとろ、激辛、ジャンクの極み…名古屋の「魔性のラーメン」3軒 ...",
+   "link": "https://otonano-shumatsu.com/articles/589537",
+   "source": "おとなの週末Web",
+   "image": "https://otonano-shumatsu.com/wp-content/uploads/2026/10/toake_gotochi_20261009_eyecatch2.jpg",
+   "category": "wadai",
+   "area": "名古屋",
+   "published": "2026-10-09T04:59:00+09:00",
+   "provider": "bing",
+   "added": "2026-10-21T06:30:50+09:00",
+   "image_checked": true,
+   "image_v4": true,
+   "shop": false,
+   "shop_name": null
   }
  ]
 }
