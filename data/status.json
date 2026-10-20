@@ -1,15 +1,14 @@
 {
- "updated": "2026-10-20T08:29:47+09:00",
- "items": 378,
- "with_image": 350,
- "google_decode_ok": 21,
+ "updated": "2026-10-20T09:40:43+09:00",
+ "items": 376,
+ "with_image": 349,
+ "google_decode_ok": 24,
  "google_decode_failed": 0,
  "google_decode_samples": [],
  "image_failures": [
   "media.unisba.ac.id: HTTPError: HTTP Error 403: Forbidden",
+  "thetv.jp: og:image なし (42368 文字)",
   "www.excite.co.jp: HTTPError: HTTP Error 403: Forbidden",
-  "thetv.jp: og:image なし (42382 文字)",
-  "tetsudo-ch.com: HTTPError: HTTP Error 403: Forbidden",
-  "www.msn.com: og:image なし (42988 文字)"
+  "tetsudo-ch.com: HTTPError: HTTP Error 403: Forbidden"
  ]
 }
