@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-20T06:37:13+00:00",
+ "updated": "2026-10-20T07:40:56+00:00",
  "days": [
   "2026-10-07",
   "2026-10-08",
@@ -17,5 +17,47 @@
   "2026-10-20"
  ],
  "recent_days": 3,
- "items": []
+ "items": [
+  {
+   "label": "韓国グルメ",
+   "q": "韓国",
+   "kind": "dish",
+   "recent": 2,
+   "base_per_day": 0.0,
+   "ratio": 2.5,
+   "new": true,
+   "daily": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    1
+   ],
+   "articles": [
+    {
+     "id": "11804cea4cf05e01",
+     "title": "たこ焼きの中身は近江牛！ 名神下り線の多賀SAに新店オープン 韓国グルメや生チュロスも",
+     "link": "https://article.auone.jp/98b0f532-4656-4cf1-95cf-d0ac09e2414b",
+     "source": "au Webポータル",
+     "image": "https://newportal.portal.auone.jp/media/thumbnails/2026/10/20/https___news_jp_i_1485164184786781166_w1200.webp"
+    },
+    {
+     "id": "df856f7b4933db74",
+     "title": "【コープデリ】日本栄養大学食文化栄養学科の学生が開発した、スマートミール基準の弁当「サバとごぼうの韓国風甘辛だれ弁当」10月19日（月）から会員5生協の店舗で発売",
+     "link": "https://prtimes.jp/main/html/rd/p/000000197.000153055.html",
+     "source": "PR TIMES",
+     "image": "https://prcdn.freetls.fastly.net/release_image/153055/197/153055-197-e72197f044d1e3664073ccb5da818d15-1768x770.jpg?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260"
+    }
+   ]
+  }
+ ]
 }
