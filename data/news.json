@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-20T16:40:31+09:00",
+ "updated": "2026-10-20T17:33:58+09:00",
  "items": [
   {
    "id": "c34f9779edcaa0d2",
@@ -226,6 +226,23 @@
    "image_v4": true,
    "shop": true,
    "shop_name": "廻鮮江戸前すし魚魚丸"
+  },
+  {
+   "id": "3137fd34d233e8cc",
+   "title": "名古屋栄三越 3F ビストロカフェ「THE FLOWER TABLE」で、ふんわり食感が魅力の新感覚「スフレオムライス」メニューが2026年10月28日（水）から販売開始！",
+   "link": "https://prtimes.jp/main/html/rd/p/000000509.000040062.html",
+   "source": "PR TIMES",
+   "image": "https://prcdn.freetls.fastly.net/release_image/40062/509/40062-509-002eb77ef4a9a0a4a17aa42836bcf64f-850x566.jpg?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260",
+   "category": "chain",
+   "area": "名古屋",
+   "published": "2026-10-20T11:00:02+09:00",
+   "provider": "google",
+   "added": "2026-10-20T17:33:58+09:00",
+   "decode_v2": true,
+   "image_checked": true,
+   "image_v4": true,
+   "shop": false,
+   "shop_name": null
   },
   {
    "id": "12ed131ef6be1304",
@@ -3734,6 +3751,23 @@
    "shop_name": null
   },
   {
+   "id": "d6d73775bb78a6c6",
+   "title": "任天堂による『スーパーファミリーレストラン』誕生…メニュー＆内部を最速公開【メニュー一例】",
+   "link": "https://www.oricon.co.jp/news/2486188/",
+   "source": "オリコンニュース",
+   "image": "https://contents.oricon.co.jp/upimg/news/2487000/2486188/20261013_181142_p_o_16168753.jpg",
+   "category": "shinten",
+   "area": "東海",
+   "published": "2026-10-14T07:00:00+09:00",
+   "provider": "google",
+   "added": "2026-10-20T17:33:58+09:00",
+   "decode_v2": true,
+   "image_checked": true,
+   "image_v4": true,
+   "shop": false,
+   "shop_name": null
+  },
+  {
    "id": "90f74bfa57235ecd",
    "title": "本日まで！優勝賞金500万円を懸けたラーメン決戦 第一陣を飾る「名古屋コーチンの鶏塩そば」がすごい",
    "link": "https://news.yahoo.co.jp/expert/articles/49d7bb375331197c3fba86878e0f3f8272e69ff9",
@@ -6410,23 +6444,6 @@
    "decode_v2": true,
    "image_checked": true,
    "added": "2026-10-09T15:45:00+09:00",
-   "shop": false,
-   "shop_name": null
-  },
-  {
-   "id": "ef6e380423b91863",
-   "title": "【朝だけの限定メニュー】日本橋兜町「SR Coffee Roaster」にて、忙しい朝に心も満たすモーニングプレート提供スタート",
-   "link": "https://prtimes.jp/main/html/rd/p/000000058.000162292.html",
-   "source": "PR TIMES",
-   "image": "https://prcdn.freetls.fastly.net/release_image/162292/58/162292-58-460556d8bb76f7f8ccbe635f228e19ae-1920x1280.png?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260",
-   "category": "yasuuma",
-   "area": "東海",
-   "published": "2026-10-09T15:30:02+09:00",
-   "provider": "google",
-   "added": "2026-10-12T11:20:55+09:00",
-   "decode_v2": true,
-   "image_checked": true,
-   "image_v4": true,
    "shop": false,
    "shop_name": null
   }
