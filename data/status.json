@@ -1,13 +1,14 @@
 {
- "updated": "2026-10-20T20:30:58+09:00",
- "items": 378,
- "with_image": 352,
- "google_decode_ok": 22,
+ "updated": "2026-10-20T21:38:25+09:00",
+ "items": 374,
+ "with_image": 348,
+ "google_decode_ok": 28,
  "google_decode_failed": 0,
  "google_decode_samples": [],
  "image_failures": [
+  "www.chukei-news.co.jp: HTTPError: HTTP Error 403: Forbidden",
   "media.unisba.ac.id: HTTPError: HTTP Error 403: Forbidden",
-  "thetv.jp: og:image なし (42460 文字)",
+  "thetv.jp: og:image なし (42447 文字)",
   "tetsudo-ch.com: HTTPError: HTTP Error 403: Forbidden"
  ]
 }
