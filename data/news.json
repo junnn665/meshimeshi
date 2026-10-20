@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-21T02:37:01+09:00",
+ "updated": "2026-10-21T03:34:45+09:00",
  "items": [
   {
    "id": "15e0a85e1b335c15",
@@ -6430,6 +6430,27 @@
    "image_v4": true,
    "shop": false,
    "shop_name": null
+  },
+  {
+   "id": "719e740e24c5e8df",
+   "title": "ジェイアール名古屋タカシマヤ「魅惑のパンフェスタ」に、BANKAKU ...",
+   "link": "https://www.jiji.com/jc/article?k=000000109.000078605&g=prt",
+   "source": "時事ドットコム",
+   "image": "https://prcdn.freetls.fastly.net/release_image/78605/109/78605-109-c714bf899a82ce51a3659583c0a64c24-1690x403.png?width=536&quality=85%2C75&format=jpeg",
+   "category": "event",
+   "area": "名古屋",
+   "published": "2026-10-10T02:00:00+09:00",
+   "provider": "bing",
+   "added": "2026-10-21T03:34:45+09:00",
+   "image_checked": true,
+   "image_v4": true,
+   "shop": false,
+   "shop_name": null,
+   "venue": "ジェイアール名古屋タカシマヤ",
+   "lat": 35.17123,
+   "lng": 136.88272,
+   "place": "indoor",
+   "group": "7864702ee677"
   }
  ]
 }
