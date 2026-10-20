@@ -1,13 +1,14 @@
 {
- "updated": "2026-10-20T13:30:28+09:00",
- "items": 375,
- "with_image": 349,
- "google_decode_ok": 27,
+ "updated": "2026-10-20T14:31:02+09:00",
+ "items": 377,
+ "with_image": 351,
+ "google_decode_ok": 28,
  "google_decode_failed": 0,
  "google_decode_samples": [],
  "image_failures": [
+  "www.okinawatimes.co.jp: HTTPError: HTTP Error 404: Not Found",
   "media.unisba.ac.id: HTTPError: HTTP Error 403: Forbidden",
-  "thetv.jp: og:image なし (42481 文字)",
+  "thetv.jp: og:image なし (42522 文字)",
   "www.excite.co.jp: HTTPError: HTTP Error 403: Forbidden"
  ]
 }
