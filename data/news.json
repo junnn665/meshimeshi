@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-21T01:32:55+09:00",
+ "updated": "2026-10-21T02:37:01+09:00",
  "items": [
   {
    "id": "15e0a85e1b335c15",
@@ -6428,22 +6428,6 @@
    "decode_v2": true,
    "image_checked": true,
    "image_v4": true,
-   "shop": false,
-   "shop_name": null
-  },
-  {
-   "id": "6528212e55edfc6b",
-   "title": "【ご報告】YOMO〜食べられるよもぎ蒸し®〜が10/10(土)に東海エリア初 ...",
-   "link": "https://note.com/ymikami88/n/n33fda4bbdb3b",
-   "source": "note",
-   "image": "https://assets.st-note.com/production/uploads/images/320371574/rectangle_large_type_2_2454983d2cefba3c30c80b29ddc87717.png?fit=bounds&quality=85&width=1280",
-   "category": "shinten",
-   "area": "東海",
-   "published": "2026-10-10T03:08:00+09:00",
-   "provider": "bing",
-   "image_checked": true,
-   "image_v3": true,
-   "added": "2026-10-10T03:08:00+09:00",
    "shop": false,
    "shop_name": null
   }
