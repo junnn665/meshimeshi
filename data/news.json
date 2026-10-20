@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-20T22:41:00+09:00",
+ "updated": "2026-10-20T23:32:47+09:00",
  "items": [
   {
    "id": "fb47ae3bb6273256",
@@ -6430,22 +6430,6 @@
    "image_checked": true,
    "image_v4": true,
    "shop": false,
-   "shop_name": null
-  },
-  {
-   "id": "be049d07bfc450fb",
-   "title": "名古屋のレトロ喫茶グルメが絶品ピザに大変身！アオキーズ・ピザ ...",
-   "link": "https://nagoyato.com/posts/19832",
-   "source": "nagoyato",
-   "image": "http://www.bing.com/th?id=ONUT.8plWFDX0ZKSBOSNI-9w8wA&pid=News",
-   "category": "wadai",
-   "area": "名古屋",
-   "published": "2026-10-09T02:00:00+09:00",
-   "provider": "bing",
-   "added": "2026-10-20T22:41:00+09:00",
-   "image_checked": true,
-   "image_v4": true,
-   "shop": true,
    "shop_name": null
   }
  ]

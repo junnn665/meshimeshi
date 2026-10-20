@@ -1,16 +1,13 @@
 {
- "updated": "2026-10-20T22:41:00+09:00",
- "items": 377,
- "with_image": 351,
+ "updated": "2026-10-20T23:32:47+09:00",
+ "items": 376,
+ "with_image": 350,
  "google_decode_ok": 24,
  "google_decode_failed": 0,
  "google_decode_samples": [],
  "image_failures": [
   "media.unisba.ac.id: HTTPError: HTTP Error 403: Forbidden",
-  "thetv.jp: og:image なし (42410 文字)",
-  "tetsudo-ch.com: HTTPError: HTTP Error 403: Forbidden",
-  "tamapon.com: URLError: <urlopen error timed out>",
-  "kobe-journal.com: URLError: <urlopen error timed out>",
-  "nagoyato.com: URLError: <urlopen error timed out>"
+  "thetv.jp: og:image なし (42417 文字)",
+  "tetsudo-ch.com: HTTPError: HTTP Error 403: Forbidden"
  ]
 }
