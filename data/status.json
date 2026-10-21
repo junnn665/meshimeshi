@@ -1,16 +1,17 @@
 {
- "updated": "2026-10-22T01:32:21+09:00",
- "items": 378,
- "with_image": 351,
- "google_decode_ok": 23,
+ "updated": "2026-10-22T02:30:25+09:00",
+ "items": 379,
+ "with_image": 352,
+ "google_decode_ok": 21,
  "google_decode_failed": 0,
  "google_decode_samples": [],
  "image_failures": [
   "news.nicovideo.jp: HTTPError: HTTP Error 403: Forbidden",
+  "news.nicovideo.jp: HTTPError: HTTP Error 403: Forbidden",
   "hachioji.goguynet.jp: og:image なし (14 文字)",
   "ebina-zama-ayase.goguynet.jp: og:image なし (14 文字)",
-  "media.unisba.ac.id: HTTPError: HTTP Error 403: Forbidden",
+  "www.chukei-news.co.jp: HTTPError: HTTP Error 403: Forbidden",
   "biz.chunichi.co.jp: HTTPError: HTTP Error 403: Forbidden",
-  "thetv.jp: og:image なし (42465 文字)"
+  "www.msn.com: og:image なし (42446 文字)"
  ]
 }

@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-21T16:32:51+00:00",
+ "updated": "2026-10-21T17:30:52+00:00",
  "days": [
   "2026-10-09",
   "2026-10-10",
@@ -97,6 +97,54 @@
      "link": "https://article.auone.jp/98b0f532-4656-4cf1-95cf-d0ac09e2414b",
      "source": "au Webポータル",
      "image": "https://newportal.portal.auone.jp/media/thumbnails/2026/10/20/https___news_jp_i_1485164184786781166_w1200.webp"
+    }
+   ]
+  },
+  {
+   "label": "モンブラン・栗",
+   "q": "モンブラン",
+   "kind": "dish",
+   "recent": 3,
+   "base_per_day": 0.27,
+   "ratio": 1.93,
+   "new": false,
+   "daily": [
+    0,
+    0,
+    0,
+    0,
+    1,
+    1,
+    0,
+    0,
+    1,
+    0,
+    0,
+    1,
+    2,
+    0
+   ],
+   "articles": [
+    {
+     "id": "f2688191da6ff772",
+     "title": "HUBアスティ静岡店が、和栗を味わう全国一斉ランチ会「BIKKURI LUNCH2026」の静岡会場に！東海軒の和栗ご飯弁当を楽しもう",
+     "link": "https://getnews.jp/archives/3750281",
+     "source": "ガジェット通信",
+     "image": "https://straightpress.jp/wp-content/uploads/2026/10/Tana2610211224main.jpg"
+    },
+    {
+     "id": "d5f0fb8117a3287a",
+     "title": "【あさぎり牛乳 阪神梅田本店】秋限定ソフトクリーム〈モンブラン〉が数量限定で登場！サンデー2種も追加し、メニューを拡充",
+     "link": "https://prtimes.jp/main/html/rd/p/000000081.000161984.html",
+     "source": "PR TIMES",
+     "image": "https://prcdn.freetls.fastly.net/release_image/161984/81/161984-81-fc11f0ac35cc0d39b3556f90edb756a4-678x454.jpg?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260"
+    },
+    {
+     "id": "e4c24afce8ed99c5",
+     "title": "【コメダ】秋冬の新作ケーキ発売 毎年好評の「純栗ぃむ」など4種登場",
+     "link": "https://news.infoseek.co.jp/amp/article/otonanswer_402706/",
+     "source": "Infoseek",
+     "image": "https://media.image.infoseek.co.jp/isnews/photos/otonanswer/otonanswer_402706_0-enlarge.jpg"
     }
    ]
   },
