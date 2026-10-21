@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-21T23:52:12+09:00",
+ "updated": "2026-10-22T00:34:32+09:00",
  "items": [
   {
    "id": "6e0c5d9ee3ff2d7d",
@@ -6408,6 +6408,22 @@
    "provider": "google",
    "added": "2026-10-11T23:18:42+09:00",
    "decode_v2": true,
+   "image_checked": true,
+   "image_v4": true,
+   "shop": false,
+   "shop_name": null
+  },
+  {
+   "id": "22f2d8bb29f54612",
+   "title": "ふわとろ、激辛、ジャンクの極み…名古屋の「魔性のラーメン」3軒 ...",
+   "link": "https://news.livedoor.com/article/detail/32526674/",
+   "source": "ライブドアニュース",
+   "image": "https://image.news.livedoor.com/newsimage/stf/8/2/820c0_1640_5942a75a_13e2324c.jpg",
+   "category": "wadai",
+   "area": "名古屋",
+   "published": "2026-10-09T04:59:00+09:00",
+   "provider": "bing",
+   "added": "2026-10-22T00:34:32+09:00",
    "image_checked": true,
    "image_v4": true,
    "shop": false,
