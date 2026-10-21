@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-21T03:31:36+00:00",
+ "updated": "2026-10-21T04:32:56+00:00",
  "days": [
   "2026-10-08",
   "2026-10-09",
@@ -64,13 +64,13 @@
    "q": "寿司",
    "kind": "dish",
    "recent": 5,
-   "base_per_day": 0.55,
-   "ratio": 2.09,
+   "base_per_day": 0.45,
+   "ratio": 2.33,
    "new": false,
    "daily": [
     0,
     0,
-    1,
+    0,
     0,
     0,
     1,
@@ -152,6 +152,54 @@
      "link": "https://prtimes.jp/main/html/rd/p/000001175.000097263.html",
      "source": "PR TIMES",
      "image": "https://prcdn.freetls.fastly.net/release_image/97263/1175/97263-1175-26c8b2a5e4545ecb4f9750f32fe202d4-1460x2064.jpg?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260"
+    }
+   ]
+  },
+  {
+   "label": "うどん",
+   "q": "うどん",
+   "kind": "dish",
+   "recent": 6,
+   "base_per_day": 1.0,
+   "ratio": 1.62,
+   "new": false,
+   "daily": [
+    0,
+    0,
+    0,
+    0,
+    1,
+    4,
+    2,
+    0,
+    2,
+    1,
+    1,
+    0,
+    1,
+    5
+   ],
+   "articles": [
+    {
+     "id": "208ebea47020e50c",
+     "title": "深まる秋の食欲を満たす“旨み濃香”な鴨だしが楽しめるはなまるうどん全国初登場の「鴨ねぎうどん」「鴨せいろうどん」2種を10月22日（木）より期間限定販売",
+     "link": "https://prtimes.jp/main/html/rd/p/000000612.000019432.html",
+     "source": "PR TIMES",
+     "image": "https://prcdn.freetls.fastly.net/release_image/19432/612/19432-612-4248dd20d57e6e2e62786ff828947436-1920x1080.jpg?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260"
+    },
+    {
+     "id": "22c752bdae3f62e9",
+     "title": "資さんうどん、史上初“まさかの”「ナポリタンうどん」登場 期間＆店舗限定で販売【全25店舗一覧】",
+     "link": "https://www.oricon.co.jp/news/2487771/full/",
+     "source": "オリコンニュース",
+     "image": "https://contents.oricon.co.jp/upimg/news/2488000/2487771/20261021_094047_p_o_98287945.jpg"
+    },
+    {
+     "id": "ff94fa5b787081e5",
+     "title": "画像・写真 | 資さんうどん、史上初“まさかの”「ナポリタンうどん」登場 期間＆店舗限定で販売【全25店舗一覧】 10枚目",
+     "link": "https://www.oricon.co.jp/news/2487771/photo/10/",
+     "source": "オリコンニュース",
+     "image": "https://contents.oricon.co.jp/upimg/news/2488000/2487771/20261021_094040_p_o_82959192.jpg"
     }
    ]
   },
