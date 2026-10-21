@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-21T21:32:23+00:00",
+ "updated": "2026-10-21T22:31:13+00:00",
  "days": [
   "2026-10-09",
   "2026-10-10",
@@ -22,9 +22,9 @@
    "label": "とんかつ",
    "q": "とんかつ",
    "kind": "dish",
-   "recent": 2,
+   "recent": 3,
    "base_per_day": 0.0,
-   "ratio": 2.5,
+   "ratio": 3.5,
    "new": true,
    "daily": [
     0,
@@ -39,7 +39,7 @@
     0,
     0,
     0,
-    2,
+    3,
     0
    ],
    "articles": [
@@ -51,11 +51,66 @@
      "image": "https://jouhou.nagoya/wp-content/uploads/2022/04/wadafuku-kakuouzan09-600x450.jpg"
     },
     {
+     "id": "a31522071ccbc9b5",
+     "title": "栄センパに「とんかつ知多家」発の新ブランド「土鍋ごはん× ...",
+     "link": "https://nagoyato.com/posts/20276",
+     "source": "nagoyato",
+     "image": "https://nagoyato.com/wp-content/uploads/2026/10/261021sub1.jpg"
+    },
+    {
      "id": "a74ae6cd5a2e7aaa",
      "title": "1988年創業「とんかつ知多家」から新ブランド誕生土鍋ごはんと多彩な豆皿で味わう、とんかつの新しいかたち「土鍋ごはん×とんかつ CHITAKA」10月29日（木）名古屋・栄にオープン | チタカ・インターナショナル・フーズ株式会社のプレスリリース",
      "link": "https://prtimes.jp/main/html/rd/p/000000050.000023738.html",
      "source": "PR TIMES",
      "image": "https://prcdn.freetls.fastly.net/release_image/23738/50/23738-50-f7c1b4cb7aee646c6f61348514eba43f-1147x764.jpg?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260"
+    }
+   ]
+  },
+  {
+   "label": "鍋",
+   "q": "鍋",
+   "kind": "dish",
+   "recent": 4,
+   "base_per_day": 0.27,
+   "ratio": 2.48,
+   "new": false,
+   "daily": [
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    1,
+    1,
+    0,
+    0,
+    0,
+    1,
+    3,
+    0
+   ],
+   "articles": [
+    {
+     "id": "a31522071ccbc9b5",
+     "title": "栄センパに「とんかつ知多家」発の新ブランド「土鍋ごはん× ...",
+     "link": "https://nagoyato.com/posts/20276",
+     "source": "nagoyato",
+     "image": "https://nagoyato.com/wp-content/uploads/2026/10/261021sub1.jpg"
+    },
+    {
+     "id": "a74ae6cd5a2e7aaa",
+     "title": "1988年創業「とんかつ知多家」から新ブランド誕生土鍋ごはんと多彩な豆皿で味わう、とんかつの新しいかたち「土鍋ごはん×とんかつ CHITAKA」10月29日（木）名古屋・栄にオープン | チタカ・インターナショナル・フーズ株式会社のプレスリリース",
+     "link": "https://prtimes.jp/main/html/rd/p/000000050.000023738.html",
+     "source": "PR TIMES",
+     "image": "https://prcdn.freetls.fastly.net/release_image/23738/50/23738-50-f7c1b4cb7aee646c6f61348514eba43f-1147x764.jpg?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260"
+    },
+    {
+     "id": "15e0a85e1b335c15",
+     "title": "アルミ鍋のまま火にかけて楽しむ出来たての味！「肉吸い」発祥「千とせ本店」監修肉うどん＆「大久手山本屋」監修味噌煮込みうどんを発売",
+     "link": "https://nihombashi.keizai.biz/release/668473/",
+     "source": "日本橋経済新聞",
+     "image": "https://prcdn.freetls.fastly.net/release_image/155396/1284/155396-1284-b6f25b6d772f612909af2a889591a5c8-3900x2600.jpg?width=536&quality=85%2C75&format=jpeg&auto=webp&fit=bounds&bg-color=fff"
     }
    ]
   },
@@ -193,54 +248,6 @@
      "link": "https://news.infoseek.co.jp/amp/article/otonanswer_402706/",
      "source": "Infoseek",
      "image": "https://media.image.infoseek.co.jp/isnews/photos/otonanswer/otonanswer_402706_0-enlarge.jpg"
-    }
-   ]
-  },
-  {
-   "label": "鍋",
-   "q": "鍋",
-   "kind": "dish",
-   "recent": 3,
-   "base_per_day": 0.27,
-   "ratio": 1.93,
-   "new": false,
-   "daily": [
-    0,
-    0,
-    0,
-    1,
-    0,
-    0,
-    1,
-    1,
-    0,
-    0,
-    0,
-    1,
-    2,
-    0
-   ],
-   "articles": [
-    {
-     "id": "a74ae6cd5a2e7aaa",
-     "title": "1988年創業「とんかつ知多家」から新ブランド誕生土鍋ごはんと多彩な豆皿で味わう、とんかつの新しいかたち「土鍋ごはん×とんかつ CHITAKA」10月29日（木）名古屋・栄にオープン | チタカ・インターナショナル・フーズ株式会社のプレスリリース",
-     "link": "https://prtimes.jp/main/html/rd/p/000000050.000023738.html",
-     "source": "PR TIMES",
-     "image": "https://prcdn.freetls.fastly.net/release_image/23738/50/23738-50-f7c1b4cb7aee646c6f61348514eba43f-1147x764.jpg?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260"
-    },
-    {
-     "id": "15e0a85e1b335c15",
-     "title": "アルミ鍋のまま火にかけて楽しむ出来たての味！「肉吸い」発祥「千とせ本店」監修肉うどん＆「大久手山本屋」監修味噌煮込みうどんを発売",
-     "link": "https://nihombashi.keizai.biz/release/668473/",
-     "source": "日本橋経済新聞",
-     "image": "https://prcdn.freetls.fastly.net/release_image/155396/1284/155396-1284-b6f25b6d772f612909af2a889591a5c8-3900x2600.jpg?width=536&quality=85%2C75&format=jpeg&auto=webp&fit=bounds&bg-color=fff"
-    },
-    {
-     "id": "12ed131ef6be1304",
-     "title": "【すき家】今年も「牛すき鍋定食」「牛・胡麻麻辣湯鍋定食」が登場 肌寒くなる季節に、熱々の鍋で具材をたっぷり堪能！",
-     "link": "https://prtimes.jp/main/html/rd/p/000001175.000097263.html",
-     "source": "PR TIMES",
-     "image": "https://prcdn.freetls.fastly.net/release_image/97263/1175/97263-1175-26c8b2a5e4545ecb4f9750f32fe202d4-1460x2064.jpg?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260"
     }
    ]
   },

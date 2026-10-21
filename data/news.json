@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-22T06:31:35+09:00",
+ "updated": "2026-10-22T07:30:46+09:00",
  "items": [
   {
    "id": "0b49fa336e3af36e",
@@ -344,6 +344,22 @@
    "image_v4": true,
    "shop": false,
    "shop_name": null
+  },
+  {
+   "id": "a31522071ccbc9b5",
+   "title": "栄センパに「とんかつ知多家」発の新ブランド「土鍋ごはん× ...",
+   "link": "https://nagoyato.com/posts/20276",
+   "source": "nagoyato",
+   "image": "https://nagoyato.com/wp-content/uploads/2026/10/261021sub1.jpg",
+   "category": "shinten",
+   "area": "名古屋",
+   "published": "2026-10-21T12:00:00+09:00",
+   "provider": "bing",
+   "added": "2026-10-22T07:30:46+09:00",
+   "image_checked": true,
+   "image_v4": true,
+   "shop": true,
+   "shop_name": "とんかつ知多家"
   },
   {
    "id": "5463a0063ed3f372",
@@ -6432,40 +6448,6 @@
    "start": "2026-10-01",
    "end": "2026-10-01",
    "group": "7e82f7210cb9"
-  },
-  {
-   "id": "e471f660bcf244bc",
-   "title": "【名古屋の人気店監修！大盛り仕様で494円！】セブン‐イレブンのお得な旨辛コンビニ麺に歓喜！",
-   "link": "https://news.yahoo.co.jp/expert/articles/1cc058f488f34254b281da11e6e1e417d2f18bd3",
-   "source": "Yahoo!ニュース",
-   "image": "https://newsatcl-pctr.c.yimg.jp/t/iwiz-yn/creators/kyaputenfukuda/02736854/title-1791272517763.jpeg?exp=10800",
-   "category": "deka",
-   "area": "名古屋",
-   "published": "2026-10-12T00:35:20+09:00",
-   "provider": "google",
-   "added": "2026-10-12T01:18:58+09:00",
-   "decode_v2": true,
-   "image_checked": true,
-   "image_v4": true,
-   "shop": false,
-   "shop_name": null
-  },
-  {
-   "id": "1c5ef8c710db3f40",
-   "title": "【がブリチキン。×SKE48】メンバー考案の“コラボからあげ”＆“コラボドリンク”が登場！販売数でチーム対抗、勝者には「からあげ年間無料券」",
-   "link": "https://prtimes.jp/main/html/rd/p/000000160.000051168.html",
-   "source": "PR TIMES",
-   "image": "https://prcdn.freetls.fastly.net/release_image/51168/160/51168-160-9813c9ae0346728d62b72bb82abb444c-1600x800.jpg?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260",
-   "category": "chain",
-   "area": "東海",
-   "published": "2026-10-11T19:00:01+09:00",
-   "provider": "google",
-   "added": "2026-10-11T19:18:40+09:00",
-   "decode_v2": true,
-   "image_checked": true,
-   "image_v4": true,
-   "shop": false,
-   "shop_name": null
   }
  ]
 }
