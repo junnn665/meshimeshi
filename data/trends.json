@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-21T17:30:52+00:00",
+ "updated": "2026-10-21T18:34:09+00:00",
  "days": [
   "2026-10-09",
   "2026-10-10",
@@ -56,6 +56,54 @@
      "link": "https://prtimes.jp/main/html/rd/p/000000050.000023738.html",
      "source": "PR TIMES",
      "image": "https://prcdn.freetls.fastly.net/release_image/23738/50/23738-50-f7c1b4cb7aee646c6f61348514eba43f-1147x764.jpg?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260"
+    }
+   ]
+  },
+  {
+   "label": "うどん",
+   "q": "うどん",
+   "kind": "dish",
+   "recent": 8,
+   "base_per_day": 1.0,
+   "ratio": 2.12,
+   "new": false,
+   "daily": [
+    0,
+    0,
+    0,
+    1,
+    4,
+    2,
+    0,
+    2,
+    1,
+    1,
+    0,
+    1,
+    6,
+    1
+   ],
+   "articles": [
+    {
+     "id": "0b49fa336e3af36e",
+     "title": "『資さんうどん』キッチンカーが栄・久屋大通公園に10月24日、25日限定登場",
+     "link": "https://jouhou.nagoya/sukesanudon-202610/",
+     "source": "名古屋情報通",
+     "image": "https://jouhou.nagoya/wp-content/uploads/2026/10/sukesanudon005-600x390.jpg"
+    },
+    {
+     "id": "6ffac80dc6ec341c",
+     "title": "史上初！資さんうどんにナポリタンうどんが登場！目玉焼きのせ熱々鉄板で期間限定販売",
+     "link": "https://report.iko-yo.net/articles/34972",
+     "source": "いこーよニュース",
+     "image": "https://d28w2qw7dtr435.cloudfront.net/uploaded/cover_images/images/35056/normal.jpg?1792551475"
+    },
+    {
+     "id": "208ebea47020e50c",
+     "title": "深まる秋の食欲を満たす“旨み濃香”な鴨だしが楽しめるはなまるうどん全国初登場の「鴨ねぎうどん」「鴨せいろうどん」2種を10月22日（木）より期間限定販売",
+     "link": "https://prtimes.jp/main/html/rd/p/000000612.000019432.html",
+     "source": "PR TIMES",
+     "image": "https://prcdn.freetls.fastly.net/release_image/19432/612/19432-612-4248dd20d57e6e2e62786ff828947436-1920x1080.jpg?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260"
     }
    ]
   },
@@ -193,54 +241,6 @@
      "link": "https://prtimes.jp/main/html/rd/p/000001175.000097263.html",
      "source": "PR TIMES",
      "image": "https://prcdn.freetls.fastly.net/release_image/97263/1175/97263-1175-26c8b2a5e4545ecb4f9750f32fe202d4-1460x2064.jpg?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260"
-    }
-   ]
-  },
-  {
-   "label": "うどん",
-   "q": "うどん",
-   "kind": "dish",
-   "recent": 7,
-   "base_per_day": 1.0,
-   "ratio": 1.88,
-   "new": false,
-   "daily": [
-    0,
-    0,
-    0,
-    1,
-    4,
-    2,
-    0,
-    2,
-    1,
-    1,
-    0,
-    1,
-    6,
-    0
-   ],
-   "articles": [
-    {
-     "id": "6ffac80dc6ec341c",
-     "title": "史上初！資さんうどんにナポリタンうどんが登場！目玉焼きのせ熱々鉄板で期間限定販売",
-     "link": "https://report.iko-yo.net/articles/34972",
-     "source": "いこーよニュース",
-     "image": "https://d28w2qw7dtr435.cloudfront.net/uploaded/cover_images/images/35056/normal.jpg?1792551475"
-    },
-    {
-     "id": "208ebea47020e50c",
-     "title": "深まる秋の食欲を満たす“旨み濃香”な鴨だしが楽しめるはなまるうどん全国初登場の「鴨ねぎうどん」「鴨せいろうどん」2種を10月22日（木）より期間限定販売",
-     "link": "https://prtimes.jp/main/html/rd/p/000000612.000019432.html",
-     "source": "PR TIMES",
-     "image": "https://prcdn.freetls.fastly.net/release_image/19432/612/19432-612-4248dd20d57e6e2e62786ff828947436-1920x1080.jpg?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260"
-    },
-    {
-     "id": "22c752bdae3f62e9",
-     "title": "資さんうどん、史上初“まさかの”「ナポリタンうどん」登場 期間＆店舗限定で販売【全25店舗一覧】",
-     "link": "https://www.oricon.co.jp/news/2487771/full/",
-     "source": "オリコンニュース",
-     "image": "https://contents.oricon.co.jp/upimg/news/2488000/2487771/20261021_094047_p_o_98287945.jpg"
     }
    ]
   },
