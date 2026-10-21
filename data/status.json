@@ -1,15 +1,15 @@
 {
- "updated": "2026-10-21T20:32:56+09:00",
- "items": 377,
- "with_image": 350,
- "google_decode_ok": 26,
+ "updated": "2026-10-21T21:38:26+09:00",
+ "items": 376,
+ "with_image": 349,
+ "google_decode_ok": 25,
  "google_decode_failed": 0,
  "google_decode_samples": [],
  "image_failures": [
-  "www.at-s.com: HTTPError: HTTP Error 403: Forbidden",
   "media.unisba.ac.id: HTTPError: HTTP Error 403: Forbidden",
+  "media.unisba.ac.id: HTTPError: HTTP Error 403: Forbidden",
+  "biz.chunichi.co.jp: HTTPError: HTTP Error 403: Forbidden",
   "www.excite.co.jp: HTTPError: HTTP Error 403: Forbidden",
-  "thetv.jp: og:image なし (42431 文字)",
-  "biz.chunichi.co.jp: HTTPError: HTTP Error 403: Forbidden"
+  "thetv.jp: og:image なし (42432 文字)"
  ]
 }
