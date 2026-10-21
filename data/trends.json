@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-21T06:39:05+00:00",
+ "updated": "2026-10-21T07:43:30+00:00",
  "days": [
   "2026-10-08",
   "2026-10-09",
@@ -22,9 +22,9 @@
    "label": "韓国グルメ",
    "q": "韓国",
    "kind": "dish",
-   "recent": 2,
+   "recent": 3,
    "base_per_day": 0.0,
-   "ratio": 2.5,
+   "ratio": 3.5,
    "new": true,
    "daily": [
     0,
@@ -40,9 +40,16 @@
     0,
     1,
     1,
-    0
+    1
    ],
    "articles": [
+    {
+     "id": "f45f47c5cbcd9d6e",
+     "title": "韓国120店舗の行列チュロスが神奈川県大和市初出店！！神奈川2店舗目へ！「STREET CHURROS」10月23日(金)イオンモール大和にOPEN｜16種の穀物×金賞ソフトの\"罪悪感ゼロ\"スイーツ",
+     "link": "https://prtimes.jp/main/html/rd/p/000000018.000154644.html",
+     "source": "PR TIMES",
+     "image": "https://prcdn.freetls.fastly.net/release_image/154644/18/154644-18-fbc8a27fce2d960aaadcb9018f95c094-1000x1000.jpg?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260"
+    },
     {
      "id": "11804cea4cf05e01",
      "title": "たこ焼きの中身は近江牛！ 名神下り線の多賀SAに新店オープン 韓国グルメや生チュロスも",
