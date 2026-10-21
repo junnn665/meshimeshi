@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-21T08:36:25+00:00",
+ "updated": "2026-10-21T09:33:06+00:00",
  "days": [
   "2026-10-08",
   "2026-10-09",
@@ -63,6 +63,47 @@
      "link": "https://prtimes.jp/main/html/rd/p/000000197.000153055.html",
      "source": "PR TIMES",
      "image": "https://prcdn.freetls.fastly.net/release_image/153055/197/153055-197-e72197f044d1e3664073ccb5da818d15-1768x770.jpg?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260"
+    }
+   ]
+  },
+  {
+   "label": "とんかつ",
+   "q": "とんかつ",
+   "kind": "dish",
+   "recent": 2,
+   "base_per_day": 0.0,
+   "ratio": 2.5,
+   "new": true,
+   "daily": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    2
+   ],
+   "articles": [
+    {
+     "id": "3dd680cc8d578108",
+     "title": "覚王山発のとんかつ専門店『わだ福』が西区・四間道にオープン",
+     "link": "https://jouhou.nagoya/wadafuku-shikemichi/",
+     "source": "名古屋情報通",
+     "image": "https://jouhou.nagoya/wp-content/uploads/2022/04/wadafuku-kakuouzan09-600x450.jpg"
+    },
+    {
+     "id": "a74ae6cd5a2e7aaa",
+     "title": "1988年創業「とんかつ知多家」から新ブランド誕生土鍋ごはんと多彩な豆皿で味わう、とんかつの新しいかたち「土鍋ごはん×とんかつ CHITAKA」10月29日（木）名古屋・栄にオープン | チタカ・インターナショナル・フーズ株式会社のプレスリリース",
+     "link": "https://prtimes.jp/main/html/rd/p/000000050.000023738.html",
+     "source": "PR TIMES",
+     "image": "https://prcdn.freetls.fastly.net/release_image/23738/50/23738-50-f7c1b4cb7aee646c6f61348514eba43f-1147x764.jpg?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260"
     }
    ]
   },
