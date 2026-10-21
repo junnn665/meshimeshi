@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-21T21:38:26+09:00",
+ "updated": "2026-10-21T22:40:04+09:00",
  "items": [
   {
    "id": "6e0c5d9ee3ff2d7d",
@@ -51,6 +51,23 @@
    "image_v4": true,
    "shop": true,
    "shop_name": "BIKKURI LUNCH2026"
+  },
+  {
+   "id": "8a05ea730f9ab89c",
+   "title": "スガキヤの二郎系ラーメン「スガジロー」と新作油そばが10月22日から限定登場",
+   "link": "https://jouhou.nagoya/sugakiya-sugajiro2026/",
+   "source": "名古屋情報通",
+   "image": "https://jouhou.nagoya/wp-content/uploads/2026/10/sugakiya-sugajiro001-600x337.jpg",
+   "category": "chain",
+   "area": "東海",
+   "published": "2026-10-21T18:43:49+09:00",
+   "provider": "google",
+   "added": "2026-10-21T22:40:04+09:00",
+   "decode_v2": true,
+   "image_checked": true,
+   "image_v4": true,
+   "shop": false,
+   "shop_name": null
   },
   {
    "id": "a99a1273cd56a3a2",
@@ -6424,6 +6441,22 @@
    "published": "2026-10-11T07:00:00+09:00",
    "provider": "bing",
    "added": "2026-10-17T01:30:40+09:00",
+   "image_checked": true,
+   "image_v4": true,
+   "shop": false,
+   "shop_name": null
+  },
+  {
+   "id": "6e10348085704c29",
+   "title": "物価高も何のその…「満足してもらいたい」とデカ盛りにこだわり ...",
+   "link": "https://www.fnn.jp/articles/-/1130792",
+   "source": "FNNプライムオンライン",
+   "image": "https://fnn.ismcdn.jp/mwimgs/3/a/600/img_3aa0714dc31e01d7b876f4d3159c1f74310218.jpg",
+   "category": "deka",
+   "area": "東海",
+   "published": "2026-10-11T02:00:00+09:00",
+   "provider": "bing",
+   "added": "2026-10-21T22:40:04+09:00",
    "image_checked": true,
    "image_v4": true,
    "shop": false,
