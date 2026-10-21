@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-21T10:36:03+09:00",
+ "updated": "2026-10-21T11:30:55+09:00",
  "items": [
   {
    "id": "a74ae6cd5a2e7aaa",
@@ -70,6 +70,27 @@
    "start": "2026-11-14",
    "end": "2026-11-14",
    "group": "9766392a709a"
+  },
+  {
+   "id": "8de534a017de6229",
+   "title": "【名古屋タカシマヤ】グルメ、コスメ、雑貨まで、暮らしを豊かにする“米の可能性”を発信「お米フェスティバル！」を初開催！",
+   "link": "https://prtimes.jp/main/html/rd/p/000000510.000047031.html",
+   "source": "PR TIMES",
+   "image": "https://prcdn.freetls.fastly.net/release_image/47031/510/47031-510-77d5ea556d89813c7ea95d2272dc20c3-750x750.jpg?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260",
+   "category": "event",
+   "area": "名古屋",
+   "published": "2026-10-21T02:00:00+09:00",
+   "provider": "bing",
+   "added": "2026-10-21T11:30:55+09:00",
+   "image_checked": true,
+   "image_v4": true,
+   "shop": false,
+   "shop_name": null,
+   "venue": "ジェイアール名古屋タカシマヤ",
+   "lat": 35.17123,
+   "lng": 136.88272,
+   "place": "indoor",
+   "group": "8ce4dbd90a54"
   },
   {
    "id": "15e0a85e1b335c15",
@@ -6467,6 +6488,27 @@
    "image_v4": true,
    "shop": false,
    "shop_name": null
+  },
+  {
+   "id": "719e740e24c5e8df",
+   "title": "ジェイアール名古屋タカシマヤ「魅惑のパンフェスタ」に、BANKAKU ...",
+   "link": "https://www.jiji.com/jc/article?k=000000109.000078605&g=prt",
+   "source": "時事ドットコム",
+   "image": "https://prcdn.freetls.fastly.net/release_image/78605/109/78605-109-c714bf899a82ce51a3659583c0a64c24-1690x403.png?width=536&quality=85%2C75&format=jpeg",
+   "category": "event",
+   "area": "名古屋",
+   "published": "2026-10-10T02:00:00+09:00",
+   "provider": "bing",
+   "added": "2026-10-21T11:30:55+09:00",
+   "image_checked": true,
+   "image_v4": true,
+   "shop": false,
+   "shop_name": null,
+   "venue": "ジェイアール名古屋タカシマヤ",
+   "lat": 35.17123,
+   "lng": 136.88272,
+   "place": "indoor",
+   "group": "7864702ee677"
   }
  ]
 }
