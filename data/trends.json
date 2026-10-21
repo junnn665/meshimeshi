@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-21T10:34:17+00:00",
+ "updated": "2026-10-21T11:33:21+00:00",
  "days": [
   "2026-10-08",
   "2026-10-09",
@@ -248,6 +248,54 @@
      "link": "https://www.oricon.co.jp/news/2487771/full/",
      "source": "オリコンニュース",
      "image": "https://contents.oricon.co.jp/upimg/news/2488000/2487771/20261021_094047_p_o_98287945.jpg"
+    }
+   ]
+  },
+  {
+   "label": "弁当",
+   "q": "弁当",
+   "kind": "dish",
+   "recent": 3,
+   "base_per_day": 0.36,
+   "ratio": 1.67,
+   "new": false,
+   "daily": [
+    0,
+    0,
+    0,
+    0,
+    2,
+    0,
+    1,
+    0,
+    1,
+    0,
+    0,
+    1,
+    1,
+    1
+   ],
+   "articles": [
+    {
+     "id": "f2688191da6ff772",
+     "title": "HUBアスティ静岡店が、和栗を味わう全国一斉ランチ会「BIKKURI LUNCH2026」の静岡会場に！東海軒の和栗ご飯弁当を楽しもう",
+     "link": "https://getnews.jp/archives/3750281",
+     "source": "ガジェット通信",
+     "image": "https://straightpress.jp/wp-content/uploads/2026/10/Tana2610211224main.jpg"
+    },
+    {
+     "id": "a57e50c856737fd3",
+     "title": "【10月20日発売】ファミリーマート ランチにおすすめ新商品まとめ 「鉄板焼ハンバーグ弁当（コク深デミソース）」「生姜香る具だくさん中華スープ」など",
+     "link": "https://entabe.jp/61883/summary-familymart-october-20th-new-lunch",
+     "source": "えん食べ [グルメニュース]",
+     "image": "https://image.entabe.jp/upload/20261018/images/thumb_familymart_1020_lunch.jpg"
+    },
+    {
+     "id": "df856f7b4933db74",
+     "title": "【コープデリ】日本栄養大学食文化栄養学科の学生が開発した、スマートミール基準の弁当「サバとごぼうの韓国風甘辛だれ弁当」10月19日（月）から会員5生協の店舗で発売",
+     "link": "https://prtimes.jp/main/html/rd/p/000000197.000153055.html",
+     "source": "PR TIMES",
+     "image": "https://prcdn.freetls.fastly.net/release_image/153055/197/153055-197-e72197f044d1e3664073ccb5da818d15-1768x770.jpg?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260"
     }
    ]
   },
