@@ -1,8 +1,8 @@
 {
- "updated": "2026-10-22T03:33:45+09:00",
- "items": 380,
- "with_image": 353,
- "google_decode_ok": 23,
+ "updated": "2026-10-22T04:33:08+09:00",
+ "items": 378,
+ "with_image": 351,
+ "google_decode_ok": 24,
  "google_decode_failed": 0,
  "google_decode_samples": [],
  "image_failures": [
@@ -12,6 +12,6 @@
   "ebina-zama-ayase.goguynet.jp: og:image なし (14 文字)",
   "biz.chunichi.co.jp: HTTPError: HTTP Error 403: Forbidden",
   "www.excite.co.jp: HTTPError: HTTP Error 403: Forbidden",
-  "thetv.jp: og:image なし (42451 文字)"
+  "thetv.jp: og:image なし (42448 文字)"
  ]
 }
