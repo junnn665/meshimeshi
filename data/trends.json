@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-21T02:31:22+00:00",
+ "updated": "2026-10-21T03:31:36+00:00",
  "days": [
   "2026-10-08",
   "2026-10-09",
@@ -56,6 +56,54 @@
      "link": "https://prtimes.jp/main/html/rd/p/000000197.000153055.html",
      "source": "PR TIMES",
      "image": "https://prcdn.freetls.fastly.net/release_image/153055/197/153055-197-e72197f044d1e3664073ccb5da818d15-1768x770.jpg?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260"
+    }
+   ]
+  },
+  {
+   "label": "寿司",
+   "q": "寿司",
+   "kind": "dish",
+   "recent": 5,
+   "base_per_day": 0.55,
+   "ratio": 2.09,
+   "new": false,
+   "daily": [
+    0,
+    0,
+    1,
+    0,
+    0,
+    1,
+    3,
+    0,
+    1,
+    0,
+    0,
+    2,
+    3,
+    0
+   ],
+   "articles": [
+    {
+     "id": "1077920951faba9f",
+     "title": "伊勢海老や鮑、金目鯛など海の幸を新春の食卓に。南房総を拠点に水産卸・寿司店を展開するヤマトサカナが「2027年 特製おせち2段重」を10月21日予約開始！3,000円分の優待券付き",
+     "link": "https://prtimes.jp/main/html/rd/p/000000316.000030130.html",
+     "source": "PR TIMES",
+     "image": "https://prcdn.freetls.fastly.net/release_image/30130/316/30130-316-59e8059cf5851a9ddb84838901ce08d4-868x1227.jpg?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260"
+    },
+    {
+     "id": "9261e5c4e574bdd1",
+     "title": "【ゆず庵】大とろサーモンや中とろなどの“食べ比べ寿司”が11月10日(火)より新登場！本日より10店舗で先行販売開始",
+     "link": "https://prtimes.jp/main/html/rd/p/000001563.000044964.html",
+     "source": "PR TIMES",
+     "image": "https://prcdn.freetls.fastly.net/release_image/44964/1563/44964-1563-665b2425070435b06631d8db34105c59-1910x1000.jpg?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260"
+    },
+    {
+     "id": "7424528bb4eaa761",
+     "title": "グルメ回転寿司「廻鮮江戸前すし魚魚丸」が名古屋市天白区にOPEN！藁焼きショーで炙ったかつおにぎりも記念価格に",
+     "link": "https://trilltrill.jp/articles/5117786",
+     "source": "TRILL",
+     "image": "https://media.trilltrill.jp/articles/5117786/featured-image.3babd7c4145957b6302b316a70b61e4c?w=1200"
     }
    ]
   },
