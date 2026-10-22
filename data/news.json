@@ -1,6 +1,43 @@
 {
- "updated": "2026-10-22T08:28:03+09:00",
+ "updated": "2026-10-22T09:40:06+09:00",
  "items": [
+  {
+   "id": "191e21b9b70564ce",
+   "title": "【東海】2026年10月24日・25日週末開催の無料イベント15選 フェスタ＆秋祭り＆グルメ",
+   "link": "https://report.iko-yo.net/articles/34807",
+   "source": "いこーよニュース",
+   "image": "https://d28w2qw7dtr435.cloudfront.net/uploaded/cover_images/images/35064/normal.jpg?1792559546",
+   "category": "event",
+   "area": "東海",
+   "published": "2026-10-22T09:03:29+09:00",
+   "provider": "google",
+   "added": "2026-10-22T09:40:06+09:00",
+   "decode_v2": true,
+   "image_checked": true,
+   "image_v4": true,
+   "shop": false,
+   "shop_name": null,
+   "start": "2026-10-24",
+   "end": "2026-10-25",
+   "group": "cc1950d147a9"
+  },
+  {
+   "id": "1d8dca5e75d225fb",
+   "title": "全女性がトキメキ必至！「セーラームーンカフェ2019」が名古屋ラシックにオープン!!",
+   "link": "https://www.walkerplus.com/article/206651/",
+   "source": "ウォーカープラス",
+   "image": "https://news.walkerplus.com/article/206651/1258895_615.jpg",
+   "category": "shinten",
+   "area": "名古屋",
+   "published": "2026-10-22T06:03:20+09:00",
+   "provider": "google",
+   "added": "2026-10-22T09:40:06+09:00",
+   "decode_v2": true,
+   "image_checked": true,
+   "image_v4": true,
+   "shop": true,
+   "shop_name": "セーラームーンカフェ2019"
+  },
   {
    "id": "0b49fa336e3af36e",
    "title": "『資さんうどん』キッチンカーが栄・久屋大通公園に10月24日、25日限定登場",
@@ -6424,30 +6461,6 @@
    "image_v4": true,
    "shop": false,
    "shop_name": null
-  },
-  {
-   "id": "c16131a3c8a3232d",
-   "title": "松坂屋名古屋店で秋の大北海道物産展が10月1日から開催へ 限定スイーツ等が登場",
-   "link": "https://news.dellows.jp/451296/?from=related-reading-list",
-   "source": "Dellows News",
-   "image": "https://news.dellows.jp/wp-content/uploads/2026/09/451296_1.jpg",
-   "category": "event",
-   "area": "名古屋",
-   "published": "2026-10-12T01:36:55+09:00",
-   "provider": "google",
-   "added": "2026-10-16T17:36:13+09:00",
-   "decode_v2": true,
-   "image_checked": true,
-   "image_v4": true,
-   "shop": false,
-   "shop_name": null,
-   "venue": "松坂屋名古屋店",
-   "lat": 35.16503,
-   "lng": 136.90765,
-   "place": "indoor",
-   "start": "2026-10-01",
-   "end": "2026-10-01",
-   "group": "7e82f7210cb9"
   }
  ]
 }
