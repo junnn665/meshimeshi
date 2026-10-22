@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-22T09:34:41+00:00",
+ "updated": "2026-10-22T10:33:53+00:00",
  "days": [
   "2026-10-09",
   "2026-10-10",
@@ -22,9 +22,9 @@
    "label": "パフェ",
    "q": "パフェ",
    "kind": "dish",
-   "recent": 5,
+   "recent": 6,
    "base_per_day": 0.18,
-   "ratio": 3.56,
+   "ratio": 4.21,
    "new": false,
    "daily": [
     0,
@@ -40,9 +40,16 @@
     0,
     1,
     1,
-    3
+    4
    ],
    "articles": [
+    {
+     "id": "2dc044d46ab122c7",
+     "title": "【10月20日〜発売】セブン・ファミマ・ローソン新作スイーツ特集｜「Uchi Café×ゴディバ ショコラパフェ」・「ダブルクリームエクレア」など注目デザートまとめ",
+     "link": "https://topics.smt.docomo.ne.jp/amp/article/entabe/trend/entabe-61909",
+     "source": "ｄメニューニュース",
+     "image": "https://img.topics.smt.news.goo.ne.jp/picture/entabe/m_entabe-61909.jpg"
+    },
     {
      "id": "07b4eee66b2d0ef2",
      "title": "【ニッコースタイル名古屋】岐阜県産富有柿とマスカルポーネのパフェを11月1日より提供",
@@ -56,13 +63,6 @@
      "link": "https://news.nicovideo.jp/watch/nw19905449?news_ref=search_search",
      "source": "ニコニコニュース",
      "image": null
-    },
-    {
-     "id": "b8bac9fdc1e71a98",
-     "title": "【タカノフルーツパーラー】色づく秋の景色を一杯に表現した「秋色パフェ」 りんごや洋梨、柿と和素材が織りなす季節限定メニュー",
-     "link": "https://www.iza.ne.jp/pressrelease/prtimes/4UHQ4WUMWVM7BLUXV5AP7V3LEE/",
-     "source": "イザ！",
-     "image": "https://www.iza.ne.jp/common/images/ogp_default_iza.png"
     }
    ]
   },
@@ -262,9 +262,9 @@
    "label": "弁当",
    "q": "弁当",
    "kind": "dish",
-   "recent": 4,
+   "recent": 5,
    "base_per_day": 0.36,
-   "ratio": 2.15,
+   "ratio": 2.63,
    "new": false,
    "daily": [
     0,
@@ -279,7 +279,7 @@
     0,
     1,
     1,
-    1,
+    2,
     2
    ],
    "articles": [
@@ -303,6 +303,95 @@
      "link": "https://getnews.jp/archives/3750281",
      "source": "ガジェット通信",
      "image": "https://straightpress.jp/wp-content/uploads/2026/10/Tana2610211224main.jpg"
+    }
+   ]
+  },
+  {
+   "label": "ローソン",
+   "q": "ローソン",
+   "kind": "chain",
+   "recent": 3,
+   "base_per_day": 0.27,
+   "ratio": 1.93,
+   "new": false,
+   "daily": [
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    1,
+    1,
+    0,
+    0,
+    1,
+    1,
+    1
+   ],
+   "articles": [
+    {
+     "id": "2dc044d46ab122c7",
+     "title": "【10月20日〜発売】セブン・ファミマ・ローソン新作スイーツ特集｜「Uchi Café×ゴディバ ショコラパフェ」・「ダブルクリームエクレア」など注目デザートまとめ",
+     "link": "https://topics.smt.docomo.ne.jp/amp/article/entabe/trend/entabe-61909",
+     "source": "ｄメニューニュース",
+     "image": "https://img.topics.smt.news.goo.ne.jp/picture/entabe/m_entabe-61909.jpg"
+    },
+    {
+     "id": "5463a0063ed3f372",
+     "title": "ハーゲンダッツジャパン、ハーゲンダッツ「クレイジーバター」をローソン店舗で数量限定発売",
+     "link": "https://www.nikkei.com/article/DGXZRSP714136_R21C26A0000000/",
+     "source": "日本経済新聞",
+     "image": "https://article-image-ix.nikkei.com/https%3A%2F%2Fimgix-proxy.n8s.jp%2FDSXZQO3758095021102026000000-1.jpg?auto=compress&bg=FFFF&crop=focalpoint&fit=crop&fm=jpg&h=630&upscale=false&w=1200&s=68a49c62205622b35cb79068962d3787"
+    },
+    {
+     "id": "7a3f7f4d5cd29e80",
+     "title": "【10月20日～発売】セブン・ファミマ・ローソン新作スイーツ特集｜「Uchi Café×ゴディバ ショコラパフェ」・「ダブルクリームエクレア」など注目デザートまとめ",
+     "link": "https://entabe.jp/amp/61909/seven-eleven-familymart-lawson-new-sweets-october-2026",
+     "source": "えん食べ [グルメニュース]",
+     "image": "https://image.entabe.jp/upload/20261020/images/thumbnail_20261020_web_3.jpg"
+    }
+   ]
+  },
+  {
+   "label": "抹茶",
+   "q": "抹茶",
+   "kind": "dish",
+   "recent": 2,
+   "base_per_day": 0.09,
+   "ratio": 1.96,
+   "new": false,
+   "daily": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    1
+   ],
+   "articles": [
+    {
+     "id": "e72072ad723c5072",
+     "title": "【2026年10月下旬】抹茶味の新商品！西尾の抹茶わらび餅や抹茶ドーナツなどセブン新作まとめ",
+     "link": "https://mognavi.jp/news/matome/gen-newProduct-29156/",
+     "source": "もぐナビ",
+     "image": "https://img1.esimg.jp/blog/wp-content/uploads/2026/10/gen-newProduct-29156.jpg?ts=1792664100000"
+    },
+    {
+     "id": "e0d742b21feca97c",
+     "title": "【2026年10月第3週】コンビニスイーツの新商品！とろける杏仁豆腐や抹茶わらび餅など話題のスイーツまとめ",
+     "link": "https://mognavi.jp/news/matome/gen-newProduct-29092/",
+     "source": "もぐナビ",
+     "image": "https://img1.esimg.jp/blog/wp-content/uploads/2026/10/gen-newProduct-29092.jpg?ts=1792563300000"
     }
    ]
   },
@@ -355,6 +444,102 @@
    ]
   },
   {
+   "label": "寿司",
+   "q": "寿司",
+   "kind": "dish",
+   "recent": 5,
+   "base_per_day": 0.64,
+   "ratio": 1.89,
+   "new": false,
+   "daily": [
+    0,
+    0,
+    0,
+    0,
+    1,
+    3,
+    0,
+    1,
+    0,
+    0,
+    2,
+    3,
+    2,
+    0
+   ],
+   "articles": [
+    {
+     "id": "71b69dd5c90153f5",
+     "title": "「築地すしくろ」名古屋ハエラに東海初出店、本格江戸寿司＆お酒を気軽に楽しむ“寿司酒場”",
+     "link": "https://www.fashion-press.net/news/147005",
+     "source": "ファッションプレス",
+     "image": "https://www.fashion-press.net/img/news/147005/top.jpg?1780405184"
+    },
+    {
+     "id": "b273a5d63a2d0735",
+     "title": "今週新発売のコンビニ寿司・コンビニ弁当",
+     "link": "http://www.excite.co.jp/news/article/Mognavi_2026102102/",
+     "source": "Excite エキサイト",
+     "image": null
+    },
+    {
+     "id": "1077920951faba9f",
+     "title": "伊勢海老や鮑、金目鯛など海の幸を新春の食卓に。南房総を拠点に水産卸・寿司店を展開するヤマトサカナが「2027年 特製おせち2段重」を10月21日予約開始！3,000円分の優待券付き",
+     "link": "https://prtimes.jp/main/html/rd/p/000000316.000030130.html",
+     "source": "PR TIMES",
+     "image": "https://prcdn.freetls.fastly.net/release_image/30130/316/30130-316-59e8059cf5851a9ddb84838901ce08d4-868x1227.jpg?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260"
+    }
+   ]
+  },
+  {
+   "label": "ドーナツ",
+   "q": "ドーナツ",
+   "kind": "dish",
+   "recent": 3,
+   "base_per_day": 0.36,
+   "ratio": 1.67,
+   "new": false,
+   "daily": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    1,
+    1,
+    1,
+    1,
+    0,
+    2
+   ],
+   "articles": [
+    {
+     "id": "e72072ad723c5072",
+     "title": "【2026年10月下旬】抹茶味の新商品！西尾の抹茶わらび餅や抹茶ドーナツなどセブン新作まとめ",
+     "link": "https://mognavi.jp/news/matome/gen-newProduct-29156/",
+     "source": "もぐナビ",
+     "image": "https://img1.esimg.jp/blog/wp-content/uploads/2026/10/gen-newProduct-29156.jpg?ts=1792664100000"
+    },
+    {
+     "id": "76f7ea4e798ad5aa",
+     "title": "箱を開けた瞬間「かわいい！」クリスピー・クリーム・ドーナツ×ルーニー・テューンズのハロウィン限定ドーナツを実食",
+     "link": "https://woman.mynavi.jp/article/261022-2_1160320/",
+     "source": "マイナビウーマン",
+     "image": "https://cdn0.mynvwm.com/wp-content/uploads/2026/10/IMG_5672.jpg"
+    },
+    {
+     "id": "a3bc865daed06f4b",
+     "title": "【ミスタードーナツ】歴代ミスタードーナツに登場したポケモンが大集合！『みんなで集合！冬のポケモンキャンペーン』を数量・期間限定発売",
+     "link": "https://prtimes.jp/main/html/rd/p/000001167.000005720.html",
+     "source": "PR TIMES",
+     "image": "https://prcdn.freetls.fastly.net/release_image/5720/1167/5720-1167-2f39e73f88d004aaba5e437cc66979d2-2069x1464.jpg?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260"
+    }
+   ]
+  },
+  {
    "label": "カレー",
    "q": "カレー",
    "kind": "dish",
@@ -399,95 +584,6 @@
      "link": "https://prtimes.jp/main/html/rd/p/000000132.000015963.html",
      "source": "PR TIMES",
      "image": "https://prcdn.freetls.fastly.net/release_image/15963/132/15963-132-2b30f1333fcc9979d984f0dc28302b2f-1280x670.jpg?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260"
-    }
-   ]
-  },
-  {
-   "label": "ハンバーグ",
-   "q": "ハンバーグ",
-   "kind": "dish",
-   "recent": 3,
-   "base_per_day": 0.36,
-   "ratio": 1.67,
-   "new": false,
-   "daily": [
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    2,
-    1,
-    0,
-    1,
-    0,
-    1,
-    1,
-    1
-   ],
-   "articles": [
-    {
-     "id": "243a87718377e63f",
-     "title": "純系名古屋コーチン100％「白金ハンバーグ」が食のプロから最高評価！ジャパン・フード・セレクションでグランプリ受賞",
-     "link": "https://prtimes.jp/main/html/rd/p/000000002.000182010.html",
-     "source": "PR TIMES",
-     "image": "https://prcdn.freetls.fastly.net/release_image/182010/2/182010-2-02d11fae45826646cceddb0bcc9afe74-1920x1280.png?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260"
-    },
-    {
-     "id": "7494354602a272a9",
-     "title": "【50周年記念でチーズ50％増量】背徳のやりすぎチーズハンバーグを ...",
-     "link": "https://www.atpress.ne.jp/news/1717389",
-     "source": "アットプレス",
-     "image": "https://www.atpress.ne.jp/attachments/BST0Hl2JORZ6KXubaji4.jpeg"
-    },
-    {
-     "id": "a57e50c856737fd3",
-     "title": "【10月20日発売】ファミリーマート ランチにおすすめ新商品まとめ 「鉄板焼ハンバーグ弁当（コク深デミソース）」「生姜香る具だくさん中華スープ」など",
-     "link": "https://entabe.jp/61883/summary-familymart-october-20th-new-lunch",
-     "source": "えん食べ [グルメニュース]",
-     "image": "https://image.entabe.jp/upload/20261018/images/thumb_familymart_1020_lunch.jpg"
-    }
-   ]
-  },
-  {
-   "label": "おにぎり",
-   "q": "おにぎり",
-   "kind": "dish",
-   "recent": 2,
-   "base_per_day": 0.18,
-   "ratio": 1.62,
-   "new": false,
-   "daily": [
-    0,
-    0,
-    0,
-    0,
-    0,
-    2,
-    0,
-    0,
-    0,
-    0,
-    0,
-    2,
-    0,
-    0
-   ],
-   "articles": [
-    {
-     "id": "48a2646dc9d72411",
-     "title": "【マスヤ】 YOASOBIとおにぎりせんべいが再びコラボ！YOASOBIドーム&スタジアムツアー愛知公演記念限定コラボ商品の販売が決定！",
-     "link": "https://prtimes.jp/main/html/rd/p/000000127.000116691.html",
-     "source": "PR TIMES",
-     "image": "https://prcdn.freetls.fastly.net/release_image/116691/127/116691-127-a2deee1dd57148787194d28b70483f95-3900x2289.jpg?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260"
-    },
-    {
-     "id": "7424528bb4eaa761",
-     "title": "グルメ回転寿司「廻鮮江戸前すし魚魚丸」が名古屋市天白区にOPEN！藁焼きショーで炙ったかつおにぎりも記念価格に",
-     "link": "https://trilltrill.jp/articles/5117786",
-     "source": "TRILL",
-     "image": "https://media.trilltrill.jp/articles/5117786/featured-image.3babd7c4145957b6302b316a70b61e4c?w=1200"
     }
    ]
   }
