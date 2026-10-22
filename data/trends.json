@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-22T04:32:29+00:00",
+ "updated": "2026-10-22T05:32:08+00:00",
  "days": [
   "2026-10-09",
   "2026-10-10",
@@ -115,6 +115,54 @@
    ]
   },
   {
+   "label": "パフェ",
+   "q": "パフェ",
+   "kind": "dish",
+   "recent": 4,
+   "base_per_day": 0.18,
+   "ratio": 2.91,
+   "new": false,
+   "daily": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    1,
+    0,
+    1,
+    1,
+    2
+   ],
+   "articles": [
+    {
+     "id": "07b4eee66b2d0ef2",
+     "title": "【ニッコースタイル名古屋】岐阜県産富有柿とマスカルポーネのパフェを11月1日より提供",
+     "link": "https://prtimes.jp/main/html/rd/p/000004418.000002213.html",
+     "source": "PR TIMES",
+     "image": "https://prcdn.freetls.fastly.net/release_image/2213/4418/2213-4418-2404f72bcdd037ba9e474a4b1ea8ccae-3900x2601.jpg?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260"
+    },
+    {
+     "id": "b8bac9fdc1e71a98",
+     "title": "【タカノフルーツパーラー】色づく秋の景色を一杯に表現した「秋色パフェ」 りんごや洋梨、柿と和素材が織りなす季節限定メニュー",
+     "link": "https://www.iza.ne.jp/pressrelease/prtimes/4UHQ4WUMWVM7BLUXV5AP7V3LEE/",
+     "source": "イザ！",
+     "image": "https://www.iza.ne.jp/common/images/ogp_default_iza.png"
+    },
+    {
+     "id": "8e4d924232906737",
+     "title": "【名古屋】季節の味覚を贅沢に味わうコース料理のフィナーレに、人気の2大デザートから選ぶ至福のひととき「 ご褒美パフェ or スイーツスタンドから選べる贅沢フレンチ《乾杯酒付》」販売",
+     "link": "https://prtimes.jp/main/html/rd/p/000001373.000004975.html",
+     "source": "PR TIMES",
+     "image": "https://prcdn.freetls.fastly.net/release_image/4975/1373/4975-1373-01dac78d314598c18af78ccfc6f25d75-1800x1200.jpg?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260"
+    }
+   ]
+  },
+  {
    "label": "うどん",
    "q": "うどん",
    "kind": "dish",
@@ -207,54 +255,6 @@
      "link": "https://article.auone.jp/98b0f532-4656-4cf1-95cf-d0ac09e2414b",
      "source": "au Webポータル",
      "image": "https://newportal.portal.auone.jp/media/thumbnails/2026/10/20/https___news_jp_i_1485164184786781166_w1200.webp"
-    }
-   ]
-  },
-  {
-   "label": "パフェ",
-   "q": "パフェ",
-   "kind": "dish",
-   "recent": 3,
-   "base_per_day": 0.18,
-   "ratio": 2.26,
-   "new": false,
-   "daily": [
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    1,
-    0,
-    0,
-    1,
-    0,
-    1,
-    1,
-    1
-   ],
-   "articles": [
-    {
-     "id": "b8bac9fdc1e71a98",
-     "title": "【タカノフルーツパーラー】色づく秋の景色を一杯に表現した「秋色パフェ」 りんごや洋梨、柿と和素材が織りなす季節限定メニュー",
-     "link": "https://www.iza.ne.jp/pressrelease/prtimes/4UHQ4WUMWVM7BLUXV5AP7V3LEE/",
-     "source": "イザ！",
-     "image": "https://www.iza.ne.jp/common/images/ogp_default_iza.png"
-    },
-    {
-     "id": "8e4d924232906737",
-     "title": "【名古屋】季節の味覚を贅沢に味わうコース料理のフィナーレに、人気の2大デザートから選ぶ至福のひととき「 ご褒美パフェ or スイーツスタンドから選べる贅沢フレンチ《乾杯酒付》」販売",
-     "link": "https://prtimes.jp/main/html/rd/p/000001373.000004975.html",
-     "source": "PR TIMES",
-     "image": "https://prcdn.freetls.fastly.net/release_image/4975/1373/4975-1373-01dac78d314598c18af78ccfc6f25d75-1800x1200.jpg?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260"
-    },
-    {
-     "id": "7a3f7f4d5cd29e80",
-     "title": "【10月20日～発売】セブン・ファミマ・ローソン新作スイーツ特集｜「Uchi Café×ゴディバ ショコラパフェ」・「ダブルクリームエクレア」など注目デザートまとめ",
-     "link": "https://entabe.jp/amp/61909/seven-eleven-familymart-lawson-new-sweets-october-2026",
-     "source": "えん食べ [グルメニュース]",
-     "image": "https://image.entabe.jp/upload/20261020/images/thumbnail_20261020_web_3.jpg"
     }
    ]
   },
