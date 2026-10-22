@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-22T10:33:53+00:00",
+ "updated": "2026-10-22T11:33:53+00:00",
  "days": [
   "2026-10-09",
   "2026-10-10",
@@ -167,15 +167,15 @@
    "q": "うどん",
    "kind": "dish",
    "recent": 10,
-   "base_per_day": 0.91,
-   "ratio": 2.82,
+   "base_per_day": 0.73,
+   "ratio": 3.3,
    "new": false,
    "daily": [
     0,
     0,
     0,
     0,
-    4,
+    2,
     2,
     0,
     2,
@@ -259,6 +259,54 @@
    ]
   },
   {
+   "label": "ローソン",
+   "q": "ローソン",
+   "kind": "chain",
+   "recent": 4,
+   "base_per_day": 0.27,
+   "ratio": 2.48,
+   "new": false,
+   "daily": [
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    1,
+    1,
+    0,
+    0,
+    1,
+    1,
+    2
+   ],
+   "articles": [
+    {
+     "id": "c7dac4c345d40978",
+     "title": "サッポロビール、ローソン限定「サッポロ 小悪魔グレフルサワー」10月27日から数量限定発売",
+     "link": "https://topics.smt.docomo.ne.jp/article/diamondrm/business/diamondrm-561321",
+     "source": "ｄメニューニュース",
+     "image": "https://img.topics.smt.news.goo.ne.jp/picture/diamondrm/m_diamondrm-561321.png"
+    },
+    {
+     "id": "2dc044d46ab122c7",
+     "title": "【10月20日〜発売】セブン・ファミマ・ローソン新作スイーツ特集｜「Uchi Café×ゴディバ ショコラパフェ」・「ダブルクリームエクレア」など注目デザートまとめ",
+     "link": "https://topics.smt.docomo.ne.jp/amp/article/entabe/trend/entabe-61909",
+     "source": "ｄメニューニュース",
+     "image": "https://img.topics.smt.news.goo.ne.jp/picture/entabe/m_entabe-61909.jpg"
+    },
+    {
+     "id": "5463a0063ed3f372",
+     "title": "ハーゲンダッツジャパン、ハーゲンダッツ「クレイジーバター」をローソン店舗で数量限定発売",
+     "link": "https://www.nikkei.com/article/DGXZRSP714136_R21C26A0000000/",
+     "source": "日本経済新聞",
+     "image": "https://article-image-ix.nikkei.com/https%3A%2F%2Fimgix-proxy.n8s.jp%2FDSXZQO3758095021102026000000-1.jpg?auto=compress&bg=FFFF&crop=focalpoint&fit=crop&fm=jpg&h=630&upscale=false&w=1200&s=68a49c62205622b35cb79068962d3787"
+    }
+   ]
+  },
+  {
    "label": "弁当",
    "q": "弁当",
    "kind": "dish",
@@ -303,54 +351,6 @@
      "link": "https://getnews.jp/archives/3750281",
      "source": "ガジェット通信",
      "image": "https://straightpress.jp/wp-content/uploads/2026/10/Tana2610211224main.jpg"
-    }
-   ]
-  },
-  {
-   "label": "ローソン",
-   "q": "ローソン",
-   "kind": "chain",
-   "recent": 3,
-   "base_per_day": 0.27,
-   "ratio": 1.93,
-   "new": false,
-   "daily": [
-    0,
-    0,
-    0,
-    0,
-    1,
-    0,
-    0,
-    1,
-    1,
-    0,
-    0,
-    1,
-    1,
-    1
-   ],
-   "articles": [
-    {
-     "id": "2dc044d46ab122c7",
-     "title": "【10月20日〜発売】セブン・ファミマ・ローソン新作スイーツ特集｜「Uchi Café×ゴディバ ショコラパフェ」・「ダブルクリームエクレア」など注目デザートまとめ",
-     "link": "https://topics.smt.docomo.ne.jp/amp/article/entabe/trend/entabe-61909",
-     "source": "ｄメニューニュース",
-     "image": "https://img.topics.smt.news.goo.ne.jp/picture/entabe/m_entabe-61909.jpg"
-    },
-    {
-     "id": "5463a0063ed3f372",
-     "title": "ハーゲンダッツジャパン、ハーゲンダッツ「クレイジーバター」をローソン店舗で数量限定発売",
-     "link": "https://www.nikkei.com/article/DGXZRSP714136_R21C26A0000000/",
-     "source": "日本経済新聞",
-     "image": "https://article-image-ix.nikkei.com/https%3A%2F%2Fimgix-proxy.n8s.jp%2FDSXZQO3758095021102026000000-1.jpg?auto=compress&bg=FFFF&crop=focalpoint&fit=crop&fm=jpg&h=630&upscale=false&w=1200&s=68a49c62205622b35cb79068962d3787"
-    },
-    {
-     "id": "7a3f7f4d5cd29e80",
-     "title": "【10月20日～発売】セブン・ファミマ・ローソン新作スイーツ特集｜「Uchi Café×ゴディバ ショコラパフェ」・「ダブルクリームエクレア」など注目デザートまとめ",
-     "link": "https://entabe.jp/amp/61909/seven-eleven-familymart-lawson-new-sweets-october-2026",
-     "source": "えん食べ [グルメニュース]",
-     "image": "https://image.entabe.jp/upload/20261020/images/thumbnail_20261020_web_3.jpg"
     }
    ]
   },
@@ -492,6 +492,54 @@
    ]
   },
   {
+   "label": "ファミリーマート",
+   "q": "ファミリーマート",
+   "kind": "chain",
+   "recent": 4,
+   "base_per_day": 0.55,
+   "ratio": 1.71,
+   "new": false,
+   "daily": [
+    0,
+    0,
+    0,
+    0,
+    4,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    3,
+    0,
+    1
+   ],
+   "articles": [
+    {
+     "id": "f7e2bd4c06b58095",
+     "title": "ファミリーマートが「BEYBLADE X」と地域貢献でコラボ！コンビニでのBEYBLADE X体験会を【初】開催！～ファミマこども食堂にてこどもたちの「遊び場」と「居場所」を提供～",
+     "link": "https://prtimes.jp/main/html/rd/p/000002589.000046210.html",
+     "source": "PR TIMES",
+     "image": "https://prcdn.freetls.fastly.net/release_image/46210/2589/46210-2589-1bf5f7511158b8e48280854a2257099d-3900x2928.jpg?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260"
+    },
+    {
+     "id": "2c9b3c90cf3d7ea4",
+     "title": "石川県のソウルフード「チャンピオンカレー」の生カレーが、各地のファミリーマートに順次登場！｜Infoseekニュース",
+     "link": "https://prtimes.jp/main/html/rd/p/000000132.000015963.html",
+     "source": "PR TIMES",
+     "image": "https://prcdn.freetls.fastly.net/release_image/15963/132/15963-132-2b30f1333fcc9979d984f0dc28302b2f-1280x670.jpg?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260"
+    },
+    {
+     "id": "a57e50c856737fd3",
+     "title": "【10月20日発売】ファミリーマート ランチにおすすめ新商品まとめ 「鉄板焼ハンバーグ弁当（コク深デミソース）」「生姜香る具だくさん中華スープ」など",
+     "link": "https://entabe.jp/61883/summary-familymart-october-20th-new-lunch",
+     "source": "えん食べ [グルメニュース]",
+     "image": "https://image.entabe.jp/upload/20261018/images/thumb_familymart_1020_lunch.jpg"
+    }
+   ]
+  },
+  {
    "label": "ドーナツ",
    "q": "ドーナツ",
    "kind": "dish",
@@ -536,54 +584,6 @@
      "link": "https://prtimes.jp/main/html/rd/p/000001167.000005720.html",
      "source": "PR TIMES",
      "image": "https://prcdn.freetls.fastly.net/release_image/5720/1167/5720-1167-2f39e73f88d004aaba5e437cc66979d2-2069x1464.jpg?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260"
-    }
-   ]
-  },
-  {
-   "label": "カレー",
-   "q": "カレー",
-   "kind": "dish",
-   "recent": 3,
-   "base_per_day": 0.36,
-   "ratio": 1.67,
-   "new": false,
-   "daily": [
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    1,
-    1,
-    1,
-    0,
-    1,
-    1,
-    0,
-    2
-   ],
-   "articles": [
-    {
-     "id": "68666f26bb1aa6e8",
-     "title": "【静岡県湖西市】スパイスカレーが話題の絶景カフェ「ピーカン」がドリンクのテイクアウトを開始。",
-     "link": "https://prtimes.jp/main/html/rd/p/000000002.000184749.html",
-     "source": "PR TIMES",
-     "image": "https://prcdn.freetls.fastly.net/release_image/184749/2/184749-2-e67494b9e69d63e0676b7b9ec688563e-242x302.jpg?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260"
-    },
-    {
-     "id": "cfcc557bb4cbd8b5",
-     "title": "愛知・稲沢でカレーフェス、28店が500円で提供",
-     "link": "https://tms-media.jp/posts/98761/",
-     "source": "tms-media",
-     "image": "https://tms-media.jp/wp-content/uploads/2026/10/inazawa.jpg"
-    },
-    {
-     "id": "2c9b3c90cf3d7ea4",
-     "title": "石川県のソウルフード「チャンピオンカレー」の生カレーが、各地のファミリーマートに順次登場！｜Infoseekニュース",
-     "link": "https://prtimes.jp/main/html/rd/p/000000132.000015963.html",
-     "source": "PR TIMES",
-     "image": "https://prcdn.freetls.fastly.net/release_image/15963/132/15963-132-2b30f1333fcc9979d984f0dc28302b2f-1280x670.jpg?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260"
     }
    ]
   }
