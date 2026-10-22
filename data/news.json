@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-22T14:31:44+09:00",
+ "updated": "2026-10-22T15:39:02+09:00",
  "items": [
   {
    "id": "07b4eee66b2d0ef2",
@@ -49,6 +49,26 @@
    "image_v4": true,
    "shop": true,
    "shop_name": "ピーカン"
+  },
+  {
+   "id": "4874810487e831a5",
+   "title": "明日から3日間開催！全国焼き芋＆おいもスイーツが集結「おいもフェス FUJICITY 2026」富士市中央公園で10月23日開幕",
+   "link": "https://prtimes.jp/main/html/rd/p/000000235.000101362.html",
+   "source": "PR TIMES",
+   "image": "https://prcdn.freetls.fastly.net/release_image/101362/235/101362-235-4c2b7178db22e8ce76161c46b4a8472c-2160x2700.jpg?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260",
+   "category": "event",
+   "area": "静岡",
+   "published": "2026-10-22T12:41:40+09:00",
+   "provider": "prtimes",
+   "added": "2026-10-22T15:39:02+09:00",
+   "image_checked": true,
+   "image_v4": true,
+   "shop": false,
+   "shop_name": null,
+   "place": "outdoor",
+   "start": "2026-10-23",
+   "end": "2026-10-23",
+   "group": "225fd53007c6"
   },
   {
    "id": "97b08d727b9674ab",
@@ -6430,6 +6450,38 @@
    "start": "2026-10-14",
    "end": "2026-10-19",
    "group": "7864702ee677"
+  },
+  {
+   "id": "d03870ed43f24c2b",
+   "title": "破壊力抜群のビジュアル…大盛りで話題のうどん店に「ピッチャー ...",
+   "link": "https://www.msn.com/ja-jp/news/other/%E7%A0%B4%E5%A3%8A%E5%8A%9B%E6%8A%9C%E7%BE%A4%E3%81%AE%E3%83%93%E3%82%B8%E3%83%A5%E3%82%A2%E3%83%AB-%E5%A4%A7%E7%9B%9B%E3%82%8A%E3%81%A7%E8%A9%B1%E9%A1%8C%E3%81%AE%E3%81%86%E3%81%A9%E3%82%93%E5%BA%97%E3%81%AB-%E3%83%94%E3%83%83%E3%83%81%E3%83%A3%E3%83%BC%E3%82%B3%E3%83%AD-%E3%81%8D%E3%81%97%E3%82%81%E3%82%93-%E3%81%9D%E3%81%B0-%E3%81%86%E3%81%A9%E3%82%93%E3%81%A7%E7%B7%8F%E9%87%8D%E9%87%8F15kg/ar-AA2e1FNI",
+   "source": "FNNプライムオンライン on MSN",
+   "image": "http://www.bing.com/th?id=ONUT.q4j47buBqkefY77iX9U9xw&pid=News",
+   "category": "deka",
+   "area": "東海",
+   "published": "2026-10-12T01:03:17+09:00",
+   "provider": "bing",
+   "added": "2026-10-22T15:39:02+09:00",
+   "image_checked": true,
+   "image_v4": true,
+   "shop": false,
+   "shop_name": null
+  },
+  {
+   "id": "6e10348085704c29",
+   "title": "物価高も何のその…「満足してもらいたい」とデカ盛りにこだわり ...",
+   "link": "https://www.fnn.jp/articles/-/1130792",
+   "source": "FNNプライムオンライン",
+   "image": "https://fnn.ismcdn.jp/mwimgs/3/a/600/img_3aa0714dc31e01d7b876f4d3159c1f74310218.jpg",
+   "category": "deka",
+   "area": "東海",
+   "published": "2026-10-11T02:00:00+09:00",
+   "provider": "bing",
+   "added": "2026-10-22T15:39:02+09:00",
+   "image_checked": true,
+   "image_v4": true,
+   "shop": false,
+   "shop_name": null
   }
  ]
 }
