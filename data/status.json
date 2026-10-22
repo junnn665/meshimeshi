@@ -1,12 +1,12 @@
 {
- "updated": "2026-10-22T23:47:23+09:00",
- "items": 382,
- "with_image": 353,
- "google_decode_ok": 18,
+ "updated": "2026-10-23T00:35:31+09:00",
+ "items": 380,
+ "with_image": 351,
+ "google_decode_ok": 21,
  "google_decode_failed": 0,
  "google_decode_samples": [],
  "image_failures": [
   "news.nicovideo.jp: HTTPError: HTTP Error 403: Forbidden",
-  "www.chukei-news.co.jp: HTTPError: HTTP Error 403: Forbidden"
+  "www.excite.co.jp: HTTPError: HTTP Error 403: Forbidden"
  ]
 }

@@ -1,7 +1,6 @@
 {
- "updated": "2026-10-22T14:47:47+00:00",
+ "updated": "2026-10-22T15:35:58+00:00",
  "days": [
-  "2026-10-09",
   "2026-10-10",
   "2026-10-11",
   "2026-10-12",
@@ -14,106 +13,11 @@
   "2026-10-19",
   "2026-10-20",
   "2026-10-21",
-  "2026-10-22"
+  "2026-10-22",
+  "2026-10-23"
  ],
  "recent_days": 3,
  "items": [
-  {
-   "label": "パフェ",
-   "q": "パフェ",
-   "kind": "dish",
-   "recent": 6,
-   "base_per_day": 0.18,
-   "ratio": 4.21,
-   "new": false,
-   "daily": [
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    1,
-    0,
-    0,
-    1,
-    0,
-    1,
-    1,
-    4
-   ],
-   "articles": [
-    {
-     "id": "2dc044d46ab122c7",
-     "title": "【10月20日〜発売】セブン・ファミマ・ローソン新作スイーツ特集｜「Uchi Café×ゴディバ ショコラパフェ」・「ダブルクリームエクレア」など注目デザートまとめ",
-     "link": "https://topics.smt.docomo.ne.jp/amp/article/entabe/trend/entabe-61909",
-     "source": "ｄメニューニュース",
-     "image": "https://img.topics.smt.news.goo.ne.jp/picture/entabe/m_entabe-61909.jpg"
-    },
-    {
-     "id": "07b4eee66b2d0ef2",
-     "title": "【ニッコースタイル名古屋】岐阜県産富有柿とマスカルポーネのパフェを11月1日より提供",
-     "link": "https://prtimes.jp/main/html/rd/p/000004418.000002213.html",
-     "source": "PR TIMES",
-     "image": "https://prcdn.freetls.fastly.net/release_image/2213/4418/2213-4418-2404f72bcdd037ba9e474a4b1ea8ccae-3900x2601.jpg?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260"
-    },
-    {
-     "id": "7e05dd2af885433b",
-     "title": "色づく秋の景色を一杯に表現した「秋色パフェ」販売、りんご･洋梨･柿など秋果実が主役",
-     "link": "https://news.nicovideo.jp/watch/nw19905449?news_ref=search_search",
-     "source": "ニコニコニュース",
-     "image": null
-    }
-   ]
-  },
-  {
-   "label": "鍋",
-   "q": "鍋",
-   "kind": "dish",
-   "recent": 5,
-   "base_per_day": 0.18,
-   "ratio": 3.56,
-   "new": false,
-   "daily": [
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    1,
-    1,
-    0,
-    0,
-    0,
-    1,
-    3,
-    1
-   ],
-   "articles": [
-    {
-     "id": "63b5cb502705844d",
-     "title": "冬を先取り！日韓ブレンド出汁のスンドゥブ×うどんの新メニュー なんばウォークの「じゅろく なんば別邸」で「和韓特製スンドゥブうどん」 10/24(土)から冬季限定提供、“鍋の〆”を最初から楽しめる温活グルメ",
-     "link": "https://osaka.style/news/pressrelease/78133/",
-     "source": "osaka style",
-     "image": "https://www.prdesse.com/posts/download_file/22540/image/file1/%252Fimages%252Fblank.jpg"
-    },
-    {
-     "id": "a31522071ccbc9b5",
-     "title": "栄センパに「とんかつ知多家」発の新ブランド「土鍋ごはん×とんかつ CHITAKA」が2026年10月29日オープン ドリンク半額のオープン記念イベントも注目【栄】",
-     "link": "https://nagoyato.com/posts/20276",
-     "source": "nagoyato",
-     "image": "https://nagoyato.com/wp-content/uploads/2026/10/261021sub1.jpg"
-    },
-    {
-     "id": "a74ae6cd5a2e7aaa",
-     "title": "1988年創業「とんかつ知多家」から新ブランド誕生土鍋ごはんと多彩な豆皿で味わう、とんかつの新しいかたち「土鍋ごはん×とんかつ CHITAKA」10月29日（木）名古屋・栄にオープン | チタカ・インターナショナル・フーズ株式会社のプレスリリース",
-     "link": "https://prtimes.jp/main/html/rd/p/000000050.000023738.html",
-     "source": "PR TIMES",
-     "image": "https://prcdn.freetls.fastly.net/release_image/23738/50/23738-50-f7c1b4cb7aee646c6f61348514eba43f-1147x764.jpg?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260"
-    }
-   ]
-  },
   {
    "label": "とんかつ",
    "q": "とんかつ",
@@ -134,8 +38,8 @@
     0,
     0,
     0,
-    0,
     3,
+    0,
     0
    ],
    "articles": [
@@ -163,18 +67,65 @@
    ]
   },
   {
-   "label": "うどん",
-   "q": "うどん",
+   "label": "パフェ",
+   "q": "パフェ",
    "kind": "dish",
-   "recent": 10,
-   "base_per_day": 0.91,
-   "ratio": 2.82,
+   "recent": 5,
+   "base_per_day": 0.27,
+   "ratio": 3.02,
    "new": false,
    "daily": [
     0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
     1,
     0,
     1,
+    1,
+    4,
+    0
+   ],
+   "articles": [
+    {
+     "id": "2dc044d46ab122c7",
+     "title": "【10月20日〜発売】セブン・ファミマ・ローソン新作スイーツ特集｜「Uchi Café×ゴディバ ショコラパフェ」・「ダブルクリームエクレア」など注目デザートまとめ",
+     "link": "https://topics.smt.docomo.ne.jp/amp/article/entabe/trend/entabe-61909",
+     "source": "ｄメニューニュース",
+     "image": "https://img.topics.smt.news.goo.ne.jp/picture/entabe/m_entabe-61909.jpg"
+    },
+    {
+     "id": "07b4eee66b2d0ef2",
+     "title": "【ニッコースタイル名古屋】岐阜県産富有柿とマスカルポーネのパフェを11月1日より提供",
+     "link": "https://prtimes.jp/main/html/rd/p/000004418.000002213.html",
+     "source": "PR TIMES",
+     "image": "https://prcdn.freetls.fastly.net/release_image/2213/4418/2213-4418-2404f72bcdd037ba9e474a4b1ea8ccae-3900x2601.jpg?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260"
+    },
+    {
+     "id": "7e05dd2af885433b",
+     "title": "色づく秋の景色を一杯に表現した「秋色パフェ」販売、りんご･洋梨･柿など秋果実が主役",
+     "link": "https://news.nicovideo.jp/watch/nw19905449?news_ref=search_search",
+     "source": "ニコニコニュース",
+     "image": null
+    }
+   ]
+  },
+  {
+   "label": "うどん",
+   "q": "うどん",
+   "kind": "dish",
+   "recent": 9,
+   "base_per_day": 0.82,
+   "ratio": 2.75,
+   "new": false,
+   "daily": [
+    0,
+    0,
+    0,
     2,
     2,
     0,
@@ -184,7 +135,8 @@
     0,
     1,
     7,
-    2
+    2,
+    0
    ],
    "articles": [
     {
@@ -211,57 +163,9 @@
    ]
   },
   {
-   "label": "韓国グルメ",
-   "q": "韓国",
+   "label": "鍋",
+   "q": "鍋",
    "kind": "dish",
-   "recent": 3,
-   "base_per_day": 0.09,
-   "ratio": 2.75,
-   "new": false,
-   "daily": [
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    1,
-    1,
-    1,
-    1
-   ],
-   "articles": [
-    {
-     "id": "5ff5a6022e8ee06a",
-     "title": "アジアパラ大会でも国歌など取り違え 台湾、モンゴルなのにイラン、中国なのに韓国",
-     "link": "https://www.kfb.co.jp/news/article/16984573",
-     "source": "KFB福島放送",
-     "image": "https://news.tv-asahi.co.jp/articles_img/000542026_640.jpg"
-    },
-    {
-     "id": "f45f47c5cbcd9d6e",
-     "title": "韓国120店舗の行列チュロスが神奈川県大和市初出店！！神奈川2店舗目へ！「STREET CHURROS」10月23日(金)イオンモール大和にOPEN｜16種の穀物×金賞ソフトの\"罪悪感ゼロ\"スイーツ",
-     "link": "https://prtimes.jp/main/html/rd/p/000000018.000154644.html",
-     "source": "PR TIMES",
-     "image": "https://prcdn.freetls.fastly.net/release_image/154644/18/154644-18-fbc8a27fce2d960aaadcb9018f95c094-1000x1000.jpg?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260"
-    },
-    {
-     "id": "11804cea4cf05e01",
-     "title": "たこ焼きの中身は近江牛！ 名神下り線の多賀SAに新店オープン 韓国グルメや生チュロスも",
-     "link": "https://article.auone.jp/98b0f532-4656-4cf1-95cf-d0ac09e2414b",
-     "source": "au Webポータル",
-     "image": "https://newportal.portal.auone.jp/media/thumbnails/2026/10/20/https___news_jp_i_1485164184786781166_w1200.webp"
-    }
-   ]
-  },
-  {
-   "label": "ローソン",
-   "q": "ローソン",
-   "kind": "chain",
    "recent": 4,
    "base_per_day": 0.27,
    "ratio": 2.48,
@@ -271,38 +175,79 @@
     0,
     0,
     0,
-    1,
-    0,
     0,
     1,
     1,
     0,
     0,
+    0,
     1,
+    3,
     1,
-    2
+    0
    ],
    "articles": [
     {
-     "id": "c7dac4c345d40978",
-     "title": "サッポロビール、ローソン限定「サッポロ 小悪魔グレフルサワー」10月27日から数量限定発売",
-     "link": "https://topics.smt.docomo.ne.jp/article/diamondrm/business/diamondrm-561321",
-     "source": "ｄメニューニュース",
-     "image": "https://img.topics.smt.news.goo.ne.jp/picture/diamondrm/m_diamondrm-561321.png"
+     "id": "63b5cb502705844d",
+     "title": "冬を先取り！日韓ブレンド出汁のスンドゥブ×うどんの新メニュー なんばウォークの「じゅろく なんば別邸」で「和韓特製スンドゥブうどん」 10/24(土)から冬季限定提供、“鍋の〆”を最初から楽しめる温活グルメ",
+     "link": "https://osaka.style/news/pressrelease/78133/",
+     "source": "osaka style",
+     "image": "https://www.prdesse.com/posts/download_file/22540/image/file1/%252Fimages%252Fblank.jpg"
     },
     {
-     "id": "2dc044d46ab122c7",
-     "title": "【10月20日〜発売】セブン・ファミマ・ローソン新作スイーツ特集｜「Uchi Café×ゴディバ ショコラパフェ」・「ダブルクリームエクレア」など注目デザートまとめ",
-     "link": "https://topics.smt.docomo.ne.jp/amp/article/entabe/trend/entabe-61909",
-     "source": "ｄメニューニュース",
-     "image": "https://img.topics.smt.news.goo.ne.jp/picture/entabe/m_entabe-61909.jpg"
+     "id": "a31522071ccbc9b5",
+     "title": "栄センパに「とんかつ知多家」発の新ブランド「土鍋ごはん×とんかつ CHITAKA」が2026年10月29日オープン ドリンク半額のオープン記念イベントも注目【栄】",
+     "link": "https://nagoyato.com/posts/20276",
+     "source": "nagoyato",
+     "image": "https://nagoyato.com/wp-content/uploads/2026/10/261021sub1.jpg"
     },
     {
-     "id": "5463a0063ed3f372",
-     "title": "ハーゲンダッツジャパン、ハーゲンダッツ「クレイジーバター」をローソン店舗で数量限定発売",
-     "link": "https://www.nikkei.com/article/DGXZRSP714136_R21C26A0000000/",
-     "source": "日本経済新聞",
-     "image": "https://article-image-ix.nikkei.com/https%3A%2F%2Fimgix-proxy.n8s.jp%2FDSXZQO3758095021102026000000-1.jpg?auto=compress&bg=FFFF&crop=focalpoint&fit=crop&fm=jpg&h=630&upscale=false&w=1200&s=68a49c62205622b35cb79068962d3787"
+     "id": "a74ae6cd5a2e7aaa",
+     "title": "1988年創業「とんかつ知多家」から新ブランド誕生土鍋ごはんと多彩な豆皿で味わう、とんかつの新しいかたち「土鍋ごはん×とんかつ CHITAKA」10月29日（木）名古屋・栄にオープン | チタカ・インターナショナル・フーズ株式会社のプレスリリース",
+     "link": "https://prtimes.jp/main/html/rd/p/000000050.000023738.html",
+     "source": "PR TIMES",
+     "image": "https://prcdn.freetls.fastly.net/release_image/23738/50/23738-50-f7c1b4cb7aee646c6f61348514eba43f-1147x764.jpg?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260"
+    }
+   ]
+  },
+  {
+   "label": "抹茶",
+   "q": "抹茶",
+   "kind": "dish",
+   "recent": 2,
+   "base_per_day": 0.09,
+   "ratio": 1.96,
+   "new": false,
+   "daily": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    1,
+    0
+   ],
+   "articles": [
+    {
+     "id": "e72072ad723c5072",
+     "title": "【2026年10月下旬】抹茶味の新商品！西尾の抹茶わらび餅や抹茶ドーナツなどセブン新作まとめ",
+     "link": "https://mognavi.jp/news/matome/gen-newProduct-29156/",
+     "source": "もぐナビ",
+     "image": "https://img1.esimg.jp/blog/wp-content/uploads/2026/10/gen-newProduct-29156.jpg?ts=1792664100000"
+    },
+    {
+     "id": "e0d742b21feca97c",
+     "title": "【2026年10月第3週】コンビニスイーツの新商品！とろける杏仁豆腐や抹茶わらび餅など話題のスイーツまとめ",
+     "link": "https://mognavi.jp/news/matome/gen-newProduct-29092/",
+     "source": "もぐナビ",
+     "image": "https://img1.esimg.jp/blog/wp-content/uploads/2026/10/gen-newProduct-29092.jpg?ts=1792563300000"
     }
    ]
   },
@@ -310,12 +255,11 @@
    "label": "弁当",
    "q": "弁当",
    "kind": "dish",
-   "recent": 5,
-   "base_per_day": 0.36,
-   "ratio": 2.63,
+   "recent": 4,
+   "base_per_day": 0.45,
+   "ratio": 1.9,
    "new": false,
    "daily": [
-    0,
     0,
     0,
     0,
@@ -328,7 +272,8 @@
     1,
     1,
     2,
-    2
+    2,
+    0
    ],
    "articles": [
     {
@@ -355,194 +300,9 @@
    ]
   },
   {
-   "label": "抹茶",
-   "q": "抹茶",
-   "kind": "dish",
-   "recent": 2,
-   "base_per_day": 0.09,
-   "ratio": 1.96,
-   "new": false,
-   "daily": [
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    1,
-    0,
-    0,
-    0,
-    0,
-    0,
-    1,
-    1
-   ],
-   "articles": [
-    {
-     "id": "e72072ad723c5072",
-     "title": "【2026年10月下旬】抹茶味の新商品！西尾の抹茶わらび餅や抹茶ドーナツなどセブン新作まとめ",
-     "link": "https://mognavi.jp/news/matome/gen-newProduct-29156/",
-     "source": "もぐナビ",
-     "image": "https://img1.esimg.jp/blog/wp-content/uploads/2026/10/gen-newProduct-29156.jpg?ts=1792664100000"
-    },
-    {
-     "id": "e0d742b21feca97c",
-     "title": "【2026年10月第3週】コンビニスイーツの新商品！とろける杏仁豆腐や抹茶わらび餅など話題のスイーツまとめ",
-     "link": "https://mognavi.jp/news/matome/gen-newProduct-29092/",
-     "source": "もぐナビ",
-     "image": "https://img1.esimg.jp/blog/wp-content/uploads/2026/10/gen-newProduct-29092.jpg?ts=1792563300000"
-    }
-   ]
-  },
-  {
-   "label": "モンブラン・栗",
-   "q": "モンブラン",
-   "kind": "dish",
-   "recent": 3,
-   "base_per_day": 0.27,
-   "ratio": 1.93,
-   "new": false,
-   "daily": [
-    0,
-    0,
-    0,
-    0,
-    1,
-    1,
-    0,
-    0,
-    1,
-    0,
-    0,
-    1,
-    2,
-    0
-   ],
-   "articles": [
-    {
-     "id": "f2688191da6ff772",
-     "title": "HUBアスティ静岡店が、和栗を味わう全国一斉ランチ会「BIKKURI LUNCH2026」の静岡会場に！東海軒の和栗ご飯弁当を楽しもう",
-     "link": "https://getnews.jp/archives/3750281",
-     "source": "ガジェット通信",
-     "image": "https://straightpress.jp/wp-content/uploads/2026/10/Tana2610211224main.jpg"
-    },
-    {
-     "id": "d5f0fb8117a3287a",
-     "title": "【あさぎり牛乳 阪神梅田本店】秋限定ソフトクリーム〈モンブラン〉が数量限定で登場！サンデー2種も追加し、メニューを拡充",
-     "link": "https://prtimes.jp/main/html/rd/p/000000081.000161984.html",
-     "source": "PR TIMES",
-     "image": "https://prcdn.freetls.fastly.net/release_image/161984/81/161984-81-fc11f0ac35cc0d39b3556f90edb756a4-678x454.jpg?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260"
-    },
-    {
-     "id": "e4c24afce8ed99c5",
-     "title": "【コメダ】秋冬の新作ケーキ発売 毎年好評の「純栗ぃむ」など4種登場",
-     "link": "https://news.infoseek.co.jp/amp/article/otonanswer_402706/",
-     "source": "Infoseek",
-     "image": "https://media.image.infoseek.co.jp/isnews/photos/otonanswer/otonanswer_402706_0-enlarge.jpg"
-    }
-   ]
-  },
-  {
-   "label": "寿司",
-   "q": "寿司",
-   "kind": "dish",
-   "recent": 5,
-   "base_per_day": 0.64,
-   "ratio": 1.89,
-   "new": false,
-   "daily": [
-    0,
-    0,
-    0,
-    0,
-    1,
-    3,
-    0,
-    1,
-    0,
-    0,
-    2,
-    3,
-    2,
-    0
-   ],
-   "articles": [
-    {
-     "id": "71b69dd5c90153f5",
-     "title": "「築地すしくろ」名古屋ハエラに東海初出店、本格江戸寿司＆お酒を気軽に楽しむ“寿司酒場”",
-     "link": "https://www.fashion-press.net/news/147005",
-     "source": "ファッションプレス",
-     "image": "https://www.fashion-press.net/img/news/147005/top.jpg?1780405184"
-    },
-    {
-     "id": "b273a5d63a2d0735",
-     "title": "今週新発売のコンビニ寿司・コンビニ弁当",
-     "link": "http://www.excite.co.jp/news/article/Mognavi_2026102102/",
-     "source": "Excite エキサイト",
-     "image": null
-    },
-    {
-     "id": "1077920951faba9f",
-     "title": "伊勢海老や鮑、金目鯛など海の幸を新春の食卓に。南房総を拠点に水産卸・寿司店を展開するヤマトサカナが「2027年 特製おせち2段重」を10月21日予約開始！3,000円分の優待券付き",
-     "link": "https://prtimes.jp/main/html/rd/p/000000316.000030130.html",
-     "source": "PR TIMES",
-     "image": "https://prcdn.freetls.fastly.net/release_image/30130/316/30130-316-59e8059cf5851a9ddb84838901ce08d4-868x1227.jpg?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260"
-    }
-   ]
-  },
-  {
-   "label": "ファミリーマート",
-   "q": "ファミリーマート",
+   "label": "ローソン",
+   "q": "ローソン",
    "kind": "chain",
-   "recent": 4,
-   "base_per_day": 0.55,
-   "ratio": 1.71,
-   "new": false,
-   "daily": [
-    0,
-    0,
-    0,
-    0,
-    3,
-    1,
-    1,
-    0,
-    0,
-    0,
-    1,
-    3,
-    0,
-    1
-   ],
-   "articles": [
-    {
-     "id": "f7e2bd4c06b58095",
-     "title": "ファミリーマートが「BEYBLADE X」と地域貢献でコラボ！コンビニでのBEYBLADE X体験会を【初】開催！～ファミマこども食堂にてこどもたちの「遊び場」と「居場所」を提供～",
-     "link": "https://prtimes.jp/main/html/rd/p/000002589.000046210.html",
-     "source": "PR TIMES",
-     "image": "https://prcdn.freetls.fastly.net/release_image/46210/2589/46210-2589-1bf5f7511158b8e48280854a2257099d-3900x2928.jpg?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260"
-    },
-    {
-     "id": "2c9b3c90cf3d7ea4",
-     "title": "石川県のソウルフード「チャンピオンカレー」の生カレーが、各地のファミリーマートに順次登場！｜Infoseekニュース",
-     "link": "https://prtimes.jp/main/html/rd/p/000000132.000015963.html",
-     "source": "PR TIMES",
-     "image": "https://prcdn.freetls.fastly.net/release_image/15963/132/15963-132-2b30f1333fcc9979d984f0dc28302b2f-1280x670.jpg?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260"
-    },
-    {
-     "id": "a57e50c856737fd3",
-     "title": "【10月20日発売】ファミリーマート ランチにおすすめ新商品まとめ 「鉄板焼ハンバーグ弁当（コク深デミソース）」「生姜香る具だくさん中華スープ」など",
-     "link": "https://entabe.jp/61883/summary-familymart-october-20th-new-lunch",
-     "source": "えん食べ [グルメニュース]",
-     "image": "https://image.entabe.jp/upload/20261018/images/thumb_familymart_1020_lunch.jpg"
-    }
-   ]
-  },
-  {
-   "label": "ドーナツ",
-   "q": "ドーナツ",
-   "kind": "dish",
    "recent": 3,
    "base_per_day": 0.36,
    "ratio": 1.67,
@@ -551,39 +311,80 @@
     0,
     0,
     0,
-    0,
-    0,
+    1,
     0,
     0,
     1,
     1,
-    1,
-    1,
-    1,
     0,
-    2
+    0,
+    1,
+    1,
+    2,
+    0
    ],
    "articles": [
     {
-     "id": "e72072ad723c5072",
-     "title": "【2026年10月下旬】抹茶味の新商品！西尾の抹茶わらび餅や抹茶ドーナツなどセブン新作まとめ",
-     "link": "https://mognavi.jp/news/matome/gen-newProduct-29156/",
-     "source": "もぐナビ",
-     "image": "https://img1.esimg.jp/blog/wp-content/uploads/2026/10/gen-newProduct-29156.jpg?ts=1792664100000"
+     "id": "c7dac4c345d40978",
+     "title": "サッポロビール、ローソン限定「サッポロ 小悪魔グレフルサワー」10月27日から数量限定発売",
+     "link": "https://topics.smt.docomo.ne.jp/article/diamondrm/business/diamondrm-561321",
+     "source": "ｄメニューニュース",
+     "image": "https://img.topics.smt.news.goo.ne.jp/picture/diamondrm/m_diamondrm-561321.png"
     },
     {
-     "id": "76f7ea4e798ad5aa",
-     "title": "箱を開けた瞬間「かわいい！」クリスピー・クリーム・ドーナツ×ルーニー・テューンズのハロウィン限定ドーナツを実食",
-     "link": "https://woman.mynavi.jp/article/261022-2_1160320/",
-     "source": "マイナビウーマン",
-     "image": "https://cdn0.mynvwm.com/wp-content/uploads/2026/10/IMG_5672.jpg"
+     "id": "2dc044d46ab122c7",
+     "title": "【10月20日〜発売】セブン・ファミマ・ローソン新作スイーツ特集｜「Uchi Café×ゴディバ ショコラパフェ」・「ダブルクリームエクレア」など注目デザートまとめ",
+     "link": "https://topics.smt.docomo.ne.jp/amp/article/entabe/trend/entabe-61909",
+     "source": "ｄメニューニュース",
+     "image": "https://img.topics.smt.news.goo.ne.jp/picture/entabe/m_entabe-61909.jpg"
     },
     {
-     "id": "a3bc865daed06f4b",
-     "title": "【ミスタードーナツ】歴代ミスタードーナツに登場したポケモンが大集合！『みんなで集合！冬のポケモンキャンペーン』を数量・期間限定発売",
-     "link": "https://prtimes.jp/main/html/rd/p/000001167.000005720.html",
+     "id": "5463a0063ed3f372",
+     "title": "ハーゲンダッツジャパン、ハーゲンダッツ「クレイジーバター」をローソン店舗で数量限定発売",
+     "link": "https://www.nikkei.com/article/DGXZRSP714136_R21C26A0000000/",
+     "source": "日本経済新聞",
+     "image": "https://article-image-ix.nikkei.com/https%3A%2F%2Fimgix-proxy.n8s.jp%2FDSXZQO3758095021102026000000-1.jpg?auto=compress&bg=FFFF&crop=focalpoint&fit=crop&fm=jpg&h=630&upscale=false&w=1200&s=68a49c62205622b35cb79068962d3787"
+    }
+   ]
+  },
+  {
+   "label": "韓国グルメ",
+   "q": "韓国",
+   "kind": "dish",
+   "recent": 2,
+   "base_per_day": 0.18,
+   "ratio": 1.62,
+   "new": false,
+   "daily": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    1,
+    1,
+    1,
+    0
+   ],
+   "articles": [
+    {
+     "id": "5ff5a6022e8ee06a",
+     "title": "アジアパラ大会でも国歌など取り違え 台湾、モンゴルなのにイラン、中国なのに韓国",
+     "link": "https://www.kfb.co.jp/news/article/16984573",
+     "source": "KFB福島放送",
+     "image": "https://news.tv-asahi.co.jp/articles_img/000542026_640.jpg"
+    },
+    {
+     "id": "f45f47c5cbcd9d6e",
+     "title": "韓国120店舗の行列チュロスが神奈川県大和市初出店！！神奈川2店舗目へ！「STREET CHURROS」10月23日(金)イオンモール大和にOPEN｜16種の穀物×金賞ソフトの\"罪悪感ゼロ\"スイーツ",
+     "link": "https://prtimes.jp/main/html/rd/p/000000018.000154644.html",
      "source": "PR TIMES",
-     "image": "https://prcdn.freetls.fastly.net/release_image/5720/1167/5720-1167-2f39e73f88d004aaba5e437cc66979d2-2069x1464.jpg?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260"
+     "image": "https://prcdn.freetls.fastly.net/release_image/154644/18/154644-18-fbc8a27fce2d960aaadcb9018f95c094-1000x1000.jpg?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260"
     }
    ]
   }
