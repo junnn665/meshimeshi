@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-22T03:32:26+00:00",
+ "updated": "2026-10-22T04:32:29+00:00",
  "days": [
   "2026-10-09",
   "2026-10-10",
@@ -18,6 +18,54 @@
  ],
  "recent_days": 3,
  "items": [
+  {
+   "label": "鍋",
+   "q": "鍋",
+   "kind": "dish",
+   "recent": 5,
+   "base_per_day": 0.18,
+   "ratio": 3.56,
+   "new": false,
+   "daily": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    1,
+    0,
+    0,
+    0,
+    1,
+    3,
+    1
+   ],
+   "articles": [
+    {
+     "id": "63b5cb502705844d",
+     "title": "冬を先取り！日韓ブレンド出汁のスンドゥブ×うどんの新メニュー なんばウォークの「じゅろく なんば別邸」で「和韓特製スンドゥブうどん」 10/24(土)から冬季限定提供、“鍋の〆”を最初から楽しめる温活グルメ",
+     "link": "https://osaka.style/news/pressrelease/78133/",
+     "source": "osaka style",
+     "image": "https://www.prdesse.com/posts/download_file/22540/image/file1/%252Fimages%252Fblank.jpg"
+    },
+    {
+     "id": "a31522071ccbc9b5",
+     "title": "栄センパに「とんかつ知多家」発の新ブランド「土鍋ごはん×とんかつ CHITAKA」が2026年10月29日オープン ドリンク半額のオープン記念イベントも注目【栄】",
+     "link": "https://nagoyato.com/posts/20276",
+     "source": "nagoyato",
+     "image": "https://nagoyato.com/wp-content/uploads/2026/10/261021sub1.jpg"
+    },
+    {
+     "id": "a74ae6cd5a2e7aaa",
+     "title": "1988年創業「とんかつ知多家」から新ブランド誕生土鍋ごはんと多彩な豆皿で味わう、とんかつの新しいかたち「土鍋ごはん×とんかつ CHITAKA」10月29日（木）名古屋・栄にオープン | チタカ・インターナショナル・フーズ株式会社のプレスリリース",
+     "link": "https://prtimes.jp/main/html/rd/p/000000050.000023738.html",
+     "source": "PR TIMES",
+     "image": "https://prcdn.freetls.fastly.net/release_image/23738/50/23738-50-f7c1b4cb7aee646c6f61348514eba43f-1147x764.jpg?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260"
+    }
+   ]
+  },
   {
    "label": "とんかつ",
    "q": "とんかつ",
@@ -49,54 +97,6 @@
      "link": "https://jouhou.nagoya/wadafuku-shikemichi/",
      "source": "名古屋情報通",
      "image": "https://jouhou.nagoya/wp-content/uploads/2022/04/wadafuku-kakuouzan09-600x450.jpg"
-    },
-    {
-     "id": "a31522071ccbc9b5",
-     "title": "栄センパに「とんかつ知多家」発の新ブランド「土鍋ごはん×とんかつ CHITAKA」が2026年10月29日オープン ドリンク半額のオープン記念イベントも注目【栄】",
-     "link": "https://nagoyato.com/posts/20276",
-     "source": "nagoyato",
-     "image": "https://nagoyato.com/wp-content/uploads/2026/10/261021sub1.jpg"
-    },
-    {
-     "id": "a74ae6cd5a2e7aaa",
-     "title": "1988年創業「とんかつ知多家」から新ブランド誕生土鍋ごはんと多彩な豆皿で味わう、とんかつの新しいかたち「土鍋ごはん×とんかつ CHITAKA」10月29日（木）名古屋・栄にオープン | チタカ・インターナショナル・フーズ株式会社のプレスリリース",
-     "link": "https://prtimes.jp/main/html/rd/p/000000050.000023738.html",
-     "source": "PR TIMES",
-     "image": "https://prcdn.freetls.fastly.net/release_image/23738/50/23738-50-f7c1b4cb7aee646c6f61348514eba43f-1147x764.jpg?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260"
-    }
-   ]
-  },
-  {
-   "label": "鍋",
-   "q": "鍋",
-   "kind": "dish",
-   "recent": 5,
-   "base_per_day": 0.27,
-   "ratio": 3.02,
-   "new": false,
-   "daily": [
-    0,
-    0,
-    0,
-    1,
-    0,
-    0,
-    1,
-    1,
-    0,
-    0,
-    0,
-    1,
-    3,
-    1
-   ],
-   "articles": [
-    {
-     "id": "63b5cb502705844d",
-     "title": "冬を先取り！日韓ブレンド出汁のスンドゥブ×うどんの新メニュー なんばウォークの「じゅろく なんば別邸」で「和韓特製スンドゥブうどん」 10/24(土)から冬季限定提供、“鍋の〆”を最初から楽しめる温活グルメ",
-     "link": "https://osaka.style/news/pressrelease/78133/",
-     "source": "osaka style",
-     "image": "https://www.prdesse.com/posts/download_file/22540/image/file1/%252Fimages%252Fblank.jpg"
     },
     {
      "id": "a31522071ccbc9b5",
@@ -259,6 +259,54 @@
    ]
   },
   {
+   "label": "弁当",
+   "q": "弁当",
+   "kind": "dish",
+   "recent": 4,
+   "base_per_day": 0.36,
+   "ratio": 2.15,
+   "new": false,
+   "daily": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    1,
+    1,
+    0,
+    1,
+    1,
+    1,
+    2
+   ],
+   "articles": [
+    {
+     "id": "16ec735ac22e1800",
+     "title": "「ほっともっと」店舗限定メニューも登場！“ニッポンのお弁当を、愉しく。”がテーマの新デザイン店舗『ほっともっと 砂川西一条店』",
+     "link": "https://prtimes.jp/main/html/rd/p/000001697.000054093.html",
+     "source": "PR TIMES",
+     "image": "https://prcdn.freetls.fastly.net/release_image/54093/1697/54093-1697-6712b3666afe4eaf51a03dbdfc13ba22-1920x1280.png?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260"
+    },
+    {
+     "id": "31dc0f19c419ca5a",
+     "title": "【松屋PREMIUM】松屋フーズから贅沢な極上弁当が新登場！ 上質なブランド豚を味わう「四万十ポークの生姜焼き」発売",
+     "link": "https://prtimes.jp/main/html/rd/p/000001030.000047538.html",
+     "source": "PR TIMES",
+     "image": "https://prcdn.freetls.fastly.net/release_image/47538/1030/47538-1030-6c5d5fd9ca894ce8b55b71851b4ee2c4-1160x580.png?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260"
+    },
+    {
+     "id": "f2688191da6ff772",
+     "title": "HUBアスティ静岡店が、和栗を味わう全国一斉ランチ会「BIKKURI LUNCH2026」の静岡会場に！東海軒の和栗ご飯弁当を楽しもう",
+     "link": "https://getnews.jp/archives/3750281",
+     "source": "ガジェット通信",
+     "image": "https://straightpress.jp/wp-content/uploads/2026/10/Tana2610211224main.jpg"
+    }
+   ]
+  },
+  {
    "label": "モンブラン・栗",
    "q": "モンブラン",
    "kind": "dish",
@@ -303,6 +351,54 @@
      "link": "https://news.infoseek.co.jp/amp/article/otonanswer_402706/",
      "source": "Infoseek",
      "image": "https://media.image.infoseek.co.jp/isnews/photos/otonanswer/otonanswer_402706_0-enlarge.jpg"
+    }
+   ]
+  },
+  {
+   "label": "カレー",
+   "q": "カレー",
+   "kind": "dish",
+   "recent": 3,
+   "base_per_day": 0.36,
+   "ratio": 1.67,
+   "new": false,
+   "daily": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    1,
+    1,
+    0,
+    1,
+    1,
+    0,
+    2
+   ],
+   "articles": [
+    {
+     "id": "68666f26bb1aa6e8",
+     "title": "【静岡県湖西市】スパイスカレーが話題の絶景カフェ「ピーカン」がドリンクのテイクアウトを開始。",
+     "link": "https://prtimes.jp/main/html/rd/p/000000002.000184749.html",
+     "source": "PR TIMES",
+     "image": "https://prcdn.freetls.fastly.net/release_image/184749/2/184749-2-e67494b9e69d63e0676b7b9ec688563e-242x302.jpg?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260"
+    },
+    {
+     "id": "cfcc557bb4cbd8b5",
+     "title": "愛知・稲沢でカレーフェス、28店が500円で提供",
+     "link": "https://tms-media.jp/posts/98761/",
+     "source": "tms-media",
+     "image": "https://tms-media.jp/wp-content/uploads/2026/10/inazawa.jpg"
+    },
+    {
+     "id": "2c9b3c90cf3d7ea4",
+     "title": "石川県のソウルフード「チャンピオンカレー」の生カレーが、各地のファミリーマートに順次登場！｜Infoseekニュース",
+     "link": "https://prtimes.jp/main/html/rd/p/000000132.000015963.html",
+     "source": "PR TIMES",
+     "image": "https://prcdn.freetls.fastly.net/release_image/15963/132/15963-132-2b30f1333fcc9979d984f0dc28302b2f-1280x670.jpg?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260"
     }
    ]
   },
