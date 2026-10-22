@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-22T01:35:41+00:00",
+ "updated": "2026-10-22T02:32:32+00:00",
  "days": [
   "2026-10-09",
   "2026-10-10",
@@ -115,6 +115,54 @@
    ]
   },
   {
+   "label": "うどん",
+   "q": "うどん",
+   "kind": "dish",
+   "recent": 9,
+   "base_per_day": 0.91,
+   "ratio": 2.55,
+   "new": false,
+   "daily": [
+    0,
+    0,
+    0,
+    0,
+    4,
+    2,
+    0,
+    2,
+    1,
+    1,
+    0,
+    1,
+    7,
+    1
+   ],
+   "articles": [
+    {
+     "id": "0b49fa336e3af36e",
+     "title": "『資さんうどん』キッチンカーが栄・久屋大通公園に10月24日、25日限定登場",
+     "link": "https://jouhou.nagoya/sukesanudon-202610/",
+     "source": "名古屋情報通",
+     "image": "https://jouhou.nagoya/wp-content/uploads/2026/10/sukesanudon005-600x390.jpg"
+    },
+    {
+     "id": "069d90812bf968fb",
+     "title": "注文から約30秒の高速提供…うどん&きしめんが1杯330円の食堂 早い・安い・うまいの三拍子揃い愛される",
+     "link": "https://www.tokai-tv.com/tokainews/feature/article_20261021_48878",
+     "source": "東海テレビ放送",
+     "image": null
+    },
+    {
+     "id": "6ffac80dc6ec341c",
+     "title": "史上初！資さんうどんにナポリタンうどんが登場！目玉焼きのせ熱々鉄板で期間限定販売",
+     "link": "https://report.iko-yo.net/articles/34972",
+     "source": "いこーよニュース",
+     "image": "https://d28w2qw7dtr435.cloudfront.net/uploaded/cover_images/images/35056/normal.jpg?1792551475"
+    }
+   ]
+  },
+  {
    "label": "鍋",
    "q": "鍋",
    "kind": "dish",
@@ -163,50 +211,50 @@
    ]
   },
   {
-   "label": "うどん",
-   "q": "うどん",
+   "label": "パフェ",
+   "q": "パフェ",
    "kind": "dish",
-   "recent": 8,
-   "base_per_day": 0.91,
-   "ratio": 2.28,
+   "recent": 3,
+   "base_per_day": 0.18,
+   "ratio": 2.26,
    "new": false,
    "daily": [
     0,
     0,
     0,
     0,
-    4,
-    2,
     0,
-    2,
-    1,
-    1,
     0,
     1,
-    6,
+    0,
+    0,
+    1,
+    0,
+    1,
+    1,
     1
    ],
    "articles": [
     {
-     "id": "0b49fa336e3af36e",
-     "title": "『資さんうどん』キッチンカーが栄・久屋大通公園に10月24日、25日限定登場",
-     "link": "https://jouhou.nagoya/sukesanudon-202610/",
-     "source": "名古屋情報通",
-     "image": "https://jouhou.nagoya/wp-content/uploads/2026/10/sukesanudon005-600x390.jpg"
+     "id": "b8bac9fdc1e71a98",
+     "title": "【タカノフルーツパーラー】色づく秋の景色を一杯に表現した「秋色パフェ」 りんごや洋梨、柿と和素材が織りなす季節限定メニュー",
+     "link": "https://www.iza.ne.jp/pressrelease/prtimes/4UHQ4WUMWVM7BLUXV5AP7V3LEE/",
+     "source": "イザ！",
+     "image": "https://www.iza.ne.jp/common/images/ogp_default_iza.png"
     },
     {
-     "id": "6ffac80dc6ec341c",
-     "title": "史上初！資さんうどんにナポリタンうどんが登場！目玉焼きのせ熱々鉄板で期間限定販売",
-     "link": "https://report.iko-yo.net/articles/34972",
-     "source": "いこーよニュース",
-     "image": "https://d28w2qw7dtr435.cloudfront.net/uploaded/cover_images/images/35056/normal.jpg?1792551475"
-    },
-    {
-     "id": "208ebea47020e50c",
-     "title": "深まる秋の食欲を満たす“旨み濃香”な鴨だしが楽しめるはなまるうどん全国初登場の「鴨ねぎうどん」「鴨せいろうどん」2種を10月22日（木）より期間限定販売",
-     "link": "https://prtimes.jp/main/html/rd/p/000000612.000019432.html",
+     "id": "8e4d924232906737",
+     "title": "【名古屋】季節の味覚を贅沢に味わうコース料理のフィナーレに、人気の2大デザートから選ぶ至福のひととき「 ご褒美パフェ or スイーツスタンドから選べる贅沢フレンチ《乾杯酒付》」販売",
+     "link": "https://prtimes.jp/main/html/rd/p/000001373.000004975.html",
      "source": "PR TIMES",
-     "image": "https://prcdn.freetls.fastly.net/release_image/19432/612/19432-612-4248dd20d57e6e2e62786ff828947436-1920x1080.jpg?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260"
+     "image": "https://prcdn.freetls.fastly.net/release_image/4975/1373/4975-1373-01dac78d314598c18af78ccfc6f25d75-1800x1200.jpg?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260"
+    },
+    {
+     "id": "7a3f7f4d5cd29e80",
+     "title": "【10月20日～発売】セブン・ファミマ・ローソン新作スイーツ特集｜「Uchi Café×ゴディバ ショコラパフェ」・「ダブルクリームエクレア」など注目デザートまとめ",
+     "link": "https://entabe.jp/amp/61909/seven-eleven-familymart-lawson-new-sweets-october-2026",
+     "source": "えん食べ [グルメニュース]",
+     "image": "https://image.entabe.jp/upload/20261020/images/thumbnail_20261020_web_3.jpg"
     }
    ]
   },
@@ -303,47 +351,6 @@
      "link": "https://entabe.jp/61883/summary-familymart-october-20th-new-lunch",
      "source": "えん食べ [グルメニュース]",
      "image": "https://image.entabe.jp/upload/20261018/images/thumb_familymart_1020_lunch.jpg"
-    }
-   ]
-  },
-  {
-   "label": "パフェ",
-   "q": "パフェ",
-   "kind": "dish",
-   "recent": 2,
-   "base_per_day": 0.18,
-   "ratio": 1.62,
-   "new": false,
-   "daily": [
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    1,
-    0,
-    0,
-    1,
-    0,
-    1,
-    1,
-    0
-   ],
-   "articles": [
-    {
-     "id": "8e4d924232906737",
-     "title": "【名古屋】季節の味覚を贅沢に味わうコース料理のフィナーレに、人気の2大デザートから選ぶ至福のひととき「 ご褒美パフェ or スイーツスタンドから選べる贅沢フレンチ《乾杯酒付》」販売",
-     "link": "https://prtimes.jp/main/html/rd/p/000001373.000004975.html",
-     "source": "PR TIMES",
-     "image": "https://prcdn.freetls.fastly.net/release_image/4975/1373/4975-1373-01dac78d314598c18af78ccfc6f25d75-1800x1200.jpg?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260"
-    },
-    {
-     "id": "7a3f7f4d5cd29e80",
-     "title": "【10月20日～発売】セブン・ファミマ・ローソン新作スイーツ特集｜「Uchi Café×ゴディバ ショコラパフェ」・「ダブルクリームエクレア」など注目デザートまとめ",
-     "link": "https://entabe.jp/amp/61909/seven-eleven-familymart-lawson-new-sweets-october-2026",
-     "source": "えん食べ [グルメニュース]",
-     "image": "https://image.entabe.jp/upload/20261020/images/thumbnail_20261020_web_3.jpg"
     }
    ]
   },
