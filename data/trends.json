@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-22T02:32:32+00:00",
+ "updated": "2026-10-22T03:32:26+00:00",
  "days": [
   "2026-10-09",
   "2026-10-10",
@@ -67,6 +67,102 @@
    ]
   },
   {
+   "label": "鍋",
+   "q": "鍋",
+   "kind": "dish",
+   "recent": 5,
+   "base_per_day": 0.27,
+   "ratio": 3.02,
+   "new": false,
+   "daily": [
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    1,
+    1,
+    0,
+    0,
+    0,
+    1,
+    3,
+    1
+   ],
+   "articles": [
+    {
+     "id": "63b5cb502705844d",
+     "title": "冬を先取り！日韓ブレンド出汁のスンドゥブ×うどんの新メニュー なんばウォークの「じゅろく なんば別邸」で「和韓特製スンドゥブうどん」 10/24(土)から冬季限定提供、“鍋の〆”を最初から楽しめる温活グルメ",
+     "link": "https://osaka.style/news/pressrelease/78133/",
+     "source": "osaka style",
+     "image": "https://www.prdesse.com/posts/download_file/22540/image/file1/%252Fimages%252Fblank.jpg"
+    },
+    {
+     "id": "a31522071ccbc9b5",
+     "title": "栄センパに「とんかつ知多家」発の新ブランド「土鍋ごはん×とんかつ CHITAKA」が2026年10月29日オープン ドリンク半額のオープン記念イベントも注目【栄】",
+     "link": "https://nagoyato.com/posts/20276",
+     "source": "nagoyato",
+     "image": "https://nagoyato.com/wp-content/uploads/2026/10/261021sub1.jpg"
+    },
+    {
+     "id": "a74ae6cd5a2e7aaa",
+     "title": "1988年創業「とんかつ知多家」から新ブランド誕生土鍋ごはんと多彩な豆皿で味わう、とんかつの新しいかたち「土鍋ごはん×とんかつ CHITAKA」10月29日（木）名古屋・栄にオープン | チタカ・インターナショナル・フーズ株式会社のプレスリリース",
+     "link": "https://prtimes.jp/main/html/rd/p/000000050.000023738.html",
+     "source": "PR TIMES",
+     "image": "https://prcdn.freetls.fastly.net/release_image/23738/50/23738-50-f7c1b4cb7aee646c6f61348514eba43f-1147x764.jpg?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260"
+    }
+   ]
+  },
+  {
+   "label": "うどん",
+   "q": "うどん",
+   "kind": "dish",
+   "recent": 10,
+   "base_per_day": 0.91,
+   "ratio": 2.82,
+   "new": false,
+   "daily": [
+    0,
+    0,
+    0,
+    0,
+    4,
+    2,
+    0,
+    2,
+    1,
+    1,
+    0,
+    1,
+    7,
+    2
+   ],
+   "articles": [
+    {
+     "id": "63b5cb502705844d",
+     "title": "冬を先取り！日韓ブレンド出汁のスンドゥブ×うどんの新メニュー なんばウォークの「じゅろく なんば別邸」で「和韓特製スンドゥブうどん」 10/24(土)から冬季限定提供、“鍋の〆”を最初から楽しめる温活グルメ",
+     "link": "https://osaka.style/news/pressrelease/78133/",
+     "source": "osaka style",
+     "image": "https://www.prdesse.com/posts/download_file/22540/image/file1/%252Fimages%252Fblank.jpg"
+    },
+    {
+     "id": "0b49fa336e3af36e",
+     "title": "『資さんうどん』キッチンカーが栄・久屋大通公園に10月24日、25日限定登場",
+     "link": "https://jouhou.nagoya/sukesanudon-202610/",
+     "source": "名古屋情報通",
+     "image": "https://jouhou.nagoya/wp-content/uploads/2026/10/sukesanudon005-600x390.jpg"
+    },
+    {
+     "id": "069d90812bf968fb",
+     "title": "注文から約30秒の高速提供…うどん&きしめんが1杯330円の食堂 早い・安い・うまいの三拍子揃い愛される",
+     "link": "https://www.tokai-tv.com/tokainews/feature/article_20261021_48878",
+     "source": "東海テレビ放送",
+     "image": null
+    }
+   ]
+  },
+  {
    "label": "韓国グルメ",
    "q": "韓国",
    "kind": "dish",
@@ -111,102 +207,6 @@
      "link": "https://article.auone.jp/98b0f532-4656-4cf1-95cf-d0ac09e2414b",
      "source": "au Webポータル",
      "image": "https://newportal.portal.auone.jp/media/thumbnails/2026/10/20/https___news_jp_i_1485164184786781166_w1200.webp"
-    }
-   ]
-  },
-  {
-   "label": "うどん",
-   "q": "うどん",
-   "kind": "dish",
-   "recent": 9,
-   "base_per_day": 0.91,
-   "ratio": 2.55,
-   "new": false,
-   "daily": [
-    0,
-    0,
-    0,
-    0,
-    4,
-    2,
-    0,
-    2,
-    1,
-    1,
-    0,
-    1,
-    7,
-    1
-   ],
-   "articles": [
-    {
-     "id": "0b49fa336e3af36e",
-     "title": "『資さんうどん』キッチンカーが栄・久屋大通公園に10月24日、25日限定登場",
-     "link": "https://jouhou.nagoya/sukesanudon-202610/",
-     "source": "名古屋情報通",
-     "image": "https://jouhou.nagoya/wp-content/uploads/2026/10/sukesanudon005-600x390.jpg"
-    },
-    {
-     "id": "069d90812bf968fb",
-     "title": "注文から約30秒の高速提供…うどん&きしめんが1杯330円の食堂 早い・安い・うまいの三拍子揃い愛される",
-     "link": "https://www.tokai-tv.com/tokainews/feature/article_20261021_48878",
-     "source": "東海テレビ放送",
-     "image": null
-    },
-    {
-     "id": "6ffac80dc6ec341c",
-     "title": "史上初！資さんうどんにナポリタンうどんが登場！目玉焼きのせ熱々鉄板で期間限定販売",
-     "link": "https://report.iko-yo.net/articles/34972",
-     "source": "いこーよニュース",
-     "image": "https://d28w2qw7dtr435.cloudfront.net/uploaded/cover_images/images/35056/normal.jpg?1792551475"
-    }
-   ]
-  },
-  {
-   "label": "鍋",
-   "q": "鍋",
-   "kind": "dish",
-   "recent": 4,
-   "base_per_day": 0.27,
-   "ratio": 2.48,
-   "new": false,
-   "daily": [
-    0,
-    0,
-    0,
-    1,
-    0,
-    0,
-    1,
-    1,
-    0,
-    0,
-    0,
-    1,
-    3,
-    0
-   ],
-   "articles": [
-    {
-     "id": "a31522071ccbc9b5",
-     "title": "栄センパに「とんかつ知多家」発の新ブランド「土鍋ごはん×とんかつ CHITAKA」が2026年10月29日オープン ドリンク半額のオープン記念イベントも注目【栄】",
-     "link": "https://nagoyato.com/posts/20276",
-     "source": "nagoyato",
-     "image": "https://nagoyato.com/wp-content/uploads/2026/10/261021sub1.jpg"
-    },
-    {
-     "id": "a74ae6cd5a2e7aaa",
-     "title": "1988年創業「とんかつ知多家」から新ブランド誕生土鍋ごはんと多彩な豆皿で味わう、とんかつの新しいかたち「土鍋ごはん×とんかつ CHITAKA」10月29日（木）名古屋・栄にオープン | チタカ・インターナショナル・フーズ株式会社のプレスリリース",
-     "link": "https://prtimes.jp/main/html/rd/p/000000050.000023738.html",
-     "source": "PR TIMES",
-     "image": "https://prcdn.freetls.fastly.net/release_image/23738/50/23738-50-f7c1b4cb7aee646c6f61348514eba43f-1147x764.jpg?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260"
-    },
-    {
-     "id": "15e0a85e1b335c15",
-     "title": "アルミ鍋のまま火にかけて楽しむ出来たての味！「肉吸い」発祥「千とせ本店」監修肉うどん＆「大久手山本屋」監修味噌煮込みうどんを発売",
-     "link": "https://nihombashi.keizai.biz/release/668473/",
-     "source": "日本橋経済新聞",
-     "image": "https://prcdn.freetls.fastly.net/release_image/155396/1284/155396-1284-b6f25b6d772f612909af2a889591a5c8-3900x2600.jpg?width=536&quality=85%2C75&format=jpeg&auto=webp&fit=bounds&bg-color=fff"
     }
    ]
   },

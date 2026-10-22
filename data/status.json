@@ -1,18 +1,17 @@
 {
- "updated": "2026-10-22T11:31:52+09:00",
- "items": 379,
- "with_image": 349,
- "google_decode_ok": 29,
+ "updated": "2026-10-22T12:31:45+09:00",
+ "items": 380,
+ "with_image": 350,
+ "google_decode_ok": 23,
  "google_decode_failed": 0,
  "google_decode_samples": [],
  "image_failures": [
   "news.nicovideo.jp: HTTPError: HTTP Error 403: Forbidden",
-  "www.tokai-tv.com: HTTPError: HTTP Error 503: Service Temporarily Unavailable",
-  "biz.chunichi.co.jp: HTTPError: HTTP Error 403: Forbidden",
+  "hachioji.goguynet.jp: og:image なし (14 文字)",
+  "ebina-zama-ayase.goguynet.jp: og:image なし (14 文字)",
   "www.excite.co.jp: HTTPError: HTTP Error 403: Forbidden",
-  "thetv.jp: og:image なし (42488 文字)",
-  "hachioji.goguynet.jp: URLError: <urlopen error timed out>",
-  "ebina-zama-ayase.goguynet.jp: URLError: <urlopen error timed out>",
-  "asahikawa.goguynet.jp: URLError: <urlopen error timed out>"
+  "thetv.jp: og:image なし (42499 文字)",
+  "biz.chunichi.co.jp: HTTPError: HTTP Error 403: Forbidden",
+  "www.chukei-news.co.jp: URLError: <urlopen error timed out>"
  ]
 }
