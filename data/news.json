@@ -1,6 +1,23 @@
 {
- "updated": "2026-10-23T07:28:55+09:00",
+ "updated": "2026-10-23T08:29:17+09:00",
  "items": [
+  {
+   "id": "f6d951a360ed6879",
+   "title": "【愛知・知立】餃子食べ放題が1,980円！「にこにこ餃子 知立店」で11月末までの期間限定企画がスタート",
+   "link": "https://prtimes.jp/main/html/rd/p/000000048.000074719.html",
+   "source": "PR TIMES",
+   "image": "https://prcdn.freetls.fastly.net/release_image/74719/48/74719-48-79defc4fcf574bac33738fee542449d3-1920x1280.png?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260",
+   "category": "chain",
+   "area": "愛知",
+   "published": "2026-10-23T08:00:01+09:00",
+   "provider": "google",
+   "added": "2026-10-23T08:29:17+09:00",
+   "decode_v2": true,
+   "image_checked": true,
+   "image_v4": true,
+   "shop": false,
+   "shop_name": null
+  },
   {
    "id": "2c1f3f1d7bb24d64",
    "title": "今年10万人以上動員した「ラーメン女子博」in 名古屋の開催決定！",
@@ -6401,23 +6418,6 @@
    "published": "2026-10-13T16:00:00+09:00",
    "provider": "google",
    "added": "2026-10-19T13:33:29+09:00",
-   "decode_v2": true,
-   "image_checked": true,
-   "image_v4": true,
-   "shop": false,
-   "shop_name": null
-  },
-  {
-   "id": "4e8ade37d2e2fee0",
-   "title": "ボリューム満点！東海エリア自慢のなごやめし・鉄板スパゲティが食べられる店",
-   "link": "https://www.walkerplus.com/article/156772/",
-   "source": "ウォーカープラス",
-   "image": "https://news.walkerplus.com/article/156772/903035_615.jpg",
-   "category": "deka",
-   "area": "東海",
-   "published": "2026-10-13T16:00:00+09:00",
-   "provider": "google",
-   "added": "2026-10-20T13:30:28+09:00",
    "decode_v2": true,
    "image_checked": true,
    "image_v4": true,
