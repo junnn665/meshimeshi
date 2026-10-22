@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-22T00:40:35+00:00",
+ "updated": "2026-10-22T01:35:41+00:00",
  "days": [
   "2026-10-09",
   "2026-10-10",
@@ -67,6 +67,54 @@
    ]
   },
   {
+   "label": "韓国グルメ",
+   "q": "韓国",
+   "kind": "dish",
+   "recent": 3,
+   "base_per_day": 0.09,
+   "ratio": 2.75,
+   "new": false,
+   "daily": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    1,
+    1,
+    1
+   ],
+   "articles": [
+    {
+     "id": "5ff5a6022e8ee06a",
+     "title": "アジアパラ大会でも国歌など取り違え 台湾、モンゴルなのにイラン、中国なのに韓国",
+     "link": "https://www.kfb.co.jp/news/article/16984573",
+     "source": "KFB福島放送",
+     "image": "https://news.tv-asahi.co.jp/articles_img/000542026_640.jpg"
+    },
+    {
+     "id": "f45f47c5cbcd9d6e",
+     "title": "韓国120店舗の行列チュロスが神奈川県大和市初出店！！神奈川2店舗目へ！「STREET CHURROS」10月23日(金)イオンモール大和にOPEN｜16種の穀物×金賞ソフトの\"罪悪感ゼロ\"スイーツ",
+     "link": "https://prtimes.jp/main/html/rd/p/000000018.000154644.html",
+     "source": "PR TIMES",
+     "image": "https://prcdn.freetls.fastly.net/release_image/154644/18/154644-18-fbc8a27fce2d960aaadcb9018f95c094-1000x1000.jpg?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260"
+    },
+    {
+     "id": "11804cea4cf05e01",
+     "title": "たこ焼きの中身は近江牛！ 名神下り線の多賀SAに新店オープン 韓国グルメや生チュロスも",
+     "link": "https://article.auone.jp/98b0f532-4656-4cf1-95cf-d0ac09e2414b",
+     "source": "au Webポータル",
+     "image": "https://newportal.portal.auone.jp/media/thumbnails/2026/10/20/https___news_jp_i_1485164184786781166_w1200.webp"
+    }
+   ]
+  },
+  {
    "label": "鍋",
    "q": "鍋",
    "kind": "dish",
@@ -119,14 +167,14 @@
    "q": "うどん",
    "kind": "dish",
    "recent": 8,
-   "base_per_day": 1.0,
-   "ratio": 2.12,
+   "base_per_day": 0.91,
+   "ratio": 2.28,
    "new": false,
    "daily": [
     0,
     0,
     0,
-    1,
+    0,
     4,
     2,
     0,
@@ -159,47 +207,6 @@
      "link": "https://prtimes.jp/main/html/rd/p/000000612.000019432.html",
      "source": "PR TIMES",
      "image": "https://prcdn.freetls.fastly.net/release_image/19432/612/19432-612-4248dd20d57e6e2e62786ff828947436-1920x1080.jpg?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260"
-    }
-   ]
-  },
-  {
-   "label": "韓国グルメ",
-   "q": "韓国",
-   "kind": "dish",
-   "recent": 2,
-   "base_per_day": 0.09,
-   "ratio": 1.96,
-   "new": false,
-   "daily": [
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    1,
-    1,
-    1,
-    0
-   ],
-   "articles": [
-    {
-     "id": "f45f47c5cbcd9d6e",
-     "title": "韓国120店舗の行列チュロスが神奈川県大和市初出店！！神奈川2店舗目へ！「STREET CHURROS」10月23日(金)イオンモール大和にOPEN｜16種の穀物×金賞ソフトの\"罪悪感ゼロ\"スイーツ",
-     "link": "https://prtimes.jp/main/html/rd/p/000000018.000154644.html",
-     "source": "PR TIMES",
-     "image": "https://prcdn.freetls.fastly.net/release_image/154644/18/154644-18-fbc8a27fce2d960aaadcb9018f95c094-1000x1000.jpg?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260"
-    },
-    {
-     "id": "11804cea4cf05e01",
-     "title": "たこ焼きの中身は近江牛！ 名神下り線の多賀SAに新店オープン 韓国グルメや生チュロスも",
-     "link": "https://article.auone.jp/98b0f532-4656-4cf1-95cf-d0ac09e2414b",
-     "source": "au Webポータル",
-     "image": "https://newportal.portal.auone.jp/media/thumbnails/2026/10/20/https___news_jp_i_1485164184786781166_w1200.webp"
     }
    ]
   },
@@ -248,6 +255,54 @@
      "link": "https://news.infoseek.co.jp/amp/article/otonanswer_402706/",
      "source": "Infoseek",
      "image": "https://media.image.infoseek.co.jp/isnews/photos/otonanswer/otonanswer_402706_0-enlarge.jpg"
+    }
+   ]
+  },
+  {
+   "label": "ハンバーグ",
+   "q": "ハンバーグ",
+   "kind": "dish",
+   "recent": 3,
+   "base_per_day": 0.36,
+   "ratio": 1.67,
+   "new": false,
+   "daily": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    2,
+    1,
+    0,
+    1,
+    0,
+    1,
+    1,
+    1
+   ],
+   "articles": [
+    {
+     "id": "243a87718377e63f",
+     "title": "純系名古屋コーチン100％「白金ハンバーグ」が食のプロから最高評価！ジャパン・フード・セレクションでグランプリ受賞",
+     "link": "https://prtimes.jp/main/html/rd/p/000000002.000182010.html",
+     "source": "PR TIMES",
+     "image": "https://prcdn.freetls.fastly.net/release_image/182010/2/182010-2-02d11fae45826646cceddb0bcc9afe74-1920x1280.png?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260"
+    },
+    {
+     "id": "7494354602a272a9",
+     "title": "【50周年記念でチーズ50％増量】背徳のやりすぎチーズハンバーグを ...",
+     "link": "https://www.atpress.ne.jp/news/1717389",
+     "source": "アットプレス",
+     "image": "https://www.atpress.ne.jp/attachments/BST0Hl2JORZ6KXubaji4.jpeg"
+    },
+    {
+     "id": "a57e50c856737fd3",
+     "title": "【10月20日発売】ファミリーマート ランチにおすすめ新商品まとめ 「鉄板焼ハンバーグ弁当（コク深デミソース）」「生姜香る具だくさん中華スープ」など",
+     "link": "https://entabe.jp/61883/summary-familymart-october-20th-new-lunch",
+     "source": "えん食べ [グルメニュース]",
+     "image": "https://image.entabe.jp/upload/20261018/images/thumb_familymart_1020_lunch.jpg"
     }
    ]
   },

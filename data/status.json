@@ -1,17 +1,16 @@
 {
- "updated": "2026-10-22T09:40:06+09:00",
- "items": 378,
- "with_image": 350,
- "google_decode_ok": 24,
+ "updated": "2026-10-22T10:35:09+09:00",
+ "items": 380,
+ "with_image": 352,
+ "google_decode_ok": 21,
  "google_decode_failed": 0,
  "google_decode_samples": [],
  "image_failures": [
   "news.nicovideo.jp: HTTPError: HTTP Error 403: Forbidden",
   "hachioji.goguynet.jp: og:image なし (14 文字)",
-  "www.chukei-news.co.jp: HTTPError: HTTP Error 403: Forbidden",
   "ebina-zama-ayase.goguynet.jp: og:image なし (14 文字)",
   "www.excite.co.jp: HTTPError: HTTP Error 403: Forbidden",
   "biz.chunichi.co.jp: HTTPError: HTTP Error 403: Forbidden",
-  "thetv.jp: og:image なし (42468 文字)"
+  "thetv.jp: og:image なし (42434 文字)"
  ]
 }
