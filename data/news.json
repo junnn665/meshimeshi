@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-23T05:30:40+09:00",
+ "updated": "2026-10-23T06:30:24+09:00",
  "items": [
   {
    "id": "95ac455308b2a7e2",
@@ -41,6 +41,23 @@
    "start": "2026-10-24",
    "end": "2026-10-25",
    "group": "216e1d665fa9"
+  },
+  {
+   "id": "e48e8adbb7820f07",
+   "title": "真っ赤なソースがあふれ出す“トリック”を仕掛けた限定メニュー！Eggs ’n",
+   "link": "https://news.nicovideo.jp/watch/nw19907119?news_ref=search_search",
+   "source": "ニコニコニュース",
+   "image": null,
+   "category": "chain",
+   "area": "東海",
+   "published": "2026-10-22T19:27:12+09:00",
+   "provider": "google",
+   "added": "2026-10-23T06:30:24+09:00",
+   "decode_v2": true,
+   "image_checked": true,
+   "image_v4": true,
+   "shop": false,
+   "shop_name": null
   },
   {
    "id": "e72072ad723c5072",
@@ -1452,6 +1469,23 @@
    "shop_name": null
   },
   {
+   "id": "68c08cbf04522245",
+   "title": "スペアリブ“豚かぶり焼き”が名物! 名古屋・栄に新居酒屋",
+   "link": "https://www.walkerplus.com/article/7225/",
+   "source": "ウォーカープラス",
+   "image": "https://news.walkerplus.com/article/7225/17922_615.jpg",
+   "category": "wadai",
+   "area": "名古屋",
+   "published": "2026-10-20T19:36:28+09:00",
+   "provider": "google",
+   "added": "2026-10-23T06:30:24+09:00",
+   "decode_v2": true,
+   "image_checked": true,
+   "image_v4": true,
+   "shop": true,
+   "shop_name": null
+  },
+  {
    "id": "e4c24afce8ed99c5",
    "title": "【コメダ】秋冬の新作ケーキ発売 毎年好評の「純栗ぃむ」など4種登場",
    "link": "https://news.infoseek.co.jp/amp/article/otonanswer_402706/",
@@ -1973,6 +2007,23 @@
    "published": "2026-10-20T10:30:00+09:00",
    "provider": "google",
    "added": "2026-10-22T11:31:52+09:00",
+   "decode_v2": true,
+   "image_checked": true,
+   "image_v4": true,
+   "shop": false,
+   "shop_name": null
+  },
+  {
+   "id": "fe316a83004474d1",
+   "title": "【らあめん花月嵐】旭川の名店「蜂屋」とコラボ！焦がしラード香る限定ラーメンが登場",
+   "link": "https://article.auone.jp/article/d4fcf367-3dda-45a1-aaef-755bea610187",
+   "source": "au Webポータル",
+   "image": "https://newportal.portal.auone.jp/media/thumbnails/2026/10/20/https___news_jp_i_1485087177156608176_w1200.webp",
+   "category": "wadai",
+   "area": "東海",
+   "published": "2026-10-20T10:26:13+09:00",
+   "provider": "google",
+   "added": "2026-10-23T06:30:24+09:00",
    "decode_v2": true,
    "image_checked": true,
    "image_v4": true,
@@ -6385,6 +6436,22 @@
    "provider": "google",
    "added": "2026-10-20T14:31:02+09:00",
    "decode_v2": true,
+   "image_checked": true,
+   "image_v4": true,
+   "shop": false,
+   "shop_name": null
+  },
+  {
+   "id": "9297715a7e4d2d25",
+   "title": "破壊力抜群のビジュアル…大盛りで話題のうどん店に『ピッチャー ...",
+   "link": "https://www.fnn.jp/articles/-/1131075",
+   "source": "FNNプライムオンライン",
+   "image": "https://fnn.ismcdn.jp/mwimgs/2/3/600/img_23b6a0c59277d3401461bd4297c40e0c318346.jpg",
+   "category": "deka",
+   "area": "東海",
+   "published": "2026-10-12T02:00:00+09:00",
+   "provider": "bing",
+   "added": "2026-10-23T06:30:24+09:00",
    "image_checked": true,
    "image_v4": true,
    "shop": false,
