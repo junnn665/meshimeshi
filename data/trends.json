@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-22T19:33:56+00:00",
+ "updated": "2026-10-22T20:31:11+00:00",
  "days": [
   "2026-10-10",
   "2026-10-11",
@@ -119,14 +119,14 @@
    "q": "うどん",
    "kind": "dish",
    "recent": 9,
-   "base_per_day": 0.91,
-   "ratio": 2.55,
+   "base_per_day": 0.73,
+   "ratio": 2.99,
    "new": false,
    "daily": [
     0,
     0,
+    0,
     1,
-    2,
     2,
     0,
     2,
@@ -292,7 +292,7 @@
     },
     {
      "id": "f2688191da6ff772",
-     "title": "HUBアスティ静岡店が、和栗を味わう全国一斉ランチ会「BIKKURI LUNCH2026」の静岡会場に！東海軒の和栗ご飯弁当を楽しもう",
+     "title": "HUBアスティ静岡店が、和栗を味わう全国一斉ランチ会「BIKKURI LUNCH2026」の静岡会場に！東海軒の和栗ご飯弁当を楽しもう (2026年10月21日掲載)",
      "link": "https://getnews.jp/archives/3750281",
      "source": "ガジェット通信",
      "image": "https://straightpress.jp/wp-content/uploads/2026/10/Tana2610211224main.jpg"
