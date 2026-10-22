@@ -1,12 +1,11 @@
 {
- "updated": "2026-10-23T06:30:24+09:00",
- "items": 378,
- "with_image": 348,
+ "updated": "2026-10-23T07:28:55+09:00",
+ "items": 376,
+ "with_image": 346,
  "google_decode_ok": 25,
  "google_decode_failed": 0,
  "google_decode_samples": [],
  "image_failures": [
-  "news.nicovideo.jp: HTTPError: HTTP Error 403: Forbidden",
   "news.nicovideo.jp: HTTPError: HTTP Error 403: Forbidden",
   "www.excite.co.jp: HTTPError: HTTP Error 403: Forbidden"
  ]

@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-22T21:30:58+00:00",
+ "updated": "2026-10-22T22:29:22+00:00",
  "days": [
   "2026-10-10",
   "2026-10-11",
@@ -67,6 +67,54 @@
    ]
   },
   {
+   "label": "うどん",
+   "q": "うどん",
+   "kind": "dish",
+   "recent": 9,
+   "base_per_day": 0.64,
+   "ratio": 3.27,
+   "new": false,
+   "daily": [
+    0,
+    0,
+    0,
+    0,
+    2,
+    0,
+    2,
+    1,
+    1,
+    0,
+    1,
+    7,
+    2,
+    0
+   ],
+   "articles": [
+    {
+     "id": "63b5cb502705844d",
+     "title": "冬を先取り！日韓ブレンド出汁のスンドゥブ×うどんの新メニュー なんばウォークの「じゅろく なんば別邸」で「和韓特製スンドゥブうどん」 10/24(土)から冬季限定提供、“鍋の〆”を最初から楽しめる温活グルメ",
+     "link": "https://osaka.style/news/pressrelease/78133/",
+     "source": "osaka style",
+     "image": "https://www.prdesse.com/posts/download_file/22540/image/file1/%252Fimages%252Fblank.jpg"
+    },
+    {
+     "id": "0b49fa336e3af36e",
+     "title": "『資さんうどん』キッチンカーが栄・久屋大通公園に10月24日、25日限定登場",
+     "link": "https://jouhou.nagoya/sukesanudon-202610/",
+     "source": "名古屋情報通",
+     "image": "https://jouhou.nagoya/wp-content/uploads/2026/10/sukesanudon005-600x390.jpg"
+    },
+    {
+     "id": "069d90812bf968fb",
+     "title": "注文から約30秒の高速提供…うどん&きしめんが1杯330円の食堂 早い・安い・うまいの三拍子揃い愛される（東海テレビ）",
+     "link": "https://www.tokai-tv.com/tokainews/feature/article_20261021_48878",
+     "source": "東海テレビ放送",
+     "image": null
+    }
+   ]
+  },
+  {
    "label": "パフェ",
    "q": "パフェ",
    "kind": "dish",
@@ -110,54 +158,6 @@
      "title": "色づく秋の景色を一杯に表現した「秋色パフェ」販売、りんご･洋梨･柿など秋果実が主役",
      "link": "https://news.nicovideo.jp/watch/nw19905449?news_ref=search_search",
      "source": "ニコニコニュース",
-     "image": null
-    }
-   ]
-  },
-  {
-   "label": "うどん",
-   "q": "うどん",
-   "kind": "dish",
-   "recent": 9,
-   "base_per_day": 0.82,
-   "ratio": 2.75,
-   "new": false,
-   "daily": [
-    0,
-    0,
-    1,
-    1,
-    2,
-    0,
-    2,
-    1,
-    1,
-    0,
-    1,
-    7,
-    2,
-    0
-   ],
-   "articles": [
-    {
-     "id": "63b5cb502705844d",
-     "title": "冬を先取り！日韓ブレンド出汁のスンドゥブ×うどんの新メニュー なんばウォークの「じゅろく なんば別邸」で「和韓特製スンドゥブうどん」 10/24(土)から冬季限定提供、“鍋の〆”を最初から楽しめる温活グルメ",
-     "link": "https://osaka.style/news/pressrelease/78133/",
-     "source": "osaka style",
-     "image": "https://www.prdesse.com/posts/download_file/22540/image/file1/%252Fimages%252Fblank.jpg"
-    },
-    {
-     "id": "0b49fa336e3af36e",
-     "title": "『資さんうどん』キッチンカーが栄・久屋大通公園に10月24日、25日限定登場",
-     "link": "https://jouhou.nagoya/sukesanudon-202610/",
-     "source": "名古屋情報通",
-     "image": "https://jouhou.nagoya/wp-content/uploads/2026/10/sukesanudon005-600x390.jpg"
-    },
-    {
-     "id": "069d90812bf968fb",
-     "title": "注文から約30秒の高速提供…うどん&きしめんが1杯330円の食堂 早い・安い・うまいの三拍子揃い愛される（東海テレビ）",
-     "link": "https://www.tokai-tv.com/tokainews/feature/article_20261021_48878",
-     "source": "東海テレビ放送",
      "image": null
     }
    ]
