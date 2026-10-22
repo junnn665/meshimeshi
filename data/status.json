@@ -1,15 +1,13 @@
 {
- "updated": "2026-10-22T15:39:02+09:00",
- "items": 380,
- "with_image": 352,
- "google_decode_ok": 20,
+ "updated": "2026-10-22T16:44:24+09:00",
+ "items": 378,
+ "with_image": 350,
+ "google_decode_ok": 24,
  "google_decode_failed": 0,
  "google_decode_samples": [],
  "image_failures": [
   "news.nicovideo.jp: HTTPError: HTTP Error 403: Forbidden",
   "www.excite.co.jp: HTTPError: HTTP Error 403: Forbidden",
-  "thetv.jp: og:image なし (42460 文字)",
-  "biz.chunichi.co.jp: HTTPError: HTTP Error 403: Forbidden",
-  "www.msn.com: og:image なし (38645 文字)"
+  "thetv.jp: og:image なし (42477 文字)"
  ]
 }
