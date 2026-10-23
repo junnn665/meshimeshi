@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-23T14:30:23+09:00",
+ "updated": "2026-10-23T15:37:57+09:00",
  "items": [
   {
    "id": "e702ccb26126df05",
@@ -12,6 +12,23 @@
    "published": "2026-10-23T14:00:06+09:00",
    "provider": "prtimes",
    "added": "2026-10-23T14:30:23+09:00",
+   "image_checked": true,
+   "image_v4": true,
+   "shop": false,
+   "shop_name": null
+  },
+  {
+   "id": "f28e977cb906f8ae",
+   "title": "【初開催】人形町の老舗「玉ひで」監修！「五鉄×伊藤養鶏場」のキッチンカーが出店！希少な烏骨鶏料理からトリュフ香るフォアグラ、こだわりの卵スイーツまで登場",
+   "link": "https://prtimes.jp/main/html/rd/p/000004429.000011710.html",
+   "source": "PR TIMES",
+   "image": "https://prcdn.freetls.fastly.net/release_image/11710/4429/11710-4429-ac83834b864bae11c764d8b1203fb152-1018x424.jpg?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260",
+   "category": "wadai",
+   "area": "東海",
+   "published": "2026-10-23T13:00:02+09:00",
+   "provider": "google",
+   "added": "2026-10-23T15:37:57+09:00",
+   "decode_v2": true,
    "image_checked": true,
    "image_v4": true,
    "shop": false,
@@ -84,6 +101,23 @@
    "shop_name": null
   },
   {
+   "id": "e78330f20e25dbfe",
+   "title": "【ファミマ】クリームいっぱいで幸せ……！ 8年ぶりに大刷新した「無限クリーム」で心を満たす極上ご褒美スイーツ3選",
+   "link": "https://woman.mynavi.jp/article/261023-2_1160320-2/",
+   "source": "マイナビウーマン",
+   "image": "https://cdn0.mynvwm.com/wp-content/uploads/2026/10/IMG_5895.jpg",
+   "category": "conbini",
+   "area": "東海",
+   "published": "2026-10-23T11:00:59+09:00",
+   "provider": "google",
+   "added": "2026-10-23T15:37:57+09:00",
+   "decode_v2": true,
+   "image_checked": true,
+   "image_v4": true,
+   "shop": false,
+   "shop_name": null
+  },
+  {
    "id": "0419e5fd6ac8acdb",
    "title": "【新店】極味薬膳スープ×お好みカスタマイズ！麻辣湯専門店「菜菜麻辣湯」が、ららぽーと安城フードコート内に10月28日（水）オープン！ | 株式会社クリエイト・レストランツ・ホールディングスのプレスリリース",
    "link": "https://prtimes.jp/main/html/rd/p/000000144.000177867.html",
@@ -99,6 +133,24 @@
    "image_v4": true,
    "shop": false,
    "shop_name": null
+  },
+  {
+   "id": "7874f49ea27c4e9e",
+   "title": "伊賀鉄道、24日に「いがてつマルシェ」 手動ポイント転換、運転体験など：ニュース",
+   "link": "https://biz.chunichi.co.jp/news/article/10/132109/",
+   "source": "中日BIZナビ",
+   "image": "https://biz.chunichi.co.jp/pic/10/p1/132109_0_10.jpg",
+   "category": "event",
+   "area": "三重",
+   "published": "2026-10-23T10:47:00+09:00",
+   "provider": "google",
+   "added": "2026-10-23T15:37:57+09:00",
+   "decode_v2": true,
+   "image_checked": true,
+   "image_v4": true,
+   "shop": true,
+   "shop_name": "いがてつマルシェ",
+   "group": "24614aa2eff4"
   },
   {
    "id": "8483c25f23696b56",
@@ -461,6 +513,23 @@
    "image_v4": true,
    "shop": false,
    "shop_name": null
+  },
+  {
+   "id": "007e7a63c6dc3784",
+   "title": "「半妖の夜叉姫カフェ」が名古屋パルコにオープン！日暮とわ＆せつな＆もろはのオリジナルメニューが登場",
+   "link": "https://www.walkerplus.com/article/1063430/",
+   "source": "ウォーカープラス",
+   "image": "https://news.walkerplus.com/article/1063430/10600890_615.jpg",
+   "category": "shinten",
+   "area": "名古屋",
+   "published": "2026-10-22T12:06:38+09:00",
+   "provider": "google",
+   "added": "2026-10-23T15:37:57+09:00",
+   "decode_v2": true,
+   "image_checked": true,
+   "image_v4": true,
+   "shop": true,
+   "shop_name": "半妖の夜叉姫カフェ"
   },
   {
    "id": "97b08d727b9674ab",
