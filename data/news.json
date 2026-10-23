@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-23T09:41:07+09:00",
+ "updated": "2026-10-23T10:38:37+09:00",
  "items": [
   {
    "id": "f6d951a360ed6879",
@@ -1743,6 +1743,23 @@
    "image_v4": true,
    "shop": true,
    "shop_name": "カムジャバト"
+  },
+  {
+   "id": "cfb4853c81bc2b14",
+   "title": "自然と楽しむ！大満足プレートモーニング【東海３県・モーニングにメ～ロメロ！】Collection No.１１６５",
+   "link": "https://locipo.jp/creative/d97c67e6-1a17-4343-96b6-0b2c5ba04054",
+   "source": "locipo.jp",
+   "image": "https://assets.locipo.jp/creatives/181680/original-d97c67e6-1a17-4343-96b6-0b2c5ba04054-20261022041042.jpg",
+   "category": "yasuuma",
+   "area": "東海",
+   "published": "2026-10-20T16:00:00+09:00",
+   "provider": "google",
+   "added": "2026-10-23T10:38:37+09:00",
+   "decode_v2": true,
+   "image_checked": true,
+   "image_v4": true,
+   "shop": false,
+   "shop_name": null
   },
   {
    "id": "11804cea4cf05e01",
@@ -6384,23 +6401,6 @@
    "published": "2026-10-13T16:00:00+09:00",
    "provider": "google",
    "added": "2026-10-14T20:31:58+09:00",
-   "decode_v2": true,
-   "image_checked": true,
-   "image_v4": true,
-   "shop": false,
-   "shop_name": null
-  },
-  {
-   "id": "471318ca4632e481",
-   "title": "「ラーメンWalker」で殿堂入り！店主の実力が光る東海エリアの名店を大紹介【前編】",
-   "link": "https://www.walkerplus.com/article/1011366/",
-   "source": "ウォーカープラス",
-   "image": "https://news.walkerplus.com/article/1011366/10094711_615.jpg",
-   "category": "wadai",
-   "area": "東海",
-   "published": "2026-10-13T16:00:00+09:00",
-   "provider": "google",
-   "added": "2026-10-16T17:36:13+09:00",
    "decode_v2": true,
    "image_checked": true,
    "image_v4": true,
