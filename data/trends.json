@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-23T22:29:41+00:00",
+ "updated": "2026-10-23T23:27:50+00:00",
  "days": [
   "2026-10-11",
   "2026-10-12",
@@ -18,6 +18,47 @@
  ],
  "recent_days": 3,
  "items": [
+  {
+   "label": "プリン",
+   "q": "プリン",
+   "kind": "dish",
+   "recent": 2,
+   "base_per_day": 0.0,
+   "ratio": 2.5,
+   "new": true,
+   "daily": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    1
+   ],
+   "articles": [
+    {
+     "id": "21984553930ccada",
+     "title": "北海道の海の幸がてんこ盛り！プリン体たっぷりな“悪魔的にうまい”鍋が、名古屋の居酒屋に登場!!",
+     "link": "https://www.walkerplus.com/article/169066/",
+     "source": "ウォーカープラス",
+     "image": "https://news.walkerplus.com/article/169066/990510_615.jpg"
+    },
+    {
+     "id": "51fe332d6df19649",
+     "title": "レンジ調理ならではのふわとろ食感が魅力。「罪悪感」を「満足感」に変える野菜量が摂れる粉もん料理「お好みーる」サンプリング試食会を開催中",
+     "link": "https://woman.mynavi.jp/article/261023_1170841/",
+     "source": "マイナビウーマン",
+     "image": "https://cdn0.mynvwm.com/wp-content/uploads/2026/10/DSC_01500.jpg"
+    }
+   ]
+  },
   {
    "label": "パフェ",
    "q": "パフェ",

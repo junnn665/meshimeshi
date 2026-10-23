@@ -1,6 +1,23 @@
 {
- "updated": "2026-10-24T07:29:13+09:00",
+ "updated": "2026-10-24T08:27:18+09:00",
  "items": [
+  {
+   "id": "21984553930ccada",
+   "title": "北海道の海の幸がてんこ盛り！プリン体たっぷりな“悪魔的にうまい”鍋が、名古屋の居酒屋に登場!!",
+   "link": "https://www.walkerplus.com/article/169066/",
+   "source": "ウォーカープラス",
+   "image": "https://news.walkerplus.com/article/169066/990510_615.jpg",
+   "category": "deka",
+   "area": "名古屋",
+   "published": "2026-10-24T03:49:52+09:00",
+   "provider": "google",
+   "added": "2026-10-24T08:27:18+09:00",
+   "decode_v2": true,
+   "image_checked": true,
+   "image_v4": true,
+   "shop": false,
+   "shop_name": null
+  },
   {
    "id": "e212c9c248d988b9",
    "title": "レシートで発見！ 安ウマ店 in知多半島 半田市「葵ベーカリー」パン食べ放題付きのモーニングサービスがうれしい！＆名古屋市緑区「お好み焼・鉄板焼 きん太（名古屋緑店）」本場関西のお好み焼きがお値打ちに味わえる！ 『PS純金（ゴールド）』 | グルメ | よみもの",
@@ -6346,22 +6363,6 @@
    "published": "2026-10-14T11:00:00+09:00",
    "provider": "prtimes",
    "added": "2026-10-14T23:32:45+09:00",
-   "image_checked": true,
-   "image_v4": true,
-   "shop": false,
-   "shop_name": null
-  },
-  {
-   "id": "aaf2bdd2d2bee1f9",
-   "title": "資さんうどんが東海に初出店！2027年1月に名古屋で開店、10月は ...",
-   "link": "https://report.iko-yo.net/articles/34579",
-   "source": "いこーよニュース",
-   "image": "https://d28w2qw7dtr435.cloudfront.net/uploaded/cover_images/images/34528/normal.jpg?1791899334",
-   "category": "shinten",
-   "area": "名古屋",
-   "published": "2026-10-14T02:39:00+09:00",
-   "provider": "bing",
-   "added": "2026-10-24T05:29:44+09:00",
    "image_checked": true,
    "image_v4": true,
    "shop": false,
