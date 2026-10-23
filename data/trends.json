@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-23T02:31:24+00:00",
+ "updated": "2026-10-23T03:32:56+00:00",
  "days": [
   "2026-10-10",
   "2026-10-11",
@@ -18,6 +18,54 @@
  ],
  "recent_days": 3,
  "items": [
+  {
+   "label": "うどん",
+   "q": "うどん",
+   "kind": "dish",
+   "recent": 10,
+   "base_per_day": 0.64,
+   "ratio": 3.61,
+   "new": false,
+   "daily": [
+    0,
+    0,
+    0,
+    0,
+    2,
+    0,
+    2,
+    1,
+    1,
+    0,
+    1,
+    7,
+    2,
+    1
+   ],
+   "articles": [
+    {
+     "id": "e836ef9e1bf8ab97",
+     "title": "名古屋駅のホームで朝から一杯。味噌煮込み・きしめん・カレーうどん、名古屋の麺文化を巡る旅",
+     "link": "https://otonano-shumatsu.com/articles/590822",
+     "source": "おとなの週末Web",
+     "image": "https://otonano-shumatsu.com/wp-content/uploads/2026/10/toake_gotochi_20261023_eyecatch.jpg"
+    },
+    {
+     "id": "63b5cb502705844d",
+     "title": "冬を先取り！日韓ブレンド出汁のスンドゥブ×うどんの新メニュー なんばウォークの「じゅろく なんば別邸」で「和韓特製スンドゥブうどん」 10/24(土)から冬季限定提供、“鍋の〆”を最初から楽しめる温活グルメ",
+     "link": "https://osaka.style/news/pressrelease/78133/",
+     "source": "osaka style",
+     "image": "https://www.prdesse.com/posts/download_file/22540/image/file1/%252Fimages%252Fblank.jpg"
+    },
+    {
+     "id": "0b49fa336e3af36e",
+     "title": "『資さんうどん』キッチンカーが栄・久屋大通公園に10月24日、25日限定登場",
+     "link": "https://jouhou.nagoya/sukesanudon-202610/",
+     "source": "名古屋情報通",
+     "image": "https://jouhou.nagoya/wp-content/uploads/2026/10/sukesanudon005-600x390.jpg"
+    }
+   ]
+  },
   {
    "label": "とんかつ",
    "q": "とんかつ",
@@ -115,43 +163,36 @@
    ]
   },
   {
-   "label": "うどん",
-   "q": "うどん",
+   "label": "きしめん",
+   "q": "きしめん",
    "kind": "dish",
-   "recent": 9,
-   "base_per_day": 0.82,
-   "ratio": 2.75,
-   "new": false,
+   "recent": 2,
+   "base_per_day": 0.0,
+   "ratio": 2.5,
+   "new": true,
    "daily": [
-    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
     0,
     1,
     0,
-    2,
-    0,
-    2,
-    1,
-    1,
-    0,
-    1,
-    7,
-    2,
-    0
+    1
    ],
    "articles": [
     {
-     "id": "63b5cb502705844d",
-     "title": "冬を先取り！日韓ブレンド出汁のスンドゥブ×うどんの新メニュー なんばウォークの「じゅろく なんば別邸」で「和韓特製スンドゥブうどん」 10/24(土)から冬季限定提供、“鍋の〆”を最初から楽しめる温活グルメ",
-     "link": "https://osaka.style/news/pressrelease/78133/",
-     "source": "osaka style",
-     "image": "https://www.prdesse.com/posts/download_file/22540/image/file1/%252Fimages%252Fblank.jpg"
-    },
-    {
-     "id": "0b49fa336e3af36e",
-     "title": "『資さんうどん』キッチンカーが栄・久屋大通公園に10月24日、25日限定登場",
-     "link": "https://jouhou.nagoya/sukesanudon-202610/",
-     "source": "名古屋情報通",
-     "image": "https://jouhou.nagoya/wp-content/uploads/2026/10/sukesanudon005-600x390.jpg"
+     "id": "e836ef9e1bf8ab97",
+     "title": "名古屋駅のホームで朝から一杯。味噌煮込み・きしめん・カレーうどん、名古屋の麺文化を巡る旅",
+     "link": "https://otonano-shumatsu.com/articles/590822",
+     "source": "おとなの週末Web",
+     "image": "https://otonano-shumatsu.com/wp-content/uploads/2026/10/toake_gotochi_20261023_eyecatch.jpg"
     },
     {
      "id": "069d90812bf968fb",
@@ -252,6 +293,54 @@
    ]
   },
   {
+   "label": "ローソン",
+   "q": "ローソン",
+   "kind": "chain",
+   "recent": 3,
+   "base_per_day": 0.27,
+   "ratio": 1.93,
+   "new": false,
+   "daily": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    1,
+    0,
+    0,
+    1,
+    1,
+    2,
+    0
+   ],
+   "articles": [
+    {
+     "id": "c7dac4c345d40978",
+     "title": "サッポロビール、ローソン限定「サッポロ 小悪魔グレフルサワー」10月27日から数量限定発売",
+     "link": "https://topics.smt.docomo.ne.jp/article/diamondrm/business/diamondrm-561321",
+     "source": "ｄメニューニュース",
+     "image": "https://img.topics.smt.news.goo.ne.jp/picture/diamondrm/m_diamondrm-561321.png"
+    },
+    {
+     "id": "2dc044d46ab122c7",
+     "title": "【10月20日〜発売】セブン・ファミマ・ローソン新作スイーツ特集｜「Uchi Café×ゴディバ ショコラパフェ」・「ダブルクリームエクレア」など注目デザートまとめ",
+     "link": "https://topics.smt.docomo.ne.jp/amp/article/entabe/trend/entabe-61909",
+     "source": "ｄメニューニュース",
+     "image": "https://img.topics.smt.news.goo.ne.jp/picture/entabe/m_entabe-61909.jpg"
+    },
+    {
+     "id": "5463a0063ed3f372",
+     "title": "ハーゲンダッツジャパン、ハーゲンダッツ「クレイジーバター」をローソン店舗で数量限定発売",
+     "link": "https://www.nikkei.com/article/DGXZRSP714136_R21C26A0000000/",
+     "source": "日本経済新聞",
+     "image": "https://article-image-ix.nikkei.com/https%3A%2F%2Fimgix-proxy.n8s.jp%2FDSXZQO3758095021102026000000-1.jpg?auto=compress&bg=FFFF&crop=focalpoint&fit=crop&fm=jpg&h=630&upscale=false&w=1200&s=68a49c62205622b35cb79068962d3787"
+    }
+   ]
+  },
+  {
    "label": "抹茶",
    "q": "抹茶",
    "kind": "dish",
@@ -337,54 +426,6 @@
      "link": "https://getnews.jp/archives/3750281",
      "source": "ガジェット通信",
      "image": "https://straightpress.jp/wp-content/uploads/2026/10/Tana2610211224main.jpg"
-    }
-   ]
-  },
-  {
-   "label": "ローソン",
-   "q": "ローソン",
-   "kind": "chain",
-   "recent": 3,
-   "base_per_day": 0.36,
-   "ratio": 1.67,
-   "new": false,
-   "daily": [
-    0,
-    0,
-    0,
-    1,
-    0,
-    0,
-    1,
-    1,
-    0,
-    0,
-    1,
-    1,
-    2,
-    0
-   ],
-   "articles": [
-    {
-     "id": "c7dac4c345d40978",
-     "title": "サッポロビール、ローソン限定「サッポロ 小悪魔グレフルサワー」10月27日から数量限定発売",
-     "link": "https://topics.smt.docomo.ne.jp/article/diamondrm/business/diamondrm-561321",
-     "source": "ｄメニューニュース",
-     "image": "https://img.topics.smt.news.goo.ne.jp/picture/diamondrm/m_diamondrm-561321.png"
-    },
-    {
-     "id": "2dc044d46ab122c7",
-     "title": "【10月20日〜発売】セブン・ファミマ・ローソン新作スイーツ特集｜「Uchi Café×ゴディバ ショコラパフェ」・「ダブルクリームエクレア」など注目デザートまとめ",
-     "link": "https://topics.smt.docomo.ne.jp/amp/article/entabe/trend/entabe-61909",
-     "source": "ｄメニューニュース",
-     "image": "https://img.topics.smt.news.goo.ne.jp/picture/entabe/m_entabe-61909.jpg"
-    },
-    {
-     "id": "5463a0063ed3f372",
-     "title": "ハーゲンダッツジャパン、ハーゲンダッツ「クレイジーバター」をローソン店舗で数量限定発売",
-     "link": "https://www.nikkei.com/article/DGXZRSP714136_R21C26A0000000/",
-     "source": "日本経済新聞",
-     "image": "https://article-image-ix.nikkei.com/https%3A%2F%2Fimgix-proxy.n8s.jp%2FDSXZQO3758095021102026000000-1.jpg?auto=compress&bg=FFFF&crop=focalpoint&fit=crop&fm=jpg&h=630&upscale=false&w=1200&s=68a49c62205622b35cb79068962d3787"
     }
    ]
   },
