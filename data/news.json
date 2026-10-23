@@ -1,6 +1,23 @@
 {
- "updated": "2026-10-24T00:33:36+09:00",
+ "updated": "2026-10-24T01:35:05+09:00",
  "items": [
+  {
+   "id": "e212c9c248d988b9",
+   "title": "レシートで発見！ 安ウマ店 in知多半島 半田市「葵ベーカリー」パン食べ放題付きのモーニングサービスがうれしい！＆名古屋市緑区「お好み焼・鉄板焼 きん太（名古屋緑店）」本場関西のお好み焼きがお値打ちに味わえる！ 『PS純金（ゴールド）』 | グルメ | よみもの",
+   "link": "https://locipo.jp/media/gourmet/entry-5533.html",
+   "source": "locipo.jp",
+   "image": "https://locipo.jp/media/media/001/202610/5_6.jpg",
+   "category": "yasuuma",
+   "area": "名古屋",
+   "published": "2026-10-23T22:44:15+09:00",
+   "provider": "google",
+   "added": "2026-10-24T01:35:05+09:00",
+   "decode_v2": true,
+   "image_checked": true,
+   "image_v4": true,
+   "shop": false,
+   "shop_name": null
+  },
   {
    "id": "6d60cb3e0f76447c",
    "title": "名古屋コーチンの旨味広がるラーメン店『拉麺あるひ』天白区・野並駅前にオープン",
@@ -6355,22 +6372,6 @@
    "provider": "google",
    "added": "2026-10-14T10:31:37+09:00",
    "decode_v2": true,
-   "image_checked": true,
-   "image_v4": true,
-   "shop": false,
-   "shop_name": null
-  },
-  {
-   "id": "fb8cdac433b0b1b8",
-   "title": "東海オンエア りょうのR-LAB.が運営するスイーツブランド「La Maison du R」が沖縄県へ初出店！",
-   "link": "https://prtimes.jp/main/html/rd/p/000000015.000109471.html",
-   "source": "PR TIMES",
-   "image": "https://prcdn.freetls.fastly.net/release_image/109471/15/109471-15-d267e67faa99326df4b03f5f60742e0f-904x752.png?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260",
-   "category": "shinten",
-   "area": "東海",
-   "published": "2026-10-14T10:00:00+09:00",
-   "provider": "prtimes",
-   "added": "2026-10-14T12:30:04+09:00",
    "image_checked": true,
    "image_v4": true,
    "shop": false,
