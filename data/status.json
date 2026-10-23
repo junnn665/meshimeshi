@@ -1,13 +1,12 @@
 {
- "updated": "2026-10-24T05:29:44+09:00",
- "items": 375,
- "with_image": 348,
- "google_decode_ok": 25,
+ "updated": "2026-10-24T06:30:10+09:00",
+ "items": 374,
+ "with_image": 347,
+ "google_decode_ok": 27,
  "google_decode_failed": 0,
  "google_decode_samples": [],
  "image_failures": [
   "news.nicovideo.jp: HTTPError: HTTP Error 403: Forbidden",
-  "news.nicovideo.jp: HTTPError: HTTP Error 403: Forbidden",
-  "meieki.keizai.biz: HTTPError: HTTP Error 404: Not Found"
+  "news.nicovideo.jp: HTTPError: HTTP Error 403: Forbidden"
  ]
 }

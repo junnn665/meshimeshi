@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-23T20:30:14+00:00",
+ "updated": "2026-10-23T21:30:42+00:00",
  "days": [
   "2026-10-11",
   "2026-10-12",
@@ -63,6 +63,47 @@
      "link": "https://news.nicovideo.jp/watch/nw19905449?news_ref=search_search",
      "source": "ニコニコニュース",
      "image": null
+    }
+   ]
+  },
+  {
+   "label": "ガスト",
+   "q": "ガスト",
+   "kind": "chain",
+   "recent": 2,
+   "base_per_day": 0.18,
+   "ratio": 1.62,
+   "new": false,
+   "daily": [
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    2,
+    0
+   ],
+   "articles": [
+    {
+     "id": "b537333d2702f551",
+     "title": "ガストの人気メニューが期間限定フェアで399円",
+     "link": "https://www.walkerplus.com/article/78254/",
+     "source": "ウォーカープラス",
+     "image": "https://news.walkerplus.com/article/78254/441748_615.jpg"
+    },
+    {
+     "id": "eebfdf9b4c170bc4",
+     "title": "ガストのテイクアウトでおうちファミレス！期間限定メニューを楽しめる「幻のオムライスフェア」開催",
+     "link": "https://www.walkerplus.com/article/1001489/",
+     "source": "ウォーカープラス",
+     "image": "https://news.walkerplus.com/article/1001489/10005101_615.jpg"
     }
    ]
   }
