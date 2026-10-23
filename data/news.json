@@ -1,6 +1,23 @@
 {
- "updated": "2026-10-23T23:36:52+09:00",
+ "updated": "2026-10-24T00:33:36+09:00",
  "items": [
+  {
+   "id": "6d60cb3e0f76447c",
+   "title": "名古屋コーチンの旨味広がるラーメン店『拉麺あるひ』天白区・野並駅前にオープン",
+   "link": "https://jouhou.nagoya/ramen-arch/",
+   "source": "名古屋情報通",
+   "image": "https://jouhou.nagoya/wp-content/uploads/2026/10/ramen-arch001-600x400.jpg",
+   "category": "shinten",
+   "area": "名古屋",
+   "published": "2026-10-23T21:41:56+09:00",
+   "provider": "google",
+   "added": "2026-10-24T00:33:36+09:00",
+   "decode_v2": true,
+   "image_checked": true,
+   "image_v4": true,
+   "shop": true,
+   "shop_name": "拉麺あるひ"
+  },
   {
    "id": "8901128367511161",
    "title": "【10/24・25】雨の日も♪週末おすすめ回転寿司の新作メニュー6選 大とろ食べ比べも！",
@@ -484,6 +501,23 @@
    "shop_name": null
   },
   {
+   "id": "8e67ccdba1d3b72f",
+   "title": "首都圏“ナンバーワン”ラーメンは？「新店部門」は3ジャンルで1位 夫婦二人三脚のお店 大賞は2店舗が同時受賞 TRYラーメン大賞【Nスタ】",
+   "link": "https://newsdig.tbs.co.jp/articles/gallery/3035290?utm_source=news.yahoo.co.jp&utm_medium=referral&utm_campaign=partnerLink&ex_position=photo&ex_id=3035290&image=2",
+   "source": "TBS NEWS DIG",
+   "image": "https://newsdig.ismcdn.jp/mwimgs/2/6/1200w/img_26c0e404a594a9dc9c0318ef5f022ff1434832.jpg",
+   "category": "shinten",
+   "area": "東海",
+   "published": "2026-10-22T20:48:49+09:00",
+   "provider": "google",
+   "added": "2026-10-24T00:33:36+09:00",
+   "decode_v2": true,
+   "image_checked": true,
+   "image_v4": true,
+   "shop": false,
+   "shop_name": null
+  },
+  {
    "id": "57eb363184dabc76",
    "title": "人気番組体験コーナーやグルメ出店も！「東海テレビ1チャンまつり」栄・久屋大通公園で10月24日、25日に開催",
    "link": "https://jouhou.nagoya/tokaitv-1chfes2026/",
@@ -727,6 +761,22 @@
    "start": "2026-10-23",
    "end": "2026-10-23",
    "group": "225fd53007c6"
+  },
+  {
+   "id": "ee15fcce30969e84",
+   "title": "名古屋・那古野の喫茶ニューポピー、金・土は22時まで ...",
+   "link": "https://note.com/nagoya_bites/n/n52ce457c2e17",
+   "source": "note",
+   "image": "https://d2l930y2yx77uc.cloudfront.net/production/social_images/1bdb457b6e5b3ec6dd9a4466d79fef1c315e74e8.png",
+   "category": "yasuuma",
+   "area": "名古屋",
+   "published": "2026-10-22T12:38:00+09:00",
+   "provider": "bing",
+   "added": "2026-10-24T00:33:36+09:00",
+   "image_checked": true,
+   "image_v4": true,
+   "shop": true,
+   "shop_name": null
   },
   {
    "id": "7e05dd2af885433b",
@@ -6321,23 +6371,6 @@
    "published": "2026-10-14T10:00:00+09:00",
    "provider": "prtimes",
    "added": "2026-10-14T12:30:04+09:00",
-   "image_checked": true,
-   "image_v4": true,
-   "shop": false,
-   "shop_name": null
-  },
-  {
-   "id": "ba0034ab9ae33fd6",
-   "title": "【コメダ珈琲店】お好み焼きバーガー【数量限定・期間限定メニュー】",
-   "link": "https://foodfighter.jp/komeda-okonomiyaki-burger",
-   "source": "https://foodfighter.jp/",
-   "image": "https://foodfighter.jp/wp-content/uploads/2026/10/263926dfd02cd8f24d52405b376d06ed.jpg",
-   "category": "chain",
-   "area": "東海",
-   "published": "2026-10-14T08:52:36+09:00",
-   "provider": "google",
-   "added": "2026-10-14T09:38:58+09:00",
-   "decode_v2": true,
    "image_checked": true,
    "image_v4": true,
    "shop": false,
