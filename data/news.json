@@ -1,6 +1,22 @@
 {
- "updated": "2026-10-23T12:32:24+09:00",
+ "updated": "2026-10-23T13:31:42+09:00",
  "items": [
+  {
+   "id": "71c479d28f1e1471",
+   "title": "創業80年の伝統を誇る台湾・嘉義「梅山茶油生産合作社」が「2026日本国際観光商品デザインコンテスト」にて最高栄誉となる【金賞6部門】を独占受賞！",
+   "link": "https://prtimes.jp/main/html/rd/p/000000054.000063437.html",
+   "source": "PR TIMES",
+   "image": "https://prcdn.freetls.fastly.net/release_image/63437/54/63437-54-da95f428be1c9e5095582e17fa68193b-2048x1365.jpg?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260",
+   "category": "chain",
+   "area": "名古屋",
+   "published": "2026-10-23T13:00:00+09:00",
+   "provider": "prtimes",
+   "added": "2026-10-23T13:31:42+09:00",
+   "image_checked": true,
+   "image_v4": true,
+   "shop": false,
+   "shop_name": null
+  },
   {
    "id": "e836ef9e1bf8ab97",
    "title": "名古屋駅のホームで朝から一杯。味噌煮込み・きしめん・カレーうどん、名古屋の麺文化を巡る旅",
@@ -66,6 +82,22 @@
    "image_v4": true,
    "shop": false,
    "shop_name": null
+  },
+  {
+   "id": "802ab44e8ee20961",
+   "title": "「パンとエスプレッソと」が静岡に初出店！",
+   "link": "https://prtimes.jp/main/html/rd/p/000000130.000035358.html",
+   "source": "PR TIMES",
+   "image": "https://prcdn.freetls.fastly.net/release_image/35358/130/35358-130-0d118ada247a176773bbfd51d2d63d24-3900x2925.jpg?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260",
+   "category": "shinten",
+   "area": "静岡",
+   "published": "2026-10-23T10:00:00+09:00",
+   "provider": "prtimes",
+   "added": "2026-10-23T13:31:42+09:00",
+   "image_checked": true,
+   "image_v4": true,
+   "shop": true,
+   "shop_name": "パンとエスプレッソと"
   },
   {
    "id": "f6d951a360ed6879",
@@ -187,6 +219,23 @@
    "published": "2026-10-22T19:20:21+09:00",
    "provider": "google",
    "added": "2026-10-22T19:33:22+09:00",
+   "decode_v2": true,
+   "image_checked": true,
+   "image_v4": true,
+   "shop": false,
+   "shop_name": null
+  },
+  {
+   "id": "bd922b97b7389d3e",
+   "title": "コメダ珈琲のパン無料モーニングがお得すぎた！グルメYouTuber山崎NANAが大絶賛「朝から幸せ！」",
+   "link": "https://news.livedoor.com/article/detail/32631603/",
+   "source": "ライブドアニュース",
+   "image": "https://image.news.livedoor.com/newsimage/stf/d/9/d9c8d_1845_f173ba81_c731abdf.jpg",
+   "category": "yasuuma",
+   "area": "東海",
+   "published": "2026-10-22T18:30:04+09:00",
+   "provider": "google",
+   "added": "2026-10-23T13:31:42+09:00",
    "decode_v2": true,
    "image_checked": true,
    "image_v4": true,
@@ -6387,23 +6436,6 @@
    "image_v4": true,
    "shop": true,
    "shop_name": "ガパオライス"
-  },
-  {
-   "id": "6de06149daa11273",
-   "title": "【藤枝初上陸】全国200店舗展開 行列ができる居酒屋『新時代』が静岡・藤枝に2026年10月29日(木)グランドオープン",
-   "link": "https://prtimes.jp/main/html/rd/p/000000278.000070373.html",
-   "source": "PR TIMES",
-   "image": "https://prcdn.freetls.fastly.net/release_image/70373/278/70373-278-ecc53691b2c9cf682577eee01f294f20-2160x2700.jpg?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260",
-   "category": "shinten",
-   "area": "静岡",
-   "published": "2026-10-13T17:46:31+09:00",
-   "provider": "google",
-   "added": "2026-10-13T22:27:39+09:00",
-   "decode_v2": true,
-   "image_checked": true,
-   "image_v4": true,
-   "shop": false,
-   "shop_name": null
   }
  ]
 }
