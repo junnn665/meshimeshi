@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-23T06:38:27+00:00",
+ "updated": "2026-10-23T07:42:38+00:00",
  "days": [
   "2026-10-10",
   "2026-10-11",
@@ -18,6 +18,54 @@
  ],
  "recent_days": 3,
  "items": [
+  {
+   "label": "とんかつ",
+   "q": "とんかつ",
+   "kind": "dish",
+   "recent": 4,
+   "base_per_day": 0.0,
+   "ratio": 4.5,
+   "new": true,
+   "daily": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    3,
+    0,
+    1
+   ],
+   "articles": [
+    {
+     "id": "4aca7d9b7d9b7d09",
+     "title": "【岐阜県初上陸】3種の大かまどごはんが食べ放題！熟成三元豚のとんかつ専門店『厚切りとんかつ よし平』10/28（水）各務原市にOPEN！",
+     "link": "https://prtimes.jp/main/html/rd/p/000000793.000031747.html",
+     "source": "PR TIMES",
+     "image": "https://prcdn.freetls.fastly.net/release_image/31747/793/31747-793-30217d39e92cb45b2891f03411f58faa-2688x1792.png?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260"
+    },
+    {
+     "id": "3dd680cc8d578108",
+     "title": "覚王山発のとんかつ専門店『わだ福』が西区・四間道にオープン",
+     "link": "https://jouhou.nagoya/wadafuku-shikemichi/",
+     "source": "名古屋情報通",
+     "image": "https://jouhou.nagoya/wp-content/uploads/2022/04/wadafuku-kakuouzan09-600x450.jpg"
+    },
+    {
+     "id": "a31522071ccbc9b5",
+     "title": "栄センパに「とんかつ知多家」発の新ブランド「土鍋ごはん×とんかつ CHITAKA」が2026年10月29日オープン ドリンク半額のオープン記念イベントも注目【栄】",
+     "link": "https://nagoyato.com/posts/20276",
+     "source": "nagoyato",
+     "image": "https://nagoyato.com/wp-content/uploads/2026/10/261021sub1.jpg"
+    }
+   ]
+  },
   {
    "label": "うどん",
    "q": "うどん",
@@ -63,54 +111,6 @@
      "link": "https://jouhou.nagoya/sukesanudon-202610/",
      "source": "名古屋情報通",
      "image": "https://jouhou.nagoya/wp-content/uploads/2026/10/sukesanudon005-600x390.jpg"
-    }
-   ]
-  },
-  {
-   "label": "とんかつ",
-   "q": "とんかつ",
-   "kind": "dish",
-   "recent": 3,
-   "base_per_day": 0.0,
-   "ratio": 3.5,
-   "new": true,
-   "daily": [
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    3,
-    0,
-    0
-   ],
-   "articles": [
-    {
-     "id": "3dd680cc8d578108",
-     "title": "覚王山発のとんかつ専門店『わだ福』が西区・四間道にオープン",
-     "link": "https://jouhou.nagoya/wadafuku-shikemichi/",
-     "source": "名古屋情報通",
-     "image": "https://jouhou.nagoya/wp-content/uploads/2022/04/wadafuku-kakuouzan09-600x450.jpg"
-    },
-    {
-     "id": "a31522071ccbc9b5",
-     "title": "栄センパに「とんかつ知多家」発の新ブランド「土鍋ごはん×とんかつ CHITAKA」が2026年10月29日オープン ドリンク半額のオープン記念イベントも注目【栄】",
-     "link": "https://nagoyato.com/posts/20276",
-     "source": "nagoyato",
-     "image": "https://nagoyato.com/wp-content/uploads/2026/10/261021sub1.jpg"
-    },
-    {
-     "id": "a74ae6cd5a2e7aaa",
-     "title": "1988年創業「とんかつ知多家」から新ブランド誕生土鍋ごはんと多彩な豆皿で味わう、とんかつの新しいかたち「土鍋ごはん×とんかつ CHITAKA」10月29日（木）名古屋・栄にオープン | チタカ・インターナショナル・フーズ株式会社のプレスリリース",
-     "link": "https://prtimes.jp/main/html/rd/p/000000050.000023738.html",
-     "source": "PR TIMES",
-     "image": "https://prcdn.freetls.fastly.net/release_image/23738/50/23738-50-f7c1b4cb7aee646c6f61348514eba43f-1147x764.jpg?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260"
     }
    ]
   },
