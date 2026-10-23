@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-24T01:35:05+09:00",
+ "updated": "2026-10-24T02:30:02+09:00",
  "items": [
   {
    "id": "e212c9c248d988b9",
@@ -50,6 +50,23 @@
    "image_checked": true,
    "image_v4": true,
    "shop": false,
+   "shop_name": null
+  },
+  {
+   "id": "c87a2e3b10e39fc0",
+   "title": "浜松の街食堂がオープンから3年半 風土になじみ人気は上々 関係者の思惑合致：ニュース",
+   "link": "https://biz.chunichi.co.jp/news/article/10/132173/",
+   "source": "中日BIZナビ",
+   "image": "https://biz.chunichi.co.jp/pic/10/p1/132173_0_10.jpg",
+   "category": "shinten",
+   "area": "静岡",
+   "published": "2026-10-23T20:14:00+09:00",
+   "provider": "google",
+   "added": "2026-10-24T02:30:02+09:00",
+   "decode_v2": true,
+   "image_checked": true,
+   "image_v4": true,
+   "shop": true,
    "shop_name": null
   },
   {
@@ -6372,6 +6389,38 @@
    "provider": "google",
    "added": "2026-10-14T10:31:37+09:00",
    "decode_v2": true,
+   "image_checked": true,
+   "image_v4": true,
+   "shop": false,
+   "shop_name": null
+  },
+  {
+   "id": "83932cf5d9ba8d21",
+   "title": "名古屋で「予算2,000円以内」の2軒。なごめが紹介したラーメンと ...",
+   "link": "https://note.com/nagome/n/nea27fb31fe6c",
+   "source": "note",
+   "image": "https://assets.st-note.com/production/uploads/images/324791779/rectangle_large_type_2_a9e5e39eda266a260568194e28b05267.png?fit=bounds&quality=85&width=1280",
+   "category": "wadai",
+   "area": "名古屋",
+   "published": "2026-10-13T13:20:00+09:00",
+   "provider": "bing",
+   "added": "2026-10-24T02:30:02+09:00",
+   "image_checked": true,
+   "image_v4": true,
+   "shop": false,
+   "shop_name": null
+  },
+  {
+   "id": "9297715a7e4d2d25",
+   "title": "破壊力抜群のビジュアル…大盛りで話題のうどん店に『ピッチャー ...",
+   "link": "https://www.fnn.jp/articles/-/1131075",
+   "source": "FNNプライムオンライン",
+   "image": "https://fnn.ismcdn.jp/mwimgs/2/3/600/img_23b6a0c59277d3401461bd4297c40e0c318346.jpg",
+   "category": "deka",
+   "area": "東海",
+   "published": "2026-10-12T01:00:00+09:00",
+   "provider": "bing",
+   "added": "2026-10-24T02:30:02+09:00",
    "image_checked": true,
    "image_v4": true,
    "shop": false,
