@@ -1,7 +1,6 @@
 {
- "updated": "2026-10-24T14:26:32+00:00",
+ "updated": "2026-10-24T15:27:10+00:00",
  "days": [
-  "2026-10-11",
   "2026-10-12",
   "2026-10-13",
   "2026-10-14",
@@ -14,7 +13,8 @@
   "2026-10-21",
   "2026-10-22",
   "2026-10-23",
-  "2026-10-24"
+  "2026-10-24",
+  "2026-10-25"
  ],
  "recent_days": 3,
  "items": [
@@ -30,7 +30,6 @@
     0,
     0,
     0,
-    0,
     1,
     0,
     0,
@@ -40,6 +39,7 @@
     0,
     0,
     3,
+    0,
     0
    ],
    "articles": [
@@ -86,9 +86,9 @@
     0,
     0,
     0,
-    0,
     1,
-    1
+    1,
+    0
    ],
    "articles": [
     {
@@ -119,7 +119,6 @@
     0,
     0,
     0,
-    0,
     1,
     0,
     0,
@@ -129,6 +128,7 @@
     1,
     0,
     3,
+    0,
     0
    ],
    "articles": [
@@ -152,54 +152,6 @@
      "link": "https://www.walkerplus.com/article/1001489/",
      "source": "ウォーカープラス",
      "image": "https://news.walkerplus.com/article/1001489/10005101_615.jpg"
-    }
-   ]
-  },
-  {
-   "label": "パフェ",
-   "q": "パフェ",
-   "kind": "dish",
-   "recent": 4,
-   "base_per_day": 0.36,
-   "ratio": 2.15,
-   "new": false,
-   "daily": [
-    0,
-    0,
-    0,
-    0,
-    1,
-    0,
-    0,
-    1,
-    0,
-    1,
-    1,
-    4,
-    0,
-    0
-   ],
-   "articles": [
-    {
-     "id": "2dc044d46ab122c7",
-     "title": "【10月20日〜発売】セブン・ファミマ・ローソン新作スイーツ特集｜「Uchi Café×ゴディバ ショコラパフェ」・「ダブルクリームエクレア」など注目デザートまとめ",
-     "link": "https://topics.smt.docomo.ne.jp/amp/article/entabe/trend/entabe-61909",
-     "source": "ｄメニューニュース",
-     "image": "https://img.topics.smt.news.goo.ne.jp/picture/entabe/m_entabe-61909.jpg"
-    },
-    {
-     "id": "07b4eee66b2d0ef2",
-     "title": "【ニッコースタイル名古屋】岐阜県産富有柿とマスカルポーネのパフェを11月1日より提供",
-     "link": "https://prtimes.jp/main/html/rd/p/000004418.000002213.html",
-     "source": "PR TIMES",
-     "image": "https://prcdn.freetls.fastly.net/release_image/2213/4418/2213-4418-2404f72bcdd037ba9e474a4b1ea8ccae-3900x2601.jpg?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260"
-    },
-    {
-     "id": "7e05dd2af885433b",
-     "title": "色づく秋の景色を一杯に表現した「秋色パフェ」販売、りんご･洋梨･柿など秋果実が主役",
-     "link": "https://news.nicovideo.jp/watch/nw19905449?news_ref=search_search",
-     "source": "ニコニコニュース",
-     "image": null
     }
    ]
   }

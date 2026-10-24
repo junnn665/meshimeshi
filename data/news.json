@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-24T23:26:05+09:00",
+ "updated": "2026-10-25T00:26:39+09:00",
  "items": [
   {
    "id": "d2ac6a8d7f64eb59",
@@ -2076,6 +2076,23 @@
    "published": "2026-10-21T14:41:00+09:00",
    "provider": "google",
    "added": "2026-10-21T19:33:45+09:00",
+   "decode_v2": true,
+   "image_checked": true,
+   "image_v4": true,
+   "shop": false,
+   "shop_name": null
+  },
+  {
+   "id": "1f6a180d7530f4c4",
+   "title": "【ゆず庵】「本ずわいがに握り」がゆず庵コースから食べ放題！11月10日(火)より43万食限定発売",
+   "link": "https://prtimes.jp/main/html/rd/p/000001556.000044964.html",
+   "source": "PR TIMES",
+   "image": "https://prcdn.freetls.fastly.net/release_image/44964/1556/44964-1556-e10dfff0f464e9fdb9bb70df328a9b8c-1910x1000.jpg?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260",
+   "category": "chain",
+   "area": "東海",
+   "published": "2026-10-21T14:00:02+09:00",
+   "provider": "google",
+   "added": "2026-10-25T00:26:39+09:00",
    "decode_v2": true,
    "image_checked": true,
    "image_v4": true,
