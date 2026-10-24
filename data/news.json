@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-25T03:28:45+09:00",
+ "updated": "2026-10-25T04:25:31+09:00",
  "items": [
   {
    "id": "d2ac6a8d7f64eb59",
@@ -6330,6 +6330,38 @@
    "provider": "google",
    "added": "2026-10-16T19:52:06+09:00",
    "decode_v2": true,
+   "image_checked": true,
+   "image_v4": true,
+   "shop": false,
+   "shop_name": null
+  },
+  {
+   "id": "b4694ee4801833c9",
+   "title": "秋キャンプの“仕込み”はお酒から！？デカ盛り洋食店「とらや ...",
+   "link": "https://note.com/fmgig_nagoya/n/n83fbca4ead8f",
+   "source": "note",
+   "image": "https://assets.st-note.com/production/uploads/images/315298823/rectangle_large_type_2_23fd66378e71ff0b8ed5740473df7e21.png?fit=bounds&quality=85&width=1280",
+   "category": "deka",
+   "area": "東海",
+   "published": "2026-10-14T14:00:00+09:00",
+   "provider": "bing",
+   "added": "2026-10-25T04:25:31+09:00",
+   "image_checked": true,
+   "image_v4": true,
+   "shop": false,
+   "shop_name": null
+  },
+  {
+   "id": "e1ef581292e1262a",
+   "title": "【和牛焼肉 NIKUGEN 赤坂店】1周年記念！アメリカングルメフェス ...",
+   "link": "https://www.jiji.com/jc/article?k=000001576.000044964&g=prt",
+   "source": "時事ドットコム",
+   "image": "https://prcdn.freetls.fastly.net/release_image/44964/1576/44964-1576-f8d01b6864db22714a955fadaf622c25-882x480.jpg",
+   "category": "wadai",
+   "area": "東海",
+   "published": "2026-10-14T02:00:00+09:00",
+   "provider": "bing",
+   "added": "2026-10-25T04:25:31+09:00",
    "image_checked": true,
    "image_v4": true,
    "shop": false,
