@@ -1,13 +1,13 @@
 {
- "updated": "2026-10-25T01:27:14+09:00",
- "items": 369,
- "with_image": 341,
- "google_decode_ok": 30,
+ "updated": "2026-10-25T02:25:27+09:00",
+ "items": 372,
+ "with_image": 344,
+ "google_decode_ok": 27,
  "google_decode_failed": 0,
  "google_decode_samples": [],
  "image_failures": [
   "news.nicovideo.jp: HTTPError: HTTP Error 403: Forbidden",
   "news.nicovideo.jp: HTTPError: HTTP Error 403: Forbidden",
-  "media.unisba.ac.id: HTTPError: HTTP Error 403: Forbidden"
+  "www.msn.com: og:image なし (42052 文字)"
  ]
 }
