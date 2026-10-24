@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-25T00:26:39+09:00",
+ "updated": "2026-10-25T01:27:14+09:00",
  "items": [
   {
    "id": "d2ac6a8d7f64eb59",
@@ -6310,23 +6310,6 @@
    "published": "2026-10-14T20:01:20+09:00",
    "provider": "google",
    "added": "2026-10-15T01:33:52+09:00",
-   "decode_v2": true,
-   "image_checked": true,
-   "image_v4": true,
-   "shop": false,
-   "shop_name": null
-  },
-  {
-   "id": "36699449480fa740",
-   "title": "エスパシオ ナゴヤキャッスル『中国料理 柳城 NAGOYA CASTLE』の雅な空間で嗜む絶品コース",
-   "link": "https://jouhou.nagoya/ryujo-nagoyacastle/",
-   "source": "名古屋情報通",
-   "image": "https://jouhou.nagoya/wp-content/uploads/2026/10/ryujo-nagoyacastle001-600x400.jpg",
-   "category": "wadai",
-   "area": "東海",
-   "published": "2026-10-14T19:12:42+09:00",
-   "provider": "google",
-   "added": "2026-10-14T19:32:51+09:00",
    "decode_v2": true,
    "image_checked": true,
    "image_v4": true,
