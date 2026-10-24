@@ -1,13 +1,14 @@
 {
- "updated": "2026-10-24T09:44:47+09:00",
- "items": 372,
- "with_image": 345,
- "google_decode_ok": 30,
+ "updated": "2026-10-24T10:39:53+09:00",
+ "items": 373,
+ "with_image": 346,
+ "google_decode_ok": 28,
  "google_decode_failed": 0,
  "google_decode_samples": [],
  "image_failures": [
   "news.nicovideo.jp: HTTPError: HTTP Error 403: Forbidden",
   "news.nicovideo.jp: HTTPError: HTTP Error 403: Forbidden",
-  "news.nicovideo.jp: HTTPError: HTTP Error 403: Forbidden"
+  "news.nicovideo.jp: HTTPError: HTTP Error 403: Forbidden",
+  "tamapon.com: HTTPError: HTTP Error 403: Forbidden"
  ]
 }

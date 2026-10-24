@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-24T09:44:47+09:00",
+ "updated": "2026-10-24T10:39:53+09:00",
  "items": [
   {
    "id": "21984553930ccada",
@@ -562,6 +562,23 @@
    "published": "2026-10-22T22:30:45+09:00",
    "provider": "google",
    "added": "2026-10-23T07:28:55+09:00",
+   "decode_v2": true,
+   "image_checked": true,
+   "image_v4": true,
+   "shop": false,
+   "shop_name": null
+  },
+  {
+   "id": "6b08c155e285e349",
+   "title": "グルメも雑貨もスイーツも、名古屋で秋の京都を満喫する[京の老舗名品展]〜10/26開催",
+   "link": "https://news.livedoor.com/article/detail/32643944/?from_page=internal",
+   "source": "ライブドアニュース",
+   "image": "https://image.news.livedoor.com/newsimage/stf/b/b/bbdde_1784_e2a657a5c62395cc39d240c192b73e49.jpg",
+   "category": "wadai",
+   "area": "名古屋",
+   "published": "2026-10-22T22:00:29+09:00",
+   "provider": "google",
+   "added": "2026-10-24T10:39:53+09:00",
    "decode_v2": true,
    "image_checked": true,
    "image_v4": true,
