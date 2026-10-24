@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-24T16:34:47+09:00",
+ "updated": "2026-10-24T17:29:09+09:00",
  "items": [
   {
    "id": "13d88e87501a0c3e",
@@ -19,6 +19,26 @@
    "start": "2026-11-22",
    "end": "2026-11-22",
    "group": "acb4dd00135e"
+  },
+  {
+   "id": "9c999a207328b5b3",
+   "title": "【摂津市】グルメと音楽を楽しむ「せっつ飯フェス」11月3日開催！",
+   "link": "https://settsu.goguynet.jp/2026/10/24/settsu-foodfes-5/",
+   "source": "地域ニュースサイト号外NET",
+   "image": "https://settsu.goguynet.jp/wp-content/uploads/sites/10/2026/10/0578ff9717e3796b846ad9b353837efc.png",
+   "category": "event",
+   "area": "三重",
+   "published": "2026-10-24T13:00:36+09:00",
+   "provider": "google",
+   "added": "2026-10-24T17:29:09+09:00",
+   "decode_v2": true,
+   "image_checked": true,
+   "image_v4": true,
+   "shop": false,
+   "shop_name": null,
+   "start": "2026-11-03",
+   "end": "2026-11-03",
+   "group": "b6fde5f695a3"
   },
   {
    "id": "57ffa0c29e698cf0",
@@ -303,6 +323,23 @@
    "shop_name": null
   },
   {
+   "id": "2eaf633af1550dc8",
+   "title": "ステーキコンボ29％オフ！ サラダは食べ放題！ ステーキガストで今月は6日間限定",
+   "link": "https://ascii.jp/elem/000/004/445/4445374/",
+   "source": "ASCII.jp",
+   "image": "https://ascii.jp/img/2026/10/23/4542567/xl/36934dafe82f44f7.jpg?20200122",
+   "category": "chain",
+   "area": "東海",
+   "published": "2026-10-23T16:05:00+09:00",
+   "provider": "google",
+   "added": "2026-10-24T17:29:09+09:00",
+   "decode_v2": true,
+   "image_checked": true,
+   "image_v4": true,
+   "shop": false,
+   "shop_name": null
+  },
+  {
    "id": "e702ccb26126df05",
    "title": "童謡コンサート活動40周年！新春を祝う美しいハーモニーと美食の饗宴『由紀さおり・安田祥子 with 松阪ゆうき 新春ディナーコンサート』本日一般予約開始。",
    "link": "https://prtimes.jp/main/html/rd/p/000003994.000014571.html",
@@ -313,6 +350,23 @@
    "published": "2026-10-23T14:00:06+09:00",
    "provider": "prtimes",
    "added": "2026-10-23T14:30:23+09:00",
+   "image_checked": true,
+   "image_v4": true,
+   "shop": false,
+   "shop_name": null
+  },
+  {
+   "id": "f90710e56ba69584",
+   "title": "ハムカツ分厚っ！ かつやに「厚切りハムカツ」「いももち」など新惣菜！ 今晩のおかずにも",
+   "link": "https://ascii.jp/elem/000/004/444/4444160/",
+   "source": "ASCII.jp",
+   "image": "https://ascii.jp/img/2026/10/23/4542463/xl/9225e830bed331a4.jpg?20200122",
+   "category": "wadai",
+   "area": "東海",
+   "published": "2026-10-23T14:00:00+09:00",
+   "provider": "google",
+   "added": "2026-10-24T17:29:09+09:00",
+   "decode_v2": true,
    "image_checked": true,
    "image_v4": true,
    "shop": false,
@@ -6332,61 +6386,6 @@
    "image_v4": true,
    "shop": true,
    "shop_name": "ひものや 官兵衛"
-  },
-  {
-   "id": "e2f54233fdb4770b",
-   "title": "日本最大級の餃子イベント！「全日本ぎょうざ祭り」がモリコロパークで開催",
-   "link": "https://www.walkerplus.com/article/181581/",
-   "source": "ウォーカープラス",
-   "image": "https://news.walkerplus.com/article/181581/1079391_615.jpg",
-   "category": "event",
-   "area": "東海",
-   "published": "2026-10-14T16:00:00+09:00",
-   "provider": "google",
-   "added": "2026-10-18T10:31:00+09:00",
-   "decode_v2": true,
-   "image_checked": true,
-   "image_v4": true,
-   "shop": false,
-   "shop_name": null,
-   "venue": "モリコロパーク",
-   "lat": 35.16961,
-   "lng": 137.09096,
-   "place": "outdoor",
-   "group": "a6ba67cb5eb3"
-  },
-  {
-   "id": "3f5ebc67a8fa05a6",
-   "title": "「魔法使いの約束」コラボカフェが期間限定オープン！バースデーメニューや限定グッズも登場",
-   "link": "https://www.walkerplus.com/article/1068744/",
-   "source": "ウォーカープラス",
-   "image": "https://news.walkerplus.com/article/1068744/10655746_615.jpg",
-   "category": "shinten",
-   "area": "東海",
-   "published": "2026-10-14T16:00:00+09:00",
-   "provider": "google",
-   "added": "2026-10-19T16:48:37+09:00",
-   "decode_v2": true,
-   "image_checked": true,
-   "image_v4": true,
-   "shop": false,
-   "shop_name": null
-  },
-  {
-   "id": "fd6304bd4712b50f",
-   "title": "澄んだ冬空と夜景を楽しむ「泡と風のテラスプラン」温かな料理とフリーフロードリンクが彩るルーフトップテラス ／ザ ロイヤルパークホテル アイコニック 名古屋",
-   "link": "https://prtimes.jp/main/html/rd/p/000001427.000039557.html",
-   "source": "PR TIMES",
-   "image": "https://prcdn.freetls.fastly.net/release_image/39557/1427/39557-1427-cdca4247afaf3ac4f02e53c5c5374a10-3900x2600.jpg?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260",
-   "category": "chain",
-   "area": "名古屋",
-   "published": "2026-10-14T15:45:24+09:00",
-   "provider": "prtimes",
-   "added": "2026-10-14T16:39:43+09:00",
-   "image_checked": true,
-   "image_v4": true,
-   "shop": false,
-   "shop_name": null
   }
  ]
 }

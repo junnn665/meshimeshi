@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-24T07:35:32+00:00",
+ "updated": "2026-10-24T08:29:35+00:00",
  "days": [
   "2026-10-11",
   "2026-10-12",
@@ -60,6 +60,102 @@
    ]
   },
   {
+   "label": "ガスト",
+   "q": "ガスト",
+   "kind": "chain",
+   "recent": 3,
+   "base_per_day": 0.18,
+   "ratio": 2.26,
+   "new": false,
+   "daily": [
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    3,
+    0
+   ],
+   "articles": [
+    {
+     "id": "b537333d2702f551",
+     "title": "ガストの人気メニューが期間限定フェアで399円",
+     "link": "https://www.walkerplus.com/article/78254/",
+     "source": "ウォーカープラス",
+     "image": "https://news.walkerplus.com/article/78254/441748_615.jpg"
+    },
+    {
+     "id": "2eaf633af1550dc8",
+     "title": "ステーキコンボ29％オフ！ サラダは食べ放題！ ステーキガストで今月は6日間限定",
+     "link": "https://ascii.jp/elem/000/004/445/4445374/",
+     "source": "ASCII.jp",
+     "image": "https://ascii.jp/img/2026/10/23/4542567/xl/36934dafe82f44f7.jpg?20200122"
+    },
+    {
+     "id": "eebfdf9b4c170bc4",
+     "title": "ガストのテイクアウトでおうちファミレス！期間限定メニューを楽しめる「幻のオムライスフェア」開催",
+     "link": "https://www.walkerplus.com/article/1001489/",
+     "source": "ウォーカープラス",
+     "image": "https://news.walkerplus.com/article/1001489/10005101_615.jpg"
+    }
+   ]
+  },
+  {
+   "label": "餃子",
+   "q": "餃子",
+   "kind": "dish",
+   "recent": 3,
+   "base_per_day": 0.18,
+   "ratio": 2.26,
+   "new": false,
+   "daily": [
+    0,
+    0,
+    0,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    3,
+    0
+   ],
+   "articles": [
+    {
+     "id": "9d02f7d42a784e63",
+     "title": "羽つき餃子など全8品が90分食べ放題！小学生未満は無料の「にこにこ餃子 知立店」",
+     "link": "https://report.iko-yo.net/articles/35068",
+     "source": "いこーよニュース",
+     "image": "https://d28w2qw7dtr435.cloudfront.net/uploaded/cover_images/images/35191/normal.png?1792721980"
+    },
+    {
+     "id": "f6d951a360ed6879",
+     "title": "【愛知・知立】餃子食べ放題が1,980円！「にこにこ餃子 知立店」で11月末までの期間限定企画がスタート",
+     "link": "https://prtimes.jp/main/html/rd/p/000000048.000074719.html",
+     "source": "PR TIMES",
+     "image": "https://prcdn.freetls.fastly.net/release_image/74719/48/74719-48-79defc4fcf574bac33738fee542449d3-1920x1280.png?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260"
+    },
+    {
+     "id": "4040a79ab0e3cd75",
+     "title": "にこにこ餃子 知立店が餃子含む全8品90分食べ放題を期間限定で提供へ",
+     "link": "https://news.dellows.jp/855252/",
+     "source": "Dellows News",
+     "image": "https://news.dellows.jp/wp-content/uploads/2026/10/855252_1.jpg"
+    }
+   ]
+  },
+  {
    "label": "パフェ",
    "q": "パフェ",
    "kind": "dish",
@@ -104,95 +200,6 @@
      "link": "https://news.nicovideo.jp/watch/nw19905449?news_ref=search_search",
      "source": "ニコニコニュース",
      "image": null
-    }
-   ]
-  },
-  {
-   "label": "餃子",
-   "q": "餃子",
-   "kind": "dish",
-   "recent": 3,
-   "base_per_day": 0.27,
-   "ratio": 1.93,
-   "new": false,
-   "daily": [
-    0,
-    0,
-    0,
-    2,
-    1,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    3,
-    0
-   ],
-   "articles": [
-    {
-     "id": "9d02f7d42a784e63",
-     "title": "羽つき餃子など全8品が90分食べ放題！小学生未満は無料の「にこにこ餃子 知立店」",
-     "link": "https://report.iko-yo.net/articles/35068",
-     "source": "いこーよニュース",
-     "image": "https://d28w2qw7dtr435.cloudfront.net/uploaded/cover_images/images/35191/normal.png?1792721980"
-    },
-    {
-     "id": "f6d951a360ed6879",
-     "title": "【愛知・知立】餃子食べ放題が1,980円！「にこにこ餃子 知立店」で11月末までの期間限定企画がスタート",
-     "link": "https://prtimes.jp/main/html/rd/p/000000048.000074719.html",
-     "source": "PR TIMES",
-     "image": "https://prcdn.freetls.fastly.net/release_image/74719/48/74719-48-79defc4fcf574bac33738fee542449d3-1920x1280.png?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260"
-    },
-    {
-     "id": "4040a79ab0e3cd75",
-     "title": "にこにこ餃子 知立店が餃子含む全8品90分食べ放題を期間限定で提供へ",
-     "link": "https://news.dellows.jp/855252/",
-     "source": "Dellows News",
-     "image": "https://news.dellows.jp/wp-content/uploads/2026/10/855252_1.jpg"
-    }
-   ]
-  },
-  {
-   "label": "ガスト",
-   "q": "ガスト",
-   "kind": "chain",
-   "recent": 2,
-   "base_per_day": 0.18,
-   "ratio": 1.62,
-   "new": false,
-   "daily": [
-    0,
-    0,
-    0,
-    0,
-    1,
-    0,
-    0,
-    0,
-    0,
-    0,
-    1,
-    0,
-    2,
-    0
-   ],
-   "articles": [
-    {
-     "id": "b537333d2702f551",
-     "title": "ガストの人気メニューが期間限定フェアで399円",
-     "link": "https://www.walkerplus.com/article/78254/",
-     "source": "ウォーカープラス",
-     "image": "https://news.walkerplus.com/article/78254/441748_615.jpg"
-    },
-    {
-     "id": "eebfdf9b4c170bc4",
-     "title": "ガストのテイクアウトでおうちファミレス！期間限定メニューを楽しめる「幻のオムライスフェア」開催",
-     "link": "https://www.walkerplus.com/article/1001489/",
-     "source": "ウォーカープラス",
-     "image": "https://news.walkerplus.com/article/1001489/10005101_615.jpg"
     }
    ]
   }
