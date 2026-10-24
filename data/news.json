@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-24T19:27:24+09:00",
+ "updated": "2026-10-24T20:26:54+09:00",
  "items": [
   {
    "id": "d2ac6a8d7f64eb59",
@@ -3807,6 +3807,23 @@
    "shop_name": null
   },
   {
+   "id": "28a7453e7fd5caee",
+   "title": "生涯獲得賞金2.5億円超…人気ラーメン店の閉店に立ち上がったのは“常連客の競輪選手” 二刀流で挑んだ復活秘話",
+   "link": "https://www.fnn.jp/articles/-/1135217",
+   "source": "FNNプライムオンライン",
+   "image": "https://fnn.ismcdn.jp/mwimgs/b/f/600/img_bf80f794559cf6562c76f76e4a84d2df209647.jpg",
+   "category": "wadai",
+   "area": "東海",
+   "published": "2026-10-19T06:00:00+09:00",
+   "provider": "google",
+   "added": "2026-10-24T20:26:54+09:00",
+   "decode_v2": true,
+   "image_checked": true,
+   "image_v4": true,
+   "shop": false,
+   "shop_name": null
+  },
+  {
    "id": "0d964a16b28369d9",
    "title": "名古屋パルコのレストランエリアが拡大オープン！東海初上陸店やフードホールに注目!!",
    "link": "https://www.walkerplus.com/article/178123/",
@@ -6312,40 +6329,6 @@
    "image_checked": true,
    "image_v4": true,
    "shop": false,
-   "shop_name": null
-  },
-  {
-   "id": "cb46205a434f756b",
-   "title": "人気を集める淡路島の塩パン専門店「しおき」",
-   "link": "https://meieki.keizai.biz/photoflash/6553/",
-   "source": "名駅経済新聞",
-   "image": "https://images.keizai.biz/meieki_keizai/photonews/1791966807_b.jpg",
-   "category": "wadai",
-   "area": "東海",
-   "published": "2026-10-14T18:13:16+09:00",
-   "provider": "google",
-   "added": "2026-10-17T14:26:23+09:00",
-   "decode_v2": true,
-   "image_checked": true,
-   "image_v4": true,
-   "shop": false,
-   "shop_name": null
-  },
-  {
-   "id": "a474b44be4f62d10",
-   "title": "横綱や大関を輩出 名門相撲部屋直伝のちゃんこ料理店 名古屋に10月16日オープン",
-   "link": "https://www.shizuoka-life.jp/post-15447/",
-   "source": "静岡ライフ",
-   "image": "https://www.shizuoka-life.jp/wp-content/uploads/2026/10/3aadf37805ac94fe90570ea0753b9967-2.jpg",
-   "category": "shinten",
-   "area": "名古屋",
-   "published": "2026-10-14T18:02:29+09:00",
-   "provider": "google",
-   "added": "2026-10-14T18:33:06+09:00",
-   "decode_v2": true,
-   "image_checked": true,
-   "image_v4": true,
-   "shop": true,
    "shop_name": null
   }
  ]
