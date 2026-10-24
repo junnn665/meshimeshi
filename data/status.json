@@ -1,14 +1,14 @@
 {
- "updated": "2026-10-24T11:29:37+09:00",
+ "updated": "2026-10-24T12:29:43+09:00",
  "items": 372,
- "with_image": 346,
- "google_decode_ok": 33,
+ "with_image": 345,
+ "google_decode_ok": 31,
  "google_decode_failed": 0,
  "google_decode_samples": [],
  "image_failures": [
   "news.nicovideo.jp: HTTPError: HTTP Error 403: Forbidden",
   "news.nicovideo.jp: HTTPError: HTTP Error 403: Forbidden",
-  "news.nicovideo.jp: HTTPError: HTTP Error 403: Forbidden",
-  "otonano-shumatsu.com: og:image なし (298048 文字)"
+  "www.excite.co.jp: HTTPError: HTTP Error 403: Forbidden",
+  "news.nicovideo.jp: HTTPError: HTTP Error 403: Forbidden"
  ]
 }
