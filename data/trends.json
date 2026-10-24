@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-24T09:29:44+00:00",
+ "updated": "2026-10-24T10:28:12+00:00",
  "days": [
   "2026-10-11",
   "2026-10-12",
@@ -18,6 +18,54 @@
  ],
  "recent_days": 3,
  "items": [
+  {
+   "label": "餃子",
+   "q": "餃子",
+   "kind": "dish",
+   "recent": 3,
+   "base_per_day": 0.09,
+   "ratio": 2.75,
+   "new": false,
+   "daily": [
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    3,
+    0
+   ],
+   "articles": [
+    {
+     "id": "9d02f7d42a784e63",
+     "title": "羽つき餃子など全8品が90分食べ放題！小学生未満は無料の「にこにこ餃子 知立店」",
+     "link": "https://report.iko-yo.net/articles/35068",
+     "source": "いこーよニュース",
+     "image": "https://d28w2qw7dtr435.cloudfront.net/uploaded/cover_images/images/35191/normal.png?1792721980"
+    },
+    {
+     "id": "f6d951a360ed6879",
+     "title": "【愛知・知立】餃子食べ放題が1,980円！「にこにこ餃子 知立店」で11月末までの期間限定企画がスタート",
+     "link": "https://prtimes.jp/main/html/rd/p/000000048.000074719.html",
+     "source": "PR TIMES",
+     "image": "https://prcdn.freetls.fastly.net/release_image/74719/48/74719-48-79defc4fcf574bac33738fee542449d3-1920x1280.png?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260"
+    },
+    {
+     "id": "4040a79ab0e3cd75",
+     "title": "にこにこ餃子 知立店が餃子含む全8品90分食べ放題を期間限定で提供へ",
+     "link": "https://news.dellows.jp/855252/",
+     "source": "Dellows News",
+     "image": "https://news.dellows.jp/wp-content/uploads/2026/10/855252_1.jpg"
+    }
+   ]
+  },
   {
    "label": "プリン",
    "q": "プリン",
@@ -104,54 +152,6 @@
      "link": "https://www.walkerplus.com/article/1001489/",
      "source": "ウォーカープラス",
      "image": "https://news.walkerplus.com/article/1001489/10005101_615.jpg"
-    }
-   ]
-  },
-  {
-   "label": "餃子",
-   "q": "餃子",
-   "kind": "dish",
-   "recent": 3,
-   "base_per_day": 0.18,
-   "ratio": 2.26,
-   "new": false,
-   "daily": [
-    0,
-    0,
-    0,
-    1,
-    1,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    3,
-    0
-   ],
-   "articles": [
-    {
-     "id": "9d02f7d42a784e63",
-     "title": "羽つき餃子など全8品が90分食べ放題！小学生未満は無料の「にこにこ餃子 知立店」",
-     "link": "https://report.iko-yo.net/articles/35068",
-     "source": "いこーよニュース",
-     "image": "https://d28w2qw7dtr435.cloudfront.net/uploaded/cover_images/images/35191/normal.png?1792721980"
-    },
-    {
-     "id": "f6d951a360ed6879",
-     "title": "【愛知・知立】餃子食べ放題が1,980円！「にこにこ餃子 知立店」で11月末までの期間限定企画がスタート",
-     "link": "https://prtimes.jp/main/html/rd/p/000000048.000074719.html",
-     "source": "PR TIMES",
-     "image": "https://prcdn.freetls.fastly.net/release_image/74719/48/74719-48-79defc4fcf574bac33738fee542449d3-1920x1280.png?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260"
-    },
-    {
-     "id": "4040a79ab0e3cd75",
-     "title": "にこにこ餃子 知立店が餃子含む全8品90分食べ放題を期間限定で提供へ",
-     "link": "https://news.dellows.jp/855252/",
-     "source": "Dellows News",
-     "image": "https://news.dellows.jp/wp-content/uploads/2026/10/855252_1.jpg"
     }
    ]
   },
