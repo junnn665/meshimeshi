@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-24T20:26:54+09:00",
+ "updated": "2026-10-24T21:32:04+09:00",
  "items": [
   {
    "id": "d2ac6a8d7f64eb59",
@@ -34,6 +34,26 @@
    "image_v4": true,
    "shop": false,
    "shop_name": null
+  },
+  {
+   "id": "71744003aa3cf3b0",
+   "title": "キンコーズ 印刷端材を活用した創作企画を名古屋の「みちにわマルシェ2026」で実施 10月24日に協賛",
+   "link": "https://p-prom.com/company/?p=85713",
+   "source": "プリント&プロモーション",
+   "image": null,
+   "category": "event",
+   "area": "名古屋",
+   "published": "2026-10-24T14:47:01+09:00",
+   "provider": "google",
+   "added": "2026-10-24T21:32:04+09:00",
+   "decode_v2": true,
+   "image_checked": true,
+   "image_v4": true,
+   "shop": true,
+   "shop_name": "みちにわマルシェ2026",
+   "start": "2026-10-24",
+   "end": "2026-10-24",
+   "group": "d60a4296154c"
   },
   {
    "id": "13d88e87501a0c3e",
@@ -542,7 +562,7 @@
   },
   {
    "id": "999cce37d6c2ae73",
-   "title": "TVアニメ『忘却バッテリー』コラボカフェ at 洒落CAFE 【ルーフトップ】が原宿&心斎橋&名古屋にて開催決定！",
+   "title": "TVアニメ『忘却バッテリー』コラボカフェ at 洒落CAFE 【ルーフトップ】が原宿&心斎橋&名古屋にて開催決定！｜Infoseekニュース",
    "link": "https://prtimes.jp/main/html/rd/p/000000376.000048489.html",
    "source": "PR TIMES",
    "image": "https://prcdn.freetls.fastly.net/release_image/48489/376/48489-376-e6485b0bbc7dea91ca456c931d0fef74-1920x1588.png?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260",
@@ -6326,6 +6346,22 @@
    "provider": "google",
    "added": "2026-10-14T23:32:45+09:00",
    "decode_v2": true,
+   "image_checked": true,
+   "image_v4": true,
+   "shop": false,
+   "shop_name": null
+  },
+  {
+   "id": "b4694ee4801833c9",
+   "title": "秋キャンプの“仕込み”はお酒から！？デカ盛り洋食店「とらや ...",
+   "link": "https://note.com/fmgig_nagoya/n/n83fbca4ead8f",
+   "source": "note",
+   "image": "https://assets.st-note.com/production/uploads/images/315298823/rectangle_large_type_2_23fd66378e71ff0b8ed5740473df7e21.png?fit=bounds&quality=85&width=1280",
+   "category": "deka",
+   "area": "東海",
+   "published": "2026-10-14T14:00:00+09:00",
+   "provider": "bing",
+   "added": "2026-10-24T21:32:04+09:00",
    "image_checked": true,
    "image_v4": true,
    "shop": false,
