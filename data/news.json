@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-24T14:28:14+09:00",
+ "updated": "2026-10-24T15:33:22+09:00",
  "items": [
   {
    "id": "13d88e87501a0c3e",
@@ -2100,6 +2100,23 @@
    "published": "2026-10-21T10:45:00+09:00",
    "provider": "google",
    "added": "2026-10-22T19:33:22+09:00",
+   "decode_v2": true,
+   "image_checked": true,
+   "image_v4": true,
+   "shop": false,
+   "shop_name": null
+  },
+  {
+   "id": "0d2d9ef51a1baaad",
+   "title": "【2026年10月第3週】コンビニおにぎり・コンビニ手巻寿司の新商品！サーモンの寿司や五目いなりなど続々まとめ",
+   "link": "https://mognavi.jp/news/matome/gen-newProduct-29086/",
+   "source": "もぐナビ",
+   "image": "https://img1.esimg.jp/blog/wp-content/uploads/2026/10/gen-newProduct-29086.jpg?ts=1792545300000",
+   "category": "conbini",
+   "area": "東海",
+   "published": "2026-10-21T10:15:28+09:00",
+   "provider": "google",
+   "added": "2026-10-24T15:33:22+09:00",
    "decode_v2": true,
    "image_checked": true,
    "image_v4": true,
