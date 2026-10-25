@@ -1,13 +1,12 @@
 {
- "updated": "2026-10-25T19:26:38+09:00",
- "items": 370,
- "with_image": 340,
+ "updated": "2026-10-25T20:26:51+09:00",
+ "items": 371,
+ "with_image": 341,
  "google_decode_ok": 31,
  "google_decode_failed": 0,
  "google_decode_samples": [],
  "image_failures": [
   "news.nicovideo.jp: HTTPError: HTTP Error 403: Forbidden",
-  "f-weeklyweb.com: og:image なし (70336 文字)",
   "news.nicovideo.jp: HTTPError: HTTP Error 403: Forbidden"
  ]
 }

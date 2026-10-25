@@ -1,6 +1,23 @@
 {
- "updated": "2026-10-25T19:26:38+09:00",
+ "updated": "2026-10-25T20:26:51+09:00",
  "items": [
+  {
+   "id": "c750ca94f3b6b555",
+   "title": "【10月27日発売】ファミリーマート 新商品スイーツまとめ「冷やして食べるしっとり食感のバナナバウム」「焼きいもバターシェイク」など",
+   "link": "https://entabe.jp/61941/summary-familymart-october-27th-new-release-sweets",
+   "source": "えん食べ [グルメニュース]",
+   "image": "https://image.entabe.jp/upload/20261023/images/000_2.jpg",
+   "category": "conbini",
+   "area": "東海",
+   "published": "2026-10-25T20:00:00+09:00",
+   "provider": "google",
+   "added": "2026-10-25T20:26:51+09:00",
+   "decode_v2": true,
+   "image_checked": true,
+   "image_v4": true,
+   "shop": false,
+   "shop_name": null
+  },
   {
    "id": "cdccee7868eb42f6",
    "title": "エビ天巻きに京都大原産赤シソのフレーバーティー 京都のグルメや工芸品が一堂に（愛知のニュース（テレビ愛知））",
@@ -3742,6 +3759,24 @@
    "shop_name": null
   },
   {
+   "id": "23a891952a51e877",
+   "title": "TRUNK FES 2026 2,700坪の森で楽しむ音楽・グルメ・アートの祭典(愛知県)の情報",
+   "link": "https://topics.smt.docomo.ne.jp/amp/article/eventbank/region/eventbank-10650608",
+   "source": "ｄメニューニュース",
+   "image": "https://img.topics.smt.news.goo.ne.jp/picture/eventbank/m_eventbank-10650608.jpg",
+   "category": "event",
+   "area": "愛知",
+   "published": "2026-10-20T10:00:00+09:00",
+   "provider": "google",
+   "added": "2026-10-25T20:26:51+09:00",
+   "decode_v2": true,
+   "image_checked": true,
+   "image_v4": true,
+   "shop": false,
+   "shop_name": null,
+   "group": "95fe490a2b08"
+  },
+  {
    "id": "8c7f0d57ea3503fa",
    "title": "寿がきやと超人気店がコラボ!!カップ麺がもらえる限定台湾ラーメンが登場！",
    "link": "https://www.walkerplus.com/article/80491/",
@@ -6339,22 +6374,6 @@
    "provider": "google",
    "added": "2026-10-21T15:38:29+09:00",
    "decode_v2": true,
-   "image_checked": true,
-   "image_v4": true,
-   "shop": false,
-   "shop_name": null
-  },
-  {
-   "id": "d62f5c42bea04eb1",
-   "title": "【初出展】表参道「SPICA」が伊勢丹新宿店に初POP UP出展！初のお惣菜販売と限定コースが登場。SNSで話題の吉田能シェフの来店イベントも開催！",
-   "link": "https://prtimes.jp/main/html/rd/p/000000505.000040062.html",
-   "source": "PR TIMES",
-   "image": "https://prcdn.freetls.fastly.net/release_image/40062/505/40062-505-ac0c26247d91ede5956e72c8641fbd8e-3900x2600.jpg?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260",
-   "category": "wadai",
-   "area": "三重",
-   "published": "2026-10-15T14:00:00+09:00",
-   "provider": "prtimes",
-   "added": "2026-10-15T15:38:11+09:00",
    "image_checked": true,
    "image_v4": true,
    "shop": false,
