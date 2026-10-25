@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-26T03:28:52+09:00",
+ "updated": "2026-10-26T04:26:09+09:00",
  "items": 371,
  "with_image": 341,
  "google_decode_ok": 29,
@@ -8,6 +8,7 @@
  "image_failures": [
   "topics.smt.docomo.ne.jp: HTTPError: HTTP Error 404: Not Found",
   "news.nicovideo.jp: HTTPError: HTTP Error 403: Forbidden",
-  "news.nicovideo.jp: HTTPError: HTTP Error 403: Forbidden"
+  "news.nicovideo.jp: HTTPError: HTTP Error 403: Forbidden",
+  "media.unisba.ac.id: HTTPError: HTTP Error 403: Forbidden"
  ]
 }
