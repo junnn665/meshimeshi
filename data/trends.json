@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-25T02:30:37+00:00",
+ "updated": "2026-10-25T03:30:56+00:00",
  "days": [
   "2026-10-12",
   "2026-10-13",
@@ -152,6 +152,47 @@
      "link": "https://www.walkerplus.com/article/1001489/",
      "source": "ウォーカープラス",
      "image": "https://news.walkerplus.com/article/1001489/10005101_615.jpg"
+    }
+   ]
+  },
+  {
+   "label": "台湾ラーメン",
+   "q": "台湾ラーメン",
+   "kind": "dish",
+   "recent": 2,
+   "base_per_day": 0.18,
+   "ratio": 1.62,
+   "new": false,
+   "daily": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    1,
+    1
+   ],
+   "articles": [
+    {
+     "id": "d37ed691c90e00c7",
+     "title": "【新名古屋名物】台湾ラーメン×宮崎辛麺の最強タッグ！「中毒性確定」の旨辛にんにくラーメン",
+     "link": "https://news.livedoor.com/topics/detail/32651327/?_clicked=echoes_list",
+     "source": "ライブドアニュース",
+     "image": "https://image.news.livedoor.com/newsimage/stf/8/b/8b477_1845_1f66dbfe_fad28f4b.jpg"
+    },
+    {
+     "id": "fb02d7ab2c646a90",
+     "title": "台湾ラーメン×味噌煮込みうどん 名古屋名物が合体",
+     "link": "https://www.walkerplus.com/article/1513/",
+     "source": "ウォーカープラス",
+     "image": "https://news.walkerplus.com/article/1513/3605_615.jpg"
     }
    ]
   }
