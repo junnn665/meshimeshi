@@ -1,6 +1,23 @@
 {
- "updated": "2026-10-25T20:26:51+09:00",
+ "updated": "2026-10-25T21:31:49+09:00",
  "items": [
+  {
+   "id": "063814b8cc556d8f",
+   "title": "星ヶ丘三越の食品フロアがリニューアル！名古屋初上陸のスイーツ店など8店舗が新規オープン",
+   "link": "https://jouhou.nagoya/hoshigaoka-mitsukoshi-renewal2026/",
+   "source": "名古屋情報通",
+   "image": "https://jouhou.nagoya/wp-content/uploads/2026/10/hoshigaoka-mitsukoshi-renewal2026001-600x400.jpg",
+   "category": "shinten",
+   "area": "名古屋",
+   "published": "2026-10-25T20:54:38+09:00",
+   "provider": "google",
+   "added": "2026-10-25T21:31:49+09:00",
+   "decode_v2": true,
+   "image_checked": true,
+   "image_v4": true,
+   "shop": false,
+   "shop_name": null
+  },
   {
    "id": "c750ca94f3b6b555",
    "title": "【10月27日発売】ファミリーマート 新商品スイーツまとめ「冷やして食べるしっとり食感のバナナバウム」「焼きいもバターシェイク」など",
@@ -6356,23 +6373,6 @@
    "published": "2026-10-15T15:00:02+09:00",
    "provider": "google",
    "added": "2026-10-15T15:38:11+09:00",
-   "decode_v2": true,
-   "image_checked": true,
-   "image_v4": true,
-   "shop": false,
-   "shop_name": null
-  },
-  {
-   "id": "dfdfe5ddf13d0d83",
-   "title": "ライブやエイサー、キッチンカーも 無人カフェ「AUREA COFFEE」1周年祭 10月17日、西原町・イルカ公園",
-   "link": "https://www.okinawatimes.co.jp/articles/-/1944699",
-   "source": "沖縄タイムス社",
-   "image": "https://oki.ismcdn.jp/mwimgs/a/c/1200wm/img_acace4fef1cd2a26bfdee5a472706067392741.jpg",
-   "category": "wadai",
-   "area": "東海",
-   "published": "2026-10-15T14:33:00+09:00",
-   "provider": "google",
-   "added": "2026-10-21T15:38:29+09:00",
    "decode_v2": true,
    "image_checked": true,
    "image_v4": true,
