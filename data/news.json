@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-26T07:23:14+09:00",
+ "updated": "2026-10-26T08:23:22+09:00",
  "items": [
   {
    "id": "38a1b6b1190f1ef8",
@@ -179,7 +179,7 @@
   },
   {
    "id": "d82913e9311a4e43",
-   "title": "情報番組『スイッチ！』の公開生放送も…「東海テレビ1チャンまつり」番組で紹介されたグルメのブースなど並ぶ 名古屋・久屋大通公園",
+   "title": "情報番組『スイッチ！』の公開生放送も…「東海テレビ1チャンまつり」番組で紹介されたグルメのブースなど並ぶ 名古屋・久屋大通公園 (2026年10月25日掲載)",
    "link": "https://www.fnn.jp/articles/-/1139430",
    "source": "FNNプライムオンライン",
    "image": "https://fnn.ismcdn.jp/mwimgs/5/c/600/img_5cfe564384745e8f8420a913ed42c9e4361015.jpg",
@@ -197,6 +197,8 @@
    "lat": 35.16737,
    "lng": 136.90883,
    "place": "outdoor",
+   "start": "2026-10-25",
+   "end": "2026-10-25",
    "group": "216e1d665fa9"
   },
   {
@@ -2225,6 +2227,23 @@
    "published": "2026-10-21T22:00:00+09:00",
    "provider": "bing",
    "added": "2026-10-22T10:35:09+09:00",
+   "image_checked": true,
+   "image_v4": true,
+   "shop": false,
+   "shop_name": null
+  },
+  {
+   "id": "6ea4395c1f94e4a2",
+   "title": "【きょうから】ドムドムの新メニューに「今回も攻めてる」、ポスターをよく見たら……まさかダジャレも隠されていた！？「そうきたか！」「見入ってしまうゾウ」ツッコミ殺到",
+   "link": "https://topics.smt.docomo.ne.jp/article/maidonanews/trend/maidonanews-16978194",
+   "source": "ｄメニューニュース",
+   "image": "https://img.topics.smt.news.goo.ne.jp/picture/maidonanews/m_maidonanews-16978194.jpg",
+   "category": "chain",
+   "area": "東海",
+   "published": "2026-10-21T20:10:00+09:00",
+   "provider": "google",
+   "added": "2026-10-26T08:23:22+09:00",
+   "decode_v2": true,
    "image_checked": true,
    "image_v4": true,
    "shop": false,
@@ -6349,23 +6368,6 @@
    "image_v4": true,
    "shop": true,
    "shop_name": null
-  },
-  {
-   "id": "aca61305e0a31c40",
-   "title": "人気スイーツ「ぴよりん」が紫色の魔女に変身！今年もハロウィン限定で名古屋駅に登場",
-   "link": "https://report.iko-yo.net/articles/34718",
-   "source": "いこーよニュース",
-   "image": "https://d28w2qw7dtr435.cloudfront.net/uploaded/cover_images/images/34696/normal.jpg?1792048797",
-   "category": "wadai",
-   "area": "名古屋",
-   "published": "2026-10-15T16:35:30+09:00",
-   "provider": "google",
-   "added": "2026-10-15T16:40:38+09:00",
-   "decode_v2": true,
-   "image_checked": true,
-   "image_v4": true,
-   "shop": true,
-   "shop_name": "ぴよりん"
   }
  ]
 }
