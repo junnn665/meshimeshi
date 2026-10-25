@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-25T22:31:14+09:00",
+ "updated": "2026-10-25T23:26:57+09:00",
  "items": [
   {
    "id": "063814b8cc556d8f",
@@ -12,6 +12,23 @@
    "published": "2026-10-25T20:54:38+09:00",
    "provider": "google",
    "added": "2026-10-25T21:31:49+09:00",
+   "decode_v2": true,
+   "image_checked": true,
+   "image_v4": true,
+   "shop": false,
+   "shop_name": null
+  },
+  {
+   "id": "5b155e3671e0b564",
+   "title": "新店続々オープンでカフェ激戦区へ！名古屋市北区に誕生した「SAKUMACHI商店街」が気になる！",
+   "link": "https://www.walkerplus.com/article/207186/",
+   "source": "ウォーカープラス",
+   "image": "https://news.walkerplus.com/article/207186/1263354_615.jpg",
+   "category": "shinten",
+   "area": "名古屋",
+   "published": "2026-10-25T20:33:34+09:00",
+   "provider": "google",
+   "added": "2026-10-25T23:26:57+09:00",
    "decode_v2": true,
    "image_checked": true,
    "image_v4": true,
@@ -6344,40 +6361,6 @@
    "start": "2026-10-15",
    "end": "2026-10-15",
    "group": "82ae20a2f75b"
-  },
-  {
-   "id": "93baf8a29ba287ff",
-   "title": "にゃんにゃんにゃんこ飯店 (名古屋)(愛知県)の情報",
-   "link": "https://www.walkerplus.com/event/ar0623e617786/",
-   "source": "ウォーカープラス",
-   "image": "https://ms-cache.walkerplus.com/walkertouch/wtd/event/86/l2/617786.jpg",
-   "category": "chain",
-   "area": "名古屋",
-   "published": "2026-10-15T15:02:14+09:00",
-   "provider": "google",
-   "added": "2026-10-15T17:34:17+09:00",
-   "decode_v2": true,
-   "image_checked": true,
-   "image_v4": true,
-   "shop": false,
-   "shop_name": null
-  },
-  {
-   "id": "f10f0f1eb2a2eb02",
-   "title": "【ステーキのあさくま】お客様が選んだ3品すべてが商品化！「学生ハンバーグフェア」10月15日スタート！",
-   "link": "https://prtimes.jp/main/html/rd/p/000000308.000030130.html",
-   "source": "PR TIMES",
-   "image": "https://prcdn.freetls.fastly.net/release_image/30130/308/30130-308-36b3565ed5ff1b6a1d61d2bd5247f145-2000x826.jpg?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260",
-   "category": "chain",
-   "area": "東海",
-   "published": "2026-10-15T15:00:02+09:00",
-   "provider": "google",
-   "added": "2026-10-15T15:38:11+09:00",
-   "decode_v2": true,
-   "image_checked": true,
-   "image_v4": true,
-   "shop": false,
-   "shop_name": null
   }
  ]
 }

@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-25T13:31:47+00:00",
+ "updated": "2026-10-25T14:27:23+00:00",
  "days": [
   "2026-10-12",
   "2026-10-13",
@@ -152,6 +152,54 @@
      "link": "https://news.dellows.jp/855252/",
      "source": "Dellows News",
      "image": "https://news.dellows.jp/wp-content/uploads/2026/10/855252_1.jpg"
+    }
+   ]
+  },
+  {
+   "label": "ステーキ",
+   "q": "ステーキ",
+   "kind": "dish",
+   "recent": 3,
+   "base_per_day": 0.36,
+   "ratio": 1.67,
+   "new": false,
+   "daily": [
+    0,
+    0,
+    0,
+    1,
+    1,
+    0,
+    1,
+    1,
+    0,
+    0,
+    0,
+    3,
+    0,
+    0
+   ],
+   "articles": [
+    {
+     "id": "5557bbb3615d4031",
+     "title": "プレスリリース：［ステーキのあさくま］極上ステーキが食べ放題！『匠肉祭り』10月29日（木）あさくま四日市店、市原店の2店舗で同時開催！― 小学生未満は無料（PR TIMES）",
+     "link": "https://mainichi.jp/articles/20261023/pr1/00m/020/314000c",
+     "source": "毎日新聞",
+     "image": null
+    },
+    {
+     "id": "63898a677e28e6a6",
+     "title": "【ステーキのあさくま】極上ステーキが食べ放題！『匠肉祭り』10月29日（木）あさくま四日市店、市原店の2店舗で同時開催！― 小学生未満は無料",
+     "link": "https://prtimes.jp/main/html/rd/p/000000320.000030130.html",
+     "source": "PR TIMES",
+     "image": "https://prcdn.freetls.fastly.net/release_image/30130/320/30130-320-41af7bc5b113cabc9958fd6cf4e042d4-580x250.jpg?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260"
+    },
+    {
+     "id": "2eaf633af1550dc8",
+     "title": "ステーキコンボ29％オフ！ サラダは食べ放題！ ステーキガストで今月は6日間限定",
+     "link": "https://ascii.jp/elem/000/004/445/4445374/",
+     "source": "ASCII.jp",
+     "image": "https://ascii.jp/img/2026/10/23/4542567/xl/36934dafe82f44f7.jpg?20200122"
     }
    ]
   },
