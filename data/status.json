@@ -1,13 +1,13 @@
 {
- "updated": "2026-10-25T18:28:20+09:00",
- "items": 369,
- "with_image": 339,
- "google_decode_ok": 33,
+ "updated": "2026-10-25T19:26:38+09:00",
+ "items": 370,
+ "with_image": 340,
+ "google_decode_ok": 31,
  "google_decode_failed": 0,
  "google_decode_samples": [],
  "image_failures": [
   "news.nicovideo.jp: HTTPError: HTTP Error 403: Forbidden",
-  "news.nicovideo.jp: HTTPError: HTTP Error 403: Forbidden",
-  "media.unisba.ac.id: HTTPError: HTTP Error 403: Forbidden"
+  "f-weeklyweb.com: og:image なし (70336 文字)",
+  "news.nicovideo.jp: HTTPError: HTTP Error 403: Forbidden"
  ]
 }
