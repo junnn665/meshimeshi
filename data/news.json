@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-26T01:27:37+09:00",
+ "updated": "2026-10-26T02:25:51+09:00",
  "items": [
   {
    "id": "b1fe75743b8e521a",
@@ -6358,26 +6358,6 @@
    "image_v4": true,
    "shop": false,
    "shop_name": null
-  },
-  {
-   "id": "fa8c72dcc12a039d",
-   "title": "ミツカン、「〆鍋」の試食体験イベント「MIM食堂 ～〆鍋編～ in ミツカン本社」を初開催 - 愛知県半田市 (2026年10月15日掲載)",
-   "link": "https://news.mynavi.jp/article/20261015-5128012/",
-   "source": "マイナビニュース",
-   "image": "https://news.mynavi.jp/article/20261015-5128012/index_images/index.jpg",
-   "category": "event",
-   "area": "愛知",
-   "published": "2026-10-15T15:17:42+09:00",
-   "provider": "google",
-   "added": "2026-10-16T17:36:13+09:00",
-   "decode_v2": true,
-   "image_checked": true,
-   "image_v4": true,
-   "shop": false,
-   "shop_name": null,
-   "start": "2026-10-15",
-   "end": "2026-10-15",
-   "group": "82ae20a2f75b"
   }
  ]
 }
