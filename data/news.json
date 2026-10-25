@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-25T14:29:20+09:00",
+ "updated": "2026-10-25T15:34:25+09:00",
  "items": [
   {
    "id": "95fe964d8390ba75",
@@ -190,6 +190,23 @@
    "image_checked": true,
    "image_v4": true,
    "shop": true,
+   "shop_name": null
+  },
+  {
+   "id": "29ab23895d6b58b4",
+   "title": "【徳島県板野郡】ラーメン好きに朗報！移転オープン予定だった支那そば「ほずみ」店舗前に花輪♪オープン日は不明も営業を開始している模様！",
+   "link": "https://tokushima.goguynet.jp/2026/10/25/shinasoba-hozumi-o-pun/",
+   "source": "地域ニュースサイト号外NET",
+   "image": "https://tokushima.goguynet.jp/wp-content/uploads/sites/213/2026/10/shinasoba-hozumi-o-punnohanawa.jpg",
+   "category": "shinten",
+   "area": "東海",
+   "published": "2026-10-25T08:22:24+09:00",
+   "provider": "google",
+   "added": "2026-10-25T15:34:25+09:00",
+   "decode_v2": true,
+   "image_checked": true,
+   "image_v4": true,
+   "shop": false,
    "shop_name": null
   },
   {
@@ -1228,6 +1245,23 @@
    "published": "2026-10-22T18:00:09+09:00",
    "provider": "google",
    "added": "2026-10-22T18:34:09+09:00",
+   "decode_v2": true,
+   "image_checked": true,
+   "image_v4": true,
+   "shop": false,
+   "shop_name": null
+  },
+  {
+   "id": "da21f0a0e4b7cc86",
+   "title": "高松市中央公園の北側エリア先行オープンへ 市とカフェがPR「憩いの場として使って」",
+   "link": "https://article.auone.jp/article/41f6089a-dcac-4180-b3ed-49d248daa872",
+   "source": "au Webポータル",
+   "image": "https://newportal.portal.auone.jp/media/thumbnails/2026/10/22/https___news_jp_i_1485917487371780409_w1280.webp",
+   "category": "shinten",
+   "area": "東海",
+   "published": "2026-10-22T17:15:00+09:00",
+   "provider": "google",
+   "added": "2026-10-25T15:34:25+09:00",
    "decode_v2": true,
    "image_checked": true,
    "image_v4": true,
