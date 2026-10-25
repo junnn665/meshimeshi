@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-25T16:36:11+09:00",
+ "updated": "2026-10-25T17:28:28+09:00",
  "items": [
   {
    "id": "95fe964d8390ba75",
@@ -6320,6 +6320,38 @@
    "published": "2026-10-15T13:40:47+09:00",
    "provider": "prtimes",
    "added": "2026-10-15T15:38:11+09:00",
+   "image_checked": true,
+   "image_v4": true,
+   "shop": false,
+   "shop_name": null
+  },
+  {
+   "id": "b4694ee4801833c9",
+   "title": "秋キャンプの“仕込み”はお酒から！？デカ盛り洋食店「とらや ...",
+   "link": "https://note.com/fmgig_nagoya/n/n83fbca4ead8f",
+   "source": "note",
+   "image": "https://assets.st-note.com/production/uploads/images/315298823/rectangle_large_type_2_23fd66378e71ff0b8ed5740473df7e21.png?fit=bounds&quality=85&width=1280",
+   "category": "deka",
+   "area": "東海",
+   "published": "2026-10-14T14:00:00+09:00",
+   "provider": "bing",
+   "added": "2026-10-25T17:28:28+09:00",
+   "image_checked": true,
+   "image_v4": true,
+   "shop": false,
+   "shop_name": null
+  },
+  {
+   "id": "aaf2bdd2d2bee1f9",
+   "title": "資さんうどんが東海に初出店！2027年1月に名古屋で開店、10月は ...",
+   "link": "https://report.iko-yo.net/articles/34579",
+   "source": "いこーよニュース",
+   "image": "https://d28w2qw7dtr435.cloudfront.net/uploaded/cover_images/images/34528/normal.jpg?1791899334",
+   "category": "shinten",
+   "area": "名古屋",
+   "published": "2026-10-14T02:39:00+09:00",
+   "provider": "bing",
+   "added": "2026-10-25T17:28:28+09:00",
    "image_checked": true,
    "image_v4": true,
    "shop": false,
