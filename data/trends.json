@@ -1,7 +1,6 @@
 {
- "updated": "2026-10-26T14:45:20+00:00",
+ "updated": "2026-10-26T16:03:01+00:00",
  "days": [
-  "2026-10-13",
   "2026-10-14",
   "2026-10-15",
   "2026-10-16",
@@ -14,7 +13,8 @@
   "2026-10-23",
   "2026-10-24",
   "2026-10-25",
-  "2026-10-26"
+  "2026-10-26",
+  "2026-10-27"
  ],
  "recent_days": 3,
  "items": [
@@ -32,7 +32,6 @@
     0,
     0,
     0,
-    0,
     1,
     3,
     0,
@@ -40,7 +39,8 @@
     1,
     0,
     2,
-    3
+    3,
+    0
    ],
    "articles": [
     {
@@ -67,54 +67,6 @@
    ]
   },
   {
-   "label": "台湾ラーメン",
-   "q": "台湾ラーメン",
-   "kind": "dish",
-   "recent": 3,
-   "base_per_day": 0.18,
-   "ratio": 2.26,
-   "new": false,
-   "daily": [
-    0,
-    0,
-    0,
-    0,
-    1,
-    0,
-    0,
-    1,
-    0,
-    0,
-    0,
-    1,
-    1,
-    1
-   ],
-   "articles": [
-    {
-     "id": "c9dd26aeab282732",
-     "title": "サミー「エイリやん」、名古屋の人気台湾料理「矢場味仙」とコラボ 11月1日から1カ月間 緑の台湾ラーメンなど限定メニュー",
-     "link": "https://news.p-world.co.jp/articles/34758/nippon",
-     "source": "P-WORLD",
-     "image": "https://idn.p-world.co.jp/news/nippon/80825/80825_1.jpg"
-    },
-    {
-     "id": "d37ed691c90e00c7",
-     "title": "【新名古屋名物】台湾ラーメン×宮崎辛麺の最強タッグ！「中毒性確定」の旨辛にんにくラーメン",
-     "link": "https://news.livedoor.com/topics/detail/32651327/?_clicked=echoes_list",
-     "source": "ライブドアニュース",
-     "image": "https://image.news.livedoor.com/newsimage/stf/8/b/8b477_1845_1f66dbfe_fad28f4b.jpg"
-    },
-    {
-     "id": "fb02d7ab2c646a90",
-     "title": "台湾ラーメン×味噌煮込みうどん 名古屋名物が合体",
-     "link": "https://www.walkerplus.com/article/1513/",
-     "source": "ウォーカープラス",
-     "image": "https://news.walkerplus.com/article/1513/3605_615.jpg"
-    }
-   ]
-  },
-  {
    "label": "からあげ",
    "q": "からあげ",
    "kind": "dish",
@@ -123,7 +75,6 @@
    "ratio": 1.93,
    "new": false,
    "daily": [
-    0,
     0,
     0,
     0,
@@ -136,7 +87,8 @@
     0,
     0,
     2,
-    1
+    1,
+    0
    ],
    "articles": [
     {

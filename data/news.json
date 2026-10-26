@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-26T23:44:43+09:00",
+ "updated": "2026-10-27T01:02:31+09:00",
  "items": [
   {
    "id": "4dd251c7ca2c9408",
@@ -3683,6 +3683,23 @@
    "group": "9766392a709a"
   },
   {
+   "id": "da9e306c295499dc",
+   "title": "激辛カップ麺でも人気の｢蒙古タンメン中本｣ 東海エリア初上陸！ショウガ2片を使ったアップルティーも… 体の芯から温まるポカポカグルメを調査",
+   "link": "https://newsdig.tbs.co.jp/articles/gallery/2427500",
+   "source": "TBS NEWS DIG",
+   "image": "https://newsdig.ismcdn.jp/mwimgs/4/0/1200w/img_40020ab5004cfaeb96d01001f13bf66a137085.jpg",
+   "category": "wadai",
+   "area": "東海",
+   "published": "2026-10-21T07:29:00+09:00",
+   "provider": "google",
+   "added": "2026-10-27T01:02:31+09:00",
+   "decode_v2": true,
+   "image_checked": true,
+   "image_v4": true,
+   "shop": false,
+   "shop_name": null
+  },
+  {
    "id": "1ac92d12c75fac5a",
    "title": "ダイソー初のコラボカフェ！ 公式キャラ「だいぞうカフェ」が10/22より期間限定開催。限定メニューやグッズを展開",
    "link": "https://www.asahi.com/and/w/article/16977894",
@@ -6352,23 +6369,6 @@
    "published": "2026-10-16T14:00:00+09:00",
    "provider": "google",
    "added": "2026-10-16T20:16:40+09:00",
-   "decode_v2": true,
-   "image_checked": true,
-   "image_v4": true,
-   "shop": false,
-   "shop_name": null
-  },
-  {
-   "id": "bab37e48c028e19c",
-   "title": "王道のおかずを盛り合わせたワンコインの「ファミマ・ザ・海苔弁当」 ファミマルの弁当史上最速100万食突破",
-   "link": "https://www.oricon.co.jp/news/2486860/full/",
-   "source": "オリコンニュース",
-   "image": "https://contents.oricon.co.jp/upimg/news/2487000/2486860/20261016_134016_p_o_71505831.jpg",
-   "category": "conbini",
-   "area": "東海",
-   "published": "2026-10-16T13:43:00+09:00",
-   "provider": "google",
-   "added": "2026-10-16T21:38:09+09:00",
    "decode_v2": true,
    "image_checked": true,
    "image_v4": true,
