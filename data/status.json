@@ -1,12 +1,12 @@
 {
- "updated": "2026-10-26T20:40:53+09:00",
- "items": 372,
- "with_image": 346,
- "google_decode_ok": 28,
+ "updated": "2026-10-26T23:44:43+09:00",
+ "items": 370,
+ "with_image": 343,
+ "google_decode_ok": 31,
  "google_decode_failed": 0,
  "google_decode_samples": [],
  "image_failures": [
-  "topics.smt.docomo.ne.jp: HTTPError: HTTP Error 404: Not Found",
+  "www.excite.co.jp: HTTPError: HTTP Error 403: Forbidden",
   "news.nicovideo.jp: HTTPError: HTTP Error 403: Forbidden"
  ]
 }
