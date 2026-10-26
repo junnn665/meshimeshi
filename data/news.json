@@ -1,6 +1,23 @@
 {
- "updated": "2026-10-27T01:02:31+09:00",
+ "updated": "2026-10-27T01:45:05+09:00",
  "items": [
+  {
+   "id": "7e75a1295f02e0ff",
+   "title": "名古屋のソウルフード「スガキヤ」の魅力と愛され続けるワケとは？綿密なデザインと技術の結晶「ラーメンフォーク」は世界でも話題に!?(1/2)",
+   "link": "https://www.walkerplus.com/article/1161209/",
+   "source": "ウォーカープラス",
+   "image": "https://news.walkerplus.com/article/1161209/12270064_615.jpg",
+   "category": "wadai",
+   "area": "名古屋",
+   "published": "2026-10-26T23:38:58+09:00",
+   "provider": "google",
+   "added": "2026-10-27T01:45:05+09:00",
+   "decode_v2": true,
+   "image_checked": true,
+   "image_v4": true,
+   "shop": true,
+   "shop_name": "スガキヤ"
+  },
   {
    "id": "4dd251c7ca2c9408",
    "title": "【セブン-イレブン】10月27日発売！新商品麺類18選（全国）～「中華蕎麦とみ田監修 デカ豚ラーメン」「中華蕎麦とみ田監修 炒め野菜盛りつけ麺」ほか～",
@@ -1401,6 +1418,23 @@
    "published": "2026-10-23T16:00:00+09:00",
    "provider": "google",
    "added": "2026-10-26T15:43:24+09:00",
+   "decode_v2": true,
+   "image_checked": true,
+   "image_v4": true,
+   "shop": false,
+   "shop_name": null
+  },
+  {
+   "id": "c3d483268afb3e72",
+   "title": "名古屋名物のスイーツ「ぴよりん」に新作が続々！神出鬼没な“○よりん”など限定商品も",
+   "link": "https://www.walkerplus.com/article/1003319/",
+   "source": "ウォーカープラス",
+   "image": "https://news.walkerplus.com/article/1003319/10021344_615.jpg",
+   "category": "wadai",
+   "area": "名古屋",
+   "published": "2026-10-23T16:00:00+09:00",
+   "provider": "google",
+   "added": "2026-10-27T01:45:05+09:00",
    "decode_v2": true,
    "image_checked": true,
    "image_v4": true,
@@ -6357,23 +6391,6 @@
    "image_v4": true,
    "shop": true,
    "shop_name": "賛否両論"
-  },
-  {
-   "id": "6e6832a815338204",
-   "title": "「はちおうじ みんなのオータムマルシェ パンのフェス２０２６ ｉｎ 三井アウトレットパーク 多摩南大沢」開催に合わせ、お買物券プレゼントなどのキャンペーンを１０月３１日から実施します！ (2026年10月16日掲載)",
-   "link": "https://news.livedoor.com/pr_topics/detail/32582043/",
-   "source": "ライブドアニュース",
-   "image": "https://image.news.livedoor.com/newsimage/stf/d/c/dc52a_1871_b67065b8_cbe706fc.png",
-   "category": "wadai",
-   "area": "東海",
-   "published": "2026-10-16T14:00:00+09:00",
-   "provider": "google",
-   "added": "2026-10-16T20:16:40+09:00",
-   "decode_v2": true,
-   "image_checked": true,
-   "image_v4": true,
-   "shop": false,
-   "shop_name": null
   }
  ]
 }
