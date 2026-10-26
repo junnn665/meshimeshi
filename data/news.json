@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-27T01:45:05+09:00",
+ "updated": "2026-10-27T02:36:44+09:00",
  "items": [
   {
    "id": "7e75a1295f02e0ff",
@@ -6375,22 +6375,6 @@
    "image_v4": true,
    "shop": true,
    "shop_name": "セルフカフェ高畑店"
-  },
-  {
-   "id": "1d6750ff4b9ae083",
-   "title": "【ホテルインディゴ犬山有楽苑】日本料理の名店「賛否両論」笠原 将弘氏が犬山に再び",
-   "link": "https://prtimes.jp/main/html/rd/p/000000073.000116513.html",
-   "source": "PR TIMES",
-   "image": "https://prcdn.freetls.fastly.net/release_image/116513/73/116513-73-d1c32c704dbec65b5bbf719fabc84f90-3900x2700.jpg?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260",
-   "category": "wadai",
-   "area": "愛知",
-   "published": "2026-10-16T14:00:00+09:00",
-   "provider": "prtimes",
-   "added": "2026-10-16T14:30:13+09:00",
-   "image_checked": true,
-   "image_v4": true,
-   "shop": true,
-   "shop_name": "賛否両論"
   }
  ]
 }
