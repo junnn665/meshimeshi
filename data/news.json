@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-26T12:34:00+09:00",
+ "updated": "2026-10-26T13:34:20+09:00",
  "items": [
   {
    "id": "df489fda8280247a",
@@ -33,6 +33,28 @@
    "image_v4": true,
    "shop": false,
    "shop_name": null
+  },
+  {
+   "id": "ba861beb44977374",
+   "title": "歴史×水辺×緑×グルメで巡るまち 浜松町芝大門・竹芝・芝浦 周遊スタンプラリー2026年10月31日（土）より開催",
+   "link": "https://prtimes.jp/main/html/rd/p/000001026.000025694.html",
+   "source": "PR TIMES",
+   "image": "https://prcdn.freetls.fastly.net/release_image/25694/1026/25694-1026-d868c84a3f123a39db326bb0a832b768-819x719.jpg?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260",
+   "category": "event",
+   "area": "静岡",
+   "published": "2026-10-26T10:45:26+09:00",
+   "provider": "prtimes",
+   "added": "2026-10-26T13:34:20+09:00",
+   "image_checked": true,
+   "image_v4": true,
+   "shop": false,
+   "shop_name": null,
+   "venue": "浜松",
+   "lat": 34.7052,
+   "lng": 137.7337,
+   "start": "2026-10-31",
+   "end": "2026-10-31",
+   "group": "bc1af48e67d9"
   },
   {
    "id": "6491f459ab7ebf60",
@@ -429,6 +451,23 @@
    "published": "2026-10-25T11:00:00+09:00",
    "provider": "google",
    "added": "2026-10-25T13:30:17+09:00",
+   "decode_v2": true,
+   "image_checked": true,
+   "image_v4": true,
+   "shop": false,
+   "shop_name": null
+  },
+  {
+   "id": "df132fe990305462",
+   "title": "「ちいかわラーメン 豚」国内5店に期間限定メニュー “カニカマ”をトッピングした古本屋モチーフの『ラーメン豚 油そば』が登場",
+   "link": "https://www.sanyonews.jp/article/1895632",
+   "source": "山陽新聞",
+   "image": "https://static.sanyonews.jp/image/article/size1/5/5/f/a/55fa4ff78e0f9c1d7ed883299afebbb9_1.jpg",
+   "category": "chain",
+   "area": "東海",
+   "published": "2026-10-25T10:21:52+09:00",
+   "provider": "google",
+   "added": "2026-10-26T13:34:20+09:00",
    "decode_v2": true,
    "image_checked": true,
    "image_v4": true,
@@ -6294,56 +6333,6 @@
    "shop": true,
    "shop_name": "「名古屋ミネラルマルシェ",
    "group": "7ca7454820bc"
-  },
-  {
-   "id": "915f520b01ddc9c5",
-   "title": "【中部＆近畿地方のローソン限定！】CoCo壱番屋監修のカレーチーズまんが発売！",
-   "link": "https://www.walkerplus.com/trend/matome/article/126789/image703007.html",
-   "source": "ウォーカープラス",
-   "image": "https://news.walkerplus.com/article/126789/703007_615.jpg",
-   "category": "conbini",
-   "area": "東海",
-   "published": "2026-10-16T06:47:16+09:00",
-   "provider": "google",
-   "added": "2026-10-18T15:32:15+09:00",
-   "decode_v2": true,
-   "image_checked": true,
-   "image_v4": true,
-   "shop": false,
-   "shop_name": null
-  },
-  {
-   "id": "69cf5240029f9092",
-   "title": "tactoがデザインを担当した丸亀製麺の店舗向け「ハピカンダッシュボード」が2026年度グッドデザイン賞を受賞",
-   "link": "https://prtimes.jp/main/html/rd/p/000000005.000109951.html",
-   "source": "PR TIMES",
-   "image": "https://prcdn.freetls.fastly.net/release_image/109951/5/109951-5-fd5611cef859c6313562601bb2951197-1200x630.jpg?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260",
-   "category": "chain",
-   "area": "全国",
-   "published": "2026-10-16T01:40:41+09:00",
-   "provider": "prtimes",
-   "added": "2026-10-16T02:30:22+09:00",
-   "image_checked": true,
-   "image_v4": true,
-   "shop": false,
-   "shop_name": null
-  },
-  {
-   "id": "9539e5896a7dec3f",
-   "title": "JR名古屋タカシマヤのベーカリーがリニューアル！『PAUL』『THE CITY BAKERY』は11月12日に新規オープン",
-   "link": "https://jouhou.nagoya/takashimaya-bakery-2026011/",
-   "source": "名古屋情報通",
-   "image": "https://jouhou.nagoya/wp-content/uploads/2026/10/takashimaya-bakery-2026011001-600x400.jpg",
-   "category": "shinten",
-   "area": "名古屋",
-   "published": "2026-10-15T20:00:29+09:00",
-   "provider": "google",
-   "added": "2026-10-16T08:24:36+09:00",
-   "decode_v2": true,
-   "image_checked": true,
-   "image_v4": true,
-   "shop": true,
-   "shop_name": "PAUL"
   }
  ]
 }
