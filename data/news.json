@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-27T03:44:32+09:00",
+ "updated": "2026-10-27T04:40:33+09:00",
  "items": [
   {
    "id": "7e75a1295f02e0ff",
@@ -17,6 +17,27 @@
    "image_v4": true,
    "shop": true,
    "shop_name": "スガキヤ"
+  },
+  {
+   "id": "df602573810680d6",
+   "title": "【富士市】10月28日は「いろどり市」が開催されます！キッチンカーが集まります！",
+   "link": "https://fuji-fujinomiya.goguynet.jp/2026/10/26/irodori-7/",
+   "source": "号外NET 富士市・富士宮市",
+   "image": "https://fuji-fujinomiya.goguynet.jp/wp-content/uploads/sites/103/2025/11/IMG_1940-3.jpg",
+   "category": "event",
+   "area": "静岡",
+   "published": "2026-10-26T22:08:06+09:00",
+   "provider": "google",
+   "added": "2026-10-27T04:40:33+09:00",
+   "decode_v2": true,
+   "image_checked": true,
+   "image_v4": true,
+   "shop": false,
+   "shop_name": null,
+   "place": "outdoor",
+   "start": "2026-10-28",
+   "end": "2026-10-28",
+   "group": "6648626753ba"
   },
   {
    "id": "4dd251c7ca2c9408",
@@ -6375,6 +6396,22 @@
    "image_v4": true,
    "shop": true,
    "shop_name": "セルフカフェ高畑店"
+  },
+  {
+   "id": "b1c8efb4db05de5c",
+   "title": "「サンリオハウス」名古屋PARCOに誕生、初のカフェメニュー＆ジェ ...",
+   "link": "https://travel.mdpr.jp/travel/detail/4859906",
+   "source": "モデルプレス トラベル",
+   "image": "https://img-mdpr.freetls.fastly.net/article/7kd6/nm/7kd65bTSKElbqOP3AMDU7htj2oVcfDQYY6Uh0E_CACo.jpg?width=1400&disable=upscale&auto=webp",
+   "category": "chain",
+   "area": "名古屋",
+   "published": "2026-10-15T18:48:00+09:00",
+   "provider": "bing",
+   "added": "2026-10-27T04:40:33+09:00",
+   "image_checked": true,
+   "image_v4": true,
+   "shop": false,
+   "shop_name": null
   }
  ]
 }
