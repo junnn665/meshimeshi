@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-27T06:32:35+09:00",
+ "updated": "2026-10-27T07:33:28+09:00",
  "items": [
   {
    "id": "95e638f9818e0bb5",
@@ -6412,6 +6412,38 @@
    "image_checked": true,
    "image_v4": true,
    "shop": false,
+   "shop_name": null
+  },
+  {
+   "id": "b1c8efb4db05de5c",
+   "title": "「サンリオハウス」名古屋PARCOに誕生、初のカフェメニュー＆ジェ ...",
+   "link": "https://travel.mdpr.jp/travel/detail/4859906",
+   "source": "モデルプレス トラベル",
+   "image": "https://img-mdpr.freetls.fastly.net/article/7kd6/nm/7kd65bTSKElbqOP3AMDU7htj2oVcfDQYY6Uh0E_CACo.jpg?width=1400&disable=upscale&auto=webp",
+   "category": "chain",
+   "area": "名古屋",
+   "published": "2026-10-15T18:48:00+09:00",
+   "provider": "bing",
+   "added": "2026-10-27T07:33:28+09:00",
+   "image_checked": true,
+   "image_v4": true,
+   "shop": false,
+   "shop_name": null
+  },
+  {
+   "id": "979c07177f097e6f",
+   "title": "【sanrio house(サンリオハウス)】名古屋PARCO店併設のカフェメニューが ...",
+   "link": "https://prtimes.jp/main/html/rd/p/000004516.000018505.html",
+   "source": "PR TIMES",
+   "image": "https://prcdn.freetls.fastly.net/release_image/18505/4516/18505-4516-d7ec50b2f66e99420eaf65bc38d9b547-3900x2424.jpg?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260",
+   "category": "shinten",
+   "area": "名古屋",
+   "published": "2026-10-15T17:00:00+09:00",
+   "provider": "bing",
+   "added": "2026-10-27T07:33:28+09:00",
+   "image_checked": true,
+   "image_v4": true,
+   "shop": true,
    "shop_name": null
   }
  ]
