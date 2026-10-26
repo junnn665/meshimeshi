@@ -1,12 +1,11 @@
 {
- "updated": "2026-10-26T13:34:20+09:00",
- "items": 368,
- "with_image": 338,
- "google_decode_ok": 33,
+ "updated": "2026-10-26T14:33:36+09:00",
+ "items": 371,
+ "with_image": 343,
+ "google_decode_ok": 34,
  "google_decode_failed": 0,
  "google_decode_samples": [],
  "image_failures": [
-  "topics.smt.docomo.ne.jp: HTTPError: HTTP Error 404: Not Found",
-  "news.nicovideo.jp: HTTPError: HTTP Error 403: Forbidden"
+  "topics.smt.docomo.ne.jp: HTTPError: HTTP Error 404: Not Found"
  ]
 }
