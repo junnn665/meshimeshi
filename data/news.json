@@ -1,6 +1,39 @@
 {
- "updated": "2026-10-26T11:33:53+09:00",
+ "updated": "2026-10-26T12:34:00+09:00",
  "items": [
+  {
+   "id": "df489fda8280247a",
+   "title": "【Mr. CHEESECAKE YOUR CITY】人生最高のチーズケーキのポップアップストアを静岡・宮城・長崎・兵庫・東京に出店！",
+   "link": "https://prtimes.jp/main/html/rd/p/000000244.000047371.html",
+   "source": "PR TIMES",
+   "image": "https://prcdn.freetls.fastly.net/release_image/47371/244/47371-244-79e4c28827bd7a35456fcdefb3b25ef1-3692x2087.jpg?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260",
+   "category": "chain",
+   "area": "静岡",
+   "published": "2026-10-26T12:00:00+09:00",
+   "provider": "prtimes",
+   "added": "2026-10-26T12:34:00+09:00",
+   "image_checked": true,
+   "image_v4": true,
+   "shop": false,
+   "shop_name": null
+  },
+  {
+   "id": "94d82009f3954363",
+   "title": "「ウルフギャング・ステーキハウス」名店の味を気軽に楽しむ、ウルフギャングだけの”バーガーマンス”「ウルフギャングスタイル 5オンス クラシックバーガー」販売",
+   "link": "https://www.agara.co.jp/article/703858?rct=pr_platform",
+   "source": "AGARA 紀伊民報",
+   "image": "https://digitalpr.jp/release/media/2389/146528/202610221122516ad9737bb6a9a.jpg",
+   "category": "wadai",
+   "area": "東海",
+   "published": "2026-10-26T11:00:00+09:00",
+   "provider": "google",
+   "added": "2026-10-26T12:34:00+09:00",
+   "decode_v2": true,
+   "image_checked": true,
+   "image_v4": true,
+   "shop": false,
+   "shop_name": null
+  },
   {
    "id": "6491f459ab7ebf60",
    "title": "【名古屋らーめん藤一番】「八丁味噌」100％使用！「名古屋赤味噌らーめん」が11月5日（木）より期間限定で登場",
@@ -6311,23 +6344,6 @@
    "image_v4": true,
    "shop": true,
    "shop_name": "PAUL"
-  },
-  {
-   "id": "7ab0c6408eff7966",
-   "title": "「恵那どり」でバターチキンカレー 東海学院大の学生が開発",
-   "link": "https://www.gifu-np.co.jp/articles/-/784027",
-   "source": "岐阜新聞デジタル",
-   "image": "https://gifu-np.ismcdn.jp/mwimgs/c/b/-/img_cb2169d50683b7f5807d6d670943fcec771545.jpg",
-   "category": "wadai",
-   "area": "東海",
-   "published": "2026-10-15T19:20:00+09:00",
-   "provider": "google",
-   "added": "2026-10-15T19:32:50+09:00",
-   "decode_v2": true,
-   "image_checked": true,
-   "image_v4": true,
-   "shop": false,
-   "shop_name": null
   }
  ]
 }
