@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-26T08:44:28+00:00",
+ "updated": "2026-10-26T09:42:06+00:00",
  "days": [
   "2026-10-13",
   "2026-10-14",
@@ -67,18 +67,66 @@
    ]
   },
   {
-   "label": "からあげ",
-   "q": "からあげ",
+   "label": "台湾ラーメン",
+   "q": "台湾ラーメン",
    "kind": "dish",
    "recent": 3,
-   "base_per_day": 0.36,
-   "ratio": 1.67,
+   "base_per_day": 0.18,
+   "ratio": 2.26,
    "new": false,
    "daily": [
     0,
     0,
     0,
+    0,
     1,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    1,
+    1,
+    1
+   ],
+   "articles": [
+    {
+     "id": "c9dd26aeab282732",
+     "title": "サミー「エイリやん」、名古屋の人気台湾料理「矢場味仙」とコラボ 11月1日から1カ月間 緑の台湾ラーメンなど限定メニュー",
+     "link": "https://news.p-world.co.jp/articles/34758/nippon",
+     "source": "P-WORLD",
+     "image": "https://idn.p-world.co.jp/news/nippon/80825/80825_1.jpg"
+    },
+    {
+     "id": "d37ed691c90e00c7",
+     "title": "【新名古屋名物】台湾ラーメン×宮崎辛麺の最強タッグ！「中毒性確定」の旨辛にんにくラーメン",
+     "link": "https://news.livedoor.com/topics/detail/32651327/?_clicked=echoes_list",
+     "source": "ライブドアニュース",
+     "image": "https://image.news.livedoor.com/newsimage/stf/8/b/8b477_1845_1f66dbfe_fad28f4b.jpg"
+    },
+    {
+     "id": "fb02d7ab2c646a90",
+     "title": "台湾ラーメン×味噌煮込みうどん 名古屋名物が合体",
+     "link": "https://www.walkerplus.com/article/1513/",
+     "source": "ウォーカープラス",
+     "image": "https://news.walkerplus.com/article/1513/3605_615.jpg"
+    }
+   ]
+  },
+  {
+   "label": "からあげ",
+   "q": "からあげ",
+   "kind": "dish",
+   "recent": 3,
+   "base_per_day": 0.27,
+   "ratio": 1.93,
+   "new": false,
+   "daily": [
+    0,
+    0,
+    0,
+    0,
     1,
     0,
     1,
@@ -111,47 +159,6 @@
      "link": "https://topics.smt.docomo.ne.jp/article/ktv_news/region/ktv_news-30509",
      "source": "ｄメニューニュース",
      "image": "https://img.topics.smt.news.goo.ne.jp/picture/ktv_news/m_ktv_news-30509.jpg"
-    }
-   ]
-  },
-  {
-   "label": "台湾ラーメン",
-   "q": "台湾ラーメン",
-   "kind": "dish",
-   "recent": 2,
-   "base_per_day": 0.18,
-   "ratio": 1.62,
-   "new": false,
-   "daily": [
-    0,
-    0,
-    0,
-    0,
-    1,
-    0,
-    0,
-    1,
-    0,
-    0,
-    0,
-    1,
-    1,
-    0
-   ],
-   "articles": [
-    {
-     "id": "d37ed691c90e00c7",
-     "title": "【新名古屋名物】台湾ラーメン×宮崎辛麺の最強タッグ！「中毒性確定」の旨辛にんにくラーメン",
-     "link": "https://news.livedoor.com/topics/detail/32651327/?_clicked=echoes_list",
-     "source": "ライブドアニュース",
-     "image": "https://image.news.livedoor.com/newsimage/stf/8/b/8b477_1845_1f66dbfe_fad28f4b.jpg"
-    },
-    {
-     "id": "fb02d7ab2c646a90",
-     "title": "台湾ラーメン×味噌煮込みうどん 名古屋名物が合体",
-     "link": "https://www.walkerplus.com/article/1513/",
-     "source": "ウォーカープラス",
-     "image": "https://news.walkerplus.com/article/1513/3605_615.jpg"
     }
    ]
   }
