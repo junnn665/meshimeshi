@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-27T06:41:19+00:00",
+ "updated": "2026-10-27T07:46:08+00:00",
  "days": [
   "2026-10-14",
   "2026-10-15",
@@ -111,6 +111,95 @@
      "link": "https://topics.smt.docomo.ne.jp/article/ktv_news/region/ktv_news-30509",
      "source": "ｄメニューニュース",
      "image": "https://img.topics.smt.news.goo.ne.jp/picture/ktv_news/m_ktv_news-30509.jpg"
+    }
+   ]
+  },
+  {
+   "label": "ローソン",
+   "q": "ローソン",
+   "kind": "chain",
+   "recent": 4,
+   "base_per_day": 0.55,
+   "ratio": 1.71,
+   "new": false,
+   "daily": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    2,
+    1,
+    2,
+    0,
+    1,
+    1,
+    1,
+    2
+   ],
+   "articles": [
+    {
+     "id": "45fb1bba44e2459c",
+     "title": "【10月27日～発売】セブン・ファミマ・ローソン新作スイーツ特集｜「ドバイチョコスタイルクレープ」・「Uchi Café×ゴディバ ショコラロールケーキ」など注目デザートまとめ",
+     "link": "https://entabe.jp/61968/seven-eleven-familymart-lawson-new-sweets-october-2026",
+     "source": "えん食べ [グルメニュース]",
+     "image": "https://image.entabe.jp/upload/20261027/images/thumbnail_20261027_web_1.jpg"
+    },
+    {
+     "id": "2357acf0a23beaff",
+     "title": "【きまぐれクック監修】日清食品・カルビーとのコラボ商品がローソンに登場！鯛だし醤油らぁ麺やカンジャンケジャン味のポテトチップスなど4品を発売",
+     "link": "https://prtimes.jp/main/html/rd/p/000000351.000087236.html",
+     "source": "PR TIMES",
+     "image": "https://prcdn.freetls.fastly.net/release_image/87236/351/87236-351-b07f6b2be22c039c3d926ea3637c068f-1020x643.png?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260"
+    },
+    {
+     "id": "4196d0a5de7cea1c",
+     "title": "ローソン、1023kcal「カツカレーピラフ＆ナポリタン」のデカ盛り弁当",
+     "link": "http://www.excite.co.jp/news/article/Ascii_4445698/",
+     "source": "Excite エキサイト",
+     "image": null
+    }
+   ]
+  },
+  {
+   "label": "台湾ラーメン",
+   "q": "台湾ラーメン",
+   "kind": "dish",
+   "recent": 2,
+   "base_per_day": 0.18,
+   "ratio": 1.62,
+   "new": false,
+   "daily": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    1,
+    1,
+    1,
+    0
+   ],
+   "articles": [
+    {
+     "id": "c9dd26aeab282732",
+     "title": "サミー「エイリやん」、名古屋の人気台湾料理「矢場味仙」とコラボ 11月1日から1カ月間 緑の台湾ラーメンなど限定メニュー",
+     "link": "https://news.p-world.co.jp/articles/34758/nippon",
+     "source": "P-WORLD",
+     "image": "https://idn.p-world.co.jp/news/nippon/80825/80825_1.jpg"
+    },
+    {
+     "id": "d37ed691c90e00c7",
+     "title": "【新名古屋名物】台湾ラーメン×宮崎辛麺の最強タッグ！「中毒性確定」の旨辛にんにくラーメン",
+     "link": "https://news.livedoor.com/topics/detail/32651327/?_clicked=echoes_list",
+     "source": "ライブドアニュース",
+     "image": "https://image.news.livedoor.com/newsimage/stf/8/b/8b477_1845_1f66dbfe_fad28f4b.jpg"
     }
    ]
   }
