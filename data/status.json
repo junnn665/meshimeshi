@@ -1,11 +1,9 @@
 {
- "updated": "2026-10-27T09:39:17+09:00",
- "items": 374,
- "with_image": 347,
- "google_decode_ok": 28,
+ "updated": "2026-10-27T10:42:05+09:00",
+ "items": 376,
+ "with_image": 349,
+ "google_decode_ok": 26,
  "google_decode_failed": 0,
  "google_decode_samples": [],
- "image_failures": [
-  "tetsudo-ch.com: HTTPError: HTTP Error 403: Forbidden"
- ]
+ "image_failures": []
 }

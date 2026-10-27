@@ -1,6 +1,23 @@
 {
- "updated": "2026-10-27T09:39:17+09:00",
+ "updated": "2026-10-27T10:42:05+09:00",
  "items": [
+  {
+   "id": "597cccaf8cfd1647",
+   "title": "【名古屋・丸の内】無人カフェ「セルフカフェ丸の内店」10月24日オープン。丸の内駅5番出口から徒歩2分、オフィス街の“セカンドデスク”に。6時〜24時・年中無休、個室ブース・会議室も開設予定",
+   "link": "https://prtimes.jp/main/html/rd/p/000001173.000045400.html",
+   "source": "PR TIMES",
+   "image": "https://prcdn.freetls.fastly.net/release_image/45400/1173/45400-1173-b0901c7de6f405d38dafb240f8bd1c3f-1920x1080.png?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260",
+   "category": "shinten",
+   "area": "名古屋",
+   "published": "2026-10-27T10:10:01+09:00",
+   "provider": "google",
+   "added": "2026-10-27T10:42:05+09:00",
+   "decode_v2": true,
+   "image_checked": true,
+   "image_v4": true,
+   "shop": false,
+   "shop_name": null
+  },
   {
    "id": "a672c5bcbde8eef0",
    "title": "JR名古屋駅1番線の「六厘舎」に4万人！ 東京で大人気の「特製生七味つけめん」が緊急追加、残り1カ月･混雑回避のコツは？11/29までの期間限定店｜グルメとフード",
@@ -1103,6 +1120,23 @@
    "shop_name": null,
    "end": "2026-10-25",
    "group": "f7d7dfdfc856"
+  },
+  {
+   "id": "7100156bcf6e1144",
+   "title": "名古屋人のソウルフード！ 庶民派ラーメン「スガキヤ」を徹底解剖",
+   "link": "https://www.walkerplus.com/article/12868/",
+   "source": "ウォーカープラス",
+   "image": "https://news.walkerplus.com/article/12868/44445_615.jpg",
+   "category": "wadai",
+   "area": "名古屋",
+   "published": "2026-10-24T16:00:00+09:00",
+   "provider": "google",
+   "added": "2026-10-27T10:42:05+09:00",
+   "decode_v2": true,
+   "image_checked": true,
+   "image_v4": true,
+   "shop": true,
+   "shop_name": "スガキヤ"
   },
   {
    "id": "71744003aa3cf3b0",
