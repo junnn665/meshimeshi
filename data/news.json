@@ -1,6 +1,23 @@
 {
- "updated": "2026-10-27T08:28:46+09:00",
+ "updated": "2026-10-27T09:39:17+09:00",
  "items": [
+  {
+   "id": "a672c5bcbde8eef0",
+   "title": "JR名古屋駅1番線の「六厘舎」に4万人！ 東京で大人気の「特製生七味つけめん」が緊急追加、残り1カ月･混雑回避のコツは？11/29までの期間限定店｜グルメとフード",
+   "link": "https://tetsudo-ch.com/13041992.html",
+   "source": "旅とおでかけ 鉄道チャンネル",
+   "image": null,
+   "category": "chain",
+   "area": "名古屋",
+   "published": "2026-10-27T09:00:38+09:00",
+   "provider": "google",
+   "added": "2026-10-27T09:39:17+09:00",
+   "decode_v2": true,
+   "image_checked": true,
+   "image_v4": true,
+   "shop": false,
+   "shop_name": null
+  },
   {
    "id": "160fbddbba43e626",
    "title": "【10月27日発売】今週のファミマ新作スイーツをチェック！ 「冷やして食べるくりーむ大福」や「焼きいもバターシェイク」など",
@@ -1145,6 +1162,23 @@
    "start": "2026-11-03",
    "end": "2026-11-03",
    "group": "b6fde5f695a3"
+  },
+  {
+   "id": "9e6165e17a8cdc93",
+   "title": "セブン-イレブンから新登場!!【彩りの良さ◎】この時期にオススメ「464円のお弁当」を実食レビュー（いぬきち） - エキスパート",
+   "link": "https://news.yahoo.co.jp/expert/articles/8e4d363df3811c65efa027691d22228da6bd00c7",
+   "source": "Yahoo!ニュース",
+   "image": "https://newsatcl-pctr.c.yimg.jp/t/iwiz-yn/creators/inukichi/02750291/title-1792810782170.jpeg?exp=10800",
+   "category": "conbini",
+   "area": "東海",
+   "published": "2026-10-24T12:05:07+09:00",
+   "provider": "google",
+   "added": "2026-10-27T09:39:17+09:00",
+   "decode_v2": true,
+   "image_checked": true,
+   "image_v4": true,
+   "shop": false,
+   "shop_name": null
   },
   {
    "id": "829d7c321525e3c8",
@@ -6362,6 +6396,54 @@
    "image_checked": true,
    "image_v4": true,
    "shop": true,
+   "shop_name": null
+  },
+  {
+   "id": "b1c8efb4db05de5c",
+   "title": "「サンリオハウス」名古屋PARCOに誕生、初のカフェメニュー＆ジェ ...",
+   "link": "https://travel.mdpr.jp/travel/detail/4859906",
+   "source": "モデルプレス トラベル",
+   "image": "https://img-mdpr.freetls.fastly.net/article/7kd6/nm/7kd65bTSKElbqOP3AMDU7htj2oVcfDQYY6Uh0E_CACo.jpg?width=1400&disable=upscale&auto=webp",
+   "category": "chain",
+   "area": "名古屋",
+   "published": "2026-10-15T18:48:00+09:00",
+   "provider": "bing",
+   "added": "2026-10-27T09:39:17+09:00",
+   "image_checked": true,
+   "image_v4": true,
+   "shop": false,
+   "shop_name": null
+  },
+  {
+   "id": "979c07177f097e6f",
+   "title": "【sanrio house(サンリオハウス)】名古屋PARCO店併設のカフェメニューが ...",
+   "link": "https://prtimes.jp/main/html/rd/p/000004516.000018505.html",
+   "source": "PR TIMES",
+   "image": "https://prcdn.freetls.fastly.net/release_image/18505/4516/18505-4516-d7ec50b2f66e99420eaf65bc38d9b547-3900x2424.jpg?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260",
+   "category": "shinten",
+   "area": "名古屋",
+   "published": "2026-10-15T17:00:00+09:00",
+   "provider": "bing",
+   "added": "2026-10-27T09:39:17+09:00",
+   "image_checked": true,
+   "image_v4": true,
+   "shop": true,
+   "shop_name": null
+  },
+  {
+   "id": "b4694ee4801833c9",
+   "title": "秋キャンプの“仕込み”はお酒から！？デカ盛り洋食店「とらや ...",
+   "link": "https://note.com/fmgig_nagoya/n/n83fbca4ead8f",
+   "source": "note",
+   "image": "https://assets.st-note.com/production/uploads/images/315298823/rectangle_large_type_2_23fd66378e71ff0b8ed5740473df7e21.png?fit=bounds&quality=85&width=1280",
+   "category": "deka",
+   "area": "東海",
+   "published": "2026-10-14T14:00:00+09:00",
+   "provider": "bing",
+   "added": "2026-10-27T09:39:17+09:00",
+   "image_checked": true,
+   "image_v4": true,
+   "shop": false,
    "shop_name": null
   }
  ]
