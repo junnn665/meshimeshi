@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-27T13:50:23+00:00",
+ "updated": "2026-10-27T14:47:34+00:00",
  "days": [
   "2026-10-14",
   "2026-10-15",
@@ -159,6 +159,54 @@
      "link": "http://www.excite.co.jp/news/article/Ascii_4445698/",
      "source": "Excite エキサイト",
      "image": null
+    }
+   ]
+  },
+  {
+   "label": "ガスト",
+   "q": "ガスト",
+   "kind": "chain",
+   "recent": 3,
+   "base_per_day": 0.36,
+   "ratio": 1.67,
+   "new": false,
+   "daily": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    3,
+    0,
+    0,
+    1,
+    2
+   ],
+   "articles": [
+    {
+     "id": "37d4f8524b1f6824",
+     "title": "『資さんうどん』社長交代発表直後に「味が変わった」どころか“ガスト化”な『ナポリタン』の限定メニュー、ファンが求める“らしさ”はどこへ？",
+     "link": "https://www.jprime.jp/articles/-/44326?display=b",
+     "source": "週刊女性PRIME",
+     "image": "https://jprime.ismcdn.jp/mwimgs/a/8/-/img_a852e383ce5f2418b3f59e22f60f2744315397.jpg"
+    },
+    {
+     "id": "ae08c7ccaf8dbb2a",
+     "title": "アマゾン料理人・太田哲雄氏、植物工場MUGENFARM「ガストロノミー・アドバイザー」に就任",
+     "link": "https://prtimes.jp/main/html/rd/p/000000003.000186109.html",
+     "source": "PR TIMES",
+     "image": "https://prcdn.freetls.fastly.net/release_image/186109/3/186109-3-0e0a012480dbb1cc5b13407ca4fa22fc-1200x536.png?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260"
+    },
+    {
+     "id": "39ba89cb08b94072",
+     "title": "【本日から】ステーキ最大29％引き、ご飯とカレーは食べ放題！ステーキガスト「肉の日」",
+     "link": "https://ascii.jp/elem/000/004/445/4445615/?topnew=1",
+     "source": "ASCII.jp",
+     "image": "https://ascii.jp/img/2026/10/23/4542567/xl/36934dafe82f44f7.jpg?20200122"
     }
    ]
   },
