@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-28T05:36:08+09:00",
+ "updated": "2026-10-28T06:33:37+09:00",
  "items": [
   {
    "id": "64b3c303b789b57c",
@@ -1549,6 +1549,23 @@
    "image_v4": true,
    "shop": true,
    "shop_name": "スガキヤ"
+  },
+  {
+   "id": "cd610735c219d97b",
+   "title": "映画のメニューを再現！「君の名は。カフェ」が登場",
+   "link": "https://www.walkerplus.com/article/95956/",
+   "source": "ウォーカープラス",
+   "image": "https://news.walkerplus.com/article/95956/533118_615.jpg",
+   "category": "chain",
+   "area": "東海",
+   "published": "2026-10-24T16:00:00+09:00",
+   "provider": "google",
+   "added": "2026-10-28T06:33:37+09:00",
+   "decode_v2": true,
+   "image_checked": true,
+   "image_v4": true,
+   "shop": false,
+   "shop_name": null
   },
   {
    "id": "71744003aa3cf3b0",
@@ -4079,7 +4096,7 @@
   },
   {
    "id": "a31522071ccbc9b5",
-   "title": "栄センパに「とんかつ知多家」発の新ブランド「土鍋ごはん×とんかつ CHITAKA」が2026年10月29日オープン ドリンク半額のオープン記念イベントも注目【栄】",
+   "title": "栄センパに「とんかつ知多家」発の新ブランド「土鍋ごはん×とんかつ CHITAKA」が2026年10月29日オープン ドリンク半額のオープン記念イベントも注目【久屋大通・栄】",
    "link": "https://nagoyato.com/posts/20276",
    "source": "nagoyato",
    "image": "https://nagoyato.com/wp-content/uploads/2026/10/261021sub1.jpg",
