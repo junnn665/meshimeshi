@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-27T12:33:11+09:00",
+ "updated": "2026-10-27T13:33:05+09:00",
  "items": [
   {
    "id": "50d236b445111d3c",
@@ -17,6 +17,23 @@
    "image_v4": true,
    "shop": true,
    "shop_name": "poool"
+  },
+  {
+   "id": "e0ec71a8ca4b065d",
+   "title": "TVアニメ『憂国のモリアーティ』コラボカフェ at 洒落CAFEが有楽町＆名古屋にて開催決定！ | Anique株式会社のプレスリリース",
+   "link": "https://prtimes.jp/main/html/rd/p/000000362.000048489.html",
+   "source": "PR TIMES",
+   "image": "https://prcdn.freetls.fastly.net/release_image/48489/362/48489-362-25d844ba2458b9e8424a765ddd9ae1fe-1080x1350.png?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260",
+   "category": "chain",
+   "area": "名古屋",
+   "published": "2026-10-27T12:00:02+09:00",
+   "provider": "google",
+   "added": "2026-10-27T13:33:05+09:00",
+   "decode_v2": true,
+   "image_checked": true,
+   "image_v4": true,
+   "shop": false,
+   "shop_name": null
   },
   {
    "id": "6e2d6121293c759f",
@@ -69,6 +86,39 @@
    "shop": true,
    "shop_name": "ヌテラ®",
    "group": "5f92f2fd890a"
+  },
+  {
+   "id": "5d6b62788d5ba466",
+   "title": "イタリア生まれのヘーゼルナッツスプレッド「ヌテラ(R)」が名古屋パンマルシェ2026に今年も登場！",
+   "link": "https://prtimes.jp/main/html/rd/p/000000029.000051107.html",
+   "source": "PR TIMES",
+   "image": "https://prcdn.freetls.fastly.net/release_image/51107/29/51107-29-f02dce072f2364d45fe811610fc81a6c-1080x1350.jpg?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260",
+   "category": "event",
+   "area": "名古屋",
+   "published": "2026-10-27T11:00:00+09:00",
+   "provider": "prtimes",
+   "added": "2026-10-27T13:33:05+09:00",
+   "image_checked": true,
+   "image_v4": true,
+   "shop": true,
+   "shop_name": "ヌテラ(R)",
+   "group": "fbb42476b7f7"
+  },
+  {
+   "id": "1a6c137efb5b8de7",
+   "title": "【都ホテル 四日市】期間限定のアフタヌーンティーやホテル最上階でのディナー ロビーの大型クリスマスツリーなど『クリスマスフェア』を開催",
+   "link": "https://prtimes.jp/main/html/rd/p/000002406.000023303.html",
+   "source": "PR TIMES",
+   "image": "https://prcdn.freetls.fastly.net/release_image/23303/2406/23303-2406-5a46ca56d8ee7831927a3a475860ce89-591x394.jpg?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260",
+   "category": "chain",
+   "area": "三重",
+   "published": "2026-10-27T11:00:00+09:00",
+   "provider": "prtimes",
+   "added": "2026-10-27T13:33:05+09:00",
+   "image_checked": true,
+   "image_v4": true,
+   "shop": false,
+   "shop_name": null
   },
   {
    "id": "019d2450ef8e8c90",
@@ -348,6 +398,23 @@
    "start": "2026-11-15",
    "end": "2026-11-15",
    "group": "f50d1df8aca4"
+  },
+  {
+   "id": "9e237212e63da517",
+   "title": "「月島もんじゃ たまとや」新業態で名古屋ハエラに東海初出店、丸ごと明太子の名物もんじゃ焼き＆割烹料理",
+   "link": "https://www.fashion-press.net/news/147021",
+   "source": "ファッションプレス",
+   "image": "https://www.fashion-press.net/img/news/147021/top.jpg?1780456808",
+   "category": "shinten",
+   "area": "名古屋",
+   "published": "2026-10-26T15:40:50+09:00",
+   "provider": "google",
+   "added": "2026-10-27T13:33:05+09:00",
+   "decode_v2": true,
+   "image_checked": true,
+   "image_v4": true,
+   "shop": true,
+   "shop_name": "月島もんじゃ たまとや"
   },
   {
    "id": "a27f4c40582a855b",
@@ -1417,7 +1484,7 @@
   },
   {
    "id": "fb66bb9da683cb96",
-   "title": "ローソン限定♡バタースコッチバーガーが新登場！とろけるキャラメルと濃厚ショコラのご褒美スイーツ",
+   "title": "ローソン限定♡バタースコッチバーガーが新登場！とろけるキャラメルと濃厚ショコラのご褒美スイーツ (2026年10月24日掲載)",
    "link": "https://topics.smt.docomo.ne.jp/article/cocotte/trend/cocotte-641541",
    "source": "ｄメニューニュース",
    "image": "https://img.topics.smt.news.goo.ne.jp/picture/cocotte/m_cocotte-641541.jpg",
@@ -6378,76 +6445,6 @@
    "image_v4": true,
    "shop": true,
    "shop_name": null
-  },
-  {
-   "id": "d607776572c743fe",
-   "title": "【10月20日〜発売】セブン-イレブン 新商品パンまとめ「ふわふわ食感ホットケーキパン」「紅はるかのしっとりリングドーナツ」",
-   "link": "https://topics.smt.docomo.ne.jp/amp/article/entabe/trend/entabe-61812",
-   "source": "ｄメニューニュース",
-   "image": "https://img.topics.smt.news.goo.ne.jp/picture/entabe/m_entabe-61812.jpg",
-   "category": "conbini",
-   "area": "東海",
-   "published": "2026-10-17T08:00:00+09:00",
-   "provider": "google",
-   "added": "2026-10-17T09:38:52+09:00",
-   "decode_v2": true,
-   "image_checked": true,
-   "image_v4": true,
-   "shop": false,
-   "shop_name": null
-  },
-  {
-   "id": "d5927efe8c02333d",
-   "title": "地元民が教える！名古屋で食べたいおすすめグルメ4選",
-   "link": "https://article.auone.jp/8fbaa759-2b94-4cb3-840a-93d618f246b9",
-   "source": "au Webポータル",
-   "image": "https://newportal.portal.auone.jp/media/thumbnails/2026/10/16/https___news_jp_i_1483940436601766044_w1200.webp",
-   "category": "wadai",
-   "area": "名古屋",
-   "published": "2026-10-17T06:29:00+09:00",
-   "provider": "google",
-   "added": "2026-10-17T12:52:59+09:00",
-   "decode_v2": true,
-   "image_checked": true,
-   "image_v4": true,
-   "shop": false,
-   "shop_name": null
-  },
-  {
-   "id": "1a82ecd609635535",
-   "title": "モーニング娘。‘26井上春華、スポーツの日にちなんで得意な競技を告白",
-   "link": "https://hicbc.com/magazine/article/?id=radichubu-65410",
-   "source": "hicbc.com",
-   "image": "https://radichubu.jp/files/topics/65410_ext_01_0.jpeg",
-   "category": "yasuuma",
-   "area": "東海",
-   "published": "2026-10-17T05:55:00+09:00",
-   "provider": "google",
-   "added": "2026-10-17T06:27:35+09:00",
-   "decode_v2": true,
-   "image_checked": true,
-   "image_v4": true,
-   "shop": false,
-   "shop_name": null
-  },
-  {
-   "id": "3ee69b2b350a3d44",
-   "title": "「公開空地」の活用へ実証 座敷やキッチンカー設置 名古屋都市再開発促進協",
-   "link": "https://www.chukei-news.co.jp/news/2026/10/17/OK0002610170201_07/",
-   "source": "中部経済新聞",
-   "image": "https://www.chukei-news.co.jp/images/20261016_203346_14367.jpg",
-   "category": "event",
-   "area": "名古屋",
-   "published": "2026-10-17T05:00:00+09:00",
-   "provider": "google",
-   "added": "2026-10-17T05:27:57+09:00",
-   "decode_v2": true,
-   "image_checked": true,
-   "image_v4": true,
-   "shop": true,
-   "shop_name": "公開空地",
-   "place": "outdoor",
-   "group": "288244515554"
   }
  ]
 }
