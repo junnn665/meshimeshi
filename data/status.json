@@ -1,12 +1,12 @@
 {
- "updated": "2026-10-27T14:32:48+09:00",
- "items": 378,
- "with_image": 351,
- "google_decode_ok": 23,
+ "updated": "2026-10-27T15:40:49+09:00",
+ "items": 374,
+ "with_image": 349,
+ "google_decode_ok": 26,
  "google_decode_failed": 0,
  "google_decode_samples": [],
  "image_failures": [
   "media.unisba.ac.id: HTTPError: HTTP Error 403: Forbidden",
-  "tetsudo-ch.com: HTTPError: HTTP Error 403: Forbidden"
+  "f-weeklyweb.com: og:image なし (72233 文字)"
  ]
 }
