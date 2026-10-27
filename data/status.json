@@ -1,9 +1,11 @@
 {
- "updated": "2026-10-28T02:46:40+09:00",
- "items": 375,
- "with_image": 350,
- "google_decode_ok": 23,
+ "updated": "2026-10-28T03:42:03+09:00",
+ "items": 372,
+ "with_image": 347,
+ "google_decode_ok": 28,
  "google_decode_failed": 0,
  "google_decode_samples": [],
- "image_failures": []
+ "image_failures": [
+  "media.unisba.ac.id: HTTPError: HTTP Error 403: Forbidden"
+ ]
 }
