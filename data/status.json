@@ -1,11 +1,12 @@
 {
- "updated": "2026-10-28T06:33:37+09:00",
- "items": 376,
- "with_image": 351,
- "google_decode_ok": 24,
+ "updated": "2026-10-28T07:35:35+09:00",
+ "items": 371,
+ "with_image": 347,
+ "google_decode_ok": 30,
  "google_decode_failed": 0,
  "google_decode_samples": [],
  "image_failures": [
+  "media.unisba.ac.id: HTTPError: HTTP Error 403: Forbidden",
   "media.unisba.ac.id: HTTPError: HTTP Error 403: Forbidden",
   "tetsudo-ch.com: HTTPError: HTTP Error 403: Forbidden"
  ]
