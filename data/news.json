@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-27T19:36:25+09:00",
+ "updated": "2026-10-27T20:34:55+09:00",
  "items": [
   {
    "id": "64b3c303b789b57c",
@@ -6349,40 +6349,6 @@
    "shop": false,
    "shop_name": null,
    "group": "85647ca832b9"
-  },
-  {
-   "id": "bae259c845d966c9",
-   "title": "野菜好きのための和食店が東海エリア初出店！レストラン「やさい家めい」",
-   "link": "https://www.walkerplus.com/article/105988/",
-   "source": "ウォーカープラス",
-   "image": "https://news.walkerplus.com/article/105988/586880_615.jpg",
-   "category": "shinten",
-   "area": "東海",
-   "published": "2026-10-17T16:32:43+09:00",
-   "provider": "google",
-   "added": "2026-10-19T08:23:22+09:00",
-   "decode_v2": true,
-   "image_checked": true,
-   "image_v4": true,
-   "shop": false,
-   "shop_name": null
-  },
-  {
-   "id": "9bc43fa09bf585cd",
-   "title": "からあげクン、地域限定“ご当地味”登場 「ザンギ」「麻辣湯」「塩こんぶマヨ」…名店監修から人気菓子コラボまで全8種",
-   "link": "https://www.sanyonews.jp/article/1972264",
-   "source": "山陽新聞",
-   "image": "https://static.sanyonews.jp/image/article/size1/a/5/8/5/a5854b89ae89974ef4d921c656cca51c_1.jpg",
-   "category": "wadai",
-   "area": "東海",
-   "published": "2026-10-17T16:00:00+09:00",
-   "provider": "google",
-   "added": "2026-10-19T20:32:33+09:00",
-   "decode_v2": true,
-   "image_checked": true,
-   "image_v4": true,
-   "shop": false,
-   "shop_name": null
   }
  ]
 }

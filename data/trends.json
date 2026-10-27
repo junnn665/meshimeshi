@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-27T10:36:55+00:00",
+ "updated": "2026-10-27T11:35:25+00:00",
  "days": [
   "2026-10-14",
   "2026-10-15",
@@ -67,6 +67,54 @@
    ]
   },
   {
+   "label": "からあげ",
+   "q": "からあげ",
+   "kind": "dish",
+   "recent": 3,
+   "base_per_day": 0.27,
+   "ratio": 1.93,
+   "new": false,
+   "daily": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    1,
+    1,
+    0,
+    0,
+    0,
+    2,
+    1,
+    0
+   ],
+   "articles": [
+    {
+     "id": "f4e7005176901ab5",
+     "title": "「倒産ペースは過去最悪」生き残りをかけた弁当店の挑戦 健康的な母の味と「片道150キロ・高速使わず米仕入れ」コスト減が武器の店 “フタ閉まらない”「デカ盛りから揚げ弁当」で「週末は1日で15万円」売り上げる店",
+     "link": "https://www.fnn.jp/articles/-/1139900",
+     "source": "FNNプライムオンライン",
+     "image": "https://fnn.ismcdn.jp/mwimgs/b/9/600/img_b9a21869a1d532b9e21e8e4a97a5d40b308821.jpg"
+    },
+    {
+     "id": "fecf5bba996f8712",
+     "title": "【10月27日発売】ファミリーマート 新商品サラダ・お惣菜まとめ「ミルフィーユチキンカツ」「甘辛唐揚げマヨパスタサラダ」など",
+     "link": "https://entabe.jp/61947/summary-familymart-october-27th-new-salad-deli",
+     "source": "えん食べ [グルメニュース]",
+     "image": "https://image.entabe.jp/upload/20261024/images/thumb_famima_1027_salad_sozai.jpg"
+    },
+    {
+     "id": "14e29765f08863d5",
+     "title": "「倒産ペースは過去最悪」弁当店 生き残りへ 健康的な母の味と「片道150キロ・高速使わず米仕入れ」コスト減が武器の店 “フタ閉まらない”「デカ盛りから揚げ弁当」で「週末は1日で15万円」売り上げる店",
+     "link": "https://topics.smt.docomo.ne.jp/article/ktv_news/region/ktv_news-30509",
+     "source": "ｄメニューニュース",
+     "image": "https://img.topics.smt.news.goo.ne.jp/picture/ktv_news/m_ktv_news-30509.jpg"
+    }
+   ]
+  },
+  {
    "label": "ローソン",
    "q": "ローソン",
    "kind": "chain",
@@ -111,54 +159,6 @@
      "link": "http://www.excite.co.jp/news/article/Ascii_4445698/",
      "source": "Excite エキサイト",
      "image": null
-    }
-   ]
-  },
-  {
-   "label": "からあげ",
-   "q": "からあげ",
-   "kind": "dish",
-   "recent": 3,
-   "base_per_day": 0.36,
-   "ratio": 1.67,
-   "new": false,
-   "daily": [
-    0,
-    0,
-    0,
-    1,
-    0,
-    1,
-    1,
-    1,
-    0,
-    0,
-    0,
-    2,
-    1,
-    0
-   ],
-   "articles": [
-    {
-     "id": "f4e7005176901ab5",
-     "title": "「倒産ペースは過去最悪」生き残りをかけた弁当店の挑戦 健康的な母の味と「片道150キロ・高速使わず米仕入れ」コスト減が武器の店 “フタ閉まらない”「デカ盛りから揚げ弁当」で「週末は1日で15万円」売り上げる店",
-     "link": "https://www.fnn.jp/articles/-/1139900",
-     "source": "FNNプライムオンライン",
-     "image": "https://fnn.ismcdn.jp/mwimgs/b/9/600/img_b9a21869a1d532b9e21e8e4a97a5d40b308821.jpg"
-    },
-    {
-     "id": "fecf5bba996f8712",
-     "title": "【10月27日発売】ファミリーマート 新商品サラダ・お惣菜まとめ「ミルフィーユチキンカツ」「甘辛唐揚げマヨパスタサラダ」など",
-     "link": "https://entabe.jp/61947/summary-familymart-october-27th-new-salad-deli",
-     "source": "えん食べ [グルメニュース]",
-     "image": "https://image.entabe.jp/upload/20261024/images/thumb_famima_1027_salad_sozai.jpg"
-    },
-    {
-     "id": "14e29765f08863d5",
-     "title": "「倒産ペースは過去最悪」弁当店 生き残りへ 健康的な母の味と「片道150キロ・高速使わず米仕入れ」コスト減が武器の店 “フタ閉まらない”「デカ盛りから揚げ弁当」で「週末は1日で15万円」売り上げる店",
-     "link": "https://topics.smt.docomo.ne.jp/article/ktv_news/region/ktv_news-30509",
-     "source": "ｄメニューニュース",
-     "image": "https://img.topics.smt.news.goo.ne.jp/picture/ktv_news/m_ktv_news-30509.jpg"
     }
    ]
   },
