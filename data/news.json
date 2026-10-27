@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-28T00:44:26+09:00",
+ "updated": "2026-10-28T01:46:02+09:00",
  "items": [
   {
    "id": "64b3c303b789b57c",
@@ -2522,6 +2522,23 @@
    "start": "2026-10-24",
    "end": "2026-10-25",
    "group": "216e1d665fa9"
+  },
+  {
+   "id": "3deb315e7cfc4b6a",
+   "title": "福島県浜通り「相馬・双葉エリア」のラーメン5選！ 新店も増えてレベルアップ",
+   "link": "https://www.walkerplus.com/article/170351/",
+   "source": "ウォーカープラス",
+   "image": "https://news.walkerplus.com/article/170351/1000080_615.jpg",
+   "category": "shinten",
+   "area": "東海",
+   "published": "2026-10-22T19:59:44+09:00",
+   "provider": "google",
+   "added": "2026-10-28T01:46:02+09:00",
+   "decode_v2": true,
+   "image_checked": true,
+   "image_v4": true,
+   "shop": false,
+   "shop_name": null
   },
   {
    "id": "e48e8adbb7820f07",
@@ -6447,59 +6464,6 @@
    "image_v4": true,
    "shop": false,
    "shop_name": null
-  },
-  {
-   "id": "aaf2bdd2d2bee1f9",
-   "title": "資さんうどんが東海に初出店！2027年1月に名古屋で開店、10月は ...",
-   "link": "https://report.iko-yo.net/articles/34579",
-   "source": "いこーよニュース",
-   "image": "https://d28w2qw7dtr435.cloudfront.net/uploaded/cover_images/images/34528/normal.jpg?1791899334",
-   "category": "shinten",
-   "area": "名古屋",
-   "published": "2026-10-14T02:39:00+09:00",
-   "provider": "bing",
-   "added": "2026-10-28T00:44:26+09:00",
-   "image_checked": true,
-   "image_v4": true,
-   "shop": false,
-   "shop_name": null
-  },
-  {
-   "id": "e1ef581292e1262a",
-   "title": "【和牛焼肉 NIKUGEN 赤坂店】1周年記念！アメリカングルメフェス ...",
-   "link": "https://www.jiji.com/jc/article?k=000001576.000044964&g=prt",
-   "source": "時事ドットコム",
-   "image": "https://prcdn.freetls.fastly.net/release_image/44964/1576/44964-1576-f8d01b6864db22714a955fadaf622c25-882x480.jpg",
-   "category": "wadai",
-   "area": "東海",
-   "published": "2026-10-14T02:00:00+09:00",
-   "provider": "bing",
-   "added": "2026-10-28T00:44:26+09:00",
-   "image_checked": true,
-   "image_v4": true,
-   "shop": false,
-   "shop_name": null
-  },
-  {
-   "id": "765a1d7500eb46b0",
-   "title": "名古屋高島屋で「魅惑のパンフェスタ」 38店が400種類",
-   "link": "https://meieki.keizai.biz/headline/3810/",
-   "source": "名駅経済新聞",
-   "image": "https://images.keizai.biz/meieki_keizai/headline/1791967097_photo.jpg",
-   "category": "event",
-   "area": "名古屋",
-   "published": "2026-10-14T02:00:00+09:00",
-   "provider": "bing",
-   "added": "2026-10-28T00:44:26+09:00",
-   "image_checked": true,
-   "image_v4": true,
-   "shop": false,
-   "shop_name": null,
-   "venue": "ジェイアール名古屋タカシマヤ",
-   "lat": 35.17123,
-   "lng": 136.88272,
-   "place": "indoor",
-   "group": "7864702ee677"
   }
  ]
 }
