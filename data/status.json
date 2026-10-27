@@ -1,11 +1,11 @@
 {
- "updated": "2026-10-28T03:42:03+09:00",
- "items": 372,
- "with_image": 347,
- "google_decode_ok": 28,
+ "updated": "2026-10-28T04:39:18+09:00",
+ "items": 374,
+ "with_image": 349,
+ "google_decode_ok": 26,
  "google_decode_failed": 0,
  "google_decode_samples": [],
  "image_failures": [
-  "media.unisba.ac.id: HTTPError: HTTP Error 403: Forbidden"
+  "f-weeklyweb.com: og:image なし (78208 文字)"
  ]
 }
