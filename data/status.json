@@ -1,12 +1,13 @@
 {
- "updated": "2026-10-27T21:41:46+09:00",
- "items": 371,
- "with_image": 346,
- "google_decode_ok": 29,
+ "updated": "2026-10-27T22:49:53+09:00",
+ "items": 374,
+ "with_image": 349,
+ "google_decode_ok": 27,
  "google_decode_failed": 0,
  "google_decode_samples": [],
  "image_failures": [
   "tetsudo-ch.com: HTTPError: HTTP Error 403: Forbidden",
-  "f-weeklyweb.com: og:image なし (72233 文字)"
+  "f-weeklyweb.com: og:image なし (72233 文字)",
+  "news.nicovideo.jp: HTTPError: HTTP Error 403: Forbidden"
  ]
 }

@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-27T21:41:46+09:00",
+ "updated": "2026-10-27T22:49:53+09:00",
  "items": [
   {
    "id": "64b3c303b789b57c",
@@ -2754,6 +2754,23 @@
    "published": "2026-10-22T16:00:00+09:00",
    "provider": "google",
    "added": "2026-10-26T09:49:31+09:00",
+   "decode_v2": true,
+   "image_checked": true,
+   "image_v4": true,
+   "shop": false,
+   "shop_name": null
+  },
+  {
+   "id": "f3bf042eca6b05ea",
+   "title": "絶対ご飯が足りなくなる！松屋の新メニュー「鶏のバター醤油炒め定食」を食べてみた",
+   "link": "https://www.walkerplus.com/article/205760/",
+   "source": "ウォーカープラス",
+   "image": "https://news.walkerplus.com/article/205760/1252412_615.jpg",
+   "category": "chain",
+   "area": "東海",
+   "published": "2026-10-22T16:00:00+09:00",
+   "provider": "google",
+   "added": "2026-10-27T22:49:53+09:00",
    "decode_v2": true,
    "image_checked": true,
    "image_v4": true,
@@ -6396,6 +6413,38 @@
    "image_checked": true,
    "image_v4": true,
    "shop": true,
+   "shop_name": null
+  },
+  {
+   "id": "b4694ee4801833c9",
+   "title": "秋キャンプの“仕込み”はお酒から！？デカ盛り洋食店「とらや ...",
+   "link": "https://note.com/fmgig_nagoya/n/n83fbca4ead8f",
+   "source": "note",
+   "image": "https://assets.st-note.com/production/uploads/images/315298823/rectangle_large_type_2_23fd66378e71ff0b8ed5740473df7e21.png?fit=bounds&quality=85&width=1280",
+   "category": "deka",
+   "area": "東海",
+   "published": "2026-10-14T14:00:00+09:00",
+   "provider": "bing",
+   "added": "2026-10-27T22:49:53+09:00",
+   "image_checked": true,
+   "image_v4": true,
+   "shop": false,
+   "shop_name": null
+  },
+  {
+   "id": "aaf2bdd2d2bee1f9",
+   "title": "資さんうどんが東海に初出店！2027年1月に名古屋で開店、10月は ...",
+   "link": "https://report.iko-yo.net/articles/34579",
+   "source": "いこーよニュース",
+   "image": "https://d28w2qw7dtr435.cloudfront.net/uploaded/cover_images/images/34528/normal.jpg?1791899334",
+   "category": "shinten",
+   "area": "名古屋",
+   "published": "2026-10-14T02:39:00+09:00",
+   "provider": "bing",
+   "added": "2026-10-27T22:49:53+09:00",
+   "image_checked": true,
+   "image_v4": true,
+   "shop": false,
    "shop_name": null
   }
  ]
