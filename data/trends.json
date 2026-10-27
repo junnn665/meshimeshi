@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-27T07:46:08+00:00",
+ "updated": "2026-10-27T08:40:36+00:00",
  "days": [
   "2026-10-14",
   "2026-10-15",
@@ -22,9 +22,9 @@
    "label": "ファミリーマート",
    "q": "ファミリーマート",
    "kind": "chain",
-   "recent": 5,
+   "recent": 6,
    "base_per_day": 0.55,
-   "ratio": 2.09,
+   "ratio": 2.47,
    "new": false,
    "daily": [
     0,
@@ -40,9 +40,16 @@
     0,
     2,
     3,
-    0
+    1
    ],
    "articles": [
+    {
+     "id": "800a28dab2e6cf09",
+     "title": "ファミリーマート３店舗で「ファミマフードドライブ」を開始します！",
+     "link": "https://prtimes.jp/main/html/rd/p/000000103.000164008.html",
+     "source": "PR TIMES",
+     "image": "https://prcdn.freetls.fastly.net/release_image/164008/103/164008-103-7d19b1f0b90f3eaa470e217c011f3578-3421x2451.jpg?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260"
+    },
     {
      "id": "673dd15034df6a1f",
      "title": "【2026年10月・11月発売!】今週発売! ファミリーマートの注目新作スイーツ5選",
@@ -56,13 +63,6 @@
      "link": "https://prtimes.jp/main/html/rd/p/000002599.000046210.html",
      "source": "PR TIMES",
      "image": "https://prcdn.freetls.fastly.net/release_image/46210/2599/46210-2599-77630ac0dc0375e8cb9d52162769f910-3900x2925.jpg?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260"
-    },
-    {
-     "id": "baaef0b598e98f12",
-     "title": "コカ・コーラ ボトラーズジャパン、ファミリーマートと協働で 「ファミマル 茶流彩彩 コーン茶 600mlPET」製造工場周辺の清掃活動を実施",
-     "link": "https://prtimes.jp/main/html/rd/p/000000346.000053655.html",
-     "source": "PR TIMES",
-     "image": "https://prcdn.freetls.fastly.net/release_image/53655/346/53655-346-0bfbb2ef975c2811709c25b9a4b66c4f-750x501.png?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260"
     }
    ]
   },

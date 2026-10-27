@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-27T16:45:37+09:00",
+ "updated": "2026-10-27T17:40:09+09:00",
  "items": [
   {
    "id": "b0cbd1da3f494f4e",
@@ -30,6 +30,22 @@
    "provider": "google",
    "added": "2026-10-27T16:45:37+09:00",
    "decode_v2": true,
+   "image_checked": true,
+   "image_v4": true,
+   "shop": false,
+   "shop_name": null
+  },
+  {
+   "id": "800a28dab2e6cf09",
+   "title": "ファミリーマート３店舗で「ファミマフードドライブ」を開始します！",
+   "link": "https://prtimes.jp/main/html/rd/p/000000103.000164008.html",
+   "source": "PR TIMES",
+   "image": "https://prcdn.freetls.fastly.net/release_image/164008/103/164008-103-7d19b1f0b90f3eaa470e217c011f3578-3421x2451.jpg?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260",
+   "category": "conbini",
+   "area": "全国",
+   "published": "2026-10-27T14:00:00+09:00",
+   "provider": "prtimes",
+   "added": "2026-10-27T17:40:09+09:00",
    "image_checked": true,
    "image_v4": true,
    "shop": false,
@@ -6400,6 +6416,54 @@
    "start": "2026-10-16",
    "end": "2026-10-16",
    "group": "e017c513058a"
+  },
+  {
+   "id": "ee93922bd1918a70",
+   "title": "愛知初出店のハワイアンが閉店へ 跡地に人気うどんチェーン 東海 ...",
+   "link": "https://www.shizuoka-life.jp/post-15477/",
+   "source": "shizuoka-life",
+   "image": "https://www.shizuoka-life.jp/wp-content/uploads/2026/10/4c85c234076325c638e2c305400f29d6-3.jpg",
+   "category": "shinten",
+   "area": "愛知",
+   "published": "2026-10-17T11:01:00+09:00",
+   "provider": "bing",
+   "added": "2026-10-27T17:40:09+09:00",
+   "image_checked": true,
+   "image_v4": true,
+   "shop": false,
+   "shop_name": null
+  },
+  {
+   "id": "b1c8efb4db05de5c",
+   "title": "「サンリオハウス」名古屋PARCOに誕生、初のカフェメニュー＆ジェ ...",
+   "link": "https://travel.mdpr.jp/travel/detail/4859906",
+   "source": "モデルプレス トラベル",
+   "image": "https://img-mdpr.freetls.fastly.net/article/7kd6/nm/7kd65bTSKElbqOP3AMDU7htj2oVcfDQYY6Uh0E_CACo.jpg?width=1400&disable=upscale&auto=webp",
+   "category": "chain",
+   "area": "名古屋",
+   "published": "2026-10-15T18:48:00+09:00",
+   "provider": "bing",
+   "added": "2026-10-27T17:40:09+09:00",
+   "image_checked": true,
+   "image_v4": true,
+   "shop": false,
+   "shop_name": null
+  },
+  {
+   "id": "979c07177f097e6f",
+   "title": "【sanrio house(サンリオハウス)】名古屋PARCO店併設のカフェメニューが ...",
+   "link": "https://prtimes.jp/main/html/rd/p/000004516.000018505.html",
+   "source": "PR TIMES",
+   "image": "https://prcdn.freetls.fastly.net/release_image/18505/4516/18505-4516-d7ec50b2f66e99420eaf65bc38d9b547-3900x2424.jpg?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260",
+   "category": "shinten",
+   "area": "名古屋",
+   "published": "2026-10-15T17:00:00+09:00",
+   "provider": "bing",
+   "added": "2026-10-27T17:40:09+09:00",
+   "image_checked": true,
+   "image_v4": true,
+   "shop": true,
+   "shop_name": null
   }
  ]
 }
