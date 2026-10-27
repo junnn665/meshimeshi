@@ -1,11 +1,9 @@
 {
- "updated": "2026-10-28T01:46:02+09:00",
+ "updated": "2026-10-28T02:46:40+09:00",
  "items": 375,
  "with_image": 350,
- "google_decode_ok": 26,
+ "google_decode_ok": 23,
  "google_decode_failed": 0,
  "google_decode_samples": [],
- "image_failures": [
-  "f-weeklyweb.com: og:image なし (72243 文字)"
- ]
+ "image_failures": []
 }
