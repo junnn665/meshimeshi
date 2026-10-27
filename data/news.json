@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-28T07:35:35+09:00",
+ "updated": "2026-10-28T08:31:32+09:00",
  "items": [
   {
    "id": "394bccb2daf604c8",
@@ -17,6 +17,23 @@
    "image_v4": true,
    "shop": true,
    "shop_name": "土鍋ごはん×とんかつ CHITAKA"
+  },
+  {
+   "id": "6ccaadb3d71dfe15",
+   "title": "今岐阜・白川郷がベストシーズン！絶景や絶品グルメを巡る旅へ",
+   "link": "https://www.walkerplus.com/article/170907/",
+   "source": "ウォーカープラス",
+   "image": "https://news.walkerplus.com/article/170907/1003754_615.jpg",
+   "category": "wadai",
+   "area": "岐阜",
+   "published": "2026-10-28T06:57:54+09:00",
+   "provider": "google",
+   "added": "2026-10-28T08:31:32+09:00",
+   "decode_v2": true,
+   "image_checked": true,
+   "image_v4": true,
+   "shop": false,
+   "shop_name": null
   },
   {
    "id": "64b3c303b789b57c",
@@ -1196,6 +1213,23 @@
    "published": "2026-10-25T16:00:00+09:00",
    "provider": "google",
    "added": "2026-10-27T08:28:46+09:00",
+   "decode_v2": true,
+   "image_checked": true,
+   "image_v4": true,
+   "shop": false,
+   "shop_name": null
+  },
+  {
+   "id": "ac06236ba77654d5",
+   "title": "セブンイレブンに3日限定の巨大スイーツが登場！",
+   "link": "https://www.walkerplus.com/article/113550/",
+   "source": "ウォーカープラス",
+   "image": "https://news.walkerplus.com/article/113550/625855_615.jpg",
+   "category": "conbini",
+   "area": "東海",
+   "published": "2026-10-25T16:00:00+09:00",
+   "provider": "google",
+   "added": "2026-10-28T08:31:32+09:00",
    "decode_v2": true,
    "image_checked": true,
    "image_v4": true,
@@ -6395,6 +6429,22 @@
    "provider": "google",
    "added": "2026-10-18T02:24:15+09:00",
    "decode_v2": true,
+   "image_checked": true,
+   "image_v4": true,
+   "shop": false,
+   "shop_name": null
+  },
+  {
+   "id": "ee93922bd1918a70",
+   "title": "愛知初出店のハワイアンが閉店へ 跡地に人気うどんチェーン 東海 ...",
+   "link": "https://www.shizuoka-life.jp/post-15477/",
+   "source": "shizuoka-life",
+   "image": "https://www.shizuoka-life.jp/wp-content/uploads/2026/10/4c85c234076325c638e2c305400f29d6-3.jpg",
+   "category": "shinten",
+   "area": "愛知",
+   "published": "2026-10-17T11:01:00+09:00",
+   "provider": "bing",
+   "added": "2026-10-28T08:31:32+09:00",
    "image_checked": true,
    "image_v4": true,
    "shop": false,
