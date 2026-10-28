@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-28T10:44:18+00:00",
+ "updated": "2026-10-28T11:40:49+00:00",
  "days": [
   "2026-10-15",
   "2026-10-16",
@@ -63,6 +63,54 @@
      "link": "https://mdpr.jp/gourmet/detail/4866985",
      "source": "モデルプレス",
      "image": null
+    }
+   ]
+  },
+  {
+   "label": "中華",
+   "q": "町中華",
+   "kind": "dish",
+   "recent": 3,
+   "base_per_day": 0.0,
+   "ratio": 3.5,
+   "new": true,
+   "daily": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    1,
+    1
+   ],
+   "articles": [
+    {
+     "id": "ec6e376f9134b630",
+     "title": "【セブン】岐阜・愛知・三重でしか買えない秋の新作。783kcalの「とん玉炒飯」などボリューム満点な3品が美味しそう",
+     "link": "https://limo.media/articles/-/143246",
+     "source": "LIMO | くらしとお金の経済メディア",
+     "image": "https://limo.ismcdn.jp/mwimgs/0/7/1200w/img_0719c6db2acec8bfa650d642d3a2ea88251743.jpg"
+    },
+    {
+     "id": "95e638f9818e0bb5",
+     "title": "町中華で飲ろうぜファンイベントが11月22日に名古屋で開催へ 東京以外で初",
+     "link": "https://news.dellows.jp/587281/?from=related-reading-list",
+     "source": "Dellows News",
+     "image": "https://news.dellows.jp/wp-content/uploads/2026/10/587281_1.jpg"
+    },
+    {
+     "id": "89cd5672b00d4a28",
+     "title": "ラーメン×チャーハンの最強タッグ！愛知で人気の“チャーラー”4選",
+     "link": "https://www.walkerplus.com/article/167416/",
+     "source": "ウォーカープラス",
+     "image": "https://news.walkerplus.com/article/167416/978404_615.jpg"
     }
    ]
   },
@@ -156,43 +204,50 @@
    ]
   },
   {
-   "label": "中華",
-   "q": "町中華",
-   "kind": "dish",
-   "recent": 2,
-   "base_per_day": 0.0,
-   "ratio": 2.5,
-   "new": true,
+   "label": "ファミリーマート",
+   "q": "ファミリーマート",
+   "kind": "chain",
+   "recent": 6,
+   "base_per_day": 0.55,
+   "ratio": 2.47,
+   "new": false,
    "daily": [
     0,
     0,
     0,
     0,
     0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
+    2,
     0,
     1,
-    1
+    1,
+    0,
+    2,
+    3,
+    1,
+    2
    ],
    "articles": [
     {
-     "id": "ec6e376f9134b630",
-     "title": "【セブン】岐阜・愛知・三重でしか買えない秋の新作。783kcalの「とん玉炒飯」などボリューム満点な3品が美味しそう",
-     "link": "https://limo.media/articles/-/143246",
-     "source": "LIMO | くらしとお金の経済メディア",
-     "image": "https://limo.ismcdn.jp/mwimgs/0/7/1200w/img_0719c6db2acec8bfa650d642d3a2ea88251743.jpg"
+     "id": "d6f5268b33e850ad",
+     "title": "ファミリーマート×「味仙本店」第4弾 「台湾はるさめスープ」が初登場",
+     "link": "https://news.infoseek.co.jp/article/oricon_2489393/",
+     "source": "Infoseek",
+     "image": "https://media.image.infoseek.co.jp/isnews/photos/oricon/oricon_2489393_0-enlarge.jpg"
     },
     {
-     "id": "95e638f9818e0bb5",
-     "title": "町中華で飲ろうぜファンイベントが11月22日に名古屋で開催へ 東京以外で初",
-     "link": "https://news.dellows.jp/587281/?from=related-reading-list",
-     "source": "Dellows News",
-     "image": "https://news.dellows.jp/wp-content/uploads/2026/10/587281_1.jpg"
+     "id": "fce3625be61973c8",
+     "title": "【中部・東海・甲信地方限定】元祖台湾ラーメンの名店「味仙本店」監修企画第4弾！「台湾はるさめスープ」が初登場ファミリーマートでしか味わえないこだわりの全5商品を11月3日（火）より順次発売！｜信濃毎日新聞デジタル 信州・長野県のニュースサイト",
+     "link": "https://prtimes.jp/main/html/rd/p/000002606.000046210.html",
+     "source": "PR TIMES",
+     "image": "https://prcdn.freetls.fastly.net/release_image/46210/2606/46210-2606-cb7d0e6e138b38046a16954fc7b3f4eb-381x525.png?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260"
+    },
+    {
+     "id": "800a28dab2e6cf09",
+     "title": "ファミリーマート３店舗で「ファミマフードドライブ」を開始します！",
+     "link": "https://prtimes.jp/main/html/rd/p/000000103.000164008.html",
+     "source": "PR TIMES",
+     "image": "https://prcdn.freetls.fastly.net/release_image/164008/103/164008-103-7d19b1f0b90f3eaa470e217c011f3578-3421x2451.jpg?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260"
     }
    ]
   },
@@ -234,54 +289,6 @@
      "link": "https://entabe.jp/61968/seven-eleven-familymart-lawson-new-sweets-october-2026",
      "source": "えん食べ [グルメニュース]",
      "image": "https://image.entabe.jp/upload/20261027/images/thumbnail_20261027_web_1.jpg"
-    }
-   ]
-  },
-  {
-   "label": "ファミリーマート",
-   "q": "ファミリーマート",
-   "kind": "chain",
-   "recent": 6,
-   "base_per_day": 0.64,
-   "ratio": 2.23,
-   "new": false,
-   "daily": [
-    0,
-    0,
-    0,
-    0,
-    0,
-    3,
-    0,
-    1,
-    1,
-    0,
-    2,
-    3,
-    1,
-    2
-   ],
-   "articles": [
-    {
-     "id": "d6f5268b33e850ad",
-     "title": "ファミリーマート×「味仙本店」第4弾 「台湾はるさめスープ」が初登場",
-     "link": "https://news.infoseek.co.jp/article/oricon_2489393/",
-     "source": "Infoseek",
-     "image": "https://media.image.infoseek.co.jp/isnews/photos/oricon/oricon_2489393_0-enlarge.jpg"
-    },
-    {
-     "id": "fce3625be61973c8",
-     "title": "【中部・東海・甲信地方限定】元祖台湾ラーメンの名店「味仙本店」監修企画第4弾！「台湾はるさめスープ」が初登場ファミリーマートでしか味わえないこだわりの全5商品を11月3日（火）より順次発売！｜信濃毎日新聞デジタル 信州・長野県のニュースサイト",
-     "link": "https://prtimes.jp/main/html/rd/p/000002606.000046210.html",
-     "source": "PR TIMES",
-     "image": "https://prcdn.freetls.fastly.net/release_image/46210/2606/46210-2606-cb7d0e6e138b38046a16954fc7b3f4eb-381x525.png?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260"
-    },
-    {
-     "id": "800a28dab2e6cf09",
-     "title": "ファミリーマート３店舗で「ファミマフードドライブ」を開始します！",
-     "link": "https://prtimes.jp/main/html/rd/p/000000103.000164008.html",
-     "source": "PR TIMES",
-     "image": "https://prcdn.freetls.fastly.net/release_image/164008/103/164008-103-7d19b1f0b90f3eaa470e217c011f3578-3421x2451.jpg?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260"
     }
    ]
   },
@@ -334,6 +341,102 @@
    ]
   },
   {
+   "label": "ガスト",
+   "q": "ガスト",
+   "kind": "chain",
+   "recent": 4,
+   "base_per_day": 0.36,
+   "ratio": 2.15,
+   "new": false,
+   "daily": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    3,
+    0,
+    0,
+    2,
+    2,
+    0
+   ],
+   "articles": [
+    {
+     "id": "37d4f8524b1f6824",
+     "title": "『資さんうどん』社長交代発表直後に「味が変わった」どころか“ガスト化”な『ナポリタン』の限定メニュー、ファンが求める“らしさ”はどこへ？",
+     "link": "https://www.jprime.jp/articles/-/44326?display=b",
+     "source": "週刊女性PRIME",
+     "image": "https://jprime.ismcdn.jp/mwimgs/a/8/-/img_a852e383ce5f2418b3f59e22f60f2744315397.jpg"
+    },
+    {
+     "id": "ae08c7ccaf8dbb2a",
+     "title": "アマゾン料理人・太田哲雄氏、植物工場MUGENFARM「ガストロノミー・アドバイザー」に就任",
+     "link": "https://prtimes.jp/main/html/rd/p/000000003.000186109.html",
+     "source": "PR TIMES",
+     "image": "https://prcdn.freetls.fastly.net/release_image/186109/3/186109-3-0e0a012480dbb1cc5b13407ca4fa22fc-1200x536.png?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260"
+    },
+    {
+     "id": "c0a54d15c9cb4114",
+     "title": "どうなってるのガスト！1000円の価値観が変わる平日限定の「ガストフィットメニュー」とは？",
+     "link": "https://www.walkerplus.com/article/1248614/",
+     "source": "ウォーカープラス",
+     "image": "https://news.walkerplus.com/article/1248614/14193860_615.jpg"
+    }
+   ]
+  },
+  {
+   "label": "ケーキ",
+   "q": "ケーキ",
+   "kind": "dish",
+   "recent": 4,
+   "base_per_day": 0.36,
+   "ratio": 2.15,
+   "new": false,
+   "daily": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    1,
+    2,
+    0,
+    0,
+    0,
+    1,
+    1,
+    2
+   ],
+   "articles": [
+    {
+     "id": "89c3436b3a18b83e",
+     "title": "東海オンエアりょうのR BRANDが贈る、2026年のクリスマス 華やかな限定ケーキと、冬の夜を彩る特別なコーヒーが登場",
+     "link": "https://prtimes.jp/main/html/rd/p/000000016.000109471.html",
+     "source": "PR TIMES",
+     "image": "https://prcdn.freetls.fastly.net/release_image/109471/16/109471-16-1843672a81e7682c0bbfd8f4a0138078-2525x1458.jpg?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260"
+    },
+    {
+     "id": "7ee464bb0a19459a",
+     "title": "【今日から】コメダ珈琲店、秋冬の新作ケーキ4種発売 SNS「待ってました！」「どれもおいしそう」",
+     "link": "https://news.infoseek.co.jp/amp/article/otonanswer_404501/",
+     "source": "Infoseek",
+     "image": "https://media.image.infoseek.co.jp/isnews/photos/otonanswer/otonanswer_404501_0-enlarge.jpg"
+    },
+    {
+     "id": "45fb1bba44e2459c",
+     "title": "【10月27日～発売】セブン・ファミマ・ローソン新作スイーツ特集｜「ドバイチョコスタイルクレープ」・「Uchi Café×ゴディバ ショコラロールケーキ」など注目デザートまとめ",
+     "link": "https://entabe.jp/61968/seven-eleven-familymart-lawson-new-sweets-october-2026",
+     "source": "えん食べ [グルメニュース]",
+     "image": "https://image.entabe.jp/upload/20261027/images/thumbnail_20261027_web_1.jpg"
+    }
+   ]
+  },
+  {
    "label": "寿司",
    "q": "寿司",
    "kind": "dish",
@@ -382,122 +485,26 @@
    ]
   },
   {
-   "label": "ケーキ",
-   "q": "ケーキ",
-   "kind": "dish",
-   "recent": 4,
-   "base_per_day": 0.45,
-   "ratio": 1.9,
-   "new": false,
-   "daily": [
-    0,
-    0,
-    0,
-    0,
-    1,
-    1,
-    1,
-    2,
-    0,
-    0,
-    0,
-    1,
-    1,
-    2
-   ],
-   "articles": [
-    {
-     "id": "89c3436b3a18b83e",
-     "title": "東海オンエアりょうのR BRANDが贈る、2026年のクリスマス 華やかな限定ケーキと、冬の夜を彩る特別なコーヒーが登場",
-     "link": "https://prtimes.jp/main/html/rd/p/000000016.000109471.html",
-     "source": "PR TIMES",
-     "image": "https://prcdn.freetls.fastly.net/release_image/109471/16/109471-16-1843672a81e7682c0bbfd8f4a0138078-2525x1458.jpg?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260"
-    },
-    {
-     "id": "7ee464bb0a19459a",
-     "title": "【今日から】コメダ珈琲店、秋冬の新作ケーキ4種発売 SNS「待ってました！」「どれもおいしそう」",
-     "link": "https://news.infoseek.co.jp/amp/article/otonanswer_404501/",
-     "source": "Infoseek",
-     "image": "https://media.image.infoseek.co.jp/isnews/photos/otonanswer/otonanswer_404501_0-enlarge.jpg"
-    },
-    {
-     "id": "45fb1bba44e2459c",
-     "title": "【10月27日～発売】セブン・ファミマ・ローソン新作スイーツ特集｜「ドバイチョコスタイルクレープ」・「Uchi Café×ゴディバ ショコラロールケーキ」など注目デザートまとめ",
-     "link": "https://entabe.jp/61968/seven-eleven-familymart-lawson-new-sweets-october-2026",
-     "source": "えん食べ [グルメニュース]",
-     "image": "https://image.entabe.jp/upload/20261027/images/thumbnail_20261027_web_1.jpg"
-    }
-   ]
-  },
-  {
-   "label": "ガスト",
-   "q": "ガスト",
-   "kind": "chain",
-   "recent": 3,
-   "base_per_day": 0.36,
-   "ratio": 1.67,
-   "new": false,
-   "daily": [
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    1,
-    0,
-    3,
-    0,
-    0,
-    1,
-    2,
-    0
-   ],
-   "articles": [
-    {
-     "id": "37d4f8524b1f6824",
-     "title": "『資さんうどん』社長交代発表直後に「味が変わった」どころか“ガスト化”な『ナポリタン』の限定メニュー、ファンが求める“らしさ”はどこへ？",
-     "link": "https://www.jprime.jp/articles/-/44326?display=b",
-     "source": "週刊女性PRIME",
-     "image": "https://jprime.ismcdn.jp/mwimgs/a/8/-/img_a852e383ce5f2418b3f59e22f60f2744315397.jpg"
-    },
-    {
-     "id": "ae08c7ccaf8dbb2a",
-     "title": "アマゾン料理人・太田哲雄氏、植物工場MUGENFARM「ガストロノミー・アドバイザー」に就任",
-     "link": "https://prtimes.jp/main/html/rd/p/000000003.000186109.html",
-     "source": "PR TIMES",
-     "image": "https://prcdn.freetls.fastly.net/release_image/186109/3/186109-3-0e0a012480dbb1cc5b13407ca4fa22fc-1200x536.png?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260"
-    },
-    {
-     "id": "39ba89cb08b94072",
-     "title": "【本日から】ステーキ最大29％引き、ご飯とカレーは食べ放題！ステーキガスト「肉の日」",
-     "link": "https://ascii.jp/elem/000/004/445/4445615/?topnew=1",
-     "source": "ASCII.jp",
-     "image": "https://ascii.jp/img/2026/10/23/4542567/xl/36934dafe82f44f7.jpg?20200122"
-    }
-   ]
-  },
-  {
    "label": "ラーメン",
    "q": "ラーメン",
    "kind": "dish",
-   "recent": 16,
-   "base_per_day": 2.82,
-   "ratio": 1.75,
+   "recent": 17,
+   "base_per_day": 2.55,
+   "ratio": 2.03,
    "new": false,
    "daily": [
     0,
     0,
     0,
     0,
-    2,
-    4,
+    0,
+    3,
     5,
     9,
     3,
     2,
     6,
-    6,
+    7,
     2,
     8
    ],
