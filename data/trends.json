@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-28T16:48:54+00:00",
+ "updated": "2026-10-28T17:43:51+00:00",
  "days": [
   "2026-10-16",
   "2026-10-17",
@@ -56,6 +56,54 @@
      "link": "https://nagoyato.com/posts/20426",
      "source": "ナゴヤトコトン",
      "image": "https://nagoyato.com/wp-content/uploads/2026/10/IMG_3911-EDIT2.jpg"
+    }
+   ]
+  },
+  {
+   "label": "ローソン",
+   "q": "ローソン",
+   "kind": "chain",
+   "recent": 7,
+   "base_per_day": 0.64,
+   "ratio": 2.58,
+   "new": false,
+   "daily": [
+    0,
+    0,
+    0,
+    0,
+    1,
+    1,
+    2,
+    0,
+    1,
+    1,
+    1,
+    2,
+    5,
+    0
+   ],
+   "articles": [
+    {
+     "id": "ba59f2a39b3395a0",
+     "title": "オリコンニュース：ローソンストア100「デカ盛りチャレンジ」今年3回目の開催決定 値段そのままハムの量が約1.5倍になった“ハムサンド”など全12品",
+     "link": "https://mainichi.jp/articles/20261028/orc/00m/200/136000c",
+     "source": "毎日新聞",
+     "image": null
+    },
+    {
+     "id": "237c391c6c95141a",
+     "title": "ローソンストア100「デカ盛りチャレンジ」今年3回目の開催決定 値段そのままハムの量が約1.5倍になった“ハムサンド”など全12品",
+     "link": "https://373news.com/news/national/oricon/detail/2489347",
+     "source": "南日本新聞",
+     "image": "https://373news.com/_news/oricon/photo/main/20261028_140125_size640wh_84586722.jpg"
+    },
+    {
+     "id": "7e063d5238c5e3b8",
+     "title": "ローソンストア100、財布にうれしい「デカ盛りチャレンジ」を2週間実施。増量した弁当やサンドイッチなど12点",
+     "link": "https://gourmet.watch.impress.co.jp/docs/news/2151859.html",
+     "source": "グルメ Watch",
+     "image": "https://gourmet.watch.impress.co.jp/img/grw/list/2151/859/01.jpg"
     }
    ]
   },
@@ -145,54 +193,6 @@
      "link": "https://mdpr.jp/gourmet/detail/4866985",
      "source": "モデルプレス",
      "image": null
-    }
-   ]
-  },
-  {
-   "label": "ローソン",
-   "q": "ローソン",
-   "kind": "chain",
-   "recent": 7,
-   "base_per_day": 0.73,
-   "ratio": 2.36,
-   "new": false,
-   "daily": [
-    0,
-    0,
-    0,
-    0,
-    2,
-    1,
-    2,
-    0,
-    1,
-    1,
-    1,
-    2,
-    5,
-    0
-   ],
-   "articles": [
-    {
-     "id": "ba59f2a39b3395a0",
-     "title": "オリコンニュース：ローソンストア100「デカ盛りチャレンジ」今年3回目の開催決定 値段そのままハムの量が約1.5倍になった“ハムサンド”など全12品",
-     "link": "https://mainichi.jp/articles/20261028/orc/00m/200/136000c",
-     "source": "毎日新聞",
-     "image": null
-    },
-    {
-     "id": "237c391c6c95141a",
-     "title": "ローソンストア100「デカ盛りチャレンジ」今年3回目の開催決定 値段そのままハムの量が約1.5倍になった“ハムサンド”など全12品",
-     "link": "https://373news.com/news/national/oricon/detail/2489347",
-     "source": "南日本新聞",
-     "image": "https://373news.com/_news/oricon/photo/main/20261028_140125_size640wh_84586722.jpg"
-    },
-    {
-     "id": "7e063d5238c5e3b8",
-     "title": "ローソンストア100、財布にうれしい「デカ盛りチャレンジ」を2週間実施。増量した弁当やサンドイッチなど12点",
-     "link": "https://gourmet.watch.impress.co.jp/docs/news/2151859.html",
-     "source": "グルメ Watch",
-     "image": "https://gourmet.watch.impress.co.jp/img/grw/list/2151/859/01.jpg"
     }
    ]
   },
@@ -371,6 +371,54 @@
      "link": "https://news.dellows.jp/587281/?from=related-reading-list",
      "source": "Dellows News",
      "image": "https://news.dellows.jp/wp-content/uploads/2026/10/587281_1.jpg"
+    }
+   ]
+  },
+  {
+   "label": "ケーキ",
+   "q": "ケーキ",
+   "kind": "dish",
+   "recent": 4,
+   "base_per_day": 0.55,
+   "ratio": 1.71,
+   "new": false,
+   "daily": [
+    0,
+    0,
+    0,
+    0,
+    1,
+    1,
+    2,
+    1,
+    0,
+    0,
+    1,
+    1,
+    2,
+    1
+   ],
+   "articles": [
+    {
+     "id": "0bfe015338bf4111",
+     "title": "愛情あふれる爆盛り中華vs天才のチーズケーキ",
+     "link": "https://tver.jp/episodes/epav4cv93r",
+     "source": "TVer",
+     "image": null
+    },
+    {
+     "id": "89c3436b3a18b83e",
+     "title": "東海オンエアりょうのR BRANDが贈る、2026年のクリスマス 華やかな限定ケーキと、冬の夜を彩る特別なコーヒーが登場",
+     "link": "https://prtimes.jp/main/html/rd/p/000000016.000109471.html",
+     "source": "PR TIMES",
+     "image": "https://prcdn.freetls.fastly.net/release_image/109471/16/109471-16-1843672a81e7682c0bbfd8f4a0138078-2525x1458.jpg?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260"
+    },
+    {
+     "id": "7ee464bb0a19459a",
+     "title": "【今日から】コメダ珈琲店、秋冬の新作ケーキ4種発売 SNS「待ってました！」「どれもおいしそう」",
+     "link": "https://news.infoseek.co.jp/amp/article/otonanswer_404501/",
+     "source": "Infoseek",
+     "image": "https://media.image.infoseek.co.jp/isnews/photos/otonanswer/otonanswer_404501_0-enlarge.jpg"
     }
    ]
   },
