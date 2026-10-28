@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-28T08:50:36+00:00",
+ "updated": "2026-10-28T09:47:08+00:00",
  "days": [
   "2026-10-15",
   "2026-10-16",
@@ -22,9 +22,9 @@
    "label": "台湾ラーメン",
    "q": "台湾ラーメン",
    "kind": "dish",
-   "recent": 5,
+   "recent": 6,
    "base_per_day": 0.27,
-   "ratio": 3.02,
+   "ratio": 3.58,
    "new": false,
    "daily": [
     0,
@@ -40,7 +40,7 @@
     1,
     1,
     0,
-    4
+    5
    ],
    "articles": [
     {
@@ -51,18 +51,59 @@
      "image": "https://media.image.infoseek.co.jp/isnews/photos/mynavi/mynavi_3241185_0-enlarge.jpg"
     },
     {
+     "id": "f76e973f25a56170",
+     "title": "ファミマに″名古屋のソウルフード″味仙本店監修グルメが登場...! 「台湾ミンチカツ」「台湾ラーメン」など全5品のラインアップを紹介",
+     "link": "https://news.livedoor.com/article/detail/32677170/",
+     "source": "ライブドアニュース",
+     "image": "https://image.news.livedoor.com/newsimage/stf/0/9/09284_1223_3427f0b88920a13e7295383582607c4d.jpg"
+    },
+    {
      "id": "c02e96cdf3ec89a2",
      "title": "ファミマ「味仙本店」監修グルメ第4弾 「台湾ラーメン」「はるさめスープ」など全5品、中部・東海・甲信地方限定で登場",
      "link": "https://mdpr.jp/gourmet/detail/4866985",
      "source": "モデルプレス",
      "image": null
+    }
+   ]
+  },
+  {
+   "label": "土鍋ごはん×とんかつ CHITAKA",
+   "q": "土鍋ごはん×とんかつ CHITAKA",
+   "kind": "shop",
+   "recent": 2,
+   "base_per_day": 0.0,
+   "ratio": 2.5,
+   "new": true,
+   "daily": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    2
+   ],
+   "articles": [
+    {
+     "id": "c81bbccf7c0d7efb",
+     "title": "“知多家”の新ブランド『土鍋ごはん×とんかつ CHITAKA』名古屋・栄の地下街に29日オープン 今後商業施設を中心に出店へ",
+     "link": "https://article.auone.jp/0a82174f-1f57-4b24-a3f2-e80a93173727",
+     "source": "au Webポータル",
+     "image": "https://newportal.portal.auone.jp/media/thumbnails/2026/10/28/https___news_jp_i_1488088534532014151_w640.webp"
     },
     {
-     "id": "bb19b2d169b61bd2",
-     "title": "ファミマ、「味仙本店」監修の台湾ラーメンなど5品を地域限定発売",
-     "link": "https://www.rbbtoday.com/article/2026/10/28/255099.html",
-     "source": "RBB TODAY",
-     "image": "https://www.rbbtoday.com/imgs/ogp_f/1057196.jpg"
+     "id": "394bccb2daf604c8",
+     "title": "2026年10月29日オープン！栄センパの新店「土鍋ごはん×とんかつ CHITAKA」が美味すぎた 「とんかつ知多家」から生まれた新感覚とんかつを最速実食レポート【久屋大通・栄】",
+     "link": "https://nagoyato.com/posts/20426",
+     "source": "ナゴヤトコトン",
+     "image": "https://nagoyato.com/wp-content/uploads/2026/10/IMG_3911-EDIT2.jpg"
     }
    ]
   },
@@ -293,6 +334,54 @@
    ]
   },
   {
+   "label": "寿司",
+   "q": "寿司",
+   "kind": "dish",
+   "recent": 6,
+   "base_per_day": 0.73,
+   "ratio": 2.04,
+   "new": false,
+   "daily": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    3,
+    3,
+    0,
+    2,
+    0,
+    0,
+    0,
+    1,
+    5
+   ],
+   "articles": [
+    {
+     "id": "3300a8503209ba90",
+     "title": "ついに“伊勢前寿し”が伊勢市に誕生。伊勢志摩の神の恵みを一貫に込めた新たな寿司文化を世界へ『伊勢前寿し 神貫 伊勢本店』2026年11月3日(火)オープン 【メディア内覧会 11月4日(水)開催】",
+     "link": "https://prtimes.jp/main/html/rd/p/000000004.000108755.html",
+     "source": "PR TIMES",
+     "image": "https://prcdn.freetls.fastly.net/release_image/108755/4/108755-4-8f499506e14f72ecd67502946b262a9a-3900x2600.jpg?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260"
+    },
+    {
+     "id": "26faaca0634a15c1",
+     "title": "かっぱ寿司にてアサイー×和素材「和サイ―」スイーツ「アサイーのアイスもなかサンド」「ふわもち団子のアサイーぜんざい風」が11月6日（金）より期間限定で登場！",
+     "link": "https://prtimes.jp/main/html/rd/p/000000274.000024416.html",
+     "source": "PR TIMES",
+     "image": "https://prcdn.freetls.fastly.net/release_image/24416/274/24416-274-bb078db0f79d71d0854261c61d704648-1463x853.jpg?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260"
+    },
+    {
+     "id": "264184969c9166ec",
+     "title": "名古屋駅で行列の「すしの美登利」が栄に2号店！名古屋栄三越9階に10月31日オープン、限定「海鮮ひつまぶし」3,630円はどんな内容？｜グルメとフード",
+     "link": "http://www.excite.co.jp/news/article/TetsudoCh_13041098/",
+     "source": "Excite エキサイト",
+     "image": null
+    }
+   ]
+  },
+  {
    "label": "ケーキ",
    "q": "ケーキ",
    "kind": "dish",
@@ -385,6 +474,102 @@
      "link": "https://ascii.jp/elem/000/004/445/4445615/?topnew=1",
      "source": "ASCII.jp",
      "image": "https://ascii.jp/img/2026/10/23/4542567/xl/36934dafe82f44f7.jpg?20200122"
+    }
+   ]
+  },
+  {
+   "label": "とんかつ",
+   "q": "とんかつ",
+   "kind": "dish",
+   "recent": 3,
+   "base_per_day": 0.36,
+   "ratio": 1.67,
+   "new": false,
+   "daily": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    3,
+    0,
+    1,
+    0,
+    0,
+    0,
+    1,
+    2
+   ],
+   "articles": [
+    {
+     "id": "c81bbccf7c0d7efb",
+     "title": "“知多家”の新ブランド『土鍋ごはん×とんかつ CHITAKA』名古屋・栄の地下街に29日オープン 今後商業施設を中心に出店へ",
+     "link": "https://article.auone.jp/0a82174f-1f57-4b24-a3f2-e80a93173727",
+     "source": "au Webポータル",
+     "image": "https://newportal.portal.auone.jp/media/thumbnails/2026/10/28/https___news_jp_i_1488088534532014151_w640.webp"
+    },
+    {
+     "id": "394bccb2daf604c8",
+     "title": "2026年10月29日オープン！栄センパの新店「土鍋ごはん×とんかつ CHITAKA」が美味すぎた 「とんかつ知多家」から生まれた新感覚とんかつを最速実食レポート【久屋大通・栄】",
+     "link": "https://nagoyato.com/posts/20426",
+     "source": "ナゴヤトコトン",
+     "image": "https://nagoyato.com/wp-content/uploads/2026/10/IMG_3911-EDIT2.jpg"
+    },
+    {
+     "id": "bc5bf59363939b9f",
+     "title": "38年続くとんかつ店 名古屋に新ブランド1号店 ランチは1280円から 11日間ドリンク半額",
+     "link": "https://www.shizuoka-life.jp/post-15650/",
+     "source": "静岡ライフ",
+     "image": "https://www.shizuoka-life.jp/wp-content/uploads/2026/10/4c85c234076325c638e2c305400f29d6-12.jpg"
+    }
+   ]
+  },
+  {
+   "label": "ラーメン",
+   "q": "ラーメン",
+   "kind": "dish",
+   "recent": 15,
+   "base_per_day": 2.82,
+   "ratio": 1.64,
+   "new": false,
+   "daily": [
+    0,
+    0,
+    0,
+    0,
+    2,
+    4,
+    5,
+    9,
+    3,
+    2,
+    6,
+    6,
+    2,
+    7
+   ],
+   "articles": [
+    {
+     "id": "4442309e18f9336a",
+     "title": "宅麺×アニメ「ハイキュー!!」、4校をイメージしたコラボラーメン全8商品を発売！",
+     "link": "https://prtimes.jp/main/html/rd/p/000000198.000002430.html",
+     "source": "PR TIMES",
+     "image": "https://prcdn.freetls.fastly.net/release_image/2430/198/2430-198-2dc8ca2846a8d2ce87ad26489a5bba18-1909x2700.jpg?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260"
+    },
+    {
+     "id": "72aea3262a5d73f6",
+     "title": "ファミマに\"名古屋のソウルフード\"味仙本店監修グルメが登場...! 「台湾ミンチカツ」「台湾ラーメン」など全5品のラインアップを紹介",
+     "link": "https://news.infoseek.co.jp/article/mynavi_3241185/",
+     "source": "Infoseek",
+     "image": "https://media.image.infoseek.co.jp/isnews/photos/mynavi/mynavi_3241185_0-enlarge.jpg"
+    },
+    {
+     "id": "f76e973f25a56170",
+     "title": "ファミマに″名古屋のソウルフード″味仙本店監修グルメが登場...! 「台湾ミンチカツ」「台湾ラーメン」など全5品のラインアップを紹介",
+     "link": "https://news.livedoor.com/article/detail/32677170/",
+     "source": "ライブドアニュース",
+     "image": "https://image.news.livedoor.com/newsimage/stf/0/9/09284_1223_3427f0b88920a13e7295383582607c4d.jpg"
     }
    ]
   }
