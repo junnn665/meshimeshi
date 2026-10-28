@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-28T09:47:08+00:00",
+ "updated": "2026-10-28T10:44:18+00:00",
  "days": [
   "2026-10-15",
   "2026-10-16",
@@ -289,9 +289,9 @@
    "label": "ローソン",
    "q": "ローソン",
    "kind": "chain",
-   "recent": 5,
+   "recent": 6,
    "base_per_day": 0.64,
-   "ratio": 1.89,
+   "ratio": 2.23,
    "new": false,
    "daily": [
     0,
@@ -307,9 +307,16 @@
     1,
     1,
     2,
-    2
+    3
    ],
    "articles": [
+    {
+     "id": "ba59f2a39b3395a0",
+     "title": "オリコンニュース：ローソンストア100「デカ盛りチャレンジ」今年3回目の開催決定 値段そのままハムの量が約1.5倍になった“ハムサンド”など全12品",
+     "link": "https://mainichi.jp/articles/20261028/orc/00m/200/136000c",
+     "source": "毎日新聞",
+     "image": null
+    },
     {
      "id": "7e063d5238c5e3b8",
      "title": "ローソンストア100、財布にうれしい「デカ盛りチャレンジ」を2週間実施。増量した弁当やサンドイッチなど12点",
@@ -323,13 +330,6 @@
      "link": "https://prtimes.jp/main/html/rd/p/000000595.000025635.html",
      "source": "PR TIMES",
      "image": "https://prcdn.freetls.fastly.net/release_image/25635/595/25635-595-a3c08778fa582b104f74a1975ef47e98-1280x720.jpg?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260"
-    },
-    {
-     "id": "45fb1bba44e2459c",
-     "title": "【10月27日～発売】セブン・ファミマ・ローソン新作スイーツ特集｜「ドバイチョコスタイルクレープ」・「Uchi Café×ゴディバ ショコラロールケーキ」など注目デザートまとめ",
-     "link": "https://entabe.jp/61968/seven-eleven-familymart-lawson-new-sweets-october-2026",
-     "source": "えん食べ [グルメニュース]",
-     "image": "https://image.entabe.jp/upload/20261027/images/thumbnail_20261027_web_1.jpg"
     }
    ]
   },
@@ -478,60 +478,12 @@
    ]
   },
   {
-   "label": "とんかつ",
-   "q": "とんかつ",
-   "kind": "dish",
-   "recent": 3,
-   "base_per_day": 0.36,
-   "ratio": 1.67,
-   "new": false,
-   "daily": [
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    3,
-    0,
-    1,
-    0,
-    0,
-    0,
-    1,
-    2
-   ],
-   "articles": [
-    {
-     "id": "c81bbccf7c0d7efb",
-     "title": "“知多家”の新ブランド『土鍋ごはん×とんかつ CHITAKA』名古屋・栄の地下街に29日オープン 今後商業施設を中心に出店へ",
-     "link": "https://article.auone.jp/0a82174f-1f57-4b24-a3f2-e80a93173727",
-     "source": "au Webポータル",
-     "image": "https://newportal.portal.auone.jp/media/thumbnails/2026/10/28/https___news_jp_i_1488088534532014151_w640.webp"
-    },
-    {
-     "id": "394bccb2daf604c8",
-     "title": "2026年10月29日オープン！栄センパの新店「土鍋ごはん×とんかつ CHITAKA」が美味すぎた 「とんかつ知多家」から生まれた新感覚とんかつを最速実食レポート【久屋大通・栄】",
-     "link": "https://nagoyato.com/posts/20426",
-     "source": "ナゴヤトコトン",
-     "image": "https://nagoyato.com/wp-content/uploads/2026/10/IMG_3911-EDIT2.jpg"
-    },
-    {
-     "id": "bc5bf59363939b9f",
-     "title": "38年続くとんかつ店 名古屋に新ブランド1号店 ランチは1280円から 11日間ドリンク半額",
-     "link": "https://www.shizuoka-life.jp/post-15650/",
-     "source": "静岡ライフ",
-     "image": "https://www.shizuoka-life.jp/wp-content/uploads/2026/10/4c85c234076325c638e2c305400f29d6-12.jpg"
-    }
-   ]
-  },
-  {
    "label": "ラーメン",
    "q": "ラーメン",
    "kind": "dish",
-   "recent": 15,
+   "recent": 16,
    "base_per_day": 2.82,
-   "ratio": 1.64,
+   "ratio": 1.75,
    "new": false,
    "daily": [
     0,
@@ -547,9 +499,16 @@
     6,
     6,
     2,
-    7
+    8
    ],
    "articles": [
+    {
+     "id": "973da6de489bb279",
+     "title": "東北6県のご当地グルメが名古屋に 絶品ラーメンや前沢牛ステーキが集う「大東北展」11月3日まで開催",
+     "link": "https://news.tv-aichi.co.jp/single.php?id=10505",
+     "source": "愛知のニュース",
+     "image": "https://news.tv-aichi.co.jp/data/10505/t-image.jpg?v=1793177168"
+    },
     {
      "id": "4442309e18f9336a",
      "title": "宅麺×アニメ「ハイキュー!!」、4校をイメージしたコラボラーメン全8商品を発売！",
@@ -563,13 +522,54 @@
      "link": "https://news.infoseek.co.jp/article/mynavi_3241185/",
      "source": "Infoseek",
      "image": "https://media.image.infoseek.co.jp/isnews/photos/mynavi/mynavi_3241185_0-enlarge.jpg"
+    }
+   ]
+  },
+  {
+   "label": "ステーキ",
+   "q": "ステーキ",
+   "kind": "dish",
+   "recent": 3,
+   "base_per_day": 0.36,
+   "ratio": 1.67,
+   "new": false,
+   "daily": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    4,
+    0,
+    0,
+    2,
+    0,
+    1
+   ],
+   "articles": [
+    {
+     "id": "973da6de489bb279",
+     "title": "東北6県のご当地グルメが名古屋に 絶品ラーメンや前沢牛ステーキが集う「大東北展」11月3日まで開催",
+     "link": "https://news.tv-aichi.co.jp/single.php?id=10505",
+     "source": "愛知のニュース",
+     "image": "https://news.tv-aichi.co.jp/data/10505/t-image.jpg?v=1793177168"
     },
     {
-     "id": "f76e973f25a56170",
-     "title": "ファミマに″名古屋のソウルフード″味仙本店監修グルメが登場...! 「台湾ミンチカツ」「台湾ラーメン」など全5品のラインアップを紹介",
-     "link": "https://news.livedoor.com/article/detail/32677170/",
-     "source": "ライブドアニュース",
-     "image": "https://image.news.livedoor.com/newsimage/stf/0/9/09284_1223_3427f0b88920a13e7295383582607c4d.jpg"
+     "id": "39ba89cb08b94072",
+     "title": "【本日から】ステーキ最大29％引き、ご飯とカレーは食べ放題！ステーキガスト「肉の日」",
+     "link": "https://ascii.jp/elem/000/004/445/4445615/?topnew=1",
+     "source": "ASCII.jp",
+     "image": "https://ascii.jp/img/2026/10/23/4542567/xl/36934dafe82f44f7.jpg?20200122"
+    },
+    {
+     "id": "94d82009f3954363",
+     "title": "「ウルフギャング・ステーキハウス」名店の味を気軽に楽しむ、ウルフギャングだけの”バーガーマンス”「ウルフギャングスタイル 5オンス クラシックバーガー」販売",
+     "link": "https://www.agara.co.jp/article/703858?rct=pr_platform",
+     "source": "AGARA 紀伊民報",
+     "image": "https://digitalpr.jp/release/media/2389/146528/202610221122516ad9737bb6a9a.jpg"
     }
    ]
   }
