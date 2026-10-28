@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-28T11:40:49+00:00",
+ "updated": "2026-10-28T12:49:53+00:00",
  "days": [
   "2026-10-15",
   "2026-10-16",
@@ -23,8 +23,8 @@
    "q": "台湾ラーメン",
    "kind": "dish",
    "recent": 6,
-   "base_per_day": 0.27,
-   "ratio": 3.58,
+   "base_per_day": 0.18,
+   "ratio": 4.21,
    "new": false,
    "daily": [
     0,
@@ -32,7 +32,7 @@
     0,
     0,
     0,
-    1,
+    0,
     0,
     0,
     0,
@@ -111,6 +111,54 @@
      "link": "https://www.walkerplus.com/article/167416/",
      "source": "ウォーカープラス",
      "image": "https://news.walkerplus.com/article/167416/978404_615.jpg"
+    }
+   ]
+  },
+  {
+   "label": "ファミリーマート",
+   "q": "ファミリーマート",
+   "kind": "chain",
+   "recent": 6,
+   "base_per_day": 0.36,
+   "ratio": 3.11,
+   "new": false,
+   "daily": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    1,
+    0,
+    2,
+    3,
+    1,
+    2
+   ],
+   "articles": [
+    {
+     "id": "d6f5268b33e850ad",
+     "title": "ファミリーマート×「味仙本店」第4弾 「台湾はるさめスープ」が初登場",
+     "link": "https://news.infoseek.co.jp/article/oricon_2489393/",
+     "source": "Infoseek",
+     "image": "https://media.image.infoseek.co.jp/isnews/photos/oricon/oricon_2489393_0-enlarge.jpg"
+    },
+    {
+     "id": "fce3625be61973c8",
+     "title": "【中部・東海・甲信地方限定】元祖台湾ラーメンの名店「味仙本店」監修企画第4弾！「台湾はるさめスープ」が初登場ファミリーマートでしか味わえないこだわりの全5商品を11月3日（火）より順次発売！｜信濃毎日新聞デジタル 信州・長野県のニュースサイト",
+     "link": "https://prtimes.jp/main/html/rd/p/000002606.000046210.html",
+     "source": "PR TIMES",
+     "image": "https://prcdn.freetls.fastly.net/release_image/46210/2606/46210-2606-cb7d0e6e138b38046a16954fc7b3f4eb-381x525.png?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260"
+    },
+    {
+     "id": "800a28dab2e6cf09",
+     "title": "ファミリーマート３店舗で「ファミマフードドライブ」を開始します！",
+     "link": "https://prtimes.jp/main/html/rd/p/000000103.000164008.html",
+     "source": "PR TIMES",
+     "image": "https://prcdn.freetls.fastly.net/release_image/164008/103/164008-103-7d19b1f0b90f3eaa470e217c011f3578-3421x2451.jpg?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260"
     }
    ]
   },
@@ -200,54 +248,6 @@
      "link": "https://prtimes.jp/main/html/rd/p/000000540.000029053.html",
      "source": "PR TIMES",
      "image": "https://prcdn.freetls.fastly.net/release_image/29053/540/29053-540-f27fa95831d545b34243fd5db3f8a3c8-3900x2600.jpg?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260"
-    }
-   ]
-  },
-  {
-   "label": "ファミリーマート",
-   "q": "ファミリーマート",
-   "kind": "chain",
-   "recent": 6,
-   "base_per_day": 0.55,
-   "ratio": 2.47,
-   "new": false,
-   "daily": [
-    0,
-    0,
-    0,
-    0,
-    0,
-    2,
-    0,
-    1,
-    1,
-    0,
-    2,
-    3,
-    1,
-    2
-   ],
-   "articles": [
-    {
-     "id": "d6f5268b33e850ad",
-     "title": "ファミリーマート×「味仙本店」第4弾 「台湾はるさめスープ」が初登場",
-     "link": "https://news.infoseek.co.jp/article/oricon_2489393/",
-     "source": "Infoseek",
-     "image": "https://media.image.infoseek.co.jp/isnews/photos/oricon/oricon_2489393_0-enlarge.jpg"
-    },
-    {
-     "id": "fce3625be61973c8",
-     "title": "【中部・東海・甲信地方限定】元祖台湾ラーメンの名店「味仙本店」監修企画第4弾！「台湾はるさめスープ」が初登場ファミリーマートでしか味わえないこだわりの全5商品を11月3日（火）より順次発売！｜信濃毎日新聞デジタル 信州・長野県のニュースサイト",
-     "link": "https://prtimes.jp/main/html/rd/p/000002606.000046210.html",
-     "source": "PR TIMES",
-     "image": "https://prcdn.freetls.fastly.net/release_image/46210/2606/46210-2606-cb7d0e6e138b38046a16954fc7b3f4eb-381x525.png?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260"
-    },
-    {
-     "id": "800a28dab2e6cf09",
-     "title": "ファミリーマート３店舗で「ファミマフードドライブ」を開始します！",
-     "link": "https://prtimes.jp/main/html/rd/p/000000103.000164008.html",
-     "source": "PR TIMES",
-     "image": "https://prcdn.freetls.fastly.net/release_image/164008/103/164008-103-7d19b1f0b90f3eaa470e217c011f3578-3421x2451.jpg?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260"
     }
    ]
   },
@@ -389,6 +389,102 @@
    ]
   },
   {
+   "label": "寿司",
+   "q": "寿司",
+   "kind": "dish",
+   "recent": 6,
+   "base_per_day": 0.64,
+   "ratio": 2.23,
+   "new": false,
+   "daily": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    2,
+    3,
+    0,
+    2,
+    0,
+    0,
+    0,
+    1,
+    5
+   ],
+   "articles": [
+    {
+     "id": "3300a8503209ba90",
+     "title": "ついに“伊勢前寿し”が伊勢市に誕生。伊勢志摩の神の恵みを一貫に込めた新たな寿司文化を世界へ『伊勢前寿し 神貫 伊勢本店』2026年11月3日(火)オープン 【メディア内覧会 11月4日(水)開催】",
+     "link": "https://prtimes.jp/main/html/rd/p/000000004.000108755.html",
+     "source": "PR TIMES",
+     "image": "https://prcdn.freetls.fastly.net/release_image/108755/4/108755-4-8f499506e14f72ecd67502946b262a9a-3900x2600.jpg?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260"
+    },
+    {
+     "id": "26faaca0634a15c1",
+     "title": "かっぱ寿司にてアサイー×和素材「和サイ―」スイーツ「アサイーのアイスもなかサンド」「ふわもち団子のアサイーぜんざい風」が11月6日（金）より期間限定で登場！",
+     "link": "https://prtimes.jp/main/html/rd/p/000000274.000024416.html",
+     "source": "PR TIMES",
+     "image": "https://prcdn.freetls.fastly.net/release_image/24416/274/24416-274-bb078db0f79d71d0854261c61d704648-1463x853.jpg?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260"
+    },
+    {
+     "id": "264184969c9166ec",
+     "title": "名古屋駅で行列の「すしの美登利」が栄に2号店！名古屋栄三越9階に10月31日オープン、限定「海鮮ひつまぶし」3,630円はどんな内容？｜グルメとフード",
+     "link": "http://www.excite.co.jp/news/article/TetsudoCh_13041098/",
+     "source": "Excite エキサイト",
+     "image": null
+    }
+   ]
+  },
+  {
+   "label": "ラーメン",
+   "q": "ラーメン",
+   "kind": "dish",
+   "recent": 17,
+   "base_per_day": 2.36,
+   "ratio": 2.16,
+   "new": false,
+   "daily": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    5,
+    9,
+    3,
+    2,
+    6,
+    7,
+    2,
+    8
+   ],
+   "articles": [
+    {
+     "id": "973da6de489bb279",
+     "title": "東北6県のご当地グルメが名古屋に 絶品ラーメンや前沢牛ステーキが集う「大東北展」11月3日まで開催（テレビ愛知）",
+     "link": "https://news.tv-aichi.co.jp/single.php?id=10505",
+     "source": "愛知のニュース",
+     "image": "https://news.tv-aichi.co.jp/data/10505/t-image.jpg?v=1793177168"
+    },
+    {
+     "id": "4442309e18f9336a",
+     "title": "宅麺×アニメ「ハイキュー!!」、4校をイメージしたコラボラーメン全8商品を発売！",
+     "link": "https://prtimes.jp/main/html/rd/p/000000198.000002430.html",
+     "source": "PR TIMES",
+     "image": "https://prcdn.freetls.fastly.net/release_image/2430/198/2430-198-2dc8ca2846a8d2ce87ad26489a5bba18-1909x2700.jpg?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260"
+    },
+    {
+     "id": "72aea3262a5d73f6",
+     "title": "ファミマに\"名古屋のソウルフード\"味仙本店監修グルメが登場...! 「台湾ミンチカツ」「台湾ラーメン」など全5品のラインアップを紹介",
+     "link": "https://news.infoseek.co.jp/article/mynavi_3241185/",
+     "source": "Infoseek",
+     "image": "https://media.image.infoseek.co.jp/isnews/photos/mynavi/mynavi_3241185_0-enlarge.jpg"
+    }
+   ]
+  },
+  {
    "label": "ケーキ",
    "q": "ケーキ",
    "kind": "dish",
@@ -437,12 +533,12 @@
    ]
   },
   {
-   "label": "寿司",
-   "q": "寿司",
+   "label": "弁当",
+   "q": "弁当",
    "kind": "dish",
-   "recent": 6,
-   "base_per_day": 0.73,
-   "ratio": 2.04,
+   "recent": 4,
+   "base_per_day": 0.55,
+   "ratio": 1.71,
    "new": false,
    "daily": [
     0,
@@ -450,133 +546,37 @@
     0,
     0,
     0,
-    3,
-    3,
     0,
     2,
-    0,
-    0,
+    2,
     0,
     1,
-    5
+    1,
+    2,
+    0,
+    2
    ],
    "articles": [
     {
-     "id": "3300a8503209ba90",
-     "title": "ついに“伊勢前寿し”が伊勢市に誕生。伊勢志摩の神の恵みを一貫に込めた新たな寿司文化を世界へ『伊勢前寿し 神貫 伊勢本店』2026年11月3日(火)オープン 【メディア内覧会 11月4日(水)開催】",
-     "link": "https://prtimes.jp/main/html/rd/p/000000004.000108755.html",
-     "source": "PR TIMES",
-     "image": "https://prcdn.freetls.fastly.net/release_image/108755/4/108755-4-8f499506e14f72ecd67502946b262a9a-3900x2600.jpg?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260"
+     "id": "7e063d5238c5e3b8",
+     "title": "ローソンストア100、財布にうれしい「デカ盛りチャレンジ」を2週間実施。増量した弁当やサンドイッチなど12点",
+     "link": "https://gourmet.watch.impress.co.jp/docs/news/2151859.html",
+     "source": "グルメ Watch",
+     "image": "https://gourmet.watch.impress.co.jp/img/grw/list/2151/859/01.jpg"
     },
     {
-     "id": "26faaca0634a15c1",
-     "title": "かっぱ寿司にてアサイー×和素材「和サイ―」スイーツ「アサイーのアイスもなかサンド」「ふわもち団子のアサイーぜんざい風」が11月6日（金）より期間限定で登場！",
-     "link": "https://prtimes.jp/main/html/rd/p/000000274.000024416.html",
-     "source": "PR TIMES",
-     "image": "https://prcdn.freetls.fastly.net/release_image/24416/274/24416-274-bb078db0f79d71d0854261c61d704648-1463x853.jpg?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260"
+     "id": "358eadf975f320b8",
+     "title": "【2026年10月第5週】コンビニ寿司・コンビニ弁当の新商品！おにぎりランチや豚焼肉弁当などまとめ",
+     "link": "https://mognavi.jp/news/matome/gen-newProduct-29450/",
+     "source": "もぐナビ",
+     "image": "https://img1.esimg.jp/blog/wp-content/uploads/2026/10/gen-newProduct-29450.jpg?ts=1793151900000"
     },
     {
-     "id": "264184969c9166ec",
-     "title": "名古屋駅で行列の「すしの美登利」が栄に2号店！名古屋栄三越9階に10月31日オープン、限定「海鮮ひつまぶし」3,630円はどんな内容？｜グルメとフード",
-     "link": "http://www.excite.co.jp/news/article/TetsudoCh_13041098/",
-     "source": "Excite エキサイト",
-     "image": null
-    }
-   ]
-  },
-  {
-   "label": "ラーメン",
-   "q": "ラーメン",
-   "kind": "dish",
-   "recent": 17,
-   "base_per_day": 2.55,
-   "ratio": 2.03,
-   "new": false,
-   "daily": [
-    0,
-    0,
-    0,
-    0,
-    0,
-    3,
-    5,
-    9,
-    3,
-    2,
-    6,
-    7,
-    2,
-    8
-   ],
-   "articles": [
-    {
-     "id": "973da6de489bb279",
-     "title": "東北6県のご当地グルメが名古屋に 絶品ラーメンや前沢牛ステーキが集う「大東北展」11月3日まで開催",
-     "link": "https://news.tv-aichi.co.jp/single.php?id=10505",
-     "source": "愛知のニュース",
-     "image": "https://news.tv-aichi.co.jp/data/10505/t-image.jpg?v=1793177168"
-    },
-    {
-     "id": "4442309e18f9336a",
-     "title": "宅麺×アニメ「ハイキュー!!」、4校をイメージしたコラボラーメン全8商品を発売！",
-     "link": "https://prtimes.jp/main/html/rd/p/000000198.000002430.html",
-     "source": "PR TIMES",
-     "image": "https://prcdn.freetls.fastly.net/release_image/2430/198/2430-198-2dc8ca2846a8d2ce87ad26489a5bba18-1909x2700.jpg?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260"
-    },
-    {
-     "id": "72aea3262a5d73f6",
-     "title": "ファミマに\"名古屋のソウルフード\"味仙本店監修グルメが登場...! 「台湾ミンチカツ」「台湾ラーメン」など全5品のラインアップを紹介",
-     "link": "https://news.infoseek.co.jp/article/mynavi_3241185/",
-     "source": "Infoseek",
-     "image": "https://media.image.infoseek.co.jp/isnews/photos/mynavi/mynavi_3241185_0-enlarge.jpg"
-    }
-   ]
-  },
-  {
-   "label": "ステーキ",
-   "q": "ステーキ",
-   "kind": "dish",
-   "recent": 3,
-   "base_per_day": 0.36,
-   "ratio": 1.67,
-   "new": false,
-   "daily": [
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    4,
-    0,
-    0,
-    2,
-    0,
-    1
-   ],
-   "articles": [
-    {
-     "id": "973da6de489bb279",
-     "title": "東北6県のご当地グルメが名古屋に 絶品ラーメンや前沢牛ステーキが集う「大東北展」11月3日まで開催",
-     "link": "https://news.tv-aichi.co.jp/single.php?id=10505",
-     "source": "愛知のニュース",
-     "image": "https://news.tv-aichi.co.jp/data/10505/t-image.jpg?v=1793177168"
-    },
-    {
-     "id": "39ba89cb08b94072",
-     "title": "【本日から】ステーキ最大29％引き、ご飯とカレーは食べ放題！ステーキガスト「肉の日」",
-     "link": "https://ascii.jp/elem/000/004/445/4445615/?topnew=1",
-     "source": "ASCII.jp",
-     "image": "https://ascii.jp/img/2026/10/23/4542567/xl/36934dafe82f44f7.jpg?20200122"
-    },
-    {
-     "id": "94d82009f3954363",
-     "title": "「ウルフギャング・ステーキハウス」名店の味を気軽に楽しむ、ウルフギャングだけの”バーガーマンス”「ウルフギャングスタイル 5オンス クラシックバーガー」販売",
-     "link": "https://www.agara.co.jp/article/703858?rct=pr_platform",
-     "source": "AGARA 紀伊民報",
-     "image": "https://digitalpr.jp/release/media/2389/146528/202610221122516ad9737bb6a9a.jpg"
+     "id": "f4e7005176901ab5",
+     "title": "「倒産ペースは過去最悪」生き残りをかけた弁当店の挑戦 健康的な母の味と「片道150キロ・高速使わず米仕入れ」コスト減が武器の店 “フタ閉まらない”「デカ盛りから揚げ弁当」で「週末は1日で15万円」売り上げる店",
+     "link": "https://www.fnn.jp/articles/-/1139900",
+     "source": "FNNプライムオンライン",
+     "image": "https://fnn.ismcdn.jp/mwimgs/b/9/600/img_b9a21869a1d532b9e21e8e4a97a5d40b308821.jpg"
     }
    ]
   }

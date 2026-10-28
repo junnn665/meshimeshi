@@ -1,17 +1,18 @@
 {
- "updated": "2026-10-28T20:40:12+09:00",
- "items": 374,
- "with_image": 350,
- "google_decode_ok": 33,
+ "updated": "2026-10-28T21:49:17+09:00",
+ "items": 365,
+ "with_image": 341,
+ "google_decode_ok": 41,
  "google_decode_failed": 0,
  "google_decode_samples": [],
  "image_failures": [
+  "news.nicovideo.jp: HTTPError: HTTP Error 403: Forbidden",
   "www.at-s.com: HTTPError: HTTP Error 405: Not Allowed",
+  "media.unisba.ac.id: HTTPError: HTTP Error 403: Forbidden",
   "media.unisba.ac.id: HTTPError: HTTP Error 403: Forbidden",
   "media.unisba.ac.id: HTTPError: HTTP Error 403: Forbidden",
   "tetsudo-ch.com: HTTPError: HTTP Error 403: Forbidden",
   "news.nicovideo.jp: HTTPError: HTTP Error 403: Forbidden",
-  "f-weeklyweb.com: og:image なし (72243 文字)",
-  "www.asahi.com: TimeoutError: The read operation timed out"
+  "f-weeklyweb.com: og:image なし (72243 文字)"
  ]
 }
