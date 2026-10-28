@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-28T19:46:33+00:00",
+ "updated": "2026-10-28T20:40:20+00:00",
  "days": [
   "2026-10-16",
   "2026-10-17",
@@ -64,15 +64,15 @@
    "q": "ローソン",
    "kind": "chain",
    "recent": 7,
-   "base_per_day": 0.64,
-   "ratio": 2.58,
+   "base_per_day": 0.55,
+   "ratio": 2.84,
    "new": false,
    "daily": [
     0,
     0,
     0,
     0,
-    1,
+    0,
     1,
     2,
     0,
@@ -104,6 +104,54 @@
      "link": "https://gourmet.watch.impress.co.jp/docs/news/2151859.html",
      "source": "グルメ Watch",
      "image": "https://gourmet.watch.impress.co.jp/img/grw/list/2151/859/01.jpg"
+    }
+   ]
+  },
+  {
+   "label": "ピザ",
+   "q": "ピザ",
+   "kind": "dish",
+   "recent": 3,
+   "base_per_day": 0.09,
+   "ratio": 2.75,
+   "new": false,
+   "daily": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    1,
+    2,
+    0
+   ],
+   "articles": [
+    {
+     "id": "42717fa84f6430b4",
+     "title": "『ドミノ・ピザ』『ピザハット』『ピザーラ』宅配ピザ3チェーン調査｜1,000人調査",
+     "link": "https://prtimes.jp/main/html/rd/p/000000244.000064613.html",
+     "source": "PR TIMES",
+     "image": "https://prcdn.freetls.fastly.net/release_image/64613/244/64613-244-853050cd1146bd7ad6f4bdafa6ae9e0a-1920x1080.png?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260"
+    },
+    {
+     "id": "b79bdc08730b7d46",
+     "title": "『僕のヒーローアカデミア』のコラボカフェが東京・名古屋・大阪・札幌に登場！キャラクターをイメージしたピザやドリンク、限定グッズを紹介（ウォーカープラス）",
+     "link": "https://news.nicovideo.jp/watch/nw19927513?news_ref=watch_50_nw19792882",
+     "source": "ニコニコニュース",
+     "image": "http://www.bing.com/th?id=ONUT.tDux15zZf8R05sS0I5WdCw&pid=News"
+    },
+    {
+     "id": "64b3c303b789b57c",
+     "title": "ピザハット「肉の日」でお肉1.5倍のハーフ＆ハーフが新登場！290円ごはんピザも",
+     "link": "https://report.iko-yo.net/articles/35179",
+     "source": "いこーよニュース",
+     "image": "https://d28w2qw7dtr435.cloudfront.net/uploaded/cover_images/images/35308/normal.jpg?1793090231"
     }
    ]
   },
@@ -282,54 +330,6 @@
      "link": "http://www.excite.co.jp/news/article/TetsudoCh_13041098/",
      "source": "Excite エキサイト",
      "image": null
-    }
-   ]
-  },
-  {
-   "label": "ピザ",
-   "q": "ピザ",
-   "kind": "dish",
-   "recent": 3,
-   "base_per_day": 0.18,
-   "ratio": 2.26,
-   "new": false,
-   "daily": [
-    0,
-    0,
-    0,
-    0,
-    1,
-    0,
-    0,
-    0,
-    0,
-    0,
-    1,
-    1,
-    2,
-    0
-   ],
-   "articles": [
-    {
-     "id": "42717fa84f6430b4",
-     "title": "『ドミノ・ピザ』『ピザハット』『ピザーラ』宅配ピザ3チェーン調査｜1,000人調査",
-     "link": "https://prtimes.jp/main/html/rd/p/000000244.000064613.html",
-     "source": "PR TIMES",
-     "image": "https://prcdn.freetls.fastly.net/release_image/64613/244/64613-244-853050cd1146bd7ad6f4bdafa6ae9e0a-1920x1080.png?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260"
-    },
-    {
-     "id": "b79bdc08730b7d46",
-     "title": "『僕のヒーローアカデミア』のコラボカフェが東京・名古屋・大阪・札幌に登場！キャラクターをイメージしたピザやドリンク、限定グッズを紹介（ウォーカープラス）",
-     "link": "https://news.nicovideo.jp/watch/nw19927513?news_ref=watch_50_nw19792882",
-     "source": "ニコニコニュース",
-     "image": "http://www.bing.com/th?id=ONUT.tDux15zZf8R05sS0I5WdCw&pid=News"
-    },
-    {
-     "id": "64b3c303b789b57c",
-     "title": "ピザハット「肉の日」でお肉1.5倍のハーフ＆ハーフが新登場！290円ごはんピザも",
-     "link": "https://report.iko-yo.net/articles/35179",
-     "source": "いこーよニュース",
-     "image": "https://d28w2qw7dtr435.cloudfront.net/uploaded/cover_images/images/35308/normal.jpg?1793090231"
     }
    ]
   },
