@@ -1,12 +1,11 @@
 {
- "updated": "2026-10-28T21:49:17+09:00",
- "items": 365,
- "with_image": 341,
- "google_decode_ok": 41,
+ "updated": "2026-10-28T22:56:40+09:00",
+ "items": 368,
+ "with_image": 344,
+ "google_decode_ok": 36,
  "google_decode_failed": 0,
  "google_decode_samples": [],
  "image_failures": [
-  "news.nicovideo.jp: HTTPError: HTTP Error 403: Forbidden",
   "www.at-s.com: HTTPError: HTTP Error 405: Not Allowed",
   "media.unisba.ac.id: HTTPError: HTTP Error 403: Forbidden",
   "media.unisba.ac.id: HTTPError: HTTP Error 403: Forbidden",

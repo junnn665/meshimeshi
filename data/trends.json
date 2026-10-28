@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-28T12:49:53+00:00",
+ "updated": "2026-10-28T13:57:15+00:00",
  "days": [
   "2026-10-15",
   "2026-10-16",
@@ -204,6 +204,54 @@
    ]
   },
   {
+   "label": "ローソン",
+   "q": "ローソン",
+   "kind": "chain",
+   "recent": 7,
+   "base_per_day": 0.64,
+   "ratio": 2.58,
+   "new": false,
+   "daily": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    2,
+    1,
+    2,
+    0,
+    1,
+    1,
+    1,
+    2,
+    4
+   ],
+   "articles": [
+    {
+     "id": "ba59f2a39b3395a0",
+     "title": "オリコンニュース：ローソンストア100「デカ盛りチャレンジ」今年3回目の開催決定 値段そのままハムの量が約1.5倍になった“ハムサンド”など全12品",
+     "link": "https://mainichi.jp/articles/20261028/orc/00m/200/136000c",
+     "source": "毎日新聞",
+     "image": null
+    },
+    {
+     "id": "237c391c6c95141a",
+     "title": "ローソンストア100「デカ盛りチャレンジ」今年3回目の開催決定 値段そのままハムの量が約1.5倍になった“ハムサンド”など全12品",
+     "link": "https://373news.com/news/national/oricon/detail/2489347",
+     "source": "南日本新聞",
+     "image": "https://373news.com/_news/oricon/photo/main/20261028_140125_size640wh_84586722.jpg"
+    },
+    {
+     "id": "7e063d5238c5e3b8",
+     "title": "ローソンストア100、財布にうれしい「デカ盛りチャレンジ」を2週間実施。増量した弁当やサンドイッチなど12点",
+     "link": "https://gourmet.watch.impress.co.jp/docs/news/2151859.html",
+     "source": "グルメ Watch",
+     "image": "https://gourmet.watch.impress.co.jp/img/grw/list/2151/859/01.jpg"
+    }
+   ]
+  },
+  {
    "label": "ピザ",
    "q": "ピザ",
    "kind": "dish",
@@ -293,54 +341,6 @@
    ]
   },
   {
-   "label": "ローソン",
-   "q": "ローソン",
-   "kind": "chain",
-   "recent": 6,
-   "base_per_day": 0.64,
-   "ratio": 2.23,
-   "new": false,
-   "daily": [
-    0,
-    0,
-    0,
-    0,
-    0,
-    2,
-    1,
-    2,
-    0,
-    1,
-    1,
-    1,
-    2,
-    3
-   ],
-   "articles": [
-    {
-     "id": "ba59f2a39b3395a0",
-     "title": "オリコンニュース：ローソンストア100「デカ盛りチャレンジ」今年3回目の開催決定 値段そのままハムの量が約1.5倍になった“ハムサンド”など全12品",
-     "link": "https://mainichi.jp/articles/20261028/orc/00m/200/136000c",
-     "source": "毎日新聞",
-     "image": null
-    },
-    {
-     "id": "7e063d5238c5e3b8",
-     "title": "ローソンストア100、財布にうれしい「デカ盛りチャレンジ」を2週間実施。増量した弁当やサンドイッチなど12点",
-     "link": "https://gourmet.watch.impress.co.jp/docs/news/2151859.html",
-     "source": "グルメ Watch",
-     "image": "https://gourmet.watch.impress.co.jp/img/grw/list/2151/859/01.jpg"
-    },
-    {
-     "id": "64ef1e0ee9037240",
-     "title": "物価高でも、盛るのはやめません。 カツ2枚！サンド3組！クレープもBIG！“デカくてうれしい”全12品！ ローソンストア100「デカ盛りチャレンジ」2026年11月4日（水）から",
-     "link": "https://prtimes.jp/main/html/rd/p/000000595.000025635.html",
-     "source": "PR TIMES",
-     "image": "https://prcdn.freetls.fastly.net/release_image/25635/595/25635-595-a3c08778fa582b104f74a1975ef47e98-1280x720.jpg?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260"
-    }
-   ]
-  },
-  {
    "label": "ガスト",
    "q": "ガスト",
    "kind": "chain",
@@ -385,6 +385,54 @@
      "link": "https://www.walkerplus.com/article/1248614/",
      "source": "ウォーカープラス",
      "image": "https://news.walkerplus.com/article/1248614/14193860_615.jpg"
+    }
+   ]
+  },
+  {
+   "label": "定食",
+   "q": "定食",
+   "kind": "dish",
+   "recent": 3,
+   "base_per_day": 0.18,
+   "ratio": 2.26,
+   "new": false,
+   "daily": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    1,
+    0,
+    0,
+    0,
+    1,
+    0,
+    2
+   ],
+   "articles": [
+    {
+     "id": "2278928f6a0da7c5",
+     "title": "御殿場アウトレットで頂グルメフェア」 静岡県認定食材・商品使う",
+     "link": "https://topics.smt.docomo.ne.jp/article/minkei/region/minkei-mtfuji3052?utm_source=dnews&utm_medium=article&utm_campaign=contentsmatch5",
+     "source": "ｄメニューニュース",
+     "image": "https://img.topics.smt.news.goo.ne.jp/picture/minkei/m_minkei-mtfuji3052.jpg"
+    },
+    {
+     "id": "309b429ec98a6977",
+     "title": "オアシス21／27年春リニューアル、サンエース・天ぷら定食まきのがオープン",
+     "link": "https://www.ryutsuu.biz/store/s102813.html",
+     "source": "流通ニュース",
+     "image": "https://www.ryutsuu.biz/main/images/2026/10/20261028oasis.jpg"
+    },
+    {
+     "id": "89623cf83dae402c",
+     "title": "【伊丹市】全国わずか10店舗限定！「資さんうどん 伊丹堀池店」で新たな朝定食が登場！話題の新メニューも",
+     "link": "https://itami.goguynet.jp/2026/10/26/sukesangentei/",
+     "source": "地域ニュースサイト号外NET",
+     "image": "https://itami.goguynet.jp/wp-content/uploads/sites/32/2026/10/37031-424-176d4126932c0d9522618a39e385ae82-3900x2233-1.jpg"
     }
    ]
   },
@@ -529,54 +577,6 @@
      "link": "https://entabe.jp/61968/seven-eleven-familymart-lawson-new-sweets-october-2026",
      "source": "えん食べ [グルメニュース]",
      "image": "https://image.entabe.jp/upload/20261027/images/thumbnail_20261027_web_1.jpg"
-    }
-   ]
-  },
-  {
-   "label": "弁当",
-   "q": "弁当",
-   "kind": "dish",
-   "recent": 4,
-   "base_per_day": 0.55,
-   "ratio": 1.71,
-   "new": false,
-   "daily": [
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    2,
-    2,
-    0,
-    1,
-    1,
-    2,
-    0,
-    2
-   ],
-   "articles": [
-    {
-     "id": "7e063d5238c5e3b8",
-     "title": "ローソンストア100、財布にうれしい「デカ盛りチャレンジ」を2週間実施。増量した弁当やサンドイッチなど12点",
-     "link": "https://gourmet.watch.impress.co.jp/docs/news/2151859.html",
-     "source": "グルメ Watch",
-     "image": "https://gourmet.watch.impress.co.jp/img/grw/list/2151/859/01.jpg"
-    },
-    {
-     "id": "358eadf975f320b8",
-     "title": "【2026年10月第5週】コンビニ寿司・コンビニ弁当の新商品！おにぎりランチや豚焼肉弁当などまとめ",
-     "link": "https://mognavi.jp/news/matome/gen-newProduct-29450/",
-     "source": "もぐナビ",
-     "image": "https://img1.esimg.jp/blog/wp-content/uploads/2026/10/gen-newProduct-29450.jpg?ts=1793151900000"
-    },
-    {
-     "id": "f4e7005176901ab5",
-     "title": "「倒産ペースは過去最悪」生き残りをかけた弁当店の挑戦 健康的な母の味と「片道150キロ・高速使わず米仕入れ」コスト減が武器の店 “フタ閉まらない”「デカ盛りから揚げ弁当」で「週末は1日で15万円」売り上げる店",
-     "link": "https://www.fnn.jp/articles/-/1139900",
-     "source": "FNNプライムオンライン",
-     "image": "https://fnn.ismcdn.jp/mwimgs/b/9/600/img_b9a21869a1d532b9e21e8e4a97a5d40b308821.jpg"
     }
    ]
   }
