@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-28T02:45:18+00:00",
+ "updated": "2026-10-28T03:42:53+00:00",
  "days": [
   "2026-10-15",
   "2026-10-16",
@@ -18,6 +18,54 @@
  ],
  "recent_days": 3,
  "items": [
+  {
+   "label": "ピザ",
+   "q": "ピザ",
+   "kind": "dish",
+   "recent": 3,
+   "base_per_day": 0.18,
+   "ratio": 2.26,
+   "new": false,
+   "daily": [
+    0,
+    0,
+    0,
+    0,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    1,
+    1
+   ],
+   "articles": [
+    {
+     "id": "b79bdc08730b7d46",
+     "title": "『僕のヒーローアカデミア』のコラボカフェが東京・名古屋・大阪・札幌に登場！キャラクターをイメージしたピザやドリンク、限",
+     "link": "https://news.nicovideo.jp/watch/nw19927513?news_ref=watch_50_nw19792882",
+     "source": "ニコニコニュース",
+     "image": null
+    },
+    {
+     "id": "64b3c303b789b57c",
+     "title": "ピザハット「肉の日」でお肉1.5倍のハーフ＆ハーフが新登場！290円ごはんピザも",
+     "link": "https://report.iko-yo.net/articles/35179",
+     "source": "いこーよニュース",
+     "image": "https://d28w2qw7dtr435.cloudfront.net/uploaded/cover_images/images/35308/normal.jpg?1793090231"
+    },
+    {
+     "id": "7f5cd316683bb948",
+     "title": "ドミノ・ピザ、お値段そのまま、今だけトッピング３倍量！ 「アメリカン極み」「ガーリック・マスター極み」11月2日（月）より３週間限定発売",
+     "link": "https://prtimes.jp/main/html/rd/p/000000540.000029053.html",
+     "source": "PR TIMES",
+     "image": "https://prcdn.freetls.fastly.net/release_image/29053/540/29053-540-f27fa95831d545b34243fd5db3f8a3c8-3900x2600.jpg?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260"
+    }
+   ]
+  },
   {
    "label": "ファミリーマート",
    "q": "ファミリーマート",
