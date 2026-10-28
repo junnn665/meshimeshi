@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-28T10:53:32+09:00",
+ "updated": "2026-10-28T11:44:49+09:00",
  "items": [
   {
    "id": "3559c862d54dcb29",
@@ -187,7 +187,7 @@
   },
   {
    "id": "358eadf975f320b8",
-   "title": "【2026年10月第5週】コンビニ寿司・コンビニ弁当の新商品！おにぎり ...",
+   "title": "【2026年10月第5週】コンビニ寿司・コンビニ弁当の新商品！おにぎりランチや豚焼肉弁当などまとめ",
    "link": "https://mognavi.jp/news/matome/gen-newProduct-29450/",
    "source": "もぐナビ",
    "image": "https://img1.esimg.jp/blog/wp-content/uploads/2026/10/gen-newProduct-29450.jpg?ts=1793151900000",
@@ -1400,6 +1400,23 @@
    "image_checked": true,
    "image_v4": true,
    "shop": false,
+   "shop_name": null
+  },
+  {
+   "id": "18947a7996c31170",
+   "title": "づけ串に鶏ちゃん焼き! 名物づくしの居酒屋が名駅に",
+   "link": "https://www.walkerplus.com/article/4426/",
+   "source": "ウォーカープラス",
+   "image": "https://news.walkerplus.com/article/4426/10180_615.jpg",
+   "category": "wadai",
+   "area": "名古屋",
+   "published": "2026-10-25T16:00:00+09:00",
+   "provider": "google",
+   "added": "2026-10-28T11:44:49+09:00",
+   "decode_v2": true,
+   "image_checked": true,
+   "image_v4": true,
+   "shop": true,
    "shop_name": null
   },
   {
@@ -4142,6 +4159,23 @@
    "image_v4": true,
    "shop": true,
    "shop_name": "ひものや 官兵衛"
+  },
+  {
+   "id": "821713d3832fc8dd",
+   "title": "名古屋スイーツ「ぴよりん」のかわいすぎるハロウィンバージョンが登場！",
+   "link": "https://www.walkerplus.com/article/120373/",
+   "source": "ウォーカープラス",
+   "image": "https://news.walkerplus.com/article/120373/664486_615.jpg",
+   "category": "wadai",
+   "area": "名古屋",
+   "published": "2026-10-21T16:00:00+09:00",
+   "provider": "google",
+   "added": "2026-10-28T11:44:49+09:00",
+   "decode_v2": true,
+   "image_checked": true,
+   "image_v4": true,
+   "shop": true,
+   "shop_name": "ぴよりん"
   },
   {
    "id": "6ea591665a8cdef4",
