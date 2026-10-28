@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-28T13:57:15+00:00",
+ "updated": "2026-10-28T14:52:34+00:00",
  "days": [
   "2026-10-15",
   "2026-10-16",
@@ -23,8 +23,8 @@
    "q": "台湾ラーメン",
    "kind": "dish",
    "recent": 6,
-   "base_per_day": 0.18,
-   "ratio": 4.21,
+   "base_per_day": 0.27,
+   "ratio": 3.58,
    "new": false,
    "daily": [
     0,
@@ -36,7 +36,7 @@
     0,
     0,
     0,
-    1,
+    2,
     1,
     1,
     0,
@@ -63,6 +63,54 @@
      "link": "https://mdpr.jp/gourmet/detail/4866985",
      "source": "モデルプレス",
      "image": null
+    }
+   ]
+  },
+  {
+   "label": "ピザ",
+   "q": "ピザ",
+   "kind": "dish",
+   "recent": 4,
+   "base_per_day": 0.09,
+   "ratio": 3.54,
+   "new": false,
+   "daily": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    1,
+    2
+   ],
+   "articles": [
+    {
+     "id": "42717fa84f6430b4",
+     "title": "『ドミノ・ピザ』『ピザハット』『ピザーラ』宅配ピザ3チェーン調査｜1,000人調査",
+     "link": "https://prtimes.jp/main/html/rd/p/000000244.000064613.html",
+     "source": "PR TIMES",
+     "image": "https://prcdn.freetls.fastly.net/release_image/64613/244/64613-244-853050cd1146bd7ad6f4bdafa6ae9e0a-1920x1080.png?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260"
+    },
+    {
+     "id": "b79bdc08730b7d46",
+     "title": "『僕のヒーローアカデミア』のコラボカフェが東京・名古屋・大阪・札幌に登場！キャラクターをイメージしたピザやドリンク、限定グッズを紹介（ウォーカープラス）",
+     "link": "https://news.nicovideo.jp/watch/nw19927513?news_ref=watch_50_nw19792882",
+     "source": "ニコニコニュース",
+     "image": "http://www.bing.com/th?id=ONUT.tDux15zZf8R05sS0I5WdCw&pid=News"
+    },
+    {
+     "id": "64b3c303b789b57c",
+     "title": "ピザハット「肉の日」でお肉1.5倍のハーフ＆ハーフが新登場！290円ごはんピザも",
+     "link": "https://report.iko-yo.net/articles/35179",
+     "source": "いこーよニュース",
+     "image": "https://d28w2qw7dtr435.cloudfront.net/uploaded/cover_images/images/35308/normal.jpg?1793090231"
     }
    ]
   },
@@ -252,43 +300,36 @@
    ]
   },
   {
-   "label": "ピザ",
-   "q": "ピザ",
-   "kind": "dish",
-   "recent": 3,
-   "base_per_day": 0.09,
-   "ratio": 2.75,
-   "new": false,
+   "label": "ドミノ・ピザ",
+   "q": "ドミノ・ピザ",
+   "kind": "chain",
+   "recent": 2,
+   "base_per_day": 0.0,
+   "ratio": 2.5,
+   "new": true,
    "daily": [
     0,
     0,
     0,
     0,
     0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
     1,
     0,
-    0,
-    0,
-    0,
-    0,
-    1,
-    1,
     1
    ],
    "articles": [
     {
-     "id": "b79bdc08730b7d46",
-     "title": "『僕のヒーローアカデミア』のコラボカフェが東京・名古屋・大阪・札幌に登場！キャラクターをイメージしたピザやドリンク、限定グッズを紹介（ウォーカープラス）",
-     "link": "https://news.nicovideo.jp/watch/nw19927513?news_ref=watch_50_nw19792882",
-     "source": "ニコニコニュース",
-     "image": "http://www.bing.com/th?id=ONUT.tDux15zZf8R05sS0I5WdCw&pid=News"
-    },
-    {
-     "id": "64b3c303b789b57c",
-     "title": "ピザハット「肉の日」でお肉1.5倍のハーフ＆ハーフが新登場！290円ごはんピザも",
-     "link": "https://report.iko-yo.net/articles/35179",
-     "source": "いこーよニュース",
-     "image": "https://d28w2qw7dtr435.cloudfront.net/uploaded/cover_images/images/35308/normal.jpg?1793090231"
+     "id": "42717fa84f6430b4",
+     "title": "『ドミノ・ピザ』『ピザハット』『ピザーラ』宅配ピザ3チェーン調査｜1,000人調査",
+     "link": "https://prtimes.jp/main/html/rd/p/000000244.000064613.html",
+     "source": "PR TIMES",
+     "image": "https://prcdn.freetls.fastly.net/release_image/64613/244/64613-244-853050cd1146bd7ad6f4bdafa6ae9e0a-1920x1080.png?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260"
     },
     {
      "id": "7f5cd316683bb948",
@@ -296,6 +337,47 @@
      "link": "https://prtimes.jp/main/html/rd/p/000000540.000029053.html",
      "source": "PR TIMES",
      "image": "https://prcdn.freetls.fastly.net/release_image/29053/540/29053-540-f27fa95831d545b34243fd5db3f8a3c8-3900x2600.jpg?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260"
+    }
+   ]
+  },
+  {
+   "label": "ピザハット",
+   "q": "ピザハット",
+   "kind": "chain",
+   "recent": 2,
+   "base_per_day": 0.0,
+   "ratio": 2.5,
+   "new": true,
+   "daily": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    1
+   ],
+   "articles": [
+    {
+     "id": "42717fa84f6430b4",
+     "title": "『ドミノ・ピザ』『ピザハット』『ピザーラ』宅配ピザ3チェーン調査｜1,000人調査",
+     "link": "https://prtimes.jp/main/html/rd/p/000000244.000064613.html",
+     "source": "PR TIMES",
+     "image": "https://prcdn.freetls.fastly.net/release_image/64613/244/64613-244-853050cd1146bd7ad6f4bdafa6ae9e0a-1920x1080.png?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260"
+    },
+    {
+     "id": "64b3c303b789b57c",
+     "title": "ピザハット「肉の日」でお肉1.5倍のハーフ＆ハーフが新登場！290円ごはんピザも",
+     "link": "https://report.iko-yo.net/articles/35179",
+     "source": "いこーよニュース",
+     "image": "https://d28w2qw7dtr435.cloudfront.net/uploaded/cover_images/images/35308/normal.jpg?1793090231"
     }
    ]
   },
@@ -481,102 +563,6 @@
      "link": "http://www.excite.co.jp/news/article/TetsudoCh_13041098/",
      "source": "Excite エキサイト",
      "image": null
-    }
-   ]
-  },
-  {
-   "label": "ラーメン",
-   "q": "ラーメン",
-   "kind": "dish",
-   "recent": 17,
-   "base_per_day": 2.36,
-   "ratio": 2.16,
-   "new": false,
-   "daily": [
-    0,
-    0,
-    0,
-    0,
-    0,
-    1,
-    5,
-    9,
-    3,
-    2,
-    6,
-    7,
-    2,
-    8
-   ],
-   "articles": [
-    {
-     "id": "973da6de489bb279",
-     "title": "東北6県のご当地グルメが名古屋に 絶品ラーメンや前沢牛ステーキが集う「大東北展」11月3日まで開催（テレビ愛知）",
-     "link": "https://news.tv-aichi.co.jp/single.php?id=10505",
-     "source": "愛知のニュース",
-     "image": "https://news.tv-aichi.co.jp/data/10505/t-image.jpg?v=1793177168"
-    },
-    {
-     "id": "4442309e18f9336a",
-     "title": "宅麺×アニメ「ハイキュー!!」、4校をイメージしたコラボラーメン全8商品を発売！",
-     "link": "https://prtimes.jp/main/html/rd/p/000000198.000002430.html",
-     "source": "PR TIMES",
-     "image": "https://prcdn.freetls.fastly.net/release_image/2430/198/2430-198-2dc8ca2846a8d2ce87ad26489a5bba18-1909x2700.jpg?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260"
-    },
-    {
-     "id": "72aea3262a5d73f6",
-     "title": "ファミマに\"名古屋のソウルフード\"味仙本店監修グルメが登場...! 「台湾ミンチカツ」「台湾ラーメン」など全5品のラインアップを紹介",
-     "link": "https://news.infoseek.co.jp/article/mynavi_3241185/",
-     "source": "Infoseek",
-     "image": "https://media.image.infoseek.co.jp/isnews/photos/mynavi/mynavi_3241185_0-enlarge.jpg"
-    }
-   ]
-  },
-  {
-   "label": "ケーキ",
-   "q": "ケーキ",
-   "kind": "dish",
-   "recent": 4,
-   "base_per_day": 0.36,
-   "ratio": 2.15,
-   "new": false,
-   "daily": [
-    0,
-    0,
-    0,
-    0,
-    0,
-    1,
-    1,
-    2,
-    0,
-    0,
-    0,
-    1,
-    1,
-    2
-   ],
-   "articles": [
-    {
-     "id": "89c3436b3a18b83e",
-     "title": "東海オンエアりょうのR BRANDが贈る、2026年のクリスマス 華やかな限定ケーキと、冬の夜を彩る特別なコーヒーが登場",
-     "link": "https://prtimes.jp/main/html/rd/p/000000016.000109471.html",
-     "source": "PR TIMES",
-     "image": "https://prcdn.freetls.fastly.net/release_image/109471/16/109471-16-1843672a81e7682c0bbfd8f4a0138078-2525x1458.jpg?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260"
-    },
-    {
-     "id": "7ee464bb0a19459a",
-     "title": "【今日から】コメダ珈琲店、秋冬の新作ケーキ4種発売 SNS「待ってました！」「どれもおいしそう」",
-     "link": "https://news.infoseek.co.jp/amp/article/otonanswer_404501/",
-     "source": "Infoseek",
-     "image": "https://media.image.infoseek.co.jp/isnews/photos/otonanswer/otonanswer_404501_0-enlarge.jpg"
-    },
-    {
-     "id": "45fb1bba44e2459c",
-     "title": "【10月27日～発売】セブン・ファミマ・ローソン新作スイーツ特集｜「ドバイチョコスタイルクレープ」・「Uchi Café×ゴディバ ショコラロールケーキ」など注目デザートまとめ",
-     "link": "https://entabe.jp/61968/seven-eleven-familymart-lawson-new-sweets-october-2026",
-     "source": "えん食べ [グルメニュース]",
-     "image": "https://image.entabe.jp/upload/20261027/images/thumbnail_20261027_web_1.jpg"
     }
    ]
   }
