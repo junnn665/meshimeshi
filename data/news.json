@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-29T07:38:01+09:00",
+ "updated": "2026-10-29T08:34:27+09:00",
  "items": [
   {
    "id": "5e7b6599a9552b94",
@@ -897,6 +897,23 @@
    "published": "2026-10-28T07:41:00+09:00",
    "provider": "bing",
    "added": "2026-10-28T14:41:10+09:00",
+   "image_checked": true,
+   "image_v4": true,
+   "shop": false,
+   "shop_name": null
+  },
+  {
+   "id": "822d852d55b48f52",
+   "title": "今週新発売の麺料理",
+   "link": "http://www.excite.co.jp/news/article/Mognavi_2026102801/",
+   "source": "Excite エキサイト",
+   "image": null,
+   "category": "chain",
+   "area": "東海",
+   "published": "2026-10-28T07:00:00+09:00",
+   "provider": "google",
+   "added": "2026-10-29T08:34:27+09:00",
+   "decode_v2": true,
    "image_checked": true,
    "image_v4": true,
    "shop": false,
@@ -6405,6 +6422,22 @@
    "image_v4": true,
    "shop": true,
    "shop_name": "あんこと生地が絶妙にマッチしている"
+  },
+  {
+   "id": "da67b4cc4fc1983c",
+   "title": "【名古屋らーめん藤一番】GI産品「八丁味噌」100％使用「名古屋赤 ...",
+   "link": "https://prtimes.jp/main/html/rd/p/000000014.000124142.html",
+   "source": "PR TIMES",
+   "image": "https://prcdn.freetls.fastly.net/release_image/124142/14/124142-14-e4a0e9c855ae72fb3584be91cd032e3d-1280x800.png?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260",
+   "category": "chain",
+   "area": "名古屋",
+   "published": "2026-10-20T13:00:00+09:00",
+   "provider": "bing",
+   "added": "2026-10-29T08:34:27+09:00",
+   "image_checked": true,
+   "image_v4": true,
+   "shop": false,
+   "shop_name": null
   }
  ]
 }
