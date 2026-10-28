@@ -1,17 +1,16 @@
 {
- "updated": "2026-10-29T06:37:27+09:00",
+ "updated": "2026-10-29T07:38:01+09:00",
  "items": 371,
- "with_image": 346,
- "google_decode_ok": 31,
+ "with_image": 345,
+ "google_decode_ok": 32,
  "google_decode_failed": 0,
  "google_decode_samples": [],
  "image_failures": [
   "www.at-s.com: HTTPError: HTTP Error 405: Not Allowed",
+  "mognavi.jp: HTTPError: HTTP Error 403: Forbidden",
   "media.unisba.ac.id: HTTPError: HTTP Error 403: Forbidden",
   "media.unisba.ac.id: HTTPError: HTTP Error 403: Forbidden",
   "media.unisba.ac.id: HTTPError: HTTP Error 403: Forbidden",
-  "news.dellows.jp: URLError: <urlopen error timed out>",
-  "www.msn.com: og:image なし (43149 文字)",
-  "kobe-journal.com: URLError: <urlopen error timed out>"
+  "f-weeklyweb.com: og:image なし (72240 文字)"
  ]
 }

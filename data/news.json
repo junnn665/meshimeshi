@@ -1,6 +1,43 @@
 {
- "updated": "2026-10-29T06:37:27+09:00",
+ "updated": "2026-10-29T07:38:01+09:00",
  "items": [
+  {
+   "id": "5e7b6599a9552b94",
+   "title": "【東海】2026年10月31日・11月1日週末開催の無料イベント12選 祭り＆マルシェも満喫",
+   "link": "https://report.iko-yo.net/articles/35212",
+   "source": "いこーよニュース",
+   "image": "https://d28w2qw7dtr435.cloudfront.net/uploaded/cover_images/images/35372/normal.jpg?1793174945",
+   "category": "event",
+   "area": "東海",
+   "published": "2026-10-29T07:10:34+09:00",
+   "provider": "google",
+   "added": "2026-10-29T07:38:01+09:00",
+   "decode_v2": true,
+   "image_checked": true,
+   "image_v4": true,
+   "shop": false,
+   "shop_name": null,
+   "start": "2026-10-31",
+   "end": "2026-10-31",
+   "group": "d1b2274e6899"
+  },
+  {
+   "id": "7e0ec361c4ab3593",
+   "title": "サンリオハウスの3号店が名古屋PARCOにオープン、ブランド初の専用カフェブースも併設",
+   "link": "https://topics.smt.docomo.ne.jp/article/oshitimes/entertainment/oshitimes-132538?fm=latestnews",
+   "source": "ｄメニューニュース",
+   "image": "https://img.topics.smt.news.goo.ne.jp/picture/oshitimes/m_oshitimes-132538.jpg",
+   "category": "shinten",
+   "area": "名古屋",
+   "published": "2026-10-29T07:02:36+09:00",
+   "provider": "google",
+   "added": "2026-10-29T07:38:01+09:00",
+   "decode_v2": true,
+   "image_checked": true,
+   "image_v4": true,
+   "shop": true,
+   "shop_name": null
+  },
   {
    "id": "ffaa01ab2eb04e70",
    "title": "名古屋のソウルフード・スガキヤ、3度目の正直なるか 20年ぶりの関東進出、今回は何が違う？",
@@ -934,6 +971,23 @@
    "shop_name": null,
    "place": "outdoor",
    "group": "7c9fabbc5991"
+  },
+  {
+   "id": "c2c05dbd785685ec",
+   "title": "セブン-イレブン ごまだれで食べる蒸し野菜と豚しゃぶのサラダごはん（セブン-イレブン）クチコミ1件・評価7.0/7点",
+   "link": "https://mognavi.jp/product/1363965",
+   "source": "もぐナビ",
+   "image": null,
+   "category": "conbini",
+   "area": "東海",
+   "published": "2026-10-28T05:23:11+09:00",
+   "provider": "google",
+   "added": "2026-10-29T07:38:01+09:00",
+   "decode_v2": true,
+   "image_checked": true,
+   "image_v4": true,
+   "shop": false,
+   "shop_name": null
   },
   {
    "id": "381192a022614f0d",
@@ -6351,54 +6405,6 @@
    "image_v4": true,
    "shop": true,
    "shop_name": "あんこと生地が絶妙にマッチしている"
-  },
-  {
-   "id": "1077920951faba9f",
-   "title": "伊勢海老や鮑、金目鯛など海の幸を新春の食卓に。南房総を拠点に水産卸・寿司店を展開するヤマトサカナが「2027年 特製おせち2段重」を10月21日予約開始！3,000円分の優待券付き",
-   "link": "https://prtimes.jp/main/html/rd/p/000000316.000030130.html",
-   "source": "PR TIMES",
-   "image": "https://prcdn.freetls.fastly.net/release_image/30130/316/30130-316-59e8059cf5851a9ddb84838901ce08d4-868x1227.jpg?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260",
-   "category": "chain",
-   "area": "三重",
-   "published": "2026-10-20T17:40:37+09:00",
-   "provider": "prtimes",
-   "added": "2026-10-20T20:30:58+09:00",
-   "image_checked": true,
-   "image_v4": true,
-   "shop": false,
-   "shop_name": null
-  },
-  {
-   "id": "da67b4cc4fc1983c",
-   "title": "【名古屋らーめん藤一番】GI産品「八丁味噌」100％使用「名古屋赤 ...",
-   "link": "https://prtimes.jp/main/html/rd/p/000000014.000124142.html",
-   "source": "PR TIMES",
-   "image": "https://prcdn.freetls.fastly.net/release_image/124142/14/124142-14-e4a0e9c855ae72fb3584be91cd032e3d-1280x800.png?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260",
-   "category": "chain",
-   "area": "名古屋",
-   "published": "2026-10-20T13:00:00+09:00",
-   "provider": "bing",
-   "added": "2026-10-29T06:37:27+09:00",
-   "image_checked": true,
-   "image_v4": true,
-   "shop": false,
-   "shop_name": null
-  },
-  {
-   "id": "49ffdf4f0e89fd0a",
-   "title": "【藤一番】GI産品「八丁味噌」100％使用「名古屋赤味噌らーめん ...",
-   "link": "https://www.jiji.com/jc/article?k=000000014.000124142&g=prt",
-   "source": "時事ドットコム",
-   "image": "https://prcdn.freetls.fastly.net/release_image/124142/14/124142-14-e4a0e9c855ae72fb3584be91cd032e3d-1280x800.png?width=536&quality=85%2C75&format=jpeg",
-   "category": "chain",
-   "area": "名古屋",
-   "published": "2026-10-20T02:00:00+09:00",
-   "provider": "bing",
-   "added": "2026-10-29T06:37:27+09:00",
-   "image_checked": true,
-   "image_v4": true,
-   "shop": false,
-   "shop_name": null
   }
  ]
 }
