@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-28T15:50:40+00:00",
+ "updated": "2026-10-28T16:48:54+00:00",
  "days": [
   "2026-10-16",
   "2026-10-17",
@@ -149,6 +149,54 @@
    ]
   },
   {
+   "label": "ローソン",
+   "q": "ローソン",
+   "kind": "chain",
+   "recent": 7,
+   "base_per_day": 0.73,
+   "ratio": 2.36,
+   "new": false,
+   "daily": [
+    0,
+    0,
+    0,
+    0,
+    2,
+    1,
+    2,
+    0,
+    1,
+    1,
+    1,
+    2,
+    5,
+    0
+   ],
+   "articles": [
+    {
+     "id": "ba59f2a39b3395a0",
+     "title": "オリコンニュース：ローソンストア100「デカ盛りチャレンジ」今年3回目の開催決定 値段そのままハムの量が約1.5倍になった“ハムサンド”など全12品",
+     "link": "https://mainichi.jp/articles/20261028/orc/00m/200/136000c",
+     "source": "毎日新聞",
+     "image": null
+    },
+    {
+     "id": "237c391c6c95141a",
+     "title": "ローソンストア100「デカ盛りチャレンジ」今年3回目の開催決定 値段そのままハムの量が約1.5倍になった“ハムサンド”など全12品",
+     "link": "https://373news.com/news/national/oricon/detail/2489347",
+     "source": "南日本新聞",
+     "image": "https://373news.com/_news/oricon/photo/main/20261028_140125_size640wh_84586722.jpg"
+    },
+    {
+     "id": "7e063d5238c5e3b8",
+     "title": "ローソンストア100、財布にうれしい「デカ盛りチャレンジ」を2週間実施。増量した弁当やサンドイッチなど12点",
+     "link": "https://gourmet.watch.impress.co.jp/docs/news/2151859.html",
+     "source": "グルメ Watch",
+     "image": "https://gourmet.watch.impress.co.jp/img/grw/list/2151/859/01.jpg"
+    }
+   ]
+  },
+  {
    "label": "クレープ",
    "q": "クレープ",
    "kind": "dish",
@@ -186,6 +234,54 @@
      "link": "https://entabe.jp/61968/seven-eleven-familymart-lawson-new-sweets-october-2026",
      "source": "えん食べ [グルメニュース]",
      "image": "https://image.entabe.jp/upload/20261027/images/thumbnail_20261027_web_1.jpg"
+    }
+   ]
+  },
+  {
+   "label": "寿司",
+   "q": "寿司",
+   "kind": "dish",
+   "recent": 6,
+   "base_per_day": 0.55,
+   "ratio": 2.47,
+   "new": false,
+   "daily": [
+    0,
+    0,
+    0,
+    0,
+    1,
+    3,
+    0,
+    2,
+    0,
+    0,
+    0,
+    1,
+    5,
+    0
+   ],
+   "articles": [
+    {
+     "id": "3300a8503209ba90",
+     "title": "ついに“伊勢前寿し”が伊勢市に誕生。伊勢志摩の神の恵みを一貫に込めた新たな寿司文化を世界へ『伊勢前寿し 神貫 伊勢本店』2026年11月3日(火)オープン 【メディア内覧会 11月4日(水)開催】",
+     "link": "https://prtimes.jp/main/html/rd/p/000000004.000108755.html",
+     "source": "PR TIMES",
+     "image": "https://prcdn.freetls.fastly.net/release_image/108755/4/108755-4-8f499506e14f72ecd67502946b262a9a-3900x2600.jpg?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260"
+    },
+    {
+     "id": "26faaca0634a15c1",
+     "title": "かっぱ寿司にてアサイー×和素材「和サイ―」スイーツ「アサイーのアイスもなかサンド」「ふわもち団子のアサイーぜんざい風」が11月6日（金）より期間限定で登場！",
+     "link": "https://prtimes.jp/main/html/rd/p/000000274.000024416.html",
+     "source": "PR TIMES",
+     "image": "https://prcdn.freetls.fastly.net/release_image/24416/274/24416-274-bb078db0f79d71d0854261c61d704648-1463x853.jpg?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260"
+    },
+    {
+     "id": "264184969c9166ec",
+     "title": "名古屋駅で行列の「すしの美登利」が栄に2号店！名古屋栄三越9階に10月31日オープン、限定「海鮮ひつまぶし」3,630円はどんな内容？｜グルメとフード",
+     "link": "http://www.excite.co.jp/news/article/TetsudoCh_13041098/",
+     "source": "Excite エキサイト",
+     "image": null
     }
    ]
   },
@@ -234,102 +330,6 @@
      "link": "https://report.iko-yo.net/articles/35179",
      "source": "いこーよニュース",
      "image": "https://d28w2qw7dtr435.cloudfront.net/uploaded/cover_images/images/35308/normal.jpg?1793090231"
-    }
-   ]
-  },
-  {
-   "label": "ローソン",
-   "q": "ローソン",
-   "kind": "chain",
-   "recent": 6,
-   "base_per_day": 0.73,
-   "ratio": 2.04,
-   "new": false,
-   "daily": [
-    0,
-    0,
-    0,
-    0,
-    2,
-    1,
-    2,
-    0,
-    1,
-    1,
-    1,
-    2,
-    4,
-    0
-   ],
-   "articles": [
-    {
-     "id": "ba59f2a39b3395a0",
-     "title": "オリコンニュース：ローソンストア100「デカ盛りチャレンジ」今年3回目の開催決定 値段そのままハムの量が約1.5倍になった“ハムサンド”など全12品",
-     "link": "https://mainichi.jp/articles/20261028/orc/00m/200/136000c",
-     "source": "毎日新聞",
-     "image": null
-    },
-    {
-     "id": "237c391c6c95141a",
-     "title": "ローソンストア100「デカ盛りチャレンジ」今年3回目の開催決定 値段そのままハムの量が約1.5倍になった“ハムサンド”など全12品",
-     "link": "https://373news.com/news/national/oricon/detail/2489347",
-     "source": "南日本新聞",
-     "image": "https://373news.com/_news/oricon/photo/main/20261028_140125_size640wh_84586722.jpg"
-    },
-    {
-     "id": "7e063d5238c5e3b8",
-     "title": "ローソンストア100、財布にうれしい「デカ盛りチャレンジ」を2週間実施。増量した弁当やサンドイッチなど12点",
-     "link": "https://gourmet.watch.impress.co.jp/docs/news/2151859.html",
-     "source": "グルメ Watch",
-     "image": "https://gourmet.watch.impress.co.jp/img/grw/list/2151/859/01.jpg"
-    }
-   ]
-  },
-  {
-   "label": "寿司",
-   "q": "寿司",
-   "kind": "dish",
-   "recent": 6,
-   "base_per_day": 0.64,
-   "ratio": 2.23,
-   "new": false,
-   "daily": [
-    0,
-    0,
-    0,
-    0,
-    2,
-    3,
-    0,
-    2,
-    0,
-    0,
-    0,
-    1,
-    5,
-    0
-   ],
-   "articles": [
-    {
-     "id": "3300a8503209ba90",
-     "title": "ついに“伊勢前寿し”が伊勢市に誕生。伊勢志摩の神の恵みを一貫に込めた新たな寿司文化を世界へ『伊勢前寿し 神貫 伊勢本店』2026年11月3日(火)オープン 【メディア内覧会 11月4日(水)開催】",
-     "link": "https://prtimes.jp/main/html/rd/p/000000004.000108755.html",
-     "source": "PR TIMES",
-     "image": "https://prcdn.freetls.fastly.net/release_image/108755/4/108755-4-8f499506e14f72ecd67502946b262a9a-3900x2600.jpg?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260"
-    },
-    {
-     "id": "26faaca0634a15c1",
-     "title": "かっぱ寿司にてアサイー×和素材「和サイ―」スイーツ「アサイーのアイスもなかサンド」「ふわもち団子のアサイーぜんざい風」が11月6日（金）より期間限定で登場！",
-     "link": "https://prtimes.jp/main/html/rd/p/000000274.000024416.html",
-     "source": "PR TIMES",
-     "image": "https://prcdn.freetls.fastly.net/release_image/24416/274/24416-274-bb078db0f79d71d0854261c61d704648-1463x853.jpg?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260"
-    },
-    {
-     "id": "264184969c9166ec",
-     "title": "名古屋駅で行列の「すしの美登利」が栄に2号店！名古屋栄三越9階に10月31日オープン、限定「海鮮ひつまぶし」3,630円はどんな内容？｜グルメとフード",
-     "link": "http://www.excite.co.jp/news/article/TetsudoCh_13041098/",
-     "source": "Excite エキサイト",
-     "image": null
     }
    ]
   },
