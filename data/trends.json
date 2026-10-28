@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-28T06:48:15+00:00",
+ "updated": "2026-10-28T07:57:30+00:00",
  "days": [
   "2026-10-15",
   "2026-10-16",
@@ -18,6 +18,54 @@
  ],
  "recent_days": 3,
  "items": [
+  {
+   "label": "台湾ラーメン",
+   "q": "台湾ラーメン",
+   "kind": "dish",
+   "recent": 5,
+   "base_per_day": 0.27,
+   "ratio": 3.02,
+   "new": false,
+   "daily": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    1,
+    1,
+    1,
+    0,
+    4
+   ],
+   "articles": [
+    {
+     "id": "72aea3262a5d73f6",
+     "title": "ファミマに\"名古屋のソウルフード\"味仙本店監修グルメが登場...! 「台湾ミンチカツ」「台湾ラーメン」など全5品のラインアップを紹介",
+     "link": "https://news.infoseek.co.jp/article/mynavi_3241185/",
+     "source": "Infoseek",
+     "image": "https://media.image.infoseek.co.jp/isnews/photos/mynavi/mynavi_3241185_0-enlarge.jpg"
+    },
+    {
+     "id": "c02e96cdf3ec89a2",
+     "title": "ファミマ「味仙本店」監修グルメ第4弾 「台湾ラーメン」「はるさめスープ」など全5品、中部・東海・甲信地方限定で登場",
+     "link": "https://mdpr.jp/gourmet/detail/4866985",
+     "source": "モデルプレス",
+     "image": null
+    },
+    {
+     "id": "bb19b2d169b61bd2",
+     "title": "ファミマ、「味仙本店」監修の台湾ラーメンなど5品を地域限定発売",
+     "link": "https://www.rbbtoday.com/article/2026/10/28/255099.html",
+     "source": "RBB TODAY",
+     "image": "https://www.rbbtoday.com/imgs/ogp_f/1057196.jpg"
+    }
+   ]
+  },
   {
    "label": "ピザ",
    "q": "ピザ",
@@ -149,12 +197,12 @@
    ]
   },
   {
-   "label": "台湾ラーメン",
-   "q": "台湾ラーメン",
-   "kind": "dish",
-   "recent": 4,
-   "base_per_day": 0.27,
-   "ratio": 2.48,
+   "label": "ファミリーマート",
+   "q": "ファミリーマート",
+   "kind": "chain",
+   "recent": 6,
+   "base_per_day": 0.64,
+   "ratio": 2.23,
    "new": false,
    "daily": [
     0,
@@ -162,37 +210,37 @@
     0,
     0,
     0,
-    1,
-    0,
-    0,
+    3,
     0,
     1,
     1,
-    1,
     0,
-    3
+    2,
+    3,
+    1,
+    2
    ],
    "articles": [
     {
-     "id": "c02e96cdf3ec89a2",
-     "title": "ファミマ「味仙本店」監修グルメ第4弾 「台湾ラーメン」「はるさめスープ」など全5品、中部・東海・甲信地方限定で登場",
-     "link": "https://mdpr.jp/gourmet/detail/4866985",
-     "source": "モデルプレス",
-     "image": null
-    },
-    {
-     "id": "bb19b2d169b61bd2",
-     "title": "ファミマ、「味仙本店」監修の台湾ラーメンなど5品を地域限定発売",
-     "link": "https://www.rbbtoday.com/article/2026/10/28/255099.html",
-     "source": "RBB TODAY",
-     "image": "https://www.rbbtoday.com/imgs/ogp_f/1057196.jpg"
+     "id": "d6f5268b33e850ad",
+     "title": "ファミリーマート×「味仙本店」第4弾 「台湾はるさめスープ」が初登場",
+     "link": "https://news.infoseek.co.jp/article/oricon_2489393/",
+     "source": "Infoseek",
+     "image": "https://media.image.infoseek.co.jp/isnews/photos/oricon/oricon_2489393_0-enlarge.jpg"
     },
     {
      "id": "fce3625be61973c8",
-     "title": "【中部・東海・甲信地方限定】元祖台湾ラーメンの名店「味仙本店」監修企画第4弾！「台湾はるさめスープ」が初登場ファミリーマートでしか味わえないこだわりの全5商品を11月3日（火）より順次発売！",
+     "title": "【中部・東海・甲信地方限定】元祖台湾ラーメンの名店「味仙本店」監修企画第4弾！「台湾はるさめスープ」が初登場ファミリーマートでしか味わえないこだわりの全5商品を11月3日（火）より順次発売！｜信濃毎日新聞デジタル 信州・長野県のニュースサイト",
      "link": "https://prtimes.jp/main/html/rd/p/000002606.000046210.html",
      "source": "PR TIMES",
      "image": "https://prcdn.freetls.fastly.net/release_image/46210/2606/46210-2606-cb7d0e6e138b38046a16954fc7b3f4eb-381x525.png?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260"
+    },
+    {
+     "id": "800a28dab2e6cf09",
+     "title": "ファミリーマート３店舗で「ファミマフードドライブ」を開始します！",
+     "link": "https://prtimes.jp/main/html/rd/p/000000103.000164008.html",
+     "source": "PR TIMES",
+     "image": "https://prcdn.freetls.fastly.net/release_image/164008/103/164008-103-7d19b1f0b90f3eaa470e217c011f3578-3421x2451.jpg?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260"
     }
    ]
   },
@@ -241,54 +289,6 @@
      "link": "https://entabe.jp/61968/seven-eleven-familymart-lawson-new-sweets-october-2026",
      "source": "えん食べ [グルメニュース]",
      "image": "https://image.entabe.jp/upload/20261027/images/thumbnail_20261027_web_1.jpg"
-    }
-   ]
-  },
-  {
-   "label": "ファミリーマート",
-   "q": "ファミリーマート",
-   "kind": "chain",
-   "recent": 5,
-   "base_per_day": 0.64,
-   "ratio": 1.89,
-   "new": false,
-   "daily": [
-    0,
-    0,
-    0,
-    0,
-    0,
-    3,
-    0,
-    1,
-    1,
-    0,
-    2,
-    3,
-    1,
-    1
-   ],
-   "articles": [
-    {
-     "id": "fce3625be61973c8",
-     "title": "【中部・東海・甲信地方限定】元祖台湾ラーメンの名店「味仙本店」監修企画第4弾！「台湾はるさめスープ」が初登場ファミリーマートでしか味わえないこだわりの全5商品を11月3日（火）より順次発売！",
-     "link": "https://prtimes.jp/main/html/rd/p/000002606.000046210.html",
-     "source": "PR TIMES",
-     "image": "https://prcdn.freetls.fastly.net/release_image/46210/2606/46210-2606-cb7d0e6e138b38046a16954fc7b3f4eb-381x525.png?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260"
-    },
-    {
-     "id": "800a28dab2e6cf09",
-     "title": "ファミリーマート３店舗で「ファミマフードドライブ」を開始します！",
-     "link": "https://prtimes.jp/main/html/rd/p/000000103.000164008.html",
-     "source": "PR TIMES",
-     "image": "https://prcdn.freetls.fastly.net/release_image/164008/103/164008-103-7d19b1f0b90f3eaa470e217c011f3578-3421x2451.jpg?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260"
-    },
-    {
-     "id": "673dd15034df6a1f",
-     "title": "【2026年10月・11月発売!】今週発売! ファミリーマートの注目新作スイーツ5選",
-     "link": "https://article.auone.jp/982e0f51-4b70-4773-8cda-b705b8e72998",
-     "source": "au Webポータル",
-     "image": "https://newportal.portal.auone.jp/media/thumbnails/2026/10/26/https___news_mynavi_jp_article_20261026-5191816__w1200.webp"
     }
    ]
   },
