@@ -1,8 +1,8 @@
 {
- "updated": "2026-10-29T05:39:49+09:00",
- "items": 366,
- "with_image": 342,
- "google_decode_ok": 36,
+ "updated": "2026-10-29T06:37:27+09:00",
+ "items": 371,
+ "with_image": 346,
+ "google_decode_ok": 31,
  "google_decode_failed": 0,
  "google_decode_samples": [],
  "image_failures": [
@@ -10,7 +10,8 @@
   "media.unisba.ac.id: HTTPError: HTTP Error 403: Forbidden",
   "media.unisba.ac.id: HTTPError: HTTP Error 403: Forbidden",
   "media.unisba.ac.id: HTTPError: HTTP Error 403: Forbidden",
-  "media.unisba.ac.id: HTTPError: HTTP Error 403: Forbidden",
-  "tetsudo-ch.com: HTTPError: HTTP Error 403: Forbidden"
+  "news.dellows.jp: URLError: <urlopen error timed out>",
+  "www.msn.com: og:image なし (43149 文字)",
+  "kobe-journal.com: URLError: <urlopen error timed out>"
  ]
 }
