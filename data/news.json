@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-28T23:52:00+09:00",
+ "updated": "2026-10-29T00:50:09+09:00",
  "items": [
   {
    "id": "42717fa84f6430b4",
@@ -221,6 +221,23 @@
    "published": "2026-10-28T17:35:00+09:00",
    "provider": "google",
    "added": "2026-10-28T17:50:08+09:00",
+   "decode_v2": true,
+   "image_checked": true,
+   "image_v4": true,
+   "shop": false,
+   "shop_name": null
+  },
+  {
+   "id": "01abb2744fe8b118",
+   "title": "全国3店舗目…サンリオ監修のショップ『サンリオハウス』名古屋パルコに29日オープン 約150種類のグッズ並びカフェも併設",
+   "link": "https://article.auone.jp/86ac5a83-cea2-4da6-8b60-27a034a07d09",
+   "source": "au Webポータル",
+   "image": "https://newportal.portal.auone.jp/media/thumbnails/2026/10/28/https___news_jp_i_1488088537190728567_w640.webp",
+   "category": "shinten",
+   "area": "名古屋",
+   "published": "2026-10-28T17:12:34+09:00",
+   "provider": "google",
+   "added": "2026-10-29T00:50:09+09:00",
    "decode_v2": true,
    "image_checked": true,
    "image_v4": true,

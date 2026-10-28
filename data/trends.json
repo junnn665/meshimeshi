@@ -1,7 +1,6 @@
 {
- "updated": "2026-10-28T14:52:34+00:00",
+ "updated": "2026-10-28T15:50:40+00:00",
  "days": [
-  "2026-10-15",
   "2026-10-16",
   "2026-10-17",
   "2026-10-18",
@@ -14,20 +13,102 @@
   "2026-10-25",
   "2026-10-26",
   "2026-10-27",
-  "2026-10-28"
+  "2026-10-28",
+  "2026-10-29"
  ],
  "recent_days": 3,
  "items": [
   {
+   "label": "土鍋ごはん×とんかつ CHITAKA",
+   "q": "土鍋ごはん×とんかつ CHITAKA",
+   "kind": "shop",
+   "recent": 2,
+   "base_per_day": 0.0,
+   "ratio": 2.5,
+   "new": true,
+   "daily": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    2,
+    0
+   ],
+   "articles": [
+    {
+     "id": "c81bbccf7c0d7efb",
+     "title": "“知多家”の新ブランド『土鍋ごはん×とんかつ CHITAKA』名古屋・栄の地下街に29日オープン 今後商業施設を中心に出店へ",
+     "link": "https://article.auone.jp/0a82174f-1f57-4b24-a3f2-e80a93173727",
+     "source": "au Webポータル",
+     "image": "https://newportal.portal.auone.jp/media/thumbnails/2026/10/28/https___news_jp_i_1488088534532014151_w640.webp"
+    },
+    {
+     "id": "394bccb2daf604c8",
+     "title": "2026年10月29日オープン！栄センパの新店「土鍋ごはん×とんかつ CHITAKA」が美味すぎた 「とんかつ知多家」から生まれた新感覚とんかつを最速実食レポート【久屋大通・栄】",
+     "link": "https://nagoyato.com/posts/20426",
+     "source": "ナゴヤトコトン",
+     "image": "https://nagoyato.com/wp-content/uploads/2026/10/IMG_3911-EDIT2.jpg"
+    }
+   ]
+  },
+  {
+   "label": "ピザハット",
+   "q": "ピザハット",
+   "kind": "chain",
+   "recent": 2,
+   "base_per_day": 0.0,
+   "ratio": 2.5,
+   "new": true,
+   "daily": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    1,
+    0
+   ],
+   "articles": [
+    {
+     "id": "42717fa84f6430b4",
+     "title": "『ドミノ・ピザ』『ピザハット』『ピザーラ』宅配ピザ3チェーン調査｜1,000人調査",
+     "link": "https://prtimes.jp/main/html/rd/p/000000244.000064613.html",
+     "source": "PR TIMES",
+     "image": "https://prcdn.freetls.fastly.net/release_image/64613/244/64613-244-853050cd1146bd7ad6f4bdafa6ae9e0a-1920x1080.png?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260"
+    },
+    {
+     "id": "64b3c303b789b57c",
+     "title": "ピザハット「肉の日」でお肉1.5倍のハーフ＆ハーフが新登場！290円ごはんピザも",
+     "link": "https://report.iko-yo.net/articles/35179",
+     "source": "いこーよニュース",
+     "image": "https://d28w2qw7dtr435.cloudfront.net/uploaded/cover_images/images/35308/normal.jpg?1793090231"
+    }
+   ]
+  },
+  {
    "label": "台湾ラーメン",
    "q": "台湾ラーメン",
    "kind": "dish",
-   "recent": 6,
-   "base_per_day": 0.27,
-   "ratio": 3.58,
+   "recent": 5,
+   "base_per_day": 0.36,
+   "ratio": 2.63,
    "new": false,
    "daily": [
-    0,
     0,
     0,
     0,
@@ -40,7 +121,8 @@
     1,
     1,
     0,
-    5
+    5,
+    0
    ],
    "articles": [
     {
@@ -67,19 +149,59 @@
    ]
   },
   {
-   "label": "ピザ",
-   "q": "ピザ",
+   "label": "クレープ",
+   "q": "クレープ",
    "kind": "dish",
-   "recent": 4,
-   "base_per_day": 0.09,
-   "ratio": 3.54,
-   "new": false,
+   "recent": 2,
+   "base_per_day": 0.0,
+   "ratio": 2.5,
+   "new": true,
    "daily": [
     0,
     0,
     0,
     0,
     0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    1,
+    0
+   ],
+   "articles": [
+    {
+     "id": "64ef1e0ee9037240",
+     "title": "物価高でも、盛るのはやめません。 カツ2枚！サンド3組！クレープもBIG！“デカくてうれしい”全12品！ ローソンストア100「デカ盛りチャレンジ」2026年11月4日（水）から",
+     "link": "https://prtimes.jp/main/html/rd/p/000000595.000025635.html",
+     "source": "PR TIMES",
+     "image": "https://prcdn.freetls.fastly.net/release_image/25635/595/25635-595-a3c08778fa582b104f74a1975ef47e98-1280x720.jpg?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260"
+    },
+    {
+     "id": "45fb1bba44e2459c",
+     "title": "【10月27日～発売】セブン・ファミマ・ローソン新作スイーツ特集｜「ドバイチョコスタイルクレープ」・「Uchi Café×ゴディバ ショコラロールケーキ」など注目デザートまとめ",
+     "link": "https://entabe.jp/61968/seven-eleven-familymart-lawson-new-sweets-october-2026",
+     "source": "えん食べ [グルメニュース]",
+     "image": "https://image.entabe.jp/upload/20261027/images/thumbnail_20261027_web_1.jpg"
+    }
+   ]
+  },
+  {
+   "label": "ピザ",
+   "q": "ピザ",
+   "kind": "dish",
+   "recent": 3,
+   "base_per_day": 0.18,
+   "ratio": 2.26,
+   "new": false,
+   "daily": [
+    0,
+    0,
+    0,
+    0,
     1,
     0,
     0,
@@ -88,7 +210,8 @@
     0,
     1,
     1,
-    2
+    2,
+    0
    ],
    "articles": [
     {
@@ -115,156 +238,18 @@
    ]
   },
   {
-   "label": "中華",
-   "q": "町中華",
-   "kind": "dish",
-   "recent": 3,
-   "base_per_day": 0.0,
-   "ratio": 3.5,
-   "new": true,
-   "daily": [
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    1,
-    1,
-    1
-   ],
-   "articles": [
-    {
-     "id": "ec6e376f9134b630",
-     "title": "【セブン】岐阜・愛知・三重でしか買えない秋の新作。783kcalの「とん玉炒飯」などボリューム満点な3品が美味しそう",
-     "link": "https://limo.media/articles/-/143246",
-     "source": "LIMO | くらしとお金の経済メディア",
-     "image": "https://limo.ismcdn.jp/mwimgs/0/7/1200w/img_0719c6db2acec8bfa650d642d3a2ea88251743.jpg"
-    },
-    {
-     "id": "95e638f9818e0bb5",
-     "title": "町中華で飲ろうぜファンイベントが11月22日に名古屋で開催へ 東京以外で初",
-     "link": "https://news.dellows.jp/587281/?from=related-reading-list",
-     "source": "Dellows News",
-     "image": "https://news.dellows.jp/wp-content/uploads/2026/10/587281_1.jpg"
-    },
-    {
-     "id": "89cd5672b00d4a28",
-     "title": "ラーメン×チャーハンの最強タッグ！愛知で人気の“チャーラー”4選",
-     "link": "https://www.walkerplus.com/article/167416/",
-     "source": "ウォーカープラス",
-     "image": "https://news.walkerplus.com/article/167416/978404_615.jpg"
-    }
-   ]
-  },
-  {
-   "label": "ファミリーマート",
-   "q": "ファミリーマート",
-   "kind": "chain",
-   "recent": 6,
-   "base_per_day": 0.36,
-   "ratio": 3.11,
-   "new": false,
-   "daily": [
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    1,
-    1,
-    0,
-    2,
-    3,
-    1,
-    2
-   ],
-   "articles": [
-    {
-     "id": "d6f5268b33e850ad",
-     "title": "ファミリーマート×「味仙本店」第4弾 「台湾はるさめスープ」が初登場",
-     "link": "https://news.infoseek.co.jp/article/oricon_2489393/",
-     "source": "Infoseek",
-     "image": "https://media.image.infoseek.co.jp/isnews/photos/oricon/oricon_2489393_0-enlarge.jpg"
-    },
-    {
-     "id": "fce3625be61973c8",
-     "title": "【中部・東海・甲信地方限定】元祖台湾ラーメンの名店「味仙本店」監修企画第4弾！「台湾はるさめスープ」が初登場ファミリーマートでしか味わえないこだわりの全5商品を11月3日（火）より順次発売！｜信濃毎日新聞デジタル 信州・長野県のニュースサイト",
-     "link": "https://prtimes.jp/main/html/rd/p/000002606.000046210.html",
-     "source": "PR TIMES",
-     "image": "https://prcdn.freetls.fastly.net/release_image/46210/2606/46210-2606-cb7d0e6e138b38046a16954fc7b3f4eb-381x525.png?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260"
-    },
-    {
-     "id": "800a28dab2e6cf09",
-     "title": "ファミリーマート３店舗で「ファミマフードドライブ」を開始します！",
-     "link": "https://prtimes.jp/main/html/rd/p/000000103.000164008.html",
-     "source": "PR TIMES",
-     "image": "https://prcdn.freetls.fastly.net/release_image/164008/103/164008-103-7d19b1f0b90f3eaa470e217c011f3578-3421x2451.jpg?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260"
-    }
-   ]
-  },
-  {
-   "label": "土鍋ごはん×とんかつ CHITAKA",
-   "q": "土鍋ごはん×とんかつ CHITAKA",
-   "kind": "shop",
-   "recent": 2,
-   "base_per_day": 0.0,
-   "ratio": 2.5,
-   "new": true,
-   "daily": [
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    2
-   ],
-   "articles": [
-    {
-     "id": "c81bbccf7c0d7efb",
-     "title": "“知多家”の新ブランド『土鍋ごはん×とんかつ CHITAKA』名古屋・栄の地下街に29日オープン 今後商業施設を中心に出店へ",
-     "link": "https://article.auone.jp/0a82174f-1f57-4b24-a3f2-e80a93173727",
-     "source": "au Webポータル",
-     "image": "https://newportal.portal.auone.jp/media/thumbnails/2026/10/28/https___news_jp_i_1488088534532014151_w640.webp"
-    },
-    {
-     "id": "394bccb2daf604c8",
-     "title": "2026年10月29日オープン！栄センパの新店「土鍋ごはん×とんかつ CHITAKA」が美味すぎた 「とんかつ知多家」から生まれた新感覚とんかつを最速実食レポート【久屋大通・栄】",
-     "link": "https://nagoyato.com/posts/20426",
-     "source": "ナゴヤトコトン",
-     "image": "https://nagoyato.com/wp-content/uploads/2026/10/IMG_3911-EDIT2.jpg"
-    }
-   ]
-  },
-  {
    "label": "ローソン",
    "q": "ローソン",
    "kind": "chain",
-   "recent": 7,
-   "base_per_day": 0.64,
-   "ratio": 2.58,
+   "recent": 6,
+   "base_per_day": 0.73,
+   "ratio": 2.04,
    "new": false,
    "daily": [
     0,
     0,
     0,
     0,
-    0,
     2,
     1,
     2,
@@ -273,7 +258,8 @@
     1,
     1,
     2,
-    4
+    4,
+    0
    ],
    "articles": [
     {
@@ -300,225 +286,6 @@
    ]
   },
   {
-   "label": "ドミノ・ピザ",
-   "q": "ドミノ・ピザ",
-   "kind": "chain",
-   "recent": 2,
-   "base_per_day": 0.0,
-   "ratio": 2.5,
-   "new": true,
-   "daily": [
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    1,
-    0,
-    1
-   ],
-   "articles": [
-    {
-     "id": "42717fa84f6430b4",
-     "title": "『ドミノ・ピザ』『ピザハット』『ピザーラ』宅配ピザ3チェーン調査｜1,000人調査",
-     "link": "https://prtimes.jp/main/html/rd/p/000000244.000064613.html",
-     "source": "PR TIMES",
-     "image": "https://prcdn.freetls.fastly.net/release_image/64613/244/64613-244-853050cd1146bd7ad6f4bdafa6ae9e0a-1920x1080.png?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260"
-    },
-    {
-     "id": "7f5cd316683bb948",
-     "title": "ドミノ・ピザ、お値段そのまま、今だけトッピング３倍量！ 「アメリカン極み」「ガーリック・マスター極み」11月2日（月）より３週間限定発売",
-     "link": "https://prtimes.jp/main/html/rd/p/000000540.000029053.html",
-     "source": "PR TIMES",
-     "image": "https://prcdn.freetls.fastly.net/release_image/29053/540/29053-540-f27fa95831d545b34243fd5db3f8a3c8-3900x2600.jpg?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260"
-    }
-   ]
-  },
-  {
-   "label": "ピザハット",
-   "q": "ピザハット",
-   "kind": "chain",
-   "recent": 2,
-   "base_per_day": 0.0,
-   "ratio": 2.5,
-   "new": true,
-   "daily": [
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    1,
-    1
-   ],
-   "articles": [
-    {
-     "id": "42717fa84f6430b4",
-     "title": "『ドミノ・ピザ』『ピザハット』『ピザーラ』宅配ピザ3チェーン調査｜1,000人調査",
-     "link": "https://prtimes.jp/main/html/rd/p/000000244.000064613.html",
-     "source": "PR TIMES",
-     "image": "https://prcdn.freetls.fastly.net/release_image/64613/244/64613-244-853050cd1146bd7ad6f4bdafa6ae9e0a-1920x1080.png?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260"
-    },
-    {
-     "id": "64b3c303b789b57c",
-     "title": "ピザハット「肉の日」でお肉1.5倍のハーフ＆ハーフが新登場！290円ごはんピザも",
-     "link": "https://report.iko-yo.net/articles/35179",
-     "source": "いこーよニュース",
-     "image": "https://d28w2qw7dtr435.cloudfront.net/uploaded/cover_images/images/35308/normal.jpg?1793090231"
-    }
-   ]
-  },
-  {
-   "label": "クレープ",
-   "q": "クレープ",
-   "kind": "dish",
-   "recent": 2,
-   "base_per_day": 0.0,
-   "ratio": 2.5,
-   "new": true,
-   "daily": [
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    1,
-    1
-   ],
-   "articles": [
-    {
-     "id": "64ef1e0ee9037240",
-     "title": "物価高でも、盛るのはやめません。 カツ2枚！サンド3組！クレープもBIG！“デカくてうれしい”全12品！ ローソンストア100「デカ盛りチャレンジ」2026年11月4日（水）から",
-     "link": "https://prtimes.jp/main/html/rd/p/000000595.000025635.html",
-     "source": "PR TIMES",
-     "image": "https://prcdn.freetls.fastly.net/release_image/25635/595/25635-595-a3c08778fa582b104f74a1975ef47e98-1280x720.jpg?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260"
-    },
-    {
-     "id": "45fb1bba44e2459c",
-     "title": "【10月27日～発売】セブン・ファミマ・ローソン新作スイーツ特集｜「ドバイチョコスタイルクレープ」・「Uchi Café×ゴディバ ショコラロールケーキ」など注目デザートまとめ",
-     "link": "https://entabe.jp/61968/seven-eleven-familymart-lawson-new-sweets-october-2026",
-     "source": "えん食べ [グルメニュース]",
-     "image": "https://image.entabe.jp/upload/20261027/images/thumbnail_20261027_web_1.jpg"
-    }
-   ]
-  },
-  {
-   "label": "ガスト",
-   "q": "ガスト",
-   "kind": "chain",
-   "recent": 4,
-   "base_per_day": 0.36,
-   "ratio": 2.15,
-   "new": false,
-   "daily": [
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    1,
-    0,
-    3,
-    0,
-    0,
-    2,
-    2,
-    0
-   ],
-   "articles": [
-    {
-     "id": "37d4f8524b1f6824",
-     "title": "『資さんうどん』社長交代発表直後に「味が変わった」どころか“ガスト化”な『ナポリタン』の限定メニュー、ファンが求める“らしさ”はどこへ？",
-     "link": "https://www.jprime.jp/articles/-/44326?display=b",
-     "source": "週刊女性PRIME",
-     "image": "https://jprime.ismcdn.jp/mwimgs/a/8/-/img_a852e383ce5f2418b3f59e22f60f2744315397.jpg"
-    },
-    {
-     "id": "ae08c7ccaf8dbb2a",
-     "title": "アマゾン料理人・太田哲雄氏、植物工場MUGENFARM「ガストロノミー・アドバイザー」に就任",
-     "link": "https://prtimes.jp/main/html/rd/p/000000003.000186109.html",
-     "source": "PR TIMES",
-     "image": "https://prcdn.freetls.fastly.net/release_image/186109/3/186109-3-0e0a012480dbb1cc5b13407ca4fa22fc-1200x536.png?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260"
-    },
-    {
-     "id": "c0a54d15c9cb4114",
-     "title": "どうなってるのガスト！1000円の価値観が変わる平日限定の「ガストフィットメニュー」とは？",
-     "link": "https://www.walkerplus.com/article/1248614/",
-     "source": "ウォーカープラス",
-     "image": "https://news.walkerplus.com/article/1248614/14193860_615.jpg"
-    }
-   ]
-  },
-  {
-   "label": "定食",
-   "q": "定食",
-   "kind": "dish",
-   "recent": 3,
-   "base_per_day": 0.18,
-   "ratio": 2.26,
-   "new": false,
-   "daily": [
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    1,
-    1,
-    0,
-    0,
-    0,
-    1,
-    0,
-    2
-   ],
-   "articles": [
-    {
-     "id": "2278928f6a0da7c5",
-     "title": "御殿場アウトレットで頂グルメフェア」 静岡県認定食材・商品使う",
-     "link": "https://topics.smt.docomo.ne.jp/article/minkei/region/minkei-mtfuji3052?utm_source=dnews&utm_medium=article&utm_campaign=contentsmatch5",
-     "source": "ｄメニューニュース",
-     "image": "https://img.topics.smt.news.goo.ne.jp/picture/minkei/m_minkei-mtfuji3052.jpg"
-    },
-    {
-     "id": "309b429ec98a6977",
-     "title": "オアシス21／27年春リニューアル、サンエース・天ぷら定食まきのがオープン",
-     "link": "https://www.ryutsuu.biz/store/s102813.html",
-     "source": "流通ニュース",
-     "image": "https://www.ryutsuu.biz/main/images/2026/10/20261028oasis.jpg"
-    },
-    {
-     "id": "89623cf83dae402c",
-     "title": "【伊丹市】全国わずか10店舗限定！「資さんうどん 伊丹堀池店」で新たな朝定食が登場！話題の新メニューも",
-     "link": "https://itami.goguynet.jp/2026/10/26/sukesangentei/",
-     "source": "地域ニュースサイト号外NET",
-     "image": "https://itami.goguynet.jp/wp-content/uploads/sites/32/2026/10/37031-424-176d4126932c0d9522618a39e385ae82-3900x2233-1.jpg"
-    }
-   ]
-  },
-  {
    "label": "寿司",
    "q": "寿司",
    "kind": "dish",
@@ -531,7 +298,6 @@
     0,
     0,
     0,
-    0,
     2,
     3,
     0,
@@ -540,7 +306,8 @@
     0,
     0,
     1,
-    5
+    5,
+    0
    ],
    "articles": [
     {
@@ -563,6 +330,136 @@
      "link": "http://www.excite.co.jp/news/article/TetsudoCh_13041098/",
      "source": "Excite エキサイト",
      "image": null
+    }
+   ]
+  },
+  {
+   "label": "中華",
+   "q": "町中華",
+   "kind": "dish",
+   "recent": 2,
+   "base_per_day": 0.09,
+   "ratio": 1.96,
+   "new": false,
+   "daily": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    1,
+    1,
+    0
+   ],
+   "articles": [
+    {
+     "id": "ec6e376f9134b630",
+     "title": "【セブン】岐阜・愛知・三重でしか買えない秋の新作。783kcalの「とん玉炒飯」などボリューム満点な3品が美味しそう",
+     "link": "https://limo.media/articles/-/143246",
+     "source": "LIMO | くらしとお金の経済メディア",
+     "image": "https://limo.ismcdn.jp/mwimgs/0/7/1200w/img_0719c6db2acec8bfa650d642d3a2ea88251743.jpg"
+    },
+    {
+     "id": "95e638f9818e0bb5",
+     "title": "町中華で飲ろうぜファンイベントが11月22日に名古屋で開催へ 東京以外で初",
+     "link": "https://news.dellows.jp/587281/?from=related-reading-list",
+     "source": "Dellows News",
+     "image": "https://news.dellows.jp/wp-content/uploads/2026/10/587281_1.jpg"
+    }
+   ]
+  },
+  {
+   "label": "とんかつ",
+   "q": "とんかつ",
+   "kind": "dish",
+   "recent": 3,
+   "base_per_day": 0.36,
+   "ratio": 1.67,
+   "new": false,
+   "daily": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    3,
+    0,
+    1,
+    0,
+    0,
+    0,
+    1,
+    2,
+    0
+   ],
+   "articles": [
+    {
+     "id": "c81bbccf7c0d7efb",
+     "title": "“知多家”の新ブランド『土鍋ごはん×とんかつ CHITAKA』名古屋・栄の地下街に29日オープン 今後商業施設を中心に出店へ",
+     "link": "https://article.auone.jp/0a82174f-1f57-4b24-a3f2-e80a93173727",
+     "source": "au Webポータル",
+     "image": "https://newportal.portal.auone.jp/media/thumbnails/2026/10/28/https___news_jp_i_1488088534532014151_w640.webp"
+    },
+    {
+     "id": "394bccb2daf604c8",
+     "title": "2026年10月29日オープン！栄センパの新店「土鍋ごはん×とんかつ CHITAKA」が美味すぎた 「とんかつ知多家」から生まれた新感覚とんかつを最速実食レポート【久屋大通・栄】",
+     "link": "https://nagoyato.com/posts/20426",
+     "source": "ナゴヤトコトン",
+     "image": "https://nagoyato.com/wp-content/uploads/2026/10/IMG_3911-EDIT2.jpg"
+    },
+    {
+     "id": "bc5bf59363939b9f",
+     "title": "38年続くとんかつ店 名古屋に新ブランド1号店 ランチは1280円から 11日間ドリンク半額",
+     "link": "https://www.shizuoka-life.jp/post-15650/",
+     "source": "静岡ライフ",
+     "image": "https://www.shizuoka-life.jp/wp-content/uploads/2026/10/4c85c234076325c638e2c305400f29d6-12.jpg"
+    }
+   ]
+  },
+  {
+   "label": "おにぎり",
+   "q": "おにぎり",
+   "kind": "dish",
+   "recent": 2,
+   "base_per_day": 0.18,
+   "ratio": 1.62,
+   "new": false,
+   "daily": [
+    0,
+    0,
+    0,
+    0,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    2,
+    0
+   ],
+   "articles": [
+    {
+     "id": "30046a9613a9f274",
+     "title": "【2026年10月第5週】コンビニおにぎり・コンビニ手巻寿司の新商品！鶏ごぼうおむすびや青磯海苔漬けサーモンなどまとめ",
+     "link": "https://mognavi.jp/news/matome/gen-newProduct-29449/",
+     "source": "もぐナビ",
+     "image": "https://img1.esimg.jp/blog/wp-content/uploads/2026/10/gen-newProduct-29449.jpg?ts=1793150100000"
+    },
+    {
+     "id": "358eadf975f320b8",
+     "title": "【2026年10月第5週】コンビニ寿司・コンビニ弁当の新商品！おにぎりランチや豚焼肉弁当などまとめ",
+     "link": "https://mognavi.jp/news/matome/gen-newProduct-29450/",
+     "source": "もぐナビ",
+     "image": "https://img1.esimg.jp/blog/wp-content/uploads/2026/10/gen-newProduct-29450.jpg?ts=1793151900000"
     }
    ]
   }
