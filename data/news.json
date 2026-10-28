@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-29T03:44:52+09:00",
+ "updated": "2026-10-29T04:45:58+09:00",
  "items": [
   {
    "id": "0bfe015338bf4111",
@@ -1742,6 +1742,23 @@
    "image_v4": true,
    "shop": true,
    "shop_name": "か弱いスイーツ"
+  },
+  {
+   "id": "a527021b212e9bd9",
+   "title": "「岐阜城楽市」が岐阜城のある金華山のふもとにオープン！モーニング、ランチ、お土産…目的別・岐阜らしさ満点の必食グルメをリサーチ",
+   "link": "https://www.walkerplus.com/article/1261706/",
+   "source": "ウォーカープラス",
+   "image": "https://news.walkerplus.com/article/1261706/14485068_615.jpg",
+   "category": "shinten",
+   "area": "岐阜",
+   "published": "2026-10-26T16:00:00+09:00",
+   "provider": "google",
+   "added": "2026-10-29T04:45:58+09:00",
+   "decode_v2": true,
+   "image_checked": true,
+   "image_v4": true,
+   "shop": true,
+   "shop_name": "岐阜城楽市"
   },
   {
    "id": "9e237212e63da517",
@@ -4302,6 +4319,23 @@
    "shop_name": null
   },
   {
+   "id": "325eab32895f1e8c",
+   "title": "門前仲町のランチが安い人気のお店9選",
+   "link": "https://howtravel-gourmet.com/kanto/tokyo/monzennakacho/monzen_nakatyo-lunch-cheap/",
+   "source": "めしレポ",
+   "image": "https://howtravel-gourmet.com/wp-content/uploads/2024/10/monzen_nakatyo-lunch-cheap.jpg",
+   "category": "yasuuma",
+   "area": "東海",
+   "published": "2026-10-22T16:00:00+09:00",
+   "provider": "google",
+   "added": "2026-10-29T04:45:58+09:00",
+   "decode_v2": true,
+   "image_checked": true,
+   "image_v4": true,
+   "shop": false,
+   "shop_name": null
+  },
+  {
    "id": "07b4eee66b2d0ef2",
    "title": "【ニッコースタイル名古屋】岐阜県産富有柿とマスカルポーネのパフェを11月1日より提供",
    "link": "https://prtimes.jp/main/html/rd/p/000004418.000002213.html",
@@ -6348,39 +6382,6 @@
    "image_v4": true,
    "shop": true,
    "shop_name": "カムジャバト"
-  },
-  {
-   "id": "cfb4853c81bc2b14",
-   "title": "自然と楽しむ！大満足プレートモーニング【東海３県・モーニングにメ～ロメロ！】Collection No.１１６５",
-   "link": "https://locipo.jp/creative/d97c67e6-1a17-4343-96b6-0b2c5ba04054",
-   "source": "locipo.jp",
-   "image": "https://assets.locipo.jp/creatives/181680/original-d97c67e6-1a17-4343-96b6-0b2c5ba04054-20261022041042.jpg",
-   "category": "yasuuma",
-   "area": "東海",
-   "published": "2026-10-20T16:00:00+09:00",
-   "provider": "google",
-   "added": "2026-10-23T10:38:37+09:00",
-   "decode_v2": true,
-   "image_checked": true,
-   "image_v4": true,
-   "shop": false,
-   "shop_name": null
-  },
-  {
-   "id": "da67b4cc4fc1983c",
-   "title": "【名古屋らーめん藤一番】GI産品「八丁味噌」100％使用「名古屋赤 ...",
-   "link": "https://prtimes.jp/main/html/rd/p/000000014.000124142.html",
-   "source": "PR TIMES",
-   "image": "https://prcdn.freetls.fastly.net/release_image/124142/14/124142-14-e4a0e9c855ae72fb3584be91cd032e3d-1280x800.png?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260",
-   "category": "chain",
-   "area": "名古屋",
-   "published": "2026-10-20T13:00:00+09:00",
-   "provider": "bing",
-   "added": "2026-10-29T03:44:52+09:00",
-   "image_checked": true,
-   "image_v4": true,
-   "shop": false,
-   "shop_name": null
   }
  ]
 }
