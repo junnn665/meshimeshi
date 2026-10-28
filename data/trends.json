@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-28T05:41:38+00:00",
+ "updated": "2026-10-28T06:48:15+00:00",
  "days": [
   "2026-10-15",
   "2026-10-16",
@@ -23,15 +23,15 @@
    "q": "ピザ",
    "kind": "dish",
    "recent": 3,
-   "base_per_day": 0.18,
-   "ratio": 2.26,
+   "base_per_day": 0.09,
+   "ratio": 2.75,
    "new": false,
    "daily": [
     0,
     0,
     0,
     0,
-    1,
+    0,
     1,
     0,
     0,
@@ -63,6 +63,136 @@
      "link": "https://prtimes.jp/main/html/rd/p/000000540.000029053.html",
      "source": "PR TIMES",
      "image": "https://prcdn.freetls.fastly.net/release_image/29053/540/29053-540-f27fa95831d545b34243fd5db3f8a3c8-3900x2600.jpg?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260"
+    }
+   ]
+  },
+  {
+   "label": "中華",
+   "q": "町中華",
+   "kind": "dish",
+   "recent": 2,
+   "base_per_day": 0.0,
+   "ratio": 2.5,
+   "new": true,
+   "daily": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    1
+   ],
+   "articles": [
+    {
+     "id": "ec6e376f9134b630",
+     "title": "【セブン】岐阜・愛知・三重でしか買えない秋の新作。783kcalの「とん玉炒飯」などボリューム満点な3品が美味しそう",
+     "link": "https://limo.media/articles/-/143246",
+     "source": "LIMO | くらしとお金の経済メディア",
+     "image": "https://limo.ismcdn.jp/mwimgs/0/7/1200w/img_0719c6db2acec8bfa650d642d3a2ea88251743.jpg"
+    },
+    {
+     "id": "95e638f9818e0bb5",
+     "title": "町中華で飲ろうぜファンイベントが11月22日に名古屋で開催へ 東京以外で初",
+     "link": "https://news.dellows.jp/587281/?from=related-reading-list",
+     "source": "Dellows News",
+     "image": "https://news.dellows.jp/wp-content/uploads/2026/10/587281_1.jpg"
+    }
+   ]
+  },
+  {
+   "label": "クレープ",
+   "q": "クレープ",
+   "kind": "dish",
+   "recent": 2,
+   "base_per_day": 0.0,
+   "ratio": 2.5,
+   "new": true,
+   "daily": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    1
+   ],
+   "articles": [
+    {
+     "id": "64ef1e0ee9037240",
+     "title": "物価高でも、盛るのはやめません。 カツ2枚！サンド3組！クレープもBIG！“デカくてうれしい”全12品！ ローソンストア100「デカ盛りチャレンジ」2026年11月4日（水）から",
+     "link": "https://prtimes.jp/main/html/rd/p/000000595.000025635.html",
+     "source": "PR TIMES",
+     "image": "https://prcdn.freetls.fastly.net/release_image/25635/595/25635-595-a3c08778fa582b104f74a1975ef47e98-1280x720.jpg?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260"
+    },
+    {
+     "id": "45fb1bba44e2459c",
+     "title": "【10月27日～発売】セブン・ファミマ・ローソン新作スイーツ特集｜「ドバイチョコスタイルクレープ」・「Uchi Café×ゴディバ ショコラロールケーキ」など注目デザートまとめ",
+     "link": "https://entabe.jp/61968/seven-eleven-familymart-lawson-new-sweets-october-2026",
+     "source": "えん食べ [グルメニュース]",
+     "image": "https://image.entabe.jp/upload/20261027/images/thumbnail_20261027_web_1.jpg"
+    }
+   ]
+  },
+  {
+   "label": "台湾ラーメン",
+   "q": "台湾ラーメン",
+   "kind": "dish",
+   "recent": 4,
+   "base_per_day": 0.27,
+   "ratio": 2.48,
+   "new": false,
+   "daily": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    1,
+    1,
+    1,
+    0,
+    3
+   ],
+   "articles": [
+    {
+     "id": "c02e96cdf3ec89a2",
+     "title": "ファミマ「味仙本店」監修グルメ第4弾 「台湾ラーメン」「はるさめスープ」など全5品、中部・東海・甲信地方限定で登場",
+     "link": "https://mdpr.jp/gourmet/detail/4866985",
+     "source": "モデルプレス",
+     "image": null
+    },
+    {
+     "id": "bb19b2d169b61bd2",
+     "title": "ファミマ、「味仙本店」監修の台湾ラーメンなど5品を地域限定発売",
+     "link": "https://www.rbbtoday.com/article/2026/10/28/255099.html",
+     "source": "RBB TODAY",
+     "image": "https://www.rbbtoday.com/imgs/ogp_f/1057196.jpg"
+    },
+    {
+     "id": "fce3625be61973c8",
+     "title": "【中部・東海・甲信地方限定】元祖台湾ラーメンの名店「味仙本店」監修企画第4弾！「台湾はるさめスープ」が初登場ファミリーマートでしか味わえないこだわりの全5商品を11月3日（火）より順次発売！",
+     "link": "https://prtimes.jp/main/html/rd/p/000002606.000046210.html",
+     "source": "PR TIMES",
+     "image": "https://prcdn.freetls.fastly.net/release_image/46210/2606/46210-2606-cb7d0e6e138b38046a16954fc7b3f4eb-381x525.png?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260"
     }
    ]
   },
@@ -115,108 +245,19 @@
    ]
   },
   {
-   "label": "クレープ",
-   "q": "クレープ",
-   "kind": "dish",
-   "recent": 2,
-   "base_per_day": 0.09,
-   "ratio": 1.96,
-   "new": false,
-   "daily": [
-    0,
-    0,
-    0,
-    0,
-    1,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    1,
-    1
-   ],
-   "articles": [
-    {
-     "id": "64ef1e0ee9037240",
-     "title": "物価高でも、盛るのはやめません。 カツ2枚！サンド3組！クレープもBIG！“デカくてうれしい”全12品！ ローソンストア100「デカ盛りチャレンジ」2026年11月4日（水）から",
-     "link": "https://prtimes.jp/main/html/rd/p/000000595.000025635.html",
-     "source": "PR TIMES",
-     "image": "https://prcdn.freetls.fastly.net/release_image/25635/595/25635-595-a3c08778fa582b104f74a1975ef47e98-1280x720.jpg?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260"
-    },
-    {
-     "id": "45fb1bba44e2459c",
-     "title": "【10月27日～発売】セブン・ファミマ・ローソン新作スイーツ特集｜「ドバイチョコスタイルクレープ」・「Uchi Café×ゴディバ ショコラロールケーキ」など注目デザートまとめ",
-     "link": "https://entabe.jp/61968/seven-eleven-familymart-lawson-new-sweets-october-2026",
-     "source": "えん食べ [グルメニュース]",
-     "image": "https://image.entabe.jp/upload/20261027/images/thumbnail_20261027_web_1.jpg"
-    }
-   ]
-  },
-  {
-   "label": "台湾ラーメン",
-   "q": "台湾ラーメン",
-   "kind": "dish",
-   "recent": 3,
-   "base_per_day": 0.27,
-   "ratio": 1.93,
-   "new": false,
-   "daily": [
-    0,
-    0,
-    0,
-    0,
-    0,
-    1,
-    0,
-    0,
-    0,
-    1,
-    1,
-    1,
-    0,
-    2
-   ],
-   "articles": [
-    {
-     "id": "bb19b2d169b61bd2",
-     "title": "ファミマ、「味仙本店」監修の台湾ラーメンなど5品を地域限定発売",
-     "link": "https://www.rbbtoday.com/article/2026/10/28/255099.html",
-     "source": "RBB TODAY",
-     "image": "https://www.rbbtoday.com/imgs/ogp_f/1057196.jpg"
-    },
-    {
-     "id": "fce3625be61973c8",
-     "title": "【中部・東海・甲信地方限定】元祖台湾ラーメンの名店「味仙本店」監修企画第4弾！「台湾はるさめスープ」が初登場ファミリーマートでしか味わえないこだわりの全5商品を11月3日（火）より順次発売！",
-     "link": "https://prtimes.jp/main/html/rd/p/000002606.000046210.html",
-     "source": "PR TIMES",
-     "image": "https://prcdn.freetls.fastly.net/release_image/46210/2606/46210-2606-cb7d0e6e138b38046a16954fc7b3f4eb-381x525.png?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260"
-    },
-    {
-     "id": "c9dd26aeab282732",
-     "title": "サミー「エイリやん」、名古屋の人気台湾料理「矢場味仙」とコラボ 11月1日から1カ月間 緑の台湾ラーメンなど限定メニュー",
-     "link": "https://news.p-world.co.jp/articles/34758/nippon",
-     "source": "P-WORLD",
-     "image": "https://idn.p-world.co.jp/news/nippon/80825/80825_1.jpg"
-    }
-   ]
-  },
-  {
    "label": "ファミリーマート",
    "q": "ファミリーマート",
    "kind": "chain",
    "recent": 5,
-   "base_per_day": 0.73,
-   "ratio": 1.73,
+   "base_per_day": 0.64,
+   "ratio": 1.89,
    "new": false,
    "daily": [
     0,
     0,
     0,
     0,
-    1,
+    0,
     3,
     0,
     1,
