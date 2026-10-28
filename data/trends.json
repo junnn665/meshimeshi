@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-28T00:49:49+00:00",
+ "updated": "2026-10-28T01:54:07+00:00",
  "days": [
   "2026-10-15",
   "2026-10-16",
@@ -18,6 +18,54 @@
  ],
  "recent_days": 3,
  "items": [
+  {
+   "label": "ファミリーマート",
+   "q": "ファミリーマート",
+   "kind": "chain",
+   "recent": 5,
+   "base_per_day": 0.73,
+   "ratio": 1.73,
+   "new": false,
+   "daily": [
+    0,
+    0,
+    0,
+    0,
+    1,
+    3,
+    0,
+    1,
+    1,
+    0,
+    2,
+    3,
+    1,
+    1
+   ],
+   "articles": [
+    {
+     "id": "fce3625be61973c8",
+     "title": "【中部・東海・甲信地方限定】元祖台湾ラーメンの名店「味仙本店」監修企画第4弾！「台湾はるさめスープ」が初登場ファミリーマートでしか味わえないこだわりの全5商品を11月3日（火）より順次発売！",
+     "link": "https://prtimes.jp/main/html/rd/p/000002606.000046210.html",
+     "source": "PR TIMES",
+     "image": "https://prcdn.freetls.fastly.net/release_image/46210/2606/46210-2606-cb7d0e6e138b38046a16954fc7b3f4eb-381x525.png?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260"
+    },
+    {
+     "id": "800a28dab2e6cf09",
+     "title": "ファミリーマート３店舗で「ファミマフードドライブ」を開始します！",
+     "link": "https://prtimes.jp/main/html/rd/p/000000103.000164008.html",
+     "source": "PR TIMES",
+     "image": "https://prcdn.freetls.fastly.net/release_image/164008/103/164008-103-7d19b1f0b90f3eaa470e217c011f3578-3421x2451.jpg?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260"
+    },
+    {
+     "id": "673dd15034df6a1f",
+     "title": "【2026年10月・11月発売!】今週発売! ファミリーマートの注目新作スイーツ5選",
+     "link": "https://article.auone.jp/982e0f51-4b70-4773-8cda-b705b8e72998",
+     "source": "au Webポータル",
+     "image": "https://newportal.portal.auone.jp/media/thumbnails/2026/10/26/https___news_mynavi_jp_article_20261026-5191816__w1200.webp"
+    }
+   ]
+  },
   {
    "label": "ガスト",
    "q": "ガスト",
