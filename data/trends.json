@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-28T04:47:18+00:00",
+ "updated": "2026-10-28T05:41:38+00:00",
  "days": [
   "2026-10-15",
   "2026-10-16",
@@ -45,7 +45,7 @@
    "articles": [
     {
      "id": "b79bdc08730b7d46",
-     "title": "『僕のヒーローアカデミア』のコラボカフェが東京・名古屋・大阪・札幌に登場！キャラクターをイメージしたピザやドリンク、限",
+     "title": "『僕のヒーローアカデミア』のコラボカフェが東京・名古屋・大阪・札幌に登場！キャラクターをイメージしたピザやドリンク、限定グッズを紹介（ウォーカープラス）",
      "link": "https://news.nicovideo.jp/watch/nw19927513?news_ref=watch_50_nw19792882",
      "source": "ニコニコニュース",
      "image": "http://www.bing.com/th?id=ONUT.tDux15zZf8R05sS0I5WdCw&pid=News"
@@ -63,6 +63,54 @@
      "link": "https://prtimes.jp/main/html/rd/p/000000540.000029053.html",
      "source": "PR TIMES",
      "image": "https://prcdn.freetls.fastly.net/release_image/29053/540/29053-540-f27fa95831d545b34243fd5db3f8a3c8-3900x2600.jpg?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260"
+    }
+   ]
+  },
+  {
+   "label": "ローソン",
+   "q": "ローソン",
+   "kind": "chain",
+   "recent": 5,
+   "base_per_day": 0.64,
+   "ratio": 1.89,
+   "new": false,
+   "daily": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    2,
+    1,
+    2,
+    0,
+    1,
+    1,
+    1,
+    2,
+    2
+   ],
+   "articles": [
+    {
+     "id": "7e063d5238c5e3b8",
+     "title": "ローソンストア100、財布にうれしい「デカ盛りチャレンジ」を2週間実施。増量した弁当やサンドイッチなど12点",
+     "link": "https://gourmet.watch.impress.co.jp/docs/news/2151859.html",
+     "source": "グルメ Watch",
+     "image": "https://gourmet.watch.impress.co.jp/img/grw/list/2151/859/01.jpg"
+    },
+    {
+     "id": "64ef1e0ee9037240",
+     "title": "物価高でも、盛るのはやめません。 カツ2枚！サンド3組！クレープもBIG！“デカくてうれしい”全12品！ ローソンストア100「デカ盛りチャレンジ」2026年11月4日（水）から",
+     "link": "https://prtimes.jp/main/html/rd/p/000000595.000025635.html",
+     "source": "PR TIMES",
+     "image": "https://prcdn.freetls.fastly.net/release_image/25635/595/25635-595-a3c08778fa582b104f74a1975ef47e98-1280x720.jpg?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260"
+    },
+    {
+     "id": "45fb1bba44e2459c",
+     "title": "【10月27日～発売】セブン・ファミマ・ローソン新作スイーツ特集｜「ドバイチョコスタイルクレープ」・「Uchi Café×ゴディバ ショコラロールケーキ」など注目デザートまとめ",
+     "link": "https://entabe.jp/61968/seven-eleven-familymart-lawson-new-sweets-october-2026",
+     "source": "えん食べ [グルメニュース]",
+     "image": "https://image.entabe.jp/upload/20261027/images/thumbnail_20261027_web_1.jpg"
     }
    ]
   },
@@ -104,6 +152,54 @@
      "link": "https://entabe.jp/61968/seven-eleven-familymart-lawson-new-sweets-october-2026",
      "source": "えん食べ [グルメニュース]",
      "image": "https://image.entabe.jp/upload/20261027/images/thumbnail_20261027_web_1.jpg"
+    }
+   ]
+  },
+  {
+   "label": "台湾ラーメン",
+   "q": "台湾ラーメン",
+   "kind": "dish",
+   "recent": 3,
+   "base_per_day": 0.27,
+   "ratio": 1.93,
+   "new": false,
+   "daily": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    1,
+    1,
+    1,
+    0,
+    2
+   ],
+   "articles": [
+    {
+     "id": "bb19b2d169b61bd2",
+     "title": "ファミマ、「味仙本店」監修の台湾ラーメンなど5品を地域限定発売",
+     "link": "https://www.rbbtoday.com/article/2026/10/28/255099.html",
+     "source": "RBB TODAY",
+     "image": "https://www.rbbtoday.com/imgs/ogp_f/1057196.jpg"
+    },
+    {
+     "id": "fce3625be61973c8",
+     "title": "【中部・東海・甲信地方限定】元祖台湾ラーメンの名店「味仙本店」監修企画第4弾！「台湾はるさめスープ」が初登場ファミリーマートでしか味わえないこだわりの全5商品を11月3日（火）より順次発売！",
+     "link": "https://prtimes.jp/main/html/rd/p/000002606.000046210.html",
+     "source": "PR TIMES",
+     "image": "https://prcdn.freetls.fastly.net/release_image/46210/2606/46210-2606-cb7d0e6e138b38046a16954fc7b3f4eb-381x525.png?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260"
+    },
+    {
+     "id": "c9dd26aeab282732",
+     "title": "サミー「エイリやん」、名古屋の人気台湾料理「矢場味仙」とコラボ 11月1日から1カ月間 緑の台湾ラーメンなど限定メニュー",
+     "link": "https://news.p-world.co.jp/articles/34758/nippon",
+     "source": "P-WORLD",
+     "image": "https://idn.p-world.co.jp/news/nippon/80825/80825_1.jpg"
     }
    ]
   },
@@ -152,6 +248,54 @@
      "link": "https://article.auone.jp/982e0f51-4b70-4773-8cda-b705b8e72998",
      "source": "au Webポータル",
      "image": "https://newportal.portal.auone.jp/media/thumbnails/2026/10/26/https___news_mynavi_jp_article_20261026-5191816__w1200.webp"
+    }
+   ]
+  },
+  {
+   "label": "ケーキ",
+   "q": "ケーキ",
+   "kind": "dish",
+   "recent": 4,
+   "base_per_day": 0.45,
+   "ratio": 1.9,
+   "new": false,
+   "daily": [
+    0,
+    0,
+    0,
+    0,
+    1,
+    1,
+    1,
+    2,
+    0,
+    0,
+    0,
+    1,
+    1,
+    2
+   ],
+   "articles": [
+    {
+     "id": "89c3436b3a18b83e",
+     "title": "東海オンエアりょうのR BRANDが贈る、2026年のクリスマス 華やかな限定ケーキと、冬の夜を彩る特別なコーヒーが登場",
+     "link": "https://prtimes.jp/main/html/rd/p/000000016.000109471.html",
+     "source": "PR TIMES",
+     "image": "https://prcdn.freetls.fastly.net/release_image/109471/16/109471-16-1843672a81e7682c0bbfd8f4a0138078-2525x1458.jpg?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260"
+    },
+    {
+     "id": "7ee464bb0a19459a",
+     "title": "【今日から】コメダ珈琲店、秋冬の新作ケーキ4種発売 SNS「待ってました！」「どれもおいしそう」",
+     "link": "https://news.infoseek.co.jp/amp/article/otonanswer_404501/",
+     "source": "Infoseek",
+     "image": "https://media.image.infoseek.co.jp/isnews/photos/otonanswer/otonanswer_404501_0-enlarge.jpg"
+    },
+    {
+     "id": "45fb1bba44e2459c",
+     "title": "【10月27日～発売】セブン・ファミマ・ローソン新作スイーツ特集｜「ドバイチョコスタイルクレープ」・「Uchi Café×ゴディバ ショコラロールケーキ」など注目デザートまとめ",
+     "link": "https://entabe.jp/61968/seven-eleven-familymart-lawson-new-sweets-october-2026",
+     "source": "えん食べ [グルメニュース]",
+     "image": "https://image.entabe.jp/upload/20261027/images/thumbnail_20261027_web_1.jpg"
     }
    ]
   },
