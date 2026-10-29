@@ -1,6 +1,22 @@
 {
- "updated": "2026-10-29T15:50:18+09:00",
+ "updated": "2026-10-29T16:58:33+09:00",
  "items": [
+  {
+   "id": "b47fbc7ad4bf6af3",
+   "title": "IPX(LINE FRIENDS本社名)とG-DRAGONが一緒に作ったキャラクター「ZO&FRIENDS(ジョアンフレンズ)」初の期間限定カフェが東京・大阪・愛知の各PARCOにて開催決定！！",
+   "link": "https://prtimes.jp/main/html/rd/p/000004145.000003639.html",
+   "source": "PR TIMES",
+   "image": "https://prcdn.freetls.fastly.net/release_image/3639/4145/3639-4145-6ebdec6fb4073154aa743d032997c6af-1000x560.jpg?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260",
+   "category": "chain",
+   "area": "愛知",
+   "published": "2026-10-29T16:15:24+09:00",
+   "provider": "prtimes",
+   "added": "2026-10-29T16:58:33+09:00",
+   "image_checked": true,
+   "image_v4": true,
+   "shop": false,
+   "shop_name": null
+  },
   {
    "id": "5bc1595493f30b5a",
    "title": "3COINS×くら寿司のOMOキャンペーンにクラウドサーカスの『Metabadge』が採用",
@@ -641,6 +657,22 @@
    "image_v4": true,
    "shop": true,
    "shop_name": "土鍋ごはん×とんかつ CHITAKA"
+  },
+  {
+   "id": "58409d3e5a98930e",
+   "title": "【ラーメンハイキング】名古屋の「ラーメン福」を食べて東谷山へ ...",
+   "link": "https://www.yamakei-online.com/yama-ya/detail.php?id=5274",
+   "source": "山と溪谷オンライン",
+   "image": "https://www.yamakei-online.com/new_images/yama-ya/column/5274/5274_b.jpg",
+   "category": "wadai",
+   "area": "名古屋",
+   "published": "2026-10-28T17:01:00+09:00",
+   "provider": "bing",
+   "added": "2026-10-29T16:58:33+09:00",
+   "image_checked": true,
+   "image_v4": true,
+   "shop": true,
+   "shop_name": "ラーメン福"
   },
   {
    "id": "26faaca0634a15c1",

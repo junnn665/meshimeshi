@@ -1,8 +1,8 @@
 {
- "updated": "2026-10-29T15:50:18+09:00",
- "items": 370,
- "with_image": 344,
- "google_decode_ok": 33,
+ "updated": "2026-10-29T16:58:33+09:00",
+ "items": 372,
+ "with_image": 346,
+ "google_decode_ok": 28,
  "google_decode_failed": 0,
  "google_decode_samples": [],
  "image_failures": [
@@ -10,7 +10,6 @@
   "www.at-s.com: HTTPError: HTTP Error 405: Not Allowed",
   "media.unisba.ac.id: HTTPError: HTTP Error 403: Forbidden",
   "media.unisba.ac.id: HTTPError: HTTP Error 403: Forbidden",
-  "media.unisba.ac.id: HTTPError: HTTP Error 403: Forbidden",
-  "thetv.jp: og:image なし (50924 文字)"
+  "f-weeklyweb.com: URLError: <urlopen error timed out>"
  ]
 }
