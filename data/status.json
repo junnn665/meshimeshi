@@ -1,15 +1,13 @@
 {
- "updated": "2026-10-29T08:34:27+09:00",
- "items": 373,
- "with_image": 346,
- "google_decode_ok": 28,
+ "updated": "2026-10-29T09:49:14+09:00",
+ "items": 374,
+ "with_image": 347,
+ "google_decode_ok": 29,
  "google_decode_failed": 0,
  "google_decode_samples": [],
  "image_failures": [
+  "media.unisba.ac.id: HTTPError: HTTP Error 403: Forbidden",
   "www.at-s.com: HTTPError: HTTP Error 405: Not Allowed",
-  "www.excite.co.jp: HTTPError: HTTP Error 403: Forbidden",
-  "media.unisba.ac.id: HTTPError: HTTP Error 403: Forbidden",
-  "media.unisba.ac.id: HTTPError: HTTP Error 403: Forbidden",
   "media.unisba.ac.id: HTTPError: HTTP Error 403: Forbidden"
  ]
 }
