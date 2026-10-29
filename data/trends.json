@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-29T09:49:06+00:00",
+ "updated": "2026-10-29T10:45:37+00:00",
  "days": [
   "2026-10-16",
   "2026-10-17",
@@ -375,6 +375,54 @@
    ]
   },
   {
+   "label": "パン",
+   "q": "パン",
+   "kind": "dish",
+   "recent": 11,
+   "base_per_day": 1.27,
+   "ratio": 2.39,
+   "new": false,
+   "daily": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    6,
+    3,
+    0,
+    1,
+    3,
+    4,
+    2,
+    5
+   ],
+   "articles": [
+    {
+     "id": "564b37e2eb78ac06",
+     "title": "ウェンディーズ・ジャパンがゴーストレストラン開始 10/29 タピオカのデリバリー専門店「Bao Boba（バオボバ）」オープン",
+     "link": "https://mainichikirei.jp/prtimes/article/20261029prt00m100000714a.html",
+     "source": "毎日キレイ",
+     "image": "https://prtimes.jp/img/59385/304/resize/d59385-304-b1f56cc23fe18a9ccb64-0.jpg"
+    },
+    {
+     "id": "ae5e17ef06719703",
+     "title": "さいたま新都心「コクーンシティ」シャンパンゴールドに輝く26年イルミネーションやクリスマスマーケット",
+     "link": "https://www.fashion-press.net/news/152652",
+     "source": "ファッションプレス",
+     "image": "https://www.fashion-press.net/img/news/152652/top.jpg?1793245207"
+    },
+    {
+     "id": "e0ef8421283dce91",
+     "title": "『ガールズ＆パンツァー もっとらぶらぶ作戦です！』レトロポップカフェ at 洒落CAFEが東京＆大阪&名古屋にてコラボカフェ開催決定！ | Anique株式会社のプレスリリース",
+     "link": "https://prtimes.jp/main/html/rd/p/000000380.000048489.html",
+     "source": "PR TIMES",
+     "image": "https://prcdn.freetls.fastly.net/release_image/48489/380/48489-380-d750e950cd9f32df360e94e768ceaa38-1920x1520.png?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260"
+    }
+   ]
+  },
+  {
    "label": "とんかつ",
    "q": "とんかつ",
    "kind": "dish",
@@ -419,54 +467,6 @@
      "link": "https://www.shizuoka-life.jp/post-15650/",
      "source": "静岡ライフ",
      "image": "https://www.shizuoka-life.jp/wp-content/uploads/2026/10/4c85c234076325c638e2c305400f29d6-12.jpg"
-    }
-   ]
-  },
-  {
-   "label": "パン",
-   "q": "パン",
-   "kind": "dish",
-   "recent": 10,
-   "base_per_day": 1.27,
-   "ratio": 2.18,
-   "new": false,
-   "daily": [
-    0,
-    0,
-    0,
-    0,
-    0,
-    1,
-    6,
-    3,
-    0,
-    1,
-    3,
-    4,
-    2,
-    4
-   ],
-   "articles": [
-    {
-     "id": "564b37e2eb78ac06",
-     "title": "ウェンディーズ・ジャパンがゴーストレストラン開始 10/29 タピオカのデリバリー専門店「Bao Boba（バオボバ）」オープン",
-     "link": "https://mainichikirei.jp/prtimes/article/20261029prt00m100000714a.html",
-     "source": "毎日キレイ",
-     "image": "https://prtimes.jp/img/59385/304/resize/d59385-304-b1f56cc23fe18a9ccb64-0.jpg"
-    },
-    {
-     "id": "ae5e17ef06719703",
-     "title": "さいたま新都心「コクーンシティ」シャンパンゴールドに輝く26年イルミネーションやクリスマスマーケット",
-     "link": "https://www.fashion-press.net/news/152652",
-     "source": "ファッションプレス",
-     "image": "https://www.fashion-press.net/img/news/152652/top.jpg?1793245207"
-    },
-    {
-     "id": "4c5e50716ca4d730",
-     "title": "JR名古屋駅＞NY発祥のベーカリー「THE CITY BAKERY」が、11月12日（木）名古屋エリア3店舗目をオープン！",
-     "link": "http://www.oricon.co.jp/pressrelease/3059585/",
-     "source": "オリコンニュース",
-     "image": "https://prtimes.jp/img/44858/276/thumb/d44858-276-ce2a93c9ac2ff062a0b4-10.jpg"
     }
    ]
   },

@@ -1,18 +1,18 @@
 {
- "updated": "2026-10-29T18:48:33+09:00",
- "items": 367,
- "with_image": 339,
- "google_decode_ok": 36,
+ "updated": "2026-10-29T19:45:06+09:00",
+ "items": 368,
+ "with_image": 340,
+ "google_decode_ok": 35,
  "google_decode_failed": 0,
  "google_decode_samples": [],
  "image_failures": [
-  "www.ozmall.co.jp: HTTPError: HTTP Error 403: Forbidden",
+  "tetsudo-ch.com: HTTPError: HTTP Error 403: Forbidden",
   "www.excite.co.jp: HTTPError: HTTP Error 403: Forbidden",
   "www.at-s.com: HTTPError: HTTP Error 405: Not Allowed",
   "media.unisba.ac.id: HTTPError: HTTP Error 403: Forbidden",
   "media.unisba.ac.id: HTTPError: HTTP Error 403: Forbidden",
   "media.unisba.ac.id: HTTPError: HTTP Error 403: Forbidden",
-  "thetv.jp: og:image なし (50910 文字)",
-  "f-weeklyweb.com: og:image なし (72284 文字)"
+  "media.unisba.ac.id: HTTPError: HTTP Error 403: Forbidden",
+  "thetv.jp: og:image なし (50859 文字)"
  ]
 }
