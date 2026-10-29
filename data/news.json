@@ -1,6 +1,23 @@
 {
- "updated": "2026-10-29T22:58:22+09:00",
+ "updated": "2026-10-29T23:54:01+09:00",
  "items": [
+  {
+   "id": "0e74c01989a29116",
+   "title": "猿投農林高、メグリアと共同開発した地産地消弁当と総菜をお披露目",
+   "link": "https://toyota.keizai.biz/photoflash/1408/",
+   "source": "豊田経済新聞",
+   "image": "https://images.keizai.biz/toyota_keizai/photonews/1793267034_b.jpg",
+   "category": "wadai",
+   "area": "東海",
+   "published": "2026-10-29T23:05:04+09:00",
+   "provider": "google",
+   "added": "2026-10-29T23:54:01+09:00",
+   "decode_v2": true,
+   "image_checked": true,
+   "image_v4": true,
+   "shop": false,
+   "shop_name": null
+  },
   {
    "id": "463ce71ba7a70220",
    "title": "【スタバ・コメダなど】カフェチェーンの中であなたが好きなのは？【人気投票実施中】",
@@ -3398,6 +3415,23 @@
    "image_checked": true,
    "image_v4": true,
    "shop": false,
+   "shop_name": null
+  },
+  {
+   "id": "2f57c4bf28fa32e7",
+   "title": "ニューグルメ誕生!? 鶏の瓦焼きしゃぶの店が名古屋・栄に",
+   "link": "https://www.walkerplus.com/article/19383/",
+   "source": "ウォーカープラス",
+   "image": "https://news.walkerplus.com/article/19383/76358_615.jpg",
+   "category": "wadai",
+   "area": "名古屋",
+   "published": "2026-10-25T16:00:00+09:00",
+   "provider": "google",
+   "added": "2026-10-29T23:54:01+09:00",
+   "decode_v2": true,
+   "image_checked": true,
+   "image_v4": true,
+   "shop": true,
    "shop_name": null
   },
   {
