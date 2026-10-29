@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-29T00:49:50+00:00",
+ "updated": "2026-10-29T01:54:53+00:00",
  "days": [
   "2026-10-16",
   "2026-10-17",
@@ -375,6 +375,47 @@
    ]
   },
   {
+   "label": "おにぎり",
+   "q": "おにぎり",
+   "kind": "dish",
+   "recent": 2,
+   "base_per_day": 0.09,
+   "ratio": 1.96,
+   "new": false,
+   "daily": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    2,
+    0
+   ],
+   "articles": [
+    {
+     "id": "30046a9613a9f274",
+     "title": "【2026年10月第5週】コンビニおにぎり・コンビニ手巻寿司の新商品！鶏ごぼうおむすびや青磯海苔漬けサーモンなどまとめ",
+     "link": "https://mognavi.jp/news/matome/gen-newProduct-29449/",
+     "source": "もぐナビ",
+     "image": "https://img1.esimg.jp/blog/wp-content/uploads/2026/10/gen-newProduct-29449.jpg?ts=1793150100000"
+    },
+    {
+     "id": "358eadf975f320b8",
+     "title": "【2026年10月第5週】コンビニ寿司・コンビニ弁当の新商品！おにぎりランチや豚焼肉弁当などまとめ",
+     "link": "https://mognavi.jp/news/matome/gen-newProduct-29450/",
+     "source": "もぐナビ",
+     "image": "https://img1.esimg.jp/blog/wp-content/uploads/2026/10/gen-newProduct-29450.jpg?ts=1793151900000"
+    }
+   ]
+  },
+  {
    "label": "ケーキ",
    "q": "ケーキ",
    "kind": "dish",
@@ -467,47 +508,6 @@
      "link": "https://www.shizuoka-life.jp/post-15650/",
      "source": "静岡ライフ",
      "image": "https://www.shizuoka-life.jp/wp-content/uploads/2026/10/4c85c234076325c638e2c305400f29d6-12.jpg"
-    }
-   ]
-  },
-  {
-   "label": "おにぎり",
-   "q": "おにぎり",
-   "kind": "dish",
-   "recent": 2,
-   "base_per_day": 0.18,
-   "ratio": 1.62,
-   "new": false,
-   "daily": [
-    0,
-    0,
-    0,
-    0,
-    1,
-    1,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    2,
-    0
-   ],
-   "articles": [
-    {
-     "id": "30046a9613a9f274",
-     "title": "【2026年10月第5週】コンビニおにぎり・コンビニ手巻寿司の新商品！鶏ごぼうおむすびや青磯海苔漬けサーモンなどまとめ",
-     "link": "https://mognavi.jp/news/matome/gen-newProduct-29449/",
-     "source": "もぐナビ",
-     "image": "https://img1.esimg.jp/blog/wp-content/uploads/2026/10/gen-newProduct-29449.jpg?ts=1793150100000"
-    },
-    {
-     "id": "358eadf975f320b8",
-     "title": "【2026年10月第5週】コンビニ寿司・コンビニ弁当の新商品！おにぎりランチや豚焼肉弁当などまとめ",
-     "link": "https://mognavi.jp/news/matome/gen-newProduct-29450/",
-     "source": "もぐナビ",
-     "image": "https://img1.esimg.jp/blog/wp-content/uploads/2026/10/gen-newProduct-29450.jpg?ts=1793151900000"
     }
    ]
   }

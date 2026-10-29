@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-29T09:49:14+09:00",
+ "updated": "2026-10-29T10:54:25+09:00",
  "items": [
   {
    "id": "ff9a92d3890a7bf2",
@@ -546,6 +546,23 @@
    "published": "2026-10-28T14:45:28+09:00",
    "provider": "prtimes",
    "added": "2026-10-28T16:57:02+09:00",
+   "image_checked": true,
+   "image_v4": true,
+   "shop": false,
+   "shop_name": null
+  },
+  {
+   "id": "46110571934b66e9",
+   "title": "神田屋18店舗で食用サボテンSABOVEGを使ったメニューが期間限定で発売へ",
+   "link": "https://news.dellows.jp/894177/?from=related-reading-list",
+   "source": "Dellows News",
+   "image": "https://news.dellows.jp/wp-content/uploads/2026/10/894177_1.jpg",
+   "category": "chain",
+   "area": "東海",
+   "published": "2026-10-28T14:39:42+09:00",
+   "provider": "google",
+   "added": "2026-10-29T10:54:25+09:00",
+   "decode_v2": true,
    "image_checked": true,
    "image_v4": true,
    "shop": false,
@@ -6435,22 +6452,6 @@
    "provider": "google",
    "added": "2026-10-20T19:30:40+09:00",
    "decode_v2": true,
-   "image_checked": true,
-   "image_v4": true,
-   "shop": false,
-   "shop_name": null
-  },
-  {
-   "id": "48a2646dc9d72411",
-   "title": "【マスヤ】 YOASOBIとおにぎりせんべいが再びコラボ！YOASOBIドーム&スタジアムツアー愛知公演記念限定コラボ商品の販売が決定！",
-   "link": "https://prtimes.jp/main/html/rd/p/000000127.000116691.html",
-   "source": "PR TIMES",
-   "image": "https://prcdn.freetls.fastly.net/release_image/116691/127/116691-127-a2deee1dd57148787194d28b70483f95-3900x2289.jpg?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260",
-   "category": "chain",
-   "area": "愛知",
-   "published": "2026-10-20T18:40:48+09:00",
-   "provider": "prtimes",
-   "added": "2026-10-20T19:30:40+09:00",
    "image_checked": true,
    "image_v4": true,
    "shop": false,
