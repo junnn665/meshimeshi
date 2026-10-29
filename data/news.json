@@ -1,6 +1,23 @@
 {
- "updated": "2026-10-30T06:39:21+09:00",
+ "updated": "2026-10-30T07:39:59+09:00",
  "items": [
+  {
+   "id": "9f50951cb779757e",
+   "title": "からあげクン、地域限定“ご当地味”登場 「ザンギ」「麻辣湯」「塩こんぶマヨ」…名店監修から人気菓子コラボまで全8種",
+   "link": "https://www.sanyonews.jp/article/1972264?kw=%E4%BA%AC",
+   "source": "山陽新聞",
+   "image": "https://static.sanyonews.jp/image/article/size1/a/5/8/5/a5854b89ae89974ef4d921c656cca51c_1.jpg",
+   "category": "wadai",
+   "area": "東海",
+   "published": "2026-10-30T05:09:22+09:00",
+   "provider": "google",
+   "added": "2026-10-30T07:39:59+09:00",
+   "decode_v2": true,
+   "image_checked": true,
+   "image_v4": true,
+   "shop": false,
+   "shop_name": null
+  },
   {
    "id": "72ef958110bb543a",
    "title": "熊本の地酒や特産品が集結 岡崎・オトリバーで物産展",
@@ -420,6 +437,28 @@
    "image_v4": true,
    "shop": false,
    "shop_name": null
+  },
+  {
+   "id": "fb7ee2d4a10a5295",
+   "title": "名古屋で焼きそばの名店7店が激突！焼きそばNo.1を決める「第7回ヤキソバトル 2026」が2026年10月31日から2日間にわたり金山総合駅にて開催【金山】",
+   "link": "https://nagoyato.com/posts/20510",
+   "source": "nagoyato",
+   "image": "https://nagoyato.com/wp-content/uploads/2026/10/S__129892378.jpg",
+   "category": "event",
+   "area": "名古屋",
+   "published": "2026-10-29T11:59:00+09:00",
+   "provider": "bing",
+   "added": "2026-10-30T07:39:59+09:00",
+   "image_checked": true,
+   "image_v4": true,
+   "shop": false,
+   "shop_name": null,
+   "venue": "金山",
+   "lat": 35.14443,
+   "lng": 136.90016,
+   "start": "2026-10-31",
+   "end": "2027-10-02",
+   "group": "cc774de52aa3"
   },
   {
    "id": "b2fa25ccd30bf334",
@@ -1944,6 +1983,23 @@
    "shop_name": null
   },
   {
+   "id": "6c0c2790079179cf",
+   "title": "ハローキティとコラボ！名古屋パルコに、リンゴ×生クリームの限定メニューが登場",
+   "link": "https://www.walkerplus.com/article/199516/",
+   "source": "ウォーカープラス",
+   "image": "https://news.walkerplus.com/article/199516/1205580_615.jpg",
+   "category": "chain",
+   "area": "名古屋",
+   "published": "2026-10-27T16:00:00+09:00",
+   "provider": "google",
+   "added": "2026-10-30T07:39:59+09:00",
+   "decode_v2": true,
+   "image_checked": true,
+   "image_v4": true,
+   "shop": false,
+   "shop_name": null
+  },
+  {
    "id": "800a28dab2e6cf09",
    "title": "ファミリーマート３店舗で「ファミマフードドライブ」を開始します！",
    "link": "https://prtimes.jp/main/html/rd/p/000000103.000164008.html",
@@ -3276,6 +3332,23 @@
    "shop_name": null
   },
   {
+   "id": "28dbc144c29fabc5",
+   "title": "可愛すぎるアニマルスイーツが名古屋に集合！デザートビュッフェと動物園を楽しむ春のお出かけコース",
+   "link": "https://www.walkerplus.com/article/222764/",
+   "source": "ウォーカープラス",
+   "image": "https://news.walkerplus.com/article/222764/1388689_615.jpg",
+   "category": "wadai",
+   "area": "名古屋",
+   "published": "2026-10-26T07:39:35+09:00",
+   "provider": "google",
+   "added": "2026-10-30T07:39:59+09:00",
+   "decode_v2": true,
+   "image_checked": true,
+   "image_v4": true,
+   "shop": true,
+   "shop_name": null
+  },
+  {
    "id": "89623cf83dae402c",
    "title": "【伊丹市】全国わずか10店舗限定！「資さんうどん 伊丹堀池店」で新たな朝定食が登場！話題の新メニューも",
    "link": "https://itami.goguynet.jp/2026/10/26/sukesangentei/",
@@ -4286,6 +4359,30 @@
    "image_v4": true,
    "shop": true,
    "shop_name": "エスパシオ ナゴヤキャッスル"
+  },
+  {
+   "id": "0b49fa336e3af36e",
+   "title": "『資さんうどん』キッチンカーが栄・久屋大通公園に10月24日、25日限定登場",
+   "link": "https://jouhou.nagoya/sukesanudon-202610/",
+   "source": "名古屋情報通",
+   "image": "https://jouhou.nagoya/wp-content/uploads/2026/10/sukesanudon005-600x390.jpg",
+   "category": "event",
+   "area": "名古屋",
+   "published": "2026-10-24T16:00:00+09:00",
+   "provider": "google",
+   "added": "2026-10-30T07:39:59+09:00",
+   "decode_v2": true,
+   "image_checked": true,
+   "image_v4": true,
+   "shop": true,
+   "shop_name": "資さんうどん",
+   "venue": "久屋大通公園",
+   "lat": 35.16737,
+   "lng": 136.90883,
+   "place": "outdoor",
+   "start": "2026-10-24",
+   "end": "2026-10-25",
+   "group": "6acf7d8b4532"
   },
   {
    "id": "71744003aa3cf3b0",
@@ -6343,23 +6440,6 @@
    "image_v4": true,
    "shop": false,
    "shop_name": null
-  },
-  {
-   "id": "a188d4b7b9c1ad5e",
-   "title": "作中メニューが登場！ミュージアム形式の「スター・ウォーズ」OH MY CAFEが名古屋にオープン",
-   "link": "https://www.walkerplus.com/article/218989/",
-   "source": "ウォーカープラス",
-   "image": "https://news.walkerplus.com/article/218989/1369755_615.jpg",
-   "category": "shinten",
-   "area": "名古屋",
-   "published": "2026-10-22T03:46:39+09:00",
-   "provider": "google",
-   "added": "2026-10-22T18:34:09+09:00",
-   "decode_v2": true,
-   "image_checked": true,
-   "image_v4": true,
-   "shop": true,
-   "shop_name": "スター・ウォーズ"
   }
  ]
 }

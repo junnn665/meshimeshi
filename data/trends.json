@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-29T21:39:52+00:00",
+ "updated": "2026-10-29T22:40:33+00:00",
  "days": [
   "2026-10-17",
   "2026-10-18",
@@ -416,6 +416,54 @@
    ]
   },
   {
+   "label": "からあげ",
+   "q": "からあげ",
+   "kind": "dish",
+   "recent": 3,
+   "base_per_day": 0.27,
+   "ratio": 1.93,
+   "new": false,
+   "daily": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    2,
+    1,
+    0,
+    2,
+    0,
+    1
+   ],
+   "articles": [
+    {
+     "id": "9f50951cb779757e",
+     "title": "からあげクン、地域限定“ご当地味”登場 「ザンギ」「麻辣湯」「塩こんぶマヨ」…名店監修から人気菓子コラボまで全8種",
+     "link": "https://www.sanyonews.jp/article/1972264?kw=%E4%BA%AC",
+     "source": "山陽新聞",
+     "image": "https://static.sanyonews.jp/image/article/size1/a/5/8/5/a5854b89ae89974ef4d921c656cca51c_1.jpg"
+    },
+    {
+     "id": "93c5556cf3ea3eed",
+     "title": "【がブリチキン。】ブラックフライデーにちなんだ黒いカレーソース！スパイス香る「ブラックカレーからあげ」を11月限定で販売",
+     "link": "https://prtimes.jp/main/html/rd/p/000000161.000051168.html",
+     "source": "PR TIMES",
+     "image": "https://prcdn.freetls.fastly.net/release_image/51168/161/51168-161-eebb448e15b0c40a9be452b547c4ee8b-1921x961.jpg?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260"
+    },
+    {
+     "id": "d38bdaab7f5208f9",
+     "title": "【きょうから】ローソン“ご当地からあげクン”、SNSで4279万回表示の反響「これ食べるために旅行したい」「買う前からもう美味しい」",
+     "link": "https://www.sanyonews.jp/article/1974058?rct=oricon_news",
+     "source": "山陽新聞",
+     "image": "https://static.sanyonews.jp/image/article/size1/8/b/0/b/8b0bf5f1ad3517cccff40ccd5b0552cd_1.jpg"
+    }
+   ]
+  },
+  {
    "label": "ケーキ",
    "q": "ケーキ",
    "kind": "dish",
@@ -501,54 +549,6 @@
      "link": "https://news.infoseek.co.jp/amp/article/otonanswer_404501/",
      "source": "Infoseek",
      "image": "https://media.image.infoseek.co.jp/isnews/photos/otonanswer/otonanswer_404501_0-enlarge.jpg"
-    }
-   ]
-  },
-  {
-   "label": "鍋",
-   "q": "鍋",
-   "kind": "dish",
-   "recent": 3,
-   "base_per_day": 0.36,
-   "ratio": 1.67,
-   "new": false,
-   "daily": [
-    0,
-    0,
-    0,
-    0,
-    0,
-    2,
-    0,
-    2,
-    0,
-    0,
-    0,
-    3,
-    0,
-    0
-   ],
-   "articles": [
-    {
-     "id": "ef3d4f68ff5a3d8d",
-     "title": "代々木公園にスペイン料理や音楽が集結「フィエスタ・デ・エスパーニャ」魚介やチョリソーの大鍋パエリアも",
-     "link": "https://www.fashion-press.net/news/152627",
-     "source": "ファッションプレス",
-     "image": "https://www.fashion-press.net/img/news/152627/top.jpg?1793182866"
-    },
-    {
-     "id": "c81bbccf7c0d7efb",
-     "title": "“知多家”の新ブランド『土鍋ごはん×とんかつ CHITAKA』名古屋・栄の地下街に29日オープン 今後商業施設を中心に出店へ",
-     "link": "https://article.auone.jp/0a82174f-1f57-4b24-a3f2-e80a93173727",
-     "source": "au Webポータル",
-     "image": "https://newportal.portal.auone.jp/media/thumbnails/2026/10/28/https___news_jp_i_1488088534532014151_w640.webp"
-    },
-    {
-     "id": "394bccb2daf604c8",
-     "title": "2026年10月29日オープン！栄センパの新店「土鍋ごはん×とんかつ CHITAKA」が美味すぎた 「とんかつ知多家」から生まれた新感覚とんかつを最速実食レポート【久屋大通・栄】",
-     "link": "https://nagoyato.com/posts/20426",
-     "source": "ナゴヤトコトン",
-     "image": "https://nagoyato.com/wp-content/uploads/2026/10/IMG_3911-EDIT2.jpg"
     }
    ]
   }
