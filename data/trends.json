@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-29T02:46:39+00:00",
+ "updated": "2026-10-29T03:45:46+00:00",
  "days": [
   "2026-10-16",
   "2026-10-17",
@@ -330,6 +330,47 @@
      "link": "https://entabe.jp/61968/seven-eleven-familymart-lawson-new-sweets-october-2026",
      "source": "えん食べ [グルメニュース]",
      "image": "https://image.entabe.jp/upload/20261027/images/thumbnail_20261027_web_1.jpg"
+    }
+   ]
+  },
+  {
+   "label": "ビール",
+   "q": "ビール",
+   "kind": "dish",
+   "recent": 2,
+   "base_per_day": 0.09,
+   "ratio": 1.96,
+   "new": false,
+   "daily": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    1
+   ],
+   "articles": [
+    {
+     "id": "a55c0214aa815ed2",
+     "title": "ガチャを回して、推しに投票。「クラフトビール総選挙2026 in 名古屋」11月12日より開催",
+     "link": "https://prtimes.jp/main/html/rd/p/000000157.000060917.html",
+     "source": "PR TIMES",
+     "image": "https://prcdn.freetls.fastly.net/release_image/60917/157/60917-157-8cd65c9e78090de4681b97bd46bca529-1457x973.png?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260"
+    },
+    {
+     "id": "33d2cea938b372d8",
+     "title": "川口・キュポラ広場でクラフトビールイベント 9ブルワリーのビールが一堂に",
+     "link": "https://topics.smt.docomo.ne.jp/article/minkei/region/minkei-kawaguchi313",
+     "source": "ｄメニューニュース",
+     "image": "https://img.topics.smt.news.goo.ne.jp/picture/minkei/m_minkei-kawaguchi313.jpg"
     }
    ]
   },
