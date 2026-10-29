@@ -1,7 +1,7 @@
 {
- "updated": "2026-10-29T14:42:13+09:00",
- "items": 368,
- "with_image": 342,
+ "updated": "2026-10-29T15:50:18+09:00",
+ "items": 370,
+ "with_image": 344,
  "google_decode_ok": 33,
  "google_decode_failed": 0,
  "google_decode_samples": [],
@@ -11,7 +11,6 @@
   "media.unisba.ac.id: HTTPError: HTTP Error 403: Forbidden",
   "media.unisba.ac.id: HTTPError: HTTP Error 403: Forbidden",
   "media.unisba.ac.id: HTTPError: HTTP Error 403: Forbidden",
-  "media.unisba.ac.id: HTTPError: HTTP Error 403: Forbidden",
-  "thetv.jp: og:image なし (50854 文字)"
+  "thetv.jp: og:image なし (50924 文字)"
  ]
 }
