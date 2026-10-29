@@ -1,15 +1,19 @@
 {
- "updated": "2026-10-29T16:58:33+09:00",
- "items": 372,
- "with_image": 346,
- "google_decode_ok": 28,
+ "updated": "2026-10-29T17:51:21+09:00",
+ "items": 364,
+ "with_image": 337,
+ "google_decode_ok": 38,
  "google_decode_failed": 0,
  "google_decode_samples": [],
  "image_failures": [
+  "tetsudo-ch.com: HTTPError: HTTP Error 403: Forbidden",
   "www.excite.co.jp: HTTPError: HTTP Error 403: Forbidden",
   "www.at-s.com: HTTPError: HTTP Error 405: Not Allowed",
   "media.unisba.ac.id: HTTPError: HTTP Error 403: Forbidden",
   "media.unisba.ac.id: HTTPError: HTTP Error 403: Forbidden",
-  "f-weeklyweb.com: URLError: <urlopen error timed out>"
+  "media.unisba.ac.id: HTTPError: HTTP Error 403: Forbidden",
+  "tver.jp: og:image なし (2448 文字)",
+  "media.unisba.ac.id: HTTPError: HTTP Error 403: Forbidden",
+  "thetv.jp: og:image なし (50910 文字)"
  ]
 }

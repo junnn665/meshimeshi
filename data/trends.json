@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-29T07:59:14+00:00",
+ "updated": "2026-10-29T08:51:52+00:00",
  "days": [
   "2026-10-16",
   "2026-10-17",
@@ -375,6 +375,54 @@
    ]
   },
   {
+   "label": "とんかつ",
+   "q": "とんかつ",
+   "kind": "dish",
+   "recent": 3,
+   "base_per_day": 0.18,
+   "ratio": 2.26,
+   "new": false,
+   "daily": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    1,
+    0,
+    0,
+    0,
+    1,
+    2,
+    0
+   ],
+   "articles": [
+    {
+     "id": "c81bbccf7c0d7efb",
+     "title": "“知多家”の新ブランド『土鍋ごはん×とんかつ CHITAKA』名古屋・栄の地下街に29日オープン 今後商業施設を中心に出店へ",
+     "link": "https://article.auone.jp/0a82174f-1f57-4b24-a3f2-e80a93173727",
+     "source": "au Webポータル",
+     "image": "https://newportal.portal.auone.jp/media/thumbnails/2026/10/28/https___news_jp_i_1488088534532014151_w640.webp"
+    },
+    {
+     "id": "394bccb2daf604c8",
+     "title": "2026年10月29日オープン！栄センパの新店「土鍋ごはん×とんかつ CHITAKA」が美味すぎた 「とんかつ知多家」から生まれた新感覚とんかつを最速実食レポート【久屋大通・栄】",
+     "link": "https://nagoyato.com/posts/20426",
+     "source": "ナゴヤトコトン",
+     "image": "https://nagoyato.com/wp-content/uploads/2026/10/IMG_3911-EDIT2.jpg"
+    },
+    {
+     "id": "bc5bf59363939b9f",
+     "title": "38年続くとんかつ店 名古屋に新ブランド1号店 ランチは1280円から 11日間ドリンク半額",
+     "link": "https://www.shizuoka-life.jp/post-15650/",
+     "source": "静岡ライフ",
+     "image": "https://www.shizuoka-life.jp/wp-content/uploads/2026/10/4c85c234076325c638e2c305400f29d6-12.jpg"
+    }
+   ]
+  },
+  {
    "label": "パン",
    "q": "パン",
    "kind": "dish",
@@ -501,54 +549,6 @@
      "link": "https://news.dellows.jp/587281/?from=related-reading-list",
      "source": "Dellows News",
      "image": "https://news.dellows.jp/wp-content/uploads/2026/10/587281_1.jpg"
-    }
-   ]
-  },
-  {
-   "label": "とんかつ",
-   "q": "とんかつ",
-   "kind": "dish",
-   "recent": 3,
-   "base_per_day": 0.27,
-   "ratio": 1.93,
-   "new": false,
-   "daily": [
-    0,
-    0,
-    0,
-    0,
-    0,
-    2,
-    0,
-    1,
-    0,
-    0,
-    0,
-    1,
-    2,
-    0
-   ],
-   "articles": [
-    {
-     "id": "c81bbccf7c0d7efb",
-     "title": "“知多家”の新ブランド『土鍋ごはん×とんかつ CHITAKA』名古屋・栄の地下街に29日オープン 今後商業施設を中心に出店へ",
-     "link": "https://article.auone.jp/0a82174f-1f57-4b24-a3f2-e80a93173727",
-     "source": "au Webポータル",
-     "image": "https://newportal.portal.auone.jp/media/thumbnails/2026/10/28/https___news_jp_i_1488088534532014151_w640.webp"
-    },
-    {
-     "id": "394bccb2daf604c8",
-     "title": "2026年10月29日オープン！栄センパの新店「土鍋ごはん×とんかつ CHITAKA」が美味すぎた 「とんかつ知多家」から生まれた新感覚とんかつを最速実食レポート【久屋大通・栄】",
-     "link": "https://nagoyato.com/posts/20426",
-     "source": "ナゴヤトコトン",
-     "image": "https://nagoyato.com/wp-content/uploads/2026/10/IMG_3911-EDIT2.jpg"
-    },
-    {
-     "id": "bc5bf59363939b9f",
-     "title": "38年続くとんかつ店 名古屋に新ブランド1号店 ランチは1280円から 11日間ドリンク半額",
-     "link": "https://www.shizuoka-life.jp/post-15650/",
-     "source": "静岡ライフ",
-     "image": "https://www.shizuoka-life.jp/wp-content/uploads/2026/10/4c85c234076325c638e2c305400f29d6-12.jpg"
     }
    ]
   }
