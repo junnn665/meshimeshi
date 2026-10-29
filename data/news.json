@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-30T00:51:26+09:00",
+ "updated": "2026-10-30T01:51:46+09:00",
  "items": [
   {
    "id": "9922fe2f5b8c5828",
@@ -2638,6 +2638,40 @@
    "shop_name": null
   },
   {
+   "id": "993510ad5c45f46a",
+   "title": "秋葉原電気街・昭和通りでランチ ～安い・おしゃれ・個室～",
+   "link": "https://howtravel-gourmet.com/kanto/tokyo/akihabara/akihabara-lunch/",
+   "source": "めしレポ",
+   "image": "https://howtravel-gourmet.com/wp-content/uploads/2026/10/akihabara-lunch-eyecatch.jpg",
+   "category": "yasuuma",
+   "area": "東海",
+   "published": "2026-10-26T16:00:00+09:00",
+   "provider": "google",
+   "added": "2026-10-30T01:51:46+09:00",
+   "decode_v2": true,
+   "image_checked": true,
+   "image_v4": true,
+   "shop": false,
+   "shop_name": null
+  },
+  {
+   "id": "5c0b6ac3364921d1",
+   "title": "五反田のおすすめランチ18選 西口と東口に分けて人気店をご紹介",
+   "link": "https://howtravel-gourmet.com/kanto/tokyo/gotanda/gotanda-lunch/",
+   "source": "めしレポ",
+   "image": "https://howtravel-gourmet.com/wp-content/uploads/2019/07/pixta_43791642_M.jpg",
+   "category": "wadai",
+   "area": "東海",
+   "published": "2026-10-26T16:00:00+09:00",
+   "provider": "google",
+   "added": "2026-10-30T01:51:46+09:00",
+   "decode_v2": true,
+   "image_checked": true,
+   "image_v4": true,
+   "shop": false,
+   "shop_name": null
+  },
+  {
    "id": "9e237212e63da517",
    "title": "「月島もんじゃ たまとや」新業態で名古屋ハエラに東海初出店、丸ごと明太子の名物もんじゃ焼き＆割烹料理",
    "link": "https://www.fashion-press.net/news/147021",
@@ -4023,6 +4057,23 @@
    "image_v4": true,
    "shop": false,
    "shop_name": null
+  },
+  {
+   "id": "385fa67a9d65c73d",
+   "title": "美術館のようなホテルが誕生！名古屋城そばのラグジュアリーホテル「エスパシオ ナゴヤキャッスル」の豪華絢爛なアートワークを撮って出し！",
+   "link": "https://www.walkerplus.com/article/1296875/",
+   "source": "ウォーカープラス",
+   "image": "https://news.walkerplus.com/article/1296875/15403644_615.jpg",
+   "category": "wadai",
+   "area": "名古屋",
+   "published": "2026-10-24T16:00:00+09:00",
+   "provider": "google",
+   "added": "2026-10-30T01:51:46+09:00",
+   "decode_v2": true,
+   "image_checked": true,
+   "image_v4": true,
+   "shop": true,
+   "shop_name": "エスパシオ ナゴヤキャッスル"
   },
   {
    "id": "71744003aa3cf3b0",
@@ -6410,57 +6461,6 @@
    "image_v4": true,
    "shop": true,
    "shop_name": "築地すしくろ"
-  },
-  {
-   "id": "069d90812bf968fb",
-   "title": "注文から約30秒の高速提供…うどん&きしめんが1杯330円の食堂 早い・安い・うまいの三拍子揃い愛される（東海テレビ）",
-   "link": "https://www.tokai-tv.com/tokainews/feature/article_20261021_48878",
-   "source": "東海テレビ放送",
-   "image": null,
-   "category": "yasuuma",
-   "area": "東海",
-   "published": "2026-10-21T17:40:00+09:00",
-   "provider": "google",
-   "added": "2026-10-22T11:31:52+09:00",
-   "decode_v2": true,
-   "image_checked": true,
-   "image_v4": true,
-   "shop": false,
-   "shop_name": null
-  },
-  {
-   "id": "ebcb5670e84498b5",
-   "title": "人気No.1メニューがパワーアップ！「黒みつきな粉餅ソルビン」限定発売",
-   "link": "https://www.walkerplus.com/article/105892/",
-   "source": "ウォーカープラス",
-   "image": "https://news.walkerplus.com/article/105892/586274_615.jpg",
-   "category": "chain",
-   "area": "東海",
-   "published": "2026-10-21T17:39:50+09:00",
-   "provider": "google",
-   "added": "2026-10-24T09:44:47+09:00",
-   "decode_v2": true,
-   "image_checked": true,
-   "image_v4": true,
-   "shop": false,
-   "shop_name": null
-  },
-  {
-   "id": "3dd680cc8d578108",
-   "title": "覚王山発のとんかつ専門店『わだ福』が西区・四間道にオープン",
-   "link": "https://jouhou.nagoya/wadafuku-shikemichi/",
-   "source": "名古屋情報通",
-   "image": "https://jouhou.nagoya/wp-content/uploads/2022/04/wadafuku-kakuouzan09-600x450.jpg",
-   "category": "shinten",
-   "area": "名古屋",
-   "published": "2026-10-21T17:09:57+09:00",
-   "provider": "google",
-   "added": "2026-10-21T18:32:41+09:00",
-   "decode_v2": true,
-   "image_checked": true,
-   "image_v4": true,
-   "shop": true,
-   "shop_name": "わだ福"
   }
  ]
 }
