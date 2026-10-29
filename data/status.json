@@ -1,14 +1,15 @@
 {
- "updated": "2026-10-30T01:51:46+09:00",
- "items": 375,
- "with_image": 347,
- "google_decode_ok": 28,
+ "updated": "2026-10-30T02:46:18+09:00",
+ "items": 376,
+ "with_image": 348,
+ "google_decode_ok": 27,
  "google_decode_failed": 0,
  "google_decode_samples": [],
  "image_failures": [
   "www.at-s.com: HTTPError: HTTP Error 405: Not Allowed",
   "media.unisba.ac.id: HTTPError: HTTP Error 403: Forbidden",
   "media.unisba.ac.id: HTTPError: HTTP Error 403: Forbidden",
-  "media.unisba.ac.id: HTTPError: HTTP Error 403: Forbidden"
+  "media.unisba.ac.id: HTTPError: HTTP Error 403: Forbidden",
+  "f-weeklyweb.com: og:image なし (72172 文字)"
  ]
 }

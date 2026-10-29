@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-30T01:51:46+09:00",
+ "updated": "2026-10-30T02:46:18+09:00",
  "items": [
   {
    "id": "9922fe2f5b8c5828",
@@ -1817,6 +1817,23 @@
    "shop_name": null
   },
   {
+   "id": "1fc234f61fad2e3d",
+   "title": "定番だからこそ超激戦！いま名古屋で押さえておくべき醤油ラーメン5杯とは？",
+   "link": "https://www.walkerplus.com/article/1009184/",
+   "source": "ウォーカープラス",
+   "image": "https://news.walkerplus.com/article/1009184/10075119_615.jpg",
+   "category": "wadai",
+   "area": "名古屋",
+   "published": "2026-10-27T16:00:00+09:00",
+   "provider": "google",
+   "added": "2026-10-30T02:46:18+09:00",
+   "decode_v2": true,
+   "image_checked": true,
+   "image_v4": true,
+   "shop": true,
+   "shop_name": null
+  },
+  {
    "id": "800a28dab2e6cf09",
    "title": "ファミリーマート３店舗で「ファミマフードドライブ」を開始します！",
    "link": "https://prtimes.jp/main/html/rd/p/000000103.000164008.html",
@@ -3519,6 +3536,23 @@
    "shop_name": null
   },
   {
+   "id": "48118b3f8ed792fb",
+   "title": "コスパ最高の神保町の安いランチ特集",
+   "link": "https://howtravel-gourmet.com/kanto/tokyo/jinbocho/jinboucho-cheap-lunch/",
+   "source": "めしレポ",
+   "image": "https://howtravel-gourmet.com/wp-content/uploads/2024/10/jinboucho-cheap-lunch.jpg",
+   "category": "yasuuma",
+   "area": "東海",
+   "published": "2026-10-25T16:00:00+09:00",
+   "provider": "google",
+   "added": "2026-10-30T02:46:18+09:00",
+   "decode_v2": true,
+   "image_checked": true,
+   "image_v4": true,
+   "shop": false,
+   "shop_name": null
+  },
+  {
    "id": "055dbe1201d41601",
    "title": "サンリオハウス カフェ併設常設店 in 名古屋 10月29日オープン!",
    "link": "https://collabo-cafe.com/events/collabo/sanrio-house-nagoya-parco-cafe-2026/",
@@ -4637,6 +4671,23 @@
    "image_v4": true,
    "shop": true,
    "shop_name": "サンリオハウス"
+  },
+  {
+   "id": "68c08cbf04522245",
+   "title": "スペアリブ“豚かぶり焼き”が名物! 名古屋・栄に新居酒屋",
+   "link": "https://www.walkerplus.com/article/7225/",
+   "source": "ウォーカープラス",
+   "image": "https://news.walkerplus.com/article/7225/17922_615.jpg",
+   "category": "wadai",
+   "area": "名古屋",
+   "published": "2026-10-23T16:00:00+09:00",
+   "provider": "google",
+   "added": "2026-10-30T02:46:18+09:00",
+   "decode_v2": true,
+   "image_checked": true,
+   "image_v4": true,
+   "shop": true,
+   "shop_name": null
   },
   {
    "id": "e702ccb26126df05",
@@ -6427,40 +6478,6 @@
    "image_v4": true,
    "shop": false,
    "shop_name": null
-  },
-  {
-   "id": "3c58dc77997f0715",
-   "title": "朝限定500円ラーメンセット！名古屋「スガキヤ」が約20年ぶり関東出店、本厚木へ",
-   "link": "https://report.iko-yo.net/articles/35028",
-   "source": "いこーよニュース",
-   "image": "https://d28w2qw7dtr435.cloudfront.net/uploaded/cover_images/images/35125/normal.jpg?1792573019",
-   "category": "wadai",
-   "area": "名古屋",
-   "published": "2026-10-21T18:28:12+09:00",
-   "provider": "google",
-   "added": "2026-10-21T18:32:41+09:00",
-   "decode_v2": true,
-   "image_checked": true,
-   "image_v4": true,
-   "shop": false,
-   "shop_name": null
-  },
-  {
-   "id": "71b69dd5c90153f5",
-   "title": "「築地すしくろ」名古屋ハエラに東海初出店、本格江戸寿司＆お酒を気軽に楽しむ“寿司酒場”",
-   "link": "https://www.fashion-press.net/news/147005",
-   "source": "ファッションプレス",
-   "image": "https://www.fashion-press.net/img/news/147005/top.jpg?1780405184",
-   "category": "shinten",
-   "area": "名古屋",
-   "published": "2026-10-21T18:11:39+09:00",
-   "provider": "google",
-   "added": "2026-10-22T03:33:45+09:00",
-   "decode_v2": true,
-   "image_checked": true,
-   "image_v4": true,
-   "shop": true,
-   "shop_name": "築地すしくろ"
   }
  ]
 }
