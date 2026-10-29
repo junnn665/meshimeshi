@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-29T10:45:37+00:00",
+ "updated": "2026-10-29T11:42:01+00:00",
  "days": [
   "2026-10-16",
   "2026-10-17",
@@ -375,6 +375,47 @@
    ]
   },
   {
+   "label": "チョコ",
+   "q": "チョコ",
+   "kind": "dish",
+   "recent": 2,
+   "base_per_day": 0.0,
+   "ratio": 2.5,
+   "new": true,
+   "daily": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    2,
+    0,
+    0
+   ],
+   "articles": [
+    {
+     "id": "45fb1bba44e2459c",
+     "title": "【10月27日～発売】セブン・ファミマ・ローソン新作スイーツ特集｜「ドバイチョコスタイルクレープ」・「Uchi Café×ゴディバ ショコラロールケーキ」など注目デザートまとめ",
+     "link": "https://entabe.jp/61968/seven-eleven-familymart-lawson-new-sweets-october-2026",
+     "source": "えん食べ [グルメニュース]",
+     "image": "https://image.entabe.jp/upload/20261027/images/thumbnail_20261027_web_1.jpg"
+    },
+    {
+     "id": "8b2260d1373e8aaf",
+     "title": "今が食べごろ!!2026年初夏に食べられるチョコミント商品を一挙紹介。パフェにドリンク、キャンディに焼き菓子まで！",
+     "link": "https://www.walkerplus.com/article/1403083/",
+     "source": "ウォーカープラス",
+     "image": "https://news.walkerplus.com/article/1403083/17492811_615.jpg"
+    }
+   ]
+  },
+  {
    "label": "パン",
    "q": "パン",
    "kind": "dish",
@@ -508,47 +549,6 @@
      "link": "https://topics.smt.docomo.ne.jp/article/minkei/region/minkei-kawaguchi313",
      "source": "ｄメニューニュース",
      "image": "https://img.topics.smt.news.goo.ne.jp/picture/minkei/m_minkei-kawaguchi313.jpg"
-    }
-   ]
-  },
-  {
-   "label": "中華",
-   "q": "町中華",
-   "kind": "dish",
-   "recent": 2,
-   "base_per_day": 0.09,
-   "ratio": 1.96,
-   "new": false,
-   "daily": [
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    1,
-    1,
-    1,
-    0
-   ],
-   "articles": [
-    {
-     "id": "ec6e376f9134b630",
-     "title": "【セブン】岐阜・愛知・三重でしか買えない秋の新作。783kcalの「とん玉炒飯」などボリューム満点な3品が美味しそう",
-     "link": "https://limo.media/articles/-/143246",
-     "source": "LIMO | くらしとお金の経済メディア",
-     "image": "https://limo.ismcdn.jp/mwimgs/0/7/1200w/img_0719c6db2acec8bfa650d642d3a2ea88251743.jpg"
-    },
-    {
-     "id": "95e638f9818e0bb5",
-     "title": "町中華で飲ろうぜファンイベントが11月22日に名古屋で開催へ 東京以外で初",
-     "link": "https://news.dellows.jp/587281/?from=related-reading-list",
-     "source": "Dellows News",
-     "image": "https://news.dellows.jp/wp-content/uploads/2026/10/587281_1.jpg"
     }
    ]
   }

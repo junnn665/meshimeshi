@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-29T19:45:06+09:00",
+ "updated": "2026-10-29T20:41:29+09:00",
  "items": [
   {
    "id": "fc793d2769973221",
@@ -1641,6 +1641,40 @@
    "published": "2026-10-27T16:00:00+09:00",
    "provider": "google",
    "added": "2026-10-29T19:45:06+09:00",
+   "decode_v2": true,
+   "image_checked": true,
+   "image_v4": true,
+   "shop": false,
+   "shop_name": null
+  },
+  {
+   "id": "340e7936e6617a53",
+   "title": "名古屋で味わうべき味噌ラーメン5選！編集部も唸る「本当に旨い」一杯とは",
+   "link": "https://www.walkerplus.com/article/1008749/",
+   "source": "ウォーカープラス",
+   "image": "https://news.walkerplus.com/article/1008749/10082227_615.jpg",
+   "category": "wadai",
+   "area": "名古屋",
+   "published": "2026-10-27T16:00:00+09:00",
+   "provider": "google",
+   "added": "2026-10-29T20:41:29+09:00",
+   "decode_v2": true,
+   "image_checked": true,
+   "image_v4": true,
+   "shop": false,
+   "shop_name": null
+  },
+  {
+   "id": "8b2260d1373e8aaf",
+   "title": "今が食べごろ!!2026年初夏に食べられるチョコミント商品を一挙紹介。パフェにドリンク、キャンディに焼き菓子まで！",
+   "link": "https://www.walkerplus.com/article/1403083/",
+   "source": "ウォーカープラス",
+   "image": "https://news.walkerplus.com/article/1403083/17492811_615.jpg",
+   "category": "wadai",
+   "area": "東海",
+   "published": "2026-10-27T16:00:00+09:00",
+   "provider": "google",
+   "added": "2026-10-29T20:41:29+09:00",
    "decode_v2": true,
    "image_checked": true,
    "image_v4": true,
@@ -6349,6 +6383,43 @@
    "image_v4": true,
    "shop": true,
    "shop_name": "ぴよりん"
+  },
+  {
+   "id": "8de534a017de6229",
+   "title": "【名古屋タカシマヤ】グルメ、コスメ、雑貨まで、暮らしを豊かにする“米の可能性”を発信「お米フェスティバル！」を初開催！",
+   "link": "https://prtimes.jp/main/html/rd/p/000000510.000047031.html",
+   "source": "PR TIMES",
+   "image": "https://prcdn.freetls.fastly.net/release_image/47031/510/47031-510-77d5ea556d89813c7ea95d2272dc20c3-750x750.jpg?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260",
+   "category": "event",
+   "area": "名古屋",
+   "published": "2026-10-21T12:59:00+09:00",
+   "provider": "bing",
+   "added": "2026-10-29T20:41:29+09:00",
+   "image_checked": true,
+   "image_v4": true,
+   "shop": false,
+   "shop_name": null,
+   "venue": "ジェイアール名古屋タカシマヤ",
+   "lat": 35.17123,
+   "lng": 136.88272,
+   "place": "indoor",
+   "group": "8ce4dbd90a54"
+  },
+  {
+   "id": "1b73034a8e83da4e",
+   "title": "名古屋の喫茶店で、妻と二人のモーニング",
+   "link": "https://note.com/aoyama_kiyotoshi/n/n898a852b6d7b",
+   "source": "note",
+   "image": "https://assets.st-note.com/production/uploads/images/326737981/rectangle_large_type_2_471456cce57a94c287e959256949f0e3.png?fit=bounds&quality=85&width=1280",
+   "category": "yasuuma",
+   "area": "名古屋",
+   "published": "2026-10-21T04:15:00+09:00",
+   "provider": "bing",
+   "added": "2026-10-29T20:41:29+09:00",
+   "image_checked": true,
+   "image_v4": true,
+   "shop": true,
+   "shop_name": null
   }
  ]
 }
