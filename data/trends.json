@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-29T17:46:54+00:00",
+ "updated": "2026-10-29T18:46:52+00:00",
  "days": [
   "2026-10-17",
   "2026-10-18",
@@ -368,6 +368,54 @@
    ]
   },
   {
+   "label": "ケーキ",
+   "q": "ケーキ",
+   "kind": "dish",
+   "recent": 4,
+   "base_per_day": 0.45,
+   "ratio": 1.9,
+   "new": false,
+   "daily": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    2,
+    1,
+    0,
+    0,
+    1,
+    1,
+    2,
+    2,
+    0
+   ],
+   "articles": [
+    {
+     "id": "9b727ae02a69b923",
+     "title": "【10月27日〜発売】セブン・ファミマ・ローソン新作スイーツ特集｜「ドバイチョコスタイルクレープ」・「Uchi Café×ゴディバ ショコラロールケーキ」など注目デザートまとめ",
+     "link": "https://topics.smt.docomo.ne.jp/amp/article/entabe/trend/entabe-61968",
+     "source": "ｄメニューニュース",
+     "image": "https://img.topics.smt.news.goo.ne.jp/picture/entabe/m_entabe-61968.jpg"
+    },
+    {
+     "id": "0bfe015338bf4111",
+     "title": "愛情あふれる爆盛り中華vs天才のチーズケーキ",
+     "link": "https://tver.jp/episodes/epav4cv93r",
+     "source": "TVer",
+     "image": null
+    },
+    {
+     "id": "89c3436b3a18b83e",
+     "title": "東海オンエアりょうのR BRANDが贈る、2026年のクリスマス 華やかな限定ケーキと、冬の夜を彩る特別なコーヒーが登場",
+     "link": "https://prtimes.jp/main/html/rd/p/000000016.000109471.html",
+     "source": "PR TIMES",
+     "image": "https://prcdn.freetls.fastly.net/release_image/109471/16/109471-16-1843672a81e7682c0bbfd8f4a0138078-2525x1458.jpg?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260"
+    }
+   ]
+  },
+  {
    "label": "弁当",
    "q": "弁当",
    "kind": "dish",
@@ -453,54 +501,6 @@
      "link": "https://news.infoseek.co.jp/amp/article/otonanswer_404501/",
      "source": "Infoseek",
      "image": "https://media.image.infoseek.co.jp/isnews/photos/otonanswer/otonanswer_404501_0-enlarge.jpg"
-    }
-   ]
-  },
-  {
-   "label": "ケーキ",
-   "q": "ケーキ",
-   "kind": "dish",
-   "recent": 4,
-   "base_per_day": 0.55,
-   "ratio": 1.71,
-   "new": false,
-   "daily": [
-    0,
-    0,
-    0,
-    0,
-    1,
-    2,
-    1,
-    0,
-    0,
-    1,
-    1,
-    2,
-    2,
-    0
-   ],
-   "articles": [
-    {
-     "id": "9b727ae02a69b923",
-     "title": "【10月27日〜発売】セブン・ファミマ・ローソン新作スイーツ特集｜「ドバイチョコスタイルクレープ」・「Uchi Café×ゴディバ ショコラロールケーキ」など注目デザートまとめ",
-     "link": "https://topics.smt.docomo.ne.jp/amp/article/entabe/trend/entabe-61968",
-     "source": "ｄメニューニュース",
-     "image": "https://img.topics.smt.news.goo.ne.jp/picture/entabe/m_entabe-61968.jpg"
-    },
-    {
-     "id": "0bfe015338bf4111",
-     "title": "愛情あふれる爆盛り中華vs天才のチーズケーキ",
-     "link": "https://tver.jp/episodes/epav4cv93r",
-     "source": "TVer",
-     "image": null
-    },
-    {
-     "id": "89c3436b3a18b83e",
-     "title": "東海オンエアりょうのR BRANDが贈る、2026年のクリスマス 華やかな限定ケーキと、冬の夜を彩る特別なコーヒーが登場",
-     "link": "https://prtimes.jp/main/html/rd/p/000000016.000109471.html",
-     "source": "PR TIMES",
-     "image": "https://prcdn.freetls.fastly.net/release_image/109471/16/109471-16-1843672a81e7682c0bbfd8f4a0138078-2525x1458.jpg?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260"
     }
    ]
   },
