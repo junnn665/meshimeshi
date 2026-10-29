@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-30T03:46:24+09:00",
+ "updated": "2026-10-30T04:48:02+09:00",
  "items": [
   {
    "id": "2073e8b6f4b7d34c",
@@ -2706,6 +2706,40 @@
    "shop_name": null
   },
   {
+   "id": "2da208c7eaa4b3cd",
+   "title": "名古屋屈指の人気スイーツ店4店舗が今夏食べたいプレミアムかき氷を考案！",
+   "link": "https://www.walkerplus.com/article/1405151/",
+   "source": "ウォーカープラス",
+   "image": "https://news.walkerplus.com/article/1405151/17572066_615.jpg",
+   "category": "wadai",
+   "area": "名古屋",
+   "published": "2026-10-26T16:00:00+09:00",
+   "provider": "google",
+   "added": "2026-10-30T04:48:02+09:00",
+   "decode_v2": true,
+   "image_checked": true,
+   "image_v4": true,
+   "shop": false,
+   "shop_name": null
+  },
+  {
+   "id": "db320c2ae1461312",
+   "title": "「ハエラ」おすすめレストラン＆カフェ特集、“名古屋栄駅直結”の注目グルメスポットは？",
+   "link": "https://www.fashion-press.net/news/147003",
+   "source": "ファッションプレス",
+   "image": "https://www.fashion-press.net/img/news/147003/top.jpg?1780468450",
+   "category": "wadai",
+   "area": "名古屋",
+   "published": "2026-10-26T15:54:09+09:00",
+   "provider": "google",
+   "added": "2026-10-30T04:48:02+09:00",
+   "decode_v2": true,
+   "image_checked": true,
+   "image_v4": true,
+   "shop": false,
+   "shop_name": null
+  },
+  {
    "id": "9e237212e63da517",
    "title": "「月島もんじゃ たまとや」新業態で名古屋ハエラに東海初出店、丸ごと明太子の名物もんじゃ焼き＆割烹料理",
    "link": "https://www.fashion-press.net/news/147021",
@@ -2741,6 +2775,23 @@
    "start": "2026-11-28",
    "end": "2026-11-28",
    "group": "025caa1cce47"
+  },
+  {
+   "id": "71b69dd5c90153f5",
+   "title": "「築地すしくろ」名古屋ハエラに東海初出店、本格江戸寿司＆お酒を気軽に楽しむ“寿司酒場”",
+   "link": "https://www.fashion-press.net/news/147005",
+   "source": "ファッションプレス",
+   "image": "https://www.fashion-press.net/img/news/147005/top.jpg?1780405184",
+   "category": "shinten",
+   "area": "名古屋",
+   "published": "2026-10-26T15:11:04+09:00",
+   "provider": "google",
+   "added": "2026-10-30T04:48:02+09:00",
+   "decode_v2": true,
+   "image_checked": true,
+   "image_v4": true,
+   "shop": true,
+   "shop_name": "築地すしくろ"
   },
   {
    "id": "f4e7005176901ab5",
@@ -6358,57 +6409,6 @@
    "image_checked": true,
    "image_v4": true,
    "shop": true,
-   "shop_name": null
-  },
-  {
-   "id": "f2688191da6ff772",
-   "title": "HUBアスティ静岡店が、和栗を味わう全国一斉ランチ会「BIKKURI LUNCH2026」の静岡会場に！東海軒の和栗ご飯弁当を楽しもう (2026年10月21日掲載)",
-   "link": "https://getnews.jp/archives/3750281",
-   "source": "ガジェット通信",
-   "image": "https://straightpress.jp/wp-content/uploads/2026/10/Tana2610211224main.jpg",
-   "category": "wadai",
-   "area": "静岡",
-   "published": "2026-10-21T19:15:00+09:00",
-   "provider": "google",
-   "added": "2026-10-21T20:32:56+09:00",
-   "decode_v2": true,
-   "image_checked": true,
-   "image_v4": true,
-   "shop": true,
-   "shop_name": "BIKKURI LUNCH2026"
-  },
-  {
-   "id": "f30f30a7d09af38a",
-   "title": "ラーメン",
-   "link": "https://www.gummaumaimono.info/category/%E3%83%A9%E3%83%BC%E3%83%A1%E3%83%B3",
-   "source": "ぐんぐるブログ",
-   "image": "https://cdn.image.st-hatena.com/image/scale/c2a3001be0cf0057dfdbeb7e4514545e89dd5c76/backend=imagemagick;enlarge=0;height=1000;version=1;width=1200/https%3A%2F%2Fcdn.user.blog.st-hatena.com%2Fdefault_entry_og_image%2F156071939%2F159118449038555",
-   "category": "shinten",
-   "area": "東海",
-   "published": "2026-10-21T19:06:32+09:00",
-   "provider": "google",
-   "added": "2026-10-27T06:32:35+09:00",
-   "decode_v2": true,
-   "image_checked": true,
-   "image_v4": true,
-   "shop": false,
-   "shop_name": null
-  },
-  {
-   "id": "63594b6c8ed16798",
-   "title": "名鉄「豊川稲荷御開帳きっぷ」発売へ 72年ぶりの秘仏公開でにぎわい期待 特設サイトでご当地グルメなどの情報も発信中",
-   "link": "https://news.ntv.co.jp/n/ctv/category/life/cte4fb8af839c0466c85b6fc98a112a1bb",
-   "source": "日テレNEWS NNN",
-   "image": "https://image.gallery.play.jp/ctv-news/articles/1023b1c24faf43bdb443113d86d8dc1e/138b54aa-166c-408d-8a9b-274b321eb522.jpg?w=1200",
-   "category": "chain",
-   "area": "愛知",
-   "published": "2026-10-21T19:00:00+09:00",
-   "provider": "google",
-   "added": "2026-10-24T19:27:24+09:00",
-   "decode_v2": true,
-   "image_checked": true,
-   "image_v4": true,
-   "shop": false,
    "shop_name": null
   }
  ]

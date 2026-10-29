@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-29T18:46:52+00:00",
+ "updated": "2026-10-29T19:48:33+00:00",
  "days": [
   "2026-10-17",
   "2026-10-18",
@@ -23,8 +23,8 @@
    "q": "寿司",
    "kind": "dish",
    "recent": 7,
-   "base_per_day": 0.27,
-   "ratio": 4.12,
+   "base_per_day": 0.36,
+   "ratio": 3.59,
    "new": false,
    "daily": [
     0,
@@ -36,7 +36,7 @@
     2,
     0,
     0,
-    0,
+    1,
     1,
     6,
     1,
@@ -286,6 +286,54 @@
    ]
   },
   {
+   "label": "弁当",
+   "q": "弁当",
+   "kind": "dish",
+   "recent": 5,
+   "base_per_day": 0.55,
+   "ratio": 2.09,
+   "new": false,
+   "daily": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    2,
+    0,
+    1,
+    1,
+    2,
+    0,
+    3,
+    2,
+    0
+   ],
+   "articles": [
+    {
+     "id": "0e74c01989a29116",
+     "title": "猿投農林高、メグリアと共同開発した地産地消弁当と総菜をお披露目",
+     "link": "https://toyota.keizai.biz/photoflash/1408/",
+     "source": "豊田経済新聞",
+     "image": "https://images.keizai.biz/toyota_keizai/photonews/1793267034_b.jpg"
+    },
+    {
+     "id": "992e1cf3786c8ff5",
+     "title": "「ほっともっと」ハンバーグもおかずも楽しめる『デミハンバーグミックス弁当』『和風ハンバーグミックス弁当』新発売",
+     "link": "https://prtimes.jp/main/html/rd/p/000001707.000054093.html",
+     "source": "PR TIMES",
+     "image": "https://prcdn.freetls.fastly.net/release_image/54093/1707/54093-1707-ad77fe43b479b0b4a1801c56e075c2cc-1080x1440.jpg?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260"
+    },
+    {
+     "id": "7e063d5238c5e3b8",
+     "title": "ローソンストア100、財布にうれしい「デカ盛りチャレンジ」を2週間実施。増量した弁当やサンドイッチなど12点",
+     "link": "https://gourmet.watch.impress.co.jp/docs/news/2151859.html",
+     "source": "グルメ Watch",
+     "image": "https://gourmet.watch.impress.co.jp/img/grw/list/2151/859/01.jpg"
+    }
+   ]
+  },
+  {
    "label": "クレープ",
    "q": "クレープ",
    "kind": "dish",
@@ -412,54 +460,6 @@
      "link": "https://prtimes.jp/main/html/rd/p/000000016.000109471.html",
      "source": "PR TIMES",
      "image": "https://prcdn.freetls.fastly.net/release_image/109471/16/109471-16-1843672a81e7682c0bbfd8f4a0138078-2525x1458.jpg?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260"
-    }
-   ]
-  },
-  {
-   "label": "弁当",
-   "q": "弁当",
-   "kind": "dish",
-   "recent": 5,
-   "base_per_day": 0.64,
-   "ratio": 1.89,
-   "new": false,
-   "daily": [
-    0,
-    0,
-    0,
-    0,
-    1,
-    2,
-    0,
-    1,
-    1,
-    2,
-    0,
-    3,
-    2,
-    0
-   ],
-   "articles": [
-    {
-     "id": "0e74c01989a29116",
-     "title": "猿投農林高、メグリアと共同開発した地産地消弁当と総菜をお披露目",
-     "link": "https://toyota.keizai.biz/photoflash/1408/",
-     "source": "豊田経済新聞",
-     "image": "https://images.keizai.biz/toyota_keizai/photonews/1793267034_b.jpg"
-    },
-    {
-     "id": "992e1cf3786c8ff5",
-     "title": "「ほっともっと」ハンバーグもおかずも楽しめる『デミハンバーグミックス弁当』『和風ハンバーグミックス弁当』新発売",
-     "link": "https://prtimes.jp/main/html/rd/p/000001707.000054093.html",
-     "source": "PR TIMES",
-     "image": "https://prcdn.freetls.fastly.net/release_image/54093/1707/54093-1707-ad77fe43b479b0b4a1801c56e075c2cc-1080x1440.jpg?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260"
-    },
-    {
-     "id": "7e063d5238c5e3b8",
-     "title": "ローソンストア100、財布にうれしい「デカ盛りチャレンジ」を2週間実施。増量した弁当やサンドイッチなど12点",
-     "link": "https://gourmet.watch.impress.co.jp/docs/news/2151859.html",
-     "source": "グルメ Watch",
-     "image": "https://gourmet.watch.impress.co.jp/img/grw/list/2151/859/01.jpg"
     }
    ]
   },
