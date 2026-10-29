@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-29T13:45:11+09:00",
+ "updated": "2026-10-29T14:42:13+09:00",
  "items": [
   {
    "id": "ae5e17ef06719703",
@@ -3087,6 +3087,23 @@
    "start": "2026-10-25",
    "end": "2026-10-25",
    "group": "216e1d665fa9"
+  },
+  {
+   "id": "fef57e86a5f80173",
+   "title": "九州のご当地ラーメンが名古屋駅ホームの自販機に！",
+   "link": "https://www.walkerplus.com/article/41960/",
+   "source": "ウォーカープラス",
+   "image": "https://news.walkerplus.com/article/41960/219346_615.jpg",
+   "category": "wadai",
+   "area": "名古屋",
+   "published": "2026-10-25T12:14:09+09:00",
+   "provider": "google",
+   "added": "2026-10-29T14:42:13+09:00",
+   "decode_v2": true,
+   "image_checked": true,
+   "image_v4": true,
+   "shop": false,
+   "shop_name": null
   },
   {
    "id": "d37ed691c90e00c7",
@@ -6340,40 +6357,6 @@
    "published": "2026-10-21T11:45:24+09:00",
    "provider": "prtimes",
    "added": "2026-10-21T13:32:26+09:00",
-   "image_checked": true,
-   "image_v4": true,
-   "shop": false,
-   "shop_name": null
-  },
-  {
-   "id": "d8646e0b1de50acb",
-   "title": "【今週発売】コンビニの注目新作スイーツ10選♪ゴディバコラボ＆スヌーピー食べマスも",
-   "link": "https://report.iko-yo.net/articles/34966",
-   "source": "いこーよニュース",
-   "image": "https://d28w2qw7dtr435.cloudfront.net/uploaded/cover_images/images/35050/normal.png?1792550244",
-   "category": "conbini",
-   "area": "東海",
-   "published": "2026-10-21T11:40:46+09:00",
-   "provider": "google",
-   "added": "2026-10-21T12:31:02+09:00",
-   "decode_v2": true,
-   "image_checked": true,
-   "image_v4": true,
-   "shop": false,
-   "shop_name": null
-  },
-  {
-   "id": "33ab2c31ca7a8571",
-   "title": "【2026年10月第3週】コンビニサンドイッチ・コンビニパンの新商品！BLTサンドやじゃりぱん、テリヤキバーガーなどまとめ",
-   "link": "https://mognavi.jp/news/matome/gen-newProduct-29088/",
-   "source": "もぐナビ",
-   "image": "https://img1.esimg.jp/blog/wp-content/uploads/2026/10/gen-newProduct-29088.jpg?ts=1792548900000",
-   "category": "conbini",
-   "area": "東海",
-   "published": "2026-10-21T11:20:28+09:00",
-   "provider": "google",
-   "added": "2026-10-24T12:29:43+09:00",
-   "decode_v2": true,
    "image_checked": true,
    "image_v4": true,
    "shop": false,
