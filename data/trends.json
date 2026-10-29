@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-29T12:50:20+00:00",
+ "updated": "2026-10-29T13:58:52+00:00",
  "days": [
   "2026-10-16",
   "2026-10-17",
@@ -70,9 +70,9 @@
    "label": "ローソン",
    "q": "ローソン",
    "kind": "chain",
-   "recent": 7,
+   "recent": 8,
    "base_per_day": 0.45,
-   "ratio": 3.17,
+   "ratio": 3.6,
    "new": false,
    "daily": [
     0,
@@ -88,9 +88,16 @@
     1,
     2,
     5,
-    0
+    1
    ],
    "articles": [
+    {
+     "id": "9b727ae02a69b923",
+     "title": "【10月27日〜発売】セブン・ファミマ・ローソン新作スイーツ特集｜「ドバイチョコスタイルクレープ」・「Uchi Café×ゴディバ ショコラロールケーキ」など注目デザートまとめ",
+     "link": "https://topics.smt.docomo.ne.jp/amp/article/entabe/trend/entabe-61968",
+     "source": "ｄメニューニュース",
+     "image": "https://img.topics.smt.news.goo.ne.jp/picture/entabe/m_entabe-61968.jpg"
+    },
     {
      "id": "ba59f2a39b3395a0",
      "title": "オリコンニュース：ローソンストア100「デカ盛りチャレンジ」今年3回目の開催決定 値段そのままハムの量が約1.5倍になった“ハムサンド”など全12品",
@@ -104,13 +111,102 @@
      "link": "https://373news.com/news/national/oricon/detail/2489347",
      "source": "南日本新聞",
      "image": "https://373news.com/_news/oricon/photo/main/20261028_140125_size640wh_84586722.jpg"
+    }
+   ]
+  },
+  {
+   "label": "チョコ",
+   "q": "チョコ",
+   "kind": "dish",
+   "recent": 3,
+   "base_per_day": 0.0,
+   "ratio": 3.5,
+   "new": true,
+   "daily": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    2,
+    0,
+    1
+   ],
+   "articles": [
+    {
+     "id": "9b727ae02a69b923",
+     "title": "【10月27日〜発売】セブン・ファミマ・ローソン新作スイーツ特集｜「ドバイチョコスタイルクレープ」・「Uchi Café×ゴディバ ショコラロールケーキ」など注目デザートまとめ",
+     "link": "https://topics.smt.docomo.ne.jp/amp/article/entabe/trend/entabe-61968",
+     "source": "ｄメニューニュース",
+     "image": "https://img.topics.smt.news.goo.ne.jp/picture/entabe/m_entabe-61968.jpg"
     },
     {
-     "id": "7e063d5238c5e3b8",
-     "title": "ローソンストア100、財布にうれしい「デカ盛りチャレンジ」を2週間実施。増量した弁当やサンドイッチなど12点",
-     "link": "https://gourmet.watch.impress.co.jp/docs/news/2151859.html",
-     "source": "グルメ Watch",
-     "image": "https://gourmet.watch.impress.co.jp/img/grw/list/2151/859/01.jpg"
+     "id": "45fb1bba44e2459c",
+     "title": "【10月27日～発売】セブン・ファミマ・ローソン新作スイーツ特集｜「ドバイチョコスタイルクレープ」・「Uchi Café×ゴディバ ショコラロールケーキ」など注目デザートまとめ",
+     "link": "https://entabe.jp/61968/seven-eleven-familymart-lawson-new-sweets-october-2026",
+     "source": "えん食べ [グルメニュース]",
+     "image": "https://image.entabe.jp/upload/20261027/images/thumbnail_20261027_web_1.jpg"
+    },
+    {
+     "id": "8b2260d1373e8aaf",
+     "title": "今が食べごろ!!2026年初夏に食べられるチョコミント商品を一挙紹介。パフェにドリンク、キャンディに焼き菓子まで！",
+     "link": "https://www.walkerplus.com/article/1403083/",
+     "source": "ウォーカープラス",
+     "image": "https://news.walkerplus.com/article/1403083/17492811_615.jpg"
+    }
+   ]
+  },
+  {
+   "label": "クレープ",
+   "q": "クレープ",
+   "kind": "dish",
+   "recent": 3,
+   "base_per_day": 0.0,
+   "ratio": 3.5,
+   "new": true,
+   "daily": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    1,
+    1
+   ],
+   "articles": [
+    {
+     "id": "9b727ae02a69b923",
+     "title": "【10月27日〜発売】セブン・ファミマ・ローソン新作スイーツ特集｜「ドバイチョコスタイルクレープ」・「Uchi Café×ゴディバ ショコラロールケーキ」など注目デザートまとめ",
+     "link": "https://topics.smt.docomo.ne.jp/amp/article/entabe/trend/entabe-61968",
+     "source": "ｄメニューニュース",
+     "image": "https://img.topics.smt.news.goo.ne.jp/picture/entabe/m_entabe-61968.jpg"
+    },
+    {
+     "id": "64ef1e0ee9037240",
+     "title": "物価高でも、盛るのはやめません。 カツ2枚！サンド3組！クレープもBIG！“デカくてうれしい”全12品！ ローソンストア100「デカ盛りチャレンジ」2026年11月4日（水）から",
+     "link": "https://prtimes.jp/main/html/rd/p/000000595.000025635.html",
+     "source": "PR TIMES",
+     "image": "https://prcdn.freetls.fastly.net/release_image/25635/595/25635-595-a3c08778fa582b104f74a1975ef47e98-1280x720.jpg?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260"
+    },
+    {
+     "id": "45fb1bba44e2459c",
+     "title": "【10月27日～発売】セブン・ファミマ・ローソン新作スイーツ特集｜「ドバイチョコスタイルクレープ」・「Uchi Café×ゴディバ ショコラロールケーキ」など注目デザートまとめ",
+     "link": "https://entabe.jp/61968/seven-eleven-familymart-lawson-new-sweets-october-2026",
+     "source": "えん食べ [グルメニュース]",
+     "image": "https://image.entabe.jp/upload/20261027/images/thumbnail_20261027_web_1.jpg"
     }
    ]
   },
@@ -293,47 +389,6 @@
    ]
   },
   {
-   "label": "クレープ",
-   "q": "クレープ",
-   "kind": "dish",
-   "recent": 2,
-   "base_per_day": 0.0,
-   "ratio": 2.5,
-   "new": true,
-   "daily": [
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    1,
-    1,
-    0
-   ],
-   "articles": [
-    {
-     "id": "64ef1e0ee9037240",
-     "title": "物価高でも、盛るのはやめません。 カツ2枚！サンド3組！クレープもBIG！“デカくてうれしい”全12品！ ローソンストア100「デカ盛りチャレンジ」2026年11月4日（水）から",
-     "link": "https://prtimes.jp/main/html/rd/p/000000595.000025635.html",
-     "source": "PR TIMES",
-     "image": "https://prcdn.freetls.fastly.net/release_image/25635/595/25635-595-a3c08778fa582b104f74a1975ef47e98-1280x720.jpg?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260"
-    },
-    {
-     "id": "45fb1bba44e2459c",
-     "title": "【10月27日～発売】セブン・ファミマ・ローソン新作スイーツ特集｜「ドバイチョコスタイルクレープ」・「Uchi Café×ゴディバ ショコラロールケーキ」など注目デザートまとめ",
-     "link": "https://entabe.jp/61968/seven-eleven-familymart-lawson-new-sweets-october-2026",
-     "source": "えん食べ [グルメニュース]",
-     "image": "https://image.entabe.jp/upload/20261027/images/thumbnail_20261027_web_1.jpg"
-    }
-   ]
-  },
-  {
    "label": "おにぎり",
    "q": "おにぎり",
    "kind": "dish",
@@ -371,47 +426,6 @@
      "link": "https://mognavi.jp/news/matome/gen-newProduct-29450/",
      "source": "もぐナビ",
      "image": "https://img1.esimg.jp/blog/wp-content/uploads/2026/10/gen-newProduct-29450.jpg?ts=1793151900000"
-    }
-   ]
-  },
-  {
-   "label": "チョコ",
-   "q": "チョコ",
-   "kind": "dish",
-   "recent": 2,
-   "base_per_day": 0.0,
-   "ratio": 2.5,
-   "new": true,
-   "daily": [
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    2,
-    0,
-    0
-   ],
-   "articles": [
-    {
-     "id": "45fb1bba44e2459c",
-     "title": "【10月27日～発売】セブン・ファミマ・ローソン新作スイーツ特集｜「ドバイチョコスタイルクレープ」・「Uchi Café×ゴディバ ショコラロールケーキ」など注目デザートまとめ",
-     "link": "https://entabe.jp/61968/seven-eleven-familymart-lawson-new-sweets-october-2026",
-     "source": "えん食べ [グルメニュース]",
-     "image": "https://image.entabe.jp/upload/20261027/images/thumbnail_20261027_web_1.jpg"
-    },
-    {
-     "id": "8b2260d1373e8aaf",
-     "title": "今が食べごろ!!2026年初夏に食べられるチョコミント商品を一挙紹介。パフェにドリンク、キャンディに焼き菓子まで！",
-     "link": "https://www.walkerplus.com/article/1403083/",
-     "source": "ウォーカープラス",
-     "image": "https://news.walkerplus.com/article/1403083/17492811_615.jpg"
     }
    ]
   },
@@ -464,6 +478,54 @@
    ]
   },
   {
+   "label": "ケーキ",
+   "q": "ケーキ",
+   "kind": "dish",
+   "recent": 5,
+   "base_per_day": 0.45,
+   "ratio": 2.33,
+   "new": false,
+   "daily": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    2,
+    1,
+    0,
+    0,
+    1,
+    1,
+    2,
+    2
+   ],
+   "articles": [
+    {
+     "id": "9b727ae02a69b923",
+     "title": "【10月27日〜発売】セブン・ファミマ・ローソン新作スイーツ特集｜「ドバイチョコスタイルクレープ」・「Uchi Café×ゴディバ ショコラロールケーキ」など注目デザートまとめ",
+     "link": "https://topics.smt.docomo.ne.jp/amp/article/entabe/trend/entabe-61968",
+     "source": "ｄメニューニュース",
+     "image": "https://img.topics.smt.news.goo.ne.jp/picture/entabe/m_entabe-61968.jpg"
+    },
+    {
+     "id": "0bfe015338bf4111",
+     "title": "愛情あふれる爆盛り中華vs天才のチーズケーキ",
+     "link": "https://tver.jp/episodes/epav4cv93r",
+     "source": "TVer",
+     "image": null
+    },
+    {
+     "id": "89c3436b3a18b83e",
+     "title": "東海オンエアりょうのR BRANDが贈る、2026年のクリスマス 華やかな限定ケーキと、冬の夜を彩る特別なコーヒーが登場",
+     "link": "https://prtimes.jp/main/html/rd/p/000000016.000109471.html",
+     "source": "PR TIMES",
+     "image": "https://prcdn.freetls.fastly.net/release_image/109471/16/109471-16-1843672a81e7682c0bbfd8f4a0138078-2525x1458.jpg?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260"
+    }
+   ]
+  },
+  {
    "label": "とんかつ",
    "q": "とんかつ",
    "kind": "dish",
@@ -508,47 +570,6 @@
      "link": "https://www.shizuoka-life.jp/post-15650/",
      "source": "静岡ライフ",
      "image": "https://www.shizuoka-life.jp/wp-content/uploads/2026/10/4c85c234076325c638e2c305400f29d6-12.jpg"
-    }
-   ]
-  },
-  {
-   "label": "ビール",
-   "q": "ビール",
-   "kind": "dish",
-   "recent": 2,
-   "base_per_day": 0.09,
-   "ratio": 1.96,
-   "new": false,
-   "daily": [
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    1,
-    0,
-    0,
-    0,
-    0,
-    0,
-    1,
-    1
-   ],
-   "articles": [
-    {
-     "id": "a55c0214aa815ed2",
-     "title": "ガチャを回して、推しに投票。「クラフトビール総選挙2026 in 名古屋」11月12日より開催",
-     "link": "https://prtimes.jp/main/html/rd/p/000000157.000060917.html",
-     "source": "PR TIMES",
-     "image": "https://prcdn.freetls.fastly.net/release_image/60917/157/60917-157-8cd65c9e78090de4681b97bd46bca529-1457x973.png?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260"
-    },
-    {
-     "id": "33d2cea938b372d8",
-     "title": "川口・キュポラ広場でクラフトビールイベント 9ブルワリーのビールが一堂に",
-     "link": "https://topics.smt.docomo.ne.jp/article/minkei/region/minkei-kawaguchi313",
-     "source": "ｄメニューニュース",
-     "image": "https://img.topics.smt.news.goo.ne.jp/picture/minkei/m_minkei-kawaguchi313.jpg"
     }
    ]
   }
