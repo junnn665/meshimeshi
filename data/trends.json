@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-30T06:51:06+00:00",
+ "updated": "2026-10-30T07:58:59+00:00",
  "days": [
   "2026-10-17",
   "2026-10-18",
@@ -22,9 +22,9 @@
    "label": "寿司",
    "q": "寿司",
    "kind": "dish",
-   "recent": 9,
+   "recent": 10,
    "base_per_day": 0.36,
-   "ratio": 4.54,
+   "ratio": 5.02,
    "new": false,
    "daily": [
     0,
@@ -40,9 +40,16 @@
     1,
     6,
     1,
-    2
+    3
    ],
    "articles": [
+    {
+     "id": "aa1a19a79c3b3fa9",
+     "title": "【小学館JS研究所】女子小学生が好きな食の好みを調査 よく利用する外食チェーン、1位は「マクドナルド」、「はま寿司」「スシロー」「くら寿司」など大手回転寿司チェーンも上位にランクイン",
+     "link": "https://prtimes.jp/main/html/rd/p/000000043.000104282.html",
+     "source": "PR TIMES",
+     "image": "https://prcdn.freetls.fastly.net/release_image/104282/43/104282-43-a9dc1eba1dee9905df3a800c9ccb5304-1000x667.jpg?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260"
+    },
     {
      "id": "d47413396b55eedb",
      "title": "名古屋栄三越に老舗の名店が集結！2026年10月31日オープンの新店「宮きしめん伊兵衛」「すしの美登利」の注目グルメと見どころを詳細解説【現地取材／栄】",
@@ -56,13 +63,6 @@
      "link": "https://sakae.keizai.biz/headline/4021/",
      "source": "サカエ経済新聞",
      "image": "https://images.keizai.biz/sakae_keizai/headline/1793334889_photo.jpg"
-    },
-    {
-     "id": "5bc1595493f30b5a",
-     "title": "3COINS×くら寿司のOMOキャンペーンにクラウドサーカスの『Metabadge』が採用",
-     "link": "https://prtimes.jp/main/html/rd/p/000000400.000016877.html",
-     "source": "PR TIMES",
-     "image": "https://prcdn.freetls.fastly.net/release_image/16877/400/16877-400-b57af795b65048057192969636710783-3900x2194.png?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260"
     }
    ]
   },
@@ -341,6 +341,47 @@
    ]
   },
   {
+   "label": "くら寿司",
+   "q": "くら寿司",
+   "kind": "chain",
+   "recent": 2,
+   "base_per_day": 0.0,
+   "ratio": 2.5,
+   "new": true,
+   "daily": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    1
+   ],
+   "articles": [
+    {
+     "id": "aa1a19a79c3b3fa9",
+     "title": "【小学館JS研究所】女子小学生が好きな食の好みを調査 よく利用する外食チェーン、1位は「マクドナルド」、「はま寿司」「スシロー」「くら寿司」など大手回転寿司チェーンも上位にランクイン",
+     "link": "https://prtimes.jp/main/html/rd/p/000000043.000104282.html",
+     "source": "PR TIMES",
+     "image": "https://prcdn.freetls.fastly.net/release_image/104282/43/104282-43-a9dc1eba1dee9905df3a800c9ccb5304-1000x667.jpg?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260"
+    },
+    {
+     "id": "5bc1595493f30b5a",
+     "title": "3COINS×くら寿司のOMOキャンペーンにクラウドサーカスの『Metabadge』が採用",
+     "link": "https://prtimes.jp/main/html/rd/p/000000400.000016877.html",
+     "source": "PR TIMES",
+     "image": "https://prcdn.freetls.fastly.net/release_image/16877/400/16877-400-b57af795b65048057192969636710783-3900x2194.png?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260"
+    }
+   ]
+  },
+  {
    "label": "弁当",
    "q": "弁当",
    "kind": "dish",
@@ -475,8 +516,8 @@
    "q": "パン",
    "kind": "dish",
    "recent": 10,
-   "base_per_day": 1.36,
-   "ratio": 2.06,
+   "base_per_day": 1.27,
+   "ratio": 2.18,
    "new": false,
    "daily": [
     0,
@@ -484,7 +525,7 @@
     0,
     0,
     0,
-    4,
+    3,
     3,
     0,
     1,
@@ -515,47 +556,6 @@
      "link": "https://mainichikirei.jp/prtimes/article/20261029prt00m100000714a.html",
      "source": "毎日キレイ",
      "image": "https://prtimes.jp/img/59385/304/resize/d59385-304-b1f56cc23fe18a9ccb64-0.jpg"
-    }
-   ]
-  },
-  {
-   "label": "きしめん",
-   "q": "きしめん",
-   "kind": "dish",
-   "recent": 2,
-   "base_per_day": 0.09,
-   "ratio": 1.96,
-   "new": false,
-   "daily": [
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    1,
-    0,
-    0,
-    0,
-    0,
-    0,
-    1,
-    1
-   ],
-   "articles": [
-    {
-     "id": "d47413396b55eedb",
-     "title": "名古屋栄三越に老舗の名店が集結！2026年10月31日オープンの新店「宮きしめん伊兵衛」「すしの美登利」の注目グルメと見どころを詳細解説【現地取材／栄】",
-     "link": "https://nagoyato.com/posts/20526",
-     "source": "ナゴヤトコトン",
-     "image": "https://nagoyato.com/wp-content/uploads/2026/10/d7534f5a158177c70ae2f0297c26314d.jpg"
-    },
-    {
-     "id": "cb02cc9448f88396",
-     "title": "はなまるうどん、きしめん参入 名古屋の人気店と組んだその狙いは?",
-     "link": "https://www.msn.com/ja-jp/money/business/%E3%81%AF%E3%81%AA%E3%81%BE%E3%82%8B%E3%81%86%E3%81%A9%E3%82%93-%E3%81%8D%E3%81%97%E3%82%81%E3%82%93%E5%8F%82%E5%85%A5-%E5%90%8D%E5%8F%A4%E5%B1%8B%E3%81%AE%E4%BA%BA%E6%B0%97%E5%BA%97%E3%81%A8%E7%B5%84%E3%82%93%E3%81%A0%E3%81%9D%E3%81%AE%E7%8B%99%E3%81%84%E3%81%AF/ar-AA2girfC",
-     "source": "朝日新聞デジタル on MSN",
-     "image": "http://www.bing.com/th?id=ONUT.3P5-KK7MDa0SRaT1LSX2-g&pid=News"
     }
    ]
   }
