@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-30T16:58:24+09:00",
+ "updated": "2026-10-30T17:51:48+09:00",
  "items": [
   {
    "id": "aa1a19a79c3b3fa9",
@@ -83,6 +83,23 @@
    "image_v4": true,
    "shop": true,
    "shop_name": "宮きしめん伊兵衛"
+  },
+  {
+   "id": "44e4946933d22176",
+   "title": "イクラやアナゴ、サーモン、数の子などを盛り付けた名古屋栄三越店限定メニュー「海鮮ひつまぶし」",
+   "link": "https://sakae.keizai.biz/photoflash/5994/",
+   "source": "サカエ経済新聞",
+   "image": "https://images.keizai.biz/sakae_keizai/photonews/1793334819_b.jpg",
+   "category": "shinten",
+   "area": "名古屋",
+   "published": "2026-10-30T14:12:29+09:00",
+   "provider": "google",
+   "added": "2026-10-30T17:51:48+09:00",
+   "decode_v2": true,
+   "image_checked": true,
+   "image_v4": true,
+   "shop": true,
+   "shop_name": "海鮮ひつまぶし"
   },
   {
    "id": "1bfce71aa706d07b",
@@ -6356,6 +6373,22 @@
    "image_checked": true,
    "image_v4": true,
    "shop": false,
+   "shop_name": null
+  },
+  {
+   "id": "bebd96053612f4d1",
+   "title": "【名古屋タカシマヤ】平日クリスマスを華やかに彩るグルメから ...",
+   "link": "https://prtimes.jp/main/html/rd/p/000000511.000047031.html",
+   "source": "PR TIMES",
+   "image": "https://prcdn.freetls.fastly.net/release_image/47031/511/47031-511-fb694bc3c1ba895615441e3d17e41109-3900x2896.jpg?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260",
+   "category": "wadai",
+   "area": "名古屋",
+   "published": "2026-10-22T13:00:00+09:00",
+   "provider": "bing",
+   "added": "2026-10-30T17:51:48+09:00",
+   "image_checked": true,
+   "image_v4": true,
+   "shop": true,
    "shop_name": null
   },
   {
