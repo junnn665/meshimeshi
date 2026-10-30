@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-31T01:45:10+09:00",
+ "updated": "2026-10-31T02:48:39+09:00",
  "items": [
   {
    "id": "87f5a94f9557c80f",
@@ -3717,6 +3717,23 @@
    "shop_name": null
   },
   {
+   "id": "27703e6f731f77cd",
+   "title": "【食べログ高評価】赤坂の人気おすすめ焼肉9選【価格・個室情報】",
+   "link": "https://howtravel-gourmet.com/kanto/tokyo/akasaka/akasaka-yakiniku/",
+   "source": "めしレポ",
+   "image": "https://howtravel-gourmet.com/wp-content/uploads/2019/07/f3f0e7b64040d07c45d3a0bf446a9dc1_m.jpg",
+   "category": "wadai",
+   "area": "東海",
+   "published": "2026-10-26T16:00:00+09:00",
+   "provider": "google",
+   "added": "2026-10-31T02:48:39+09:00",
+   "decode_v2": true,
+   "image_checked": true,
+   "image_v4": true,
+   "shop": false,
+   "shop_name": null
+  },
+  {
    "id": "db320c2ae1461312",
    "title": "「ハエラ」おすすめレストラン＆カフェ特集、“名古屋栄駅直結”の注目グルメスポットは？",
    "link": "https://www.fashion-press.net/news/147003",
@@ -6490,23 +6507,6 @@
    "image_v4": true,
    "shop": true,
    "shop_name": "ラーメン長浜はな"
-  },
-  {
-   "id": "c9b6d11a3cd60b22",
-   "title": "名古屋名物「ぴよりん」×『ゴジラ』コラボスイーツ登場！『ゴジラ-0.0』公開記念で期間限定販売",
-   "link": "https://www.toy-people.com/jp/?p=115698",
-   "source": "玩具人 TOY PEOPLE",
-   "image": "https://img.toy-people.com/member/179265822478.jpg",
-   "category": "chain",
-   "area": "名古屋",
-   "published": "2026-10-22T17:45:50+09:00",
-   "provider": "google",
-   "added": "2026-10-26T05:24:25+09:00",
-   "decode_v2": true,
-   "image_checked": true,
-   "image_v4": true,
-   "shop": false,
-   "shop_name": null
   }
  ]
 }
