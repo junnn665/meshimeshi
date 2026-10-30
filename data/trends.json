@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-30T09:49:51+00:00",
+ "updated": "2026-10-30T10:45:18+00:00",
  "days": [
   "2026-10-17",
   "2026-10-18",
@@ -111,6 +111,54 @@
      "link": "https://news.infoseek.co.jp/article/mynavi_3241185/",
      "source": "Infoseek",
      "image": "https://media.image.infoseek.co.jp/isnews/photos/mynavi/mynavi_3241185_0-enlarge.jpg"
+    }
+   ]
+  },
+  {
+   "label": "鍋",
+   "q": "鍋",
+   "kind": "dish",
+   "recent": 5,
+   "base_per_day": 0.18,
+   "ratio": 3.56,
+   "new": false,
+   "daily": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    2,
+    0,
+    0,
+    0,
+    3,
+    1,
+    1
+   ],
+   "articles": [
+    {
+     "id": "6ca679db8bffedc6",
+     "title": "実りの秋、祝いの秋。新嘗祭にちなむ「伊勢海老土鍋ごはん」と、家族の成長を祝う「七五三お祝い膳」を三重県伊勢市「旅荘 海の蝶」で提供",
+     "link": "https://prtimes.jp/main/html/rd/p/000000041.000061549.html",
+     "source": "PR TIMES",
+     "image": "https://prcdn.freetls.fastly.net/release_image/61549/41/61549-41-89b2ba4df51c7757397c564ec2628d8a-3000x2000.png?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260"
+    },
+    {
+     "id": "eaa1953fb567a8fd",
+     "title": "すき家の大人気メニュー「牛すき鍋定食」今年も登場！グルメYouTuber山崎NANAが大絶賛！！",
+     "link": "https://news.livedoor.com/article/detail/32686191/",
+     "source": "ライブドアニュース",
+     "image": "https://image.news.livedoor.com/newsimage/stf/9/b/9b7bc_1845_4f50aff3_a32449a0.jpg"
+    },
+    {
+     "id": "ef3d4f68ff5a3d8d",
+     "title": "代々木公園にスペイン料理や音楽が集結「フィエスタ・デ・エスパーニャ」魚介やチョリソーの大鍋パエリアも",
+     "link": "https://www.fashion-press.net/news/152627",
+     "source": "ファッションプレス",
+     "image": "https://www.fashion-press.net/img/news/152627/top.jpg?1793182866"
     }
    ]
   },
@@ -245,54 +293,6 @@
    ]
   },
   {
-   "label": "鍋",
-   "q": "鍋",
-   "kind": "dish",
-   "recent": 4,
-   "base_per_day": 0.18,
-   "ratio": 2.91,
-   "new": false,
-   "daily": [
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    2,
-    0,
-    0,
-    0,
-    3,
-    1,
-    0
-   ],
-   "articles": [
-    {
-     "id": "eaa1953fb567a8fd",
-     "title": "すき家の大人気メニュー「牛すき鍋定食」今年も登場！グルメYouTuber山崎NANAが大絶賛！！",
-     "link": "https://news.livedoor.com/article/detail/32686191/",
-     "source": "ライブドアニュース",
-     "image": "https://image.news.livedoor.com/newsimage/stf/9/b/9b7bc_1845_4f50aff3_a32449a0.jpg"
-    },
-    {
-     "id": "ef3d4f68ff5a3d8d",
-     "title": "代々木公園にスペイン料理や音楽が集結「フィエスタ・デ・エスパーニャ」魚介やチョリソーの大鍋パエリアも",
-     "link": "https://www.fashion-press.net/news/152627",
-     "source": "ファッションプレス",
-     "image": "https://www.fashion-press.net/img/news/152627/top.jpg?1793182866"
-    },
-    {
-     "id": "c81bbccf7c0d7efb",
-     "title": "“知多家”の新ブランド『土鍋ごはん×とんかつ CHITAKA』名古屋・栄の地下街に29日オープン 今後商業施設を中心に出店へ",
-     "link": "https://article.auone.jp/0a82174f-1f57-4b24-a3f2-e80a93173727",
-     "source": "au Webポータル",
-     "image": "https://newportal.portal.auone.jp/media/thumbnails/2026/10/28/https___news_jp_i_1488088534532014151_w640.webp"
-    }
-   ]
-  },
-  {
    "label": "ローソン",
    "q": "ローソン",
    "kind": "chain",
@@ -337,6 +337,54 @@
      "link": "https://mainichi.jp/articles/20261028/orc/00m/200/136000c",
      "source": "毎日新聞",
      "image": null
+    }
+   ]
+  },
+  {
+   "label": "パン",
+   "q": "パン",
+   "kind": "dish",
+   "recent": 12,
+   "base_per_day": 1.18,
+   "ratio": 2.75,
+   "new": false,
+   "daily": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    2,
+    3,
+    0,
+    1,
+    3,
+    4,
+    3,
+    5,
+    4
+   ],
+   "articles": [
+    {
+     "id": "1156710283104fd4",
+     "title": "【11/7・8開催】静岡中部で秋の週末を彩る注目イベント！清水港マグロまつりや50店超のパン祭り、梅ケ島の滝ライトアップも",
+     "link": "https://topics.smt.docomo.ne.jp/amp/article/ats_sbs/region/ats_sbs-2086393",
+     "source": "ｄメニューニュース",
+     "image": "https://img.topics.smt.news.goo.ne.jp/-/20261028100531/img/dmenu_service-brand-logo_200x200.png"
+    },
+    {
+     "id": "093c5028ae8ea062",
+     "title": "【浜松】法務・労務・知財DX：リーガルAI搭載の契約・法務BPaaS「クラウドリーガル」がリコージャパン主催「RICOH Value Presentation 2026 Autumn 浜松会場」に出展",
+     "link": "https://prtimes.jp/main/html/rd/p/000000070.000126939.html",
+     "source": "PR TIMES",
+     "image": "https://prcdn.freetls.fastly.net/release_image/126939/70/126939-70-8ad062730f85e245b841fdad5a001fd3-2784x632.jpg?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260"
+    },
+    {
+     "id": "d67be2fb282f3e39",
+     "title": "米粉パンもラーメンも麦不使用！49店が集結する入場無料のグルテンフリー祭in名古屋",
+     "link": "https://report.iko-yo.net/articles/35274",
+     "source": "いこーよニュース",
+     "image": "https://d28w2qw7dtr435.cloudfront.net/uploaded/cover_images/images/35431/normal.jpg?1793341539"
     }
    ]
   },
@@ -474,54 +522,6 @@
      "link": "https://gourmet.watch.impress.co.jp/docs/news/2151859.html",
      "source": "グルメ Watch",
      "image": "https://gourmet.watch.impress.co.jp/img/grw/list/2151/859/01.jpg"
-    }
-   ]
-  },
-  {
-   "label": "パン",
-   "q": "パン",
-   "kind": "dish",
-   "recent": 12,
-   "base_per_day": 1.27,
-   "ratio": 2.59,
-   "new": false,
-   "daily": [
-    0,
-    0,
-    0,
-    0,
-    0,
-    3,
-    3,
-    0,
-    1,
-    3,
-    4,
-    3,
-    5,
-    4
-   ],
-   "articles": [
-    {
-     "id": "1156710283104fd4",
-     "title": "【11/7・8開催】静岡中部で秋の週末を彩る注目イベント！清水港マグロまつりや50店超のパン祭り、梅ケ島の滝ライトアップも",
-     "link": "https://topics.smt.docomo.ne.jp/amp/article/ats_sbs/region/ats_sbs-2086393",
-     "source": "ｄメニューニュース",
-     "image": "https://img.topics.smt.news.goo.ne.jp/-/20261028100531/img/dmenu_service-brand-logo_200x200.png"
-    },
-    {
-     "id": "093c5028ae8ea062",
-     "title": "【浜松】法務・労務・知財DX：リーガルAI搭載の契約・法務BPaaS「クラウドリーガル」がリコージャパン主催「RICOH Value Presentation 2026 Autumn 浜松会場」に出展",
-     "link": "https://prtimes.jp/main/html/rd/p/000000070.000126939.html",
-     "source": "PR TIMES",
-     "image": "https://prcdn.freetls.fastly.net/release_image/126939/70/126939-70-8ad062730f85e245b841fdad5a001fd3-2784x632.jpg?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260"
-    },
-    {
-     "id": "d67be2fb282f3e39",
-     "title": "米粉パンもラーメンも麦不使用！49店が集結する入場無料のグルテンフリー祭in名古屋",
-     "link": "https://report.iko-yo.net/articles/35274",
-     "source": "いこーよニュース",
-     "image": "https://d28w2qw7dtr435.cloudfront.net/uploaded/cover_images/images/35431/normal.jpg?1793341539"
     }
    ]
   },
