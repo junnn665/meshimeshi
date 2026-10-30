@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-30T23:53:43+09:00",
+ "updated": "2026-10-31T00:48:35+09:00",
  "items": [
   {
    "id": "87f5a94f9557c80f",
@@ -2741,6 +2741,23 @@
    "image_v4": true,
    "shop": false,
    "shop_name": null
+  },
+  {
+   "id": "c3447428e9c8a1cb",
+   "title": "インスタ映え必至!?静岡駅にレトロな居酒屋テーマパーク「静岡ゴールデン横丁」誕生！",
+   "link": "https://www.walkerplus.com/article/106643/",
+   "source": "ウォーカープラス",
+   "image": "https://news.walkerplus.com/article/106643/591030_615.jpg",
+   "category": "wadai",
+   "area": "静岡",
+   "published": "2026-10-27T16:00:00+09:00",
+   "provider": "google",
+   "added": "2026-10-31T00:48:35+09:00",
+   "decode_v2": true,
+   "image_checked": true,
+   "image_v4": true,
+   "shop": true,
+   "shop_name": "静岡ゴールデン横丁"
   },
   {
    "id": "800a28dab2e6cf09",
@@ -6486,22 +6503,6 @@
    "provider": "google",
    "added": "2026-10-25T15:34:25+09:00",
    "decode_v2": true,
-   "image_checked": true,
-   "image_v4": true,
-   "shop": false,
-   "shop_name": null
-  },
-  {
-   "id": "4e9eabd9ab67c8e8",
-   "title": "『ONE PIECE 海のごちそうレストラン 』発売！原作者・尾田栄一郎先生のコメント、KOPERU歌唱による「ごちレスRAP」ローンチPVも公開！",
-   "link": "https://prtimes.jp/main/html/rd/p/000002373.000051316.html",
-   "source": "PR TIMES",
-   "image": "https://prcdn.freetls.fastly.net/release_image/51316/2373/51316-2373-9f25c4fe4ba8b8ed6b532831f44b08ab-1920x1080.png?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260",
-   "category": "chain",
-   "area": "名古屋",
-   "published": "2026-10-22T17:10:00+09:00",
-   "provider": "prtimes",
-   "added": "2026-10-22T17:37:27+09:00",
    "image_checked": true,
    "image_v4": true,
    "shop": false,

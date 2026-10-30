@@ -1,7 +1,6 @@
 {
- "updated": "2026-10-30T14:54:10+00:00",
+ "updated": "2026-10-30T15:49:10+00:00",
  "days": [
-  "2026-10-17",
   "2026-10-18",
   "2026-10-19",
   "2026-10-20",
@@ -14,18 +13,19 @@
   "2026-10-27",
   "2026-10-28",
   "2026-10-29",
-  "2026-10-30"
+  "2026-10-30",
+  "2026-10-31"
  ],
  "recent_days": 3,
  "items": [
   {
-   "label": "寿司",
-   "q": "寿司",
-   "kind": "dish",
-   "recent": 11,
-   "base_per_day": 0.36,
-   "ratio": 5.5,
-   "new": false,
+   "label": "くら寿司",
+   "q": "くら寿司",
+   "kind": "chain",
+   "recent": 2,
+   "base_per_day": 0.0,
+   "ratio": 2.5,
+   "new": true,
    "daily": [
     0,
     0,
@@ -33,23 +33,16 @@
     0,
     0,
     0,
-    2,
     0,
     0,
+    0,
+    0,
+    0,
     1,
     1,
-    6,
-    1,
-    4
+    0
    ],
    "articles": [
-    {
-     "id": "a4ad9e9c36f17300",
-     "title": "「すしの美登利 名古屋栄三越店」店内",
-     "link": "https://sakae.keizai.biz/photoflash/5988/",
-     "source": "サカエ経済新聞",
-     "image": "https://images.keizai.biz/sakae_keizai/photonews/1793334674_b.jpg"
-    },
     {
      "id": "aa1a19a79c3b3fa9",
      "title": "【小学館JS研究所】女子小学生が好きな食の好みを調査 よく利用する外食チェーン、1位は「マクドナルド」、「はま寿司」「スシロー」「くら寿司」など大手回転寿司チェーンも上位にランクイン",
@@ -58,326 +51,52 @@
      "image": "https://prcdn.freetls.fastly.net/release_image/104282/43/104282-43-a9dc1eba1dee9905df3a800c9ccb5304-1000x667.jpg?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260"
     },
     {
+     "id": "5bc1595493f30b5a",
+     "title": "3COINS×くら寿司のOMOキャンペーンにクラウドサーカスの『Metabadge』が採用",
+     "link": "https://prtimes.jp/main/html/rd/p/000000400.000016877.html",
+     "source": "PR TIMES",
+     "image": "https://prcdn.freetls.fastly.net/release_image/16877/400/16877-400-b57af795b65048057192969636710783-3900x2194.png?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260"
+    }
+   ]
+  },
+  {
+   "label": "きしめん",
+   "q": "きしめん",
+   "kind": "dish",
+   "recent": 2,
+   "base_per_day": 0.09,
+   "ratio": 1.96,
+   "new": false,
+   "daily": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    1,
+    0
+   ],
+   "articles": [
+    {
      "id": "d47413396b55eedb",
      "title": "名古屋栄三越に老舗の名店が集結！2026年10月31日オープンの新店「宮きしめん伊兵衛」「すしの美登利」の注目グルメと見どころを詳細解説【現地取材／栄】",
      "link": "https://nagoyato.com/posts/20526",
      "source": "ナゴヤトコトン",
      "image": "https://nagoyato.com/wp-content/uploads/2026/10/d7534f5a158177c70ae2f0297c26314d.jpg"
-    }
-   ]
-  },
-  {
-   "label": "台湾ラーメン",
-   "q": "台湾ラーメン",
-   "kind": "dish",
-   "recent": 7,
-   "base_per_day": 0.36,
-   "ratio": 3.59,
-   "new": false,
-   "daily": [
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    2,
-    1,
-    1,
-    0,
-    5,
-    0,
-    2
-   ],
-   "articles": [
-    {
-     "id": "1fcc6e49cd308d09",
-     "title": "ファミマに「味仙」監修の旨辛グルメ5品！ 台湾ラーメンに“ミンチ”カツも【地域限定】",
-     "link": "https://ascii.jp/elem/000/004/447/4447005/",
-     "source": "ASCII.jp",
-     "image": "https://ascii.jp/img/2026/10/30/4546206/xl/989d8a566969f814.png?20200122"
     },
     {
-     "id": "f69c0376ef5b04fc",
-     "title": "ファミリーマート×味仙本店、「台湾ラーメン」や「台湾はるさめスープ」など、新商品5品を発売",
-     "link": "http://www.excite.co.jp/news/article/Ssnp_709512/",
-     "source": "Excite エキサイト",
-     "image": null
-    },
-    {
-     "id": "72aea3262a5d73f6",
-     "title": "ファミマに\"名古屋のソウルフード\"味仙本店監修グルメが登場...! 「台湾ミンチカツ」「台湾ラーメン」など全5品のラインアップを紹介",
-     "link": "https://news.infoseek.co.jp/article/mynavi_3241185/",
-     "source": "Infoseek",
-     "image": "https://media.image.infoseek.co.jp/isnews/photos/mynavi/mynavi_3241185_0-enlarge.jpg"
-    }
-   ]
-  },
-  {
-   "label": "鍋",
-   "q": "鍋",
-   "kind": "dish",
-   "recent": 5,
-   "base_per_day": 0.18,
-   "ratio": 3.56,
-   "new": false,
-   "daily": [
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    2,
-    0,
-    0,
-    0,
-    3,
-    1,
-    1
-   ],
-   "articles": [
-    {
-     "id": "6ca679db8bffedc6",
-     "title": "実りの秋、祝いの秋。新嘗祭にちなむ「伊勢海老土鍋ごはん」と、家族の成長を祝う「七五三お祝い膳」を三重県伊勢市「旅荘 海の蝶」で提供",
-     "link": "https://prtimes.jp/main/html/rd/p/000000041.000061549.html",
-     "source": "PR TIMES",
-     "image": "https://prcdn.freetls.fastly.net/release_image/61549/41/61549-41-89b2ba4df51c7757397c564ec2628d8a-3000x2000.png?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260"
-    },
-    {
-     "id": "eaa1953fb567a8fd",
-     "title": "すき家の大人気メニュー「牛すき鍋定食」今年も登場！グルメYouTuber山崎NANAが大絶賛！！",
-     "link": "https://news.livedoor.com/article/detail/32686191/",
-     "source": "ライブドアニュース",
-     "image": "https://image.news.livedoor.com/newsimage/stf/9/b/9b7bc_1845_4f50aff3_a32449a0.jpg"
-    },
-    {
-     "id": "ef3d4f68ff5a3d8d",
-     "title": "代々木公園にスペイン料理や音楽が集結「フィエスタ・デ・エスパーニャ」魚介やチョリソーの大鍋パエリアも",
-     "link": "https://www.fashion-press.net/news/152627",
-     "source": "ファッションプレス",
-     "image": "https://www.fashion-press.net/img/news/152627/top.jpg?1793182866"
-    }
-   ]
-  },
-  {
-   "label": "定食",
-   "q": "定食",
-   "kind": "dish",
-   "recent": 4,
-   "base_per_day": 0.09,
-   "ratio": 3.54,
-   "new": false,
-   "daily": [
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    1,
-    0,
-    2,
-    1,
-    1
-   ],
-   "articles": [
-    {
-     "id": "91cf82daaeb2b38c",
-     "title": "「やよい軒」世界共通“NABE FAIR” 第1弾！定番の美味！『～3種の本醸造醤油をブレンド～すき焼き定食』",
-     "link": "https://prtimes.jp/main/html/rd/p/000001710.000054093.html",
-     "source": "PR TIMES",
-     "image": "https://prcdn.freetls.fastly.net/release_image/54093/1710/54093-1710-f5dbefa9cdb58e976be3dc9f7ae91765-1080x1440.jpg?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260"
-    },
-    {
-     "id": "eaa1953fb567a8fd",
-     "title": "すき家の大人気メニュー「牛すき鍋定食」今年も登場！グルメYouTuber山崎NANAが大絶賛！！",
-     "link": "https://news.livedoor.com/article/detail/32686191/",
-     "source": "ライブドアニュース",
-     "image": "https://image.news.livedoor.com/newsimage/stf/9/b/9b7bc_1845_4f50aff3_a32449a0.jpg"
-    },
-    {
-     "id": "2278928f6a0da7c5",
-     "title": "御殿場アウトレットで頂グルメフェア」 静岡県認定食材・商品使う",
-     "link": "https://topics.smt.docomo.ne.jp/article/minkei/region/minkei-mtfuji3052?utm_source=dnews&utm_medium=article&utm_campaign=contentsmatch5",
-     "source": "ｄメニューニュース",
-     "image": "https://img.topics.smt.news.goo.ne.jp/picture/minkei/m_minkei-mtfuji3052.jpg"
-    }
-   ]
-  },
-  {
-   "label": "サンリオハウス",
-   "q": "サンリオハウス",
-   "kind": "shop",
-   "recent": 2,
-   "base_per_day": 0.0,
-   "ratio": 2.5,
-   "new": true,
-   "daily": [
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    1,
-    0,
-    1
-   ],
-   "articles": [
-    {
-     "id": "9922fe2f5b8c5828",
-     "title": "カフェ併設『サンリオハウス』東海エリア初店舗が名古屋パルコにオープン！予約方法・注目商品を公開",
-     "link": "https://jouhou.nagoya/sanrio-house-open/",
-     "source": "名古屋情報通",
-     "image": "https://jouhou.nagoya/wp-content/uploads/2026/10/sanrio-house-open001-600x400.jpg"
-    },
-    {
-     "id": "381192a022614f0d",
-     "title": "初のカフェ併設「サンリオハウス」名古屋パルコ店がオープン 限定グッズ＆カフェメニューをリポート",
-     "link": "https://www.wwdjapan.com/articles/2537368",
-     "source": "WWDJAPAN",
-     "image": "https://media.wwdjapan.com/wp-content/uploads/2026/10/28093306/1028_sanrio_og.jpg"
-    }
-   ]
-  },
-  {
-   "label": "sanrio house 名古屋PARCO店",
-   "q": "sanrio house 名古屋PARCO店",
-   "kind": "shop",
-   "recent": 2,
-   "base_per_day": 0.0,
-   "ratio": 2.5,
-   "new": true,
-   "daily": [
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    1,
-    1,
-    0
-   ],
-   "articles": [
-    {
-     "id": "d506c110f3b6f862",
-     "title": "全国初のカフェブース併設店「sanrio house 名古屋PARCO店」が2026年10月29日にオープン！注目必至のカフェメニュー＆限定グッズなど見どころを詳細解説！【独自取材／矢場町】",
-     "link": "https://nagoyato.com/posts/20467",
-     "source": "ナゴヤトコトン",
-     "image": "https://nagoyato.com/wp-content/uploads/2026/10/IMG_4349-EDIT.jpg"
-    },
-    {
-     "id": "bcda81dce16ad9b6",
-     "title": "全国初のカフェブースも併設 「sanrio house 名古屋PARCO店」が2026年10月29日にオープン！注目必至のカフェメニュー＆限定グッズなど見どころを最速レポート！【独自取材／矢場町】",
-     "link": "https://nagoyato.com/posts/20467",
-     "source": "nagoyato",
-     "image": "https://nagoyato.com/wp-content/uploads/2026/10/IMG_4349-EDIT.jpg"
-    }
-   ]
-  },
-  {
-   "label": "土鍋ごはん×とんかつ CHITAKA",
-   "q": "土鍋ごはん×とんかつ CHITAKA",
-   "kind": "shop",
-   "recent": 2,
-   "base_per_day": 0.0,
-   "ratio": 2.5,
-   "new": true,
-   "daily": [
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    2,
-    0,
-    0
-   ],
-   "articles": [
-    {
-     "id": "c81bbccf7c0d7efb",
-     "title": "“知多家”の新ブランド『土鍋ごはん×とんかつ CHITAKA』名古屋・栄の地下街に29日オープン 今後商業施設を中心に出店へ",
-     "link": "https://article.auone.jp/0a82174f-1f57-4b24-a3f2-e80a93173727",
-     "source": "au Webポータル",
-     "image": "https://newportal.portal.auone.jp/media/thumbnails/2026/10/28/https___news_jp_i_1488088534532014151_w640.webp"
-    },
-    {
-     "id": "394bccb2daf604c8",
-     "title": "2026年10月29日オープン！栄センパの新店「土鍋ごはん×とんかつ CHITAKA」が美味すぎた 「とんかつ知多家」から生まれた新感覚とんかつを最速実食レポート【久屋大通・栄】",
-     "link": "https://nagoyato.com/posts/20426",
-     "source": "ナゴヤトコトン",
-     "image": "https://nagoyato.com/wp-content/uploads/2026/10/IMG_3911-EDIT2.jpg"
-    }
-   ]
-  },
-  {
-   "label": "ローソン",
-   "q": "ローソン",
-   "kind": "chain",
-   "recent": 7,
-   "base_per_day": 0.55,
-   "ratio": 2.84,
-   "new": false,
-   "daily": [
-    0,
-    0,
-    0,
-    0,
-    0,
-    1,
-    0,
-    1,
-    1,
-    1,
-    2,
-    5,
-    2,
-    0
-   ],
-   "articles": [
-    {
-     "id": "9b727ae02a69b923",
-     "title": "【10月27日〜発売】セブン・ファミマ・ローソン新作スイーツ特集｜「ドバイチョコスタイルクレープ」・「Uchi Café×ゴディバ ショコラロールケーキ」など注目デザートまとめ",
-     "link": "https://topics.smt.docomo.ne.jp/amp/article/entabe/trend/entabe-61968",
-     "source": "ｄメニューニュース",
-     "image": "https://img.topics.smt.news.goo.ne.jp/picture/entabe/m_entabe-61968.jpg"
-    },
-    {
-     "id": "f4ce78d69d16bbf0",
-     "title": "さっぱり＆なめらか！ローソン限定ヨーグルトアイス",
-     "link": "https://www.walkerplus.com/article/68584/",
-     "source": "ウォーカープラス",
-     "image": "https://news.walkerplus.com/article/68584/384110_615.jpg"
-    },
-    {
-     "id": "ba59f2a39b3395a0",
-     "title": "オリコンニュース：ローソンストア100「デカ盛りチャレンジ」今年3回目の開催決定 値段そのままハムの量が約1.5倍になった“ハムサンド”など全12品",
-     "link": "https://mainichi.jp/articles/20261028/orc/00m/200/136000c",
-     "source": "毎日新聞",
-     "image": null
+     "id": "cb02cc9448f88396",
+     "title": "はなまるうどん、きしめん参入 名古屋の人気店と組んだその狙いは?",
+     "link": "https://www.msn.com/ja-jp/money/business/%E3%81%AF%E3%81%AA%E3%81%BE%E3%82%8B%E3%81%86%E3%81%A9%E3%82%93-%E3%81%8D%E3%81%97%E3%82%81%E3%82%93%E5%8F%82%E5%85%A5-%E5%90%8D%E5%8F%A4%E5%B1%8B%E3%81%AE%E4%BA%BA%E6%B0%97%E5%BA%97%E3%81%A8%E7%B5%84%E3%82%93%E3%81%A0%E3%81%9D%E3%81%AE%E7%8B%99%E3%81%84%E3%81%AF/ar-AA2girfC",
+     "source": "朝日新聞デジタル on MSN",
+     "image": "http://www.bing.com/th?id=ONUT.3P5-KK7MDa0SRaT1LSX2-g&pid=News"
     }
    ]
   },
@@ -385,12 +104,11 @@
    "label": "パン",
    "q": "パン",
    "kind": "dish",
-   "recent": 12,
-   "base_per_day": 1.09,
-   "ratio": 2.93,
+   "recent": 9,
+   "base_per_day": 1.36,
+   "ratio": 1.87,
    "new": false,
    "daily": [
-    0,
     0,
     0,
     0,
@@ -403,7 +121,8 @@
     4,
     3,
     5,
-    4
+    4,
+    0
    ],
    "articles": [
     {
@@ -433,9 +152,9 @@
    "label": "ひつまぶし・うなぎ",
    "q": "ひつまぶし",
    "kind": "dish",
-   "recent": 3,
-   "base_per_day": 0.09,
-   "ratio": 2.75,
+   "recent": 2,
+   "base_per_day": 0.18,
+   "ratio": 1.62,
    "new": false,
    "daily": [
     0,
@@ -445,13 +164,13 @@
     0,
     0,
     0,
-    0,
     1,
     0,
     0,
     1,
     0,
-    2
+    2,
+    0
    ],
    "articles": [
     {
@@ -467,102 +186,6 @@
      "link": "https://sakae.keizai.biz/headline/4021/",
      "source": "サカエ経済新聞",
      "image": "https://images.keizai.biz/sakae_keizai/headline/1793334889_photo.jpg"
-    },
-    {
-     "id": "264184969c9166ec",
-     "title": "名古屋駅で行列の「すしの美登利」が栄に2号店！名古屋栄三越9階に10月31日オープン、限定「海鮮ひつまぶし」3,630円はどんな内容？｜グルメとフード",
-     "link": "http://www.excite.co.jp/news/article/TetsudoCh_13041098/",
-     "source": "Excite エキサイト",
-     "image": null
-    }
-   ]
-  },
-  {
-   "label": "くら寿司",
-   "q": "くら寿司",
-   "kind": "chain",
-   "recent": 2,
-   "base_per_day": 0.0,
-   "ratio": 2.5,
-   "new": true,
-   "daily": [
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    1,
-    1
-   ],
-   "articles": [
-    {
-     "id": "aa1a19a79c3b3fa9",
-     "title": "【小学館JS研究所】女子小学生が好きな食の好みを調査 よく利用する外食チェーン、1位は「マクドナルド」、「はま寿司」「スシロー」「くら寿司」など大手回転寿司チェーンも上位にランクイン",
-     "link": "https://prtimes.jp/main/html/rd/p/000000043.000104282.html",
-     "source": "PR TIMES",
-     "image": "https://prcdn.freetls.fastly.net/release_image/104282/43/104282-43-a9dc1eba1dee9905df3a800c9ccb5304-1000x667.jpg?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260"
-    },
-    {
-     "id": "5bc1595493f30b5a",
-     "title": "3COINS×くら寿司のOMOキャンペーンにクラウドサーカスの『Metabadge』が採用",
-     "link": "https://prtimes.jp/main/html/rd/p/000000400.000016877.html",
-     "source": "PR TIMES",
-     "image": "https://prcdn.freetls.fastly.net/release_image/16877/400/16877-400-b57af795b65048057192969636710783-3900x2194.png?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260"
-    }
-   ]
-  },
-  {
-   "label": "弁当",
-   "q": "弁当",
-   "kind": "dish",
-   "recent": 5,
-   "base_per_day": 0.36,
-   "ratio": 2.63,
-   "new": false,
-   "daily": [
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    1,
-    1,
-    2,
-    0,
-    3,
-    2,
-    0
-   ],
-   "articles": [
-    {
-     "id": "0e74c01989a29116",
-     "title": "猿投農林高、メグリアと共同開発した地産地消弁当と総菜をお披露目",
-     "link": "https://toyota.keizai.biz/photoflash/1408/",
-     "source": "豊田経済新聞",
-     "image": "https://images.keizai.biz/toyota_keizai/photonews/1793267034_b.jpg"
-    },
-    {
-     "id": "992e1cf3786c8ff5",
-     "title": "「ほっともっと」ハンバーグもおかずも楽しめる『デミハンバーグミックス弁当』『和風ハンバーグミックス弁当』新発売",
-     "link": "https://prtimes.jp/main/html/rd/p/000001707.000054093.html",
-     "source": "PR TIMES",
-     "image": "https://prcdn.freetls.fastly.net/release_image/54093/1707/54093-1707-ad77fe43b479b0b4a1801c56e075c2cc-1080x1440.jpg?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260"
-    },
-    {
-     "id": "7e063d5238c5e3b8",
-     "title": "ローソンストア100、財布にうれしい「デカ盛りチャレンジ」を2週間実施。増量した弁当やサンドイッチなど12点",
-     "link": "https://gourmet.watch.impress.co.jp/docs/news/2151859.html",
-     "source": "グルメ Watch",
-     "image": "https://gourmet.watch.impress.co.jp/img/grw/list/2151/859/01.jpg"
     }
    ]
   }
