@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-30T01:55:24+00:00",
+ "updated": "2026-10-30T02:46:28+00:00",
  "days": [
   "2026-10-17",
   "2026-10-18",
@@ -241,6 +241,47 @@
      "link": "https://mdpr.jp/gourmet/detail/4866985",
      "source": "モデルプレス",
      "image": null
+    }
+   ]
+  },
+  {
+   "label": "天ぷら・天むす",
+   "q": "天ぷら",
+   "kind": "dish",
+   "recent": 2,
+   "base_per_day": 0.0,
+   "ratio": 2.5,
+   "new": true,
+   "daily": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    1,
+    0
+   ],
+   "articles": [
+    {
+     "id": "63d8bb29dc181815",
+     "title": "松阪屋上野やペリエ津田沼へ出店！「日本橋 天丼 天むす 金子半之助」2026年11月度催事情報のお知らせ",
+     "link": "https://prtimes.jp/main/html/rd/p/000000160.000048178.html",
+     "source": "PR TIMES",
+     "image": "https://prcdn.freetls.fastly.net/release_image/48178/160/48178-160-45e585d19d886c4e34deb8b8b808a46b-800x400.jpg?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260"
+    },
+    {
+     "id": "309b429ec98a6977",
+     "title": "オアシス21／27年春リニューアル、サンエース・天ぷら定食まきのがオープン",
+     "link": "https://www.ryutsuu.biz/store/s102813.html",
+     "source": "流通ニュース",
+     "image": "https://www.ryutsuu.biz/main/images/2026/10/20261028oasis.jpg"
     }
    ]
   },
@@ -508,47 +549,6 @@
      "link": "https://prtimes.jp/main/html/rd/p/000000016.000109471.html",
      "source": "PR TIMES",
      "image": "https://prcdn.freetls.fastly.net/release_image/109471/16/109471-16-1843672a81e7682c0bbfd8f4a0138078-2525x1458.jpg?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260"
-    }
-   ]
-  },
-  {
-   "label": "コメダ",
-   "q": "コメダ",
-   "kind": "chain",
-   "recent": 2,
-   "base_per_day": 0.18,
-   "ratio": 1.62,
-   "new": false,
-   "daily": [
-    0,
-    0,
-    0,
-    0,
-    0,
-    1,
-    0,
-    0,
-    0,
-    1,
-    0,
-    1,
-    1,
-    0
-   ],
-   "articles": [
-    {
-     "id": "463ce71ba7a70220",
-     "title": "【スタバ・コメダなど】カフェチェーンの中であなたが好きなのは？【人気投票実施中】",
-     "link": "https://news.nicovideo.jp/watch/nw19934807?news_ref=search_search",
-     "source": "ニコニコニュース",
-     "image": null
-    },
-    {
-     "id": "7ee464bb0a19459a",
-     "title": "【今日から】コメダ珈琲店、秋冬の新作ケーキ4種発売 SNS「待ってました！」「どれもおいしそう」",
-     "link": "https://news.infoseek.co.jp/amp/article/otonanswer_404501/",
-     "source": "Infoseek",
-     "image": "https://media.image.infoseek.co.jp/isnews/photos/otonanswer/otonanswer_404501_0-enlarge.jpg"
     }
    ]
   }
