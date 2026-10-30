@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-30T22:57:16+09:00",
+ "updated": "2026-10-30T23:53:43+09:00",
  "items": [
   {
    "id": "87f5a94f9557c80f",
@@ -175,6 +175,23 @@
    "image_v4": true,
    "shop": false,
    "shop_name": null
+  },
+  {
+   "id": "007e7a63c6dc3784",
+   "title": "「半妖の夜叉姫カフェ」が名古屋パルコにオープン！日暮とわ＆せつな＆もろはのオリジナルメニューが登場",
+   "link": "https://www.walkerplus.com/article/1063430/",
+   "source": "ウォーカープラス",
+   "image": "https://news.walkerplus.com/article/1063430/10600890_615.jpg",
+   "category": "shinten",
+   "area": "名古屋",
+   "published": "2026-10-30T15:06:26+09:00",
+   "provider": "google",
+   "added": "2026-10-30T23:53:43+09:00",
+   "decode_v2": true,
+   "image_checked": true,
+   "image_v4": true,
+   "shop": true,
+   "shop_name": "半妖の夜叉姫カフェ"
   },
   {
    "id": "f5aedb903e3bfa89",
@@ -364,7 +381,7 @@
   },
   {
    "id": "835bee312fa6553a",
-   "title": "名駅前が激変！ “芝生”“キッチンカー”“フリーWi-Fi完備”の ...",
+   "title": "名駅前が激変！ “芝生”“キッチンカー”“フリーWi-Fi完備”の「にぎわい空間」に 名古屋市が仕掛ける社会実験 狙いは「名駅エリアの第一印象を変える」（2026年10月30日掲載）｜中京テレビNEWS NNN",
    "link": "https://news.yahoo.co.jp/articles/f98fef3dee2b3dce3a1de44e08692f75d1dd4cc4",
    "source": "Yahoo!ニュース",
    "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261030-02129137-sp_ctv-000-1-view.jpg?exp=10800",
@@ -375,12 +392,14 @@
    "added": "2026-10-30T18:49:19+09:00",
    "image_checked": true,
    "image_v4": true,
-   "shop": false,
-   "shop_name": null,
+   "shop": true,
+   "shop_name": "にぎわい空間",
    "venue": "名古屋駅",
    "lat": 35.17298,
    "lng": 136.88165,
    "place": "outdoor",
+   "start": "2026-10-30",
+   "end": "2026-10-30",
    "group": "bcbd32c511fc"
   },
   {
@@ -3201,6 +3220,23 @@
    "published": "2026-10-26T22:06:58+09:00",
    "provider": "google",
    "added": "2026-10-28T19:43:49+09:00",
+   "decode_v2": true,
+   "image_checked": true,
+   "image_v4": true,
+   "shop": false,
+   "shop_name": null
+  },
+  {
+   "id": "e9b591fe93f431da",
+   "title": "本格焼肉が楽しめる!?東海エリアでいま、スパ銭＆温泉グルメがアツイ！",
+   "link": "https://www.walkerplus.com/article/185236/",
+   "source": "ウォーカープラス",
+   "image": "https://news.walkerplus.com/article/185236/1104865_615.jpg",
+   "category": "wadai",
+   "area": "東海",
+   "published": "2026-10-26T20:20:31+09:00",
+   "provider": "google",
+   "added": "2026-10-30T23:53:43+09:00",
    "decode_v2": true,
    "image_checked": true,
    "image_v4": true,
