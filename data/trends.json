@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-29T23:35:17+00:00",
+ "updated": "2026-10-30T00:51:33+00:00",
  "days": [
   "2026-10-17",
   "2026-10-18",
@@ -149,6 +149,54 @@
    ]
   },
   {
+   "label": "ローソン",
+   "q": "ローソン",
+   "kind": "chain",
+   "recent": 7,
+   "base_per_day": 0.64,
+   "ratio": 2.58,
+   "new": false,
+   "daily": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    2,
+    0,
+    1,
+    1,
+    1,
+    2,
+    5,
+    2,
+    0
+   ],
+   "articles": [
+    {
+     "id": "9b727ae02a69b923",
+     "title": "【10月27日〜発売】セブン・ファミマ・ローソン新作スイーツ特集｜「ドバイチョコスタイルクレープ」・「Uchi Café×ゴディバ ショコラロールケーキ」など注目デザートまとめ",
+     "link": "https://topics.smt.docomo.ne.jp/amp/article/entabe/trend/entabe-61968",
+     "source": "ｄメニューニュース",
+     "image": "https://img.topics.smt.news.goo.ne.jp/picture/entabe/m_entabe-61968.jpg"
+    },
+    {
+     "id": "f4ce78d69d16bbf0",
+     "title": "さっぱり＆なめらか！ローソン限定ヨーグルトアイス",
+     "link": "https://www.walkerplus.com/article/68584/",
+     "source": "ウォーカープラス",
+     "image": "https://news.walkerplus.com/article/68584/384110_615.jpg"
+    },
+    {
+     "id": "ba59f2a39b3395a0",
+     "title": "オリコンニュース：ローソンストア100「デカ盛りチャレンジ」今年3回目の開催決定 値段そのままハムの量が約1.5倍になった“ハムサンド”など全12品",
+     "link": "https://mainichi.jp/articles/20261028/orc/00m/200/136000c",
+     "source": "毎日新聞",
+     "image": null
+    }
+   ]
+  },
+  {
    "label": "台湾ラーメン",
    "q": "台湾ラーメン",
    "kind": "dish",
@@ -234,54 +282,6 @@
      "link": "https://mognavi.jp/news/matome/gen-newProduct-29450/",
      "source": "もぐナビ",
      "image": "https://img1.esimg.jp/blog/wp-content/uploads/2026/10/gen-newProduct-29450.jpg?ts=1793151900000"
-    }
-   ]
-  },
-  {
-   "label": "ローソン",
-   "q": "ローソン",
-   "kind": "chain",
-   "recent": 6,
-   "base_per_day": 0.64,
-   "ratio": 2.23,
-   "new": false,
-   "daily": [
-    0,
-    0,
-    0,
-    0,
-    0,
-    2,
-    0,
-    1,
-    1,
-    1,
-    2,
-    5,
-    1,
-    0
-   ],
-   "articles": [
-    {
-     "id": "9b727ae02a69b923",
-     "title": "【10月27日〜発売】セブン・ファミマ・ローソン新作スイーツ特集｜「ドバイチョコスタイルクレープ」・「Uchi Café×ゴディバ ショコラロールケーキ」など注目デザートまとめ",
-     "link": "https://topics.smt.docomo.ne.jp/amp/article/entabe/trend/entabe-61968",
-     "source": "ｄメニューニュース",
-     "image": "https://img.topics.smt.news.goo.ne.jp/picture/entabe/m_entabe-61968.jpg"
-    },
-    {
-     "id": "ba59f2a39b3395a0",
-     "title": "オリコンニュース：ローソンストア100「デカ盛りチャレンジ」今年3回目の開催決定 値段そのままハムの量が約1.5倍になった“ハムサンド”など全12品",
-     "link": "https://mainichi.jp/articles/20261028/orc/00m/200/136000c",
-     "source": "毎日新聞",
-     "image": null
-    },
-    {
-     "id": "237c391c6c95141a",
-     "title": "ローソンストア100「デカ盛りチャレンジ」今年3回目の開催決定 値段そのままハムの量が約1.5倍になった“ハムサンド”など全12品",
-     "link": "https://373news.com/news/national/oricon/detail/2489347",
-     "source": "南日本新聞",
-     "image": "https://373news.com/_news/oricon/photo/main/20261028_140125_size640wh_84586722.jpg"
     }
    ]
   },
