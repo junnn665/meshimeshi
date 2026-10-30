@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-30T05:44:13+00:00",
+ "updated": "2026-10-30T06:51:06+00:00",
  "days": [
   "2026-10-17",
   "2026-10-18",
@@ -22,9 +22,9 @@
    "label": "寿司",
    "q": "寿司",
    "kind": "dish",
-   "recent": 8,
+   "recent": 9,
    "base_per_day": 0.36,
-   "ratio": 4.07,
+   "ratio": 4.54,
    "new": false,
    "daily": [
     0,
@@ -40,7 +40,7 @@
     1,
     6,
     1,
-    1
+    2
    ],
    "articles": [
     {
@@ -51,18 +51,66 @@
      "image": "https://nagoyato.com/wp-content/uploads/2026/10/d7534f5a158177c70ae2f0297c26314d.jpg"
     },
     {
+     "id": "1bfce71aa706d07b",
+     "title": "名古屋栄三越に「すしの美登利」 限定「三つ星にぎり」「海鮮ひつまぶし」も",
+     "link": "https://sakae.keizai.biz/headline/4021/",
+     "source": "サカエ経済新聞",
+     "image": "https://images.keizai.biz/sakae_keizai/headline/1793334889_photo.jpg"
+    },
+    {
      "id": "5bc1595493f30b5a",
      "title": "3COINS×くら寿司のOMOキャンペーンにクラウドサーカスの『Metabadge』が採用",
      "link": "https://prtimes.jp/main/html/rd/p/000000400.000016877.html",
      "source": "PR TIMES",
      "image": "https://prcdn.freetls.fastly.net/release_image/16877/400/16877-400-b57af795b65048057192969636710783-3900x2194.png?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260"
+    }
+   ]
+  },
+  {
+   "label": "台湾ラーメン",
+   "q": "台湾ラーメン",
+   "kind": "dish",
+   "recent": 7,
+   "base_per_day": 0.36,
+   "ratio": 3.59,
+   "new": false,
+   "daily": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    2,
+    1,
+    1,
+    0,
+    5,
+    0,
+    2
+   ],
+   "articles": [
+    {
+     "id": "1fcc6e49cd308d09",
+     "title": "ファミマに「味仙」監修の旨辛グルメ5品！ 台湾ラーメンに“ミンチ”カツも【地域限定】",
+     "link": "https://ascii.jp/elem/000/004/447/4447005/",
+     "source": "ASCII.jp",
+     "image": "https://ascii.jp/img/2026/10/30/4546206/xl/989d8a566969f814.png?20200122"
     },
     {
-     "id": "3300a8503209ba90",
-     "title": "ついに“伊勢前寿し”が伊勢市に誕生。伊勢志摩の神の恵みを一貫に込めた新たな寿司文化を世界へ『伊勢前寿し 神貫 伊勢本店』2026年11月3日(火)オープン 【メディア内覧会 11月4日(水)開催】",
-     "link": "https://prtimes.jp/main/html/rd/p/000000004.000108755.html",
-     "source": "PR TIMES",
-     "image": "https://prcdn.freetls.fastly.net/release_image/108755/4/108755-4-8f499506e14f72ecd67502946b262a9a-3900x2600.jpg?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260"
+     "id": "f69c0376ef5b04fc",
+     "title": "ファミリーマート×味仙本店、「台湾ラーメン」や「台湾はるさめスープ」など、新商品5品を発売",
+     "link": "http://www.excite.co.jp/news/article/Ssnp_709512/",
+     "source": "Excite エキサイト",
+     "image": null
+    },
+    {
+     "id": "72aea3262a5d73f6",
+     "title": "ファミマに\"名古屋のソウルフード\"味仙本店監修グルメが登場...! 「台湾ミンチカツ」「台湾ラーメン」など全5品のラインアップを紹介",
+     "link": "https://news.infoseek.co.jp/article/mynavi_3241185/",
+     "source": "Infoseek",
+     "image": "https://media.image.infoseek.co.jp/isnews/photos/mynavi/mynavi_3241185_0-enlarge.jpg"
     }
    ]
   },
@@ -197,6 +245,54 @@
    ]
   },
   {
+   "label": "鍋",
+   "q": "鍋",
+   "kind": "dish",
+   "recent": 4,
+   "base_per_day": 0.18,
+   "ratio": 2.91,
+   "new": false,
+   "daily": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    2,
+    0,
+    0,
+    0,
+    3,
+    1,
+    0
+   ],
+   "articles": [
+    {
+     "id": "eaa1953fb567a8fd",
+     "title": "すき家の大人気メニュー「牛すき鍋定食」今年も登場！グルメYouTuber山崎NANAが大絶賛！！",
+     "link": "https://news.livedoor.com/article/detail/32686191/",
+     "source": "ライブドアニュース",
+     "image": "https://image.news.livedoor.com/newsimage/stf/9/b/9b7bc_1845_4f50aff3_a32449a0.jpg"
+    },
+    {
+     "id": "ef3d4f68ff5a3d8d",
+     "title": "代々木公園にスペイン料理や音楽が集結「フィエスタ・デ・エスパーニャ」魚介やチョリソーの大鍋パエリアも",
+     "link": "https://www.fashion-press.net/news/152627",
+     "source": "ファッションプレス",
+     "image": "https://www.fashion-press.net/img/news/152627/top.jpg?1793182866"
+    },
+    {
+     "id": "c81bbccf7c0d7efb",
+     "title": "“知多家”の新ブランド『土鍋ごはん×とんかつ CHITAKA』名古屋・栄の地下街に29日オープン 今後商業施設を中心に出店へ",
+     "link": "https://article.auone.jp/0a82174f-1f57-4b24-a3f2-e80a93173727",
+     "source": "au Webポータル",
+     "image": "https://newportal.portal.auone.jp/media/thumbnails/2026/10/28/https___news_jp_i_1488088534532014151_w640.webp"
+    }
+   ]
+  },
+  {
    "label": "ローソン",
    "q": "ローソン",
    "kind": "chain",
@@ -245,8 +341,8 @@
    ]
   },
   {
-   "label": "台湾ラーメン",
-   "q": "台湾ラーメン",
+   "label": "弁当",
+   "q": "弁当",
    "kind": "dish",
    "recent": 5,
    "base_per_day": 0.36,
@@ -260,35 +356,35 @@
     0,
     0,
     0,
+    1,
+    1,
     2,
-    1,
-    1,
     0,
-    5,
-    0,
+    3,
+    2,
     0
    ],
    "articles": [
     {
-     "id": "72aea3262a5d73f6",
-     "title": "ファミマに\"名古屋のソウルフード\"味仙本店監修グルメが登場...! 「台湾ミンチカツ」「台湾ラーメン」など全5品のラインアップを紹介",
-     "link": "https://news.infoseek.co.jp/article/mynavi_3241185/",
-     "source": "Infoseek",
-     "image": "https://media.image.infoseek.co.jp/isnews/photos/mynavi/mynavi_3241185_0-enlarge.jpg"
+     "id": "0e74c01989a29116",
+     "title": "猿投農林高、メグリアと共同開発した地産地消弁当と総菜をお披露目",
+     "link": "https://toyota.keizai.biz/photoflash/1408/",
+     "source": "豊田経済新聞",
+     "image": "https://images.keizai.biz/toyota_keizai/photonews/1793267034_b.jpg"
     },
     {
-     "id": "f76e973f25a56170",
-     "title": "ファミマに″名古屋のソウルフード″味仙本店監修グルメが登場...! 「台湾ミンチカツ」「台湾ラーメン」など全5品のラインアップを紹介",
-     "link": "https://news.livedoor.com/article/detail/32677170/",
-     "source": "ライブドアニュース",
-     "image": "https://image.news.livedoor.com/newsimage/stf/0/9/09284_1223_3427f0b88920a13e7295383582607c4d.jpg"
+     "id": "992e1cf3786c8ff5",
+     "title": "「ほっともっと」ハンバーグもおかずも楽しめる『デミハンバーグミックス弁当』『和風ハンバーグミックス弁当』新発売",
+     "link": "https://prtimes.jp/main/html/rd/p/000001707.000054093.html",
+     "source": "PR TIMES",
+     "image": "https://prcdn.freetls.fastly.net/release_image/54093/1707/54093-1707-ad77fe43b479b0b4a1801c56e075c2cc-1080x1440.jpg?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260"
     },
     {
-     "id": "c02e96cdf3ec89a2",
-     "title": "ファミマ「味仙本店」監修グルメ第4弾 「台湾ラーメン」「はるさめスープ」など全5品、中部・東海・甲信地方限定で登場",
-     "link": "https://mdpr.jp/gourmet/detail/4866985",
-     "source": "モデルプレス",
-     "image": null
+     "id": "7e063d5238c5e3b8",
+     "title": "ローソンストア100、財布にうれしい「デカ盛りチャレンジ」を2週間実施。増量した弁当やサンドイッチなど12点",
+     "link": "https://gourmet.watch.impress.co.jp/docs/news/2151859.html",
+     "source": "グルメ Watch",
+     "image": "https://gourmet.watch.impress.co.jp/img/grw/list/2151/859/01.jpg"
     }
    ]
   },
@@ -375,12 +471,12 @@
    ]
   },
   {
-   "label": "鍋",
-   "q": "鍋",
+   "label": "パン",
+   "q": "パン",
    "kind": "dish",
-   "recent": 4,
-   "base_per_day": 0.27,
-   "ratio": 2.48,
+   "recent": 10,
+   "base_per_day": 1.36,
+   "ratio": 2.06,
    "new": false,
    "daily": [
     0,
@@ -388,85 +484,37 @@
     0,
     0,
     0,
-    1,
-    0,
-    2,
-    0,
-    0,
-    0,
+    4,
     3,
+    0,
     1,
-    0
+    3,
+    4,
+    3,
+    5,
+    2
    ],
    "articles": [
     {
-     "id": "eaa1953fb567a8fd",
-     "title": "すき家の大人気メニュー「牛すき鍋定食」今年も登場！グルメYouTuber山崎NANAが大絶賛！！",
-     "link": "https://news.livedoor.com/article/detail/32686191/",
-     "source": "ライブドアニュース",
-     "image": "https://image.news.livedoor.com/newsimage/stf/9/b/9b7bc_1845_4f50aff3_a32449a0.jpg"
-    },
-    {
-     "id": "ef3d4f68ff5a3d8d",
-     "title": "代々木公園にスペイン料理や音楽が集結「フィエスタ・デ・エスパーニャ」魚介やチョリソーの大鍋パエリアも",
-     "link": "https://www.fashion-press.net/news/152627",
-     "source": "ファッションプレス",
-     "image": "https://www.fashion-press.net/img/news/152627/top.jpg?1793182866"
-    },
-    {
-     "id": "c81bbccf7c0d7efb",
-     "title": "“知多家”の新ブランド『土鍋ごはん×とんかつ CHITAKA』名古屋・栄の地下街に29日オープン 今後商業施設を中心に出店へ",
-     "link": "https://article.auone.jp/0a82174f-1f57-4b24-a3f2-e80a93173727",
-     "source": "au Webポータル",
-     "image": "https://newportal.portal.auone.jp/media/thumbnails/2026/10/28/https___news_jp_i_1488088534532014151_w640.webp"
-    }
-   ]
-  },
-  {
-   "label": "弁当",
-   "q": "弁当",
-   "kind": "dish",
-   "recent": 5,
-   "base_per_day": 0.55,
-   "ratio": 2.09,
-   "new": false,
-   "daily": [
-    0,
-    0,
-    0,
-    0,
-    0,
-    2,
-    0,
-    1,
-    1,
-    2,
-    0,
-    3,
-    2,
-    0
-   ],
-   "articles": [
-    {
-     "id": "0e74c01989a29116",
-     "title": "猿投農林高、メグリアと共同開発した地産地消弁当と総菜をお披露目",
-     "link": "https://toyota.keizai.biz/photoflash/1408/",
-     "source": "豊田経済新聞",
-     "image": "https://images.keizai.biz/toyota_keizai/photonews/1793267034_b.jpg"
-    },
-    {
-     "id": "992e1cf3786c8ff5",
-     "title": "「ほっともっと」ハンバーグもおかずも楽しめる『デミハンバーグミックス弁当』『和風ハンバーグミックス弁当』新発売",
-     "link": "https://prtimes.jp/main/html/rd/p/000001707.000054093.html",
+     "id": "093c5028ae8ea062",
+     "title": "【浜松】法務・労務・知財DX：リーガルAI搭載の契約・法務BPaaS「クラウドリーガル」がリコージャパン主催「RICOH Value Presentation 2026 Autumn 浜松会場」に出展",
+     "link": "https://prtimes.jp/main/html/rd/p/000000070.000126939.html",
      "source": "PR TIMES",
-     "image": "https://prcdn.freetls.fastly.net/release_image/54093/1707/54093-1707-ad77fe43b479b0b4a1801c56e075c2cc-1080x1440.jpg?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260"
+     "image": "https://prcdn.freetls.fastly.net/release_image/126939/70/126939-70-8ad062730f85e245b841fdad5a001fd3-2784x632.jpg?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260"
     },
     {
-     "id": "7e063d5238c5e3b8",
-     "title": "ローソンストア100、財布にうれしい「デカ盛りチャレンジ」を2週間実施。増量した弁当やサンドイッチなど12点",
-     "link": "https://gourmet.watch.impress.co.jp/docs/news/2151859.html",
-     "source": "グルメ Watch",
-     "image": "https://gourmet.watch.impress.co.jp/img/grw/list/2151/859/01.jpg"
+     "id": "eace06b5fd439625",
+     "title": "洒落CAFEでガールズ＆パンツァー もっとらぶらぶ作戦です！のカフェ開催へ",
+     "link": "https://news.dellows.jp/954961/?from=top_category_area",
+     "source": "Dellows News",
+     "image": "https://news.dellows.jp/wp-content/uploads/2026/10/954961_1.jpg"
+    },
+    {
+     "id": "564b37e2eb78ac06",
+     "title": "ウェンディーズ・ジャパンがゴーストレストラン開始 10/29 タピオカのデリバリー専門店「Bao Boba（バオボバ）」オープン",
+     "link": "https://mainichikirei.jp/prtimes/article/20261029prt00m100000714a.html",
+     "source": "毎日キレイ",
+     "image": "https://prtimes.jp/img/59385/304/resize/d59385-304-b1f56cc23fe18a9ccb64-0.jpg"
     }
    ]
   },
@@ -508,47 +556,6 @@
      "link": "https://www.msn.com/ja-jp/money/business/%E3%81%AF%E3%81%AA%E3%81%BE%E3%82%8B%E3%81%86%E3%81%A9%E3%82%93-%E3%81%8D%E3%81%97%E3%82%81%E3%82%93%E5%8F%82%E5%85%A5-%E5%90%8D%E5%8F%A4%E5%B1%8B%E3%81%AE%E4%BA%BA%E6%B0%97%E5%BA%97%E3%81%A8%E7%B5%84%E3%82%93%E3%81%A0%E3%81%9D%E3%81%AE%E7%8B%99%E3%81%84%E3%81%AF/ar-AA2girfC",
      "source": "朝日新聞デジタル on MSN",
      "image": "http://www.bing.com/th?id=ONUT.3P5-KK7MDa0SRaT1LSX2-g&pid=News"
-    }
-   ]
-  },
-  {
-   "label": "クレープ",
-   "q": "クレープ",
-   "kind": "dish",
-   "recent": 2,
-   "base_per_day": 0.09,
-   "ratio": 1.96,
-   "new": false,
-   "daily": [
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    1,
-    1,
-    1,
-    0
-   ],
-   "articles": [
-    {
-     "id": "9b727ae02a69b923",
-     "title": "【10月27日〜発売】セブン・ファミマ・ローソン新作スイーツ特集｜「ドバイチョコスタイルクレープ」・「Uchi Café×ゴディバ ショコラロールケーキ」など注目デザートまとめ",
-     "link": "https://topics.smt.docomo.ne.jp/amp/article/entabe/trend/entabe-61968",
-     "source": "ｄメニューニュース",
-     "image": "https://img.topics.smt.news.goo.ne.jp/picture/entabe/m_entabe-61968.jpg"
-    },
-    {
-     "id": "64ef1e0ee9037240",
-     "title": "物価高でも、盛るのはやめません。 カツ2枚！サンド3組！クレープもBIG！“デカくてうれしい”全12品！ ローソンストア100「デカ盛りチャレンジ」2026年11月4日（水）から",
-     "link": "https://prtimes.jp/main/html/rd/p/000000595.000025635.html",
-     "source": "PR TIMES",
-     "image": "https://prcdn.freetls.fastly.net/release_image/25635/595/25635-595-a3c08778fa582b104f74a1975ef47e98-1280x720.jpg?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260"
     }
    ]
   }
