@@ -1,12 +1,12 @@
 {
- "updated": "2026-10-31T05:37:06+09:00",
+ "updated": "2026-10-31T06:35:48+09:00",
  "items": 375,
  "with_image": 349,
- "google_decode_ok": 26,
+ "google_decode_ok": 29,
  "google_decode_failed": 0,
  "google_decode_samples": [],
  "image_failures": [
-  "tetsudo-ch.com: HTTPError: HTTP Error 403: Forbidden",
+  "news.at-s.com: HTTPError: HTTP Error 405: Not Allowed",
   "www.at-s.com: HTTPError: HTTP Error 405: Not Allowed",
   "media.unisba.ac.id: HTTPError: HTTP Error 403: Forbidden",
   "media.unisba.ac.id: HTTPError: HTTP Error 403: Forbidden"
