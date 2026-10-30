@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-30T19:45:12+00:00",
+ "updated": "2026-10-30T20:37:36+00:00",
  "days": [
   "2026-10-18",
   "2026-10-19",
@@ -60,19 +60,60 @@
    ]
   },
   {
+   "label": "ドーナツ",
+   "q": "ドーナツ",
+   "kind": "dish",
+   "recent": 2,
+   "base_per_day": 0.0,
+   "ratio": 2.5,
+   "new": true,
+   "daily": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    1,
+    0
+   ],
+   "articles": [
+    {
+     "id": "26777e17f193580c",
+     "title": "【11月3日〜発売】セブン-イレブン 新商品パンまとめ「7プレミアム あんこもちパイ 2個入」「クリスマスライトドーナツ」など",
+     "link": "https://topics.smt.docomo.ne.jp/amp/article/entabe/trend/entabe-61975",
+     "source": "ｄメニューニュース",
+     "image": "https://img.topics.smt.news.goo.ne.jp/picture/entabe/m_entabe-61975.jpg"
+    },
+    {
+     "id": "b2fa25ccd30bf334",
+     "title": "不二家の新業態カフェ東海エリア初出店 名古屋にオープン 11月1日からドーナツ半額",
+     "link": "https://www.shizuoka-life.jp/post-15690/",
+     "source": "静岡ライフ",
+     "image": "https://www.shizuoka-life.jp/wp-content/uploads/2026/10/72e8b258dace41caedbf91f212df5344.jpg"
+    }
+   ]
+  },
+  {
    "label": "パン",
    "q": "パン",
    "kind": "dish",
    "recent": 10,
-   "base_per_day": 1.36,
-   "ratio": 2.06,
+   "base_per_day": 1.27,
+   "ratio": 2.18,
    "new": false,
    "daily": [
     0,
     0,
     0,
     0,
-    1,
+    0,
     3,
     0,
     1,
@@ -104,47 +145,6 @@
      "link": "https://prtimes.jp/main/html/rd/p/000000070.000126939.html",
      "source": "PR TIMES",
      "image": "https://prcdn.freetls.fastly.net/release_image/126939/70/126939-70-8ad062730f85e245b841fdad5a001fd3-2784x632.jpg?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260"
-    }
-   ]
-  },
-  {
-   "label": "ドーナツ",
-   "q": "ドーナツ",
-   "kind": "dish",
-   "recent": 2,
-   "base_per_day": 0.09,
-   "ratio": 1.96,
-   "new": false,
-   "daily": [
-    0,
-    0,
-    0,
-    0,
-    1,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    1,
-    1,
-    0
-   ],
-   "articles": [
-    {
-     "id": "26777e17f193580c",
-     "title": "【11月3日〜発売】セブン-イレブン 新商品パンまとめ「7プレミアム あんこもちパイ 2個入」「クリスマスライトドーナツ」など",
-     "link": "https://topics.smt.docomo.ne.jp/amp/article/entabe/trend/entabe-61975",
-     "source": "ｄメニューニュース",
-     "image": "https://img.topics.smt.news.goo.ne.jp/picture/entabe/m_entabe-61975.jpg"
-    },
-    {
-     "id": "b2fa25ccd30bf334",
-     "title": "不二家の新業態カフェ東海エリア初出店 名古屋にオープン 11月1日からドーナツ半額",
-     "link": "https://www.shizuoka-life.jp/post-15690/",
-     "source": "静岡ライフ",
-     "image": "https://www.shizuoka-life.jp/wp-content/uploads/2026/10/72e8b258dace41caedbf91f212df5344.jpg"
     }
    ]
   },
