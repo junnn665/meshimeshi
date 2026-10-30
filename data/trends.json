@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-30T02:46:28+00:00",
+ "updated": "2026-10-30T03:45:27+00:00",
  "days": [
   "2026-10-17",
   "2026-10-18",
@@ -145,6 +145,54 @@
      "link": "https://nagoyato.com/posts/20426",
      "source": "ナゴヤトコトン",
      "image": "https://nagoyato.com/wp-content/uploads/2026/10/IMG_3911-EDIT2.jpg"
+    }
+   ]
+  },
+  {
+   "label": "定食",
+   "q": "定食",
+   "kind": "dish",
+   "recent": 4,
+   "base_per_day": 0.18,
+   "ratio": 2.91,
+   "new": false,
+   "daily": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    1,
+    0,
+    2,
+    1,
+    1
+   ],
+   "articles": [
+    {
+     "id": "91cf82daaeb2b38c",
+     "title": "「やよい軒」世界共通“NABE FAIR” 第1弾！定番の美味！『～3種の本醸造醤油をブレンド～すき焼き定食』",
+     "link": "https://prtimes.jp/main/html/rd/p/000001710.000054093.html",
+     "source": "PR TIMES",
+     "image": "https://prcdn.freetls.fastly.net/release_image/54093/1710/54093-1710-f5dbefa9cdb58e976be3dc9f7ae91765-1080x1440.jpg?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260"
+    },
+    {
+     "id": "eaa1953fb567a8fd",
+     "title": "すき家の大人気メニュー「牛すき鍋定食」今年も登場！グルメYouTuber山崎NANAが大絶賛！！",
+     "link": "https://news.livedoor.com/article/detail/32686191/",
+     "source": "ライブドアニュース",
+     "image": "https://image.news.livedoor.com/newsimage/stf/9/b/9b7bc_1845_4f50aff3_a32449a0.jpg"
+    },
+    {
+     "id": "2278928f6a0da7c5",
+     "title": "御殿場アウトレットで頂グルメフェア」 静岡県認定食材・商品使う",
+     "link": "https://topics.smt.docomo.ne.jp/article/minkei/region/minkei-mtfuji3052?utm_source=dnews&utm_medium=article&utm_campaign=contentsmatch5",
+     "source": "ｄメニューニュース",
+     "image": "https://img.topics.smt.news.goo.ne.jp/picture/minkei/m_minkei-mtfuji3052.jpg"
     }
    ]
   },
@@ -327,6 +375,54 @@
    ]
   },
   {
+   "label": "鍋",
+   "q": "鍋",
+   "kind": "dish",
+   "recent": 4,
+   "base_per_day": 0.36,
+   "ratio": 2.15,
+   "new": false,
+   "daily": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    2,
+    0,
+    2,
+    0,
+    0,
+    0,
+    3,
+    1,
+    0
+   ],
+   "articles": [
+    {
+     "id": "eaa1953fb567a8fd",
+     "title": "すき家の大人気メニュー「牛すき鍋定食」今年も登場！グルメYouTuber山崎NANAが大絶賛！！",
+     "link": "https://news.livedoor.com/article/detail/32686191/",
+     "source": "ライブドアニュース",
+     "image": "https://image.news.livedoor.com/newsimage/stf/9/b/9b7bc_1845_4f50aff3_a32449a0.jpg"
+    },
+    {
+     "id": "ef3d4f68ff5a3d8d",
+     "title": "代々木公園にスペイン料理や音楽が集結「フィエスタ・デ・エスパーニャ」魚介やチョリソーの大鍋パエリアも",
+     "link": "https://www.fashion-press.net/news/152627",
+     "source": "ファッションプレス",
+     "image": "https://www.fashion-press.net/img/news/152627/top.jpg?1793182866"
+    },
+    {
+     "id": "c81bbccf7c0d7efb",
+     "title": "“知多家”の新ブランド『土鍋ごはん×とんかつ CHITAKA』名古屋・栄の地下街に29日オープン 今後商業施設を中心に出店へ",
+     "link": "https://article.auone.jp/0a82174f-1f57-4b24-a3f2-e80a93173727",
+     "source": "au Webポータル",
+     "image": "https://newportal.portal.auone.jp/media/thumbnails/2026/10/28/https___news_jp_i_1488088534532014151_w640.webp"
+    }
+   ]
+  },
+  {
    "label": "弁当",
    "q": "弁当",
    "kind": "dish",
@@ -453,102 +549,6 @@
      "link": "https://topics.smt.docomo.ne.jp/article/minkei/region/minkei-kawaguchi313",
      "source": "ｄメニューニュース",
      "image": "https://img.topics.smt.news.goo.ne.jp/picture/minkei/m_minkei-kawaguchi313.jpg"
-    }
-   ]
-  },
-  {
-   "label": "からあげ",
-   "q": "からあげ",
-   "kind": "dish",
-   "recent": 3,
-   "base_per_day": 0.27,
-   "ratio": 1.93,
-   "new": false,
-   "daily": [
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    2,
-    1,
-    0,
-    2,
-    0,
-    1
-   ],
-   "articles": [
-    {
-     "id": "9f50951cb779757e",
-     "title": "からあげクン、地域限定“ご当地味”登場 「ザンギ」「麻辣湯」「塩こんぶマヨ」…名店監修から人気菓子コラボまで全8種",
-     "link": "https://www.sanyonews.jp/article/1972264?kw=%E4%BA%AC",
-     "source": "山陽新聞",
-     "image": "https://static.sanyonews.jp/image/article/size1/a/5/8/5/a5854b89ae89974ef4d921c656cca51c_1.jpg"
-    },
-    {
-     "id": "93c5556cf3ea3eed",
-     "title": "【がブリチキン。】ブラックフライデーにちなんだ黒いカレーソース！スパイス香る「ブラックカレーからあげ」を11月限定で販売",
-     "link": "https://prtimes.jp/main/html/rd/p/000000161.000051168.html",
-     "source": "PR TIMES",
-     "image": "https://prcdn.freetls.fastly.net/release_image/51168/161/51168-161-eebb448e15b0c40a9be452b547c4ee8b-1921x961.jpg?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260"
-    },
-    {
-     "id": "d38bdaab7f5208f9",
-     "title": "【きょうから】ローソン“ご当地からあげクン”、SNSで4279万回表示の反響「これ食べるために旅行したい」「買う前からもう美味しい」",
-     "link": "https://www.sanyonews.jp/article/1974058?rct=oricon_news",
-     "source": "山陽新聞",
-     "image": "https://static.sanyonews.jp/image/article/size1/8/b/0/b/8b0bf5f1ad3517cccff40ccd5b0552cd_1.jpg"
-    }
-   ]
-  },
-  {
-   "label": "ケーキ",
-   "q": "ケーキ",
-   "kind": "dish",
-   "recent": 4,
-   "base_per_day": 0.45,
-   "ratio": 1.9,
-   "new": false,
-   "daily": [
-    0,
-    0,
-    0,
-    0,
-    0,
-    2,
-    1,
-    0,
-    0,
-    1,
-    1,
-    2,
-    2,
-    0
-   ],
-   "articles": [
-    {
-     "id": "9b727ae02a69b923",
-     "title": "【10月27日〜発売】セブン・ファミマ・ローソン新作スイーツ特集｜「ドバイチョコスタイルクレープ」・「Uchi Café×ゴディバ ショコラロールケーキ」など注目デザートまとめ",
-     "link": "https://topics.smt.docomo.ne.jp/amp/article/entabe/trend/entabe-61968",
-     "source": "ｄメニューニュース",
-     "image": "https://img.topics.smt.news.goo.ne.jp/picture/entabe/m_entabe-61968.jpg"
-    },
-    {
-     "id": "0bfe015338bf4111",
-     "title": "愛情あふれる爆盛り中華vs天才のチーズケーキ",
-     "link": "https://tver.jp/episodes/epav4cv93r",
-     "source": "TVer",
-     "image": null
-    },
-    {
-     "id": "89c3436b3a18b83e",
-     "title": "東海オンエアりょうのR BRANDが贈る、2026年のクリスマス 華やかな限定ケーキと、冬の夜を彩る特別なコーヒーが登場",
-     "link": "https://prtimes.jp/main/html/rd/p/000000016.000109471.html",
-     "source": "PR TIMES",
-     "image": "https://prcdn.freetls.fastly.net/release_image/109471/16/109471-16-1843672a81e7682c0bbfd8f4a0138078-2525x1458.jpg?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260"
     }
    ]
   }
