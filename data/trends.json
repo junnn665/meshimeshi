@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-30T11:38:14+00:00",
+ "updated": "2026-10-30T12:50:10+00:00",
  "days": [
   "2026-10-17",
   "2026-10-18",
@@ -22,9 +22,9 @@
    "label": "寿司",
    "q": "寿司",
    "kind": "dish",
-   "recent": 10,
+   "recent": 11,
    "base_per_day": 0.36,
-   "ratio": 5.02,
+   "ratio": 5.5,
    "new": false,
    "daily": [
     0,
@@ -40,9 +40,16 @@
     1,
     6,
     1,
-    3
+    4
    ],
    "articles": [
+    {
+     "id": "a4ad9e9c36f17300",
+     "title": "「すしの美登利 名古屋栄三越店」店内",
+     "link": "https://sakae.keizai.biz/photoflash/5988/",
+     "source": "サカエ経済新聞",
+     "image": "https://images.keizai.biz/sakae_keizai/photonews/1793334674_b.jpg"
+    },
     {
      "id": "aa1a19a79c3b3fa9",
      "title": "【小学館JS研究所】女子小学生が好きな食の好みを調査 よく利用する外食チェーン、1位は「マクドナルド」、「はま寿司」「スシロー」「くら寿司」など大手回転寿司チェーンも上位にランクイン",
@@ -56,13 +63,6 @@
      "link": "https://nagoyato.com/posts/20526",
      "source": "ナゴヤトコトン",
      "image": "https://nagoyato.com/wp-content/uploads/2026/10/d7534f5a158177c70ae2f0297c26314d.jpg"
-    },
-    {
-     "id": "1bfce71aa706d07b",
-     "title": "名古屋栄三越に「すしの美登利」 限定「三つ星にぎり」「海鮮ひつまぶし」も",
-     "link": "https://sakae.keizai.biz/headline/4021/",
-     "source": "サカエ経済新聞",
-     "image": "https://images.keizai.biz/sakae_keizai/headline/1793334889_photo.jpg"
     }
    ]
   },
@@ -163,6 +163,54 @@
    ]
   },
   {
+   "label": "定食",
+   "q": "定食",
+   "kind": "dish",
+   "recent": 4,
+   "base_per_day": 0.09,
+   "ratio": 3.54,
+   "new": false,
+   "daily": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    2,
+    1,
+    1
+   ],
+   "articles": [
+    {
+     "id": "91cf82daaeb2b38c",
+     "title": "「やよい軒」世界共通“NABE FAIR” 第1弾！定番の美味！『～3種の本醸造醤油をブレンド～すき焼き定食』",
+     "link": "https://prtimes.jp/main/html/rd/p/000001710.000054093.html",
+     "source": "PR TIMES",
+     "image": "https://prcdn.freetls.fastly.net/release_image/54093/1710/54093-1710-f5dbefa9cdb58e976be3dc9f7ae91765-1080x1440.jpg?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260"
+    },
+    {
+     "id": "eaa1953fb567a8fd",
+     "title": "すき家の大人気メニュー「牛すき鍋定食」今年も登場！グルメYouTuber山崎NANAが大絶賛！！",
+     "link": "https://news.livedoor.com/article/detail/32686191/",
+     "source": "ライブドアニュース",
+     "image": "https://image.news.livedoor.com/newsimage/stf/9/b/9b7bc_1845_4f50aff3_a32449a0.jpg"
+    },
+    {
+     "id": "2278928f6a0da7c5",
+     "title": "御殿場アウトレットで頂グルメフェア」 静岡県認定食材・商品使う",
+     "link": "https://topics.smt.docomo.ne.jp/article/minkei/region/minkei-mtfuji3052?utm_source=dnews&utm_medium=article&utm_campaign=contentsmatch5",
+     "source": "ｄメニューニュース",
+     "image": "https://img.topics.smt.news.goo.ne.jp/picture/minkei/m_minkei-mtfuji3052.jpg"
+    }
+   ]
+  },
+  {
    "label": "サンリオハウス",
    "q": "サンリオハウス",
    "kind": "shop",
@@ -241,54 +289,6 @@
      "link": "https://nagoyato.com/posts/20426",
      "source": "ナゴヤトコトン",
      "image": "https://nagoyato.com/wp-content/uploads/2026/10/IMG_3911-EDIT2.jpg"
-    }
-   ]
-  },
-  {
-   "label": "定食",
-   "q": "定食",
-   "kind": "dish",
-   "recent": 4,
-   "base_per_day": 0.18,
-   "ratio": 2.91,
-   "new": false,
-   "daily": [
-    0,
-    0,
-    0,
-    0,
-    0,
-    1,
-    0,
-    0,
-    0,
-    1,
-    0,
-    2,
-    1,
-    1
-   ],
-   "articles": [
-    {
-     "id": "91cf82daaeb2b38c",
-     "title": "「やよい軒」世界共通“NABE FAIR” 第1弾！定番の美味！『～3種の本醸造醤油をブレンド～すき焼き定食』",
-     "link": "https://prtimes.jp/main/html/rd/p/000001710.000054093.html",
-     "source": "PR TIMES",
-     "image": "https://prcdn.freetls.fastly.net/release_image/54093/1710/54093-1710-f5dbefa9cdb58e976be3dc9f7ae91765-1080x1440.jpg?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260"
-    },
-    {
-     "id": "eaa1953fb567a8fd",
-     "title": "すき家の大人気メニュー「牛すき鍋定食」今年も登場！グルメYouTuber山崎NANAが大絶賛！！",
-     "link": "https://news.livedoor.com/article/detail/32686191/",
-     "source": "ライブドアニュース",
-     "image": "https://image.news.livedoor.com/newsimage/stf/9/b/9b7bc_1845_4f50aff3_a32449a0.jpg"
-    },
-    {
-     "id": "2278928f6a0da7c5",
-     "title": "御殿場アウトレットで頂グルメフェア」 静岡県認定食材・商品使う",
-     "link": "https://topics.smt.docomo.ne.jp/article/minkei/region/minkei-mtfuji3052?utm_source=dnews&utm_medium=article&utm_campaign=contentsmatch5",
-     "source": "ｄメニューニュース",
-     "image": "https://img.topics.smt.news.goo.ne.jp/picture/minkei/m_minkei-mtfuji3052.jpg"
     }
    ]
   },
