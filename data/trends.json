@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-30T08:52:20+00:00",
+ "updated": "2026-10-30T09:49:51+00:00",
  "days": [
   "2026-10-17",
   "2026-10-18",
@@ -478,6 +478,54 @@
    ]
   },
   {
+   "label": "パン",
+   "q": "パン",
+   "kind": "dish",
+   "recent": 12,
+   "base_per_day": 1.27,
+   "ratio": 2.59,
+   "new": false,
+   "daily": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    3,
+    3,
+    0,
+    1,
+    3,
+    4,
+    3,
+    5,
+    4
+   ],
+   "articles": [
+    {
+     "id": "1156710283104fd4",
+     "title": "【11/7・8開催】静岡中部で秋の週末を彩る注目イベント！清水港マグロまつりや50店超のパン祭り、梅ケ島の滝ライトアップも",
+     "link": "https://topics.smt.docomo.ne.jp/amp/article/ats_sbs/region/ats_sbs-2086393",
+     "source": "ｄメニューニュース",
+     "image": "https://img.topics.smt.news.goo.ne.jp/-/20261028100531/img/dmenu_service-brand-logo_200x200.png"
+    },
+    {
+     "id": "093c5028ae8ea062",
+     "title": "【浜松】法務・労務・知財DX：リーガルAI搭載の契約・法務BPaaS「クラウドリーガル」がリコージャパン主催「RICOH Value Presentation 2026 Autumn 浜松会場」に出展",
+     "link": "https://prtimes.jp/main/html/rd/p/000000070.000126939.html",
+     "source": "PR TIMES",
+     "image": "https://prcdn.freetls.fastly.net/release_image/126939/70/126939-70-8ad062730f85e245b841fdad5a001fd3-2784x632.jpg?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260"
+    },
+    {
+     "id": "d67be2fb282f3e39",
+     "title": "米粉パンもラーメンも麦不使用！49店が集結する入場無料のグルテンフリー祭in名古屋",
+     "link": "https://report.iko-yo.net/articles/35274",
+     "source": "いこーよニュース",
+     "image": "https://d28w2qw7dtr435.cloudfront.net/uploaded/cover_images/images/35431/normal.jpg?1793341539"
+    }
+   ]
+  },
+  {
    "label": "天ぷら・天むす",
    "q": "天ぷら",
    "kind": "dish",
@@ -515,47 +563,6 @@
      "link": "https://www.ryutsuu.biz/store/s102813.html",
      "source": "流通ニュース",
      "image": "https://www.ryutsuu.biz/main/images/2026/10/20261028oasis.jpg"
-    }
-   ]
-  },
-  {
-   "label": "おにぎり",
-   "q": "おにぎり",
-   "kind": "dish",
-   "recent": 2,
-   "base_per_day": 0.0,
-   "ratio": 2.5,
-   "new": true,
-   "daily": [
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    2,
-    0,
-    0
-   ],
-   "articles": [
-    {
-     "id": "30046a9613a9f274",
-     "title": "【2026年10月第5週】コンビニおにぎり・コンビニ手巻寿司の新商品！鶏ごぼうおむすびや青磯海苔漬けサーモンなどまとめ",
-     "link": "https://mognavi.jp/news/matome/gen-newProduct-29449/",
-     "source": "もぐナビ",
-     "image": "https://img1.esimg.jp/blog/wp-content/uploads/2026/10/gen-newProduct-29449.jpg?ts=1793150100000"
-    },
-    {
-     "id": "358eadf975f320b8",
-     "title": "【2026年10月第5週】コンビニ寿司・コンビニ弁当の新商品！おにぎりランチや豚焼肉弁当などまとめ",
-     "link": "https://mognavi.jp/news/matome/gen-newProduct-29450/",
-     "source": "もぐナビ",
-     "image": "https://img1.esimg.jp/blog/wp-content/uploads/2026/10/gen-newProduct-29450.jpg?ts=1793151900000"
     }
    ]
   }
