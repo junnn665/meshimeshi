@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-30T04:45:10+00:00",
+ "updated": "2026-10-30T05:44:13+00:00",
  "days": [
   "2026-10-17",
   "2026-10-18",
@@ -22,9 +22,9 @@
    "label": "寿司",
    "q": "寿司",
    "kind": "dish",
-   "recent": 7,
+   "recent": 8,
    "base_per_day": 0.36,
-   "ratio": 3.59,
+   "ratio": 4.07,
    "new": false,
    "daily": [
     0,
@@ -40,9 +40,16 @@
     1,
     6,
     1,
-    0
+    1
    ],
    "articles": [
+    {
+     "id": "d47413396b55eedb",
+     "title": "名古屋栄三越に老舗の名店が集結！2026年10月31日オープンの新店「宮きしめん伊兵衛」「すしの美登利」の注目グルメと見どころを詳細解説【現地取材／栄】",
+     "link": "https://nagoyato.com/posts/20526",
+     "source": "ナゴヤトコトン",
+     "image": "https://nagoyato.com/wp-content/uploads/2026/10/d7534f5a158177c70ae2f0297c26314d.jpg"
+    },
     {
      "id": "5bc1595493f30b5a",
      "title": "3COINS×くら寿司のOMOキャンペーンにクラウドサーカスの『Metabadge』が採用",
@@ -56,13 +63,6 @@
      "link": "https://prtimes.jp/main/html/rd/p/000000004.000108755.html",
      "source": "PR TIMES",
      "image": "https://prcdn.freetls.fastly.net/release_image/108755/4/108755-4-8f499506e14f72ecd67502946b262a9a-3900x2600.jpg?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260"
-    },
-    {
-     "id": "26faaca0634a15c1",
-     "title": "かっぱ寿司にてアサイー×和素材「和サイ―」スイーツ「アサイーのアイスもなかサンド」「ふわもち団子のアサイーぜんざい風」が11月6日（金）より期間限定で登場！",
-     "link": "https://prtimes.jp/main/html/rd/p/000000274.000024416.html",
-     "source": "PR TIMES",
-     "image": "https://prcdn.freetls.fastly.net/release_image/24416/274/24416-274-bb078db0f79d71d0854261c61d704648-1463x853.jpg?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260"
     }
    ]
   },
@@ -379,8 +379,8 @@
    "q": "鍋",
    "kind": "dish",
    "recent": 4,
-   "base_per_day": 0.36,
-   "ratio": 2.15,
+   "base_per_day": 0.27,
+   "ratio": 2.48,
    "new": false,
    "daily": [
     0,
@@ -388,7 +388,7 @@
     0,
     0,
     0,
-    2,
+    1,
     0,
     2,
     0,
@@ -471,6 +471,47 @@
    ]
   },
   {
+   "label": "きしめん",
+   "q": "きしめん",
+   "kind": "dish",
+   "recent": 2,
+   "base_per_day": 0.09,
+   "ratio": 1.96,
+   "new": false,
+   "daily": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    1
+   ],
+   "articles": [
+    {
+     "id": "d47413396b55eedb",
+     "title": "名古屋栄三越に老舗の名店が集結！2026年10月31日オープンの新店「宮きしめん伊兵衛」「すしの美登利」の注目グルメと見どころを詳細解説【現地取材／栄】",
+     "link": "https://nagoyato.com/posts/20526",
+     "source": "ナゴヤトコトン",
+     "image": "https://nagoyato.com/wp-content/uploads/2026/10/d7534f5a158177c70ae2f0297c26314d.jpg"
+    },
+    {
+     "id": "cb02cc9448f88396",
+     "title": "はなまるうどん、きしめん参入 名古屋の人気店と組んだその狙いは?",
+     "link": "https://www.msn.com/ja-jp/money/business/%E3%81%AF%E3%81%AA%E3%81%BE%E3%82%8B%E3%81%86%E3%81%A9%E3%82%93-%E3%81%8D%E3%81%97%E3%82%81%E3%82%93%E5%8F%82%E5%85%A5-%E5%90%8D%E5%8F%A4%E5%B1%8B%E3%81%AE%E4%BA%BA%E6%B0%97%E5%BA%97%E3%81%A8%E7%B5%84%E3%82%93%E3%81%A0%E3%81%9D%E3%81%AE%E7%8B%99%E3%81%84%E3%81%AF/ar-AA2girfC",
+     "source": "朝日新聞デジタル on MSN",
+     "image": "http://www.bing.com/th?id=ONUT.3P5-KK7MDa0SRaT1LSX2-g&pid=News"
+    }
+   ]
+  },
+  {
    "label": "クレープ",
    "q": "クレープ",
    "kind": "dish",
@@ -508,47 +549,6 @@
      "link": "https://prtimes.jp/main/html/rd/p/000000595.000025635.html",
      "source": "PR TIMES",
      "image": "https://prcdn.freetls.fastly.net/release_image/25635/595/25635-595-a3c08778fa582b104f74a1975ef47e98-1280x720.jpg?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260"
-    }
-   ]
-  },
-  {
-   "label": "ビール",
-   "q": "ビール",
-   "kind": "dish",
-   "recent": 2,
-   "base_per_day": 0.09,
-   "ratio": 1.96,
-   "new": false,
-   "daily": [
-    0,
-    0,
-    0,
-    0,
-    0,
-    1,
-    0,
-    0,
-    0,
-    0,
-    0,
-    1,
-    1,
-    0
-   ],
-   "articles": [
-    {
-     "id": "a55c0214aa815ed2",
-     "title": "ガチャを回して、推しに投票。「クラフトビール総選挙2026 in 名古屋」11月12日より開催",
-     "link": "https://prtimes.jp/main/html/rd/p/000000157.000060917.html",
-     "source": "PR TIMES",
-     "image": "https://prcdn.freetls.fastly.net/release_image/60917/157/60917-157-8cd65c9e78090de4681b97bd46bca529-1457x973.png?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260"
-    },
-    {
-     "id": "33d2cea938b372d8",
-     "title": "川口・キュポラ広場でクラフトビールイベント 9ブルワリーのビールが一堂に",
-     "link": "https://topics.smt.docomo.ne.jp/article/minkei/region/minkei-kawaguchi313",
-     "source": "ｄメニューニュース",
-     "image": "https://img.topics.smt.news.goo.ne.jp/picture/minkei/m_minkei-kawaguchi313.jpg"
     }
    ]
   }
