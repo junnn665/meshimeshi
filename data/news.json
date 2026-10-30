@@ -1,9 +1,43 @@
 {
- "updated": "2026-10-30T12:44:56+09:00",
+ "updated": "2026-10-30T13:44:40+09:00",
  "items": [
   {
+   "id": "f57be6a578f9b39f",
+   "title": "【11月7日・8日開催】静岡西部の注目イベント！迫力の「森のまつり」や袋井・磐田・天竜のグルメフェス情報まとめ",
+   "link": "https://topics.smt.docomo.ne.jp/article/ats_sbs/region/ats_sbs-2086275?utm_source=dnews&utm_medium=article&utm_campaign=contentsmatch1",
+   "source": "ｄメニューニュース",
+   "image": "https://img.topics.smt.news.goo.ne.jp/-/20261028100531/img/dmenu_service-brand-logo_200x200.png",
+   "category": "wadai",
+   "area": "静岡",
+   "published": "2026-10-30T13:00:00+09:00",
+   "provider": "google",
+   "added": "2026-10-30T13:44:40+09:00",
+   "decode_v2": true,
+   "image_checked": true,
+   "image_v4": true,
+   "shop": false,
+   "shop_name": null
+  },
+  {
+   "id": "3cedbd7b46184c0c",
+   "title": "「ドローン使えるんで、良かったらあさって呼んで」…全日本大学駅伝「生中継」…「モーニングショー」で長嶋一茂がスタッフ参加を売り込む「天才的にうまい」",
+   "link": "https://news.infoseek.co.jp/amp/article/hochi_20261030-OHT1T51100/",
+   "source": "Infoseek",
+   "image": "https://media.image.infoseek.co.jp/isnews/photos/hochi/hochi_20261030-OHT1T51100_0-enlarge.jpg",
+   "category": "yasuuma",
+   "area": "東海",
+   "published": "2026-10-30T12:45:00+09:00",
+   "provider": "google",
+   "added": "2026-10-30T13:44:40+09:00",
+   "decode_v2": true,
+   "image_checked": true,
+   "image_v4": true,
+   "shop": false,
+   "shop_name": null
+  },
+  {
    "id": "ee278432d4ac1490",
-   "title": "名古屋の「どて焼き」3軒をハシゴ。食感も味噌の濃さも全然違う…ご当地グルメ通の超弾丸旅！",
+   "title": "名古屋の「どて焼き」3軒をハシゴ。食感も味噌の濃さも全然違う…ご当地グルメ通の超弾丸旅！（おとなの週末）",
    "link": "https://otonano-shumatsu.com/articles/593556",
    "source": "おとなの週末Web",
    "image": "https://otonano-shumatsu.com/wp-content/uploads/2026/10/toake_gotochi_20261030_eyecatch.jpg",
@@ -6450,6 +6484,22 @@
    "image_v4": true,
    "shop": false,
    "shop_name": null
+  },
+  {
+   "id": "05a3a850bcf228e0",
+   "title": "純系名古屋コーチン100％「白金ハンバーグ」が食のプロから最高 ...",
+   "link": "https://mainichi.jp/articles/20261022/pr2/00m/020/070000c",
+   "source": "毎日新聞デジタル",
+   "image": "http://www.bing.com/th?id=ONUT.7USTZgbMipLUwYA2vSZ3yw&pid=News",
+   "category": "wadai",
+   "area": "名古屋",
+   "published": "2026-10-22T02:00:00+09:00",
+   "provider": "bing",
+   "added": "2026-10-30T13:44:40+09:00",
+   "image_checked": true,
+   "image_v4": true,
+   "shop": true,
+   "shop_name": "白金ハンバーグ"
   }
  ]
 }
