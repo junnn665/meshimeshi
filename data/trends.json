@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-31T09:37:48+00:00",
+ "updated": "2026-10-31T10:35:09+00:00",
  "days": [
   "2026-10-18",
   "2026-10-19",
@@ -56,6 +56,54 @@
      "link": "https://prtimes.jp/main/html/rd/p/000000400.000016877.html",
      "source": "PR TIMES",
      "image": "https://prcdn.freetls.fastly.net/release_image/16877/400/16877-400-b57af795b65048057192969636710783-3900x2194.png?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260"
+    }
+   ]
+  },
+  {
+   "label": "パン",
+   "q": "パン",
+   "kind": "dish",
+   "recent": 12,
+   "base_per_day": 1.27,
+   "ratio": 2.59,
+   "new": false,
+   "daily": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    1,
+    3,
+    4,
+    5,
+    5,
+    6,
+    1
+   ],
+   "articles": [
+    {
+     "id": "023f4fe3bc47bce1",
+     "title": "情報ＰＩＣＫ ＵＰ＝沼津市 ぬまづパンまるしぇ／下田市 公開講座「民俗学の誘い」／藤枝市 東海ガスのガス展 パンとグルメの祭典／静岡市葵区 県防災学講座／菊川市 地球愛まつりｉｎ静岡／浜松市中央区 東海調理製菓専門学校の建学祭｜静岡新聞DIGITAL 静岡県のニュー",
+     "link": "https://news.at-s.com/article/2088520",
+     "source": "静岡新聞DIGITAL",
+     "image": null
+    },
+    {
+     "id": "38592af10aecf45f",
+     "title": "八王子・南大沢で「パンのフェス」開催へ 5周年で「ご褒美パン」テーマに",
+     "link": "https://hachioji.keizai.biz/headline/4342/",
+     "source": "八王子経済新聞",
+     "image": "https://images.keizai.biz/hachioji_keizai/headline/1793366326_photo.jpg"
+    },
+    {
+     "id": "26777e17f193580c",
+     "title": "【11月3日〜発売】セブン-イレブン 新商品パンまとめ「7プレミアム あんこもちパイ 2個入」「クリスマスライトドーナツ」など",
+     "link": "https://topics.smt.docomo.ne.jp/amp/article/entabe/trend/entabe-61975",
+     "source": "ｄメニューニュース",
+     "image": "https://img.topics.smt.news.goo.ne.jp/picture/entabe/m_entabe-61975.jpg"
     }
    ]
   },
@@ -183,12 +231,12 @@
    ]
   },
   {
-   "label": "パン",
-   "q": "パン",
+   "label": "ハンバーグ",
+   "q": "ハンバーグ",
    "kind": "dish",
-   "recent": 11,
-   "base_per_day": 1.27,
-   "ratio": 2.39,
+   "recent": 2,
+   "base_per_day": 0.09,
+   "ratio": 1.96,
    "new": false,
    "daily": [
     0,
@@ -196,37 +244,30 @@
     0,
     0,
     0,
-    1,
     0,
     1,
-    3,
-    4,
-    5,
-    5,
-    5,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
     1
    ],
    "articles": [
     {
-     "id": "023f4fe3bc47bce1",
-     "title": "情報ＰＩＣＫ ＵＰ＝沼津市 ぬまづパンまるしぇ／下田市 公開講座「民俗学の誘い」／藤枝市 東海ガスのガス展 パンとグルメの祭典／静岡市葵区 県防災学講座／菊川市 地球愛まつりｉｎ静岡／浜松市中央区 東海調理製菓専門学校の建学祭｜静岡新聞DIGITAL 静岡県のニュー",
-     "link": "https://news.at-s.com/article/2088520",
-     "source": "静岡新聞DIGITAL",
-     "image": null
+     "id": "513ea340aa6f24fc",
+     "title": "【榎本ハンバーグ研究所】渋沢栄一翁の経営哲学を“味”で解き明かす新メニュー第2弾！『新・渋沢ハンバーグ丼 ～論語と算盤～』を西ヶ原店（渋沢通り店）にて限定販売開始！",
+     "link": "https://prtimes.jp/main/html/rd/p/000000001.000191488.html",
+     "source": "PR TIMES",
+     "image": "https://prcdn.freetls.fastly.net/release_image/191488/1/191488-1-690adf0bea0b3b161676c4551774fc6e-896x1200.jpg?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260"
     },
     {
-     "id": "26777e17f193580c",
-     "title": "【11月3日〜発売】セブン-イレブン 新商品パンまとめ「7プレミアム あんこもちパイ 2個入」「クリスマスライトドーナツ」など",
-     "link": "https://topics.smt.docomo.ne.jp/amp/article/entabe/trend/entabe-61975",
-     "source": "ｄメニューニュース",
-     "image": "https://img.topics.smt.news.goo.ne.jp/picture/entabe/m_entabe-61975.jpg"
-    },
-    {
-     "id": "1156710283104fd4",
-     "title": "【11/7・8開催】静岡中部で秋の週末を彩る注目イベント！清水港マグロまつりや50店超のパン祭り、梅ケ島の滝ライトアップも",
-     "link": "https://topics.smt.docomo.ne.jp/amp/article/ats_sbs/region/ats_sbs-2086393",
-     "source": "ｄメニューニュース",
-     "image": "https://img.topics.smt.news.goo.ne.jp/-/20261028100531/img/dmenu_service-brand-logo_200x200.png"
+     "id": "992e1cf3786c8ff5",
+     "title": "「ほっともっと」ハンバーグもおかずも楽しめる『デミハンバーグミックス弁当』『和風ハンバーグミックス弁当』新発売",
+     "link": "https://prtimes.jp/main/html/rd/p/000001707.000054093.html",
+     "source": "PR TIMES",
+     "image": "https://prcdn.freetls.fastly.net/release_image/54093/1707/54093-1707-ad77fe43b479b0b4a1801c56e075c2cc-1080x1440.jpg?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260"
     }
    ]
   },
@@ -275,47 +316,6 @@
      "link": "https://prtimes.jp/main/html/rd/p/000000043.000104282.html",
      "source": "PR TIMES",
      "image": "https://prcdn.freetls.fastly.net/release_image/104282/43/104282-43-a9dc1eba1dee9905df3a800c9ccb5304-1000x667.jpg?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260"
-    }
-   ]
-  },
-  {
-   "label": "ハンバーグ",
-   "q": "ハンバーグ",
-   "kind": "dish",
-   "recent": 2,
-   "base_per_day": 0.18,
-   "ratio": 1.62,
-   "new": false,
-   "daily": [
-    0,
-    0,
-    0,
-    0,
-    1,
-    0,
-    1,
-    0,
-    0,
-    0,
-    0,
-    1,
-    0,
-    1
-   ],
-   "articles": [
-    {
-     "id": "513ea340aa6f24fc",
-     "title": "【榎本ハンバーグ研究所】渋沢栄一翁の経営哲学を“味”で解き明かす新メニュー第2弾！『新・渋沢ハンバーグ丼 ～論語と算盤～』を西ヶ原店（渋沢通り店）にて限定販売開始！",
-     "link": "https://prtimes.jp/main/html/rd/p/000000001.000191488.html",
-     "source": "PR TIMES",
-     "image": "https://prcdn.freetls.fastly.net/release_image/191488/1/191488-1-690adf0bea0b3b161676c4551774fc6e-896x1200.jpg?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260"
-    },
-    {
-     "id": "992e1cf3786c8ff5",
-     "title": "「ほっともっと」ハンバーグもおかずも楽しめる『デミハンバーグミックス弁当』『和風ハンバーグミックス弁当』新発売",
-     "link": "https://prtimes.jp/main/html/rd/p/000001707.000054093.html",
-     "source": "PR TIMES",
-     "image": "https://prcdn.freetls.fastly.net/release_image/54093/1707/54093-1707-ad77fe43b479b0b4a1801c56e075c2cc-1080x1440.jpg?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260"
     }
    ]
   },
