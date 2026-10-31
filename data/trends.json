@@ -1,7 +1,6 @@
 {
- "updated": "2026-10-31T14:34:56+00:00",
+ "updated": "2026-10-31T15:34:33+00:00",
  "days": [
-  "2026-10-18",
   "2026-10-19",
   "2026-10-20",
   "2026-10-21",
@@ -14,99 +13,11 @@
   "2026-10-28",
   "2026-10-29",
   "2026-10-30",
-  "2026-10-31"
+  "2026-10-31",
+  "2026-11-01"
  ],
  "recent_days": 3,
  "items": [
-  {
-   "label": "パン",
-   "q": "パン",
-   "kind": "dish",
-   "recent": 13,
-   "base_per_day": 1.27,
-   "ratio": 2.8,
-   "new": false,
-   "daily": [
-    0,
-    0,
-    0,
-    0,
-    0,
-    1,
-    0,
-    1,
-    3,
-    4,
-    5,
-    5,
-    7,
-    1
-   ],
-   "articles": [
-    {
-     "id": "023f4fe3bc47bce1",
-     "title": "情報ＰＩＣＫ ＵＰ＝沼津市 ぬまづパンまるしぇ／下田市 公開講座「民俗学の誘い」／藤枝市 東海ガスのガス展 パンとグルメの祭典／静岡市葵区 県防災学講座／菊川市 地球愛まつりｉｎ静岡／浜松市中央区 東海調理製菓専門学校の建学祭｜静岡新聞DIGITAL 静岡県のニュー",
-     "link": "https://news.at-s.com/article/2088520",
-     "source": "静岡新聞DIGITAL",
-     "image": null
-    },
-    {
-     "id": "38592af10aecf45f",
-     "title": "八王子・南大沢で「パンのフェス」開催へ 5周年で「ご褒美パン」テーマに",
-     "link": "https://hachioji.keizai.biz/headline/4342/",
-     "source": "八王子経済新聞",
-     "image": "https://images.keizai.biz/hachioji_keizai/headline/1793366326_photo.jpg"
-    },
-    {
-     "id": "26777e17f193580c",
-     "title": "【11月3日〜発売】セブン-イレブン 新商品パンまとめ「7プレミアム あんこもちパイ 2個入」「クリスマスライトドーナツ」など",
-     "link": "https://topics.smt.docomo.ne.jp/amp/article/entabe/trend/entabe-61975",
-     "source": "ｄメニューニュース",
-     "image": "https://img.topics.smt.news.goo.ne.jp/picture/entabe/m_entabe-61975.jpg"
-    }
-   ]
-  },
-  {
-   "label": "くら寿司",
-   "q": "くら寿司",
-   "kind": "chain",
-   "recent": 2,
-   "base_per_day": 0.0,
-   "ratio": 2.5,
-   "new": true,
-   "daily": [
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    1,
-    1,
-    0
-   ],
-   "articles": [
-    {
-     "id": "aa1a19a79c3b3fa9",
-     "title": "【小学館JS研究所】女子小学生が好きな食の好みを調査 よく利用する外食チェーン、1位は「マクドナルド」、「はま寿司」「スシロー」「くら寿司」など大手回転寿司チェーンも上位にランクイン",
-     "link": "https://prtimes.jp/main/html/rd/p/000000043.000104282.html",
-     "source": "PR TIMES",
-     "image": "https://prcdn.freetls.fastly.net/release_image/104282/43/104282-43-a9dc1eba1dee9905df3a800c9ccb5304-1000x667.jpg?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260"
-    },
-    {
-     "id": "5bc1595493f30b5a",
-     "title": "3COINS×くら寿司のOMOキャンペーンにクラウドサーカスの『Metabadge』が採用",
-     "link": "https://prtimes.jp/main/html/rd/p/000000400.000016877.html",
-     "source": "PR TIMES",
-     "image": "https://prcdn.freetls.fastly.net/release_image/16877/400/16877-400-b57af795b65048057192969636710783-3900x2194.png?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260"
-    }
-   ]
-  },
   {
    "label": "サンリオハウス",
    "q": "サンリオハウス",
@@ -125,10 +36,10 @@
     0,
     0,
     0,
-    0,
     1,
     0,
     2,
+    0,
     0
    ],
    "articles": [
@@ -149,136 +60,6 @@
    ]
   },
   {
-   "label": "ドーナツ",
-   "q": "ドーナツ",
-   "kind": "dish",
-   "recent": 2,
-   "base_per_day": 0.0,
-   "ratio": 2.5,
-   "new": true,
-   "daily": [
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    1,
-    1,
-    0
-   ],
-   "articles": [
-    {
-     "id": "26777e17f193580c",
-     "title": "【11月3日〜発売】セブン-イレブン 新商品パンまとめ「7プレミアム あんこもちパイ 2個入」「クリスマスライトドーナツ」など",
-     "link": "https://topics.smt.docomo.ne.jp/amp/article/entabe/trend/entabe-61975",
-     "source": "ｄメニューニュース",
-     "image": "https://img.topics.smt.news.goo.ne.jp/picture/entabe/m_entabe-61975.jpg"
-    },
-    {
-     "id": "b2fa25ccd30bf334",
-     "title": "不二家の新業態カフェ東海エリア初出店 名古屋にオープン 11月1日からドーナツ半額",
-     "link": "https://www.shizuoka-life.jp/post-15690/",
-     "source": "静岡ライフ",
-     "image": "https://www.shizuoka-life.jp/wp-content/uploads/2026/10/72e8b258dace41caedbf91f212df5344.jpg"
-    }
-   ]
-  },
-  {
-   "label": "きしめん",
-   "q": "きしめん",
-   "kind": "dish",
-   "recent": 2,
-   "base_per_day": 0.0,
-   "ratio": 2.5,
-   "new": true,
-   "daily": [
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    1,
-    1,
-    0
-   ],
-   "articles": [
-    {
-     "id": "d47413396b55eedb",
-     "title": "名古屋栄三越に老舗の名店が集結！2026年10月31日オープンの新店「宮きしめん伊兵衛」「すしの美登利」の注目グルメと見どころを詳細解説【現地取材／栄】",
-     "link": "https://nagoyato.com/posts/20526",
-     "source": "ナゴヤトコトン",
-     "image": "https://nagoyato.com/wp-content/uploads/2026/10/d7534f5a158177c70ae2f0297c26314d.jpg"
-    },
-    {
-     "id": "cb02cc9448f88396",
-     "title": "はなまるうどん、きしめん参入 名古屋の人気店と組んだその狙いは?",
-     "link": "https://www.msn.com/ja-jp/money/business/%E3%81%AF%E3%81%AA%E3%81%BE%E3%82%8B%E3%81%86%E3%81%A9%E3%82%93-%E3%81%8D%E3%81%97%E3%82%81%E3%82%93%E5%8F%82%E5%85%A5-%E5%90%8D%E5%8F%A4%E5%B1%8B%E3%81%AE%E4%BA%BA%E6%B0%97%E5%BA%97%E3%81%A8%E7%B5%84%E3%82%93%E3%81%A0%E3%81%9D%E3%81%AE%E7%8B%99%E3%81%84%E3%81%AF/ar-AA2girfC",
-     "source": "朝日新聞デジタル on MSN",
-     "image": "http://www.bing.com/th?id=ONUT.3P5-KK7MDa0SRaT1LSX2-g&pid=News"
-    }
-   ]
-  },
-  {
-   "label": "寿司",
-   "q": "寿司",
-   "kind": "dish",
-   "recent": 7,
-   "base_per_day": 0.73,
-   "ratio": 2.36,
-   "new": false,
-   "daily": [
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    1,
-    1,
-    6,
-    1,
-    5,
-    1
-   ],
-   "articles": [
-    {
-     "id": "08e8a30fb449dc12",
-     "title": "行列ができる人気寿司店『すしの美登利』が名古屋栄三越にオープン。店舗限定の海鮮ひつまぶしも提供",
-     "link": "https://jouhou.nagoya/sushi-no-midori/",
-     "source": "名古屋情報通",
-     "image": "https://jouhou.nagoya/wp-content/uploads/2026/10/sushi-no-midori001-600x400.jpg"
-    },
-    {
-     "id": "88938424113e3525",
-     "title": "「すしの美登利 名古屋栄三越店」外観",
-     "link": "https://sakae.keizai.biz/photoflash/5987/",
-     "source": "サカエ経済新聞",
-     "image": "https://images.keizai.biz/sakae_keizai/photonews/1793334661_b.jpg"
-    },
-    {
-     "id": "a4ad9e9c36f17300",
-     "title": "「すしの美登利 名古屋栄三越店」店内",
-     "link": "https://sakae.keizai.biz/photoflash/5988/",
-     "source": "サカエ経済新聞",
-     "image": "https://images.keizai.biz/sakae_keizai/photonews/1793334674_b.jpg"
-    }
-   ]
-  },
-  {
    "label": "ひつまぶし・うなぎ",
    "q": "ひつまぶし",
    "kind": "dish",
@@ -293,14 +74,14 @@
     0,
     0,
     0,
-    0,
     1,
     0,
     0,
     1,
     0,
     2,
-    1
+    1,
+    0
    ],
    "articles": [
     {
@@ -327,53 +108,12 @@
    ]
   },
   {
-   "label": "ハンバーグ",
-   "q": "ハンバーグ",
+   "label": "寿司",
+   "q": "寿司",
    "kind": "dish",
-   "recent": 2,
-   "base_per_day": 0.09,
-   "ratio": 1.96,
-   "new": false,
-   "daily": [
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    1,
-    0,
-    0,
-    0,
-    0,
-    1,
-    0,
-    1
-   ],
-   "articles": [
-    {
-     "id": "513ea340aa6f24fc",
-     "title": "【榎本ハンバーグ研究所】渋沢栄一翁の経営哲学を“味”で解き明かす新メニュー第2弾！『新・渋沢ハンバーグ丼 ～論語と算盤～』を西ヶ原店（渋沢通り店）にて限定販売開始！",
-     "link": "https://prtimes.jp/main/html/rd/p/000000001.000191488.html",
-     "source": "PR TIMES",
-     "image": "https://prcdn.freetls.fastly.net/release_image/191488/1/191488-1-690adf0bea0b3b161676c4551774fc6e-896x1200.jpg?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260"
-    },
-    {
-     "id": "992e1cf3786c8ff5",
-     "title": "「ほっともっと」ハンバーグもおかずも楽しめる『デミハンバーグミックス弁当』『和風ハンバーグミックス弁当』新発売",
-     "link": "https://prtimes.jp/main/html/rd/p/000001707.000054093.html",
-     "source": "PR TIMES",
-     "image": "https://prcdn.freetls.fastly.net/release_image/54093/1707/54093-1707-ad77fe43b479b0b4a1801c56e075c2cc-1080x1440.jpg?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260"
-    }
-   ]
-  },
-  {
-   "label": "ケーキ",
-   "q": "ケーキ",
-   "kind": "dish",
-   "recent": 3,
-   "base_per_day": 0.36,
-   "ratio": 1.67,
+   "recent": 6,
+   "base_per_day": 0.82,
+   "ratio": 1.88,
    "new": false,
    "daily": [
     0,
@@ -383,76 +123,35 @@
     0,
     0,
     0,
-    0,
     1,
     1,
-    2,
-    2,
-    0,
-    1
+    6,
+    1,
+    5,
+    1,
+    0
    ],
    "articles": [
     {
-     "id": "16c122d54a1a4990",
-     "title": "【11月3日〜発売】セブン-イレブン 新商品スイーツまとめ「紅はるかのひとくちスイートポテト」「7プレミアム チョコにおぼれたチョコケーキ」など",
-     "link": "https://topics.smt.docomo.ne.jp/amp/article/entabe/trend/entabe-61976",
-     "source": "ｄメニューニュース",
-     "image": "https://img.topics.smt.news.goo.ne.jp/picture/entabe/m_entabe-61976.jpg"
+     "id": "08e8a30fb449dc12",
+     "title": "行列ができる人気寿司店『すしの美登利』が名古屋栄三越にオープン。店舗限定の海鮮ひつまぶしも提供",
+     "link": "https://jouhou.nagoya/sushi-no-midori/",
+     "source": "名古屋情報通",
+     "image": "https://jouhou.nagoya/wp-content/uploads/2026/10/sushi-no-midori001-600x400.jpg"
     },
     {
-     "id": "9b727ae02a69b923",
-     "title": "【10月27日〜発売】セブン・ファミマ・ローソン新作スイーツ特集｜「ドバイチョコスタイルクレープ」・「Uchi Café×ゴディバ ショコラロールケーキ」など注目デザートまとめ",
-     "link": "https://topics.smt.docomo.ne.jp/amp/article/entabe/trend/entabe-61968",
-     "source": "ｄメニューニュース",
-     "image": "https://img.topics.smt.news.goo.ne.jp/picture/entabe/m_entabe-61968.jpg"
+     "id": "88938424113e3525",
+     "title": "「すしの美登利 名古屋栄三越店」外観",
+     "link": "https://sakae.keizai.biz/photoflash/5987/",
+     "source": "サカエ経済新聞",
+     "image": "https://images.keizai.biz/sakae_keizai/photonews/1793334661_b.jpg"
     },
     {
-     "id": "0bfe015338bf4111",
-     "title": "愛情あふれる爆盛り中華vs天才のチーズケーキ",
-     "link": "https://tver.jp/episodes/epav4cv93r",
-     "source": "TVer",
-     "image": null
-    }
-   ]
-  },
-  {
-   "label": "チョコ",
-   "q": "チョコ",
-   "kind": "dish",
-   "recent": 2,
-   "base_per_day": 0.18,
-   "ratio": 1.62,
-   "new": false,
-   "daily": [
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    2,
-    0,
-    1,
-    0,
-    1
-   ],
-   "articles": [
-    {
-     "id": "16c122d54a1a4990",
-     "title": "【11月3日〜発売】セブン-イレブン 新商品スイーツまとめ「紅はるかのひとくちスイートポテト」「7プレミアム チョコにおぼれたチョコケーキ」など",
-     "link": "https://topics.smt.docomo.ne.jp/amp/article/entabe/trend/entabe-61976",
-     "source": "ｄメニューニュース",
-     "image": "https://img.topics.smt.news.goo.ne.jp/picture/entabe/m_entabe-61976.jpg"
-    },
-    {
-     "id": "9b727ae02a69b923",
-     "title": "【10月27日〜発売】セブン・ファミマ・ローソン新作スイーツ特集｜「ドバイチョコスタイルクレープ」・「Uchi Café×ゴディバ ショコラロールケーキ」など注目デザートまとめ",
-     "link": "https://topics.smt.docomo.ne.jp/amp/article/entabe/trend/entabe-61968",
-     "source": "ｄメニューニュース",
-     "image": "https://img.topics.smt.news.goo.ne.jp/picture/entabe/m_entabe-61968.jpg"
+     "id": "a4ad9e9c36f17300",
+     "title": "「すしの美登利 名古屋栄三越店」店内",
+     "link": "https://sakae.keizai.biz/photoflash/5988/",
+     "source": "サカエ経済新聞",
+     "image": "https://images.keizai.biz/sakae_keizai/photonews/1793334674_b.jpg"
     }
    ]
   }
