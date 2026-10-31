@@ -1,6 +1,23 @@
 {
- "updated": "2026-11-01T01:35:35+09:00",
+ "updated": "2026-11-01T02:31:32+09:00",
  "items": [
+  {
+   "id": "e60dc45ac75a516e",
+   "title": "大学生と共同開発！愛知県の「華麗なるまち稲沢」で新ご当地グルメ“稲沢カレー”を味わおう",
+   "link": "https://www.walkerplus.com/article/1183302/",
+   "source": "ウォーカープラス",
+   "image": "https://news.walkerplus.com/article/1183302/12768395_615.jpg",
+   "category": "wadai",
+   "area": "愛知",
+   "published": "2026-10-31T21:49:24+09:00",
+   "provider": "google",
+   "added": "2026-11-01T02:31:32+09:00",
+   "decode_v2": true,
+   "image_checked": true,
+   "image_v4": true,
+   "shop": false,
+   "shop_name": null
+  },
   {
    "id": "08e8a30fb449dc12",
    "title": "行列ができる人気寿司店『すしの美登利』が名古屋栄三越にオープン。店舗限定の海鮮ひつまぶしも提供",
@@ -2354,6 +2371,23 @@
    "shop_name": null
   },
   {
+   "id": "fd17ad2a1b0ef2ef",
+   "title": "美しい...そしておいしそう！食通が絶賛する、名古屋で味わうべき美食ぞろいの”高級飯テロ”",
+   "link": "https://www.walkerplus.com/article/212928/",
+   "source": "ウォーカープラス",
+   "image": "https://news.walkerplus.com/article/212928/1312182_615.jpg",
+   "category": "wadai",
+   "area": "名古屋",
+   "published": "2026-10-28T16:00:00+09:00",
+   "provider": "google",
+   "added": "2026-11-01T02:31:32+09:00",
+   "decode_v2": true,
+   "image_checked": true,
+   "image_v4": true,
+   "shop": true,
+   "shop_name": null
+  },
+  {
    "id": "d6f5268b33e850ad",
    "title": "ファミリーマート×「味仙本店」第4弾 「台湾はるさめスープ」が初登場",
    "link": "https://news.infoseek.co.jp/article/oricon_2489393/",
@@ -4562,6 +4596,23 @@
    "published": "2026-10-26T16:00:00+09:00",
    "provider": "google",
    "added": "2026-10-31T22:43:26+09:00",
+   "decode_v2": true,
+   "image_checked": true,
+   "image_v4": true,
+   "shop": false,
+   "shop_name": null
+  },
+  {
+   "id": "08ad4cb3c641e11b",
+   "title": "上野のおすすめランチ！超高評価厳選の29店【目的別に紹介】",
+   "link": "https://howtravel-gourmet.com/kanto/tokyo/ueno/ueno-lunch/",
+   "source": "めしレポ",
+   "image": "https://howtravel-gourmet.com/wp-content/uploads/2024/08/ueno-lunch.jpg",
+   "category": "yasuuma",
+   "area": "東海",
+   "published": "2026-10-26T16:00:00+09:00",
+   "provider": "google",
+   "added": "2026-11-01T02:31:32+09:00",
    "decode_v2": true,
    "image_checked": true,
    "image_v4": true,
