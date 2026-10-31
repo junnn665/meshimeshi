@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-31T12:44:51+00:00",
+ "updated": "2026-10-31T13:44:02+00:00",
  "days": [
   "2026-10-18",
   "2026-10-19",
@@ -271,7 +271,7 @@
     },
     {
      "id": "1bfce71aa706d07b",
-     "title": "名古屋栄三越に「すしの美登利」 限定「三つ星にぎり」「海鮮ひつまぶし」も",
+     "title": "名古屋栄三越に「すしの美登利」 限定「三つ星にぎり」「海鮮ひつまぶし」も（みんなの経済新聞ネットワーク）",
      "link": "https://sakae.keizai.biz/headline/4021/",
      "source": "サカエ経済新聞",
      "image": "https://images.keizai.biz/sakae_keizai/headline/1793334889_photo.jpg"
@@ -364,6 +364,95 @@
      "link": "https://prtimes.jp/main/html/rd/p/000001707.000054093.html",
      "source": "PR TIMES",
      "image": "https://prcdn.freetls.fastly.net/release_image/54093/1707/54093-1707-ad77fe43b479b0b4a1801c56e075c2cc-1080x1440.jpg?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260"
+    }
+   ]
+  },
+  {
+   "label": "ケーキ",
+   "q": "ケーキ",
+   "kind": "dish",
+   "recent": 3,
+   "base_per_day": 0.36,
+   "ratio": 1.67,
+   "new": false,
+   "daily": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    1,
+    2,
+    2,
+    0,
+    1
+   ],
+   "articles": [
+    {
+     "id": "16c122d54a1a4990",
+     "title": "【11月3日〜発売】セブン-イレブン 新商品スイーツまとめ「紅はるかのひとくちスイートポテト」「7プレミアム チョコにおぼれたチョコケーキ」など",
+     "link": "https://topics.smt.docomo.ne.jp/amp/article/entabe/trend/entabe-61976",
+     "source": "ｄメニューニュース",
+     "image": "https://img.topics.smt.news.goo.ne.jp/picture/entabe/m_entabe-61976.jpg"
+    },
+    {
+     "id": "9b727ae02a69b923",
+     "title": "【10月27日〜発売】セブン・ファミマ・ローソン新作スイーツ特集｜「ドバイチョコスタイルクレープ」・「Uchi Café×ゴディバ ショコラロールケーキ」など注目デザートまとめ",
+     "link": "https://topics.smt.docomo.ne.jp/amp/article/entabe/trend/entabe-61968",
+     "source": "ｄメニューニュース",
+     "image": "https://img.topics.smt.news.goo.ne.jp/picture/entabe/m_entabe-61968.jpg"
+    },
+    {
+     "id": "0bfe015338bf4111",
+     "title": "愛情あふれる爆盛り中華vs天才のチーズケーキ",
+     "link": "https://tver.jp/episodes/epav4cv93r",
+     "source": "TVer",
+     "image": null
+    }
+   ]
+  },
+  {
+   "label": "チョコ",
+   "q": "チョコ",
+   "kind": "dish",
+   "recent": 2,
+   "base_per_day": 0.18,
+   "ratio": 1.62,
+   "new": false,
+   "daily": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    2,
+    0,
+    1,
+    0,
+    1
+   ],
+   "articles": [
+    {
+     "id": "16c122d54a1a4990",
+     "title": "【11月3日〜発売】セブン-イレブン 新商品スイーツまとめ「紅はるかのひとくちスイートポテト」「7プレミアム チョコにおぼれたチョコケーキ」など",
+     "link": "https://topics.smt.docomo.ne.jp/amp/article/entabe/trend/entabe-61976",
+     "source": "ｄメニューニュース",
+     "image": "https://img.topics.smt.news.goo.ne.jp/picture/entabe/m_entabe-61976.jpg"
+    },
+    {
+     "id": "9b727ae02a69b923",
+     "title": "【10月27日〜発売】セブン・ファミマ・ローソン新作スイーツ特集｜「ドバイチョコスタイルクレープ」・「Uchi Café×ゴディバ ショコラロールケーキ」など注目デザートまとめ",
+     "link": "https://topics.smt.docomo.ne.jp/amp/article/entabe/trend/entabe-61968",
+     "source": "ｄメニューニュース",
+     "image": "https://img.topics.smt.news.goo.ne.jp/picture/entabe/m_entabe-61968.jpg"
     }
    ]
   }

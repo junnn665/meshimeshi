@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-31T21:44:07+09:00",
+ "updated": "2026-10-31T22:43:26+09:00",
  "items": [
   {
    "id": "08e8a30fb449dc12",
@@ -17,6 +17,23 @@
    "image_v4": true,
    "shop": true,
    "shop_name": "すしの美登利"
+  },
+  {
+   "id": "16c122d54a1a4990",
+   "title": "【11月3日〜発売】セブン-イレブン 新商品スイーツまとめ「紅はるかのひとくちスイートポテト」「7プレミアム チョコにおぼれたチョコケーキ」など",
+   "link": "https://topics.smt.docomo.ne.jp/amp/article/entabe/trend/entabe-61976",
+   "source": "ｄメニューニュース",
+   "image": "https://img.topics.smt.news.goo.ne.jp/picture/entabe/m_entabe-61976.jpg",
+   "category": "conbini",
+   "area": "東海",
+   "published": "2026-10-31T20:00:00+09:00",
+   "provider": "google",
+   "added": "2026-10-31T22:43:26+09:00",
+   "decode_v2": true,
+   "image_checked": true,
+   "image_v4": true,
+   "shop": false,
+   "shop_name": null
   },
   {
    "id": "6521c495ce55ff99",
@@ -68,6 +85,23 @@
    "image_v4": true,
    "shop": false,
    "shop_name": null
+  },
+  {
+   "id": "e2ea581324c8962a",
+   "title": "「十ト二」…まさかの読み方と由来に驚き 岐阜・中津川市の豆腐店が営む人気レストランの謎【マチ10】",
+   "link": "https://www.nagoyatv.com/news/?id=037833",
+   "source": "名古屋テレビ【メ～テレ】",
+   "image": "https://www.nagoyatv.com/nbnnews_image/dcmaxs03783301.jpg",
+   "category": "wadai",
+   "area": "岐阜",
+   "published": "2026-10-31T13:01:00+09:00",
+   "provider": "google",
+   "added": "2026-10-31T22:43:26+09:00",
+   "decode_v2": true,
+   "image_checked": true,
+   "image_v4": true,
+   "shop": true,
+   "shop_name": "十ト二"
   },
   {
    "id": "83b363e21d8b0cd0",
@@ -162,6 +196,23 @@
    "published": "2026-10-31T07:21:51+09:00",
    "provider": "google",
    "added": "2026-10-31T07:37:49+09:00",
+   "decode_v2": true,
+   "image_checked": true,
+   "image_v4": true,
+   "shop": false,
+   "shop_name": null
+  },
+  {
+   "id": "f7ca67b375edcf3b",
+   "title": "「待ってました」「絶対行かな」名古屋の人気チェーンが大阪市内に新店、５００円の朝ラーメン＆無料クーポンも",
+   "link": "https://www.daily.co.jp/leisure/kansai/2026/10/31/0020988151.shtml",
+   "source": "デイリースポーツ",
+   "image": "https://i.daily.jp/leisure/kansai/2026/10/31/Images/f_20988152.jpg",
+   "category": "shinten",
+   "area": "名古屋",
+   "published": "2026-10-31T06:45:00+09:00",
+   "provider": "google",
+   "added": "2026-10-31T22:43:26+09:00",
    "decode_v2": true,
    "image_checked": true,
    "image_v4": true,
@@ -658,7 +709,7 @@
   },
   {
    "id": "1bfce71aa706d07b",
-   "title": "名古屋栄三越に「すしの美登利」 限定「三つ星にぎり」「海鮮ひつまぶし」も",
+   "title": "名古屋栄三越に「すしの美登利」 限定「三つ星にぎり」「海鮮ひつまぶし」も（みんなの経済新聞ネットワーク）",
    "link": "https://sakae.keizai.biz/headline/4021/",
    "source": "サカエ経済新聞",
    "image": "https://images.keizai.biz/sakae_keizai/headline/1793334889_photo.jpg",
@@ -4446,6 +4497,23 @@
    "shop_name": null
   },
   {
+   "id": "2c491fca8baeaf67",
+   "title": "【食べログ高評価】心斎橋の人気おすすめランチ22選【2026年最新】",
+   "link": "https://howtravel-gourmet.com/kansai/osaka/shinsaibashi/shinsaibashi-lunch/",
+   "source": "めしレポ",
+   "image": "https://howtravel-gourmet.com/wp-content/uploads/2024/08/shinsaibashi.jpg",
+   "category": "wadai",
+   "area": "東海",
+   "published": "2026-10-26T16:00:00+09:00",
+   "provider": "google",
+   "added": "2026-10-31T22:43:26+09:00",
+   "decode_v2": true,
+   "image_checked": true,
+   "image_v4": true,
+   "shop": false,
+   "shop_name": null
+  },
+  {
    "id": "db320c2ae1461312",
    "title": "「ハエラ」おすすめレストラン＆カフェ特集、“名古屋栄駅直結”の注目グルメスポットは？",
    "link": "https://www.fashion-press.net/news/147003",
@@ -6328,6 +6396,22 @@
    "image_checked": true,
    "image_v4": true,
    "shop": false,
+   "shop_name": null
+  },
+  {
+   "id": "bebd96053612f4d1",
+   "title": "【名古屋タカシマヤ】平日クリスマスを華やかに彩るグルメから ...",
+   "link": "https://prtimes.jp/main/html/rd/p/000000511.000047031.html",
+   "source": "PR TIMES",
+   "image": "https://prcdn.freetls.fastly.net/release_image/47031/511/47031-511-fb694bc3c1ba895615441e3d17e41109-3900x2896.jpg?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260",
+   "category": "wadai",
+   "area": "名古屋",
+   "published": "2026-10-22T13:00:00+09:00",
+   "provider": "bing",
+   "added": "2026-10-31T22:43:26+09:00",
+   "image_checked": true,
+   "image_v4": true,
+   "shop": true,
    "shop_name": null
   }
  ]
