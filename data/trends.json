@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-31T07:55:03+00:00",
+ "updated": "2026-10-31T08:42:38+00:00",
  "days": [
   "2026-10-18",
   "2026-10-19",
@@ -190,6 +190,47 @@
    ]
   },
   {
+   "label": "ハンバーグ",
+   "q": "ハンバーグ",
+   "kind": "dish",
+   "recent": 2,
+   "base_per_day": 0.09,
+   "ratio": 1.96,
+   "new": false,
+   "daily": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    1
+   ],
+   "articles": [
+    {
+     "id": "513ea340aa6f24fc",
+     "title": "【榎本ハンバーグ研究所】渋沢栄一翁の経営哲学を“味”で解き明かす新メニュー第2弾！『新・渋沢ハンバーグ丼 ～論語と算盤～』を西ヶ原店（渋沢通り店）にて限定販売開始！",
+     "link": "https://prtimes.jp/main/html/rd/p/000000001.000191488.html",
+     "source": "PR TIMES",
+     "image": "https://prcdn.freetls.fastly.net/release_image/191488/1/191488-1-690adf0bea0b3b161676c4551774fc6e-896x1200.jpg?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260"
+    },
+    {
+     "id": "992e1cf3786c8ff5",
+     "title": "「ほっともっと」ハンバーグもおかずも楽しめる『デミハンバーグミックス弁当』『和風ハンバーグミックス弁当』新発売",
+     "link": "https://prtimes.jp/main/html/rd/p/000001707.000054093.html",
+     "source": "PR TIMES",
+     "image": "https://prcdn.freetls.fastly.net/release_image/54093/1707/54093-1707-ad77fe43b479b0b4a1801c56e075c2cc-1080x1440.jpg?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260"
+    }
+   ]
+  },
+  {
    "label": "寿司",
    "q": "寿司",
    "kind": "dish",
@@ -234,47 +275,6 @@
      "link": "https://prtimes.jp/main/html/rd/p/000000043.000104282.html",
      "source": "PR TIMES",
      "image": "https://prcdn.freetls.fastly.net/release_image/104282/43/104282-43-a9dc1eba1dee9905df3a800c9ccb5304-1000x667.jpg?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260"
-    }
-   ]
-  },
-  {
-   "label": "ハンバーグ",
-   "q": "ハンバーグ",
-   "kind": "dish",
-   "recent": 2,
-   "base_per_day": 0.18,
-   "ratio": 1.62,
-   "new": false,
-   "daily": [
-    0,
-    0,
-    0,
-    0,
-    1,
-    0,
-    1,
-    0,
-    0,
-    0,
-    0,
-    1,
-    0,
-    1
-   ],
-   "articles": [
-    {
-     "id": "513ea340aa6f24fc",
-     "title": "【榎本ハンバーグ研究所】渋沢栄一翁の経営哲学を“味”で解き明かす新メニュー第2弾！『新・渋沢ハンバーグ丼 ～論語と算盤～』を西ヶ原店（渋沢通り店）にて限定販売開始！",
-     "link": "https://prtimes.jp/main/html/rd/p/000000001.000191488.html",
-     "source": "PR TIMES",
-     "image": "https://prcdn.freetls.fastly.net/release_image/191488/1/191488-1-690adf0bea0b3b161676c4551774fc6e-896x1200.jpg?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260"
-    },
-    {
-     "id": "992e1cf3786c8ff5",
-     "title": "「ほっともっと」ハンバーグもおかずも楽しめる『デミハンバーグミックス弁当』『和風ハンバーグミックス弁当』新発売",
-     "link": "https://prtimes.jp/main/html/rd/p/000001707.000054093.html",
-     "source": "PR TIMES",
-     "image": "https://prcdn.freetls.fastly.net/release_image/54093/1707/54093-1707-ad77fe43b479b0b4a1801c56e075c2cc-1080x1440.jpg?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260"
     }
    ]
   },
