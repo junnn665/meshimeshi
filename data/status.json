@@ -1,8 +1,8 @@
 {
- "updated": "2026-10-31T13:41:07+09:00",
- "items": 369,
- "with_image": 344,
- "google_decode_ok": 32,
+ "updated": "2026-10-31T14:38:02+09:00",
+ "items": 375,
+ "with_image": 350,
+ "google_decode_ok": 25,
  "google_decode_failed": 0,
  "google_decode_samples": [],
  "image_failures": [
@@ -10,6 +10,6 @@
   "www.at-s.com: HTTPError: HTTP Error 405: Not Allowed",
   "media.unisba.ac.id: HTTPError: HTTP Error 403: Forbidden",
   "media.unisba.ac.id: HTTPError: HTTP Error 403: Forbidden",
-  "media.unisba.ac.id: HTTPError: HTTP Error 403: Forbidden"
+  "mainichi.jp: HTTPError: HTTP Error 403: Forbidden"
  ]
 }
