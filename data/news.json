@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-31T08:33:35+09:00",
+ "updated": "2026-10-31T09:54:33+09:00",
  "items": [
   {
    "id": "4c5cdbf4bc3567a8",
@@ -959,6 +959,23 @@
    "image_v4": true,
    "shop": false,
    "shop_name": null
+  },
+  {
+   "id": "de83b6dbf0ee61ca",
+   "title": "「SKE48ラーメン部」相川暖花が名古屋で注目の新店「麺や零」をレポート！",
+   "link": "https://www.walkerplus.com/article/1401578/",
+   "source": "ウォーカープラス",
+   "image": "https://news.walkerplus.com/article/1401578/17528306_615.jpg",
+   "category": "shinten",
+   "area": "名古屋",
+   "published": "2026-10-29T16:00:00+09:00",
+   "provider": "google",
+   "added": "2026-10-31T09:54:33+09:00",
+   "decode_v2": true,
+   "image_checked": true,
+   "image_v4": true,
+   "shop": true,
+   "shop_name": "SKE48ラーメン部"
   },
   {
    "id": "5bc1595493f30b5a",
@@ -3945,6 +3962,40 @@
    "shop_name": null
   },
   {
+   "id": "fba7e62880f1a73e",
+   "title": "【食べログ高評価】神田の人気おすすめランチ22選【2025年最新】",
+   "link": "https://howtravel-gourmet.com/kanto/tokyo/kanda/kanda-lunch/",
+   "source": "めしレポ",
+   "image": "https://howtravel-gourmet.com/wp-content/uploads/2019/07/ktn0008-001.jpg",
+   "category": "wadai",
+   "area": "東海",
+   "published": "2026-10-26T16:00:00+09:00",
+   "provider": "google",
+   "added": "2026-10-31T09:54:33+09:00",
+   "decode_v2": true,
+   "image_checked": true,
+   "image_v4": true,
+   "shop": false,
+   "shop_name": null
+  },
+  {
+   "id": "d6c78d5143de1a9f",
+   "title": "【食べログ3.5以上】町田の人気おすすめランチ 20選",
+   "link": "https://howtravel-gourmet.com/kanto/tokyo/machida/machida-lunch/",
+   "source": "めしレポ",
+   "image": "https://howtravel-gourmet.com/wp-content/uploads/2019/07/3246d4f09808cfea54086894f2439cc1_m.jpg",
+   "category": "wadai",
+   "area": "東海",
+   "published": "2026-10-26T16:00:00+09:00",
+   "provider": "google",
+   "added": "2026-10-31T09:54:33+09:00",
+   "decode_v2": true,
+   "image_checked": true,
+   "image_v4": true,
+   "shop": false,
+   "shop_name": null
+  },
+  {
    "id": "db320c2ae1461312",
    "title": "「ハエラ」おすすめレストラン＆カフェ特集、“名古屋栄駅直結”の注目グルメスポットは？",
    "link": "https://www.fashion-press.net/news/147003",
@@ -6412,57 +6463,6 @@
    "image_v4": true,
    "shop": true,
    "shop_name": "パンとエスプレッソと"
-  },
-  {
-   "id": "d0b400de31a8335e",
-   "title": "今注目の銀座～日本橋のカフェ＆喫茶3軒。新店から愛され名店まで。",
-   "link": "https://www.ozmall.co.jp/ozmagazine/article/47334/",
-   "source": "オズモール",
-   "image": "https://www.ozmall.co.jp/Content/upload/images/C24WH7EAS3KRJF4MKEWX6AHXX4.jpg",
-   "category": "shinten",
-   "area": "東海",
-   "published": "2026-10-23T10:00:00+09:00",
-   "provider": "google",
-   "added": "2026-10-24T11:29:37+09:00",
-   "decode_v2": true,
-   "image_checked": true,
-   "image_v4": true,
-   "shop": false,
-   "shop_name": null
-  },
-  {
-   "id": "f6d951a360ed6879",
-   "title": "【愛知・知立】餃子食べ放題が1,980円！「にこにこ餃子 知立店」で11月末までの期間限定企画がスタート",
-   "link": "https://prtimes.jp/main/html/rd/p/000000048.000074719.html",
-   "source": "PR TIMES",
-   "image": "https://prcdn.freetls.fastly.net/release_image/74719/48/74719-48-79defc4fcf574bac33738fee542449d3-1920x1280.png?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260",
-   "category": "chain",
-   "area": "愛知",
-   "published": "2026-10-23T08:00:01+09:00",
-   "provider": "google",
-   "added": "2026-10-23T08:29:17+09:00",
-   "decode_v2": true,
-   "image_checked": true,
-   "image_v4": true,
-   "shop": false,
-   "shop_name": null
-  },
-  {
-   "id": "e57ce99b75fc4032",
-   "title": "【丸源ラーメン】『丸源ラーメン 旭川永山店』が2026年10⽉31日(土)にグランドオープン！",
-   "link": "https://prtimes.jp/main/html/rd/p/000001555.000044964.html",
-   "source": "PR TIMES",
-   "image": "https://prcdn.freetls.fastly.net/release_image/44964/1555/44964-1555-b788f8534fec51b581d695a44e94def9-1910x1000.png?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260",
-   "category": "shinten",
-   "area": "東海",
-   "published": "2026-10-23T08:00:01+09:00",
-   "provider": "google",
-   "added": "2026-10-23T20:32:02+09:00",
-   "decode_v2": true,
-   "image_checked": true,
-   "image_v4": true,
-   "shop": false,
-   "shop_name": null
   }
  ]
 }
