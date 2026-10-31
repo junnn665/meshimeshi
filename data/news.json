@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-01T06:34:19+09:00",
+ "updated": "2026-11-01T07:33:42+09:00",
  "items": [
   {
    "id": "11cc34f7a52b061a",
@@ -191,6 +191,29 @@
    "image_v4": true,
    "shop": true,
    "shop_name": "十ト二"
+  },
+  {
+   "id": "5431f160fe0a5d4a",
+   "title": "名古屋・栄に全国からおいしいパンが大集結！「第26回パンマルシェ」が2026年11月3日にオアシス21にて開催 約70店舗が集う大人気イベントの見どころを詳細解説【栄・久屋大通】",
+   "link": "https://nagoyato.com/posts/20589",
+   "source": "nagoyato",
+   "image": "https://nagoyato.com/wp-content/uploads/2026/10/image-223-edited.png",
+   "category": "event",
+   "area": "名古屋",
+   "published": "2026-10-31T12:00:00+09:00",
+   "provider": "bing",
+   "added": "2026-11-01T07:33:42+09:00",
+   "image_checked": true,
+   "image_v4": true,
+   "shop": false,
+   "shop_name": null,
+   "venue": "オアシス21",
+   "lat": 35.17109,
+   "lng": 136.90964,
+   "place": "outdoor",
+   "start": "2026-11-03",
+   "end": "2026-11-03",
+   "group": "e31402d53166"
   },
   {
    "id": "83b363e21d8b0cd0",
@@ -2495,6 +2518,23 @@
    "shop_name": null
   },
   {
+   "id": "e4d1e837816a4a49",
+   "title": "＜内覧会レポ＞名古屋パルコのレストランエリアが大変身！必食の東海初＆新業態店6店を紹介!!",
+   "link": "https://www.walkerplus.com/article/180735/",
+   "source": "ウォーカープラス",
+   "image": "https://news.walkerplus.com/article/180735/1073306_615.jpg",
+   "category": "wadai",
+   "area": "名古屋",
+   "published": "2026-10-28T16:00:00+09:00",
+   "provider": "google",
+   "added": "2026-11-01T07:33:42+09:00",
+   "decode_v2": true,
+   "image_checked": true,
+   "image_v4": true,
+   "shop": false,
+   "shop_name": null
+  },
+  {
    "id": "d6f5268b33e850ad",
    "title": "ファミリーマート×「味仙本店」第4弾 「台湾はるさめスープ」が初登場",
    "link": "https://news.infoseek.co.jp/article/oricon_2489393/",
@@ -3582,6 +3622,23 @@
    "published": "2026-10-27T16:00:00+09:00",
    "provider": "google",
    "added": "2026-10-31T04:44:39+09:00",
+   "decode_v2": true,
+   "image_checked": true,
+   "image_v4": true,
+   "shop": false,
+   "shop_name": null
+  },
+  {
+   "id": "b16a2575d2a927ef",
+   "title": "からあげクン30周年！限定「でからあげクン」も登場",
+   "link": "https://www.walkerplus.com/article/75604/",
+   "source": "ウォーカープラス",
+   "image": "https://news.walkerplus.com/article/75604/425730_615.jpg",
+   "category": "conbini",
+   "area": "東海",
+   "published": "2026-10-27T16:00:00+09:00",
+   "provider": "google",
+   "added": "2026-11-01T07:33:42+09:00",
    "decode_v2": true,
    "image_checked": true,
    "image_v4": true,
@@ -6389,6 +6446,22 @@
    "start": "2026-11-03",
    "end": "2026-11-03",
    "group": "b6fde5f695a3"
+  },
+  {
+   "id": "05a3a850bcf228e0",
+   "title": "純系名古屋コーチン100％「白金ハンバーグ」が食のプロから最高 ...",
+   "link": "https://mainichi.jp/articles/20261022/pr2/00m/020/070000c",
+   "source": "毎日新聞デジタル",
+   "image": "http://www.bing.com/th?id=ONUT.7USTZgbMipLUwYA2vSZ3yw&pid=News",
+   "category": "wadai",
+   "area": "名古屋",
+   "published": "2026-10-22T02:00:00+09:00",
+   "provider": "bing",
+   "added": "2026-11-01T07:33:42+09:00",
+   "image_checked": true,
+   "image_v4": true,
+   "shop": true,
+   "shop_name": "白金ハンバーグ"
   }
  ]
 }
