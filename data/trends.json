@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-31T13:44:02+00:00",
+ "updated": "2026-10-31T14:34:56+00:00",
  "days": [
   "2026-10-18",
   "2026-10-19",
@@ -231,6 +231,54 @@
    ]
   },
   {
+   "label": "寿司",
+   "q": "寿司",
+   "kind": "dish",
+   "recent": 7,
+   "base_per_day": 0.73,
+   "ratio": 2.36,
+   "new": false,
+   "daily": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    1,
+    6,
+    1,
+    5,
+    1
+   ],
+   "articles": [
+    {
+     "id": "08e8a30fb449dc12",
+     "title": "行列ができる人気寿司店『すしの美登利』が名古屋栄三越にオープン。店舗限定の海鮮ひつまぶしも提供",
+     "link": "https://jouhou.nagoya/sushi-no-midori/",
+     "source": "名古屋情報通",
+     "image": "https://jouhou.nagoya/wp-content/uploads/2026/10/sushi-no-midori001-600x400.jpg"
+    },
+    {
+     "id": "88938424113e3525",
+     "title": "「すしの美登利 名古屋栄三越店」外観",
+     "link": "https://sakae.keizai.biz/photoflash/5987/",
+     "source": "サカエ経済新聞",
+     "image": "https://images.keizai.biz/sakae_keizai/photonews/1793334661_b.jpg"
+    },
+    {
+     "id": "a4ad9e9c36f17300",
+     "title": "「すしの美登利 名古屋栄三越店」店内",
+     "link": "https://sakae.keizai.biz/photoflash/5988/",
+     "source": "サカエ経済新聞",
+     "image": "https://images.keizai.biz/sakae_keizai/photonews/1793334674_b.jpg"
+    }
+   ]
+  },
+  {
    "label": "ひつまぶし・うなぎ",
    "q": "ひつまぶし",
    "kind": "dish",
@@ -275,54 +323,6 @@
      "link": "https://sakae.keizai.biz/headline/4021/",
      "source": "サカエ経済新聞",
      "image": "https://images.keizai.biz/sakae_keizai/headline/1793334889_photo.jpg"
-    }
-   ]
-  },
-  {
-   "label": "寿司",
-   "q": "寿司",
-   "kind": "dish",
-   "recent": 7,
-   "base_per_day": 0.82,
-   "ratio": 2.17,
-   "new": false,
-   "daily": [
-    0,
-    0,
-    0,
-    0,
-    0,
-    1,
-    0,
-    0,
-    1,
-    1,
-    6,
-    1,
-    5,
-    1
-   ],
-   "articles": [
-    {
-     "id": "08e8a30fb449dc12",
-     "title": "行列ができる人気寿司店『すしの美登利』が名古屋栄三越にオープン。店舗限定の海鮮ひつまぶしも提供",
-     "link": "https://jouhou.nagoya/sushi-no-midori/",
-     "source": "名古屋情報通",
-     "image": "https://jouhou.nagoya/wp-content/uploads/2026/10/sushi-no-midori001-600x400.jpg"
-    },
-    {
-     "id": "88938424113e3525",
-     "title": "「すしの美登利 名古屋栄三越店」外観",
-     "link": "https://sakae.keizai.biz/photoflash/5987/",
-     "source": "サカエ経済新聞",
-     "image": "https://images.keizai.biz/sakae_keizai/photonews/1793334661_b.jpg"
-    },
-    {
-     "id": "a4ad9e9c36f17300",
-     "title": "「すしの美登利 名古屋栄三越店」店内",
-     "link": "https://sakae.keizai.biz/photoflash/5988/",
-     "source": "サカエ経済新聞",
-     "image": "https://images.keizai.biz/sakae_keizai/photonews/1793334674_b.jpg"
     }
    ]
   },
