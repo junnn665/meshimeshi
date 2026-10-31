@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-31T20:32:05+00:00",
+ "updated": "2026-10-31T21:34:51+00:00",
  "days": [
   "2026-10-19",
   "2026-10-20",
@@ -152,6 +152,47 @@
      "link": "https://sakae.keizai.biz/photoflash/5988/",
      "source": "サカエ経済新聞",
      "image": "https://images.keizai.biz/sakae_keizai/photonews/1793334674_b.jpg"
+    }
+   ]
+  },
+  {
+   "label": "セブン-イレブン",
+   "q": "セブン-イレブン",
+   "kind": "chain",
+   "recent": 2,
+   "base_per_day": 0.18,
+   "ratio": 1.62,
+   "new": false,
+   "daily": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    1,
+    0,
+    1,
+    1,
+    0
+   ],
+   "articles": [
+    {
+     "id": "16c122d54a1a4990",
+     "title": "【11月3日〜発売】セブン-イレブン 新商品スイーツまとめ「紅はるかのひとくちスイートポテト」「7プレミアム チョコにおぼれたチョコケーキ」など",
+     "link": "https://topics.smt.docomo.ne.jp/amp/article/entabe/trend/entabe-61976",
+     "source": "ｄメニューニュース",
+     "image": "https://img.topics.smt.news.goo.ne.jp/picture/entabe/m_entabe-61976.jpg"
+    },
+    {
+     "id": "26777e17f193580c",
+     "title": "【11月3日〜発売】セブン-イレブン 新商品パンまとめ「7プレミアム あんこもちパイ 2個入」「クリスマスライトドーナツ」など",
+     "link": "https://topics.smt.docomo.ne.jp/amp/article/entabe/trend/entabe-61975",
+     "source": "ｄメニューニュース",
+     "image": "https://img.topics.smt.news.goo.ne.jp/picture/entabe/m_entabe-61975.jpg"
     }
    ]
   }
