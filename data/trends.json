@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-31T11:34:09+00:00",
+ "updated": "2026-10-31T12:44:51+00:00",
  "days": [
   "2026-10-18",
   "2026-10-19",
@@ -231,6 +231,102 @@
    ]
   },
   {
+   "label": "ひつまぶし・うなぎ",
+   "q": "ひつまぶし",
+   "kind": "dish",
+   "recent": 3,
+   "base_per_day": 0.18,
+   "ratio": 2.26,
+   "new": false,
+   "daily": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    1,
+    0,
+    2,
+    1
+   ],
+   "articles": [
+    {
+     "id": "08e8a30fb449dc12",
+     "title": "行列ができる人気寿司店『すしの美登利』が名古屋栄三越にオープン。店舗限定の海鮮ひつまぶしも提供",
+     "link": "https://jouhou.nagoya/sushi-no-midori/",
+     "source": "名古屋情報通",
+     "image": "https://jouhou.nagoya/wp-content/uploads/2026/10/sushi-no-midori001-600x400.jpg"
+    },
+    {
+     "id": "44e4946933d22176",
+     "title": "イクラやアナゴ、サーモン、数の子などを盛り付けた名古屋栄三越店限定メニュー「海鮮ひつまぶし」",
+     "link": "https://sakae.keizai.biz/photoflash/5994/",
+     "source": "サカエ経済新聞",
+     "image": "https://images.keizai.biz/sakae_keizai/photonews/1793334819_b.jpg"
+    },
+    {
+     "id": "1bfce71aa706d07b",
+     "title": "名古屋栄三越に「すしの美登利」 限定「三つ星にぎり」「海鮮ひつまぶし」も",
+     "link": "https://sakae.keizai.biz/headline/4021/",
+     "source": "サカエ経済新聞",
+     "image": "https://images.keizai.biz/sakae_keizai/headline/1793334889_photo.jpg"
+    }
+   ]
+  },
+  {
+   "label": "寿司",
+   "q": "寿司",
+   "kind": "dish",
+   "recent": 7,
+   "base_per_day": 0.82,
+   "ratio": 2.17,
+   "new": false,
+   "daily": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    1,
+    1,
+    6,
+    1,
+    5,
+    1
+   ],
+   "articles": [
+    {
+     "id": "08e8a30fb449dc12",
+     "title": "行列ができる人気寿司店『すしの美登利』が名古屋栄三越にオープン。店舗限定の海鮮ひつまぶしも提供",
+     "link": "https://jouhou.nagoya/sushi-no-midori/",
+     "source": "名古屋情報通",
+     "image": "https://jouhou.nagoya/wp-content/uploads/2026/10/sushi-no-midori001-600x400.jpg"
+    },
+    {
+     "id": "88938424113e3525",
+     "title": "「すしの美登利 名古屋栄三越店」外観",
+     "link": "https://sakae.keizai.biz/photoflash/5987/",
+     "source": "サカエ経済新聞",
+     "image": "https://images.keizai.biz/sakae_keizai/photonews/1793334661_b.jpg"
+    },
+    {
+     "id": "a4ad9e9c36f17300",
+     "title": "「すしの美登利 名古屋栄三越店」店内",
+     "link": "https://sakae.keizai.biz/photoflash/5988/",
+     "source": "サカエ経済新聞",
+     "image": "https://images.keizai.biz/sakae_keizai/photonews/1793334674_b.jpg"
+    }
+   ]
+  },
+  {
    "label": "ハンバーグ",
    "q": "ハンバーグ",
    "kind": "dish",
@@ -268,95 +364,6 @@
      "link": "https://prtimes.jp/main/html/rd/p/000001707.000054093.html",
      "source": "PR TIMES",
      "image": "https://prcdn.freetls.fastly.net/release_image/54093/1707/54093-1707-ad77fe43b479b0b4a1801c56e075c2cc-1080x1440.jpg?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260"
-    }
-   ]
-  },
-  {
-   "label": "寿司",
-   "q": "寿司",
-   "kind": "dish",
-   "recent": 6,
-   "base_per_day": 0.82,
-   "ratio": 1.88,
-   "new": false,
-   "daily": [
-    0,
-    0,
-    0,
-    0,
-    0,
-    1,
-    0,
-    0,
-    1,
-    1,
-    6,
-    1,
-    5,
-    0
-   ],
-   "articles": [
-    {
-     "id": "88938424113e3525",
-     "title": "「すしの美登利 名古屋栄三越店」外観",
-     "link": "https://sakae.keizai.biz/photoflash/5987/",
-     "source": "サカエ経済新聞",
-     "image": "https://images.keizai.biz/sakae_keizai/photonews/1793334661_b.jpg"
-    },
-    {
-     "id": "a4ad9e9c36f17300",
-     "title": "「すしの美登利 名古屋栄三越店」店内",
-     "link": "https://sakae.keizai.biz/photoflash/5988/",
-     "source": "サカエ経済新聞",
-     "image": "https://images.keizai.biz/sakae_keizai/photonews/1793334674_b.jpg"
-    },
-    {
-     "id": "aa1a19a79c3b3fa9",
-     "title": "【小学館JS研究所】女子小学生が好きな食の好みを調査 よく利用する外食チェーン、1位は「マクドナルド」、「はま寿司」「スシロー」「くら寿司」など大手回転寿司チェーンも上位にランクイン",
-     "link": "https://prtimes.jp/main/html/rd/p/000000043.000104282.html",
-     "source": "PR TIMES",
-     "image": "https://prcdn.freetls.fastly.net/release_image/104282/43/104282-43-a9dc1eba1dee9905df3a800c9ccb5304-1000x667.jpg?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260"
-    }
-   ]
-  },
-  {
-   "label": "ひつまぶし・うなぎ",
-   "q": "ひつまぶし",
-   "kind": "dish",
-   "recent": 2,
-   "base_per_day": 0.18,
-   "ratio": 1.62,
-   "new": false,
-   "daily": [
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    1,
-    0,
-    0,
-    1,
-    0,
-    2,
-    0
-   ],
-   "articles": [
-    {
-     "id": "44e4946933d22176",
-     "title": "イクラやアナゴ、サーモン、数の子などを盛り付けた名古屋栄三越店限定メニュー「海鮮ひつまぶし」",
-     "link": "https://sakae.keizai.biz/photoflash/5994/",
-     "source": "サカエ経済新聞",
-     "image": "https://images.keizai.biz/sakae_keizai/photonews/1793334819_b.jpg"
-    },
-    {
-     "id": "1bfce71aa706d07b",
-     "title": "名古屋栄三越に「すしの美登利」 限定「三つ星にぎり」「海鮮ひつまぶし」も",
-     "link": "https://sakae.keizai.biz/headline/4021/",
-     "source": "サカエ経済新聞",
-     "image": "https://images.keizai.biz/sakae_keizai/headline/1793334889_photo.jpg"
     }
    ]
   }
