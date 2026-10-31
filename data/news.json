@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-31T12:41:46+09:00",
+ "updated": "2026-10-31T13:41:07+09:00",
  "items": [
   {
    "id": "83b363e21d8b0cd0",
@@ -2025,6 +2025,23 @@
    "image_v4": true,
    "shop": true,
    "shop_name": "ポムポムプリンカフェ名古屋栄店"
+  },
+  {
+   "id": "81c2721e47841700",
+   "title": "大阪風でも広島風でもない「名古屋風お好み焼き」ってなに？その特徴と誕生秘話を独自調査！",
+   "link": "https://www.walkerplus.com/article/1138813/",
+   "source": "ウォーカープラス",
+   "image": "https://news.walkerplus.com/article/1138813/11788667_615.jpg",
+   "category": "wadai",
+   "area": "名古屋",
+   "published": "2026-10-28T16:00:00+09:00",
+   "provider": "google",
+   "added": "2026-10-31T13:41:07+09:00",
+   "decode_v2": true,
+   "image_checked": true,
+   "image_v4": true,
+   "shop": false,
+   "shop_name": null
   },
   {
    "id": "d6f5268b33e850ad",
@@ -6357,40 +6374,6 @@
    "published": "2026-10-23T13:40:40+09:00",
    "provider": "prtimes",
    "added": "2026-10-23T16:42:11+09:00",
-   "image_checked": true,
-   "image_v4": true,
-   "shop": false,
-   "shop_name": null
-  },
-  {
-   "id": "f28e977cb906f8ae",
-   "title": "【初開催】人形町の老舗「玉ひで」監修！「五鉄×伊藤養鶏場」のキッチンカーが出店！希少な烏骨鶏料理からトリュフ香るフォアグラ、こだわりの卵スイーツまで登場",
-   "link": "https://prtimes.jp/main/html/rd/p/000004429.000011710.html",
-   "source": "PR TIMES",
-   "image": "https://prcdn.freetls.fastly.net/release_image/11710/4429/11710-4429-ac83834b864bae11c764d8b1203fb152-1018x424.jpg?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260",
-   "category": "wadai",
-   "area": "東海",
-   "published": "2026-10-23T13:00:02+09:00",
-   "provider": "google",
-   "added": "2026-10-23T15:37:57+09:00",
-   "decode_v2": true,
-   "image_checked": true,
-   "image_v4": true,
-   "shop": false,
-   "shop_name": null
-  },
-  {
-   "id": "fdb955564d768dd7",
-   "title": "「フルーチェ」とファミマアイス初コラボ！ 「フルーチェアイスバー イチゴ」10月27日（火）発売 果肉感と2層仕立ての味わいを手軽に楽しめるバーアイスで表現！ ～チルドカップ飲料も同時に発売～ | 株式会社ファミリーマートのプレスリリース",
-   "link": "https://prtimes.jp/main/html/rd/p/000002593.000046210.html",
-   "source": "PR TIMES",
-   "image": "https://prcdn.freetls.fastly.net/release_image/46210/2593/46210-2593-02e6add3bba83541a752f6922bd78d2f-3900x2600.jpg?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260",
-   "category": "conbini",
-   "area": "東海",
-   "published": "2026-10-23T13:00:02+09:00",
-   "provider": "google",
-   "added": "2026-10-30T12:44:56+09:00",
-   "decode_v2": true,
    "image_checked": true,
    "image_v4": true,
    "shop": false,
