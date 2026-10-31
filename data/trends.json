@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-31T01:54:27+00:00",
+ "updated": "2026-10-31T02:45:28+00:00",
  "days": [
   "2026-10-18",
   "2026-10-19",
@@ -149,6 +149,47 @@
    ]
   },
   {
+   "label": "きしめん",
+   "q": "きしめん",
+   "kind": "dish",
+   "recent": 2,
+   "base_per_day": 0.0,
+   "ratio": 2.5,
+   "new": true,
+   "daily": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    1,
+    0
+   ],
+   "articles": [
+    {
+     "id": "d47413396b55eedb",
+     "title": "名古屋栄三越に老舗の名店が集結！2026年10月31日オープンの新店「宮きしめん伊兵衛」「すしの美登利」の注目グルメと見どころを詳細解説【現地取材／栄】",
+     "link": "https://nagoyato.com/posts/20526",
+     "source": "ナゴヤトコトン",
+     "image": "https://nagoyato.com/wp-content/uploads/2026/10/d7534f5a158177c70ae2f0297c26314d.jpg"
+    },
+    {
+     "id": "cb02cc9448f88396",
+     "title": "はなまるうどん、きしめん参入 名古屋の人気店と組んだその狙いは?",
+     "link": "https://www.msn.com/ja-jp/money/business/%E3%81%AF%E3%81%AA%E3%81%BE%E3%82%8B%E3%81%86%E3%81%A9%E3%82%93-%E3%81%8D%E3%81%97%E3%82%81%E3%82%93%E5%8F%82%E5%85%A5-%E5%90%8D%E5%8F%A4%E5%B1%8B%E3%81%AE%E4%BA%BA%E6%B0%97%E5%BA%97%E3%81%A8%E7%B5%84%E3%82%93%E3%81%A0%E3%81%9D%E3%81%AE%E7%8B%99%E3%81%84%E3%81%AF/ar-AA2girfC",
+     "source": "朝日新聞デジタル on MSN",
+     "image": "http://www.bing.com/th?id=ONUT.3P5-KK7MDa0SRaT1LSX2-g&pid=News"
+    }
+   ]
+  },
+  {
    "label": "ハンバーグ",
    "q": "ハンバーグ",
    "kind": "dish",
@@ -186,47 +227,6 @@
      "link": "https://prtimes.jp/main/html/rd/p/000001707.000054093.html",
      "source": "PR TIMES",
      "image": "https://prcdn.freetls.fastly.net/release_image/54093/1707/54093-1707-ad77fe43b479b0b4a1801c56e075c2cc-1080x1440.jpg?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260"
-    }
-   ]
-  },
-  {
-   "label": "きしめん",
-   "q": "きしめん",
-   "kind": "dish",
-   "recent": 2,
-   "base_per_day": 0.09,
-   "ratio": 1.96,
-   "new": false,
-   "daily": [
-    0,
-    0,
-    0,
-    0,
-    0,
-    1,
-    0,
-    0,
-    0,
-    0,
-    0,
-    1,
-    1,
-    0
-   ],
-   "articles": [
-    {
-     "id": "d47413396b55eedb",
-     "title": "名古屋栄三越に老舗の名店が集結！2026年10月31日オープンの新店「宮きしめん伊兵衛」「すしの美登利」の注目グルメと見どころを詳細解説【現地取材／栄】",
-     "link": "https://nagoyato.com/posts/20526",
-     "source": "ナゴヤトコトン",
-     "image": "https://nagoyato.com/wp-content/uploads/2026/10/d7534f5a158177c70ae2f0297c26314d.jpg"
-    },
-    {
-     "id": "cb02cc9448f88396",
-     "title": "はなまるうどん、きしめん参入 名古屋の人気店と組んだその狙いは?",
-     "link": "https://www.msn.com/ja-jp/money/business/%E3%81%AF%E3%81%AA%E3%81%BE%E3%82%8B%E3%81%86%E3%81%A9%E3%82%93-%E3%81%8D%E3%81%97%E3%82%81%E3%82%93%E5%8F%82%E5%85%A5-%E5%90%8D%E5%8F%A4%E5%B1%8B%E3%81%AE%E4%BA%BA%E6%B0%97%E5%BA%97%E3%81%A8%E7%B5%84%E3%82%93%E3%81%A0%E3%81%9D%E3%81%AE%E7%8B%99%E3%81%84%E3%81%AF/ar-AA2girfC",
-     "source": "朝日新聞デジタル on MSN",
-     "image": "http://www.bing.com/th?id=ONUT.3P5-KK7MDa0SRaT1LSX2-g&pid=News"
     }
    ]
   },
