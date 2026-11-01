@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-02T04:37:17+09:00",
+ "updated": "2026-11-02T05:33:33+09:00",
  "items": [
   {
    "id": "13abc63f5a54be01",
@@ -362,6 +362,23 @@
    "published": "2026-10-31T15:38:46+09:00",
    "provider": "google",
    "added": "2026-11-01T01:35:35+09:00",
+   "decode_v2": true,
+   "image_checked": true,
+   "image_v4": true,
+   "shop": false,
+   "shop_name": null
+  },
+  {
+   "id": "cbe78c8e0062eaf2",
+   "title": "スイッチ！サタデー 週末ごちそうランチ ロッチのどっちも食べたい 2026/10/31 OA",
+   "link": "https://locipo.jp/creative/7352fe82-3cdc-4c58-9904-7c09296ab6dd",
+   "source": "Locipo(ロキポ)",
+   "image": "https://assets.locipo.jp/creatives/182279/original-7352fe82-3cdc-4c58-9904-7c09296ab6dd-20261031040913.jpg",
+   "category": "wadai",
+   "area": "東海",
+   "published": "2026-10-31T15:28:48+09:00",
+   "provider": "google",
+   "added": "2026-11-02T05:33:33+09:00",
    "decode_v2": true,
    "image_checked": true,
    "image_v4": true,
@@ -1992,6 +2009,23 @@
    "published": "2026-10-29T16:00:00+09:00",
    "provider": "google",
    "added": "2026-11-02T04:37:17+09:00",
+   "decode_v2": true,
+   "image_checked": true,
+   "image_v4": true,
+   "shop": false,
+   "shop_name": null
+  },
+  {
+   "id": "7513902396a75dbf",
+   "title": "年末年始限定！セブンイレブンから新年にぴったりの和スイーツが続々登場！",
+   "link": "https://www.walkerplus.com/article/132510/",
+   "source": "ウォーカープラス",
+   "image": "https://news.walkerplus.com/article/132510/739047_615.jpg",
+   "category": "conbini",
+   "area": "東海",
+   "published": "2026-10-29T16:00:00+09:00",
+   "provider": "google",
+   "added": "2026-11-02T05:33:33+09:00",
    "decode_v2": true,
    "image_checked": true,
    "image_v4": true,
@@ -6302,23 +6336,6 @@
    "image_checked": true,
    "image_v4": true,
    "shop": false,
-   "shop_name": null
-  },
-  {
-   "id": "18947a7996c31170",
-   "title": "づけ串に鶏ちゃん焼き! 名物づくしの居酒屋が名駅に",
-   "link": "https://www.walkerplus.com/article/4426/",
-   "source": "ウォーカープラス",
-   "image": "https://news.walkerplus.com/article/4426/10180_615.jpg",
-   "category": "wadai",
-   "area": "名古屋",
-   "published": "2026-10-25T16:00:00+09:00",
-   "provider": "google",
-   "added": "2026-10-28T11:44:49+09:00",
-   "decode_v2": true,
-   "image_checked": true,
-   "image_v4": true,
-   "shop": true,
    "shop_name": null
   }
  ]
