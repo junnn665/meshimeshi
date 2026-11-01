@@ -1,6 +1,6 @@
 {
  "place": "名古屋",
- "updated": "2026-11-01T06:52:52+00:00",
+ "updated": "2026-11-01T07:56:25+00:00",
  "source": "Open-Meteo",
  "days": [
   {
@@ -29,43 +29,43 @@
   },
   {
    "date": "2026-11-04",
-   "code": 53,
+   "code": 51,
    "pop": 47,
-   "rain": 1.5,
-   "tmax": 19.3,
+   "rain": 0.4,
+   "tmax": 20.1,
    "tmin": 10.9
   },
   {
    "date": "2026-11-05",
    "code": 55,
    "pop": 91,
-   "rain": 7.5,
-   "tmax": 18.7,
-   "tmin": 13.9
+   "rain": 5.6,
+   "tmax": 18.9,
+   "tmin": 15.0
   },
   {
    "date": "2026-11-06",
-   "code": 51,
+   "code": 53,
    "pop": 45,
-   "rain": 1.3,
-   "tmax": 21.9,
-   "tmin": 14.1
+   "rain": 3.5,
+   "tmax": 21.6,
+   "tmin": 13.4
   },
   {
    "date": "2026-11-07",
-   "code": 1,
+   "code": 2,
    "pop": 0,
    "rain": 0.0,
    "tmax": 14.4,
-   "tmin": 8.4
+   "tmin": 6.6
   },
   {
    "date": "2026-11-08",
    "code": 3,
    "pop": 1,
    "rain": 0.0,
-   "tmax": 13.0,
-   "tmin": 6.3
+   "tmax": 14.9,
+   "tmin": 6.1
   }
  ],
  "hours": [
