@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-01T09:42:20+00:00",
+ "updated": "2026-11-01T10:38:22+00:00",
  "days": [
   "2026-10-19",
   "2026-10-20",
@@ -22,9 +22,9 @@
    "label": "ひつまぶし・うなぎ",
    "q": "ひつまぶし",
    "kind": "dish",
-   "recent": 3,
+   "recent": 4,
    "base_per_day": 0.09,
-   "ratio": 2.75,
+   "ratio": 3.54,
    "new": false,
    "daily": [
     0,
@@ -39,7 +39,7 @@
     1,
     0,
     2,
-    1,
+    2,
     0
    ],
    "articles": [
@@ -51,18 +51,59 @@
      "image": "https://jouhou.nagoya/wp-content/uploads/2026/10/sushi-no-midori001-600x400.jpg"
     },
     {
+     "id": "ab30973f4179d6b6",
+     "title": "【きょうから】スシロー、東海限定で「ドデスカ！」と初コラボ 「スシロー流ひつまぶし」など地域グルメを商品化",
+     "link": "https://www.sanyonews.jp/article/1935719?kw=%E7%A6%8F",
+     "source": "山陽新聞",
+     "image": "https://static.sanyonews.jp/image/article/size1/3/b/f/5/3bf57dc4d9ff9e679c2f2d9a332fd2bb_1.jpg"
+    },
+    {
      "id": "44e4946933d22176",
      "title": "イクラやアナゴ、サーモン、数の子などを盛り付けた名古屋栄三越店限定メニュー「海鮮ひつまぶし」",
      "link": "https://sakae.keizai.biz/photoflash/5994/",
      "source": "サカエ経済新聞",
      "image": "https://images.keizai.biz/sakae_keizai/photonews/1793334819_b.jpg"
+    }
+   ]
+  },
+  {
+   "label": "スシロー",
+   "q": "スシロー",
+   "kind": "chain",
+   "recent": 2,
+   "base_per_day": 0.0,
+   "ratio": 2.5,
+   "new": true,
+   "daily": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    1,
+    0
+   ],
+   "articles": [
+    {
+     "id": "ab30973f4179d6b6",
+     "title": "【きょうから】スシロー、東海限定で「ドデスカ！」と初コラボ 「スシロー流ひつまぶし」など地域グルメを商品化",
+     "link": "https://www.sanyonews.jp/article/1935719?kw=%E7%A6%8F",
+     "source": "山陽新聞",
+     "image": "https://static.sanyonews.jp/image/article/size1/3/b/f/5/3bf57dc4d9ff9e679c2f2d9a332fd2bb_1.jpg"
     },
     {
-     "id": "1bfce71aa706d07b",
-     "title": "名古屋栄三越に「すしの美登利」 限定「三つ星にぎり」「海鮮ひつまぶし」も（みんなの経済新聞ネットワーク）",
-     "link": "https://sakae.keizai.biz/headline/4021/",
-     "source": "サカエ経済新聞",
-     "image": "https://images.keizai.biz/sakae_keizai/headline/1793334889_photo.jpg"
+     "id": "aa1a19a79c3b3fa9",
+     "title": "【小学館JS研究所】女子小学生が好きな食の好みを調査 よく利用する外食チェーン、1位は「マクドナルド」、「はま寿司」「スシロー」「くら寿司」など大手回転寿司チェーンも上位にランクイン",
+     "link": "https://prtimes.jp/main/html/rd/p/000000043.000104282.html",
+     "source": "PR TIMES",
+     "image": "https://prcdn.freetls.fastly.net/release_image/104282/43/104282-43-a9dc1eba1dee9905df3a800c9ccb5304-1000x667.jpg?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260"
     }
    ]
   },
