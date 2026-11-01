@@ -1,13 +1,15 @@
 {
- "updated": "2026-11-01T14:43:42+09:00",
- "items": 375,
- "with_image": 350,
- "google_decode_ok": 26,
+ "updated": "2026-11-01T15:52:19+09:00",
+ "items": 373,
+ "with_image": 347,
+ "google_decode_ok": 27,
  "google_decode_failed": 0,
  "google_decode_samples": [],
  "image_failures": [
+  "www.at-s.com: HTTPError: HTTP Error 405: Not Allowed",
   "tetsudo-ch.com: HTTPError: HTTP Error 403: Forbidden",
   "www.at-s.com: HTTPError: HTTP Error 405: Not Allowed",
-  "mainichi.jp: HTTPError: HTTP Error 403: Forbidden"
+  "media.unisba.ac.id: HTTPError: HTTP Error 403: Forbidden",
+  "kobe-journal.com: URLError: <urlopen error timed out>"
  ]
 }
