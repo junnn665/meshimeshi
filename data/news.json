@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-01T21:45:32+09:00",
+ "updated": "2026-11-01T22:45:05+09:00",
  "items": [
   {
    "id": "13abc63f5a54be01",
@@ -1347,6 +1347,23 @@
    "published": "2026-10-30T05:41:07+09:00",
    "provider": "google",
    "added": "2026-10-30T08:34:44+09:00",
+   "decode_v2": true,
+   "image_checked": true,
+   "image_v4": true,
+   "shop": false,
+   "shop_name": null
+  },
+  {
+   "id": "08bd8c5140dcf496",
+   "title": "名古屋栄三越に寿司ときしめんの名店2店舗が2026年10月31日に同時オープン 名古屋らしさあふれる店舗限定メニューに注目【栄】",
+   "link": "https://nagoyato.com/posts/19941",
+   "source": "ナゴヤトコトン",
+   "image": "https://nagoyato.com/wp-content/uploads/2026/10/sub6.jpg",
+   "category": "shinten",
+   "area": "名古屋",
+   "published": "2026-10-30T05:14:46+09:00",
+   "provider": "google",
+   "added": "2026-11-01T22:45:05+09:00",
    "decode_v2": true,
    "image_checked": true,
    "image_v4": true,
@@ -6405,6 +6422,22 @@
    "image_v4": true,
    "shop": true,
    "shop_name": "インバウンド丼"
+  },
+  {
+   "id": "bebd96053612f4d1",
+   "title": "【名古屋タカシマヤ】平日クリスマスを華やかに彩るグルメから ...",
+   "link": "https://prtimes.jp/main/html/rd/p/000000511.000047031.html",
+   "source": "PR TIMES",
+   "image": "https://prcdn.freetls.fastly.net/release_image/47031/511/47031-511-fb694bc3c1ba895615441e3d17e41109-3900x2896.jpg?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260",
+   "category": "wadai",
+   "area": "名古屋",
+   "published": "2026-10-22T13:00:00+09:00",
+   "provider": "bing",
+   "added": "2026-11-01T22:45:05+09:00",
+   "image_checked": true,
+   "image_v4": true,
+   "shop": true,
+   "shop_name": null
   }
  ]
 }

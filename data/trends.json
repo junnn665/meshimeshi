@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-01T12:46:10+00:00",
+ "updated": "2026-11-01T13:45:36+00:00",
  "days": [
   "2026-10-19",
   "2026-10-20",
@@ -149,6 +149,95 @@
    ]
   },
   {
+   "label": "寿司",
+   "q": "寿司",
+   "kind": "dish",
+   "recent": 7,
+   "base_per_day": 0.91,
+   "ratio": 2.01,
+   "new": false,
+   "daily": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    1,
+    6,
+    2,
+    6,
+    1,
+    0
+   ],
+   "articles": [
+    {
+     "id": "08e8a30fb449dc12",
+     "title": "行列ができる人気寿司店『すしの美登利』が名古屋栄三越にオープン。店舗限定の海鮮ひつまぶしも提供",
+     "link": "https://jouhou.nagoya/sushi-no-midori/",
+     "source": "名古屋情報通",
+     "image": "https://jouhou.nagoya/wp-content/uploads/2026/10/sushi-no-midori001-600x400.jpg"
+    },
+    {
+     "id": "88938424113e3525",
+     "title": "「すしの美登利 名古屋栄三越店」外観",
+     "link": "https://sakae.keizai.biz/photoflash/5987/",
+     "source": "サカエ経済新聞",
+     "image": "https://images.keizai.biz/sakae_keizai/photonews/1793334661_b.jpg"
+    },
+    {
+     "id": "a4ad9e9c36f17300",
+     "title": "「すしの美登利 名古屋栄三越店」店内",
+     "link": "https://sakae.keizai.biz/photoflash/5988/",
+     "source": "サカエ経済新聞",
+     "image": "https://images.keizai.biz/sakae_keizai/photonews/1793334674_b.jpg"
+    }
+   ]
+  },
+  {
+   "label": "きしめん",
+   "q": "きしめん",
+   "kind": "dish",
+   "recent": 2,
+   "base_per_day": 0.09,
+   "ratio": 1.96,
+   "new": false,
+   "daily": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    2,
+    0,
+    0
+   ],
+   "articles": [
+    {
+     "id": "d47413396b55eedb",
+     "title": "名古屋栄三越に老舗の名店が集結！2026年10月31日オープンの新店「宮きしめん伊兵衛」「すしの美登利」の注目グルメと見どころを詳細解説【現地取材／栄】",
+     "link": "https://nagoyato.com/posts/20526",
+     "source": "ナゴヤトコトン",
+     "image": "https://nagoyato.com/wp-content/uploads/2026/10/d7534f5a158177c70ae2f0297c26314d.jpg"
+    },
+    {
+     "id": "08bd8c5140dcf496",
+     "title": "名古屋栄三越に寿司ときしめんの名店2店舗が2026年10月31日に同時オープン 名古屋らしさあふれる店舗限定メニューに注目【栄】",
+     "link": "https://nagoyato.com/posts/19941",
+     "source": "ナゴヤトコトン",
+     "image": "https://nagoyato.com/wp-content/uploads/2026/10/sub6.jpg"
+    }
+   ]
+  },
+  {
    "label": "カレー",
    "q": "カレー",
    "kind": "dish",
@@ -282,54 +371,6 @@
      "link": "https://news.at-s.com/article/2088520",
      "source": "静岡新聞DIGITAL",
      "image": null
-    }
-   ]
-  },
-  {
-   "label": "寿司",
-   "q": "寿司",
-   "kind": "dish",
-   "recent": 6,
-   "base_per_day": 0.91,
-   "ratio": 1.74,
-   "new": false,
-   "daily": [
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    1,
-    1,
-    6,
-    2,
-    5,
-    1,
-    0
-   ],
-   "articles": [
-    {
-     "id": "08e8a30fb449dc12",
-     "title": "行列ができる人気寿司店『すしの美登利』が名古屋栄三越にオープン。店舗限定の海鮮ひつまぶしも提供",
-     "link": "https://jouhou.nagoya/sushi-no-midori/",
-     "source": "名古屋情報通",
-     "image": "https://jouhou.nagoya/wp-content/uploads/2026/10/sushi-no-midori001-600x400.jpg"
-    },
-    {
-     "id": "88938424113e3525",
-     "title": "「すしの美登利 名古屋栄三越店」外観",
-     "link": "https://sakae.keizai.biz/photoflash/5987/",
-     "source": "サカエ経済新聞",
-     "image": "https://images.keizai.biz/sakae_keizai/photonews/1793334661_b.jpg"
-    },
-    {
-     "id": "a4ad9e9c36f17300",
-     "title": "「すしの美登利 名古屋栄三越店」店内",
-     "link": "https://sakae.keizai.biz/photoflash/5988/",
-     "source": "サカエ経済新聞",
-     "image": "https://images.keizai.biz/sakae_keizai/photonews/1793334674_b.jpg"
     }
    ]
   }
