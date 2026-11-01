@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-01T09:58:36+09:00",
+ "updated": "2026-11-01T10:58:28+09:00",
  "items": [
   {
    "id": "11cc34f7a52b061a",
@@ -1592,6 +1592,23 @@
    "published": "2026-10-29T12:35:02+09:00",
    "provider": "google",
    "added": "2026-10-30T14:43:40+09:00",
+   "decode_v2": true,
+   "image_checked": true,
+   "image_v4": true,
+   "shop": false,
+   "shop_name": null
+  },
+  {
+   "id": "68102764c1ae66c4",
+   "title": "【第一弾】選手コラボメニュー販売のお知らせ",
+   "link": "https://nagoya-dolphins.jp/news/detail/id=24388",
+   "source": "名古屋ダイヤモンドドルフィンズ",
+   "image": "https://nagoya-dolphins.jp/files/user/common/2026-27/news/ag.png",
+   "category": "chain",
+   "area": "東海",
+   "published": "2026-10-29T12:34:21+09:00",
+   "provider": "google",
+   "added": "2026-11-01T10:58:28+09:00",
    "decode_v2": true,
    "image_checked": true,
    "image_v4": true,
@@ -4835,6 +4852,23 @@
    "shop_name": null
   },
   {
+   "id": "f008f228808dd02a",
+   "title": "【2024年】名古屋・栄・金山のカジュアル・お安めクリスマスディナー13選",
+   "link": "https://howtravel-gourmet.com/chubu/nagoya/sakae/nagoyaeki-dinner-christmas/",
+   "source": "めしレポ",
+   "image": "https://howtravel-gourmet.com/wp-content/uploads/2023/11/7c94e4f3e845445e9425251ab080cc0b.jpg",
+   "category": "wadai",
+   "area": "名古屋",
+   "published": "2026-10-26T16:00:00+09:00",
+   "provider": "google",
+   "added": "2026-11-01T10:58:28+09:00",
+   "decode_v2": true,
+   "image_checked": true,
+   "image_v4": true,
+   "shop": false,
+   "shop_name": null
+  },
+  {
    "id": "db320c2ae1461312",
    "title": "「ハエラ」おすすめレストラン＆カフェ特集、“名古屋栄駅直結”の注目グルメスポットは？",
    "link": "https://www.fashion-press.net/news/147003",
@@ -6288,57 +6322,6 @@
    "shop_name": null,
    "end": "2026-10-25",
    "group": "f7d7dfdfc856"
-  },
-  {
-   "id": "7100156bcf6e1144",
-   "title": "名古屋人のソウルフード！ 庶民派ラーメン「スガキヤ」を徹底解剖",
-   "link": "https://www.walkerplus.com/article/12868/",
-   "source": "ウォーカープラス",
-   "image": "https://news.walkerplus.com/article/12868/44445_615.jpg",
-   "category": "wadai",
-   "area": "名古屋",
-   "published": "2026-10-24T16:00:00+09:00",
-   "provider": "google",
-   "added": "2026-10-27T10:42:05+09:00",
-   "decode_v2": true,
-   "image_checked": true,
-   "image_v4": true,
-   "shop": true,
-   "shop_name": "スガキヤ"
-  },
-  {
-   "id": "cd610735c219d97b",
-   "title": "映画のメニューを再現！「君の名は。カフェ」が登場",
-   "link": "https://www.walkerplus.com/article/95956/",
-   "source": "ウォーカープラス",
-   "image": "https://news.walkerplus.com/article/95956/533118_615.jpg",
-   "category": "chain",
-   "area": "東海",
-   "published": "2026-10-24T16:00:00+09:00",
-   "provider": "google",
-   "added": "2026-10-28T06:33:37+09:00",
-   "decode_v2": true,
-   "image_checked": true,
-   "image_v4": true,
-   "shop": false,
-   "shop_name": null
-  },
-  {
-   "id": "10aced8da7fed8c6",
-   "title": "名古屋で子連れランチにおすすめなお店21選 キッズメニュー・子ども椅子あり、ベビーカー入店OKなど",
-   "link": "https://howtravel-gourmet.com/chubu/nagoya/lunch-with-kids/",
-   "source": "めしレポ",
-   "image": "https://howtravel-gourmet.com/wp-content/uploads/2023/10/nagoya_lunchwithkids.jpg",
-   "category": "yasuuma",
-   "area": "名古屋",
-   "published": "2026-10-24T16:00:00+09:00",
-   "provider": "google",
-   "added": "2026-10-28T18:46:38+09:00",
-   "decode_v2": true,
-   "image_checked": true,
-   "image_v4": true,
-   "shop": false,
-   "shop_name": null
   }
  ]
 }
