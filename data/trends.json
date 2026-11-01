@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-01T08:47:06+00:00",
+ "updated": "2026-11-01T09:42:20+00:00",
  "days": [
   "2026-10-19",
   "2026-10-20",
@@ -193,6 +193,54 @@
      "link": "https://topics.smt.docomo.ne.jp/amp/article/entabe/trend/entabe-61975",
      "source": "ｄメニューニュース",
      "image": "https://img.topics.smt.news.goo.ne.jp/picture/entabe/m_entabe-61975.jpg"
+    }
+   ]
+  },
+  {
+   "label": "パン",
+   "q": "パン",
+   "kind": "dish",
+   "recent": 10,
+   "base_per_day": 1.82,
+   "ratio": 1.63,
+   "new": false,
+   "daily": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    3,
+    5,
+    5,
+    6,
+    7,
+    2,
+    1
+   ],
+   "articles": [
+    {
+     "id": "fb7a4327615dd71e",
+     "title": "全国各地の人気ベーカリーが約70店舗集結！「パンマルシェ」オアシス21で11月3日に開催",
+     "link": "https://jouhou.nagoya/panmarche26/",
+     "source": "名古屋情報通",
+     "image": "https://jouhou.nagoya/wp-content/uploads/2025/04/panmarche0003-600x400.jpg"
+    },
+    {
+     "id": "5431f160fe0a5d4a",
+     "title": "名古屋・栄に全国からおいしいパンが大集結！「第26回パンマルシェ」が2026年11月3日にオアシス21にて開催 約70店舗が集う大人気イベントの見どころを詳細解説【栄・久屋大通】",
+     "link": "https://nagoyato.com/posts/20589",
+     "source": "nagoyato",
+     "image": "https://nagoyato.com/wp-content/uploads/2026/10/image-223-edited.png"
+    },
+    {
+     "id": "023f4fe3bc47bce1",
+     "title": "情報ＰＩＣＫ ＵＰ＝沼津市 ぬまづパンまるしぇ／下田市 公開講座「民俗学の誘い」／藤枝市 東海ガスのガス展 パンとグルメの祭典／静岡市葵区 県防災学講座／菊川市 地球愛まつりｉｎ静岡／浜松市中央区 東海調理製菓専門学校の建学祭｜静岡新聞DIGITAL 静岡県のニュー",
+     "link": "https://news.at-s.com/article/2088520",
+     "source": "静岡新聞DIGITAL",
+     "image": null
     }
    ]
   }
