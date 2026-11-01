@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-01T07:56:24+00:00",
+ "updated": "2026-11-01T08:47:06+00:00",
  "days": [
   "2026-10-19",
   "2026-10-20",
@@ -18,6 +18,54 @@
  ],
  "recent_days": 3,
  "items": [
+  {
+   "label": "ひつまぶし・うなぎ",
+   "q": "ひつまぶし",
+   "kind": "dish",
+   "recent": 3,
+   "base_per_day": 0.09,
+   "ratio": 2.75,
+   "new": false,
+   "daily": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    2,
+    1,
+    0
+   ],
+   "articles": [
+    {
+     "id": "08e8a30fb449dc12",
+     "title": "行列ができる人気寿司店『すしの美登利』が名古屋栄三越にオープン。店舗限定の海鮮ひつまぶしも提供",
+     "link": "https://jouhou.nagoya/sushi-no-midori/",
+     "source": "名古屋情報通",
+     "image": "https://jouhou.nagoya/wp-content/uploads/2026/10/sushi-no-midori001-600x400.jpg"
+    },
+    {
+     "id": "44e4946933d22176",
+     "title": "イクラやアナゴ、サーモン、数の子などを盛り付けた名古屋栄三越店限定メニュー「海鮮ひつまぶし」",
+     "link": "https://sakae.keizai.biz/photoflash/5994/",
+     "source": "サカエ経済新聞",
+     "image": "https://images.keizai.biz/sakae_keizai/photonews/1793334819_b.jpg"
+    },
+    {
+     "id": "1bfce71aa706d07b",
+     "title": "名古屋栄三越に「すしの美登利」 限定「三つ星にぎり」「海鮮ひつまぶし」も（みんなの経済新聞ネットワーク）",
+     "link": "https://sakae.keizai.biz/headline/4021/",
+     "source": "サカエ経済新聞",
+     "image": "https://images.keizai.biz/sakae_keizai/headline/1793334889_photo.jpg"
+    }
+   ]
+  },
   {
    "label": "サンリオハウス",
    "q": "サンリオハウス",
@@ -56,54 +104,6 @@
      "link": "https://jouhou.nagoya/sanrio-house-open/",
      "source": "名古屋情報通",
      "image": "https://jouhou.nagoya/wp-content/uploads/2026/10/sanrio-house-open001-600x400.jpg"
-    }
-   ]
-  },
-  {
-   "label": "ひつまぶし・うなぎ",
-   "q": "ひつまぶし",
-   "kind": "dish",
-   "recent": 3,
-   "base_per_day": 0.18,
-   "ratio": 2.26,
-   "new": false,
-   "daily": [
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    1,
-    0,
-    0,
-    1,
-    0,
-    2,
-    1,
-    0
-   ],
-   "articles": [
-    {
-     "id": "08e8a30fb449dc12",
-     "title": "行列ができる人気寿司店『すしの美登利』が名古屋栄三越にオープン。店舗限定の海鮮ひつまぶしも提供",
-     "link": "https://jouhou.nagoya/sushi-no-midori/",
-     "source": "名古屋情報通",
-     "image": "https://jouhou.nagoya/wp-content/uploads/2026/10/sushi-no-midori001-600x400.jpg"
-    },
-    {
-     "id": "44e4946933d22176",
-     "title": "イクラやアナゴ、サーモン、数の子などを盛り付けた名古屋栄三越店限定メニュー「海鮮ひつまぶし」",
-     "link": "https://sakae.keizai.biz/photoflash/5994/",
-     "source": "サカエ経済新聞",
-     "image": "https://images.keizai.biz/sakae_keizai/photonews/1793334819_b.jpg"
-    },
-    {
-     "id": "1bfce71aa706d07b",
-     "title": "名古屋栄三越に「すしの美登利」 限定「三つ星にぎり」「海鮮ひつまぶし」も（みんなの経済新聞ネットワーク）",
-     "link": "https://sakae.keizai.biz/headline/4021/",
-     "source": "サカエ経済新聞",
-     "image": "https://images.keizai.biz/sakae_keizai/headline/1793334889_photo.jpg"
     }
    ]
   },
