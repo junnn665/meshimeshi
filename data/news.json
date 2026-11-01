@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-02T05:33:33+09:00",
+ "updated": "2026-11-02T06:35:24+09:00",
  "items": [
   {
    "id": "13abc63f5a54be01",
@@ -3791,6 +3791,23 @@
    "shop_name": null
   },
   {
+   "id": "08afe83eb0f49463",
+   "title": "エスカレーター「立ち止まり」浸透半ば、女子高生が対策考案「うさぎをふまないで！」…定着した都市も",
+   "link": "https://article.auone.jp/299cbba8-0555-43b0-820b-f7d859b8e535",
+   "source": "au Webポータル",
+   "image": "https://newportal.portal.auone.jp/media/thumbnails/2026/10/28/https___www_yomiuri_co_jp_national_20261027-GYT1T00382__w1200.webp",
+   "category": "wadai",
+   "area": "東海",
+   "published": "2026-10-28T07:00:00+09:00",
+   "provider": "google",
+   "added": "2026-11-02T06:35:24+09:00",
+   "decode_v2": true,
+   "image_checked": true,
+   "image_v4": true,
+   "shop": false,
+   "shop_name": null
+  },
+  {
    "id": "394bccb2daf604c8",
    "title": "2026年10月29日オープン！栄センパの新店「土鍋ごはん×とんかつ CHITAKA」が美味すぎた 「とんかつ知多家」から生まれた新感覚とんかつを最速実食レポート【久屋大通・栄】",
    "link": "https://nagoyato.com/posts/20426",
@@ -6337,6 +6354,38 @@
    "image_v4": true,
    "shop": false,
    "shop_name": null
+  },
+  {
+   "id": "bebd96053612f4d1",
+   "title": "【名古屋タカシマヤ】平日クリスマスを華やかに彩るグルメから ...",
+   "link": "https://prtimes.jp/main/html/rd/p/000000511.000047031.html",
+   "source": "PR TIMES",
+   "image": "https://prcdn.freetls.fastly.net/release_image/47031/511/47031-511-fb694bc3c1ba895615441e3d17e41109-3900x2896.jpg?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260",
+   "category": "wadai",
+   "area": "名古屋",
+   "published": "2026-10-22T13:00:00+09:00",
+   "provider": "bing",
+   "added": "2026-11-02T06:35:24+09:00",
+   "image_checked": true,
+   "image_v4": true,
+   "shop": true,
+   "shop_name": null
+  },
+  {
+   "id": "05a3a850bcf228e0",
+   "title": "純系名古屋コーチン100％「白金ハンバーグ」が食のプロから最高 ...",
+   "link": "https://mainichi.jp/articles/20261022/pr2/00m/020/070000c",
+   "source": "毎日新聞デジタル",
+   "image": "http://www.bing.com/th?id=ONUT.7USTZgbMipLUwYA2vSZ3yw&pid=News",
+   "category": "wadai",
+   "area": "名古屋",
+   "published": "2026-10-22T02:00:00+09:00",
+   "provider": "bing",
+   "added": "2026-11-02T06:35:24+09:00",
+   "image_checked": true,
+   "image_v4": true,
+   "shop": true,
+   "shop_name": "白金ハンバーグ"
   }
  ]
 }
