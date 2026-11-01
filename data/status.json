@@ -1,16 +1,16 @@
 {
- "updated": "2026-11-02T06:35:24+09:00",
- "items": 370,
- "with_image": 343,
- "google_decode_ok": 31,
+ "updated": "2026-11-02T07:35:22+09:00",
+ "items": 368,
+ "with_image": 340,
+ "google_decode_ok": 34,
  "google_decode_failed": 0,
  "google_decode_samples": [],
  "image_failures": [
+  "rin-pedia.com: HTTPError: HTTP Error 403: Forbidden",
   "www.excite.co.jp: HTTPError: HTTP Error 403: Forbidden",
-  "tetsudo-ch.com: HTTPError: HTTP Error 403: Forbidden",
   "www.excite.co.jp: HTTPError: HTTP Error 403: Forbidden",
   "www.at-s.com: HTTPError: HTTP Error 405: Not Allowed",
   "media.unisba.ac.id: HTTPError: HTTP Error 403: Forbidden",
-  "mainichi.jp: HTTPError: HTTP Error 403: Forbidden"
+  "media.unisba.ac.id: HTTPError: HTTP Error 403: Forbidden"
  ]
 }
