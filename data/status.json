@@ -1,14 +1,13 @@
 {
- "updated": "2026-11-01T13:48:54+09:00",
- "items": 369,
- "with_image": 344,
- "google_decode_ok": 30,
+ "updated": "2026-11-01T14:43:42+09:00",
+ "items": 375,
+ "with_image": 350,
+ "google_decode_ok": 26,
  "google_decode_failed": 0,
  "google_decode_samples": [],
  "image_failures": [
   "tetsudo-ch.com: HTTPError: HTTP Error 403: Forbidden",
   "www.at-s.com: HTTPError: HTTP Error 405: Not Allowed",
-  "media.unisba.ac.id: HTTPError: HTTP Error 403: Forbidden",
-  "media.unisba.ac.id: HTTPError: HTTP Error 403: Forbidden"
+  "mainichi.jp: HTTPError: HTTP Error 403: Forbidden"
  ]
 }
