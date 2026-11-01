@@ -1,7 +1,7 @@
 {
- "updated": "2026-11-01T20:32:12+09:00",
- "items": 373,
- "with_image": 347,
+ "updated": "2026-11-01T21:45:32+09:00",
+ "items": 371,
+ "with_image": 345,
  "google_decode_ok": 30,
  "google_decode_failed": 0,
  "google_decode_samples": [],
@@ -10,7 +10,6 @@
   "tetsudo-ch.com: HTTPError: HTTP Error 403: Forbidden",
   "www.excite.co.jp: HTTPError: HTTP Error 403: Forbidden",
   "www.at-s.com: HTTPError: HTTP Error 405: Not Allowed",
-  "mainichi.jp: HTTPError: HTTP Error 403: Forbidden",
-  "www.msn.com: og:image なし (42934 文字)"
+  "media.unisba.ac.id: HTTPError: HTTP Error 403: Forbidden"
  ]
 }
