@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-01T10:38:22+00:00",
+ "updated": "2026-11-01T11:32:40+00:00",
  "days": [
   "2026-10-19",
   "2026-10-20",
@@ -149,6 +149,54 @@
    ]
   },
   {
+   "label": "カレー",
+   "q": "カレー",
+   "kind": "dish",
+   "recent": 3,
+   "base_per_day": 0.27,
+   "ratio": 1.93,
+   "new": false,
+   "daily": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    2,
+    0,
+    1,
+    0,
+    1,
+    2,
+    0
+   ],
+   "articles": [
+    {
+     "id": "e60dc45ac75a516e",
+     "title": "大学生と共同開発！愛知県の「華麗なるまち稲沢」で新ご当地グルメ“稲沢カレー”を味わおう",
+     "link": "https://www.walkerplus.com/article/1183302/",
+     "source": "ウォーカープラス",
+     "image": "https://news.walkerplus.com/article/1183302/12768395_615.jpg"
+    },
+    {
+     "id": "915f520b01ddc9c5",
+     "title": "【中部＆近畿地方のローソン限定！】CoCo壱番屋監修のカレーチーズまんが発売！",
+     "link": "https://www.walkerplus.com/trend/matome/article/126789/image703007.html",
+     "source": "ウォーカープラス",
+     "image": "https://news.walkerplus.com/article/126789/703007_615.jpg"
+    },
+    {
+     "id": "b59a7a55259ba227",
+     "title": "1,000円で何品食べられる？ 愛知県長久手市「石窯パン工房 アヴァンセ 長久手店」1日2,000個売れるカレーパンは290円！＆岐阜県岐阜市「ラーメン 天外 長良店」ギョウザ1個30円！ 『PS純金（ゴールド）』 | グルメ | よみもの",
+     "link": "https://locipo.jp/media/gourmet/entry-5550.html",
+     "source": "locipo.jp",
+     "image": "https://locipo.jp/media/media/001/202610/35_4.jpg"
+    }
+   ]
+  },
+  {
    "label": "寿司",
    "q": "寿司",
    "kind": "dish",
@@ -241,9 +289,9 @@
    "label": "パン",
    "q": "パン",
    "kind": "dish",
-   "recent": 10,
+   "recent": 11,
    "base_per_day": 1.82,
-   "ratio": 1.63,
+   "ratio": 1.78,
    "new": false,
    "daily": [
     0,
@@ -257,7 +305,7 @@
     5,
     5,
     6,
-    7,
+    8,
     2,
     1
    ],
