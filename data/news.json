@@ -1,6 +1,23 @@
 {
- "updated": "2026-11-02T19:56:35+09:00",
+ "updated": "2026-11-02T20:51:08+09:00",
  "items": [
+  {
+   "id": "0d7d1cd820a39c21",
+   "title": "「吉野家の特盛りだったら、８つ９つ食べた」中田翔さん、「有吉ゼミ」デカ盛りグルメ初参戦「子どもたちのために頑張ります」結果は…",
+   "link": "https://hochi.news/articles/20261102-OHT1T51186.html",
+   "source": "スポーツ報知",
+   "image": "https://hochi.news/images/2026/11/02/20261102-OHT1I51299-C.jpg",
+   "category": "deka",
+   "area": "東海",
+   "published": "2026-11-02T20:05:00+09:00",
+   "provider": "google",
+   "added": "2026-11-02T20:51:08+09:00",
+   "decode_v2": true,
+   "image_checked": true,
+   "image_v4": true,
+   "shop": false,
+   "shop_name": null
+  },
   {
    "id": "ed858399e15c4ff1",
    "title": "キャンピングカー展示から信州物産展まで！「RVパーク 車中泊体験フェス in 金山」初開催",
@@ -1782,6 +1799,23 @@
    "shop_name": null
   },
   {
+   "id": "357df8b46de68e32",
+   "title": "数々の賞を受賞する大人気ラーメン店「灯花」が名古屋に初進出！ラーメンと胡麻鯛茶漬けは絶品",
+   "link": "https://www.walkerplus.com/article/1202041/",
+   "source": "ウォーカープラス",
+   "image": "https://news.walkerplus.com/article/1202041/13156206_615.jpg",
+   "category": "wadai",
+   "area": "名古屋",
+   "published": "2026-10-30T16:00:00+09:00",
+   "provider": "google",
+   "added": "2026-11-02T20:51:08+09:00",
+   "decode_v2": true,
+   "image_checked": true,
+   "image_v4": true,
+   "shop": false,
+   "shop_name": null
+  },
+  {
    "id": "1fcc6e49cd308d09",
    "title": "ファミマに「味仙」監修の旨辛グルメ5品！ 台湾ラーメンに“ミンチ”カツも【地域限定】",
    "link": "https://ascii.jp/elem/000/004/447/4447005/",
@@ -2784,6 +2818,23 @@
    "shop_name": null
   },
   {
+   "id": "07bdaa16bffc431f",
+   "title": "わが町モーニング一番店 名古屋・中村区編",
+   "link": "https://locipo.jp/creative/ea79acca-73a2-4e24-98fe-1c07b5117606",
+   "source": "locipo.jp",
+   "image": "https://assets.locipo.jp/creatives/182298/original-ea79acca-73a2-4e24-98fe-1c07b5117606-20261030075623.jpg",
+   "category": "yasuuma",
+   "area": "名古屋",
+   "published": "2026-10-29T16:00:00+09:00",
+   "provider": "google",
+   "added": "2026-11-02T20:51:08+09:00",
+   "decode_v2": true,
+   "image_checked": true,
+   "image_v4": true,
+   "shop": true,
+   "shop_name": null
+  },
+  {
    "id": "5bc1595493f30b5a",
    "title": "3COINS×くら寿司のOMOキャンペーンにクラウドサーカスの『Metabadge』が採用",
    "link": "https://prtimes.jp/main/html/rd/p/000000400.000016877.html",
@@ -2958,6 +3009,23 @@
    "start": "2026-10-31",
    "end": "2026-11-03",
    "group": "8b7717a3b270"
+  },
+  {
+   "id": "e6828097f59ff1de",
+   "title": "スガキヤの「ラーメン」がおいしい！クリーミーな豚骨と魚介のだしが相性ばつぐんで、クセになる味でした！",
+   "link": "https://www.buzzfeed.com/jp/buzzfeedjapanlife/sugakiya-ramen-490",
+   "source": "BuzzFeed",
+   "image": "https://img.buzzfeed.com/buzzfeed-static/static/2026-10/26/05/thumb/BnCvmMyb0.jpg?crop=1401:934;1421,1498&resize=1250:830",
+   "category": "shinten",
+   "area": "東海",
+   "published": "2026-10-29T12:07:37+09:00",
+   "provider": "google",
+   "added": "2026-11-02T20:51:08+09:00",
+   "decode_v2": true,
+   "image_checked": true,
+   "image_v4": true,
+   "shop": false,
+   "shop_name": null
   },
   {
    "id": "9ce99ba3bc966885",
