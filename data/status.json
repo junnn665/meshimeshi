@@ -1,16 +1,19 @@
 {
- "updated": "2026-11-03T02:54:17+09:00",
- "items": 372,
- "with_image": 344,
- "google_decode_ok": 29,
+ "updated": "2026-11-03T03:53:36+09:00",
+ "items": 366,
+ "with_image": 337,
+ "google_decode_ok": 37,
  "google_decode_failed": 0,
  "google_decode_samples": [],
  "image_failures": [
   "www.excite.co.jp: HTTPError: HTTP Error 403: Forbidden",
   "www.excite.co.jp: HTTPError: HTTP Error 403: Forbidden",
+  "atsugi.goguynet.jp: RemoteDisconnected: Remote end closed connection without response",
   "www.excite.co.jp: HTTPError: HTTP Error 403: Forbidden",
+  "yao.goguynet.jp: RemoteDisconnected: Remote end closed connection without response",
+  "topics.smt.docomo.ne.jp: HTTPError: HTTP Error 404: Not Found",
+  "news.nicovideo.jp: HTTPError: HTTP Error 403: Forbidden",
   "www.excite.co.jp: HTTPError: HTTP Error 403: Forbidden",
-  "toyokawa-gamagori.goguynet.jp: RemoteDisconnected: Remote end closed connection without response",
   "www.at-s.com: HTTPError: HTTP Error 405: Not Allowed",
   "media.unisba.ac.id: HTTPError: HTTP Error 403: Forbidden"
  ]
