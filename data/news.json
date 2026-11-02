@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-03T06:39:54+09:00",
+ "updated": "2026-11-03T07:39:24+09:00",
  "items": [
   {
    "id": "5633a92531b2e04a",
@@ -29,6 +29,23 @@
    "published": "2026-11-03T03:42:21+09:00",
    "provider": "google",
    "added": "2026-11-03T06:39:54+09:00",
+   "decode_v2": true,
+   "image_checked": true,
+   "image_v4": true,
+   "shop": false,
+   "shop_name": null
+  },
+  {
+   "id": "1735dc8d2339698d",
+   "title": "【東海】豚骨ラーメンの人気チェーン「ラの壱」に限定＆超お得メニューが登場！",
+   "link": "https://www.walkerplus.com/trend/matome/article/123709/",
+   "source": "ウォーカープラス",
+   "image": "https://news.walkerplus.com/article/123709/684855_615.jpg",
+   "category": "yasuuma",
+   "area": "東海",
+   "published": "2026-11-02T21:31:02+09:00",
+   "provider": "google",
+   "added": "2026-11-03T07:39:24+09:00",
    "decode_v2": true,
    "image_checked": true,
    "image_v4": true,
@@ -2074,6 +2091,23 @@
    "shop_name": null
   },
   {
+   "id": "17a62f9302478a2d",
+   "title": "別府の大型温泉リゾートホテル「杉乃井ホテル」が完全リニューアル！温泉と大分グルメをたっぷり堪能してきた！",
+   "link": "https://www.walkerplus.com/article/1248651/",
+   "source": "ウォーカープラス",
+   "image": "https://news.walkerplus.com/article/1248651/14242493_615.jpg",
+   "category": "shinten",
+   "area": "東海",
+   "published": "2026-10-30T16:00:00+09:00",
+   "provider": "google",
+   "added": "2026-11-03T07:39:24+09:00",
+   "decode_v2": true,
+   "image_checked": true,
+   "image_v4": true,
+   "shop": false,
+   "shop_name": null
+  },
+  {
    "id": "1fcc6e49cd308d09",
    "title": "ファミマに「味仙」監修の旨辛グルメ5品！ 台湾ラーメンに“ミンチ”カツも【地域限定】",
    "link": "https://ascii.jp/elem/000/004/447/4447005/",
@@ -3124,6 +3158,23 @@
    "image_checked": true,
    "image_v4": true,
    "shop": false,
+   "shop_name": null
+  },
+  {
+   "id": "383790f46a0e529a",
+   "title": "名古屋東急ホテルがリニューアル！シェフ自慢のスイーツ＆デリカブッフェにライブキッチンも登場!!",
+   "link": "https://www.walkerplus.com/article/166076/",
+   "source": "ウォーカープラス",
+   "image": "https://news.walkerplus.com/article/166076/968968_615.jpg",
+   "category": "wadai",
+   "area": "名古屋",
+   "published": "2026-10-29T16:00:00+09:00",
+   "provider": "google",
+   "added": "2026-11-03T07:39:24+09:00",
+   "decode_v2": true,
+   "image_checked": true,
+   "image_v4": true,
+   "shop": true,
    "shop_name": null
   },
   {
@@ -6314,6 +6365,22 @@
    "provider": "google",
    "added": "2026-10-29T12:45:09+09:00",
    "decode_v2": true,
+   "image_checked": true,
+   "image_v4": true,
+   "shop": false,
+   "shop_name": null
+  },
+  {
+   "id": "eedbf9c7c6d2ca9c",
+   "title": "【名古屋らーめん藤一番】「八丁味噌」100％使用！「名古屋赤味噌 ...",
+   "link": "https://topics.smt.docomo.ne.jp/article/fukaboritokai/trend/fukaboritokai-25544",
+   "source": "dメニューニュース",
+   "image": "https://img.topics.smt.news.goo.ne.jp/-/20261028100531/img/dmenu_service-brand-logo_200x200.png",
+   "category": "chain",
+   "area": "名古屋",
+   "published": "2026-10-26T02:42:00+09:00",
+   "provider": "bing",
+   "added": "2026-11-03T07:39:24+09:00",
    "image_checked": true,
    "image_v4": true,
    "shop": false,
