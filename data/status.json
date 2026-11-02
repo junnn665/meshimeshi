@@ -1,15 +1,18 @@
 {
- "updated": "2026-11-03T05:42:44+09:00",
- "items": 368,
- "with_image": 339,
- "google_decode_ok": 34,
+ "updated": "2026-11-03T06:39:54+09:00",
+ "items": 367,
+ "with_image": 337,
+ "google_decode_ok": 35,
  "google_decode_failed": 0,
  "google_decode_samples": [],
  "image_failures": [
   "www.excite.co.jp: HTTPError: HTTP Error 403: Forbidden",
+  "www.hotpepper.jp: og:image なし (70790 文字)",
   "www.excite.co.jp: HTTPError: HTTP Error 403: Forbidden",
   "www.excite.co.jp: HTTPError: HTTP Error 403: Forbidden",
   "www.excite.co.jp: HTTPError: HTTP Error 403: Forbidden",
-  "www.at-s.com: HTTPError: HTTP Error 405: Not Allowed"
+  "www.at-s.com: HTTPError: HTTP Error 405: Not Allowed",
+  "media.unisba.ac.id: HTTPError: HTTP Error 403: Forbidden",
+  "toyokawa-gamagori.goguynet.jp: TimeoutError: The read operation timed out"
  ]
 }
