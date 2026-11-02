@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-02T20:51:08+09:00",
+ "updated": "2026-11-02T21:59:15+09:00",
  "items": [
   {
    "id": "0d7d1cd820a39c21",
@@ -474,6 +474,23 @@
    "published": "2026-11-02T10:00:00+09:00",
    "provider": "prtimes",
    "added": "2026-11-02T11:49:07+09:00",
+   "image_checked": true,
+   "image_v4": true,
+   "shop": false,
+   "shop_name": null
+  },
+  {
+   "id": "6dff6d3dfc5ceb6f",
+   "title": "近鉄初のレストラン列車「レ・サヴール・志摩」が出発 名古屋から伊勢志摩へ本格フレンチの旅 (2026年11月2日掲載)",
+   "link": "https://news.livedoor.com/topics/detail/32710954/",
+   "source": "ライブドアニュース",
+   "image": "https://image.news.livedoor.com/newsimage/stf/6/9/69b57_1722_a512db90d9fbf2a3a888877522f4c3c5.jpg",
+   "category": "wadai",
+   "area": "名古屋",
+   "published": "2026-11-02T09:29:10+09:00",
+   "provider": "google",
+   "added": "2026-11-02T21:59:15+09:00",
+   "decode_v2": true,
    "image_checked": true,
    "image_v4": true,
    "shop": false,
@@ -6385,6 +6402,22 @@
    "provider": "google",
    "added": "2026-11-01T11:46:10+09:00",
    "decode_v2": true,
+   "image_checked": true,
+   "image_v4": true,
+   "shop": false,
+   "shop_name": null
+  },
+  {
+   "id": "eedbf9c7c6d2ca9c",
+   "title": "【名古屋らーめん藤一番】「八丁味噌」100％使用！「名古屋赤味噌 ...",
+   "link": "https://topics.smt.docomo.ne.jp/article/fukaboritokai/trend/fukaboritokai-25544",
+   "source": "dメニューニュース",
+   "image": "https://img.topics.smt.news.goo.ne.jp/-/20261028100531/img/dmenu_service-brand-logo_200x200.png",
+   "category": "chain",
+   "area": "名古屋",
+   "published": "2026-10-26T02:42:00+09:00",
+   "provider": "bing",
+   "added": "2026-11-02T21:59:15+09:00",
    "image_checked": true,
    "image_v4": true,
    "shop": false,

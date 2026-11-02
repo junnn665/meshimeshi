@@ -1,8 +1,8 @@
 {
- "updated": "2026-11-02T20:51:08+09:00",
- "items": 371,
- "with_image": 342,
- "google_decode_ok": 32,
+ "updated": "2026-11-02T21:59:15+09:00",
+ "items": 373,
+ "with_image": 344,
+ "google_decode_ok": 27,
  "google_decode_failed": 0,
  "google_decode_samples": [],
  "image_failures": [
@@ -10,6 +10,7 @@
   "www.excite.co.jp: HTTPError: HTTP Error 403: Forbidden",
   "www.excite.co.jp: HTTPError: HTTP Error 403: Forbidden",
   "www.at-s.com: HTTPError: HTTP Error 405: Not Allowed",
+  "www.alwayslovebeer.com: URLError: <urlopen error timed out>",
   "kobe-journal.com: URLError: <urlopen error timed out>"
  ]
 }
