@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-02T00:57:44+00:00",
+ "updated": "2026-11-02T02:00:22+00:00",
  "days": [
   "2026-10-20",
   "2026-10-21",
@@ -22,9 +22,9 @@
    "label": "餃子",
    "q": "餃子",
    "kind": "dish",
-   "recent": 2,
+   "recent": 3,
    "base_per_day": 0.0,
-   "ratio": 2.5,
+   "ratio": 3.5,
    "new": true,
    "daily": [
     0,
@@ -40,7 +40,7 @@
     0,
     1,
     0,
-    1
+    2
    ],
    "articles": [
     {
@@ -49,6 +49,13 @@
      "link": "https://prtimes.jp/main/html/rd/p/000000078.000176111.html",
      "source": "PR TIMES",
      "image": "https://prcdn.freetls.fastly.net/release_image/176111/78/176111-78-11e23d96c41873e8d14745e6d12637a0-2528x1696.jpg?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260"
+    },
+    {
+     "id": "9725c7ed88ff3f05",
+     "title": "名古屋駅に餃子のかっちゃん",
+     "link": "https://news.3rd-in.co.jp/article/79cc54e6-d655-11f1-8dc7-9ca3ba09c411",
+     "source": "news.3rd-in",
+     "image": "https://img.news.3rd-in.co.jp/storage/articles/2026/11/02/79cc54e6-d655-11f1-8dc7-9ca3ba09c411/176111-78-11e23d96c41873e8d14745e6d12637a0-2528x1696.webp"
     },
     {
      "id": "dcbe87fe3d44134a",
