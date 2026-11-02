@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-02T02:00:22+00:00",
+ "updated": "2026-11-02T02:49:34+00:00",
  "days": [
   "2026-10-20",
   "2026-10-21",
@@ -63,6 +63,47 @@
      "link": "https://topics.smt.docomo.ne.jp/article/chuplus/region/chuplus-1333040",
      "source": "ｄメニューニュース",
      "image": "https://img.topics.smt.news.goo.ne.jp/picture/chuplus/m_chuplus-1333040.jpg"
+    }
+   ]
+  },
+  {
+   "label": "はま寿司",
+   "q": "はま寿司",
+   "kind": "chain",
+   "recent": 2,
+   "base_per_day": 0.09,
+   "ratio": 1.96,
+   "new": false,
+   "daily": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    2
+   ],
+   "articles": [
+    {
+     "id": "7e4a3b92291bbc5b",
+     "title": "【はま寿司】大とろが今だけ100円（税込110円）！！「はま寿司のみなみまぐろ大とろとデカねた祭り」開催！",
+     "link": "https://prtimes.jp/main/html/rd/p/000001187.000097263.html",
+     "source": "PR TIMES",
+     "image": "https://prcdn.freetls.fastly.net/release_image/97263/1187/97263-1187-afbc30a4c852387e3306506108a91403-2361x1353.jpg?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260"
+    },
+    {
+     "id": "574c58c491f5e490",
+     "title": "大とろが90円！はま寿司の「大とろ祭り」",
+     "link": "https://www.walkerplus.com/article/112298/",
+     "source": "ウォーカープラス",
+     "image": "https://news.walkerplus.com/article/112298/619441_615.jpg"
     }
    ]
   }
