@@ -1,6 +1,22 @@
 {
- "updated": "2026-11-02T12:53:21+09:00",
+ "updated": "2026-11-02T13:57:42+09:00",
  "items": [
+  {
+   "id": "445b56d6038d65ad",
+   "title": "抽選で2名様に10万円分の旅行券が当たる！ かっぱ寿司「11月ワクワクレシート応募キャンペーン」開催 税込5,000円以上のレシートで応募",
+   "link": "https://prtimes.jp/main/html/rd/p/000001245.000018731.html",
+   "source": "PR TIMES",
+   "image": "https://prcdn.freetls.fastly.net/release_image/18731/1245/18731-1245-f5aa81dd65a7658376624128cf7e9bbd-1200x698.jpg?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260",
+   "category": "chain",
+   "area": "全国",
+   "published": "2026-11-02T13:40:55+09:00",
+   "provider": "prtimes",
+   "added": "2026-11-02T13:57:42+09:00",
+   "image_checked": true,
+   "image_v4": true,
+   "shop": false,
+   "shop_name": null
+  },
   {
    "id": "d6c71cb2d39d2bae",
    "title": "喫茶店のマスターも応援！ イベント感覚で参加できる名古屋市主催の婚活イベント",
@@ -1448,6 +1464,24 @@
    "image_v4": true,
    "shop": false,
    "shop_name": null
+  },
+  {
+   "id": "daddf5f055e58462",
+   "title": "グルメにサンバに見どころいっぱい！名古屋ブラジルフェスタが今年も開催!!",
+   "link": "https://www.walkerplus.com/article/146145/",
+   "source": "ウォーカープラス",
+   "image": "https://news.walkerplus.com/article/146145/827939_615.jpg",
+   "category": "event",
+   "area": "名古屋",
+   "published": "2026-10-30T16:00:00+09:00",
+   "provider": "google",
+   "added": "2026-11-02T13:57:42+09:00",
+   "decode_v2": true,
+   "image_checked": true,
+   "image_v4": true,
+   "shop": false,
+   "shop_name": null,
+   "group": "0006f3f53bdf"
   },
   {
    "id": "1fcc6e49cd308d09",
@@ -6365,6 +6399,54 @@
    "image_checked": true,
    "image_v4": true,
    "shop": false,
+   "shop_name": null
+  },
+  {
+   "id": "eedbf9c7c6d2ca9c",
+   "title": "【名古屋らーめん藤一番】「八丁味噌」100％使用！「名古屋赤味噌 ...",
+   "link": "https://topics.smt.docomo.ne.jp/article/fukaboritokai/trend/fukaboritokai-25544",
+   "source": "dメニューニュース",
+   "image": "https://img.topics.smt.news.goo.ne.jp/-/20261028100531/img/dmenu_service-brand-logo_200x200.png",
+   "category": "chain",
+   "area": "名古屋",
+   "published": "2026-10-26T02:42:00+09:00",
+   "provider": "bing",
+   "added": "2026-11-02T13:57:42+09:00",
+   "image_checked": true,
+   "image_v4": true,
+   "shop": false,
+   "shop_name": null
+  },
+  {
+   "id": "1c389d8a176a1c1f",
+   "title": "「インバウンド丼」の1/3の価格！コスパ最強の海鮮丼など名古屋 ...",
+   "link": "https://news.livedoor.com/article/detail/32651316/",
+   "source": "ライブドアニュース",
+   "image": "https://image.news.livedoor.com/newsimage/stf/6/6/66b60_1845_5419e552_233ba1fb.jpg",
+   "category": "yasuuma",
+   "area": "名古屋",
+   "published": "2026-10-25T02:00:00+09:00",
+   "provider": "bing",
+   "added": "2026-11-02T13:57:42+09:00",
+   "image_checked": true,
+   "image_v4": true,
+   "shop": true,
+   "shop_name": "インバウンド丼"
+  },
+  {
+   "id": "bebd96053612f4d1",
+   "title": "【名古屋タカシマヤ】平日クリスマスを華やかに彩るグルメから ...",
+   "link": "https://prtimes.jp/main/html/rd/p/000000511.000047031.html",
+   "source": "PR TIMES",
+   "image": "https://prcdn.freetls.fastly.net/release_image/47031/511/47031-511-fb694bc3c1ba895615441e3d17e41109-3900x2896.jpg?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260",
+   "category": "wadai",
+   "area": "名古屋",
+   "published": "2026-10-22T13:00:00+09:00",
+   "provider": "bing",
+   "added": "2026-11-02T13:57:42+09:00",
+   "image_checked": true,
+   "image_v4": true,
+   "shop": true,
    "shop_name": null
   }
  ]
