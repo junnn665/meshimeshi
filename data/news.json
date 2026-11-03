@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-03T08:37:07+09:00",
+ "updated": "2026-11-03T09:55:56+09:00",
  "items": [
   {
    "id": "6fd2f1b2f713f0dc",
@@ -6328,6 +6328,38 @@
    "image_v4": true,
    "shop": true,
    "shop_name": null
+  },
+  {
+   "id": "eedbf9c7c6d2ca9c",
+   "title": "【名古屋らーめん藤一番】「八丁味噌」100％使用！「名古屋赤味噌 ...",
+   "link": "https://topics.smt.docomo.ne.jp/article/fukaboritokai/trend/fukaboritokai-25544",
+   "source": "dメニューニュース",
+   "image": "https://img.topics.smt.news.goo.ne.jp/-/20261028100531/img/dmenu_service-brand-logo_200x200.png",
+   "category": "chain",
+   "area": "名古屋",
+   "published": "2026-10-26T02:42:00+09:00",
+   "provider": "bing",
+   "added": "2026-11-03T09:55:56+09:00",
+   "image_checked": true,
+   "image_v4": true,
+   "shop": false,
+   "shop_name": null
+  },
+  {
+   "id": "05a3a850bcf228e0",
+   "title": "純系名古屋コーチン100％「白金ハンバーグ」が食のプロから最高 ...",
+   "link": "https://mainichi.jp/articles/20261022/pr2/00m/020/070000c",
+   "source": "毎日新聞デジタル",
+   "image": "http://www.bing.com/th?id=ONUT.7USTZgbMipLUwYA2vSZ3yw&pid=News",
+   "category": "wadai",
+   "area": "名古屋",
+   "published": "2026-10-22T02:00:00+09:00",
+   "provider": "bing",
+   "added": "2026-11-03T09:55:56+09:00",
+   "image_checked": true,
+   "image_v4": true,
+   "shop": true,
+   "shop_name": "白金ハンバーグ"
   }
  ]
 }
