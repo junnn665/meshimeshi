@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-03T19:54:36+09:00",
+ "updated": "2026-11-03T20:48:09+09:00",
  "items": [
   {
    "id": "4d2061d4c744560b",
@@ -947,6 +947,23 @@
    "published": "2026-11-02T10:00:00+09:00",
    "provider": "prtimes",
    "added": "2026-11-02T11:49:07+09:00",
+   "image_checked": true,
+   "image_v4": true,
+   "shop": false,
+   "shop_name": null
+  },
+  {
+   "id": "ca3f394199f00a22",
+   "title": "ビールとイノシシ肉の煮込み料理 岐阜駅でジビエ味わうイベント：ニュース",
+   "link": "https://biz.chunichi.co.jp/news/article/10/132666/",
+   "source": "中日BIZナビ",
+   "image": "https://biz.chunichi.co.jp/pic/10/p1/132666_0_10.jpg",
+   "category": "wadai",
+   "area": "岐阜",
+   "published": "2026-11-02T09:55:00+09:00",
+   "provider": "google",
+   "added": "2026-11-03T20:48:09+09:00",
+   "decode_v2": true,
    "image_checked": true,
    "image_v4": true,
    "shop": false,
@@ -6187,40 +6204,6 @@
    "image_checked": true,
    "image_v4": true,
    "shop": true,
-   "shop_name": null
-  },
-  {
-   "id": "6ea55b4f063d267b",
-   "title": "開放的な川床が爽快！岐阜で川の絶景を眺めながらアユ料理を堪能できる店3選",
-   "link": "https://www.walkerplus.com/article/1004411/",
-   "source": "ウォーカープラス",
-   "image": "https://news.walkerplus.com/article/1004411/10030305_615.jpg",
-   "category": "wadai",
-   "area": "岐阜",
-   "published": "2026-10-27T16:00:00+09:00",
-   "provider": "google",
-   "added": "2026-10-30T06:39:21+09:00",
-   "decode_v2": true,
-   "image_checked": true,
-   "image_v4": true,
-   "shop": false,
-   "shop_name": null
-  },
-  {
-   "id": "6c0c2790079179cf",
-   "title": "ハローキティとコラボ！名古屋パルコに、リンゴ×生クリームの限定メニューが登場",
-   "link": "https://www.walkerplus.com/article/199516/",
-   "source": "ウォーカープラス",
-   "image": "https://news.walkerplus.com/article/199516/1205580_615.jpg",
-   "category": "chain",
-   "area": "名古屋",
-   "published": "2026-10-27T16:00:00+09:00",
-   "provider": "google",
-   "added": "2026-10-30T07:39:59+09:00",
-   "decode_v2": true,
-   "image_checked": true,
-   "image_v4": true,
-   "shop": false,
    "shop_name": null
   }
  ]

@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-03T10:55:08+00:00",
+ "updated": "2026-11-03T11:48:46+00:00",
  "days": [
   "2026-10-21",
   "2026-10-22",
@@ -282,6 +282,47 @@
      "link": "https://jouhou.nagoya/chitaka-tonkatsu/",
      "source": "名古屋情報通",
      "image": "https://jouhou.nagoya/wp-content/uploads/2026/11/chitaka-tonkatsu001-600x399.jpg"
+    }
+   ]
+  },
+  {
+   "label": "ビール",
+   "q": "ビール",
+   "kind": "dish",
+   "recent": 2,
+   "base_per_day": 0.18,
+   "ratio": 1.62,
+   "new": false,
+   "daily": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    1,
+    0,
+    0,
+    0,
+    2,
+    0
+   ],
+   "articles": [
+    {
+     "id": "ca3f394199f00a22",
+     "title": "ビールとイノシシ肉の煮込み料理 岐阜駅でジビエ味わうイベント：ニュース",
+     "link": "https://biz.chunichi.co.jp/news/article/10/132666/",
+     "source": "中日BIZナビ",
+     "image": "https://biz.chunichi.co.jp/pic/10/p1/132666_0_10.jpg"
+    },
+    {
+     "id": "27bc35539b794238",
+     "title": "【愛知・名古屋に新店舗】11月16日グランドオープン！『餃子のかっちゃん 名古屋駅西口店』が生ビール「1杯1円」の超破格キャンペーンを開催！",
+     "link": "https://prtimes.jp/main/html/rd/p/000000078.000176111.html",
+     "source": "PR TIMES",
+     "image": "https://prcdn.freetls.fastly.net/release_image/176111/78/176111-78-11e23d96c41873e8d14745e6d12637a0-2528x1696.jpg?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260"
     }
    ]
   },
