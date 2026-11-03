@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-04T01:53:49+09:00",
+ "updated": "2026-11-04T02:48:11+09:00",
  "items": [
   {
    "id": "c020ac40aae469f1",
@@ -6195,6 +6195,27 @@
    "image_v4": true,
    "shop": false,
    "shop_name": null
+  },
+  {
+   "id": "e6f31e813c880202",
+   "title": "東北6県の絶品グルメが集結「大東北展」JR名古屋タカシマヤで10月28 ...",
+   "link": "https://jouhou.nagoya/takashimaya-touhoku2026/",
+   "source": "名古屋情報通",
+   "image": "https://jouhou.nagoya/wp-content/uploads/2026/10/takashimaya-touhoku2026001-600x400.jpg",
+   "category": "event",
+   "area": "名古屋",
+   "published": "2026-10-27T11:13:00+09:00",
+   "provider": "bing",
+   "added": "2026-11-04T02:48:11+09:00",
+   "image_checked": true,
+   "image_v4": true,
+   "shop": false,
+   "shop_name": null,
+   "venue": "ジェイアール名古屋タカシマヤ",
+   "lat": 35.17123,
+   "lng": 136.88272,
+   "place": "indoor",
+   "group": "2ecf034242a1"
   }
  ]
 }
