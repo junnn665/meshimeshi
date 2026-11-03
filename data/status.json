@@ -1,11 +1,12 @@
 {
- "updated": "2026-11-03T18:54:19+09:00",
- "items": 360,
- "with_image": 331,
- "google_decode_ok": 46,
+ "updated": "2026-11-03T19:54:36+09:00",
+ "items": 363,
+ "with_image": 334,
+ "google_decode_ok": 41,
  "google_decode_failed": 0,
  "google_decode_samples": [],
  "image_failures": [
+  "www.excite.co.jp: HTTPError: HTTP Error 403: Forbidden",
   "www.excite.co.jp: HTTPError: HTTP Error 403: Forbidden",
   "www.excite.co.jp: HTTPError: HTTP Error 403: Forbidden",
   "www.at-s.com: HTTPError: HTTP Error 405: Not Allowed",

@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-03T09:54:48+00:00",
+ "updated": "2026-11-03T10:55:08+00:00",
  "days": [
   "2026-10-21",
   "2026-10-22",
@@ -145,6 +145,54 @@
      "link": "https://prtimes.jp/main/html/rd/p/000000388.000031164.html",
      "source": "PR TIMES",
      "image": "https://prcdn.freetls.fastly.net/release_image/31164/388/31164-388-c1b592afbb28164b6384bd140f011c14-1200x630.jpg?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260"
+    }
+   ]
+  },
+  {
+   "label": "モーニング",
+   "q": "モーニング",
+   "kind": "dish",
+   "recent": 5,
+   "base_per_day": 0.73,
+   "ratio": 1.73,
+   "new": false,
+   "daily": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    2,
+    2,
+    3,
+    1,
+    2,
+    2
+   ],
+   "articles": [
+    {
+     "id": "0abaaffd065ded40",
+     "title": "【競輪無料予想】「小田原競輪F2 モーニング 3日目」2026年11月03日 全レースの予想と注目ポイント※投票はみんなの競輪で！",
+     "link": "https://rin-pedia.com/keirin-ai/36-20261103",
+     "source": "輪pedia",
+     "image": "https://rin-pedia.com/wp-content/uploads/2026/11/2026-11-03_小田原_アイキャッチ.webp"
+    },
+    {
+     "id": "91691083ab0f6040",
+     "title": "名古屋栄三越に「宮きしめん」 きしめん選べる限定会席やモーニングも（みんなの経済新聞ネットワーク）",
+     "link": "https://news.yahoo.co.jp/articles/c0a33994fc68f294e7c29dee1e914f59d9064a22",
+     "source": "Yahoo!ニュース",
+     "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261103-00000010-minkei-000-1-view.jpg?exp=10800"
+    },
+    {
+     "id": "02c3c3aa3960421a",
+     "title": "【競輪無料予想】「小田原競輪F2 モーニング 2日目」2026年11月02日 全レースの予想と注目ポイント※投票はみんなの競輪で！",
+     "link": "https://rin-pedia.com/keirin-ai/36-20261102",
+     "source": "輪pedia",
+     "image": null
     }
    ]
   },
