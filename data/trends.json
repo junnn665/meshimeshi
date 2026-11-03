@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-03T04:53:15+00:00",
+ "updated": "2026-11-03T05:53:14+00:00",
  "days": [
   "2026-10-21",
   "2026-10-22",
@@ -138,6 +138,47 @@
      "link": "https://prtimes.jp/main/html/rd/p/000000388.000031164.html",
      "source": "PR TIMES",
      "image": "https://prcdn.freetls.fastly.net/release_image/31164/388/31164-388-c1b592afbb28164b6384bd140f011c14-1200x630.jpg?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260"
+    }
+   ]
+  },
+  {
+   "label": "とんかつ",
+   "q": "とんかつ",
+   "kind": "dish",
+   "recent": 2,
+   "base_per_day": 0.18,
+   "ratio": 1.62,
+   "new": false,
+   "daily": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    2,
+    0,
+    0,
+    0,
+    1,
+    1,
+    0
+   ],
+   "articles": [
+    {
+     "id": "fbe4555f88717663",
+     "title": "栄・セントラルパークにとんかつ店「CHITAKA」 土鍋ご飯と組み合わせ",
+     "link": "https://topics.smt.docomo.ne.jp/amp/article/minkei/region/minkei-sakae4022",
+     "source": "ｄメニューニュース",
+     "image": "https://img.topics.smt.news.goo.ne.jp/picture/minkei/m_minkei-sakae4022.jpg"
+    },
+    {
+     "id": "3ffe3e3193d88943",
+     "title": "とんかつ知多家の新ブランドがセントラルパーク地下街に誕生！『土鍋ごはん×とんかつ CHITAKA』",
+     "link": "https://jouhou.nagoya/chitaka-tonkatsu/",
+     "source": "名古屋情報通",
+     "image": "https://jouhou.nagoya/wp-content/uploads/2026/11/chitaka-tonkatsu001-600x399.jpg"
     }
    ]
   }
