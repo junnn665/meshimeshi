@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-03T17:48:48+00:00",
+ "updated": "2026-11-03T18:48:45+00:00",
  "days": [
   "2026-10-22",
   "2026-10-23",
@@ -18,6 +18,47 @@
  ],
  "recent_days": 3,
  "items": [
+  {
+   "label": "ピザハット",
+   "q": "ピザハット",
+   "kind": "chain",
+   "recent": 2,
+   "base_per_day": 0.09,
+   "ratio": 1.96,
+   "new": false,
+   "daily": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    2,
+    0,
+    0
+   ],
+   "articles": [
+    {
+     "id": "c286c4042c7d794b",
+     "title": "【最大53％OFF！】対象6種のMサイズピザがなんと740円～のSサイズ価格で楽しめる、ピザハットの「年末前の家計応援 サイズアップ 特大セール」が大好評につき11月も開催！",
+     "link": "https://prtimes.jp/main/html/rd/p/000000389.000031164.html",
+     "source": "PR TIMES",
+     "image": "https://prcdn.freetls.fastly.net/release_image/31164/389/31164-389-3a52f3538119ed19a3a4f18f63b7b1e6-1200x630.jpg?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260"
+    },
+    {
+     "id": "8a3632ca98dced5a",
+     "title": "【お一人様500円～の最強コスパ！】ピザハットから「3種チーズのラザニア風ミートソースピザ」が新発売！大人から子供まで誰もが大好きな味わいで普段使いの新定番ピザに！",
+     "link": "https://prtimes.jp/main/html/rd/p/000000388.000031164.html",
+     "source": "PR TIMES",
+     "image": "https://prcdn.freetls.fastly.net/release_image/31164/388/31164-388-c1b592afbb28164b6384bd140f011c14-1200x630.jpg?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260"
+    }
+   ]
+  },
   {
    "label": "はま寿司",
    "q": "はま寿司",
@@ -108,47 +149,6 @@
    ]
   },
   {
-   "label": "ピザハット",
-   "q": "ピザハット",
-   "kind": "chain",
-   "recent": 2,
-   "base_per_day": 0.18,
-   "ratio": 1.62,
-   "new": false,
-   "daily": [
-    0,
-    0,
-    0,
-    0,
-    0,
-    1,
-    1,
-    0,
-    0,
-    0,
-    0,
-    2,
-    0,
-    0
-   ],
-   "articles": [
-    {
-     "id": "c286c4042c7d794b",
-     "title": "【最大53％OFF！】対象6種のMサイズピザがなんと740円～のSサイズ価格で楽しめる、ピザハットの「年末前の家計応援 サイズアップ 特大セール」が大好評につき11月も開催！",
-     "link": "https://prtimes.jp/main/html/rd/p/000000389.000031164.html",
-     "source": "PR TIMES",
-     "image": "https://prcdn.freetls.fastly.net/release_image/31164/389/31164-389-3a52f3538119ed19a3a4f18f63b7b1e6-1200x630.jpg?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260"
-    },
-    {
-     "id": "8a3632ca98dced5a",
-     "title": "【お一人様500円～の最強コスパ！】ピザハットから「3種チーズのラザニア風ミートソースピザ」が新発売！大人から子供まで誰もが大好きな味わいで普段使いの新定番ピザに！",
-     "link": "https://prtimes.jp/main/html/rd/p/000000388.000031164.html",
-     "source": "PR TIMES",
-     "image": "https://prcdn.freetls.fastly.net/release_image/31164/388/31164-388-c1b592afbb28164b6384bd140f011c14-1200x630.jpg?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260"
-    }
-   ]
-  },
-  {
    "label": "きしめん",
    "q": "きしめん",
    "kind": "dish",
@@ -193,6 +193,47 @@
      "link": "https://news.yahoo.co.jp/articles/c0a33994fc68f294e7c29dee1e914f59d9064a22",
      "source": "Yahoo!ニュース",
      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261103-00000010-minkei-000-1-view.jpg?exp=10800"
+    }
+   ]
+  },
+  {
+   "label": "ピザ",
+   "q": "ピザ",
+   "kind": "dish",
+   "recent": 2,
+   "base_per_day": 0.18,
+   "ratio": 1.62,
+   "new": false,
+   "daily": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    2,
+    0,
+    0,
+    0,
+    0,
+    2,
+    0,
+    0
+   ],
+   "articles": [
+    {
+     "id": "c286c4042c7d794b",
+     "title": "【最大53％OFF！】対象6種のMサイズピザがなんと740円～のSサイズ価格で楽しめる、ピザハットの「年末前の家計応援 サイズアップ 特大セール」が大好評につき11月も開催！",
+     "link": "https://prtimes.jp/main/html/rd/p/000000389.000031164.html",
+     "source": "PR TIMES",
+     "image": "https://prcdn.freetls.fastly.net/release_image/31164/389/31164-389-3a52f3538119ed19a3a4f18f63b7b1e6-1200x630.jpg?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260"
+    },
+    {
+     "id": "8a3632ca98dced5a",
+     "title": "【お一人様500円～の最強コスパ！】ピザハットから「3種チーズのラザニア風ミートソースピザ」が新発売！大人から子供まで誰もが大好きな味わいで普段使いの新定番ピザに！",
+     "link": "https://prtimes.jp/main/html/rd/p/000000388.000031164.html",
+     "source": "PR TIMES",
+     "image": "https://prcdn.freetls.fastly.net/release_image/31164/388/31164-388-c1b592afbb28164b6384bd140f011c14-1200x630.jpg?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260"
     }
    ]
   },
