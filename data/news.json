@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-04T04:50:15+09:00",
+ "updated": "2026-11-04T05:45:25+09:00",
  "items": [
   {
    "id": "c020ac40aae469f1",
@@ -5446,6 +5446,22 @@
    "shop_name": null
   },
   {
+   "id": "19482056583303f5",
+   "title": "【独自調査】2026年最新：外国人に人気の飲食店ランキング[名古屋× ...",
+   "link": "https://mantan-web.jp/prtimes/article/20261028prt00m200000830a.html",
+   "source": "MANTANWEB（まんたんウェブ）",
+   "image": "https://prtimes.jp/img/24246/1450/resize/d24246-1450-d3290636b4e6e1e4d01d-14.png",
+   "category": "wadai",
+   "area": "名古屋",
+   "published": "2026-10-28T15:00:00+09:00",
+   "provider": "bing",
+   "added": "2026-11-04T05:45:25+09:00",
+   "image_checked": true,
+   "image_v4": true,
+   "shop": false,
+   "shop_name": null
+  },
+  {
    "id": "a60b8c4aa485b5d7",
    "title": "ちいかわレストラン“討伐フェア”のドリンクスタンドちいかわレストラングッズショップ 静岡PARCOにて同時開催決定!!",
    "link": "https://prtimes.jp/main/html/rd/p/000004138.000003639.html",
@@ -6147,38 +6163,6 @@
    "published": "2026-10-28T02:00:00+09:00",
    "provider": "bing",
    "added": "2026-10-28T10:53:32+09:00",
-   "image_checked": true,
-   "image_v4": true,
-   "shop": false,
-   "shop_name": null
-  },
-  {
-   "id": "f98f095c60e03f41",
-   "title": "【2026年10月第5週】コンビニ麺・コンビニパスタの新商品！ツナと大根おろしの和風パスタや台湾風まぜそばなど注目作まとめ",
-   "link": "https://mognavi.jp/news/matome/gen-newProduct-29452/",
-   "source": "もぐナビ",
-   "image": "https://img1.esimg.jp/blog/wp-content/uploads/2026/10/gen-newProduct-29452.jpg?ts=1793155500000",
-   "category": "conbini",
-   "area": "東海",
-   "published": "2026-10-28T02:00:00+09:00",
-   "provider": "bing",
-   "added": "2026-10-28T12:42:19+09:00",
-   "image_checked": true,
-   "image_v4": true,
-   "shop": false,
-   "shop_name": null
-  },
-  {
-   "id": "a8cbd8272b66a35c",
-   "title": "【セブン】東海3県限定の新作グルメ3選「東海限定 台湾風まぜそば」はにんにくの効いたピリ辛肉味噌が中太麺に絡む（LIMO）",
-   "link": "https://news.yahoo.co.jp/articles/88ae737de2d37fa52c2b7c499d136d1fd302cf9d",
-   "source": "Yahoo!ニュース",
-   "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261028-00143246-toushin-000-1-view.jpg?exp=10800",
-   "category": "chain",
-   "area": "東海",
-   "published": "2026-10-28T02:00:00+09:00",
-   "provider": "bing",
-   "added": "2026-10-28T16:57:02+09:00",
    "image_checked": true,
    "image_v4": true,
    "shop": false,
