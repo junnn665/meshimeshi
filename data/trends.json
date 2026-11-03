@@ -1,7 +1,6 @@
 {
- "updated": "2026-11-03T14:10:51+00:00",
+ "updated": "2026-11-03T15:49:59+00:00",
  "days": [
-  "2026-10-21",
   "2026-10-22",
   "2026-10-23",
   "2026-10-24",
@@ -14,58 +13,11 @@
   "2026-10-31",
   "2026-11-01",
   "2026-11-02",
-  "2026-11-03"
+  "2026-11-03",
+  "2026-11-04"
  ],
  "recent_days": 3,
  "items": [
-  {
-   "label": "餃子",
-   "q": "餃子",
-   "kind": "dish",
-   "recent": 3,
-   "base_per_day": 0.18,
-   "ratio": 2.26,
-   "new": false,
-   "daily": [
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    2,
-    1,
-    2,
-    0
-   ],
-   "articles": [
-    {
-     "id": "27bc35539b794238",
-     "title": "【愛知・名古屋に新店舗】11月16日グランドオープン！『餃子のかっちゃん 名古屋駅西口店』が生ビール「1杯1円」の超破格キャンペーンを開催！",
-     "link": "https://prtimes.jp/main/html/rd/p/000000078.000176111.html",
-     "source": "PR TIMES",
-     "image": "https://prcdn.freetls.fastly.net/release_image/176111/78/176111-78-11e23d96c41873e8d14745e6d12637a0-2528x1696.jpg?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260"
-    },
-    {
-     "id": "9725c7ed88ff3f05",
-     "title": "名古屋駅に餃子のかっちゃん",
-     "link": "https://news.3rd-in.co.jp/article/79cc54e6-d655-11f1-8dc7-9ca3ba09c411",
-     "source": "news.3rd-in",
-     "image": "https://img.news.3rd-in.co.jp/storage/articles/2026/11/02/79cc54e6-d655-11f1-8dc7-9ca3ba09c411/176111-78-11e23d96c41873e8d14745e6d12637a0-2528x1696.webp"
-    },
-    {
-     "id": "d50ded0b05194054",
-     "title": "【豊川市】11月8日は「いい大葉の日」！いよいよ開催「とよかわ大葉フェス2026」餃子、クレープ、牛タン串も！食べたいグルメは？",
-     "link": "https://toyokawa-gamagori.goguynet.jp/2026/10/31/post-29335/",
-     "source": "地域ニュースサイト号外NET",
-     "image": "https://toyokawa-gamagori.goguynet.jp/wp-content/uploads/sites/168/2026/10/IMG_2473.jpg"
-    }
-   ]
-  },
   {
    "label": "はま寿司",
    "q": "はま寿司",
@@ -83,11 +35,11 @@
     0,
     0,
     0,
-    0,
     1,
     0,
     0,
     2,
+    0,
     0
    ],
    "articles": [
@@ -122,14 +74,14 @@
     0,
     0,
     0,
-    0,
     2,
     0,
     1,
     0,
     0,
     1,
-    2
+    2,
+    0
    ],
    "articles": [
     {
@@ -169,7 +121,6 @@
     0,
     0,
     0,
-    0,
     1,
     1,
     0,
@@ -177,6 +128,7 @@
     0,
     0,
     2,
+    0,
     0
    ],
    "articles": [
@@ -197,54 +149,6 @@
    ]
   },
   {
-   "label": "モーニング",
-   "q": "モーニング",
-   "kind": "dish",
-   "recent": 5,
-   "base_per_day": 0.73,
-   "ratio": 1.73,
-   "new": false,
-   "daily": [
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    1,
-    2,
-    2,
-    3,
-    1,
-    2,
-    2
-   ],
-   "articles": [
-    {
-     "id": "0abaaffd065ded40",
-     "title": "【競輪無料予想】「小田原競輪F2 モーニング 3日目」2026年11月03日 全レースの予想と注目ポイント※投票はみんなの競輪で！",
-     "link": "https://rin-pedia.com/keirin-ai/36-20261103",
-     "source": "輪pedia",
-     "image": "https://rin-pedia.com/wp-content/uploads/2026/11/2026-11-03_小田原_アイキャッチ.webp"
-    },
-    {
-     "id": "91691083ab0f6040",
-     "title": "名古屋栄三越に「宮きしめん」 きしめん選べる限定会席やモーニングも（みんなの経済新聞ネットワーク）",
-     "link": "https://news.yahoo.co.jp/articles/c0a33994fc68f294e7c29dee1e914f59d9064a22",
-     "source": "Yahoo!ニュース",
-     "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261103-00000010-minkei-000-1-view.jpg?exp=10800"
-    },
-    {
-     "id": "02c3c3aa3960421a",
-     "title": "【競輪無料予想】「小田原競輪F2 モーニング 2日目」2026年11月02日 全レースの予想と注目ポイント※投票はみんなの競輪で！",
-     "link": "https://rin-pedia.com/keirin-ai/36-20261102",
-     "source": "輪pedia",
-     "image": null
-    }
-   ]
-  },
-  {
    "label": "きしめん",
    "q": "きしめん",
    "kind": "dish",
@@ -260,13 +164,13 @@
     0,
     0,
     0,
-    0,
     1,
     3,
     0,
     0,
     0,
-    3
+    3,
+    0
    ],
    "articles": [
     {
@@ -293,47 +197,6 @@
    ]
   },
   {
-   "label": "とんかつ",
-   "q": "とんかつ",
-   "kind": "dish",
-   "recent": 2,
-   "base_per_day": 0.18,
-   "ratio": 1.62,
-   "new": false,
-   "daily": [
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    2,
-    0,
-    0,
-    0,
-    1,
-    1,
-    0
-   ],
-   "articles": [
-    {
-     "id": "fbe4555f88717663",
-     "title": "栄・セントラルパークにとんかつ店「CHITAKA」 土鍋ご飯と組み合わせ",
-     "link": "https://topics.smt.docomo.ne.jp/amp/article/minkei/region/minkei-sakae4022",
-     "source": "ｄメニューニュース",
-     "image": "https://img.topics.smt.news.goo.ne.jp/picture/minkei/m_minkei-sakae4022.jpg"
-    },
-    {
-     "id": "3ffe3e3193d88943",
-     "title": "とんかつ知多家の新ブランドがセントラルパーク地下街に誕生！『土鍋ごはん×とんかつ CHITAKA』",
-     "link": "https://jouhou.nagoya/chitaka-tonkatsu/",
-     "source": "名古屋情報通",
-     "image": "https://jouhou.nagoya/wp-content/uploads/2026/11/chitaka-tonkatsu001-600x399.jpg"
-    }
-   ]
-  },
-  {
    "label": "ビール",
    "q": "ビール",
    "kind": "dish",
@@ -348,13 +211,13 @@
     0,
     0,
     0,
-    0,
     1,
     1,
     0,
     0,
     0,
     2,
+    0,
     0
    ],
    "articles": [
