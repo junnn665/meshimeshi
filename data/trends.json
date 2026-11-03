@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-03T05:53:14+00:00",
+ "updated": "2026-11-03T07:02:28+00:00",
  "days": [
   "2026-10-21",
   "2026-10-22",
@@ -56,47 +56,6 @@
      "link": "https://www.walkerplus.com/article/112298/",
      "source": "ウォーカープラス",
      "image": "https://news.walkerplus.com/article/112298/619441_615.jpg"
-    }
-   ]
-  },
-  {
-   "label": "餃子",
-   "q": "餃子",
-   "kind": "dish",
-   "recent": 2,
-   "base_per_day": 0.09,
-   "ratio": 1.96,
-   "new": false,
-   "daily": [
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    1,
-    0,
-    2,
-    0
-   ],
-   "articles": [
-    {
-     "id": "27bc35539b794238",
-     "title": "【愛知・名古屋に新店舗】11月16日グランドオープン！『餃子のかっちゃん 名古屋駅西口店』が生ビール「1杯1円」の超破格キャンペーンを開催！",
-     "link": "https://prtimes.jp/main/html/rd/p/000000078.000176111.html",
-     "source": "PR TIMES",
-     "image": "https://prcdn.freetls.fastly.net/release_image/176111/78/176111-78-11e23d96c41873e8d14745e6d12637a0-2528x1696.jpg?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260"
-    },
-    {
-     "id": "9725c7ed88ff3f05",
-     "title": "名古屋駅に餃子のかっちゃん",
-     "link": "https://news.3rd-in.co.jp/article/79cc54e6-d655-11f1-8dc7-9ca3ba09c411",
-     "source": "news.3rd-in",
-     "image": "https://img.news.3rd-in.co.jp/storage/articles/2026/11/02/79cc54e6-d655-11f1-8dc7-9ca3ba09c411/176111-78-11e23d96c41873e8d14745e6d12637a0-2528x1696.webp"
     }
    ]
   },
@@ -179,6 +138,47 @@
      "link": "https://jouhou.nagoya/chitaka-tonkatsu/",
      "source": "名古屋情報通",
      "image": "https://jouhou.nagoya/wp-content/uploads/2026/11/chitaka-tonkatsu001-600x399.jpg"
+    }
+   ]
+  },
+  {
+   "label": "餃子",
+   "q": "餃子",
+   "kind": "dish",
+   "recent": 2,
+   "base_per_day": 0.18,
+   "ratio": 1.62,
+   "new": false,
+   "daily": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    2,
+    0,
+    2,
+    0
+   ],
+   "articles": [
+    {
+     "id": "27bc35539b794238",
+     "title": "【愛知・名古屋に新店舗】11月16日グランドオープン！『餃子のかっちゃん 名古屋駅西口店』が生ビール「1杯1円」の超破格キャンペーンを開催！",
+     "link": "https://prtimes.jp/main/html/rd/p/000000078.000176111.html",
+     "source": "PR TIMES",
+     "image": "https://prcdn.freetls.fastly.net/release_image/176111/78/176111-78-11e23d96c41873e8d14745e6d12637a0-2528x1696.jpg?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260"
+    },
+    {
+     "id": "9725c7ed88ff3f05",
+     "title": "名古屋駅に餃子のかっちゃん",
+     "link": "https://news.3rd-in.co.jp/article/79cc54e6-d655-11f1-8dc7-9ca3ba09c411",
+     "source": "news.3rd-in",
+     "image": "https://img.news.3rd-in.co.jp/storage/articles/2026/11/02/79cc54e6-d655-11f1-8dc7-9ca3ba09c411/176111-78-11e23d96c41873e8d14745e6d12637a0-2528x1696.webp"
     }
    ]
   }
