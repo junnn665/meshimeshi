@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-03T20:48:09+09:00",
+ "updated": "2026-11-03T21:56:55+09:00",
  "items": [
   {
    "id": "4d2061d4c744560b",
@@ -669,6 +669,23 @@
    "image_v4": true,
    "shop": true,
    "shop_name": "CHITAKA"
+  },
+  {
+   "id": "16788a5063b3492b",
+   "title": "【マクドナルド】「チーチーダブチ」期間限定で販売 10月新発売メニューが“チーチー”になった期間限定メニューも",
+   "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5SWU0wLW5TOWc2b3dJVTM0TjJDWmhQQU1pVTJZWlJnNk45RnUtMGsxend5ZTQ4RWtoUDROaTU3cXRabElHa3RLVFktYnE3c3h4b2RsN2hCTzhQUDg0ZHM0dU5HRHfSAWpBVV95cUxQaldBaGxWNmVhbEh1WmoxVmpQd0JBWE1XbTdnMkhOQ0ktLTRQdnhzczVHd3kxczM0QjJmT2NFbUtTN00yQ081ZURjWWF4NzNybFRUOGI0Y2hfS1pYUTVSakQwM2ZqMk12Vk1n?oc=5",
+   "source": "Infoseek",
+   "image": null,
+   "category": "chain",
+   "area": "東海",
+   "published": "2026-11-02T13:15:00+09:00",
+   "provider": "google",
+   "added": "2026-11-03T21:56:55+09:00",
+   "decode_v2": true,
+   "image_checked": true,
+   "image_v4": true,
+   "shop": false,
+   "shop_name": null
   },
   {
    "id": "78ca32ecfbcecb6a",
@@ -1912,6 +1929,23 @@
    "published": "2026-10-31T16:00:00+09:00",
    "provider": "google",
    "added": "2026-11-03T19:54:36+09:00",
+   "decode_v2": true,
+   "image_checked": true,
+   "image_v4": true,
+   "shop": false,
+   "shop_name": null
+  },
+  {
+   "id": "bb29e73496d906be",
+   "title": "マクドナルド、北海道＆名古屋＆博多“ご当地バーガー”5・20より限定発売 朝マック＆「シャカシャカポテト」新味も",
+   "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBCMU95S2dLMXdEN09oMkVWSndPXzZURkx1b01OUExfQlhZd0pOZFdYRkg5RXhmQnlyVzBYc3VWT25QellVWkZ6S2diMEdJemdiTWc?oc=5",
+   "source": "山陽新聞",
+   "image": null,
+   "category": "chain",
+   "area": "名古屋",
+   "published": "2026-10-31T16:00:00+09:00",
+   "provider": "google",
+   "added": "2026-11-03T21:56:55+09:00",
    "decode_v2": true,
    "image_checked": true,
    "image_v4": true,
@@ -6187,23 +6221,6 @@
    "image_checked": true,
    "image_v4": true,
    "shop": false,
-   "shop_name": null
-  },
-  {
-   "id": "1fc234f61fad2e3d",
-   "title": "定番だからこそ超激戦！いま名古屋で押さえておくべき醤油ラーメン5杯とは？",
-   "link": "https://www.walkerplus.com/article/1009184/",
-   "source": "ウォーカープラス",
-   "image": "https://news.walkerplus.com/article/1009184/10075119_615.jpg",
-   "category": "wadai",
-   "area": "名古屋",
-   "published": "2026-10-27T16:00:00+09:00",
-   "provider": "google",
-   "added": "2026-10-30T02:46:18+09:00",
-   "decode_v2": true,
-   "image_checked": true,
-   "image_v4": true,
-   "shop": true,
    "shop_name": null
   }
  ]

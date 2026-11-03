@@ -1,15 +1,13 @@
 {
- "updated": "2026-11-03T20:48:09+09:00",
- "items": 362,
- "with_image": 333,
- "google_decode_ok": 39,
- "google_decode_failed": 0,
- "google_decode_samples": [],
- "image_failures": [
-  "www.excite.co.jp: HTTPError: HTTP Error 403: Forbidden",
-  "www.excite.co.jp: HTTPError: HTTP Error 403: Forbidden",
-  "news.nicovideo.jp: HTTPError: HTTP Error 403: Forbidden",
-  "www.excite.co.jp: HTTPError: HTTP Error 403: Forbidden",
-  "www.at-s.com: HTTPError: HTTP Error 405: Not Allowed"
- ]
+ "updated": "2026-11-03T21:56:55+09:00",
+ "items": 363,
+ "with_image": 332,
+ "google_decode_ok": 0,
+ "google_decode_failed": 39,
+ "google_decode_samples": [
+  "error: HTTPError: HTTP Error 429: Too Many Requests",
+  "error: HTTPError: HTTP Error 429: Too Many Requests",
+  "error: HTTPError: HTTP Error 429: Too Many Requests"
+ ],
+ "image_failures": []
 }
