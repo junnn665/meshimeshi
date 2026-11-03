@@ -1,15 +1,17 @@
 {
- "updated": "2026-11-03T09:55:56+09:00",
- "items": 370,
- "with_image": 340,
- "google_decode_ok": 30,
+ "updated": "2026-11-03T10:58:07+09:00",
+ "items": 371,
+ "with_image": 341,
+ "google_decode_ok": 33,
  "google_decode_failed": 0,
  "google_decode_samples": [],
  "image_failures": [
   "www.excite.co.jp: HTTPError: HTTP Error 403: Forbidden",
+  "news.nicovideo.jp: HTTPError: HTTP Error 403: Forbidden",
   "www.excite.co.jp: HTTPError: HTTP Error 403: Forbidden",
+  "www.at-s.com: HTTPError: HTTP Error 405: Not Allowed",
   "media.unisba.ac.id: HTTPError: HTTP Error 403: Forbidden",
-  "mainichi.jp: HTTPError: HTTP Error 403: Forbidden",
+  "media.unisba.ac.id: HTTPError: HTTP Error 403: Forbidden",
   "asaka-wako.goguynet.jp: TimeoutError: The read operation timed out"
  ]
 }
