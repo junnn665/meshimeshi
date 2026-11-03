@@ -1,15 +1,18 @@
 {
- "updated": "2026-11-04T03:48:14+09:00",
- "items": 362,
- "with_image": 331,
- "google_decode_ok": 42,
+ "updated": "2026-11-04T04:50:15+09:00",
+ "items": 360,
+ "with_image": 329,
+ "google_decode_ok": 40,
  "google_decode_failed": 0,
  "google_decode_samples": [],
  "image_failures": [
   "abema.tv: og:image なし (31457 文字)",
   "www.excite.co.jp: HTTPError: HTTP Error 403: Forbidden",
   "www.excite.co.jp: HTTPError: HTTP Error 403: Forbidden",
-  "www.excite.co.jp: HTTPError: HTTP Error 403: Forbidden",
+  "tokushima.goguynet.jp: TimeoutError: The read operation timed out",
+  "atsugi.goguynet.jp: TimeoutError: The read operation timed out",
+  "yao.goguynet.jp: TimeoutError: The read operation timed out",
+  "fujisawa.goguynet.jp: TimeoutError: The read operation timed out",
   "www.at-s.com: HTTPError: HTTP Error 405: Not Allowed"
  ]
 }

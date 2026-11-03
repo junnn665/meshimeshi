@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-04T03:48:14+09:00",
+ "updated": "2026-11-04T04:50:15+09:00",
  "items": [
   {
    "id": "c020ac40aae469f1",
@@ -6179,39 +6179,6 @@
    "published": "2026-10-28T02:00:00+09:00",
    "provider": "bing",
    "added": "2026-10-28T16:57:02+09:00",
-   "image_checked": true,
-   "image_v4": true,
-   "shop": false,
-   "shop_name": null
-  },
-  {
-   "id": "be66c1dad48617a2",
-   "title": "【独自調査】2026年最新：外国人に人気の飲食店ランキング[名古屋× ...",
-   "link": "https://www.jiji.com/jc/article?k=000001450.000024246&g=prt",
-   "source": "時事ドットコム",
-   "image": "https://prcdn.freetls.fastly.net/release_image/24246/1450/24246-1450-5f53bbded6280747c5b7c735782b66be-2000x1125.png?width=536&quality=85%2C75&format=jpeg",
-   "category": "wadai",
-   "area": "名古屋",
-   "published": "2026-10-28T02:00:00+09:00",
-   "provider": "bing",
-   "added": "2026-10-28T20:40:12+09:00",
-   "image_checked": true,
-   "image_v4": true,
-   "shop": false,
-   "shop_name": null
-  },
-  {
-   "id": "170a581c416cd671",
-   "title": "【名古屋・丸の内】無人カフェ「セルフカフェ丸の内店」10月24日オープン。丸の内駅5番出口から徒歩2分、オフィス街の“セカンドデスク”に。6時～24時・年中無休、個室ブース・会議室も開設予定…",
-   "link": "https://foods-ch.infomart.co.jp/news/348744",
-   "source": "フーズチャネル",
-   "image": "https://foods-ch.infomart.co.jp/static/images/ogp.png",
-   "category": "shinten",
-   "area": "名古屋",
-   "published": "2026-10-28T00:28:39+09:00",
-   "provider": "google",
-   "added": "2026-11-03T16:01:56+09:00",
-   "decode_v2": true,
    "image_checked": true,
    "image_v4": true,
    "shop": false,
