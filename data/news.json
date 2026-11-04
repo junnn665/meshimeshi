@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-05T02:52:09+09:00",
+ "updated": "2026-11-05T03:53:57+09:00",
  "items": [
   {
    "id": "5ab2bd734aa8ce28",
@@ -6330,38 +6330,6 @@
    "provider": "google",
    "added": "2026-10-28T15:47:40+09:00",
    "decode_v2": true,
-   "image_checked": true,
-   "image_v4": true,
-   "shop": false,
-   "shop_name": null
-  },
-  {
-   "id": "19482056583303f5",
-   "title": "【独自調査】2026年最新：外国人に人気の飲食店ランキング[名古屋× ...",
-   "link": "https://mantan-web.jp/prtimes/article/20261028prt00m200000830a.html",
-   "source": "MANTANWEB（まんたんウェブ）",
-   "image": "https://prtimes.jp/img/24246/1450/resize/d24246-1450-d3290636b4e6e1e4d01d-14.png",
-   "category": "wadai",
-   "area": "名古屋",
-   "published": "2026-10-28T15:00:00+09:00",
-   "provider": "bing",
-   "added": "2026-11-04T05:45:25+09:00",
-   "image_checked": true,
-   "image_v4": true,
-   "shop": false,
-   "shop_name": null
-  },
-  {
-   "id": "a60b8c4aa485b5d7",
-   "title": "ちいかわレストラン“討伐フェア”のドリンクスタンドちいかわレストラングッズショップ 静岡PARCOにて同時開催決定!!",
-   "link": "https://prtimes.jp/main/html/rd/p/000004138.000003639.html",
-   "source": "PR TIMES",
-   "image": "https://prcdn.freetls.fastly.net/release_image/3639/4138/3639-4138-7ab65952a55b813eafc2b88dbbfe8b3a-2160x1212.jpg?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260",
-   "category": "chain",
-   "area": "静岡",
-   "published": "2026-10-28T14:45:28+09:00",
-   "provider": "prtimes",
-   "added": "2026-10-28T16:57:02+09:00",
    "image_checked": true,
    "image_v4": true,
    "shop": false,

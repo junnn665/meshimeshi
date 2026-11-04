@@ -1,12 +1,12 @@
 {
- "updated": "2026-11-05T02:52:09+09:00",
- "items": 370,
- "with_image": 336,
- "google_decode_ok": 31,
+ "updated": "2026-11-05T03:53:57+09:00",
+ "items": 368,
+ "with_image": 334,
+ "google_decode_ok": 32,
  "google_decode_failed": 0,
  "google_decode_samples": [],
  "image_failures": [
-  "tetsudo-ch.com: HTTPError: HTTP Error 403: Forbidden",
-  "www.excite.co.jp: HTTPError: HTTP Error 403: Forbidden"
+  "www.excite.co.jp: HTTPError: HTTP Error 403: Forbidden",
+  "news.nicovideo.jp: HTTPError: HTTP Error 403: Forbidden"
  ]
 }
