@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-05T01:54:39+09:00",
+ "updated": "2026-11-05T02:52:09+09:00",
  "items": [
   {
    "id": "5ab2bd734aa8ce28",
@@ -200,6 +200,23 @@
    "lng": 136.6186,
    "place": "indoor",
    "group": "b16665bfb78d"
+  },
+  {
+   "id": "8e252afcd39627d5",
+   "title": "【ミスド×ポケモン】11/4から店頭販売開始！ 「冬のポケモンキャンペーン」もふもふピカチュウや限定ブランケット付きグッズセットも登場｜グルメとフード",
+   "link": "https://tetsudo-ch.com/13043538.html",
+   "source": "旅とおでかけ 鉄道チャンネル",
+   "image": null,
+   "category": "chain",
+   "area": "東海",
+   "published": "2026-11-04T14:35:05+09:00",
+   "provider": "google",
+   "added": "2026-11-05T02:52:09+09:00",
+   "decode_v2": true,
+   "image_checked": true,
+   "image_v4": true,
+   "shop": false,
+   "shop_name": null
   },
   {
    "id": "fe498e32a70ab522",
@@ -6345,23 +6362,6 @@
    "published": "2026-10-28T14:45:28+09:00",
    "provider": "prtimes",
    "added": "2026-10-28T16:57:02+09:00",
-   "image_checked": true,
-   "image_v4": true,
-   "shop": false,
-   "shop_name": null
-  },
-  {
-   "id": "46110571934b66e9",
-   "title": "神田屋18店舗で食用サボテンSABOVEGを使ったメニューが期間限定で発売へ",
-   "link": "https://news.dellows.jp/894177/?from=related-reading-list",
-   "source": "Dellows News",
-   "image": "https://news.dellows.jp/wp-content/uploads/2026/10/894177_1.jpg",
-   "category": "chain",
-   "area": "東海",
-   "published": "2026-10-28T14:39:42+09:00",
-   "provider": "google",
-   "added": "2026-10-29T10:54:25+09:00",
-   "decode_v2": true,
    "image_checked": true,
    "image_v4": true,
    "shop": false,

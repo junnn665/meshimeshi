@@ -1,11 +1,12 @@
 {
- "updated": "2026-11-05T01:54:39+09:00",
+ "updated": "2026-11-05T02:52:09+09:00",
  "items": 370,
- "with_image": 337,
- "google_decode_ok": 32,
+ "with_image": 336,
+ "google_decode_ok": 31,
  "google_decode_failed": 0,
  "google_decode_samples": [],
  "image_failures": [
+  "tetsudo-ch.com: HTTPError: HTTP Error 403: Forbidden",
   "www.excite.co.jp: HTTPError: HTTP Error 403: Forbidden"
  ]
 }
