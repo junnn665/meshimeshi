@@ -1,6 +1,40 @@
 {
- "updated": "2026-11-04T10:56:54+09:00",
+ "updated": "2026-11-04T11:48:28+09:00",
  "items": [
+  {
+   "id": "2b4f670cff3a9480",
+   "title": "丸の内に「ハリー・ポッター」の期間限定メニューが出現 ホグワーツ気分で楽しむクリスマスディナーも",
+   "link": "https://ovo.kyodo.co.jp/news/gourmet/a-2095667",
+   "source": "OVO [オーヴォ]",
+   "image": "https://d10tw3woq6mt3i.cloudfront.net/wp-content/uploads/2026/11/sub11-scaled-e1793601485582.jpg",
+   "category": "chain",
+   "area": "東海",
+   "published": "2026-11-04T11:23:00+09:00",
+   "provider": "google",
+   "added": "2026-11-04T11:48:28+09:00",
+   "decode_v2": true,
+   "image_checked": true,
+   "image_v4": true,
+   "shop": false,
+   "shop_name": null
+  },
+  {
+   "id": "a9858656085c9657",
+   "title": "【2026年11月第1週】コンビニサンドイッチ・コンビニパンの新商品！あんバターフランスやチーズバーガーなどまとめ",
+   "link": "https://mognavi.jp/news/matome/gen-newProduct-29847/",
+   "source": "もぐナビ",
+   "image": "https://img1.esimg.jp/blog/wp-content/uploads/2026/11/gen-newProduct-29847.jpg?ts=1793758500000",
+   "category": "conbini",
+   "area": "東海",
+   "published": "2026-11-04T11:20:16+09:00",
+   "provider": "google",
+   "added": "2026-11-04T11:48:28+09:00",
+   "decode_v2": true,
+   "image_checked": true,
+   "image_v4": true,
+   "shop": false,
+   "shop_name": null
+  },
   {
    "id": "eb3d8c08c8c62a48",
    "title": "【京都初出店】近江牛を590円（税込649円）から！愛知発祥の焼肉店「あみやき亭」が京都で提案する、お値打ち近江牛焼肉！",
@@ -4323,6 +4357,23 @@
    "shop_name": null
   },
   {
+   "id": "0998f0c200dd0dd4",
+   "title": "初のカフェ併設「サンリオハウス」名古屋パルコ店がオープン 限定グッズ＆カフェメニューをリポート",
+   "link": "https://www.wwdjapan.com/articles/2537368",
+   "source": "WWDJAPAN",
+   "image": "https://media.wwdjapan.com/wp-content/uploads/2026/10/28093306/1028_sanrio_og.jpg",
+   "category": "shinten",
+   "area": "名古屋",
+   "published": "2026-10-29T16:00:00+09:00",
+   "provider": "google",
+   "added": "2026-11-04T11:48:28+09:00",
+   "decode_v2": true,
+   "image_checked": true,
+   "image_v4": true,
+   "shop": true,
+   "shop_name": "サンリオハウス"
+  },
+  {
    "id": "5bc1595493f30b5a",
    "title": "3COINS×くら寿司のOMOキャンペーンにクラウドサーカスの『Metabadge』が採用",
    "link": "https://prtimes.jp/main/html/rd/p/000000400.000016877.html",
@@ -6214,23 +6265,6 @@
    "image_v4": true,
    "shop": false,
    "shop_name": null
-  },
-  {
-   "id": "394bccb2daf604c8",
-   "title": "2026年10月29日オープン！栄センパの新店「土鍋ごはん×とんかつ CHITAKA」が美味すぎた 「とんかつ知多家」から生まれた新感覚とんかつを最速実食レポート【久屋大通・栄】",
-   "link": "https://nagoyato.com/posts/20426",
-   "source": "ナゴヤトコトン",
-   "image": "https://nagoyato.com/wp-content/uploads/2026/10/IMG_3911-EDIT2.jpg",
-   "category": "shinten",
-   "area": "名古屋",
-   "published": "2026-10-28T06:58:00+09:00",
-   "provider": "google",
-   "added": "2026-10-28T07:35:35+09:00",
-   "decode_v2": true,
-   "image_checked": true,
-   "image_v4": true,
-   "shop": true,
-   "shop_name": "土鍋ごはん×とんかつ CHITAKA"
   }
  ]
 }
