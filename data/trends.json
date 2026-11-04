@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-04T02:49:01+00:00",
+ "updated": "2026-11-04T03:51:15+00:00",
  "days": [
   "2026-10-22",
   "2026-10-23",
@@ -22,9 +22,9 @@
    "label": "ファミリーマート",
    "q": "ファミリーマート",
    "kind": "chain",
-   "recent": 4,
+   "recent": 5,
    "base_per_day": 0.27,
-   "ratio": 2.48,
+   "ratio": 3.02,
    "new": false,
    "daily": [
     0,
@@ -39,7 +39,7 @@
     0,
     0,
     1,
-    2,
+    3,
     1
    ],
    "articles": [
@@ -234,6 +234,54 @@
      "link": "https://prtimes.jp/main/html/rd/p/000000076.000174612.html",
      "source": "PR TIMES",
      "image": "https://prcdn.freetls.fastly.net/release_image/174612/76/174612-76-4adf099cb46e7bcbac6d6ab6f5d28a05-1266x713.jpg?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260"
+    }
+   ]
+  },
+  {
+   "label": "弁当",
+   "q": "弁当",
+   "kind": "dish",
+   "recent": 3,
+   "base_per_day": 0.36,
+   "ratio": 1.67,
+   "new": false,
+   "daily": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    2,
+    1,
+    0,
+    0,
+    1,
+    0,
+    2
+   ],
+   "articles": [
+    {
+     "id": "67a25b3c6c64c746",
+     "title": "【2026年11月第1週】コンビニ寿司・コンビニ弁当の新商品！かしわめしやソーセージステーキ弁当などまとめ",
+     "link": "https://mognavi.jp/news/matome/gen-newProduct-29846/",
+     "source": "もぐナビ",
+     "image": "https://img1.esimg.jp/blog/wp-content/uploads/2026/11/gen-newProduct-29846.jpg?ts=1793756700000"
+    },
+    {
+     "id": "169001545ee59f59",
+     "title": "【まるや本店】創業25周年で特別感謝価格に！限定御膳や2,500円鰻弁当など鰻づくしの大創業祭｜名古屋",
+     "link": "https://ovo.kyodo.co.jp/news/life/travel-news/a-2095697",
+     "source": "OVO [オーヴォ]",
+     "image": "https://d10tw3woq6mt3i.cloudfront.net/wp-content/uploads/2026/11/kyd_2095697_699212-01.jpg"
+    },
+    {
+     "id": "6a224e92f2320c0c",
+     "title": "【キッチンオリジン】国産牛「さくらビーフ」を使用したすき焼き弁当が期間限定で登場！",
+     "link": "https://prtimes.jp/main/html/rd/p/000006166.000007505.html",
+     "source": "PR TIMES",
+     "image": "https://prcdn.freetls.fastly.net/release_image/7505/6166/7505-6166-102584b15893eb9209a7879beac882ab-1300x687.jpg?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260"
     }
    ]
   },
