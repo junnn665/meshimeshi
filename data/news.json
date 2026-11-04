@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-05T04:55:33+09:00",
+ "updated": "2026-11-05T05:50:45+09:00",
  "items": [
   {
    "id": "5ab2bd734aa8ce28",
@@ -229,6 +229,23 @@
    "published": "2026-11-04T14:15:21+09:00",
    "provider": "prtimes",
    "added": "2026-11-04T14:56:11+09:00",
+   "image_checked": true,
+   "image_v4": true,
+   "shop": false,
+   "shop_name": null
+  },
+  {
+   "id": "8a18c6fe844358e6",
+   "title": "【名古屋らーめん藤一番】「八丁味噌」100％使用！「名古屋赤味噌らーめん」が11月5日（木）より期間限定で登場",
+   "link": "https://topics.smt.docomo.ne.jp/article/fukaboritokai/trend/fukaboritokai-25544?page=2",
+   "source": "ｄメニューニュース",
+   "image": "https://img.topics.smt.news.goo.ne.jp/-/20261028100531/img/dmenu_service-brand-logo_200x200.png",
+   "category": "chain",
+   "area": "名古屋",
+   "published": "2026-11-04T14:13:20+09:00",
+   "provider": "google",
+   "added": "2026-11-05T05:50:45+09:00",
+   "decode_v2": true,
    "image_checked": true,
    "image_v4": true,
    "shop": false,
@@ -6330,6 +6347,22 @@
    "provider": "google",
    "added": "2026-10-28T15:47:40+09:00",
    "decode_v2": true,
+   "image_checked": true,
+   "image_v4": true,
+   "shop": false,
+   "shop_name": null
+  },
+  {
+   "id": "19482056583303f5",
+   "title": "【独自調査】2026年最新：外国人に人気の飲食店ランキング[名古屋× ...",
+   "link": "https://mantan-web.jp/prtimes/article/20261028prt00m200000830a.html",
+   "source": "MANTANWEB（まんたんウェブ）",
+   "image": "https://prtimes.jp/img/24246/1450/resize/d24246-1450-d3290636b4e6e1e4d01d-14.png",
+   "category": "wadai",
+   "area": "名古屋",
+   "published": "2026-10-28T15:00:00+09:00",
+   "provider": "bing",
+   "added": "2026-11-05T05:50:45+09:00",
    "image_checked": true,
    "image_v4": true,
    "shop": false,
