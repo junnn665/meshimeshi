@@ -1,6 +1,23 @@
 {
- "updated": "2026-11-04T16:07:34+09:00",
+ "updated": "2026-11-04T17:54:26+09:00",
  "items": [
+  {
+   "id": "76fdebb08796d477",
+   "title": "富士そば「肉骨茶（バクテー）そば」期間限定販売、にんにくとスパイスを効かせた冬の人気メニュー",
+   "link": "https://news.nicovideo.jp/watch/nw19954439?news_ref=dic_topics_topic",
+   "source": "ニコニコニュース",
+   "image": null,
+   "category": "chain",
+   "area": "東海",
+   "published": "2026-11-04T16:06:21+09:00",
+   "provider": "google",
+   "added": "2026-11-04T17:54:26+09:00",
+   "decode_v2": true,
+   "image_checked": true,
+   "image_v4": true,
+   "shop": false,
+   "shop_name": null
+  },
   {
    "id": "97c9c6d038cbf632",
    "title": "コメダ和喫茶『おかげ庵』が黒胡麻シロノワール、麻婆豆腐きしめん、豚汁きしめんなどを11月4日から限定提供",
@@ -41,6 +58,23 @@
    "start": "2026-11-07",
    "end": "2026-11-07",
    "group": "64da94e29bc7"
+  },
+  {
+   "id": "1f10c435246c8046",
+   "title": "11/15(日)秋のグルメフェス｜西宮北口ハウジングギャラリー｜新着・イベント情報｜家サイト｜住宅展示場ガイド",
+   "link": "https://www.e-a-site.com/event_info/detail/?id=69846&sr=63",
+   "source": "家サイト",
+   "image": "https://www.e-a-site.com/img/common/og_image.png",
+   "category": "wadai",
+   "area": "東海",
+   "published": "2026-11-04T15:25:01+09:00",
+   "provider": "google",
+   "added": "2026-11-04T17:54:26+09:00",
+   "decode_v2": true,
+   "image_checked": true,
+   "image_v4": true,
+   "shop": false,
+   "shop_name": null
   },
   {
    "id": "9e90e53976a018f1",
@@ -1123,6 +1157,23 @@
    "image_checked": true,
    "image_v4": true,
    "shop": true,
+   "shop_name": null
+  },
+  {
+   "id": "86fba274e2caad90",
+   "title": "ホリデーシーズンを彩る、贅沢で華やかなひと皿～「資生堂パーラー」 支店レストランのクリスマス限定コース",
+   "link": "https://news.infoseek.co.jp/article/prtimes_000001012_000006543/",
+   "source": "Infoseek",
+   "image": "https://media.image.infoseek.co.jp/isnews/pc/img/noimage_203x120_busi-econ-1.0.png",
+   "category": "chain",
+   "area": "東海",
+   "published": "2026-11-02T16:45:25+09:00",
+   "provider": "google",
+   "added": "2026-11-04T17:54:26+09:00",
+   "decode_v2": true,
+   "image_checked": true,
+   "image_v4": true,
+   "shop": false,
    "shop_name": null
   },
   {
@@ -6260,6 +6311,59 @@
    "image_v4": true,
    "shop": false,
    "shop_name": null
+  },
+  {
+   "id": "f98f095c60e03f41",
+   "title": "【2026年10月第5週】コンビニ麺・コンビニパスタの新商品！ツナと ...",
+   "link": "https://mognavi.jp/news/matome/gen-newProduct-29452/",
+   "source": "もぐナビ",
+   "image": "https://img1.esimg.jp/blog/wp-content/uploads/2026/10/gen-newProduct-29452.jpg?ts=1793155500000",
+   "category": "conbini",
+   "area": "東海",
+   "published": "2026-10-28T02:00:00+09:00",
+   "provider": "bing",
+   "added": "2026-11-04T17:54:26+09:00",
+   "image_checked": true,
+   "image_v4": true,
+   "shop": false,
+   "shop_name": null
+  },
+  {
+   "id": "358eadf975f320b8",
+   "title": "【2026年10月第5週】コンビニ寿司・コンビニ弁当の新商品！おにぎり ...",
+   "link": "https://mognavi.jp/news/matome/gen-newProduct-29450/",
+   "source": "もぐナビ",
+   "image": "https://img1.esimg.jp/blog/wp-content/uploads/2026/10/gen-newProduct-29450.jpg?ts=1793151900000",
+   "category": "conbini",
+   "area": "東海",
+   "published": "2026-10-28T02:00:00+09:00",
+   "provider": "bing",
+   "added": "2026-11-04T17:54:26+09:00",
+   "image_checked": true,
+   "image_v4": true,
+   "shop": false,
+   "shop_name": null
+  },
+  {
+   "id": "e6f31e813c880202",
+   "title": "東北6県の絶品グルメが集結「大東北展」JR名古屋タカシマヤで10月28 ...",
+   "link": "https://jouhou.nagoya/takashimaya-touhoku2026/",
+   "source": "名古屋情報通",
+   "image": "https://jouhou.nagoya/wp-content/uploads/2026/10/takashimaya-touhoku2026001-600x400.jpg",
+   "category": "event",
+   "area": "名古屋",
+   "published": "2026-10-27T11:13:00+09:00",
+   "provider": "bing",
+   "added": "2026-11-04T17:54:26+09:00",
+   "image_checked": true,
+   "image_v4": true,
+   "shop": false,
+   "shop_name": null,
+   "venue": "ジェイアール名古屋タカシマヤ",
+   "lat": 35.17123,
+   "lng": 136.88272,
+   "place": "indoor",
+   "group": "2ecf034242a1"
   }
  ]
 }
