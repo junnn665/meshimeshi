@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-05T01:16:31+09:00",
+ "updated": "2026-11-05T01:54:39+09:00",
  "items": [
   {
    "id": "5ab2bd734aa8ce28",
@@ -116,6 +116,23 @@
    "published": "2026-11-04T15:45:58+09:00",
    "provider": "google",
    "added": "2026-11-04T16:07:34+09:00",
+   "decode_v2": true,
+   "image_checked": true,
+   "image_v4": true,
+   "shop": false,
+   "shop_name": null
+  },
+  {
+   "id": "e4f8f1327198a45d",
+   "title": "名古屋の王道を深掘り！石原良純さんと巡る老舗グルメ特集「青柳総本家」に潜入【ナゴツウスペシャル】",
+   "link": "https://locipo.jp/creative/b64c3e9c-eebd-4603-b453-54b6af47853c",
+   "source": "Locipo(ロキポ)",
+   "image": "https://assets.locipo.jp/creatives/182604/original-b64c3e9c-eebd-4603-b453-54b6af47853c-20261104084120.jpg",
+   "category": "wadai",
+   "area": "名古屋",
+   "published": "2026-11-04T15:40:00+09:00",
+   "provider": "google",
+   "added": "2026-11-05T01:54:39+09:00",
    "decode_v2": true,
    "image_checked": true,
    "image_v4": true,
@@ -1296,6 +1313,23 @@
    "image_v4": true,
    "shop": true,
    "shop_name": null
+  },
+  {
+   "id": "46ac66aa4e8e9e3f",
+   "title": "ミシュランシェフが手がける「クロプリ名古屋」と、催事で話題の生ドーナツ専門店「PIECE OF BAKE」が名古屋初出店！名古屋・栄の「中日ビル」にGO!!",
+   "link": "https://www.walkerplus.com/article/1396881/",
+   "source": "ウォーカープラス",
+   "image": "https://news.walkerplus.com/article/1396881/17297976_615.jpg",
+   "category": "shinten",
+   "area": "名古屋",
+   "published": "2026-11-02T17:00:00+09:00",
+   "provider": "google",
+   "added": "2026-11-05T01:54:39+09:00",
+   "decode_v2": true,
+   "image_checked": true,
+   "image_v4": true,
+   "shop": true,
+   "shop_name": "クロプリ名古屋"
   },
   {
    "id": "86fba274e2caad90",
@@ -6332,40 +6366,6 @@
    "image_v4": true,
    "shop": false,
    "shop_name": null
-  },
-  {
-   "id": "8eadb7f834e4f295",
-   "title": "【中部・東海・甲信地方限定】元祖台湾ラーメンの名店「味仙本店」監修企画第4弾！「台湾はるさめスープ」が初登場ファミリー",
-   "link": "https://news.nicovideo.jp/watch/nw19927969",
-   "source": "ニコニコニュース",
-   "image": null,
-   "category": "wadai",
-   "area": "東海",
-   "published": "2026-10-28T14:21:20+09:00",
-   "provider": "google",
-   "added": "2026-11-04T14:56:11+09:00",
-   "decode_v2": true,
-   "image_checked": true,
-   "image_v4": true,
-   "shop": false,
-   "shop_name": null
-  },
-  {
-   "id": "264184969c9166ec",
-   "title": "名古屋駅で行列の「すしの美登利」が栄に2号店！名古屋栄三越9階に10月31日オープン、限定「海鮮ひつまぶし」3,630円はどんな内容？｜グルメとフード",
-   "link": "http://www.excite.co.jp/news/article/TetsudoCh_13041098/",
-   "source": "Excite エキサイト",
-   "image": null,
-   "category": "shinten",
-   "area": "名古屋",
-   "published": "2026-10-28T14:18:44+09:00",
-   "provider": "google",
-   "added": "2026-10-28T14:41:10+09:00",
-   "decode_v2": true,
-   "image_checked": true,
-   "image_v4": true,
-   "shop": true,
-   "shop_name": "すしの美登利"
   }
  ]
 }
