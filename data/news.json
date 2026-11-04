@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-05T05:50:45+09:00",
+ "updated": "2026-11-05T06:47:29+09:00",
  "items": [
   {
    "id": "5ab2bd734aa8ce28",
@@ -6347,22 +6347,6 @@
    "provider": "google",
    "added": "2026-10-28T15:47:40+09:00",
    "decode_v2": true,
-   "image_checked": true,
-   "image_v4": true,
-   "shop": false,
-   "shop_name": null
-  },
-  {
-   "id": "19482056583303f5",
-   "title": "【独自調査】2026年最新：外国人に人気の飲食店ランキング[名古屋× ...",
-   "link": "https://mantan-web.jp/prtimes/article/20261028prt00m200000830a.html",
-   "source": "MANTANWEB（まんたんウェブ）",
-   "image": "https://prtimes.jp/img/24246/1450/resize/d24246-1450-d3290636b4e6e1e4d01d-14.png",
-   "category": "wadai",
-   "area": "名古屋",
-   "published": "2026-10-28T15:00:00+09:00",
-   "provider": "bing",
-   "added": "2026-11-05T05:50:45+09:00",
    "image_checked": true,
    "image_v4": true,
    "shop": false,
