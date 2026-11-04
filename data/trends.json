@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-04T04:55:22+00:00",
+ "updated": "2026-11-04T05:56:47+00:00",
  "days": [
   "2026-10-22",
   "2026-10-23",
@@ -63,6 +63,47 @@
      "link": "https://prtimes.jp/main/html/rd/p/000000404.000061362.html",
      "source": "PR TIMES",
      "image": "https://prcdn.freetls.fastly.net/release_image/61362/404/61362-404-616054dbc83b7308e162b070e8d8cf8c-2528x1684.jpg?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260"
+    }
+   ]
+  },
+  {
+   "label": "かっぱ寿司",
+   "q": "かっぱ寿司",
+   "kind": "chain",
+   "recent": 2,
+   "base_per_day": 0.09,
+   "ratio": 1.96,
+   "new": false,
+   "daily": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    1
+   ],
+   "articles": [
+    {
+     "id": "fe498e32a70ab522",
+     "title": "大好評企画！「かっぱ寿司×トミカ」コラボキャンペーンかっぱ寿司オリジナルのおもちゃに「かに」が仲間入り！ 第１弾『ターレー（足とハサミが動くかに）』が登場",
+     "link": "https://prtimes.jp/main/html/rd/p/000001246.000018731.html",
+     "source": "PR TIMES",
+     "image": "https://prcdn.freetls.fastly.net/release_image/18731/1246/18731-1246-7808cf3107ad850bd22c682b2f5d88c0-1200x698.jpg?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260"
+    },
+    {
+     "id": "445b56d6038d65ad",
+     "title": "抽選で2名様に10万円分の旅行券が当たる！ かっぱ寿司「11月ワクワクレシート応募キャンペーン」開催 税込5,000円以上のレシートで応募",
+     "link": "https://prtimes.jp/main/html/rd/p/000001245.000018731.html",
+     "source": "PR TIMES",
+     "image": "https://prcdn.freetls.fastly.net/release_image/18731/1245/18731-1245-f5aa81dd65a7658376624128cf7e9bbd-1200x698.jpg?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260"
     }
    ]
   },
@@ -234,6 +275,54 @@
      "link": "https://prtimes.jp/main/html/rd/p/000000076.000174612.html",
      "source": "PR TIMES",
      "image": "https://prcdn.freetls.fastly.net/release_image/174612/76/174612-76-4adf099cb46e7bcbac6d6ab6f5d28a05-1266x713.jpg?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260"
+    }
+   ]
+  },
+  {
+   "label": "寿司",
+   "q": "寿司",
+   "kind": "dish",
+   "recent": 7,
+   "base_per_day": 1.09,
+   "ratio": 1.76,
+   "new": false,
+   "daily": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    3,
+    2,
+    6,
+    1,
+    0,
+    4,
+    0,
+    3
+   ],
+   "articles": [
+    {
+     "id": "fe498e32a70ab522",
+     "title": "大好評企画！「かっぱ寿司×トミカ」コラボキャンペーンかっぱ寿司オリジナルのおもちゃに「かに」が仲間入り！ 第１弾『ターレー（足とハサミが動くかに）』が登場",
+     "link": "https://prtimes.jp/main/html/rd/p/000001246.000018731.html",
+     "source": "PR TIMES",
+     "image": "https://prcdn.freetls.fastly.net/release_image/18731/1246/18731-1246-7808cf3107ad850bd22c682b2f5d88c0-1200x698.jpg?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260"
+    },
+    {
+     "id": "67a25b3c6c64c746",
+     "title": "【2026年11月第1週】コンビニ寿司・コンビニ弁当の新商品！かしわめしやソーセージステーキ弁当などまとめ",
+     "link": "https://mognavi.jp/news/matome/gen-newProduct-29846/",
+     "source": "もぐナビ",
+     "image": "https://img1.esimg.jp/blog/wp-content/uploads/2026/11/gen-newProduct-29846.jpg?ts=1793756700000"
+    },
+    {
+     "id": "35455aef5916a0c7",
+     "title": "【2026年11月第1週】コンビニおにぎり・コンビニ手巻寿司の新商品！海老マヨや炭火焼紅鮭など旬の味わいまとめ",
+     "link": "https://mognavi.jp/news/matome/gen-newProduct-29845/",
+     "source": "もぐナビ",
+     "image": "https://img1.esimg.jp/blog/wp-content/uploads/2026/11/gen-newProduct-29845.jpg?ts=1793754900000"
     }
    ]
   },
