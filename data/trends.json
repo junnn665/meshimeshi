@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-04T21:47:56+00:00",
+ "updated": "2026-11-04T22:46:43+00:00",
  "days": [
   "2026-10-23",
   "2026-10-24",
@@ -156,6 +156,47 @@
    ]
   },
   {
+   "label": "さつまいも",
+   "q": "さつまいも",
+   "kind": "dish",
+   "recent": 2,
+   "base_per_day": 0.09,
+   "ratio": 1.96,
+   "new": false,
+   "daily": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    2,
+    0
+   ],
+   "articles": [
+    {
+     "id": "7b9d99420ff7c3e9",
+     "title": "【西武秋田店】11月20日（金）からはイベント目白押し！「あんこ・芋」「アメカジ」「バーガー」が集結、世代を超えて楽しめる秋田駅前へ",
+     "link": "http://www.excite.co.jp/news/article/Prtimes_2026-11-04-31382-2534/",
+     "source": "Excite エキサイト",
+     "image": null
+    },
+    {
+     "id": "5855015824d53975",
+     "title": "【愛知県岡崎市】お客様から頂いた焼き芋が11月中無料食べ放題に。ウッドデザインパーク岡崎と島しまファームが送る秋の味覚。",
+     "link": "https://prtimes.jp/main/html/rd/p/000001189.000045400.html",
+     "source": "PR TIMES",
+     "image": "https://prcdn.freetls.fastly.net/release_image/45400/1189/45400-1189-aaf5ad6db7fc4cf12742b75e897a4da1-3900x2600.jpg?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260"
+    }
+   ]
+  },
+  {
    "label": "ローソン",
    "q": "ローソン",
    "kind": "chain",
@@ -200,47 +241,6 @@
      "link": "https://gourmet.watch.impress.co.jp/docs/news/2153241.html",
      "source": "グルメ Watch",
      "image": "https://gourmet.watch.impress.co.jp/img/grw/list/2153/241/00.jpg"
-    }
-   ]
-  },
-  {
-   "label": "さつまいも",
-   "q": "さつまいも",
-   "kind": "dish",
-   "recent": 2,
-   "base_per_day": 0.18,
-   "ratio": 1.62,
-   "new": false,
-   "daily": [
-    0,
-    0,
-    0,
-    0,
-    0,
-    1,
-    0,
-    0,
-    0,
-    0,
-    1,
-    0,
-    2,
-    0
-   ],
-   "articles": [
-    {
-     "id": "7b9d99420ff7c3e9",
-     "title": "【西武秋田店】11月20日（金）からはイベント目白押し！「あんこ・芋」「アメカジ」「バーガー」が集結、世代を超えて楽しめる秋田駅前へ",
-     "link": "http://www.excite.co.jp/news/article/Prtimes_2026-11-04-31382-2534/",
-     "source": "Excite エキサイト",
-     "image": null
-    },
-    {
-     "id": "5855015824d53975",
-     "title": "【愛知県岡崎市】お客様から頂いた焼き芋が11月中無料食べ放題に。ウッドデザインパーク岡崎と島しまファームが送る秋の味覚。",
-     "link": "https://prtimes.jp/main/html/rd/p/000001189.000045400.html",
-     "source": "PR TIMES",
-     "image": "https://prcdn.freetls.fastly.net/release_image/45400/1189/45400-1189-aaf5ad6db7fc4cf12742b75e897a4da1-3900x2600.jpg?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260"
     }
    ]
   }
