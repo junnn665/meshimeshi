@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-05T07:46:09+09:00",
+ "updated": "2026-11-05T08:40:50+09:00",
  "items": [
   {
    "id": "17dc33e72b5d5f88",
@@ -29,6 +29,23 @@
    "published": "2026-11-05T06:58:00+09:00",
    "provider": "google",
    "added": "2026-11-05T07:46:09+09:00",
+   "decode_v2": true,
+   "image_checked": true,
+   "image_v4": true,
+   "shop": false,
+   "shop_name": null
+  },
+  {
+   "id": "a783b95385e85f66",
+   "title": "【所沢市】11/14・15は「ところざわサクラタウン」＆「東所沢公園」で地元密着参加型フェス《第5回 武蔵野回廊文化祭》開催！ 『第52回将棋の日in所沢』との連動イベントや『文豪ストレイドッグス』コラボキッチンカーなども！",
+   "link": "https://tokorozawa.goguynet.jp/2026/11/05/musashino-kairou/",
+   "source": "号外NET 所沢市",
+   "image": "https://tokorozawa.goguynet.jp/wp-content/uploads/sites/34/2026/11/musashino-kairou4.jpg",
+   "category": "wadai",
+   "area": "東海",
+   "published": "2026-11-05T00:05:18+09:00",
+   "provider": "google",
+   "added": "2026-11-05T08:40:50+09:00",
    "decode_v2": true,
    "image_checked": true,
    "image_v4": true,
@@ -1398,6 +1415,23 @@
    "image_v4": true,
    "shop": true,
    "shop_name": "クロプリ名古屋"
+  },
+  {
+   "id": "c9f909e3a74a78a7",
+   "title": "5年ぶりのコラボ！アニメイトカフェ名古屋店に“銀魂カフェ”が期間限定オープン!!",
+   "link": "https://www.walkerplus.com/article/137822/",
+   "source": "ウォーカープラス",
+   "image": "https://news.walkerplus.com/article/137822/772266_615.jpg",
+   "category": "shinten",
+   "area": "名古屋",
+   "published": "2026-11-02T17:00:00+09:00",
+   "provider": "google",
+   "added": "2026-11-05T08:40:50+09:00",
+   "decode_v2": true,
+   "image_checked": true,
+   "image_v4": true,
+   "shop": false,
+   "shop_name": null
   },
   {
    "id": "86fba274e2caad90",
