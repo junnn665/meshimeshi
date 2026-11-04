@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-04T00:57:30+00:00",
+ "updated": "2026-11-04T01:57:28+00:00",
  "days": [
   "2026-10-22",
   "2026-10-23",
@@ -18,6 +18,54 @@
  ],
  "recent_days": 3,
  "items": [
+  {
+   "label": "ファミリーマート",
+   "q": "ファミリーマート",
+   "kind": "chain",
+   "recent": 4,
+   "base_per_day": 0.27,
+   "ratio": 2.48,
+   "new": false,
+   "daily": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    2,
+    0,
+    1,
+    0,
+    0,
+    1,
+    2,
+    1
+   ],
+   "articles": [
+    {
+     "id": "dafff096de2ecba4",
+     "title": "台湾はるさめスープが初登場の辛旨シリーズ！ファミリーマート「味仙本店監修」全5商品",
+     "link": "https://dtimes.jp/post-1436579/",
+     "source": "Dtimes",
+     "image": "https://dtimes.jp/wp-content/uploads/2026/10/dtimes-engine-c7b1aee000383b1561efbd4554806940-20261028-88b84e.jpg"
+    },
+    {
+     "id": "4d2061d4c744560b",
+     "title": "【11月3日発売】ファミリーマート 新商品麺類まとめ「SUSURU TV. 濃厚とんこつ豚無双濃厚無双ラーメン」「味仙本店監修 台湾ラーメン」など",
+     "link": "https://entabe.jp/62021/summary-familymart-november-3rd-new-noodles",
+     "source": "えん食べ [グルメニュース]",
+     "image": "https://image.entabe.jp/upload/20261103/images/thumb_noodles.jpg"
+    },
+    {
+     "id": "527be199fe4f48b4",
+     "title": "【ファミリーマート限定】４周年記念で話題のフレーバーが再登場「冷やして食べる とろけるくりーむパン ミルク」11月3日（火・祝）発売",
+     "link": "https://prtimes.jp/main/html/rd/p/000000404.000061362.html",
+     "source": "PR TIMES",
+     "image": "https://prcdn.freetls.fastly.net/release_image/61362/404/61362-404-616054dbc83b7308e162b070e8d8cf8c-2528x1684.jpg?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260"
+    }
+   ]
+  },
   {
    "label": "ピザハット",
    "q": "ピザハット",
@@ -149,12 +197,12 @@
    ]
   },
   {
-   "label": "ファミリーマート",
-   "q": "ファミリーマート",
-   "kind": "chain",
-   "recent": 3,
-   "base_per_day": 0.27,
-   "ratio": 1.93,
+   "label": "さつまいも",
+   "q": "さつまいも",
+   "kind": "dish",
+   "recent": 2,
+   "base_per_day": 0.09,
+   "ratio": 1.96,
    "new": false,
    "daily": [
     0,
@@ -163,36 +211,29 @@
     0,
     0,
     0,
-    2,
-    0,
     1,
     0,
     0,
+    0,
+    0,
     1,
-    2,
-    0
+    0,
+    1
    ],
    "articles": [
     {
-     "id": "4d2061d4c744560b",
-     "title": "【11月3日発売】ファミリーマート 新商品麺類まとめ「SUSURU TV. 濃厚とんこつ豚無双濃厚無双ラーメン」「味仙本店監修 台湾ラーメン」など",
-     "link": "https://entabe.jp/62021/summary-familymart-november-3rd-new-noodles",
-     "source": "えん食べ [グルメニュース]",
-     "image": "https://image.entabe.jp/upload/20261103/images/thumb_noodles.jpg"
-    },
-    {
-     "id": "527be199fe4f48b4",
-     "title": "【ファミリーマート限定】４周年記念で話題のフレーバーが再登場「冷やして食べる とろけるくりーむパン ミルク」11月3日（火・祝）発売",
-     "link": "https://prtimes.jp/main/html/rd/p/000000404.000061362.html",
+     "id": "5855015824d53975",
+     "title": "【愛知県岡崎市】お客様から頂いた焼き芋が11月中無料食べ放題に。ウッドデザインパーク岡崎と島しまファームが送る秋の味覚。",
+     "link": "https://prtimes.jp/main/html/rd/p/000001189.000045400.html",
      "source": "PR TIMES",
-     "image": "https://prcdn.freetls.fastly.net/release_image/61362/404/61362-404-616054dbc83b7308e162b070e8d8cf8c-2528x1684.jpg?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260"
+     "image": "https://prcdn.freetls.fastly.net/release_image/45400/1189/45400-1189-aaf5ad6db7fc4cf12742b75e897a4da1-3900x2600.jpg?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260"
     },
     {
-     "id": "d2d46d20602e6085",
-     "title": "【2026年11月発売!】今週発売! ファミリーマートの注目新作スイーツ5選",
-     "link": "https://news.infoseek.co.jp/article/mynavi_3242298/",
-     "source": "Infoseek",
-     "image": "https://media.image.infoseek.co.jp/isnews/photos/mynavi/mynavi_3242298_0-enlarge.jpg"
+     "id": "78ca32ecfbcecb6a",
+     "title": "【11月4日～9日の6日間限定】静岡・掛川のお芋スイーツ専門店「おいもや」がイオンモール岡崎に今年も登場！",
+     "link": "https://prtimes.jp/main/html/rd/p/000000076.000174612.html",
+     "source": "PR TIMES",
+     "image": "https://prcdn.freetls.fastly.net/release_image/174612/76/174612-76-4adf099cb46e7bcbac6d6ab6f5d28a05-1266x713.jpg?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260"
     }
    ]
   },
