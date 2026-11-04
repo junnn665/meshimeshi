@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-04T08:38:22+09:00",
+ "updated": "2026-11-04T09:56:55+09:00",
  "items": [
   {
    "id": "86c30601973b8480",
@@ -13,6 +13,22 @@
    "provider": "google",
    "added": "2026-11-04T08:38:22+09:00",
    "decode_v2": true,
+   "image_checked": true,
+   "image_v4": true,
+   "shop": false,
+   "shop_name": null
+  },
+  {
+   "id": "a21c3cc45c8774ee",
+   "title": "【ジェイアール京都伊勢丹期間限定出店】緑輝く魅惑をお届け！東京で話題のピスタチオスイーツ専門店『PISTA ＆ TOKYO』が11月11日（水）よりジェイアール京都伊勢丹にて期間限定出店。",
+   "link": "https://prtimes.jp/main/html/rd/p/000001473.000013125.html",
+   "source": "PR TIMES",
+   "image": "https://prcdn.freetls.fastly.net/release_image/13125/1473/13125-1473-af697fee50bc22332084bef98993ed3e-1134x756.png?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260",
+   "category": "chain",
+   "area": "三重",
+   "published": "2026-11-04T06:20:00+09:00",
+   "provider": "prtimes",
+   "added": "2026-11-04T09:56:55+09:00",
    "image_checked": true,
    "image_v4": true,
    "shop": false,
@@ -6253,38 +6269,6 @@
    "image_v4": true,
    "shop": true,
    "shop_name": "サンリオハウス"
-  },
-  {
-   "id": "358eadf975f320b8",
-   "title": "【2026年10月第5週】コンビニ寿司・コンビニ弁当の新商品！おにぎりランチや豚焼肉弁当などまとめ",
-   "link": "https://mognavi.jp/news/matome/gen-newProduct-29450/",
-   "source": "もぐナビ",
-   "image": "https://img1.esimg.jp/blog/wp-content/uploads/2026/10/gen-newProduct-29450.jpg?ts=1793151900000",
-   "category": "conbini",
-   "area": "東海",
-   "published": "2026-10-28T02:00:00+09:00",
-   "provider": "bing",
-   "added": "2026-10-28T10:53:32+09:00",
-   "image_checked": true,
-   "image_v4": true,
-   "shop": false,
-   "shop_name": null
-  },
-  {
-   "id": "a8cbd8272b66a35c",
-   "title": "【セブン】東海3県限定の新作グルメ3選「東海限定 台湾風まぜそば」はにんにくの効いたピリ辛肉味噌が中太麺に絡む (LIMO)",
-   "link": "https://news.yahoo.co.jp/articles/88ae737de2d37fa52c2b7c499d136d1fd302cf9d",
-   "source": "Yahoo!ニュース",
-   "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261028-00143246-toushin-000-1-view.jpg?exp=10800",
-   "category": "chain",
-   "area": "東海",
-   "published": "2026-10-28T02:00:00+09:00",
-   "provider": "bing",
-   "added": "2026-11-04T06:41:59+09:00",
-   "image_checked": true,
-   "image_v4": true,
-   "shop": false,
-   "shop_name": null
   }
  ]
 }
