@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-04T23:12:17+09:00",
+ "updated": "2026-11-05T01:16:31+09:00",
  "items": [
   {
    "id": "5ab2bd734aa8ce28",
@@ -68,6 +68,25 @@
    "image_v4": true,
    "shop": false,
    "shop_name": null
+  },
+  {
+   "id": "93c8fe38d2017468",
+   "title": "【摂津市】三島公園にグルメと音楽が集結！「せっつ飯フェス2026」のにぎわいをレポート",
+   "link": "https://settsu.goguynet.jp/2026/11/04/settsu-foodfes-6/",
+   "source": "地域ニュースサイト号外NET",
+   "image": "https://settsu.goguynet.jp/wp-content/uploads/sites/10/2026/11/5840.png",
+   "category": "event",
+   "area": "三重",
+   "published": "2026-11-04T17:00:22+09:00",
+   "provider": "google",
+   "added": "2026-11-05T01:16:31+09:00",
+   "decode_v2": true,
+   "image_checked": true,
+   "image_v4": true,
+   "shop": false,
+   "shop_name": null,
+   "place": "outdoor",
+   "group": "54c5119d7cfa"
   },
   {
    "id": "76fdebb08796d477",
@@ -2811,6 +2830,23 @@
    "published": "2026-10-31T16:00:00+09:00",
    "provider": "google",
    "added": "2026-11-04T23:12:17+09:00",
+   "decode_v2": true,
+   "image_checked": true,
+   "image_v4": true,
+   "shop": false,
+   "shop_name": null
+  },
+  {
+   "id": "ebc19da6baf98ee9",
+   "title": "注目店が集う！激戦区・今池の絶品ラーメン5選!!",
+   "link": "https://www.walkerplus.com/article/172538/",
+   "source": "ウォーカープラス",
+   "image": "https://news.walkerplus.com/article/172538/1023310_615.jpg",
+   "category": "wadai",
+   "area": "名古屋",
+   "published": "2026-10-31T16:00:00+09:00",
+   "provider": "google",
+   "added": "2026-11-05T01:16:31+09:00",
    "decode_v2": true,
    "image_checked": true,
    "image_v4": true,

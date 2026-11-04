@@ -1,7 +1,6 @@
 {
- "updated": "2026-11-04T14:12:50+00:00",
+ "updated": "2026-11-04T16:17:05+00:00",
  "days": [
-  "2026-10-22",
   "2026-10-23",
   "2026-10-24",
   "2026-10-25",
@@ -14,7 +13,8 @@
   "2026-11-01",
   "2026-11-02",
   "2026-11-03",
-  "2026-11-04"
+  "2026-11-04",
+  "2026-11-05"
  ],
  "recent_days": 3,
  "items": [
@@ -22,12 +22,11 @@
    "label": "ファミリーマート",
    "q": "ファミリーマート",
    "kind": "chain",
-   "recent": 5,
-   "base_per_day": 0.18,
-   "ratio": 3.56,
+   "recent": 4,
+   "base_per_day": 0.27,
+   "ratio": 2.48,
    "new": false,
    "daily": [
-    0,
     0,
     0,
     0,
@@ -40,7 +39,8 @@
     0,
     1,
     3,
-    1
+    1,
+    0
    ],
    "articles": [
     {
@@ -67,54 +67,6 @@
    ]
   },
   {
-   "label": "さつまいも",
-   "q": "さつまいも",
-   "kind": "dish",
-   "recent": 3,
-   "base_per_day": 0.09,
-   "ratio": 2.75,
-   "new": false,
-   "daily": [
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    1,
-    0,
-    0,
-    0,
-    0,
-    1,
-    0,
-    2
-   ],
-   "articles": [
-    {
-     "id": "7b9d99420ff7c3e9",
-     "title": "【西武秋田店】11月20日（金）からはイベント目白押し！「あんこ・芋」「アメカジ」「バーガー」が集結、世代を超えて楽しめる秋田駅前へ",
-     "link": "http://www.excite.co.jp/news/article/Prtimes_2026-11-04-31382-2534/",
-     "source": "Excite エキサイト",
-     "image": null
-    },
-    {
-     "id": "5855015824d53975",
-     "title": "【愛知県岡崎市】お客様から頂いた焼き芋が11月中無料食べ放題に。ウッドデザインパーク岡崎と島しまファームが送る秋の味覚。",
-     "link": "https://prtimes.jp/main/html/rd/p/000001189.000045400.html",
-     "source": "PR TIMES",
-     "image": "https://prcdn.freetls.fastly.net/release_image/45400/1189/45400-1189-aaf5ad6db7fc4cf12742b75e897a4da1-3900x2600.jpg?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260"
-    },
-    {
-     "id": "78ca32ecfbcecb6a",
-     "title": "【11月4日～9日の6日間限定】静岡・掛川のお芋スイーツ専門店「おいもや」がイオンモール岡崎に今年も登場！",
-     "link": "https://prtimes.jp/main/html/rd/p/000000076.000174612.html",
-     "source": "PR TIMES",
-     "image": "https://prcdn.freetls.fastly.net/release_image/174612/76/174612-76-4adf099cb46e7bcbac6d6ab6f5d28a05-1266x713.jpg?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260"
-    }
-   ]
-  },
-  {
    "label": "きしめん",
    "q": "きしめん",
    "kind": "dish",
@@ -129,14 +81,14 @@
     0,
     0,
     0,
-    0,
     1,
     3,
     0,
     0,
     0,
     4,
-    1
+    1,
+    0
    ],
    "articles": [
     {
@@ -163,15 +115,55 @@
    ]
   },
   {
-   "label": "ローソン",
-   "q": "ローソン",
-   "kind": "chain",
-   "recent": 5,
-   "base_per_day": 0.45,
-   "ratio": 2.33,
+   "label": "ステーキ",
+   "q": "ステーキ",
+   "kind": "dish",
+   "recent": 2,
+   "base_per_day": 0.09,
+   "ratio": 1.96,
    "new": false,
    "daily": [
     0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    2,
+    0
+   ],
+   "articles": [
+    {
+     "id": "261214136c4e45c2",
+     "title": "【ステーキのあさくま】富士吉原店が11月27日（金）リニューアルオープン！11月24日（火）には極上ステーキ食べ放題「匠肉祭り」を開催 | 株式会社テンポスホールディングスのプレスリリース",
+     "link": "https://prtimes.jp/main/html/rd/p/000000329.000030130.html",
+     "source": "PR TIMES",
+     "image": "https://prcdn.freetls.fastly.net/release_image/30130/329/30130-329-090a058ce93c61dbd80dfbd99b84257d-3685x2391.png?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260"
+    },
+    {
+     "id": "67a25b3c6c64c746",
+     "title": "【2026年11月第1週】コンビニ寿司・コンビニ弁当の新商品！かしわめしやソーセージステーキ弁当などまとめ",
+     "link": "https://mognavi.jp/news/matome/gen-newProduct-29846/",
+     "source": "もぐナビ",
+     "image": "https://img1.esimg.jp/blog/wp-content/uploads/2026/11/gen-newProduct-29846.jpg?ts=1793756700000"
+    }
+   ]
+  },
+  {
+   "label": "ローソン",
+   "q": "ローソン",
+   "kind": "chain",
+   "recent": 4,
+   "base_per_day": 0.55,
+   "ratio": 1.71,
+   "new": false,
+   "daily": [
     0,
     0,
     0,
@@ -184,7 +176,8 @@
     0,
     1,
     1,
-    3
+    3,
+    0
    ],
    "articles": [
     {
@@ -211,12 +204,12 @@
    ]
   },
   {
-   "label": "ビール",
-   "q": "ビール",
+   "label": "さつまいも",
+   "q": "さつまいも",
    "kind": "dish",
-   "recent": 3,
+   "recent": 2,
    "base_per_day": 0.18,
-   "ratio": 2.26,
+   "ratio": 1.62,
    "new": false,
    "daily": [
     0,
@@ -224,338 +217,30 @@
     0,
     0,
     0,
-    0,
-    1,
     1,
     0,
     0,
     0,
-    3,
     0,
+    1,
+    0,
+    2,
     0
    ],
    "articles": [
     {
-     "id": "c1ca347c6bac8f17",
-     "title": "【明日発売】ファミマ限定のサッポロビール「コクの神髄」！ 10周年記念の新作",
-     "link": "http://www.excite.co.jp/news/article/Ascii_4447410/",
+     "id": "7b9d99420ff7c3e9",
+     "title": "【西武秋田店】11月20日（金）からはイベント目白押し！「あんこ・芋」「アメカジ」「バーガー」が集結、世代を超えて楽しめる秋田駅前へ",
+     "link": "http://www.excite.co.jp/news/article/Prtimes_2026-11-04-31382-2534/",
      "source": "Excite エキサイト",
      "image": null
     },
     {
-     "id": "ca3f394199f00a22",
-     "title": "ビールとイノシシ肉の煮込み料理 岐阜駅でジビエ味わうイベント：ニュース",
-     "link": "https://biz.chunichi.co.jp/news/article/10/132666/",
-     "source": "中日BIZナビ",
-     "image": "https://biz.chunichi.co.jp/pic/10/p1/132666_0_10.jpg"
-    },
-    {
-     "id": "27bc35539b794238",
-     "title": "【愛知・名古屋に新店舗】11月16日グランドオープン！『餃子のかっちゃん 名古屋駅西口店』が生ビール「1杯1円」の超破格キャンペーンを開催！",
-     "link": "https://prtimes.jp/main/html/rd/p/000000078.000176111.html",
+     "id": "5855015824d53975",
+     "title": "【愛知県岡崎市】お客様から頂いた焼き芋が11月中無料食べ放題に。ウッドデザインパーク岡崎と島しまファームが送る秋の味覚。",
+     "link": "https://prtimes.jp/main/html/rd/p/000001189.000045400.html",
      "source": "PR TIMES",
-     "image": "https://prcdn.freetls.fastly.net/release_image/176111/78/176111-78-11e23d96c41873e8d14745e6d12637a0-2528x1696.jpg?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260"
-    }
-   ]
-  },
-  {
-   "label": "かっぱ寿司",
-   "q": "かっぱ寿司",
-   "kind": "chain",
-   "recent": 2,
-   "base_per_day": 0.09,
-   "ratio": 1.96,
-   "new": false,
-   "daily": [
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    1,
-    0,
-    0,
-    0,
-    0,
-    1,
-    0,
-    1
-   ],
-   "articles": [
-    {
-     "id": "fe498e32a70ab522",
-     "title": "大好評企画！「かっぱ寿司×トミカ」コラボキャンペーンかっぱ寿司オリジナルのおもちゃに「かに」が仲間入り！ 第１弾『ターレー（足とハサミが動くかに）』が登場",
-     "link": "https://prtimes.jp/main/html/rd/p/000001246.000018731.html",
-     "source": "PR TIMES",
-     "image": "https://prcdn.freetls.fastly.net/release_image/18731/1246/18731-1246-7808cf3107ad850bd22c682b2f5d88c0-1200x698.jpg?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260"
-    },
-    {
-     "id": "445b56d6038d65ad",
-     "title": "抽選で2名様に10万円分の旅行券が当たる！ かっぱ寿司「11月ワクワクレシート応募キャンペーン」開催 税込5,000円以上のレシートで応募",
-     "link": "https://prtimes.jp/main/html/rd/p/000001245.000018731.html",
-     "source": "PR TIMES",
-     "image": "https://prcdn.freetls.fastly.net/release_image/18731/1245/18731-1245-f5aa81dd65a7658376624128cf7e9bbd-1200x698.jpg?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260"
-    }
-   ]
-  },
-  {
-   "label": "ピザハット",
-   "q": "ピザハット",
-   "kind": "chain",
-   "recent": 2,
-   "base_per_day": 0.09,
-   "ratio": 1.96,
-   "new": false,
-   "daily": [
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    1,
-    0,
-    0,
-    0,
-    0,
-    2,
-    0,
-    0
-   ],
-   "articles": [
-    {
-     "id": "c286c4042c7d794b",
-     "title": "【最大53％OFF！】対象6種のMサイズピザがなんと740円～のSサイズ価格で楽しめる、ピザハットの「年末前の家計応援 サイズアップ 特大セール」が大好評につき11月も開催！",
-     "link": "https://prtimes.jp/main/html/rd/p/000000389.000031164.html",
-     "source": "PR TIMES",
-     "image": "https://prcdn.freetls.fastly.net/release_image/31164/389/31164-389-3a52f3538119ed19a3a4f18f63b7b1e6-1200x630.jpg?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260"
-    },
-    {
-     "id": "8a3632ca98dced5a",
-     "title": "【お一人様500円～の最強コスパ！】ピザハットから「3種チーズのラザニア風ミートソースピザ」が新発売！大人から子供まで誰もが大好きな味わいで普段使いの新定番ピザに！",
-     "link": "https://prtimes.jp/main/html/rd/p/000000388.000031164.html",
-     "source": "PR TIMES",
-     "image": "https://prcdn.freetls.fastly.net/release_image/31164/388/31164-388-c1b592afbb28164b6384bd140f011c14-1200x630.jpg?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260"
-    }
-   ]
-  },
-  {
-   "label": "はま寿司",
-   "q": "はま寿司",
-   "kind": "chain",
-   "recent": 2,
-   "base_per_day": 0.09,
-   "ratio": 1.96,
-   "new": false,
-   "daily": [
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    1,
-    0,
-    0,
-    2,
-    0,
-    0
-   ],
-   "articles": [
-    {
-     "id": "7e4a3b92291bbc5b",
-     "title": "【はま寿司】大とろが今だけ100円（税込110円）！！「はま寿司のみなみまぐろ大とろとデカねた祭り」開催！",
-     "link": "https://prtimes.jp/main/html/rd/p/000001187.000097263.html",
-     "source": "PR TIMES",
-     "image": "https://prcdn.freetls.fastly.net/release_image/97263/1187/97263-1187-afbc30a4c852387e3306506108a91403-2361x1353.jpg?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260"
-    },
-    {
-     "id": "574c58c491f5e490",
-     "title": "大とろが90円！はま寿司の「大とろ祭り」",
-     "link": "https://www.walkerplus.com/article/112298/",
-     "source": "ウォーカープラス",
-     "image": "https://news.walkerplus.com/article/112298/619441_615.jpg"
-    }
-   ]
-  },
-  {
-   "label": "ステーキ",
-   "q": "ステーキ",
-   "kind": "dish",
-   "recent": 2,
-   "base_per_day": 0.09,
-   "ratio": 1.96,
-   "new": false,
-   "daily": [
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    1,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    2
-   ],
-   "articles": [
-    {
-     "id": "261214136c4e45c2",
-     "title": "【ステーキのあさくま】富士吉原店が11月27日（金）リニューアルオープン！11月24日（火）には極上ステーキ食べ放題「匠肉祭り」を開催 | 株式会社テンポスホールディングスのプレスリリース",
-     "link": "https://prtimes.jp/main/html/rd/p/000000329.000030130.html",
-     "source": "PR TIMES",
-     "image": "https://prcdn.freetls.fastly.net/release_image/30130/329/30130-329-090a058ce93c61dbd80dfbd99b84257d-3685x2391.png?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260"
-    },
-    {
-     "id": "67a25b3c6c64c746",
-     "title": "【2026年11月第1週】コンビニ寿司・コンビニ弁当の新商品！かしわめしやソーセージステーキ弁当などまとめ",
-     "link": "https://mognavi.jp/news/matome/gen-newProduct-29846/",
-     "source": "もぐナビ",
-     "image": "https://img1.esimg.jp/blog/wp-content/uploads/2026/11/gen-newProduct-29846.jpg?ts=1793756700000"
-    }
-   ]
-  },
-  {
-   "label": "ピザ",
-   "q": "ピザ",
-   "kind": "dish",
-   "recent": 2,
-   "base_per_day": 0.09,
-   "ratio": 1.96,
-   "new": false,
-   "daily": [
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    1,
-    0,
-    0,
-    0,
-    0,
-    2,
-    0,
-    0
-   ],
-   "articles": [
-    {
-     "id": "c286c4042c7d794b",
-     "title": "【最大53％OFF！】対象6種のMサイズピザがなんと740円～のSサイズ価格で楽しめる、ピザハットの「年末前の家計応援 サイズアップ 特大セール」が大好評につき11月も開催！",
-     "link": "https://prtimes.jp/main/html/rd/p/000000389.000031164.html",
-     "source": "PR TIMES",
-     "image": "https://prcdn.freetls.fastly.net/release_image/31164/389/31164-389-3a52f3538119ed19a3a4f18f63b7b1e6-1200x630.jpg?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260"
-    },
-    {
-     "id": "8a3632ca98dced5a",
-     "title": "【お一人様500円～の最強コスパ！】ピザハットから「3種チーズのラザニア風ミートソースピザ」が新発売！大人から子供まで誰もが大好きな味わいで普段使いの新定番ピザに！",
-     "link": "https://prtimes.jp/main/html/rd/p/000000388.000031164.html",
-     "source": "PR TIMES",
-     "image": "https://prcdn.freetls.fastly.net/release_image/31164/388/31164-388-c1b592afbb28164b6384bd140f011c14-1200x630.jpg?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260"
-    }
-   ]
-  },
-  {
-   "label": "弁当",
-   "q": "弁当",
-   "kind": "dish",
-   "recent": 3,
-   "base_per_day": 0.27,
-   "ratio": 1.93,
-   "new": false,
-   "daily": [
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    2,
-    1,
-    0,
-    0,
-    1,
-    0,
-    2
-   ],
-   "articles": [
-    {
-     "id": "67a25b3c6c64c746",
-     "title": "【2026年11月第1週】コンビニ寿司・コンビニ弁当の新商品！かしわめしやソーセージステーキ弁当などまとめ",
-     "link": "https://mognavi.jp/news/matome/gen-newProduct-29846/",
-     "source": "もぐナビ",
-     "image": "https://img1.esimg.jp/blog/wp-content/uploads/2026/11/gen-newProduct-29846.jpg?ts=1793756700000"
-    },
-    {
-     "id": "169001545ee59f59",
-     "title": "【まるや本店】創業25周年で特別感謝価格に！限定御膳や2,500円鰻弁当など鰻づくしの大創業祭｜名古屋",
-     "link": "https://ovo.kyodo.co.jp/news/life/travel-news/a-2095697",
-     "source": "OVO [オーヴォ]",
-     "image": "https://d10tw3woq6mt3i.cloudfront.net/wp-content/uploads/2026/11/kyd_2095697_699212-01.jpg"
-    },
-    {
-     "id": "6a224e92f2320c0c",
-     "title": "【キッチンオリジン】国産牛「さくらビーフ」を使用したすき焼き弁当が期間限定で登場！",
-     "link": "https://prtimes.jp/main/html/rd/p/000006166.000007505.html",
-     "source": "PR TIMES",
-     "image": "https://prcdn.freetls.fastly.net/release_image/7505/6166/7505-6166-102584b15893eb9209a7879beac882ab-1300x687.jpg?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260"
-    }
-   ]
-  },
-  {
-   "label": "寿司",
-   "q": "寿司",
-   "kind": "dish",
-   "recent": 7,
-   "base_per_day": 1.09,
-   "ratio": 1.76,
-   "new": false,
-   "daily": [
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    3,
-    2,
-    6,
-    1,
-    0,
-    4,
-    0,
-    3
-   ],
-   "articles": [
-    {
-     "id": "fe498e32a70ab522",
-     "title": "大好評企画！「かっぱ寿司×トミカ」コラボキャンペーンかっぱ寿司オリジナルのおもちゃに「かに」が仲間入り！ 第１弾『ターレー（足とハサミが動くかに）』が登場",
-     "link": "https://prtimes.jp/main/html/rd/p/000001246.000018731.html",
-     "source": "PR TIMES",
-     "image": "https://prcdn.freetls.fastly.net/release_image/18731/1246/18731-1246-7808cf3107ad850bd22c682b2f5d88c0-1200x698.jpg?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260"
-    },
-    {
-     "id": "67a25b3c6c64c746",
-     "title": "【2026年11月第1週】コンビニ寿司・コンビニ弁当の新商品！かしわめしやソーセージステーキ弁当などまとめ",
-     "link": "https://mognavi.jp/news/matome/gen-newProduct-29846/",
-     "source": "もぐナビ",
-     "image": "https://img1.esimg.jp/blog/wp-content/uploads/2026/11/gen-newProduct-29846.jpg?ts=1793756700000"
-    },
-    {
-     "id": "35455aef5916a0c7",
-     "title": "【2026年11月第1週】コンビニおにぎり・コンビニ手巻寿司の新商品！海老マヨや炭火焼紅鮭など旬の味わいまとめ",
-     "link": "https://mognavi.jp/news/matome/gen-newProduct-29845/",
-     "source": "もぐナビ",
-     "image": "https://img1.esimg.jp/blog/wp-content/uploads/2026/11/gen-newProduct-29845.jpg?ts=1793754900000"
+     "image": "https://prcdn.freetls.fastly.net/release_image/45400/1189/45400-1189-aaf5ad6db7fc4cf12742b75e897a4da1-3900x2600.jpg?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260"
     }
    ]
   }
