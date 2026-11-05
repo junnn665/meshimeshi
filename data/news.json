@@ -1,6 +1,40 @@
 {
- "updated": "2026-11-05T17:57:15+09:00",
+ "updated": "2026-11-05T18:58:32+09:00",
  "items": [
+  {
+   "id": "522218e0912cc809",
+   "title": "物価高で注目の「ワケありグルメ」 百貨店品質をお得に お歳暮商戦がスタート（2026年11月5日掲載）",
+   "link": "https://news.ntv.co.jp/category/life/cte94e89993af8492390a94ee24b236638",
+   "source": "日テレNEWS NNN",
+   "image": "https://image.gallery.play.jp/ctv-news/articles/ebd561f72b5c40d99c114aa9b5b6877c/8192dd74-42d6-4988-9f63-6557d81d845d.jpg?w=1200",
+   "category": "yasuuma",
+   "area": "東海",
+   "published": "2026-11-05T18:12:00+09:00",
+   "provider": "google",
+   "added": "2026-11-05T18:58:32+09:00",
+   "decode_v2": true,
+   "image_checked": true,
+   "image_v4": true,
+   "shop": false,
+   "shop_name": null
+  },
+  {
+   "id": "55be5b57faaa1192",
+   "title": "看板はあえて出さず…雑居ビルの隠れた名店で楽しむビストロ料理 オーナーシェフが“見つけにくさ”にこだわる理由（東海テレビ）",
+   "link": "https://news.yahoo.co.jp/articles/cca71a4b02a424a7e0b5e00d5b4df6dfefe5bc9b",
+   "source": "Yahoo!ニュース",
+   "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261105-90049086-tokaiv-000-1-view.jpg?exp=10800",
+   "category": "wadai",
+   "area": "東海",
+   "published": "2026-11-05T17:34:36+09:00",
+   "provider": "google",
+   "added": "2026-11-05T18:58:32+09:00",
+   "decode_v2": true,
+   "image_checked": true,
+   "image_v4": true,
+   "shop": false,
+   "shop_name": null
+  },
   {
    "id": "bc4126e31b5dde9a",
    "title": "【しびれるグルメ】辛さも具材も自分好みにカスタマイズ！最新｢麻辣湯｣専門店にフォーカス（静岡）",
@@ -4252,6 +4286,23 @@
    "shop_name": null
   },
   {
+   "id": "b15d95df131488de",
+   "title": "濃厚なつけ汁と自家製麺が食べ応え抜群！名古屋＆近郊の絶品つけ麺5選",
+   "link": "https://www.walkerplus.com/article/1009005/",
+   "source": "ウォーカープラス",
+   "image": "https://news.walkerplus.com/article/1009005/10081289_615.jpg",
+   "category": "wadai",
+   "area": "名古屋",
+   "published": "2026-10-30T16:00:00+09:00",
+   "provider": "google",
+   "added": "2026-11-05T18:58:32+09:00",
+   "decode_v2": true,
+   "image_checked": true,
+   "image_v4": true,
+   "shop": false,
+   "shop_name": null
+  },
+  {
    "id": "1fcc6e49cd308d09",
    "title": "ファミマに「味仙」監修の旨辛グルメ5品！ 台湾ラーメンに“ミンチ”カツも【地域限定】",
    "link": "https://ascii.jp/elem/000/004/447/4447005/",
@@ -6474,57 +6525,6 @@
    "image_v4": true,
    "shop": true,
    "shop_name": "ポムポムプリンカフェ名古屋栄店"
-  },
-  {
-   "id": "81c2721e47841700",
-   "title": "大阪風でも広島風でもない「名古屋風お好み焼き」ってなに？その特徴と誕生秘話を独自調査！",
-   "link": "https://www.walkerplus.com/article/1138813/",
-   "source": "ウォーカープラス",
-   "image": "https://news.walkerplus.com/article/1138813/11788667_615.jpg",
-   "category": "wadai",
-   "area": "名古屋",
-   "published": "2026-10-28T16:00:00+09:00",
-   "provider": "google",
-   "added": "2026-10-31T13:41:07+09:00",
-   "decode_v2": true,
-   "image_checked": true,
-   "image_v4": true,
-   "shop": false,
-   "shop_name": null
-  },
-  {
-   "id": "1a140d6206f94d2c",
-   "title": "天白区・島田の人気ベーカリーカフェ『ラルジュ』が10月30日をもって閉店",
-   "link": "https://jouhou.nagoya/large-close/",
-   "source": "名古屋情報通",
-   "image": "https://jouhou.nagoya/wp-content/uploads/2026/10/large-close001-600x400.jpg",
-   "category": "wadai",
-   "area": "東海",
-   "published": "2026-10-28T16:00:00+09:00",
-   "provider": "google",
-   "added": "2026-10-31T15:46:32+09:00",
-   "decode_v2": true,
-   "image_checked": true,
-   "image_v4": true,
-   "shop": false,
-   "shop_name": null
-  },
-  {
-   "id": "fd17ad2a1b0ef2ef",
-   "title": "美しい...そしておいしそう！食通が絶賛する、名古屋で味わうべき美食ぞろいの”高級飯テロ”",
-   "link": "https://www.walkerplus.com/article/212928/",
-   "source": "ウォーカープラス",
-   "image": "https://news.walkerplus.com/article/212928/1312182_615.jpg",
-   "category": "wadai",
-   "area": "名古屋",
-   "published": "2026-10-28T16:00:00+09:00",
-   "provider": "google",
-   "added": "2026-11-01T02:31:32+09:00",
-   "decode_v2": true,
-   "image_checked": true,
-   "image_v4": true,
-   "shop": true,
-   "shop_name": null
   }
  ]
 }
