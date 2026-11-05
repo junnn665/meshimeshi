@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-05T18:58:32+09:00",
+ "updated": "2026-11-05T19:59:20+09:00",
  "items": [
   {
    "id": "522218e0912cc809",
@@ -6525,6 +6525,59 @@
    "image_v4": true,
    "shop": true,
    "shop_name": "ポムポムプリンカフェ名古屋栄店"
+  },
+  {
+   "id": "19482056583303f5",
+   "title": "【独自調査】2026年最新：外国人に人気の飲食店ランキング[名古屋× ...",
+   "link": "https://mantan-web.jp/prtimes/article/20261028prt00m200000830a.html",
+   "source": "MANTANWEB（まんたんウェブ）",
+   "image": "https://prtimes.jp/img/24246/1450/resize/d24246-1450-d3290636b4e6e1e4d01d-14.png",
+   "category": "wadai",
+   "area": "名古屋",
+   "published": "2026-10-28T15:00:00+09:00",
+   "provider": "bing",
+   "added": "2026-11-05T19:59:20+09:00",
+   "image_checked": true,
+   "image_v4": true,
+   "shop": false,
+   "shop_name": null
+  },
+  {
+   "id": "e6f31e813c880202",
+   "title": "東北6県の絶品グルメが集結「大東北展」JR名古屋タカシマヤで10月28 ...",
+   "link": "https://jouhou.nagoya/takashimaya-touhoku2026/",
+   "source": "名古屋情報通",
+   "image": "https://jouhou.nagoya/wp-content/uploads/2026/10/takashimaya-touhoku2026001-600x400.jpg",
+   "category": "event",
+   "area": "名古屋",
+   "published": "2026-10-27T11:13:00+09:00",
+   "provider": "bing",
+   "added": "2026-11-05T19:59:20+09:00",
+   "image_checked": true,
+   "image_v4": true,
+   "shop": false,
+   "shop_name": null,
+   "venue": "ジェイアール名古屋タカシマヤ",
+   "lat": 35.17123,
+   "lng": 136.88272,
+   "place": "indoor",
+   "group": "2ecf034242a1"
+  },
+  {
+   "id": "c683b52bad7c65e1",
+   "title": "大須商店街の食べ歩きモデルコース｜名古屋観光で古着・雑貨 ...",
+   "link": "https://note.com/chakikawara/n/n42bb97e04ce9",
+   "source": "note",
+   "image": "https://assets.st-note.com/production/uploads/images/328852885/rectangle_large_type_2_21498b454543b4bf9c8187b91f96d3b2.png?fit=bounds&quality=85&width=1280",
+   "category": "yasuuma",
+   "area": "名古屋",
+   "published": "2026-10-26T15:12:00+09:00",
+   "provider": "bing",
+   "added": "2026-11-05T19:59:20+09:00",
+   "image_checked": true,
+   "image_v4": true,
+   "shop": false,
+   "shop_name": null
   }
  ]
 }
