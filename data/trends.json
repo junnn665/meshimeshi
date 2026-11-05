@@ -1,7 +1,6 @@
 {
- "updated": "2026-11-05T13:03:13+00:00",
+ "updated": "2026-11-05T20:36:08+00:00",
  "days": [
-  "2026-10-23",
   "2026-10-24",
   "2026-10-25",
   "2026-10-26",
@@ -14,106 +13,11 @@
   "2026-11-02",
   "2026-11-03",
   "2026-11-04",
-  "2026-11-05"
+  "2026-11-05",
+  "2026-11-06"
  ],
  "recent_days": 3,
  "items": [
-  {
-   "label": "ファミリーマート",
-   "q": "ファミリーマート",
-   "kind": "chain",
-   "recent": 4,
-   "base_per_day": 0.18,
-   "ratio": 2.91,
-   "new": false,
-   "daily": [
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    1,
-    0,
-    0,
-    1,
-    3,
-    1,
-    0
-   ],
-   "articles": [
-    {
-     "id": "dafff096de2ecba4",
-     "title": "台湾はるさめスープが初登場の辛旨シリーズ！ファミリーマート「味仙本店監修」全5商品",
-     "link": "https://dtimes.jp/post-1436579/",
-     "source": "Dtimes",
-     "image": "https://dtimes.jp/wp-content/uploads/2026/10/dtimes-engine-c7b1aee000383b1561efbd4554806940-20261028-88b84e.jpg"
-    },
-    {
-     "id": "4d2061d4c744560b",
-     "title": "【11月3日発売】ファミリーマート 新商品麺類まとめ「SUSURU TV. 濃厚とんこつ豚無双濃厚無双ラーメン」「味仙本店監修 台湾ラーメン」など",
-     "link": "https://entabe.jp/62021/summary-familymart-november-3rd-new-noodles",
-     "source": "えん食べ [グルメニュース]",
-     "image": "https://image.entabe.jp/upload/20261103/images/thumb_noodles.jpg"
-    },
-    {
-     "id": "527be199fe4f48b4",
-     "title": "【ファミリーマート限定】４周年記念で話題のフレーバーが再登場「冷やして食べる とろけるくりーむパン ミルク」11月3日（火・祝）発売",
-     "link": "https://prtimes.jp/main/html/rd/p/000000404.000061362.html",
-     "source": "PR TIMES",
-     "image": "https://prcdn.freetls.fastly.net/release_image/61362/404/61362-404-616054dbc83b7308e162b070e8d8cf8c-2528x1684.jpg?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260"
-    }
-   ]
-  },
-  {
-   "label": "きしめん",
-   "q": "きしめん",
-   "kind": "dish",
-   "recent": 5,
-   "base_per_day": 0.45,
-   "ratio": 2.33,
-   "new": false,
-   "daily": [
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    1,
-    4,
-    0,
-    0,
-    0,
-    4,
-    1,
-    0
-   ],
-   "articles": [
-    {
-     "id": "97c9c6d038cbf632",
-     "title": "コメダ和喫茶『おかげ庵』が黒胡麻シロノワール、麻婆豆腐きしめん、豚汁きしめんなどを11月4日から限定提供",
-     "link": "https://jouhou.nagoya/komeda-2026autumn/",
-     "source": "名古屋情報通",
-     "image": "https://jouhou.nagoya/wp-content/uploads/2026/11/komeda-202611menu001-600x410.jpg"
-    },
-    {
-     "id": "9098157f638a6d0d",
-     "title": "「宮きしめん伊兵衛 栄」の外観",
-     "link": "https://sakae.keizai.biz/photoflash/6000/",
-     "source": "サカエ経済新聞",
-     "image": "https://images.keizai.biz/sakae_keizai/photonews/1793622274_b.jpg"
-    },
-    {
-     "id": "e4ce9c4b2dcf0488",
-     "title": "看板メニューの「宮きしめん」 別添えのかつお節を注文客がふりかけて食べる",
-     "link": "https://sakae.keizai.biz/photoflash/6002/",
-     "source": "サカエ経済新聞",
-     "image": "https://images.keizai.biz/sakae_keizai/photonews/1793623095_b.jpg"
-    }
-   ]
-  },
   {
    "label": "ステーキ",
    "q": "ステーキ",
@@ -127,7 +31,6 @@
     0,
     0,
     0,
-    0,
     1,
     0,
     0,
@@ -136,6 +39,7 @@
     0,
     0,
     2,
+    0,
     0
    ],
    "articles": [
@@ -173,10 +77,10 @@
     0,
     0,
     0,
-    0,
     1,
     0,
     2,
+    0,
     0
    ],
    "articles": [
@@ -211,14 +115,14 @@
     0,
     0,
     0,
-    0,
     2,
     1,
     0,
     0,
     0,
     2,
-    1
+    1,
+    0
    ],
    "articles": [
     {
@@ -241,54 +145,6 @@
      "link": "https://mognavi.jp/news/matome/gen-newProduct-29847/",
      "source": "もぐナビ",
      "image": "https://img1.esimg.jp/blog/wp-content/uploads/2026/11/gen-newProduct-29847.jpg?ts=1793758500000"
-    }
-   ]
-  },
-  {
-   "label": "ローソン",
-   "q": "ローソン",
-   "kind": "chain",
-   "recent": 4,
-   "base_per_day": 0.55,
-   "ratio": 1.71,
-   "new": false,
-   "daily": [
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    2,
-    0,
-    3,
-    0,
-    1,
-    1,
-    3,
-    0
-   ],
-   "articles": [
-    {
-     "id": "3558835ca44199bf",
-     "title": "オリコンニュース：［きょうから1週目］ローソンストア100「デカ盛りチャレンジ」今年3回目の開催 ハムカツの量が通常の2倍になった“ハムカツサンド”など",
-     "link": "https://mainichi.jp/articles/20261104/orc/00m/200/053000c",
-     "source": "毎日新聞",
-     "image": null
-    },
-    {
-     "id": "c33b2f8d642113e5",
-     "title": "【きょうから1週目】ローソンストア100「デカ盛りチャレンジ」今年3回目の開催 ハムカツの量が通常の2倍になった“ハムカツサンド”など",
-     "link": "https://373news.com/news/national/oricon/detail/2489630",
-     "source": "南日本新聞",
-     "image": "https://373news.com/_news/oricon/photo/main/20261028_140125_size640wh_84586722.jpg"
-    },
-    {
-     "id": "c020ac40aae469f1",
-     "title": "ローソンストア100「デカ盛りチャレンジ」第1弾がいよいよスタート！ カツ2枚のカレーが“538円”、サンドは3組に増量",
-     "link": "https://gourmet.watch.impress.co.jp/docs/news/2153241.html",
-     "source": "グルメ Watch",
-     "image": "https://gourmet.watch.impress.co.jp/img/grw/list/2153/241/00.jpg"
     }
    ]
   }
