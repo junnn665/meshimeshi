@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-05T04:57:03+00:00",
+ "updated": "2026-11-05T05:58:12+00:00",
  "days": [
   "2026-10-23",
   "2026-10-24",
@@ -193,6 +193,54 @@
      "link": "https://prtimes.jp/main/html/rd/p/000001189.000045400.html",
      "source": "PR TIMES",
      "image": "https://prcdn.freetls.fastly.net/release_image/45400/1189/45400-1189-aaf5ad6db7fc4cf12742b75e897a4da1-3900x2600.jpg?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260"
+    }
+   ]
+  },
+  {
+   "label": "ハンバーガー",
+   "q": "ハンバーガー",
+   "kind": "dish",
+   "recent": 3,
+   "base_per_day": 0.27,
+   "ratio": 1.93,
+   "new": false,
+   "daily": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    2,
+    1,
+    0,
+    0,
+    0,
+    2,
+    1
+   ],
+   "articles": [
+    {
+     "id": "6c5ef2c2937c0585",
+     "title": "今年の冬は2つのご褒美バーガーが新登場「冬の白いモスバーガー」「『モスの匠味(たくみ)』黒毛和牛ダブルバーガー ～大葉の香味ソース ゆず皮添え～」",
+     "link": "https://prtimes.jp/main/html/rd/p/000000649.000075449.html",
+     "source": "PR TIMES",
+     "image": "https://prcdn.freetls.fastly.net/release_image/75449/649/75449-649-908b942a1faa4cd5afbe6f448392d265-3439x2433.jpg?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260"
+    },
+    {
+     "id": "7b9d99420ff7c3e9",
+     "title": "【西武秋田店】11月20日（金）からはイベント目白押し！「あんこ・芋」「アメカジ」「バーガー」が集結、世代を超えて楽しめる秋田駅前へ",
+     "link": "http://www.excite.co.jp/news/article/Prtimes_2026-11-04-31382-2534/",
+     "source": "Excite エキサイト",
+     "image": null
+    },
+    {
+     "id": "a9858656085c9657",
+     "title": "【2026年11月第1週】コンビニサンドイッチ・コンビニパンの新商品！あんバターフランスやチーズバーガーなどまとめ",
+     "link": "https://mognavi.jp/news/matome/gen-newProduct-29847/",
+     "source": "もぐナビ",
+     "image": "https://img1.esimg.jp/blog/wp-content/uploads/2026/11/gen-newProduct-29847.jpg?ts=1793758500000"
     }
    ]
   },

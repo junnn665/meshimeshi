@@ -1,6 +1,38 @@
 {
- "updated": "2026-11-05T13:56:32+09:00",
+ "updated": "2026-11-05T14:57:48+09:00",
  "items": [
+  {
+   "id": "6c5ef2c2937c0585",
+   "title": "今年の冬は2つのご褒美バーガーが新登場「冬の白いモスバーガー」「『モスの匠味(たくみ)』黒毛和牛ダブルバーガー ～大葉の香味ソース ゆず皮添え～」",
+   "link": "https://prtimes.jp/main/html/rd/p/000000649.000075449.html",
+   "source": "PR TIMES",
+   "image": "https://prcdn.freetls.fastly.net/release_image/75449/649/75449-649-908b942a1faa4cd5afbe6f448392d265-3439x2433.jpg?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260",
+   "category": "chain",
+   "area": "全国",
+   "published": "2026-11-05T14:40:43+09:00",
+   "provider": "prtimes",
+   "added": "2026-11-05T14:57:48+09:00",
+   "image_checked": true,
+   "image_v4": true,
+   "shop": false,
+   "shop_name": null
+  },
+  {
+   "id": "784595824a5024da",
+   "title": "名古屋の魅力を学べる『名古屋観光検定』受検受付開始 初級は受検料無料、合格者には観光施設の割引・飲食店の特典も",
+   "link": "https://prtimes.jp/main/html/rd/p/000000298.000017610.html",
+   "source": "PR TIMES",
+   "image": "https://prcdn.freetls.fastly.net/release_image/17610/298/17610-298-40a68da5725ed7a72a1c2300aaa486ce-650x307.png?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260",
+   "category": "chain",
+   "area": "名古屋",
+   "published": "2026-11-05T14:15:20+09:00",
+   "provider": "prtimes",
+   "added": "2026-11-05T14:57:48+09:00",
+   "image_checked": true,
+   "image_v4": true,
+   "shop": false,
+   "shop_name": null
+  },
   {
    "id": "b14d91d968ae2751",
    "title": "【朝食から出会う、京都と名古屋の食文化】「コンフォートホテルERA京都堀川五条」「コンフォートホテルERA名古屋名駅南」の地産地消メニュー・ご当地メニューをリニューアル",
