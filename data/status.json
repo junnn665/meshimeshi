@@ -1,11 +1,13 @@
 {
- "updated": "2026-11-05T12:53:31+09:00",
- "items": 374,
- "with_image": 342,
- "google_decode_ok": 31,
+ "updated": "2026-11-05T13:56:32+09:00",
+ "items": 375,
+ "with_image": 343,
+ "google_decode_ok": 26,
  "google_decode_failed": 0,
  "google_decode_samples": [],
  "image_failures": [
-  "news.nicovideo.jp: HTTPError: HTTP Error 403: Forbidden"
+  "www.excite.co.jp: HTTPError: HTTP Error 403: Forbidden",
+  "news.nicovideo.jp: HTTPError: HTTP Error 403: Forbidden",
+  "www.alwayslovebeer.com: URLError: <urlopen error timed out>"
  ]
 }
