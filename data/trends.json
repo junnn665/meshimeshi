@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-06T17:23:12+00:00",
+ "updated": "2026-11-06T22:59:33+00:00",
  "days": [
   "2026-10-25",
   "2026-10-26",
@@ -63,6 +63,47 @@
      "link": "https://www.oricon.co.jp/news/2491097/full/",
      "source": "オリコンニュース",
      "image": "https://contents.oricon.co.jp/upimg/news/2492000/2491097/20261106_110650_p_o_29174846.jpg"
+    }
+   ]
+  },
+  {
+   "label": "からあげ",
+   "q": "からあげ",
+   "kind": "dish",
+   "recent": 2,
+   "base_per_day": 0.09,
+   "ratio": 1.96,
+   "new": false,
+   "daily": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    1
+   ],
+   "articles": [
+    {
+     "id": "6c4e44582ece476a",
+     "title": "今週新発売のコンビニホットスナックまとめ！『おかしなチキンとんがりコーン焼とうもろこし風』、『サクッと！からあげクン じゃがりこ明太チーズもんじゃ味』など",
+     "link": "https://mognavi.jp/news/recommend-hot/recommend-hot2026110701/",
+     "source": "もぐナビ",
+     "image": "https://mognavi.jp/image/cache/blog/blog_eyecatch_og_image_recommend-hot2026110701.jpg?ts=1794002400000"
+    },
+    {
+     "id": "9e35a20ffa7c0a94",
+     "title": "矢場味仙 TOKYO 恵比寿店 11/6 爆誕☆ 名古屋の有名店がそのまま東京に◎ 渋谷店より大きい厨房で“あの絶品メニュー”があれこれ体感できて◎ ミニ台湾ラーメン カニ＆カエルの唐揚げ...（tokyochips）",
+     "link": "https://topics.smt.docomo.ne.jp/article/tokyochips/trend/tokyochips-64727?utm_source=dnews&utm_medium=article&utm_campaign=contentsmatch1",
+     "source": "ｄメニューニュース",
+     "image": "https://img.topics.smt.news.goo.ne.jp/-/20261028100531/img/dmenu_service-brand-logo_200x200.png"
     }
    ]
   },

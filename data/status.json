@@ -1,15 +1,12 @@
 {
- "updated": "2026-11-07T02:22:46+09:00",
- "items": 385,
- "with_image": 352,
- "google_decode_ok": 29,
+ "updated": "2026-11-07T07:59:07+09:00",
+ "items": 383,
+ "with_image": 350,
+ "google_decode_ok": 19,
  "google_decode_failed": 0,
  "google_decode_samples": [],
  "image_failures": [
   "www.excite.co.jp: HTTPError: HTTP Error 403: Forbidden",
-  "news.nicovideo.jp: HTTPError: HTTP Error 403: Forbidden",
-  "www.tokyocitykeiba.com: HTTPError: HTTP Error 403: Forbidden",
-  "mognavi.jp: HTTPError: HTTP Error 403: Forbidden",
   "www.excite.co.jp: HTTPError: HTTP Error 403: Forbidden"
  ]
 }
