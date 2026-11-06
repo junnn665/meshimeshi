@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-05T20:36:08+00:00",
+ "updated": "2026-11-06T01:28:54+00:00",
  "days": [
   "2026-10-24",
   "2026-10-25",
@@ -145,6 +145,54 @@
      "link": "https://mognavi.jp/news/matome/gen-newProduct-29847/",
      "source": "もぐナビ",
      "image": "https://img1.esimg.jp/blog/wp-content/uploads/2026/11/gen-newProduct-29847.jpg?ts=1793758500000"
+    }
+   ]
+  },
+  {
+   "label": "弁当",
+   "q": "弁当",
+   "kind": "dish",
+   "recent": 3,
+   "base_per_day": 0.36,
+   "ratio": 1.67,
+   "new": false,
+   "daily": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    2,
+    1,
+    0,
+    0,
+    1,
+    0,
+    2,
+    0,
+    1
+   ],
+   "articles": [
+    {
+     "id": "096632af20eca5e1",
+     "title": "高級名古屋めし「ひつまぶし」の食べ放題も！「まるや本店」創業25周年を記念した「大創業祭」が2026年11月6日～30日に開催 お得な限定御膳＆鰻弁当、記念袋など注目企画を詳細解説【植田 他】",
+     "link": "https://nagoyato.com/posts/20694",
+     "source": "ナゴヤトコトン",
+     "image": "https://nagoyato.com/wp-content/uploads/2026/11/img_643146_1.jpg"
+    },
+    {
+     "id": "67a25b3c6c64c746",
+     "title": "【2026年11月第1週】コンビニ寿司・コンビニ弁当の新商品！かしわめしやソーセージステーキ弁当などまとめ",
+     "link": "https://mognavi.jp/news/matome/gen-newProduct-29846/",
+     "source": "もぐナビ",
+     "image": "https://img1.esimg.jp/blog/wp-content/uploads/2026/11/gen-newProduct-29846.jpg?ts=1793756700000"
+    },
+    {
+     "id": "169001545ee59f59",
+     "title": "【まるや本店】創業25周年で特別感謝価格に！限定御膳や2,500円鰻弁当など鰻づくしの大創業祭｜名古屋",
+     "link": "https://ovo.kyodo.co.jp/news/life/travel-news/a-2095697",
+     "source": "OVO [オーヴォ]",
+     "image": "https://d10tw3woq6mt3i.cloudfront.net/wp-content/uploads/2026/11/kyd_2095697_699212-01.jpg"
     }
    ]
   }
