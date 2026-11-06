@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-06T01:28:54+00:00",
+ "updated": "2026-11-06T09:15:36+00:00",
  "days": [
   "2026-10-24",
   "2026-10-25",
@@ -19,19 +19,115 @@
  "recent_days": 3,
  "items": [
   {
-   "label": "ステーキ",
-   "q": "ステーキ",
+   "label": "バーガーキング",
+   "q": "バーガーキング",
+   "kind": "chain",
+   "recent": 3,
+   "base_per_day": 0.0,
+   "ratio": 3.5,
+   "new": true,
+   "daily": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    3
+   ],
+   "articles": [
+    {
+     "id": "9d78e795fadf8a8d",
+     "title": "福島県伊達市にバーガーキングがオープン！ 11月以降の新店舗情報が公開",
+     "link": "https://game.watch.impress.co.jp/docs/news/2154246.html",
+     "source": "GAME Watch",
+     "image": "https://game.watch.impress.co.jp/img/gmw/list/2154/246/1.jpg"
+    },
+    {
+     "id": "147c494966f008d9",
+     "title": "バーガーキングが福島、愛知、東京、福岡などで16店舗オープン。12月中旬までに400店舗を突破（グルメ Watch）",
+     "link": "https://news.yahoo.co.jp/articles/5e9fee830c0eb6022a77955414c51e67ee0f59a2",
+     "source": "Yahoo!ニュース",
+     "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261106-00000021-impgrw-000-1-view.jpg?exp=10800"
+    },
+    {
+     "id": "5eb5541ac342b22e",
+     "title": "「バーガーキング」全国400店を突破“一挙16店をオープン” 2028年600店舗に向けて出店を加速【新店舗の概要一覧】",
+     "link": "https://www.oricon.co.jp/news/2491097/full/",
+     "source": "オリコンニュース",
+     "image": "https://contents.oricon.co.jp/upimg/news/2492000/2491097/20261106_110650_p_o_29174846.jpg"
+    }
+   ]
+  },
+  {
+   "label": "ハンバーガー",
+   "q": "ハンバーガー",
    "kind": "dish",
-   "recent": 2,
-   "base_per_day": 0.09,
-   "ratio": 1.96,
+   "recent": 6,
+   "base_per_day": 0.27,
+   "ratio": 3.58,
    "new": false,
    "daily": [
     0,
     0,
     0,
     0,
+    0,
+    0,
+    2,
     1,
+    0,
+    0,
+    0,
+    2,
+    1,
+    3
+   ],
+   "articles": [
+    {
+     "id": "9d78e795fadf8a8d",
+     "title": "福島県伊達市にバーガーキングがオープン！ 11月以降の新店舗情報が公開",
+     "link": "https://game.watch.impress.co.jp/docs/news/2154246.html",
+     "source": "GAME Watch",
+     "image": "https://game.watch.impress.co.jp/img/gmw/list/2154/246/1.jpg"
+    },
+    {
+     "id": "147c494966f008d9",
+     "title": "バーガーキングが福島、愛知、東京、福岡などで16店舗オープン。12月中旬までに400店舗を突破（グルメ Watch）",
+     "link": "https://news.yahoo.co.jp/articles/5e9fee830c0eb6022a77955414c51e67ee0f59a2",
+     "source": "Yahoo!ニュース",
+     "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261106-00000021-impgrw-000-1-view.jpg?exp=10800"
+    },
+    {
+     "id": "5eb5541ac342b22e",
+     "title": "「バーガーキング」全国400店を突破“一挙16店をオープン” 2028年600店舗に向けて出店を加速【新店舗の概要一覧】",
+     "link": "https://www.oricon.co.jp/news/2491097/full/",
+     "source": "オリコンニュース",
+     "image": "https://contents.oricon.co.jp/upimg/news/2492000/2491097/20261106_110650_p_o_29174846.jpg"
+    }
+   ]
+  },
+  {
+   "label": "ステーキ",
+   "q": "ステーキ",
+   "kind": "dish",
+   "recent": 2,
+   "base_per_day": 0.0,
+   "ratio": 2.5,
+   "new": true,
+   "daily": [
+    0,
+    0,
+    0,
+    0,
+    0,
     0,
     0,
     0,
@@ -49,6 +145,95 @@
      "link": "https://prtimes.jp/main/html/rd/p/000000329.000030130.html",
      "source": "PR TIMES",
      "image": "https://prcdn.freetls.fastly.net/release_image/30130/329/30130-329-090a058ce93c61dbd80dfbd99b84257d-3685x2391.png?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260"
+    },
+    {
+     "id": "67a25b3c6c64c746",
+     "title": "【2026年11月第1週】コンビニ寿司・コンビニ弁当の新商品！かしわめしやソーセージステーキ弁当などまとめ",
+     "link": "https://mognavi.jp/news/matome/gen-newProduct-29846/",
+     "source": "もぐナビ",
+     "image": "https://img1.esimg.jp/blog/wp-content/uploads/2026/11/gen-newProduct-29846.jpg?ts=1793756700000"
+    }
+   ]
+  },
+  {
+   "label": "かっぱ寿司",
+   "q": "かっぱ寿司",
+   "kind": "chain",
+   "recent": 2,
+   "base_per_day": 0.09,
+   "ratio": 1.96,
+   "new": false,
+   "daily": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    1,
+    0,
+    1
+   ],
+   "articles": [
+    {
+     "id": "0be61ca583a2f9a7",
+     "title": "かっぱ寿司初の「福袋」が数量限定で登場！オリジナルのおすし柄ミニトートバッグや手ぬぐい、人気のお醤油セットや、かっぱ茶などを詰め合わせた「かっぱの福袋２０２７」が１１月９日（月）より事前予約開始！",
+     "link": "https://prtimes.jp/main/html/rd/p/000001248.000018731.html",
+     "source": "PR TIMES",
+     "image": "https://prcdn.freetls.fastly.net/release_image/18731/1248/18731-1248-a05474d924a5f33db7ae7193af4cfada-1200x698.jpg?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260"
+    },
+    {
+     "id": "fe498e32a70ab522",
+     "title": "大好評企画！「かっぱ寿司×トミカ」コラボキャンペーンかっぱ寿司オリジナルのおもちゃに「かに」が仲間入り！ 第１弾『ターレー（足とハサミが動くかに）』が登場",
+     "link": "https://prtimes.jp/main/html/rd/p/000001246.000018731.html",
+     "source": "PR TIMES",
+     "image": "https://prcdn.freetls.fastly.net/release_image/18731/1246/18731-1246-7808cf3107ad850bd22c682b2f5d88c0-1200x698.jpg?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260"
+    }
+   ]
+  },
+  {
+   "label": "弁当",
+   "q": "弁当",
+   "kind": "dish",
+   "recent": 4,
+   "base_per_day": 0.36,
+   "ratio": 2.15,
+   "new": false,
+   "daily": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    2,
+    1,
+    0,
+    0,
+    1,
+    0,
+    2,
+    1,
+    1
+   ],
+   "articles": [
+    {
+     "id": "096632af20eca5e1",
+     "title": "高級名古屋めし「ひつまぶし」の食べ放題も！「まるや本店」創業25周年を記念した「大創業祭」が2026年11月6日～30日に開催 お得な限定御膳＆鰻弁当、記念袋など注目企画を詳細解説【植田 他】",
+     "link": "https://nagoyato.com/posts/20694",
+     "source": "ナゴヤトコトン",
+     "image": "https://nagoyato.com/wp-content/uploads/2026/11/img_643146_1.jpg"
+    },
+    {
+     "id": "b9eb4a6850698b72",
+     "title": "今週新発売のコンビニ寿司・コンビニ弁当",
+     "link": "http://www.excite.co.jp/news/article/Mognavi_2026110502/",
+     "source": "Excite エキサイト",
+     "image": null
     },
     {
      "id": "67a25b3c6c64c746",
@@ -101,12 +286,12 @@
    ]
   },
   {
-   "label": "ハンバーガー",
-   "q": "ハンバーガー",
+   "label": "ピザ",
+   "q": "ピザ",
    "kind": "dish",
-   "recent": 3,
-   "base_per_day": 0.27,
-   "ratio": 1.93,
+   "recent": 2,
+   "base_per_day": 0.18,
+   "ratio": 1.62,
    "new": false,
    "daily": [
     0,
@@ -115,84 +300,29 @@
     0,
     0,
     0,
-    2,
-    1,
     0,
     0,
     0,
     2,
-    1,
-    0
-   ],
-   "articles": [
-    {
-     "id": "6c5ef2c2937c0585",
-     "title": "今年の冬は2つのご褒美バーガーが新登場「冬の白いモスバーガー」「『モスの匠味(たくみ)』黒毛和牛ダブルバーガー ～大葉の香味ソース ゆず皮添え～」",
-     "link": "https://prtimes.jp/main/html/rd/p/000000649.000075449.html",
-     "source": "PR TIMES",
-     "image": "https://prcdn.freetls.fastly.net/release_image/75449/649/75449-649-908b942a1faa4cd5afbe6f448392d265-3439x2433.jpg?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260"
-    },
-    {
-     "id": "7b9d99420ff7c3e9",
-     "title": "【西武秋田店】11月20日（金）からはイベント目白押し！「あんこ・芋」「アメカジ」「バーガー」が集結、世代を超えて楽しめる秋田駅前へ",
-     "link": "http://www.excite.co.jp/news/article/Prtimes_2026-11-04-31382-2534/",
-     "source": "Excite エキサイト",
-     "image": null
-    },
-    {
-     "id": "a9858656085c9657",
-     "title": "【2026年11月第1週】コンビニサンドイッチ・コンビニパンの新商品！あんバターフランスやチーズバーガーなどまとめ",
-     "link": "https://mognavi.jp/news/matome/gen-newProduct-29847/",
-     "source": "もぐナビ",
-     "image": "https://img1.esimg.jp/blog/wp-content/uploads/2026/11/gen-newProduct-29847.jpg?ts=1793758500000"
-    }
-   ]
-  },
-  {
-   "label": "弁当",
-   "q": "弁当",
-   "kind": "dish",
-   "recent": 3,
-   "base_per_day": 0.36,
-   "ratio": 1.67,
-   "new": false,
-   "daily": [
-    0,
-    0,
-    0,
-    0,
-    0,
-    2,
-    1,
     0,
     0,
     1,
-    0,
-    2,
-    0,
     1
    ],
    "articles": [
     {
-     "id": "096632af20eca5e1",
-     "title": "高級名古屋めし「ひつまぶし」の食べ放題も！「まるや本店」創業25周年を記念した「大創業祭」が2026年11月6日～30日に開催 お得な限定御膳＆鰻弁当、記念袋など注目企画を詳細解説【植田 他】",
-     "link": "https://nagoyato.com/posts/20694",
-     "source": "ナゴヤトコトン",
-     "image": "https://nagoyato.com/wp-content/uploads/2026/11/img_643146_1.jpg"
+     "id": "c9d056d89a41b5e8",
+     "title": "【Mサイズピザが810円～の特別な3日間】毎月8・9・10日はピザハットの「ハットの日」！今月は話題の新作ピザも810円で食べられる！",
+     "link": "https://prtimes.jp/main/html/rd/p/000000391.000031164.html",
+     "source": "PR TIMES",
+     "image": "https://prcdn.freetls.fastly.net/release_image/31164/391/31164-391-b81f8b09bd9a3a08adf9cb40132c5aee-1200x630.jpg?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260"
     },
     {
-     "id": "67a25b3c6c64c746",
-     "title": "【2026年11月第1週】コンビニ寿司・コンビニ弁当の新商品！かしわめしやソーセージステーキ弁当などまとめ",
-     "link": "https://mognavi.jp/news/matome/gen-newProduct-29846/",
-     "source": "もぐナビ",
-     "image": "https://img1.esimg.jp/blog/wp-content/uploads/2026/11/gen-newProduct-29846.jpg?ts=1793756700000"
-    },
-    {
-     "id": "169001545ee59f59",
-     "title": "【まるや本店】創業25周年で特別感謝価格に！限定御膳や2,500円鰻弁当など鰻づくしの大創業祭｜名古屋",
-     "link": "https://ovo.kyodo.co.jp/news/life/travel-news/a-2095697",
-     "source": "OVO [オーヴォ]",
-     "image": "https://d10tw3woq6mt3i.cloudfront.net/wp-content/uploads/2026/11/kyd_2095697_699212-01.jpg"
+     "id": "633409cb0b490aba",
+     "title": "生活シーンを切り取った特別空間で“アラジンのある暮らし”を覗く4日間 ～ガストースターの先行販売や、焼きたてピザ・淹れたてコーヒーの試食・試飲も充実～『アラジン展』開催のお知らせ",
+     "link": "https://prtimes.jp/main/html/rd/p/000000201.000015006.html",
+     "source": "PR TIMES",
+     "image": "https://prcdn.freetls.fastly.net/release_image/15006/201/15006-201-2e0317794ed74dd82c0dc7373fa100a0-2600x1464.jpg?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260"
     }
    ]
   }
