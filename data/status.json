@@ -1,19 +1,15 @@
 {
- "updated": "2026-11-06T18:15:05+09:00",
- "items": 380,
- "with_image": 350,
- "google_decode_ok": 34,
+ "updated": "2026-11-07T02:22:46+09:00",
+ "items": 385,
+ "with_image": 352,
+ "google_decode_ok": 29,
  "google_decode_failed": 0,
  "google_decode_samples": [],
  "image_failures": [
-  "tetsudo-ch.com: HTTPError: HTTP Error 403: Forbidden",
   "www.excite.co.jp: HTTPError: HTTP Error 403: Forbidden",
-  "mainichi.jp: HTTPError: HTTP Error 403: Forbidden",
-  "www.msn.com: og:image なし (43949 文字)",
-  "www.msn.com: og:image なし (44232 文字)",
-  "f-weeklyweb.com: og:image なし (73241 文字)",
-  "www.excite.co.jp: HTTPError: HTTP Error 403: Forbidden",
-  "hino.goguynet.jp: HTTPError: HTTP Error 404: Not Found",
+  "news.nicovideo.jp: HTTPError: HTTP Error 403: Forbidden",
+  "www.tokyocitykeiba.com: HTTPError: HTTP Error 403: Forbidden",
+  "mognavi.jp: HTTPError: HTTP Error 403: Forbidden",
   "www.excite.co.jp: HTTPError: HTTP Error 403: Forbidden"
  ]
 }
