@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-07T02:40:33+00:00",
+ "updated": "2026-11-07T09:54:43+00:00",
  "days": [
   "2026-10-25",
   "2026-10-26",
@@ -67,6 +67,88 @@
    ]
   },
   {
+   "label": "世界の山ちゃん",
+   "q": "世界の山ちゃん",
+   "kind": "chain",
+   "recent": 2,
+   "base_per_day": 0.0,
+   "ratio": 2.5,
+   "new": true,
+   "daily": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    1
+   ],
+   "articles": [
+    {
+     "id": "5e2ac5a4a0f45598",
+     "title": "世界の山ちゃん クリスマス限定バーレル2種を11月9日より予約受付開始！先着2,000名様にオリジナル取皿をプレゼント！手羽先ブランケットが当たる企画も",
+     "link": "https://prtimes.jp/main/html/rd/p/000000020.000183380.html",
+     "source": "PR TIMES",
+     "image": "https://prcdn.freetls.fastly.net/release_image/183380/20/183380-20-2a1ab7b1d2510b16cca5ec196642e6db-2758x2651.png?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260"
+    },
+    {
+     "id": "36f751a276b0a174",
+     "title": "ご当地グルメとポークビッツがコラボ 「ヨコイ」「世界の山ちゃん」など5店舗とのコラボメニュー販売",
+     "link": "https://news.tv-aichi.co.jp/single.php?id=10565",
+     "source": "愛知のニュース",
+     "image": "https://news.tv-aichi.co.jp/data/10565/t-image.jpg?v=1793954620"
+    }
+   ]
+  },
+  {
+   "label": "パフェ",
+   "q": "パフェ",
+   "kind": "dish",
+   "recent": 2,
+   "base_per_day": 0.09,
+   "ratio": 1.96,
+   "new": false,
+   "daily": [
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    1
+   ],
+   "articles": [
+    {
+     "id": "39ac479969447ee6",
+     "title": "りんごを重ねた冬限定の紅茶パフェ！大名古屋ビル Shops & Restaurants／東京恵比寿 串亭「旬果りんごと香る紅茶の冬パフェ」",
+     "link": "https://dtimes.jp/post-1456332/",
+     "source": "Dtimes",
+     "image": "https://dtimes.jp/wp-content/uploads/2026/11/dtimes-engine-5160d8674677d879a045a7d2c1597347-20261107-a268f5.jpg"
+    },
+    {
+     "id": "863c8a8dfef098f2",
+     "title": "【セブンイレブン】すいとんがパフェに!?",
+     "link": "https://news.nicovideo.jp/watch/nw19964663?news_ref=search_search",
+     "source": "ニコニコニュース",
+     "image": null
+    }
+   ]
+  },
+  {
    "label": "からあげ",
    "q": "からあげ",
    "kind": "dish",
@@ -104,6 +186,54 @@
      "link": "https://topics.smt.docomo.ne.jp/article/tokyochips/trend/tokyochips-64727?utm_source=dnews&utm_medium=article&utm_campaign=contentsmatch1",
      "source": "ｄメニューニュース",
      "image": "https://img.topics.smt.news.goo.ne.jp/-/20261028100531/img/dmenu_service-brand-logo_200x200.png"
+    }
+   ]
+  },
+  {
+   "label": "ビール",
+   "q": "ビール",
+   "kind": "dish",
+   "recent": 3,
+   "base_per_day": 0.27,
+   "ratio": 1.93,
+   "new": false,
+   "daily": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    3,
+    0,
+    0,
+    0,
+    2,
+    1
+   ],
+   "articles": [
+    {
+     "id": "a27f2e56c60043a4",
+     "title": "ソースをまとった牛ホホ肉の一皿が冬のごちそうに！大名古屋ビル Shops & Restaurants／世界のビール博物館「牛ホホ肉のカルボナード・フラマンド」",
+     "link": "https://dtimes.jp/post-1456336/",
+     "source": "Dtimes",
+     "image": "https://dtimes.jp/wp-content/uploads/2026/11/dtimes-engine-6a84b448021497b02a6d68fd9ccd1433-20261107-61017f.jpg"
+    },
+    {
+     "id": "4f0bde4b5c5a6aed",
+     "title": "アサヒビール×グランパスのオリジナルカクテル２種が新発売！",
+     "link": "https://sportsmania.jp/369616/",
+     "source": "スポーツマニア",
+     "image": "https://prcdn.freetls.fastly.net/release_image/54020/104/54020-104-1e71eec1f4c334ab5a6ab471116744d2-1191x1684.jpg?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260"
+    },
+    {
+     "id": "cbb6bc78616c5fce",
+     "title": "生ビール付き飲み放題2時間が300円（税込330円）に！「個室完備 博多大衆酒場 あいらしか 金山店」2026年11月10日（火）グランドオープン",
+     "link": "https://prtimes.jp/main/html/rd/p/000000260.000035671.html",
+     "source": "PR TIMES",
+     "image": "https://prcdn.freetls.fastly.net/release_image/35671/260/35671-260-d0a8d0229d03510d08e65e6cf040155d-3900x2601.jpg?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260"
     }
    ]
   },
