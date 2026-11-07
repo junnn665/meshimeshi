@@ -1,7 +1,6 @@
 {
- "updated": "2026-11-07T09:54:43+00:00",
+ "updated": "2026-11-07T16:18:22+00:00",
  "days": [
-  "2026-10-25",
   "2026-10-26",
   "2026-10-27",
   "2026-10-28",
@@ -14,7 +13,8 @@
   "2026-11-04",
   "2026-11-05",
   "2026-11-06",
-  "2026-11-07"
+  "2026-11-07",
+  "2026-11-08"
  ],
  "recent_days": 3,
  "items": [
@@ -38,8 +38,8 @@
     0,
     0,
     0,
-    0,
     3,
+    0,
     0
    ],
    "articles": [
@@ -86,9 +86,9 @@
     0,
     0,
     0,
-    0,
     1,
-    1
+    1,
+    0
    ],
    "articles": [
     {
@@ -119,7 +119,6 @@
     0,
     0,
     0,
-    0,
     1,
     0,
     0,
@@ -129,7 +128,8 @@
     0,
     0,
     1,
-    1
+    1,
+    0
    ],
    "articles": [
     {
@@ -149,47 +149,6 @@
    ]
   },
   {
-   "label": "からあげ",
-   "q": "からあげ",
-   "kind": "dish",
-   "recent": 2,
-   "base_per_day": 0.09,
-   "ratio": 1.96,
-   "new": false,
-   "daily": [
-    0,
-    0,
-    0,
-    0,
-    0,
-    1,
-    0,
-    0,
-    0,
-    0,
-    0,
-    1,
-    0,
-    1
-   ],
-   "articles": [
-    {
-     "id": "6c4e44582ece476a",
-     "title": "今週新発売のコンビニホットスナックまとめ！『おかしなチキンとんがりコーン焼とうもろこし風』、『サクッと！からあげクン じゃがりこ明太チーズもんじゃ味』など",
-     "link": "https://mognavi.jp/news/recommend-hot/recommend-hot2026110701/",
-     "source": "もぐナビ",
-     "image": "https://mognavi.jp/image/cache/blog/blog_eyecatch_og_image_recommend-hot2026110701.jpg?ts=1794002400000"
-    },
-    {
-     "id": "9e35a20ffa7c0a94",
-     "title": "矢場味仙 TOKYO 恵比寿店 11/6 爆誕☆ 名古屋の有名店がそのまま東京に◎ 渋谷店より大きい厨房で“あの絶品メニュー”があれこれ体感できて◎ ミニ台湾ラーメン カニ＆カエルの唐揚げ...（tokyochips）",
-     "link": "https://topics.smt.docomo.ne.jp/article/tokyochips/trend/tokyochips-64727?utm_source=dnews&utm_medium=article&utm_campaign=contentsmatch1",
-     "source": "ｄメニューニュース",
-     "image": "https://img.topics.smt.news.goo.ne.jp/-/20261028100531/img/dmenu_service-brand-logo_200x200.png"
-    }
-   ]
-  },
-  {
    "label": "ビール",
    "q": "ビール",
    "kind": "dish",
@@ -205,13 +164,13 @@
     0,
     0,
     0,
-    0,
     3,
     0,
     0,
     0,
     2,
-    1
+    1,
+    0
    ],
    "articles": [
     {
@@ -234,95 +193,6 @@
      "link": "https://prtimes.jp/main/html/rd/p/000000260.000035671.html",
      "source": "PR TIMES",
      "image": "https://prcdn.freetls.fastly.net/release_image/35671/260/35671-260-d0a8d0229d03510d08e65e6cf040155d-3900x2601.jpg?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260"
-    }
-   ]
-  },
-  {
-   "label": "ハンバーガー",
-   "q": "ハンバーガー",
-   "kind": "dish",
-   "recent": 4,
-   "base_per_day": 0.45,
-   "ratio": 1.9,
-   "new": false,
-   "daily": [
-    0,
-    0,
-    0,
-    0,
-    0,
-    2,
-    1,
-    0,
-    0,
-    0,
-    2,
-    1,
-    3,
-    0
-   ],
-   "articles": [
-    {
-     "id": "9d78e795fadf8a8d",
-     "title": "福島県伊達市にバーガーキングがオープン！ 11月以降の新店舗情報が公開",
-     "link": "https://game.watch.impress.co.jp/docs/news/2154246.html",
-     "source": "GAME Watch",
-     "image": "https://game.watch.impress.co.jp/img/gmw/list/2154/246/1.jpg"
-    },
-    {
-     "id": "147c494966f008d9",
-     "title": "バーガーキングが福島、愛知、東京、福岡などで16店舗オープン。12月中旬までに400店舗を突破（グルメ Watch）",
-     "link": "https://news.yahoo.co.jp/articles/5e9fee830c0eb6022a77955414c51e67ee0f59a2",
-     "source": "Yahoo!ニュース",
-     "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261106-00000021-impgrw-000-1-view.jpg?exp=10800"
-    },
-    {
-     "id": "5eb5541ac342b22e",
-     "title": "「バーガーキング」全国400店を突破“一挙16店をオープン” 2028年600店舗に向けて出店を加速【新店舗の概要一覧】",
-     "link": "https://www.oricon.co.jp/news/2491097/full/",
-     "source": "オリコンニュース",
-     "image": "https://contents.oricon.co.jp/upimg/news/2492000/2491097/20261106_110650_p_o_29174846.jpg"
-    }
-   ]
-  },
-  {
-   "label": "ピザ",
-   "q": "ピザ",
-   "kind": "dish",
-   "recent": 2,
-   "base_per_day": 0.18,
-   "ratio": 1.62,
-   "new": false,
-   "daily": [
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    2,
-    0,
-    0,
-    1,
-    1,
-    0
-   ],
-   "articles": [
-    {
-     "id": "c9d056d89a41b5e8",
-     "title": "【Mサイズピザが810円～の特別な3日間】毎月8・9・10日はピザハットの「ハットの日」！今月は話題の新作ピザも810円で食べられる！",
-     "link": "https://prtimes.jp/main/html/rd/p/000000391.000031164.html",
-     "source": "PR TIMES",
-     "image": "https://prcdn.freetls.fastly.net/release_image/31164/391/31164-391-b81f8b09bd9a3a08adf9cb40132c5aee-1200x630.jpg?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260"
-    },
-    {
-     "id": "633409cb0b490aba",
-     "title": "生活シーンを切り取った特別空間で“アラジンのある暮らし”を覗く4日間 ～ガストースターの先行販売や、焼きたてピザ・淹れたてコーヒーの試食・試飲も充実～『アラジン展』開催のお知らせ",
-     "link": "https://prtimes.jp/main/html/rd/p/000000201.000015006.html",
-     "source": "PR TIMES",
-     "image": "https://prcdn.freetls.fastly.net/release_image/15006/201/15006-201-2e0317794ed74dd82c0dc7373fa100a0-2600x1464.jpg?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260"
     }
    ]
   }
