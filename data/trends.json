@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-07T20:47:45+00:00",
+ "updated": "2026-11-08T00:24:37+00:00",
  "days": [
   "2026-10-26",
   "2026-10-27",
@@ -100,7 +100,7 @@
     },
     {
      "id": "36f751a276b0a174",
-     "title": "ご当地グルメとポークビッツがコラボ 「ヨコイ」「世界の山ちゃん」など5店舗とのコラボメニュー販売",
+     "title": "ご当地グルメとポークビッツがコラボ 「ヨコイ」「世界の山ちゃん」など5店舗とのコラボメニュー販売（テレビ愛知）",
      "link": "https://news.tv-aichi.co.jp/single.php?id=10565",
      "source": "愛知のニュース",
      "image": "https://news.tv-aichi.co.jp/data/10565/t-image.jpg?v=1793954620"
@@ -193,6 +193,47 @@
      "link": "https://prtimes.jp/main/html/rd/p/000000260.000035671.html",
      "source": "PR TIMES",
      "image": "https://prcdn.freetls.fastly.net/release_image/35671/260/35671-260-d0a8d0229d03510d08e65e6cf040155d-3900x2601.jpg?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260"
+    }
+   ]
+  },
+  {
+   "label": "からあげ",
+   "q": "からあげ",
+   "kind": "dish",
+   "recent": 2,
+   "base_per_day": 0.18,
+   "ratio": 1.62,
+   "new": false,
+   "daily": [
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    1,
+    1,
+    0
+   ],
+   "articles": [
+    {
+     "id": "6c4e44582ece476a",
+     "title": "今週新発売のコンビニホットスナックまとめ！『おかしなチキンとんがりコーン焼とうもろこし風』、『サクッと！からあげクン じゃがりこ明太チーズもんじゃ味』など",
+     "link": "https://mognavi.jp/news/recommend-hot/recommend-hot2026110701/",
+     "source": "もぐナビ",
+     "image": "https://mognavi.jp/image/cache/blog/blog_eyecatch_og_image_recommend-hot2026110701.jpg?ts=1794002400000"
+    },
+    {
+     "id": "164ba8415501892c",
+     "title": "【きょうから】ローソン“ご当地からあげクン”、SNSで 4 279万回表示の反響「これ食べるために旅行したい」「買う前からもう美味しい」",
+     "link": "https://www.sanyonews.jp/article/1974058?kw=4",
+     "source": "山陽新聞",
+     "image": "https://static.sanyonews.jp/image/article/size1/8/b/0/b/8b0bf5f1ad3517cccff40ccd5b0552cd_1.jpg"
     }
    ]
   }
