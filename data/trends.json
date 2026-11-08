@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-08T19:29:25+00:00",
+ "updated": "2026-11-08T23:37:36+00:00",
  "days": [
   "2026-10-27",
   "2026-10-28",
@@ -56,6 +56,88 @@
      "link": "https://www.saga-s.co.jp/articles/-/1825966",
      "source": "佐賀新聞",
      "image": "https://saga.ismcdn.jp/mwimgs/e/7/1200m/img_e79682447edf9f64770e7b15d165d5b895411.jpg"
+    }
+   ]
+  },
+  {
+   "label": "手羽先",
+   "q": "手羽先",
+   "kind": "dish",
+   "recent": 2,
+   "base_per_day": 0.0,
+   "ratio": 2.5,
+   "new": true,
+   "daily": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    1
+   ],
+   "articles": [
+    {
+     "id": "18a47422c20e216a",
+     "title": "名古屋・栄に「世界の山ちゃん 本店別館」が2026年12月3日オープン！ 新ドリンク「無糖山ちゃんサワー」の発売と手羽先売上高No.1達成を記念した特別キャンペーンも2026年11月16日からスタート 新店・新商品・キャンペーンの注目ポイントを詳細解説【名古屋発】",
+     "link": "https://nagoyato.com/posts/20789",
+     "source": "ナゴヤトコトン",
+     "image": "https://nagoyato.com/wp-content/uploads/2026/11/183380-19-6537edc32a9ca9dd8ff373f4248ca0be-2600x1580-1-edited.jpg"
+    },
+    {
+     "id": "5e2ac5a4a0f45598",
+     "title": "世界の山ちゃん クリスマス限定バーレル2種を11月9日より予約受付開始！先着2,000名様にオリジナル取皿をプレゼント！手羽先ブランケットが当たる企画も",
+     "link": "https://prtimes.jp/main/html/rd/p/000000020.000183380.html",
+     "source": "PR TIMES",
+     "image": "https://prcdn.freetls.fastly.net/release_image/183380/20/183380-20-2a1ab7b1d2510b16cca5ec196642e6db-2758x2651.png?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260"
+    }
+   ]
+  },
+  {
+   "label": "世界の山ちゃん",
+   "q": "世界の山ちゃん",
+   "kind": "chain",
+   "recent": 2,
+   "base_per_day": 0.09,
+   "ratio": 1.96,
+   "new": false,
+   "daily": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    1,
+    0,
+    1
+   ],
+   "articles": [
+    {
+     "id": "18a47422c20e216a",
+     "title": "名古屋・栄に「世界の山ちゃん 本店別館」が2026年12月3日オープン！ 新ドリンク「無糖山ちゃんサワー」の発売と手羽先売上高No.1達成を記念した特別キャンペーンも2026年11月16日からスタート 新店・新商品・キャンペーンの注目ポイントを詳細解説【名古屋発】",
+     "link": "https://nagoyato.com/posts/20789",
+     "source": "ナゴヤトコトン",
+     "image": "https://nagoyato.com/wp-content/uploads/2026/11/183380-19-6537edc32a9ca9dd8ff373f4248ca0be-2600x1580-1-edited.jpg"
+    },
+    {
+     "id": "5e2ac5a4a0f45598",
+     "title": "世界の山ちゃん クリスマス限定バーレル2種を11月9日より予約受付開始！先着2,000名様にオリジナル取皿をプレゼント！手羽先ブランケットが当たる企画も",
+     "link": "https://prtimes.jp/main/html/rd/p/000000020.000183380.html",
+     "source": "PR TIMES",
+     "image": "https://prcdn.freetls.fastly.net/release_image/183380/20/183380-20-2a1ab7b1d2510b16cca5ec196642e6db-2758x2651.png?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260"
     }
    ]
   }
