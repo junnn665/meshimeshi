@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-08T00:24:37+00:00",
+ "updated": "2026-11-08T07:10:53+00:00",
  "days": [
   "2026-10-26",
   "2026-10-27",
@@ -67,6 +67,54 @@
    ]
   },
   {
+   "label": "ビール",
+   "q": "ビール",
+   "kind": "dish",
+   "recent": 5,
+   "base_per_day": 0.27,
+   "ratio": 3.02,
+   "new": false,
+   "daily": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    3,
+    0,
+    0,
+    0,
+    3,
+    1,
+    1
+   ],
+   "articles": [
+    {
+     "id": "cccbd2729452f373",
+     "title": "DREAMBEER 名古屋でクラフトビール総選挙2026を11月12日から開催へ",
+     "link": "https://news.dellows.jp/945479/",
+     "source": "Dellows News",
+     "image": "https://news.dellows.jp/wp-content/uploads/2026/10/945479_1.jpg"
+    },
+    {
+     "id": "a27f2e56c60043a4",
+     "title": "ソースをまとった牛ホホ肉の一皿が冬のごちそうに！大名古屋ビル Shops & Restaurants／世界のビール博物館「牛ホホ肉のカルボナード・フラマンド」",
+     "link": "https://dtimes.jp/post-1456336/",
+     "source": "Dtimes",
+     "image": "https://dtimes.jp/wp-content/uploads/2026/11/dtimes-engine-6a84b448021497b02a6d68fd9ccd1433-20261107-61017f.jpg"
+    },
+    {
+     "id": "4f0bde4b5c5a6aed",
+     "title": "アサヒビール×グランパスのオリジナルカクテル２種が新発売！",
+     "link": "https://sportsmania.jp/369616/",
+     "source": "スポーツマニア",
+     "image": "https://prcdn.freetls.fastly.net/release_image/54020/104/54020-104-1e71eec1f4c334ab5a6ab471116744d2-1191x1684.jpg?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260"
+    }
+   ]
+  },
+  {
    "label": "世界の山ちゃん",
    "q": "世界の山ちゃん",
    "kind": "chain",
@@ -112,14 +160,14 @@
    "q": "パフェ",
    "kind": "dish",
    "recent": 2,
-   "base_per_day": 0.09,
-   "ratio": 1.96,
-   "new": false,
+   "base_per_day": 0.0,
+   "ratio": 2.5,
+   "new": true,
    "daily": [
     0,
     0,
     0,
-    1,
+    0,
     0,
     0,
     0,
@@ -145,54 +193,6 @@
      "link": "https://news.nicovideo.jp/watch/nw19964663?news_ref=search_search",
      "source": "ニコニコニュース",
      "image": null
-    }
-   ]
-  },
-  {
-   "label": "ビール",
-   "q": "ビール",
-   "kind": "dish",
-   "recent": 3,
-   "base_per_day": 0.27,
-   "ratio": 1.93,
-   "new": false,
-   "daily": [
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    3,
-    0,
-    0,
-    0,
-    2,
-    1,
-    0
-   ],
-   "articles": [
-    {
-     "id": "a27f2e56c60043a4",
-     "title": "ソースをまとった牛ホホ肉の一皿が冬のごちそうに！大名古屋ビル Shops & Restaurants／世界のビール博物館「牛ホホ肉のカルボナード・フラマンド」",
-     "link": "https://dtimes.jp/post-1456336/",
-     "source": "Dtimes",
-     "image": "https://dtimes.jp/wp-content/uploads/2026/11/dtimes-engine-6a84b448021497b02a6d68fd9ccd1433-20261107-61017f.jpg"
-    },
-    {
-     "id": "4f0bde4b5c5a6aed",
-     "title": "アサヒビール×グランパスのオリジナルカクテル２種が新発売！",
-     "link": "https://sportsmania.jp/369616/",
-     "source": "スポーツマニア",
-     "image": "https://prcdn.freetls.fastly.net/release_image/54020/104/54020-104-1e71eec1f4c334ab5a6ab471116744d2-1191x1684.jpg?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260"
-    },
-    {
-     "id": "cbb6bc78616c5fce",
-     "title": "生ビール付き飲み放題2時間が300円（税込330円）に！「個室完備 博多大衆酒場 あいらしか 金山店」2026年11月10日（火）グランドオープン",
-     "link": "https://prtimes.jp/main/html/rd/p/000000260.000035671.html",
-     "source": "PR TIMES",
-     "image": "https://prcdn.freetls.fastly.net/release_image/35671/260/35671-260-d0a8d0229d03510d08e65e6cf040155d-3900x2601.jpg?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260"
     }
    ]
   },
