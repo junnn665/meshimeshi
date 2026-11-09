@@ -1,14 +1,16 @@
 {
- "updated": "2026-11-09T14:59:35+09:00",
- "items": 373,
- "with_image": 341,
- "google_decode_ok": 36,
+ "updated": "2026-11-10T00:59:05+09:00",
+ "items": 374,
+ "with_image": 342,
+ "google_decode_ok": 37,
  "google_decode_failed": 0,
  "google_decode_samples": [],
  "image_failures": [
-  "abema.tv: og:image なし (31457 文字)",
+  "www.excite.co.jp: HTTPError: HTTP Error 403: Forbidden",
+  "topics.smt.docomo.ne.jp: HTTPError: HTTP Error 404: Not Found",
   "tetsudo-ch.com: HTTPError: HTTP Error 403: Forbidden",
   "media.unisba.ac.id: HTTPError: HTTP Error 403: Forbidden",
-  "hino.goguynet.jp: HTTPError: HTTP Error 404: Not Found"
+  "hino.goguynet.jp: HTTPError: HTTP Error 404: Not Found",
+  "abema.tv: og:image なし (31457 文字)"
  ]
 }

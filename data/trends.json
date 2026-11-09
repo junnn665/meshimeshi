@@ -1,7 +1,6 @@
 {
- "updated": "2026-11-09T06:00:08+00:00",
+ "updated": "2026-11-09T15:59:37+00:00",
  "days": [
-  "2026-10-27",
   "2026-10-28",
   "2026-10-29",
   "2026-10-30",
@@ -14,7 +13,8 @@
   "2026-11-06",
   "2026-11-07",
   "2026-11-08",
-  "2026-11-09"
+  "2026-11-09",
+  "2026-11-10"
  ],
  "recent_days": 3,
  "items": [
@@ -38,8 +38,8 @@
     0,
     0,
     0,
-    0,
     2,
+    0,
     0
    ],
    "articles": [
@@ -64,136 +64,6 @@
    "q": "手羽先",
    "kind": "dish",
    "recent": 2,
-   "base_per_day": 0.0,
-   "ratio": 2.5,
-   "new": true,
-   "daily": [
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    1,
-    0,
-    1
-   ],
-   "articles": [
-    {
-     "id": "18a47422c20e216a",
-     "title": "名古屋・栄に「世界の山ちゃん 本店別館」が2026年12月3日オープン！ 新ドリンク「無糖山ちゃんサワー」の発売と手羽先売上高No.1達成を記念した特別キャンペーンも2026年11月16日からスタート 新店・新商品・キャンペーンの注目ポイントを詳細解説【名古屋発】",
-     "link": "https://nagoyato.com/posts/20789",
-     "source": "ナゴヤトコトン",
-     "image": "https://nagoyato.com/wp-content/uploads/2026/11/183380-19-6537edc32a9ca9dd8ff373f4248ca0be-2600x1580-1-edited.jpg"
-    },
-    {
-     "id": "5e2ac5a4a0f45598",
-     "title": "世界の山ちゃん クリスマス限定バーレル2種を11月9日より予約受付開始！先着2,000名様にオリジナル取皿をプレゼント！手羽先ブランケットが当たる企画も",
-     "link": "https://prtimes.jp/main/html/rd/p/000000020.000183380.html",
-     "source": "PR TIMES",
-     "image": "https://prcdn.freetls.fastly.net/release_image/183380/20/183380-20-2a1ab7b1d2510b16cca5ec196642e6db-2758x2651.png?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260"
-    }
-   ]
-  },
-  {
-   "label": "抹茶",
-   "q": "抹茶",
-   "kind": "dish",
-   "recent": 2,
-   "base_per_day": 0.0,
-   "ratio": 2.5,
-   "new": true,
-   "daily": [
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    1,
-    0,
-    1
-   ],
-   "articles": [
-    {
-     "id": "da2dca00c50203d7",
-     "title": "ゴマ・味噌・抹茶の和テイストが話題！名古屋の日本茶＆和スイーツ店「YATAGARASU」が提供する、夏限定の絶品かき氷",
-     "link": "https://www.walkerplus.com/article/1200618/",
-     "source": "ウォーカープラス",
-     "image": "https://news.walkerplus.com/article/1200618/13150356_615.jpg"
-    },
-    {
-     "id": "260c5ce91c114d44",
-     "title": "クリスマスメニューで味わう丸い抹茶ケーキ！大名古屋ビル Shops & Restaurants／西条園 抹茶カフェ 抹茶フロマージュ",
-     "link": "https://dtimes.jp/post-1456340/",
-     "source": "Dtimes",
-     "image": "https://dtimes.jp/wp-content/uploads/2026/11/dtimes-engine-d5d7c0c19ed3709a48589e195c455f69-20261107-80e04d.jpg"
-    }
-   ]
-  },
-  {
-   "label": "ステーキ",
-   "q": "ステーキ",
-   "kind": "dish",
-   "recent": 3,
-   "base_per_day": 0.18,
-   "ratio": 2.26,
-   "new": false,
-   "daily": [
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    2,
-    0,
-    0,
-    1,
-    1,
-    1
-   ],
-   "articles": [
-    {
-     "id": "fcc18867976beba3",
-     "title": "【お好み焼本舗】プレミアムステーキコースで食べ放題！「贅沢牡蠣祭り」を11月10日(火)より期間限定で開催",
-     "link": "https://prtimes.jp/main/html/rd/p/000001575.000044964.html",
-     "source": "PR TIMES",
-     "image": "https://prcdn.freetls.fastly.net/release_image/44964/1575/44964-1575-6fc969cd416231a1e42a8fb09a8637f2-1910x1000.jpg?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260"
-    },
-    {
-     "id": "4c5566caeec281b0",
-     "title": "ステーキのあさくま、四日市店と市原店で食べ放題の匠肉祭りを10月29日開催へ",
-     "link": "https://news.dellows.jp/872473/",
-     "source": "Dellows News",
-     "image": "https://news.dellows.jp/wp-content/uploads/2026/10/872473_1.jpg"
-    },
-    {
-     "id": "0d4592e63eeab748",
-     "title": "クリスマスに持ち帰る豪快な肉のごちそう！大名古屋ビル Shops & Restaurants マロリーポークステーキ「エベレスト［1.5Kg・大麦仕上三元豚］」",
-     "link": "https://dtimes.jp/post-1456350/",
-     "source": "Dtimes",
-     "image": "https://dtimes.jp/wp-content/uploads/2026/11/dtimes-engine-da2ae8d0131bc8324e8ac42282bafabb-20261107-d145b8.jpg"
-    }
-   ]
-  },
-  {
-   "label": "世界の山ちゃん",
-   "q": "世界の山ちゃん",
-   "kind": "chain",
-   "recent": 2,
    "base_per_day": 0.09,
    "ratio": 1.96,
    "new": false,
@@ -209,24 +79,65 @@
     0,
     0,
     1,
-    1,
     0,
-    1
+    2,
+    0
    ],
    "articles": [
+    {
+     "id": "46d01ee54c4f538b",
+     "title": "名古屋名物のクリスマス…世界の山ちゃん、手羽先のバーレル公開・予約開始 手羽先ブランケットが当たる【概要】",
+     "link": "http://www.excite.co.jp/news/article/Oricon_2491674/",
+     "source": "Excite エキサイト",
+     "image": null
+    },
     {
      "id": "18a47422c20e216a",
      "title": "名古屋・栄に「世界の山ちゃん 本店別館」が2026年12月3日オープン！ 新ドリンク「無糖山ちゃんサワー」の発売と手羽先売上高No.1達成を記念した特別キャンペーンも2026年11月16日からスタート 新店・新商品・キャンペーンの注目ポイントを詳細解説【名古屋発】",
      "link": "https://nagoyato.com/posts/20789",
      "source": "ナゴヤトコトン",
      "image": "https://nagoyato.com/wp-content/uploads/2026/11/183380-19-6537edc32a9ca9dd8ff373f4248ca0be-2600x1580-1-edited.jpg"
+    }
+   ]
+  },
+  {
+   "label": "世界の山ちゃん",
+   "q": "世界の山ちゃん",
+   "kind": "chain",
+   "recent": 2,
+   "base_per_day": 0.18,
+   "ratio": 1.62,
+   "new": false,
+   "daily": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    1,
+    0,
+    2,
+    0
+   ],
+   "articles": [
+    {
+     "id": "46d01ee54c4f538b",
+     "title": "名古屋名物のクリスマス…世界の山ちゃん、手羽先のバーレル公開・予約開始 手羽先ブランケットが当たる【概要】",
+     "link": "http://www.excite.co.jp/news/article/Oricon_2491674/",
+     "source": "Excite エキサイト",
+     "image": null
     },
     {
-     "id": "5e2ac5a4a0f45598",
-     "title": "世界の山ちゃん クリスマス限定バーレル2種を11月9日より予約受付開始！先着2,000名様にオリジナル取皿をプレゼント！手羽先ブランケットが当たる企画も",
-     "link": "https://prtimes.jp/main/html/rd/p/000000020.000183380.html",
-     "source": "PR TIMES",
-     "image": "https://prcdn.freetls.fastly.net/release_image/183380/20/183380-20-2a1ab7b1d2510b16cca5ec196642e6db-2758x2651.png?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260"
+     "id": "18a47422c20e216a",
+     "title": "名古屋・栄に「世界の山ちゃん 本店別館」が2026年12月3日オープン！ 新ドリンク「無糖山ちゃんサワー」の発売と手羽先売上高No.1達成を記念した特別キャンペーンも2026年11月16日からスタート 新店・新商品・キャンペーンの注目ポイントを詳細解説【名古屋発】",
+     "link": "https://nagoyato.com/posts/20789",
+     "source": "ナゴヤトコトン",
+     "image": "https://nagoyato.com/wp-content/uploads/2026/11/183380-19-6537edc32a9ca9dd8ff373f4248ca0be-2600x1580-1-edited.jpg"
     }
    ]
   }
