@@ -1,14 +1,14 @@
 {
- "updated": "2026-11-09T08:37:02+09:00",
- "items": 365,
- "with_image": 332,
- "google_decode_ok": 38,
+ "updated": "2026-11-09T14:59:35+09:00",
+ "items": 373,
+ "with_image": 341,
+ "google_decode_ok": 36,
  "google_decode_failed": 0,
  "google_decode_samples": [],
  "image_failures": [
   "abema.tv: og:image なし (31457 文字)",
-  "newsdig.tbs.co.jp: HTTPError: HTTP Error 404: Not Found",
-  "www.excite.co.jp: HTTPError: HTTP Error 403: Forbidden",
-  "media.unisba.ac.id: HTTPError: HTTP Error 403: Forbidden"
+  "tetsudo-ch.com: HTTPError: HTTP Error 403: Forbidden",
+  "media.unisba.ac.id: HTTPError: HTTP Error 403: Forbidden",
+  "hino.goguynet.jp: HTTPError: HTTP Error 404: Not Found"
  ]
 }
