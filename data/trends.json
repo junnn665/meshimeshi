@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-10T00:08:23+00:00",
+ "updated": "2026-11-10T08:16:24+00:00",
  "days": [
   "2026-10-28",
   "2026-10-29",
@@ -138,6 +138,47 @@
      "link": "https://nagoyato.com/posts/20789",
      "source": "ナゴヤトコトン",
      "image": "https://nagoyato.com/wp-content/uploads/2026/11/183380-19-6537edc32a9ca9dd8ff373f4248ca0be-2600x1580-1-edited.jpg"
+    }
+   ]
+  },
+  {
+   "label": "パフェ",
+   "q": "パフェ",
+   "kind": "dish",
+   "recent": 2,
+   "base_per_day": 0.18,
+   "ratio": 1.62,
+   "new": false,
+   "daily": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    1,
+    0,
+    0,
+    2
+   ],
+   "articles": [
+    {
+     "id": "daa658afad9052f3",
+     "title": "【11月10日～発売】セブン・ファミマ・ローソン新作スイーツ特集｜「キャラメルパフェ」・「サクッと三角チーズケーキ（チョコ）」など注目デザートまとめ",
+     "link": "https://entabe.jp/62109/seven-eleven-familymart-lawson-new-sweets-november-2026",
+     "source": "えん食べ [グルメニュース]",
+     "image": "https://image.entabe.jp/upload/20261110/images/thumbnail_20261110_web_1.jpg"
+    },
+    {
+     "id": "6737c30186ad3d27",
+     "title": "ストリングスホテル 名古屋で、いちごのクリスマススイーツビュッフェ開催。カスタマイズできるパフェも！ - OZmall",
+     "link": "https://www.ozmall.co.jp/restaurant/buffet/xmas/article/47524/",
+     "source": "オズモール",
+     "image": null
     }
    ]
   }

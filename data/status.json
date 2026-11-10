@@ -1,11 +1,12 @@
 {
- "updated": "2026-11-10T09:07:57+09:00",
- "items": 378,
- "with_image": 346,
- "google_decode_ok": 29,
+ "updated": "2026-11-10T17:15:46+09:00",
+ "items": 376,
+ "with_image": 343,
+ "google_decode_ok": 44,
  "google_decode_failed": 0,
  "google_decode_samples": [],
  "image_failures": [
+  "www.ozmall.co.jp: HTTPError: HTTP Error 403: Forbidden",
   "tetsudo-ch.com: HTTPError: HTTP Error 403: Forbidden",
   "media.unisba.ac.id: HTTPError: HTTP Error 403: Forbidden",
   "hino.goguynet.jp: HTTPError: HTTP Error 404: Not Found"
