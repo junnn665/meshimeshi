@@ -1,17 +1,12 @@
 {
- "updated": "2026-11-11T01:57:39+09:00",
- "items": 372,
- "with_image": 341,
- "google_decode_ok": 33,
+ "updated": "2026-11-11T07:16:31+09:00",
+ "items": 373,
+ "with_image": 343,
+ "google_decode_ok": 31,
  "google_decode_failed": 0,
  "google_decode_samples": [],
  "image_failures": [
-  "tver.jp: og:image なし (2448 文字)",
-  "www.msn.com: og:image なし (43016 文字)",
-  "t.co: og:image なし (239 文字)",
-  "abema.tv: og:image なし (31457 文字)",
-  "tetsudo-ch.com: HTTPError: HTTP Error 403: Forbidden",
   "media.unisba.ac.id: HTTPError: HTTP Error 403: Forbidden",
-  "hino.goguynet.jp: HTTPError: HTTP Error 404: Not Found"
+  "news.web.nhk: HTTPError: HTTP Error 404: Not Found"
  ]
 }
