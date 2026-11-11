@@ -1,7 +1,6 @@
 {
- "updated": "2026-11-11T10:41:59+00:00",
+ "updated": "2026-11-11T18:35:28+00:00",
  "days": [
-  "2026-10-29",
   "2026-10-30",
   "2026-10-31",
   "2026-11-01",
@@ -14,51 +13,11 @@
   "2026-11-08",
   "2026-11-09",
   "2026-11-10",
-  "2026-11-11"
+  "2026-11-11",
+  "2026-11-12"
  ],
  "recent_days": 3,
  "items": [
-  {
-   "label": "韓国グルメ",
-   "q": "韓国",
-   "kind": "dish",
-   "recent": 2,
-   "base_per_day": 0.0,
-   "ratio": 2.5,
-   "new": true,
-   "daily": [
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    1,
-    0,
-    1
-   ],
-   "articles": [
-    {
-     "id": "aafa388e0f8611bb",
-     "title": "豚キムチ丼にヤンニョムチキンのサンドおむすび、トゥンカロンも！ミニストップの韓国グルメフェアに7つの新メニュー登場",
-     "link": "https://article.auone.jp/3b085c57-69ab-44df-988c-a8e12faabeaf",
-     "source": "au Webポータル",
-     "image": "https://portal.auone.jp/media/thumbnails/2026/11/11/https___news_mynavi_jp_article_20261111-5295972__w1200.webp"
-    },
-    {
-     "id": "c4dfdd60d485fa28",
-     "title": "韓国グルメフェア ２０２６年１１月１０日（火）より新たに７品発売！",
-     "link": "https://newscast.jp/smart/news/7460670",
-     "source": "Newscast.jp",
-     "image": "https://www.atpress.ne.jp/attachments/EZMMoPatljsEJu2UIpvT.jpg"
-    }
-   ]
-  },
   {
    "label": "パスタ",
    "q": "パスタ",
@@ -73,7 +32,6 @@
     0,
     0,
     0,
-    0,
     1,
     0,
     0,
@@ -81,7 +39,8 @@
     0,
     0,
     1,
-    1
+    1,
+    0
    ],
    "articles": [
     {
@@ -101,136 +60,6 @@
    ]
   },
   {
-   "label": "手羽先",
-   "q": "手羽先",
-   "kind": "dish",
-   "recent": 2,
-   "base_per_day": 0.09,
-   "ratio": 1.96,
-   "new": false,
-   "daily": [
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    1,
-    0,
-    2,
-    0,
-    0
-   ],
-   "articles": [
-    {
-     "id": "46d01ee54c4f538b",
-     "title": "名古屋名物のクリスマス…世界の山ちゃん、手羽先のバーレル公開・予約開始 手羽先ブランケットが当たる【概要】",
-     "link": "http://www.excite.co.jp/news/article/Oricon_2491674/",
-     "source": "Excite エキサイト",
-     "image": null
-    },
-    {
-     "id": "18a47422c20e216a",
-     "title": "名古屋・栄に「世界の山ちゃん 本店別館」が2026年12月3日オープン！ 新ドリンク「無糖山ちゃんサワー」の発売と手羽先売上高No.1達成を記念した特別キャンペーンも2026年11月16日からスタート 新店・新商品・キャンペーンの注目ポイントを詳細解説【名古屋発】",
-     "link": "https://nagoyato.com/posts/20789",
-     "source": "ナゴヤトコトン",
-     "image": "https://nagoyato.com/wp-content/uploads/2026/11/183380-19-6537edc32a9ca9dd8ff373f4248ca0be-2600x1580-1-edited.jpg"
-    }
-   ]
-  },
-  {
-   "label": "世界の山ちゃん",
-   "q": "世界の山ちゃん",
-   "kind": "chain",
-   "recent": 2,
-   "base_per_day": 0.18,
-   "ratio": 1.62,
-   "new": false,
-   "daily": [
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    1,
-    1,
-    0,
-    2,
-    0,
-    0
-   ],
-   "articles": [
-    {
-     "id": "46d01ee54c4f538b",
-     "title": "名古屋名物のクリスマス…世界の山ちゃん、手羽先のバーレル公開・予約開始 手羽先ブランケットが当たる【概要】",
-     "link": "http://www.excite.co.jp/news/article/Oricon_2491674/",
-     "source": "Excite エキサイト",
-     "image": null
-    },
-    {
-     "id": "18a47422c20e216a",
-     "title": "名古屋・栄に「世界の山ちゃん 本店別館」が2026年12月3日オープン！ 新ドリンク「無糖山ちゃんサワー」の発売と手羽先売上高No.1達成を記念した特別キャンペーンも2026年11月16日からスタート 新店・新商品・キャンペーンの注目ポイントを詳細解説【名古屋発】",
-     "link": "https://nagoyato.com/posts/20789",
-     "source": "ナゴヤトコトン",
-     "image": "https://nagoyato.com/wp-content/uploads/2026/11/183380-19-6537edc32a9ca9dd8ff373f4248ca0be-2600x1580-1-edited.jpg"
-    }
-   ]
-  },
-  {
-   "label": "ケーキ",
-   "q": "ケーキ",
-   "kind": "dish",
-   "recent": 5,
-   "base_per_day": 0.73,
-   "ratio": 1.73,
-   "new": false,
-   "daily": [
-    0,
-    0,
-    1,
-    1,
-    1,
-    1,
-    0,
-    2,
-    0,
-    2,
-    0,
-    1,
-    2,
-    2
-   ],
-   "articles": [
-    {
-     "id": "4a1df90cf2eef365",
-     "title": "至高のバターケーキも登場！バタースイーツ専門店『ザ・マスターbyバターバトラー』松坂屋名古屋店に11月11日から24日まで限定出店",
-     "link": "https://jouhou.nagoya/themaster-butterbutler-202611/",
-     "source": "名古屋情報通",
-     "image": "https://jouhou.nagoya/wp-content/uploads/2023/11/themaster-butterbutler001-600x400.jpg"
-    },
-    {
-     "id": "dcca197cafae4177",
-     "title": "クリーム好き必見のロールケーキも大容量に♡ローソンストア100「デカ盛りチャレンジ」第2弾がスタート",
-     "link": "http://www.excite.co.jp/news/article/bg_mania_703950/",
-     "source": "Excite エキサイト",
-     "image": null
-    },
-    {
-     "id": "daa658afad9052f3",
-     "title": "【11月10日～発売】セブン・ファミマ・ローソン新作スイーツ特集｜「キャラメルパフェ」・「サクッと三角チーズケーキ（チョコ）」など注目デザートまとめ",
-     "link": "https://entabe.jp/62109/seven-eleven-familymart-lawson-new-sweets-november-2026",
-     "source": "えん食べ [グルメニュース]",
-     "image": "https://image.entabe.jp/upload/20261110/images/thumbnail_20261110_web_1.jpg"
-    }
-   ]
-  },
-  {
    "label": "パフェ",
    "q": "パフェ",
    "kind": "dish",
@@ -246,12 +75,12 @@
     0,
     0,
     0,
-    0,
     1,
     1,
     0,
     0,
     2,
+    0,
     0
    ],
    "articles": [
