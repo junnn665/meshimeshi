@@ -1,12 +1,13 @@
 {
- "updated": "2026-11-11T07:16:31+09:00",
- "items": 373,
- "with_image": 343,
- "google_decode_ok": 31,
+ "updated": "2026-11-11T11:41:35+09:00",
+ "items": 377,
+ "with_image": 347,
+ "google_decode_ok": 30,
  "google_decode_failed": 0,
  "google_decode_samples": [],
  "image_failures": [
-  "media.unisba.ac.id: HTTPError: HTTP Error 403: Forbidden",
-  "news.web.nhk: HTTPError: HTTP Error 404: Not Found"
+  "news.nicovideo.jp: HTTPError: HTTP Error 403: Forbidden",
+  "www.excite.co.jp: HTTPError: HTTP Error 403: Forbidden",
+  "media.unisba.ac.id: HTTPError: HTTP Error 403: Forbidden"
  ]
 }

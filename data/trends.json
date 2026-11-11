@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-10T22:17:03+00:00",
+ "updated": "2026-11-11T02:42:04+00:00",
  "days": [
   "2026-10-29",
   "2026-10-30",
@@ -18,6 +18,47 @@
  ],
  "recent_days": 3,
  "items": [
+  {
+   "label": "韓国グルメ",
+   "q": "韓国",
+   "kind": "dish",
+   "recent": 2,
+   "base_per_day": 0.0,
+   "ratio": 2.5,
+   "new": true,
+   "daily": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    1
+   ],
+   "articles": [
+    {
+     "id": "aafa388e0f8611bb",
+     "title": "豚キムチ丼にヤンニョムチキンのサンドおむすび、トゥンカロンも！ミニストップの韓国グルメフェアに7つの新メニュー登場",
+     "link": "https://article.auone.jp/3b085c57-69ab-44df-988c-a8e12faabeaf",
+     "source": "au Webポータル",
+     "image": "https://portal.auone.jp/media/thumbnails/2026/11/11/https___news_mynavi_jp_article_20261111-5295972__w1200.webp"
+    },
+    {
+     "id": "c4dfdd60d485fa28",
+     "title": "韓国グルメフェア ２０２６年１１月１０日（火）より新たに７品発売！",
+     "link": "https://newscast.jp/smart/news/7460670",
+     "source": "Newscast.jp",
+     "image": "https://www.atpress.ne.jp/attachments/EZMMoPatljsEJu2UIpvT.jpg"
+    }
+   ]
+  },
   {
    "label": "手羽先",
    "q": "手羽先",
