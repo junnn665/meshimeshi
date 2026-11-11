@@ -1,12 +1,16 @@
 {
- "updated": "2026-11-11T11:41:35+09:00",
- "items": 377,
- "with_image": 347,
- "google_decode_ok": 30,
+ "updated": "2026-11-11T19:41:25+09:00",
+ "items": 372,
+ "with_image": 339,
+ "google_decode_ok": 37,
  "google_decode_failed": 0,
  "google_decode_samples": [],
  "image_failures": [
   "news.nicovideo.jp: HTTPError: HTTP Error 403: Forbidden",
+  "tver.jp: og:image なし (2448 文字)",
+  "mainichi.jp: HTTPError: HTTP Error 403: Forbidden",
+  "tver.jp: og:image なし (2448 文字)",
+  "www.qab.co.jp: og:image なし (399997 文字)",
   "www.excite.co.jp: HTTPError: HTTP Error 403: Forbidden",
   "media.unisba.ac.id: HTTPError: HTTP Error 403: Forbidden"
  ]
