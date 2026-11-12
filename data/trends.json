@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-12T01:27:41+00:00",
+ "updated": "2026-11-12T09:41:13+00:00",
  "days": [
   "2026-10-30",
   "2026-10-31",
@@ -18,6 +18,95 @@
  ],
  "recent_days": 3,
  "items": [
+  {
+   "label": "パフェ",
+   "q": "パフェ",
+   "kind": "dish",
+   "recent": 3,
+   "base_per_day": 0.18,
+   "ratio": 2.26,
+   "new": false,
+   "daily": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    1,
+    0,
+    0,
+    2,
+    0,
+    1
+   ],
+   "articles": [
+    {
+     "id": "e637a1173e4c5728",
+     "title": "【名古屋・栄】クリスマスアフタヌーンティーと限定パフェが登場｜LOUANGE TOKYO Le Chateau、「AFTERNOON TEA “CHRISTMAS”」と清水パフェ第4弾を提供開始 (2026年11月12日掲載)",
+     "link": "https://www.jiji.com/jc/article?k=000000074.000056485&g=prt",
+     "source": "時事ドットコム",
+     "image": "https://prcdn.freetls.fastly.net/release_image/56485/74/56485-74-02ec5a9934ea8db164ff6d8cf89b7844-1600x900.jpg"
+    },
+    {
+     "id": "daa658afad9052f3",
+     "title": "【11月10日～発売】セブン・ファミマ・ローソン新作スイーツ特集｜「キャラメルパフェ」・「サクッと三角チーズケーキ（チョコ）」など注目デザートまとめ",
+     "link": "https://entabe.jp/62109/seven-eleven-familymart-lawson-new-sweets-november-2026",
+     "source": "えん食べ [グルメニュース]",
+     "image": "https://image.entabe.jp/upload/20261110/images/thumbnail_20261110_web_1.jpg"
+    },
+    {
+     "id": "6737c30186ad3d27",
+     "title": "ストリングスホテル 名古屋で、いちごのクリスマススイーツビュッフェ開催。カスタマイズできるパフェも！ - OZmall",
+     "link": "https://www.ozmall.co.jp/restaurant/buffet/xmas/article/47524/",
+     "source": "オズモール",
+     "image": null
+    }
+   ]
+  },
+  {
+   "label": "韓国グルメ",
+   "q": "韓国",
+   "kind": "dish",
+   "recent": 2,
+   "base_per_day": 0.09,
+   "ratio": 1.96,
+   "new": false,
+   "daily": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    1,
+    1
+   ],
+   "articles": [
+    {
+     "id": "0c5642b647f4e561",
+     "title": "かき氷にペッパーミル!?トウモロコシと胡椒がポイントの韓国かき氷が名古屋「白雪堂」で食べられる！",
+     "link": "https://www.walkerplus.com/article/1200653/",
+     "source": "ウォーカープラス",
+     "image": "https://news.walkerplus.com/article/1200653/13135267_615.jpg"
+    },
+    {
+     "id": "aafa388e0f8611bb",
+     "title": "豚キムチ丼にヤンニョムチキンのサンドおむすび、トゥンカロンも！ミニストップの韓国グルメフェアに7つの新メニュー登場",
+     "link": "https://article.auone.jp/3b085c57-69ab-44df-988c-a8e12faabeaf",
+     "source": "au Webポータル",
+     "image": "https://portal.auone.jp/media/thumbnails/2026/11/11/https___news_mynavi_jp_article_20261111-5295972__w1200.webp"
+    }
+   ]
+  },
   {
    "label": "パスタ",
    "q": "パスタ",
@@ -64,12 +153,12 @@
    "q": "チョコ",
    "kind": "dish",
    "recent": 4,
-   "base_per_day": 0.55,
-   "ratio": 1.71,
+   "base_per_day": 0.45,
+   "ratio": 1.9,
    "new": false,
    "daily": [
     0,
-    1,
+    0,
     2,
     1,
     0,
@@ -104,6 +193,54 @@
      "link": "https://entabe.jp/62109/seven-eleven-familymart-lawson-new-sweets-november-2026",
      "source": "えん食べ [グルメニュース]",
      "image": "https://image.entabe.jp/upload/20261110/images/thumbnail_20261110_web_1.jpg"
+    }
+   ]
+  },
+  {
+   "label": "ケーキ",
+   "q": "ケーキ",
+   "kind": "dish",
+   "recent": 5,
+   "base_per_day": 0.73,
+   "ratio": 1.73,
+   "new": false,
+   "daily": [
+    0,
+    0,
+    1,
+    1,
+    1,
+    0,
+    2,
+    0,
+    2,
+    0,
+    1,
+    2,
+    3,
+    0
+   ],
+   "articles": [
+    {
+     "id": "4a1df90cf2eef365",
+     "title": "至高のバターケーキも登場！バタースイーツ専門店『ザ・マスターbyバターバトラー』松坂屋名古屋店に11月11日から24日まで限定出店",
+     "link": "https://jouhou.nagoya/themaster-butterbutler-202611/",
+     "source": "名古屋情報通",
+     "image": "https://jouhou.nagoya/wp-content/uploads/2023/11/themaster-butterbutler001-600x400.jpg"
+    },
+    {
+     "id": "383624ecf2230109",
+     "title": "ケンタッキークリスマス 新作グラタン＆ケーキ入りパーティバーレルが早割500円引き",
+     "link": "https://report.iko-yo.net/articles/35595",
+     "source": "いこーよニュース",
+     "image": "https://d28w2qw7dtr435.cloudfront.net/uploaded/cover_images/images/35783/normal.jpg?1794371303"
+    },
+    {
+     "id": "dcca197cafae4177",
+     "title": "クリーム好き必見のロールケーキも大容量に♡ローソンストア100「デカ盛りチャレンジ」第2弾がスタート",
+     "link": "http://www.excite.co.jp/news/article/bg_mania_703950/",
+     "source": "Excite エキサイト",
+     "image": null
     }
    ]
   },
@@ -145,47 +282,6 @@
      "link": "https://jouhou.nagoya/udon-mochiri/",
      "source": "名古屋情報通",
      "image": "https://jouhou.nagoya/wp-content/uploads/2026/11/udon-mochiri001-600x399.jpg"
-    }
-   ]
-  },
-  {
-   "label": "パフェ",
-   "q": "パフェ",
-   "kind": "dish",
-   "recent": 2,
-   "base_per_day": 0.18,
-   "ratio": 1.62,
-   "new": false,
-   "daily": [
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    1,
-    1,
-    0,
-    0,
-    2,
-    0,
-    0
-   ],
-   "articles": [
-    {
-     "id": "daa658afad9052f3",
-     "title": "【11月10日～発売】セブン・ファミマ・ローソン新作スイーツ特集｜「キャラメルパフェ」・「サクッと三角チーズケーキ（チョコ）」など注目デザートまとめ",
-     "link": "https://entabe.jp/62109/seven-eleven-familymart-lawson-new-sweets-november-2026",
-     "source": "えん食べ [グルメニュース]",
-     "image": "https://image.entabe.jp/upload/20261110/images/thumbnail_20261110_web_1.jpg"
-    },
-    {
-     "id": "6737c30186ad3d27",
-     "title": "ストリングスホテル 名古屋で、いちごのクリスマススイーツビュッフェ開催。カスタマイズできるパフェも！ - OZmall",
-     "link": "https://www.ozmall.co.jp/restaurant/buffet/xmas/article/47524/",
-     "source": "オズモール",
-     "image": null
     }
    ]
   }
