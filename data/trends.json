@@ -1,7 +1,6 @@
 {
- "updated": "2026-11-12T09:41:13+00:00",
+ "updated": "2026-11-12T18:08:42+00:00",
  "days": [
-  "2026-10-30",
   "2026-10-31",
   "2026-11-01",
   "2026-11-02",
@@ -14,58 +13,11 @@
   "2026-11-09",
   "2026-11-10",
   "2026-11-11",
-  "2026-11-12"
+  "2026-11-12",
+  "2026-11-13"
  ],
  "recent_days": 3,
  "items": [
-  {
-   "label": "パフェ",
-   "q": "パフェ",
-   "kind": "dish",
-   "recent": 3,
-   "base_per_day": 0.18,
-   "ratio": 2.26,
-   "new": false,
-   "daily": [
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    1,
-    1,
-    0,
-    0,
-    2,
-    0,
-    1
-   ],
-   "articles": [
-    {
-     "id": "e637a1173e4c5728",
-     "title": "【名古屋・栄】クリスマスアフタヌーンティーと限定パフェが登場｜LOUANGE TOKYO Le Chateau、「AFTERNOON TEA “CHRISTMAS”」と清水パフェ第4弾を提供開始 (2026年11月12日掲載)",
-     "link": "https://www.jiji.com/jc/article?k=000000074.000056485&g=prt",
-     "source": "時事ドットコム",
-     "image": "https://prcdn.freetls.fastly.net/release_image/56485/74/56485-74-02ec5a9934ea8db164ff6d8cf89b7844-1600x900.jpg"
-    },
-    {
-     "id": "daa658afad9052f3",
-     "title": "【11月10日～発売】セブン・ファミマ・ローソン新作スイーツ特集｜「キャラメルパフェ」・「サクッと三角チーズケーキ（チョコ）」など注目デザートまとめ",
-     "link": "https://entabe.jp/62109/seven-eleven-familymart-lawson-new-sweets-november-2026",
-     "source": "えん食べ [グルメニュース]",
-     "image": "https://image.entabe.jp/upload/20261110/images/thumbnail_20261110_web_1.jpg"
-    },
-    {
-     "id": "6737c30186ad3d27",
-     "title": "ストリングスホテル 名古屋で、いちごのクリスマススイーツビュッフェ開催。カスタマイズできるパフェも！ - OZmall",
-     "link": "https://www.ozmall.co.jp/restaurant/buffet/xmas/article/47524/",
-     "source": "オズモール",
-     "image": null
-    }
-   ]
-  },
   {
    "label": "韓国グルメ",
    "q": "韓国",
@@ -84,11 +36,11 @@
     0,
     0,
     0,
-    0,
     1,
     0,
     1,
-    1
+    1,
+    0
    ],
    "articles": [
     {
@@ -108,180 +60,50 @@
    ]
   },
   {
-   "label": "パスタ",
-   "q": "パスタ",
+   "label": "パン",
+   "q": "パン",
    "kind": "dish",
-   "recent": 2,
-   "base_per_day": 0.09,
-   "ratio": 1.96,
+   "recent": 9,
+   "base_per_day": 1.55,
+   "ratio": 1.69,
    "new": false,
    "daily": [
     0,
     0,
-    0,
-    0,
-    0,
-    1,
-    0,
-    0,
-    0,
-    0,
-    0,
-    1,
-    1,
-    0
-   ],
-   "articles": [
-    {
-     "id": "272810753a6b0d90",
-     "title": "【2026年11月第2週】コンビニ麺・コンビニパスタの新商品！ラーメンサラダやきのこバター醤油パスタなどまとめ",
-     "link": "https://mognavi.jp/news/matome/gen-newProduct-30211/",
-     "source": "もぐナビ",
-     "image": "https://img1.esimg.jp/blog/wp-content/uploads/2026/11/gen-newProduct-30211.jpg?ts=1794365100000"
-    },
-    {
-     "id": "03fcb17fbe07cf7d",
-     "title": "【セブンイレブン】ブラックフライデーに真っ黒な一皿!? カプリチョーザ監修パスタがリニューアル&新登場!",
-     "link": "https://news.mynavi.jp/article/20261110-5294504/",
-     "source": "マイナビニュース",
-     "image": "https://news.mynavi.jp/article/20261110-5294504/ogp_images/ogp.jpg"
-    }
-   ]
-  },
-  {
-   "label": "チョコ",
-   "q": "チョコ",
-   "kind": "dish",
-   "recent": 4,
-   "base_per_day": 0.45,
-   "ratio": 1.9,
-   "new": false,
-   "daily": [
-    0,
-    0,
-    2,
-    1,
-    0,
-    0,
-    1,
-    0,
-    1,
-    0,
-    0,
-    2,
-    1,
-    1
-   ],
-   "articles": [
-    {
-     "id": "65f127497b170fa6",
-     "title": "名古屋・覚王山エリアの茶色グルメを調査 俳優も訪れる老舗洋食店「キッチンひらき」の魅力【チョコサム】",
-     "link": "https://news.yahoo.co.jp/articles/b6ca8d36ca7bb9b519fdb38bd7a2330ea051315a",
-     "source": "Yahoo!ニュース",
-     "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261112-90037982-nbnv-000-1-view.jpg?exp=10800"
-    },
-    {
-     "id": "db0ff627ffdbf8d1",
-     "title": "【2026年11月第2週】コンビニサンドイッチ・コンビニパンの新商品！チキン＆チリやチョコクロワッサンなど注目作まとめ",
-     "link": "https://mognavi.jp/news/matome/gen-newProduct-30210/",
-     "source": "もぐナビ",
-     "image": "https://img1.esimg.jp/blog/wp-content/uploads/2026/11/gen-newProduct-30210.jpg?ts=1794363300000"
-    },
-    {
-     "id": "daa658afad9052f3",
-     "title": "【11月10日～発売】セブン・ファミマ・ローソン新作スイーツ特集｜「キャラメルパフェ」・「サクッと三角チーズケーキ（チョコ）」など注目デザートまとめ",
-     "link": "https://entabe.jp/62109/seven-eleven-familymart-lawson-new-sweets-november-2026",
-     "source": "えん食べ [グルメニュース]",
-     "image": "https://image.entabe.jp/upload/20261110/images/thumbnail_20261110_web_1.jpg"
-    }
-   ]
-  },
-  {
-   "label": "ケーキ",
-   "q": "ケーキ",
-   "kind": "dish",
-   "recent": 5,
-   "base_per_day": 0.73,
-   "ratio": 1.73,
-   "new": false,
-   "daily": [
-    0,
-    0,
-    1,
-    1,
-    1,
-    0,
-    2,
-    0,
-    2,
-    0,
-    1,
     2,
     3,
+    5,
+    2,
+    2,
+    2,
+    0,
+    0,
+    1,
+    5,
+    4,
     0
    ],
    "articles": [
     {
-     "id": "4a1df90cf2eef365",
-     "title": "至高のバターケーキも登場！バタースイーツ専門店『ザ・マスターbyバターバトラー』松坂屋名古屋店に11月11日から24日まで限定出店",
-     "link": "https://jouhou.nagoya/themaster-butterbutler-202611/",
-     "source": "名古屋情報通",
-     "image": "https://jouhou.nagoya/wp-content/uploads/2023/11/themaster-butterbutler001-600x400.jpg"
+     "id": "4d6be2cc33c1b825",
+     "title": "一部除き“朝7時半”から…ジェイアール名古屋タカシマヤ1階に『一大パンゾーン』完成 6つのベーカリーで約400種類",
+     "link": "https://news.livedoor.com/topics/detail/32802305/",
+     "source": "ライブドアニュース",
+     "image": "https://image.news.livedoor.com/newsimage/stf/d/c/dc81f_1780_990062b3ccf6c3e01655ccc897e6cd0f.jpg"
     },
     {
-     "id": "383624ecf2230109",
-     "title": "ケンタッキークリスマス 新作グラタン＆ケーキ入りパーティバーレルが早割500円引き",
-     "link": "https://report.iko-yo.net/articles/35595",
-     "source": "いこーよニュース",
-     "image": "https://d28w2qw7dtr435.cloudfront.net/uploaded/cover_images/images/35783/normal.jpg?1794371303"
+     "id": "1e59eae152de005a",
+     "title": "ジェイアール名古屋タカシマヤのパン売場が全面オープン アメリカの有名ブランドなど6店舗が集結 約400種類のパンが勢ぞろい",
+     "link": "https://newsdig.tbs.co.jp/articles/-/3082171?page=3",
+     "source": "TBSテレビ",
+     "image": "https://newsdig.ismcdn.jp/mwimgs/8/2/1200w/img_82c286f15d1312a00e6928354d3be69f379797.jpg"
     },
     {
-     "id": "dcca197cafae4177",
-     "title": "クリーム好き必見のロールケーキも大容量に♡ローソンストア100「デカ盛りチャレンジ」第2弾がスタート",
-     "link": "http://www.excite.co.jp/news/article/bg_mania_703950/",
-     "source": "Excite エキサイト",
-     "image": null
-    }
-   ]
-  },
-  {
-   "label": "うどん",
-   "q": "うどん",
-   "kind": "dish",
-   "recent": 2,
-   "base_per_day": 0.18,
-   "ratio": 1.62,
-   "new": false,
-   "daily": [
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    1,
-    0,
-    0,
-    1,
-    0,
-    1,
-    1,
-    0
-   ],
-   "articles": [
-    {
-     "id": "fb02d7ab2c646a90",
-     "title": "台湾ラーメン×味噌煮込みうどん 名古屋名物が合体",
-     "link": "https://www.walkerplus.com/article/1513/",
+     "id": "b1a6e72b02062f25",
+     "title": "ついに「幸せのパンケーキ」東海地方に上陸！オープン記念メニューは国内12店舗で！",
+     "link": "https://www.walkerplus.com/article/113932/",
      "source": "ウォーカープラス",
-     "image": "https://news.walkerplus.com/article/1513/3605_615.jpg"
-    },
-    {
-     "id": "d778a07ee21a86c6",
-     "title": "餅のような新うどん体験『圧釜うどん もちり』栄・白川公園そばにオープン",
-     "link": "https://jouhou.nagoya/udon-mochiri/",
-     "source": "名古屋情報通",
-     "image": "https://jouhou.nagoya/wp-content/uploads/2026/11/udon-mochiri001-600x399.jpg"
+     "image": "https://news.walkerplus.com/article/113932/627843_615.jpg"
     }
    ]
   }
