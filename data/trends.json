@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-12T18:08:42+00:00",
+ "updated": "2026-11-13T00:07:16+00:00",
  "days": [
   "2026-10-31",
   "2026-11-01",
@@ -104,6 +104,47 @@
      "link": "https://www.walkerplus.com/article/113932/",
      "source": "ウォーカープラス",
      "image": "https://news.walkerplus.com/article/113932/627843_615.jpg"
+    }
+   ]
+  },
+  {
+   "label": "パスタ",
+   "q": "パスタ",
+   "kind": "dish",
+   "recent": 2,
+   "base_per_day": 0.18,
+   "ratio": 1.62,
+   "new": false,
+   "daily": [
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    1,
+    0,
+    1
+   ],
+   "articles": [
+    {
+     "id": "92213ae28aa3f3dd",
+     "title": "ブロンコビリー「冬のブロンコビュッフェ」が2026年11月13日より期間限定で提供開始 旬の季節野菜を活かした冬限定のサラダ・惣菜・パスタ・デザート4品を詳細解説【名古屋発】",
+     "link": "https://nagoyato.com/posts/20929",
+     "source": "ナゴヤトコトン",
+     "image": "https://nagoyato.com/wp-content/uploads/2026/11/image-71-edited.png"
+    },
+    {
+     "id": "272810753a6b0d90",
+     "title": "【2026年11月第2週】コンビニ麺・コンビニパスタの新商品！ラーメンサラダやきのこバター醤油パスタなどまとめ",
+     "link": "https://mognavi.jp/news/matome/gen-newProduct-30211/",
+     "source": "もぐナビ",
+     "image": "https://img1.esimg.jp/blog/wp-content/uploads/2026/11/gen-newProduct-30211.jpg?ts=1794365100000"
     }
    ]
   }
