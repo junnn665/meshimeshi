@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-13T15:17:27+00:00",
+ "updated": "2026-11-13T21:54:42+00:00",
  "days": [
   "2026-11-01",
   "2026-11-02",
@@ -101,6 +101,88 @@
    ]
   },
   {
+   "label": "鍋",
+   "q": "鍋",
+   "kind": "dish",
+   "recent": 2,
+   "base_per_day": 0.09,
+   "ratio": 1.96,
+   "new": false,
+   "daily": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    1,
+    1,
+    0
+   ],
+   "articles": [
+    {
+     "id": "95f7f6b97d7b11ab",
+     "title": "台湾ラーメン×モツ鍋！ピリ辛の新名古屋名物「台湾もつ鍋」にはしが止まらない!!",
+     "link": "https://www.walkerplus.com/article/176096/",
+     "source": "ウォーカープラス",
+     "image": "https://news.walkerplus.com/article/176096/1040437_615.jpg"
+    },
+    {
+     "id": "21984553930ccada",
+     "title": "北海道の海の幸がてんこ盛り！プリン体たっぷりな“悪魔的にうまい”鍋が、名古屋の居酒屋に登場!!",
+     "link": "https://www.walkerplus.com/article/169066/",
+     "source": "ウォーカープラス",
+     "image": "https://news.walkerplus.com/article/169066/990510_615.jpg"
+    }
+   ]
+  },
+  {
+   "label": "スガキヤ",
+   "q": "スガキヤ",
+   "kind": "chain",
+   "recent": 2,
+   "base_per_day": 0.18,
+   "ratio": 1.62,
+   "new": false,
+   "daily": [
+    0,
+    0,
+    1,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    2,
+    0,
+    0
+   ],
+   "articles": [
+    {
+     "id": "830a2540f60e2718",
+     "title": "東海3県限定「スガキヤ×セブンイレブン 地元愛まつり」開催！ラーメン・五目ごはん・クリームぜんざいなどコラボ商品9品が登場",
+     "link": "https://www.walkerplus.com/article/1409567/",
+     "source": "ウォーカープラス",
+     "image": "https://news.walkerplus.com/article/1409567/17698412_615.jpg"
+    },
+    {
+     "id": "7e75a1295f02e0ff",
+     "title": "名古屋のソウルフード「スガキヤ」の魅力と愛され続けるワケとは？綿密なデザインと技術の結晶「ラーメンフォーク」は世界でも話題に!?(1/2)",
+     "link": "https://www.walkerplus.com/article/1161209/",
+     "source": "ウォーカープラス",
+     "image": "https://news.walkerplus.com/article/1161209/12270064_615.jpg"
+    }
+   ]
+  },
+  {
    "label": "韓国グルメ",
    "q": "韓国",
    "kind": "dish",
@@ -138,47 +220,6 @@
      "link": "https://www.walkerplus.com/article/1200653/",
      "source": "ウォーカープラス",
      "image": "https://news.walkerplus.com/article/1200653/13135267_615.jpg"
-    }
-   ]
-  },
-  {
-   "label": "鍋",
-   "q": "鍋",
-   "kind": "dish",
-   "recent": 2,
-   "base_per_day": 0.18,
-   "ratio": 1.62,
-   "new": false,
-   "daily": [
-    0,
-    1,
-    0,
-    0,
-    0,
-    0,
-    1,
-    0,
-    0,
-    0,
-    0,
-    1,
-    1,
-    0
-   ],
-   "articles": [
-    {
-     "id": "95f7f6b97d7b11ab",
-     "title": "台湾ラーメン×モツ鍋！ピリ辛の新名古屋名物「台湾もつ鍋」にはしが止まらない!!",
-     "link": "https://www.walkerplus.com/article/176096/",
-     "source": "ウォーカープラス",
-     "image": "https://news.walkerplus.com/article/176096/1040437_615.jpg"
-    },
-    {
-     "id": "21984553930ccada",
-     "title": "北海道の海の幸がてんこ盛り！プリン体たっぷりな“悪魔的にうまい”鍋が、名古屋の居酒屋に登場!!",
-     "link": "https://www.walkerplus.com/article/169066/",
-     "source": "ウォーカープラス",
-     "image": "https://news.walkerplus.com/article/169066/990510_615.jpg"
     }
    ]
   }
