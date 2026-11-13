@@ -1,11 +1,12 @@
 {
- "updated": "2026-11-13T15:30:38+09:00",
- "items": 371,
- "with_image": 341,
+ "updated": "2026-11-14T00:16:54+09:00",
+ "items": 376,
+ "with_image": 346,
  "google_decode_ok": 38,
  "google_decode_failed": 0,
  "google_decode_samples": [],
  "image_failures": [
+  "news.nicovideo.jp: HTTPError: HTTP Error 403: Forbidden",
   "www.excite.co.jp: HTTPError: HTTP Error 403: Forbidden",
   "www.excite.co.jp: HTTPError: HTTP Error 403: Forbidden",
   "abema.tv: og:image なし (31457 文字)"
