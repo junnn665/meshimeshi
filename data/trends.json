@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-13T00:07:16+00:00",
+ "updated": "2026-11-13T06:31:11+00:00",
  "days": [
   "2026-10-31",
   "2026-11-01",
@@ -18,6 +18,54 @@
  ],
  "recent_days": 3,
  "items": [
+  {
+   "label": "パン",
+   "q": "パン",
+   "kind": "dish",
+   "recent": 11,
+   "base_per_day": 1.45,
+   "ratio": 2.14,
+   "new": false,
+   "daily": [
+    0,
+    0,
+    1,
+    3,
+    5,
+    2,
+    2,
+    2,
+    0,
+    0,
+    1,
+    5,
+    5,
+    1
+   ],
+   "articles": [
+    {
+     "id": "bf936d43a78cacf8",
+     "title": "ジェイアール名古屋タカシマヤに「パンの聖地」誕生か 人気6店約 ...",
+     "link": "https://news.ntv.co.jp/n/ctv/category/life/ct77fbe735d3a7490a8ede455680e1bba0",
+     "source": "日テレNEWS NNN",
+     "image": "https://image.gallery.play.jp/ctv-news/articles/edd46709e43b400d8e1722ddc9619a21/f9dc125f-2bb0-4a62-868a-f46cac17516d.jpg?w=1200"
+    },
+    {
+     "id": "5948809a07eeb6c9",
+     "title": "【福袋2027】PRONTOは『パンどろぼう』と初コラボ 6000円の福袋&限定 ...",
+     "link": "https://www.oricon.co.jp/news/2492582/full/",
+     "source": "ORICON NEWS",
+     "image": "https://contents.oricon.co.jp/upimg/news/2493000/2492582/20261113_111342_p_o_45492872.jpg"
+    },
+    {
+     "id": "4d6be2cc33c1b825",
+     "title": "一部除き“朝7時半”から…ジェイアール名古屋タカシマヤ1階に『一大パンゾーン』完成 6つのベーカリーで約400種類",
+     "link": "https://news.livedoor.com/topics/detail/32802305/",
+     "source": "ライブドアニュース",
+     "image": "https://image.news.livedoor.com/newsimage/stf/d/c/dc81f_1780_990062b3ccf6c3e01655ccc897e6cd0f.jpg"
+    }
+   ]
+  },
   {
    "label": "韓国グルメ",
    "q": "韓国",
@@ -56,54 +104,6 @@
      "link": "https://article.auone.jp/3b085c57-69ab-44df-988c-a8e12faabeaf",
      "source": "au Webポータル",
      "image": "https://portal.auone.jp/media/thumbnails/2026/11/11/https___news_mynavi_jp_article_20261111-5295972__w1200.webp"
-    }
-   ]
-  },
-  {
-   "label": "パン",
-   "q": "パン",
-   "kind": "dish",
-   "recent": 9,
-   "base_per_day": 1.55,
-   "ratio": 1.69,
-   "new": false,
-   "daily": [
-    0,
-    0,
-    2,
-    3,
-    5,
-    2,
-    2,
-    2,
-    0,
-    0,
-    1,
-    5,
-    4,
-    0
-   ],
-   "articles": [
-    {
-     "id": "4d6be2cc33c1b825",
-     "title": "一部除き“朝7時半”から…ジェイアール名古屋タカシマヤ1階に『一大パンゾーン』完成 6つのベーカリーで約400種類",
-     "link": "https://news.livedoor.com/topics/detail/32802305/",
-     "source": "ライブドアニュース",
-     "image": "https://image.news.livedoor.com/newsimage/stf/d/c/dc81f_1780_990062b3ccf6c3e01655ccc897e6cd0f.jpg"
-    },
-    {
-     "id": "1e59eae152de005a",
-     "title": "ジェイアール名古屋タカシマヤのパン売場が全面オープン アメリカの有名ブランドなど6店舗が集結 約400種類のパンが勢ぞろい",
-     "link": "https://newsdig.tbs.co.jp/articles/-/3082171?page=3",
-     "source": "TBSテレビ",
-     "image": "https://newsdig.ismcdn.jp/mwimgs/8/2/1200w/img_82c286f15d1312a00e6928354d3be69f379797.jpg"
-    },
-    {
-     "id": "b1a6e72b02062f25",
-     "title": "ついに「幸せのパンケーキ」東海地方に上陸！オープン記念メニューは国内12店舗で！",
-     "link": "https://www.walkerplus.com/article/113932/",
-     "source": "ウォーカープラス",
-     "image": "https://news.walkerplus.com/article/113932/627843_615.jpg"
     }
    ]
   },
