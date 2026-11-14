@@ -1,14 +1,16 @@
 {
- "updated": "2026-11-14T06:54:16+09:00",
- "items": 376,
+ "updated": "2026-11-14T11:13:52+09:00",
+ "items": 375,
  "with_image": 347,
- "google_decode_ok": 27,
+ "google_decode_ok": 29,
  "google_decode_failed": 0,
  "google_decode_samples": [],
  "image_failures": [
   "news.nicovideo.jp: HTTPError: HTTP Error 403: Forbidden",
   "www.excite.co.jp: HTTPError: HTTP Error 403: Forbidden",
-  "www.excite.co.jp: HTTPError: HTTP Error 403: Forbidden",
+  "www.nagoyatv.com: og:image なし (50753 文字)",
+  "tver.jp: og:image なし (2448 文字)",
+  "abema.tv: og:image なし (31457 文字)",
   "mainichi.jp: HTTPError: HTTP Error 403: Forbidden"
  ]
 }
