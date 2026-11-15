@@ -1,7 +1,6 @@
 {
- "updated": "2026-11-15T09:10:36+00:00",
+ "updated": "2026-11-15T16:58:10+00:00",
  "days": [
-  "2026-11-02",
   "2026-11-03",
   "2026-11-04",
   "2026-11-05",
@@ -14,91 +13,9 @@
   "2026-11-12",
   "2026-11-13",
   "2026-11-14",
-  "2026-11-15"
+  "2026-11-15",
+  "2026-11-16"
  ],
  "recent_days": 3,
- "items": [
-  {
-   "label": "クレープ",
-   "q": "クレープ",
-   "kind": "dish",
-   "recent": 2,
-   "base_per_day": 0.0,
-   "ratio": 2.5,
-   "new": true,
-   "daily": [
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    2,
-    0,
-    0
-   ],
-   "articles": [
-    {
-     "id": "96c60fc3005c1086",
-     "title": "モンブランクレープなど…秋の味覚『栗』のグルメを集めたイベント 東海地方を中心に各地からの11店が並ぶ（東海テレビ）",
-     "link": "https://news.yahoo.co.jp/articles/df83dd6f26a1f6eb246504573b8888177f0f2489",
-     "source": "Yahoo!ニュース",
-     "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261113-90049313-tokaiv-000-1-thumb.jpg?exp=10800"
-    },
-    {
-     "id": "4a76b09d8849c75d",
-     "title": "“賞味期限5分”の生クレープも…秋の味覚・栗グルメの祭典『栗フェスinナゴヤ』始まる 団子から大福 おにぎりまで（東海テレビ）",
-     "link": "https://www.fnn.jp/articles/-/1152098",
-     "source": "FNNプライムオンライン",
-     "image": "https://fnn.ismcdn.jp/mwimgs/6/4/600/img_64a509516daecd6d5896eb8b17f38c9a23313.jpg"
-    }
-   ]
-  },
-  {
-   "label": "モンブラン・栗",
-   "q": "モンブラン",
-   "kind": "dish",
-   "recent": 2,
-   "base_per_day": 0.09,
-   "ratio": 1.96,
-   "new": false,
-   "daily": [
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    1,
-    0,
-    2,
-    0,
-    0
-   ],
-   "articles": [
-    {
-     "id": "96c60fc3005c1086",
-     "title": "モンブランクレープなど…秋の味覚『栗』のグルメを集めたイベント 東海地方を中心に各地からの11店が並ぶ（東海テレビ）",
-     "link": "https://news.yahoo.co.jp/articles/df83dd6f26a1f6eb246504573b8888177f0f2489",
-     "source": "Yahoo!ニュース",
-     "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261113-90049313-tokaiv-000-1-thumb.jpg?exp=10800"
-    },
-    {
-     "id": "4a76b09d8849c75d",
-     "title": "“賞味期限5分”の生クレープも…秋の味覚・栗グルメの祭典『栗フェスinナゴヤ』始まる 団子から大福 おにぎりまで（東海テレビ）",
-     "link": "https://www.fnn.jp/articles/-/1152098",
-     "source": "FNNプライムオンライン",
-     "image": "https://fnn.ismcdn.jp/mwimgs/6/4/600/img_64a509516daecd6d5896eb8b17f38c9a23313.jpg"
-    }
-   ]
-  }
- ]
+ "items": []
 }
