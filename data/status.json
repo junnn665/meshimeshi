@@ -1,14 +1,17 @@
 {
- "updated": "2026-11-16T10:50:14+09:00",
- "items": 377,
- "with_image": 354,
- "google_decode_ok": 25,
+ "updated": "2026-11-16T18:26:04+09:00",
+ "items": 376,
+ "with_image": 352,
+ "google_decode_ok": 36,
  "google_decode_failed": 0,
  "google_decode_samples": [],
  "image_failures": [
+  "www.msn.com: og:image なし (42664 文字)",
+  "mainichi.jp: HTTPError: HTTP Error 403: Forbidden",
   "media.unisba.ac.id: HTTPError: HTTP Error 403: Forbidden",
   "media.unisba.ac.id: HTTPError: HTTP Error 403: Forbidden",
   "media.unisba.ac.id: HTTPError: HTTP Error 403: Forbidden",
+  "www.excite.co.jp: HTTPError: HTTP Error 403: Forbidden",
   "news.nicovideo.jp: HTTPError: HTTP Error 403: Forbidden"
  ]
 }
