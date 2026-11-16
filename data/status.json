@@ -1,15 +1,14 @@
 {
- "updated": "2026-11-16T06:39:24+09:00",
+ "updated": "2026-11-16T10:50:14+09:00",
  "items": 377,
- "with_image": 351,
- "google_decode_ok": 30,
+ "with_image": 354,
+ "google_decode_ok": 25,
  "google_decode_failed": 0,
  "google_decode_samples": [],
  "image_failures": [
-  "mainichi.jp: HTTPError: HTTP Error 403: Forbidden",
   "media.unisba.ac.id: HTTPError: HTTP Error 403: Forbidden",
   "media.unisba.ac.id: HTTPError: HTTP Error 403: Forbidden",
-  "news.nicovideo.jp: HTTPError: HTTP Error 403: Forbidden",
-  "toyokeizai.net: IncompleteRead: IncompleteRead(131072 bytes read)"
+  "media.unisba.ac.id: HTTPError: HTTP Error 403: Forbidden",
+  "news.nicovideo.jp: HTTPError: HTTP Error 403: Forbidden"
  ]
 }
