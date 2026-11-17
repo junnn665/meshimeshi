@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-17T03:41:36+00:00",
+ "updated": "2026-11-17T13:05:51+00:00",
  "days": [
   "2026-11-04",
   "2026-11-05",
@@ -18,6 +18,88 @@
  ],
  "recent_days": 3,
  "items": [
+  {
+   "label": "カレー",
+   "q": "カレー",
+   "kind": "dish",
+   "recent": 2,
+   "base_per_day": 0.0,
+   "ratio": 2.5,
+   "new": true,
+   "daily": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    2,
+    0
+   ],
+   "articles": [
+    {
+     "id": "915f520b01ddc9c5",
+     "title": "【中部＆近畿地方のローソン限定！】CoCo壱番屋監修のカレーチーズまんが発売！",
+     "link": "https://www.walkerplus.com/trend/matome/article/126789/image703007.html",
+     "source": "ウォーカープラス",
+     "image": "https://news.walkerplus.com/article/126789/703007_615.jpg"
+    },
+    {
+     "id": "116b3e6bfa238f88",
+     "title": "華麗なるご当地グルメ 稲沢市でフェス、27店舗がカレー料理提供",
+     "link": "https://topics.smt.docomo.ne.jp/article/chuplus/region/chuplus-1340149",
+     "source": "ｄメニューニュース",
+     "image": "https://img.topics.smt.news.goo.ne.jp/picture/chuplus/m_chuplus-1340149.jpg"
+    }
+   ]
+  },
+  {
+   "label": "コメダ",
+   "q": "コメダ",
+   "kind": "chain",
+   "recent": 2,
+   "base_per_day": 0.09,
+   "ratio": 1.96,
+   "new": false,
+   "daily": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    2,
+    0
+   ],
+   "articles": [
+    {
+     "id": "ff5f709bfc7f5411",
+     "title": "【動画】「めっちゃ日本と一緒！」タイ初のコメダ珈琲店、バンコクにオープン 現地向け独自メニューも",
+     "link": "https://www.chunichi.co.jp/article/1340231?rct=aichi",
+     "source": "中日新聞Web",
+     "image": "https://static.chunichi.co.jp/image/article/size1/2/e/e/e/2eeed748d878f66e7eb61f16409ed8fe_1.jpg"
+    },
+    {
+     "id": "52d553478c2296f7",
+     "title": "コメダがバンコク初出店 モーニングメニューに開店前から行列：ニュース",
+     "link": "https://biz.chunichi.co.jp/news/article/10/133566/",
+     "source": "中日BIZナビ",
+     "image": "https://biz.chunichi.co.jp/pic/10/p1/133566_0_10.jpg"
+    }
+   ]
+  },
   {
    "label": "ステーキ",
    "q": "ステーキ",
