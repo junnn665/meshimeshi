@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-16T20:17:03+00:00",
+ "updated": "2026-11-17T03:41:36+00:00",
  "days": [
   "2026-11-04",
   "2026-11-05",
@@ -17,5 +17,54 @@
   "2026-11-17"
  ],
  "recent_days": 3,
- "items": []
+ "items": [
+  {
+   "label": "ステーキ",
+   "q": "ステーキ",
+   "kind": "dish",
+   "recent": 3,
+   "base_per_day": 0.27,
+   "ratio": 1.93,
+   "new": false,
+   "daily": [
+    0,
+    0,
+    0,
+    1,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    2,
+    0
+   ],
+   "articles": [
+    {
+     "id": "5d9875a9f21d38c9",
+     "title": "【きょうから5日間】平日夜がお得に！「ステーキ＆ハンバーグ」専門店で“大感謝祭” 第2弾",
+     "link": "https://www.lmaga.jp/news/2026/11/1120999/",
+     "source": "Lmaga.jp",
+     "image": "https://www.lmaga.jp/wp-content/uploads/2026/10/broncobilly20261019_3.jpg"
+    },
+    {
+     "id": "966c234e66b56a84",
+     "title": "【ステーキのあさくま】富士吉原店リニューアルオープン記念 11月24日（火）には極上ステーキ食べ放題「匠肉祭り」を開催 11月20日(金)メディア内覧会も開催",
+     "link": "https://prtimes.jp/main/html/rd/p/000000334.000030130.html",
+     "source": "PR TIMES",
+     "image": "https://prcdn.freetls.fastly.net/release_image/30130/334/30130-334-090a058ce93c61dbd80dfbd99b84257d-3685x2391.png?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260"
+    },
+    {
+     "id": "723ed469b91b6111",
+     "title": "ステーキハウス『ブロンコビリー』が全品20％OFFイベントを11月16日から20日の夜に限定開催",
+     "link": "https://jouhou.nagoya/broncobilly-event202611/",
+     "source": "名古屋情報通",
+     "image": "https://jouhou.nagoya/wp-content/uploads/2026/10/broncobilly-dinnerevent001-600x400.jpg"
+    }
+   ]
+  }
+ ]
 }
