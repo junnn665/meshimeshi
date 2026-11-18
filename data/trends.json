@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-18T03:37:17+00:00",
+ "updated": "2026-11-18T12:56:20+00:00",
  "days": [
   "2026-11-05",
   "2026-11-06",
@@ -23,9 +23,9 @@
    "q": "カレー",
    "kind": "dish",
    "recent": 3,
-   "base_per_day": 0.0,
-   "ratio": 3.5,
-   "new": true,
+   "base_per_day": 0.09,
+   "ratio": 2.75,
+   "new": false,
    "daily": [
     0,
     0,
@@ -37,7 +37,7 @@
     0,
     0,
     0,
-    0,
+    1,
     2,
     1,
     0
@@ -104,6 +104,47 @@
      "link": "https://biz.chunichi.co.jp/news/article/10/133566/",
      "source": "中日BIZナビ",
      "image": "https://biz.chunichi.co.jp/pic/10/p1/133566_0_10.jpg"
+    }
+   ]
+  },
+  {
+   "label": "ピザ",
+   "q": "ピザ",
+   "kind": "dish",
+   "recent": 2,
+   "base_per_day": 0.09,
+   "ratio": 1.96,
+   "new": false,
+   "daily": [
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    1
+   ],
+   "articles": [
+    {
+     "id": "fb99f381804cf276",
+     "title": "B&ZAI橋本涼、本ズワイガニ150グラムの“世界一のピザ”に舌鼓 全国優勝グルメを食べ尽くす",
+     "link": "https://www.agara.co.jp/article/713924?top=oricon",
+     "source": "AGARA 紀伊民報",
+     "image": "https://www.agara.co.jp/image/article/size1/b/b/a/8/bba81cf53e446736531dcba702b135b8_1.jpg"
+    },
+    {
+     "id": "2e99bbe5d5a7ce1d",
+     "title": "【ピザハットの新規会員登録がもっとおトクに！】選べる3種類のピザがお持ち帰り550円／配達860円に値下げ＆4つの味が楽しめる「エンジョイ４」が対象に！",
+     "link": "https://prtimes.jp/main/html/rd/p/000000394.000031164.html",
+     "source": "PR TIMES",
+     "image": "https://prcdn.freetls.fastly.net/release_image/31164/394/31164-394-85a5881e9b50f035ddc9bf9477c41a3d-1200x630.jpg?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260"
     }
    ]
   }

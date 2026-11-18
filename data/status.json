@@ -1,14 +1,16 @@
 {
- "updated": "2026-11-18T12:36:44+09:00",
- "items": 380,
- "with_image": 357,
- "google_decode_ok": 29,
+ "updated": "2026-11-18T21:55:45+09:00",
+ "items": 374,
+ "with_image": 353,
+ "google_decode_ok": 41,
  "google_decode_failed": 0,
  "google_decode_samples": [],
  "image_failures": [
   "news.nicovideo.jp: HTTPError: HTTP Error 403: Forbidden",
+  "news.nicovideo.jp: HTTPError: HTTP Error 403: Forbidden",
   "www.nagoya-dome.co.jp: og:image なし (15571 文字)",
   "media.unisba.ac.id: HTTPError: HTTP Error 403: Forbidden",
+  "topics.smt.docomo.ne.jp: HTTPError: HTTP Error 404: Not Found",
   "media.unisba.ac.id: HTTPError: HTTP Error 403: Forbidden",
   "media.unisba.ac.id: HTTPError: HTTP Error 403: Forbidden",
   "news.nicovideo.jp: HTTPError: HTTP Error 403: Forbidden"
