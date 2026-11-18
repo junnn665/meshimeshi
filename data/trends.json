@@ -1,7 +1,6 @@
 {
- "updated": "2026-11-18T12:56:20+00:00",
+ "updated": "2026-11-18T21:20:05+00:00",
  "days": [
-  "2026-11-05",
   "2026-11-06",
   "2026-11-07",
   "2026-11-08",
@@ -14,139 +13,9 @@
   "2026-11-15",
   "2026-11-16",
   "2026-11-17",
-  "2026-11-18"
+  "2026-11-18",
+  "2026-11-19"
  ],
  "recent_days": 3,
- "items": [
-  {
-   "label": "カレー",
-   "q": "カレー",
-   "kind": "dish",
-   "recent": 3,
-   "base_per_day": 0.09,
-   "ratio": 2.75,
-   "new": false,
-   "daily": [
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    1,
-    2,
-    1,
-    0
-   ],
-   "articles": [
-    {
-     "id": "dae4d3172e9f8113",
-     "title": "「ヒルトン名古屋」と「お肉の専門店スギモト」が初コラボ！手みやげにもぴったりな、名古屋らしいプレミアムご当地カレーが新発売",
-     "link": "https://www.walkerplus.com/article/1294937/",
-     "source": "ウォーカープラス",
-     "image": "https://news.walkerplus.com/article/1294937/15344645_615.jpg"
-    },
-    {
-     "id": "915f520b01ddc9c5",
-     "title": "【中部＆近畿地方のローソン限定！】CoCo壱番屋監修のカレーチーズまんが発売！",
-     "link": "https://www.walkerplus.com/trend/matome/article/126789/image703007.html",
-     "source": "ウォーカープラス",
-     "image": "https://news.walkerplus.com/article/126789/703007_615.jpg"
-    },
-    {
-     "id": "116b3e6bfa238f88",
-     "title": "華麗なるご当地グルメ 稲沢市でフェス、27店舗がカレー料理提供",
-     "link": "https://topics.smt.docomo.ne.jp/article/chuplus/region/chuplus-1340149",
-     "source": "ｄメニューニュース",
-     "image": "https://img.topics.smt.news.goo.ne.jp/picture/chuplus/m_chuplus-1340149.jpg"
-    }
-   ]
-  },
-  {
-   "label": "コメダ",
-   "q": "コメダ",
-   "kind": "chain",
-   "recent": 2,
-   "base_per_day": 0.09,
-   "ratio": 1.96,
-   "new": false,
-   "daily": [
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    1,
-    0,
-    0,
-    0,
-    2,
-    0,
-    0
-   ],
-   "articles": [
-    {
-     "id": "ff5f709bfc7f5411",
-     "title": "【動画】「めっちゃ日本と一緒！」タイ初のコメダ珈琲店、バンコクにオープン 現地向け独自メニューも",
-     "link": "https://www.chunichi.co.jp/article/1340231?rct=aichi",
-     "source": "中日新聞Web",
-     "image": "https://static.chunichi.co.jp/image/article/size1/2/e/e/e/2eeed748d878f66e7eb61f16409ed8fe_1.jpg"
-    },
-    {
-     "id": "52d553478c2296f7",
-     "title": "コメダがバンコク初出店 モーニングメニューに開店前から行列：ニュース",
-     "link": "https://biz.chunichi.co.jp/news/article/10/133566/",
-     "source": "中日BIZナビ",
-     "image": "https://biz.chunichi.co.jp/pic/10/p1/133566_0_10.jpg"
-    }
-   ]
-  },
-  {
-   "label": "ピザ",
-   "q": "ピザ",
-   "kind": "dish",
-   "recent": 2,
-   "base_per_day": 0.09,
-   "ratio": 1.96,
-   "new": false,
-   "daily": [
-    0,
-    0,
-    0,
-    0,
-    1,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    1,
-    0,
-    1
-   ],
-   "articles": [
-    {
-     "id": "fb99f381804cf276",
-     "title": "B&ZAI橋本涼、本ズワイガニ150グラムの“世界一のピザ”に舌鼓 全国優勝グルメを食べ尽くす",
-     "link": "https://www.agara.co.jp/article/713924?top=oricon",
-     "source": "AGARA 紀伊民報",
-     "image": "https://www.agara.co.jp/image/article/size1/b/b/a/8/bba81cf53e446736531dcba702b135b8_1.jpg"
-    },
-    {
-     "id": "2e99bbe5d5a7ce1d",
-     "title": "【ピザハットの新規会員登録がもっとおトクに！】選べる3種類のピザがお持ち帰り550円／配達860円に値下げ＆4つの味が楽しめる「エンジョイ４」が対象に！",
-     "link": "https://prtimes.jp/main/html/rd/p/000000394.000031164.html",
-     "source": "PR TIMES",
-     "image": "https://prcdn.freetls.fastly.net/release_image/31164/394/31164-394-85a5881e9b50f035ddc9bf9477c41a3d-1200x630.jpg?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260"
-    }
-   ]
-  }
- ]
+ "items": []
 }
