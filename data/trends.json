@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-19T03:14:37+00:00",
+ "updated": "2026-11-19T12:49:39+00:00",
  "days": [
   "2026-11-06",
   "2026-11-07",
@@ -17,5 +17,54 @@
   "2026-11-19"
  ],
  "recent_days": 3,
- "items": []
+ "items": [
+  {
+   "label": "いちご",
+   "q": "いちご",
+   "kind": "dish",
+   "recent": 3,
+   "base_per_day": 0.18,
+   "ratio": 2.26,
+   "new": false,
+   "daily": [
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    2,
+    0,
+    1
+   ],
+   "articles": [
+    {
+     "id": "2ef904a7e99945ec",
+     "title": "農家こだわりの完熟いちごをたっぷり！《こうちラーメン博》で「ストロベリーバブルワッフル」を堪能（高知さんさんテレビ）",
+     "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNeVZrSHYzUkxVUnkzVlUxOXRrdDBfNENFZmE4aGllamMyVk5qM1laMm4tWkxiNGR0amlHSzA5UXFWNk8tRVRjbGpDSjQ3dFFPZFJkSm5TQTNqTEhSZ2FTNnE0cW9XaUN0WWIzSTg2TEtDSlJTUEJfN0x4N0hfd0JOMjl2YVdqeEoyRjNuNHptd3U5a3I4OEJsNGlKM0lYeVBXMHhWd2U0V3VteHlZeXJGS1pVd3FtLXZnZ2ptVFpBNEIwQ2kwcEstYWUyQmd1YW40SUE?oc=5",
+     "source": "ｄメニューニュース",
+     "image": null
+    },
+    {
+     "id": "38418f88035a14ff",
+     "title": "キル フェ ボン 冬メニュー21種登場 白イチゴ“初恋の香り”のタルトやイチゴと練乳クリームのティラミスなど",
+     "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE0zek9CMGdCQmJXWHdGRWdiSXdVNzduYTBIeE5oODc0ZHRKdHF0aFY1NDR6Wm9YbllrVC0ydnR1WVlHSXEzaVQySmVmaw?oc=5",
+     "source": "甘党男子",
+     "image": null
+    },
+    {
+     "id": "18ee7e15707f9c3f",
+     "title": "キルフェボン、毎年好評の白イチゴ“初恋の香り”タルトが再び 12月1日から冬メニュー勢ぞろい",
+     "link": "https://news.infoseek.co.jp/amp/article/iza_RRE756WSSBD4DIXBZWNMNBU2KQ/",
+     "source": "Infoseek",
+     "image": "https://media.image.infoseek.co.jp/isnews/photos/iza/iza_RRE756WSSBD4DIXBZWNMNBU2KQ_0-enlarge.jpg"
+    }
+   ]
+  }
+ ]
 }

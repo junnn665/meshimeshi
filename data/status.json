@@ -1,12 +1,13 @@
 {
- "updated": "2026-11-19T12:10:16+09:00",
- "items": 382,
- "with_image": 361,
+ "updated": "2026-11-19T21:49:15+09:00",
+ "items": 376,
+ "with_image": 335,
  "google_decode_ok": 0,
- "google_decode_failed": 0,
- "google_decode_samples": [],
- "image_failures": [
-  "www.msn.com: og:image なし (42719 文字)",
-  "f-weeklyweb.com: og:image なし (73155 文字)"
- ]
+ "google_decode_failed": 45,
+ "google_decode_samples": [
+  "error: HTTPError: HTTP Error 429: Too Many Requests",
+  "error: HTTPError: HTTP Error 429: Too Many Requests",
+  "error: HTTPError: HTTP Error 429: Too Many Requests"
+ ],
+ "image_failures": []
 }
