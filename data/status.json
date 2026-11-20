@@ -1,13 +1,13 @@
 {
- "updated": "2026-11-20T20:18:19+09:00",
- "items": 377,
- "with_image": 335,
- "google_decode_ok": 40,
+ "updated": "2026-11-21T04:57:47+09:00",
+ "items": 376,
+ "with_image": 333,
+ "google_decode_ok": 30,
  "google_decode_failed": 0,
  "google_decode_samples": [],
  "image_failures": [
-  "www.msn.com: og:image なし (42796 文字)",
-  "topics.smt.docomo.ne.jp: HTTPError: HTTP Error 404: Not Found",
+  "www.msn.com: og:image なし (42933 文字)",
+  "www.excite.co.jp: HTTPError: HTTP Error 403: Forbidden",
   "tver.jp: og:image なし (2448 文字)",
   "www.walkerplus.com: TimeoutError: The read operation timed out"
  ]

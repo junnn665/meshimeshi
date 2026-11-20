@@ -1,7 +1,6 @@
 {
- "updated": "2026-11-20T11:18:59+00:00",
+ "updated": "2026-11-20T19:58:22+00:00",
  "days": [
-  "2026-11-07",
   "2026-11-08",
   "2026-11-09",
   "2026-11-10",
@@ -14,7 +13,8 @@
   "2026-11-17",
   "2026-11-18",
   "2026-11-19",
-  "2026-11-20"
+  "2026-11-20",
+  "2026-11-21"
  ],
  "recent_days": 3,
  "items": [
@@ -23,8 +23,8 @@
    "q": "ステーキ",
    "kind": "dish",
    "recent": 5,
-   "base_per_day": 0.36,
-   "ratio": 2.63,
+   "base_per_day": 0.45,
+   "ratio": 2.33,
    "new": false,
    "daily": [
     0,
@@ -34,13 +34,13 @@
     0,
     0,
     0,
-    0,
     2,
     2,
     0,
     1,
     1,
-    3
+    4,
+    0
    ],
    "articles": [
     {
@@ -63,47 +63,6 @@
      "link": "https://mantan-web.jp/prtimes/article/20261120prt00m200000964a.html",
      "source": "Mantan Web",
      "image": "https://prtimes.jp/img/30130/340/resize/d30130-340-bca94aa98042b92f9613-0.jpg"
-    }
-   ]
-  },
-  {
-   "label": "焼肉",
-   "q": "焼肉",
-   "kind": "dish",
-   "recent": 2,
-   "base_per_day": 0.09,
-   "ratio": 1.96,
-   "new": false,
-   "daily": [
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    1,
-    0,
-    0,
-    0,
-    1,
-    0,
-    1
-   ],
-   "articles": [
-    {
-     "id": "99f827bebb2b0667",
-     "title": "ハーゲンダッツも食べ放題 全国51店舗の焼肉チェーンで初導入 静岡県の店舗がリニューアル",
-     "link": "https://www.shizuoka-life.jp/post-16098/",
-     "source": "静岡ライフ",
-     "image": "https://www.shizuoka-life.jp/wp-content/uploads/2026/11/4afc581b4075626f6396e35d4a0ff46d.jpeg"
-    },
-    {
-     "id": "0cd9fb3c96f434c4",
-     "title": "愛知県瀬戸市、秘伝タレ焼肉 吟たん冬限定フェア2026年12月5日スタート！",
-     "link": "https://prtimes.jp/main/html/rd/p/000000046.000091713.html",
-     "source": "PR TIMES",
-     "image": "https://prcdn.freetls.fastly.net/release_image/91713/46/91713-46-b8512d9505138fc7d9d17a891fbedebc-1032x729.jpg?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260"
     }
    ]
   }
