@@ -1,18 +1,16 @@
 {
- "updated": "2026-11-20T06:21:54+09:00",
- "items": 368,
- "with_image": 326,
- "google_decode_ok": 56,
+ "updated": "2026-11-20T11:58:33+09:00",
+ "items": 375,
+ "with_image": 331,
+ "google_decode_ok": 42,
  "google_decode_failed": 0,
  "google_decode_samples": [],
  "image_failures": [
-  "news.nicovideo.jp: HTTPError: HTTP Error 403: Forbidden",
-  "www.excite.co.jp: HTTPError: HTTP Error 403: Forbidden",
-  "www.excite.co.jp: HTTPError: HTTP Error 403: Forbidden",
   "biz.chunichi.co.jp: HTTPError: HTTP Error 403: Forbidden",
-  "www.ozmall.co.jp: HTTPError: HTTP Error 403: Forbidden",
-  "www.nagoya-dome.co.jp: og:image なし (15571 文字)",
+  "www.nagoya-dome.co.jp: og:image なし (46001 文字)",
   "topics.smt.docomo.ne.jp: HTTPError: HTTP Error 404: Not Found",
-  "www.excite.co.jp: HTTPError: HTTP Error 403: Forbidden"
+  "www.walkerplus.com: TimeoutError: The read operation timed out",
+  "news.nicovideo.jp: HTTPError: HTTP Error 403: Forbidden",
+  "www.walkerplus.com: TimeoutError: The read operation timed out"
  ]
 }
