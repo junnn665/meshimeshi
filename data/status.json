@@ -1,14 +1,15 @@
 {
- "updated": "2026-11-21T04:57:47+09:00",
- "items": 376,
- "with_image": 333,
- "google_decode_ok": 30,
+ "updated": "2026-11-21T10:21:13+09:00",
+ "items": 373,
+ "with_image": 328,
+ "google_decode_ok": 32,
  "google_decode_failed": 0,
  "google_decode_samples": [],
  "image_failures": [
-  "www.msn.com: og:image なし (42933 文字)",
+  "www.msn.com: og:image なし (43314 文字)",
   "www.excite.co.jp: HTTPError: HTTP Error 403: Forbidden",
-  "tver.jp: og:image なし (2448 文字)",
+  "www.nagoya-dome.co.jp: og:image なし (15571 文字)",
+  "www.walkerplus.com: TimeoutError: The read operation timed out",
   "www.walkerplus.com: TimeoutError: The read operation timed out"
  ]
 }
