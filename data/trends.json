@@ -1,7 +1,6 @@
 {
- "updated": "2026-11-22T11:03:42+00:00",
+ "updated": "2026-11-22T18:25:52+00:00",
  "days": [
-  "2026-11-09",
   "2026-11-10",
   "2026-11-11",
   "2026-11-12",
@@ -14,57 +13,9 @@
   "2026-11-19",
   "2026-11-20",
   "2026-11-21",
-  "2026-11-22"
+  "2026-11-22",
+  "2026-11-23"
  ],
  "recent_days": 3,
- "items": [
-  {
-   "label": "ステーキ",
-   "q": "ステーキ",
-   "kind": "dish",
-   "recent": 5,
-   "base_per_day": 0.55,
-   "ratio": 2.09,
-   "new": false,
-   "daily": [
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    2,
-    2,
-    0,
-    1,
-    1,
-    4,
-    0,
-    1
-   ],
-   "articles": [
-    {
-     "id": "d078ff744d8a0fa1",
-     "title": "海が見えるあさくまオープン！蒲郡に初出店記念で12/13限定お得なステーキ食べ放題イベント",
-     "link": "https://news.livedoor.com/article/detail/32874018/",
-     "source": "ライブドアニュース",
-     "image": "https://image.news.livedoor.com/newsimage/stf/f/8/f8462_1784_782fe2309b9d7773fc2ca3d6b9dd3562.jpg"
-    },
-    {
-     "id": "02a1b59957cb2394",
-     "title": "「ステーキのあさくま 蒲郡店」グランドオープン！2026年12月13日に食べ放題イベント",
-     "link": "https://report.iko-yo.net/articles/35878",
-     "source": "いこーよニュース",
-     "image": "https://d28w2qw7dtr435.cloudfront.net/uploaded/cover_images/images/36124/normal.jpg?1795158452"
-    },
-    {
-     "id": "5f2065cba0b82056",
-     "title": "海が見える個室のある「ステーキのあさくま 蒲郡店」が愛知県に開業！ ステーキ食べ放題の「匠肉祭り」も実施（グルメ Watch）",
-     "link": "https://news.yahoo.co.jp/articles/120c14fdaf1178d92f075a0e6a81b72393e96a21",
-     "source": "Yahoo!ニュース",
-     "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261120-00000025-impgrw-000-1-view.jpg?exp=10800"
-    }
-   ]
-  }
- ]
+ "items": []
 }
