@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-22T02:58:42+00:00",
+ "updated": "2026-11-22T11:03:42+00:00",
  "days": [
   "2026-11-09",
   "2026-11-10",
@@ -22,9 +22,9 @@
    "label": "ステーキ",
    "q": "ステーキ",
    "kind": "dish",
-   "recent": 4,
+   "recent": 5,
    "base_per_day": 0.55,
-   "ratio": 1.71,
+   "ratio": 2.09,
    "new": false,
    "daily": [
     0,
@@ -40,9 +40,16 @@
     1,
     4,
     0,
-    0
+    1
    ],
    "articles": [
+    {
+     "id": "d078ff744d8a0fa1",
+     "title": "海が見えるあさくまオープン！蒲郡に初出店記念で12/13限定お得なステーキ食べ放題イベント",
+     "link": "https://news.livedoor.com/article/detail/32874018/",
+     "source": "ライブドアニュース",
+     "image": "https://image.news.livedoor.com/newsimage/stf/f/8/f8462_1784_782fe2309b9d7773fc2ca3d6b9dd3562.jpg"
+    },
     {
      "id": "02a1b59957cb2394",
      "title": "「ステーキのあさくま 蒲郡店」グランドオープン！2026年12月13日に食べ放題イベント",
@@ -56,13 +63,6 @@
      "link": "https://news.yahoo.co.jp/articles/120c14fdaf1178d92f075a0e6a81b72393e96a21",
      "source": "Yahoo!ニュース",
      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261120-00000025-impgrw-000-1-view.jpg?exp=10800"
-    },
-    {
-     "id": "4330e92947adc25e",
-     "title": "【ステーキのあさくま】愛知県蒲郡市に初出店！12月16日（水）グランドオープン、12月13日（日）には極上ステーキ食べ放題「匠肉祭り」を開催。また、12月11日(金)メディア内覧会も開催 | 株式会社テンポスホールディングスのプレスリリース",
-     "link": "https://mantan-web.jp/prtimes/article/20261120prt00m200000964a.html",
-     "source": "Mantan Web",
-     "image": "https://prtimes.jp/img/30130/340/resize/d30130-340-bca94aa98042b92f9613-0.jpg"
     }
    ]
   }
