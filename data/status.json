@@ -1,14 +1,13 @@
 {
- "updated": "2026-11-23T09:10:26+09:00",
- "items": 372,
+ "updated": "2026-11-23T17:52:42+09:00",
+ "items": 374,
  "with_image": 320,
- "google_decode_ok": 34,
+ "google_decode_ok": 54,
  "google_decode_failed": 0,
  "google_decode_samples": [],
  "image_failures": [
+  "news.nicovideo.jp: HTTPError: HTTP Error 403: Forbidden",
   "kurumefan.com: HTTPError: HTTP Error 403: Forbidden",
-  "www.excite.co.jp: HTTPError: HTTP Error 403: Forbidden",
-  "www.ozmall.co.jp: HTTPError: HTTP Error 403: Forbidden",
-  "www.nagoya-dome.co.jp: og:image なし (15952 文字)"
+  "news.nicovideo.jp: HTTPError: HTTP Error 403: Forbidden"
  ]
 }
