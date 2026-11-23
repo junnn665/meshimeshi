@@ -1,13 +1,17 @@
 {
- "updated": "2026-11-23T17:52:42+09:00",
- "items": 374,
+ "updated": "2026-11-24T06:11:51+09:00",
+ "items": 379,
  "with_image": 320,
- "google_decode_ok": 54,
+ "google_decode_ok": 35,
  "google_decode_failed": 0,
  "google_decode_samples": [],
  "image_failures": [
-  "news.nicovideo.jp: HTTPError: HTTP Error 403: Forbidden",
-  "kurumefan.com: HTTPError: HTTP Error 403: Forbidden",
-  "news.nicovideo.jp: HTTPError: HTTP Error 403: Forbidden"
+  "www.nikkan.co.jp: HTTPError: HTTP Error 405: Not Allowed",
+  "www.walkerplus.com: TimeoutError: The read operation timed out",
+  "www.walkerplus.com: TimeoutError: The read operation timed out",
+  "www.walkerplus.com: TimeoutError: The read operation timed out",
+  "www.walkerplus.com: TimeoutError: The read operation timed out",
+  "www.walkerplus.com: TimeoutError: The read operation timed out",
+  "www.walkerplus.com: TimeoutError: The read operation timed out"
  ]
 }
