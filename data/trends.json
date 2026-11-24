@@ -1,7 +1,6 @@
 {
- "updated": "2026-11-24T05:54:25+00:00",
+ "updated": "2026-11-24T17:29:09+00:00",
  "days": [
-  "2026-11-11",
   "2026-11-12",
   "2026-11-13",
   "2026-11-14",
@@ -14,70 +13,22 @@
   "2026-11-21",
   "2026-11-22",
   "2026-11-23",
-  "2026-11-24"
+  "2026-11-24",
+  "2026-11-25"
  ],
  "recent_days": 3,
  "items": [
-  {
-   "label": "中華",
-   "q": "町中華",
-   "kind": "dish",
-   "recent": 4,
-   "base_per_day": 0.36,
-   "ratio": 2.15,
-   "new": false,
-   "daily": [
-    0,
-    0,
-    0,
-    0,
-    1,
-    0,
-    1,
-    2,
-    0,
-    0,
-    0,
-    3,
-    1,
-    0
-   ],
-   "articles": [
-    {
-     "id": "a1b89f89b86aa05f",
-     "title": "玉袋筋太郎、本番前から酒1リットル！「町中華で飲ろうぜ」ファン交流イベントで激ヤバトーク 過激さ増し反省「かましすぎ」",
-     "link": "https://article.auone.jp/c92e8d70-2732-42a7-9355-6080b20d2e50",
-     "source": "au Webポータル",
-     "image": "https://portal.auone.jp/media/thumbnails/2026/11/22/https___news_jp_i_1497326939088814101_w1280.webp"
-    },
-    {
-     "id": "5c8f29d66d0da3c3",
-     "title": "BS－TBS「町中華で飲ろうぜ」で昼飲みイベント 鈴木美羽と谷口彩菜「飲むとめちゃくちゃトイレに…」",
-     "link": "https://www.sanspo.com/article/20261122-JBJ25ZPRN5NDXHSDAUV36A3TSE/",
-     "source": "サンスポ",
-     "image": "https://www.sanspo.com/resizer/v2/7TR556ATCBJIBO6HIEJAQHC7TI.jpg?auth=afa0e05f72caf5be5f5711b8b7b703bea575db61437a9c77b4575062d6e012d1&quality=50&focal=1069%2C790&width=1200&height=675"
-    },
-    {
-     "id": "87d02ebeea9b647c",
-     "title": "BS―TBS「町中華で飲ろうぜ」 名古屋で初の地方イベント 終盤にはトイレラッシュ！？",
-     "link": "https://news.infoseek.co.jp/article/sponichin_20261122_0200/",
-     "source": "Infoseek",
-     "image": "https://media.image.infoseek.co.jp/isnews/photos/sponichin/sponichin_20261122_0200_0-enlarge.jpg"
-    }
-   ]
-  },
   {
    "label": "つけ麺",
    "q": "つけ麺",
    "kind": "dish",
    "recent": 2,
-   "base_per_day": 0.09,
-   "ratio": 1.96,
-   "new": false,
+   "base_per_day": 0.0,
+   "ratio": 2.5,
+   "new": true,
    "daily": [
     0,
     0,
-    1,
     0,
     0,
     0,
@@ -88,7 +39,8 @@
     0,
     0,
     1,
-    1
+    1,
+    0
    ],
    "articles": [
     {
@@ -108,6 +60,47 @@
    ]
   },
   {
+   "label": "定食",
+   "q": "定食",
+   "kind": "dish",
+   "recent": 2,
+   "base_per_day": 0.09,
+   "ratio": 1.96,
+   "new": false,
+   "daily": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    2,
+    0
+   ],
+   "articles": [
+    {
+     "id": "16f95c68a3a2525b",
+     "title": "「ちいかわベーカリー」名古屋PARCOに期間限定オープン 小豆×マーガリンの限定食パンが登場",
+     "link": "https://travel.mdpr.jp/travel/detail/4882413",
+     "source": "モデルプレス トラベル",
+     "image": "https://img-mdpr.freetls.fastly.net/article/cCX9/nm/cCX9WtdhfjKZli4wXkfXUlTfpx61N-ExXPYbYdcXkgU.jpg?width=1400&disable=upscale&auto=webp"
+    },
+    {
+     "id": "3f285cb42ef87999",
+     "title": "魅力がここに！「やよい軒」全国の店長が選んだ、『チゲ定食』おすすめポイントランキング！",
+     "link": "https://prtimes.jp/main/html/rd/p/000001742.000054093.html",
+     "source": "PR TIMES",
+     "image": "https://prcdn.freetls.fastly.net/release_image/54093/1742/54093-1742-e06ecd2bf9d4aa4aaebf07b3153d86fb-1080x1440.png?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260"
+    }
+   ]
+  },
+  {
    "label": "台湾ラーメン",
    "q": "台湾ラーメン",
    "kind": "dish",
@@ -123,13 +116,13 @@
     0,
     0,
     0,
-    0,
     1,
     0,
     1,
     0,
     0,
-    2
+    2,
+    0
    ],
    "articles": [
     {

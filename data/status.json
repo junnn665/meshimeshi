@@ -1,13 +1,14 @@
 {
- "updated": "2026-11-24T14:53:44+09:00",
- "items": 377,
- "with_image": 320,
- "google_decode_ok": 38,
+ "updated": "2026-11-25T02:28:27+09:00",
+ "items": 368,
+ "with_image": 310,
+ "google_decode_ok": 48,
  "google_decode_failed": 0,
  "google_decode_samples": [],
  "image_failures": [
+  "www.excite.co.jp: HTTPError: HTTP Error 403: Forbidden",
+  "news.nicovideo.jp: HTTPError: HTTP Error 403: Forbidden",
   "www.nikkan.co.jp: HTTPError: HTTP Error 405: Not Allowed",
-  "natalie.mu: HTTPError: HTTP Error 405: Not Allowed",
-  "www.excite.co.jp: HTTPError: HTTP Error 403: Forbidden"
+  "natalie.mu: HTTPError: HTTP Error 405: Not Allowed"
  ]
 }
