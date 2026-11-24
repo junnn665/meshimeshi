@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-23T21:12:38+00:00",
+ "updated": "2026-11-24T05:54:25+00:00",
  "days": [
   "2026-11-11",
   "2026-11-12",
@@ -63,6 +63,88 @@
      "link": "https://news.infoseek.co.jp/article/sponichin_20261122_0200/",
      "source": "Infoseek",
      "image": "https://media.image.infoseek.co.jp/isnews/photos/sponichin/sponichin_20261122_0200_0-enlarge.jpg"
+    }
+   ]
+  },
+  {
+   "label": "つけ麺",
+   "q": "つけ麺",
+   "kind": "dish",
+   "recent": 2,
+   "base_per_day": 0.09,
+   "ratio": 1.96,
+   "new": false,
+   "daily": [
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    1
+   ],
+   "articles": [
+    {
+     "id": "4f079af05c852138",
+     "title": "ラーメン情報誌 全国実売ナンバーワン※ 焼きラーメンやつけ麺も！愛知発祥の台湾ラーメンと新店24店を特集『ラーメンWalker東海2027』11月24日発売",
+     "link": "https://www.jiji.com/jc/article?k=000000309.000017610&g=prt",
+     "source": "時事ドットコム",
+     "image": "https://prcdn.freetls.fastly.net/release_image/17610/309/17610-309-0ba40b33f52bd87d9af021af74f704bc-1000x1414.jpg"
+    },
+    {
+     "id": "b1eed7b0ca4332d5",
+     "title": "本気のつけ麺ランキング＠東海 TOP3は？（つけ麺バカ（つけログの主）） - エキスパート",
+     "link": "https://news.yahoo.co.jp/expert/articles/f041fe12e73cd3af475b5aed93e4cbe439836eba",
+     "source": "Yahoo!ニュース",
+     "image": "https://newsatcl-pctr.c.yimg.jp/t/iwiz-yn/creators/tsukemembakatsukerog/02772695/title-1795424365353.jpeg?exp=10800"
+    }
+   ]
+  },
+  {
+   "label": "台湾ラーメン",
+   "q": "台湾ラーメン",
+   "kind": "dish",
+   "recent": 2,
+   "base_per_day": 0.18,
+   "ratio": 1.62,
+   "new": false,
+   "daily": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    1,
+    0,
+    0,
+    2
+   ],
+   "articles": [
+    {
+     "id": "499614942a03a877",
+     "title": "『ラーメンWalker東海2027』発売 新店24店と台湾ラーメン特集",
+     "link": "https://www.rbbtoday.com/article/2026/11/24/256290.html",
+     "source": "RBB TODAY",
+     "image": "https://www.rbbtoday.com/imgs/ogp_f/1069805.jpg"
+    },
+    {
+     "id": "4f079af05c852138",
+     "title": "ラーメン情報誌 全国実売ナンバーワン※ 焼きラーメンやつけ麺も！愛知発祥の台湾ラーメンと新店24店を特集『ラーメンWalker東海2027』11月24日発売",
+     "link": "https://www.jiji.com/jc/article?k=000000309.000017610&g=prt",
+     "source": "時事ドットコム",
+     "image": "https://prcdn.freetls.fastly.net/release_image/17610/309/17610-309-0ba40b33f52bd87d9af021af74f704bc-1000x1414.jpg"
     }
    ]
   }

@@ -1,17 +1,13 @@
 {
- "updated": "2026-11-24T06:11:51+09:00",
- "items": 379,
+ "updated": "2026-11-24T14:53:44+09:00",
+ "items": 377,
  "with_image": 320,
- "google_decode_ok": 35,
+ "google_decode_ok": 38,
  "google_decode_failed": 0,
  "google_decode_samples": [],
  "image_failures": [
   "www.nikkan.co.jp: HTTPError: HTTP Error 405: Not Allowed",
-  "www.walkerplus.com: TimeoutError: The read operation timed out",
-  "www.walkerplus.com: TimeoutError: The read operation timed out",
-  "www.walkerplus.com: TimeoutError: The read operation timed out",
-  "www.walkerplus.com: TimeoutError: The read operation timed out",
-  "www.walkerplus.com: TimeoutError: The read operation timed out",
-  "www.walkerplus.com: TimeoutError: The read operation timed out"
+  "natalie.mu: HTTPError: HTTP Error 405: Not Allowed",
+  "www.excite.co.jp: HTTPError: HTTP Error 403: Forbidden"
  ]
 }
