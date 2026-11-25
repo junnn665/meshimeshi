@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-25T02:15:18+00:00",
+ "updated": "2026-11-25T12:35:43+00:00",
  "days": [
   "2026-11-12",
   "2026-11-13",
@@ -60,6 +60,47 @@
    ]
   },
   {
+   "label": "韓国グルメ",
+   "q": "韓国",
+   "kind": "dish",
+   "recent": 2,
+   "base_per_day": 0.09,
+   "ratio": 1.96,
+   "new": false,
+   "daily": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    1,
+    0
+   ],
+   "articles": [
+    {
+     "id": "58e7dee07293d137",
+     "title": "肉匠坂井で韓国グルメフェア開催！11月25日から サムギョプサルやチーズタッカルビなど8品 静岡県内6店舗でも",
+     "link": "https://topics.smt.docomo.ne.jp/article/wasabee/region/wasabee-20261124-20746564",
+     "source": "ｄメニューニュース",
+     "image": "https://img.topics.smt.news.goo.ne.jp/-/20261125112023/img/dmenu_service-brand-logo_200x200.png"
+    },
+    {
+     "id": "0c5642b647f4e561",
+     "title": "かき氷にペッパーミル!?トウモロコシと胡椒がポイントの韓国かき氷が名古屋「白雪堂」で食べられる！",
+     "link": "https://www.walkerplus.com/article/1200653/",
+     "source": "ウォーカープラス",
+     "image": null
+    }
+   ]
+  },
+  {
    "label": "つけ麺",
    "q": "つけ麺",
    "kind": "dish",
@@ -97,6 +138,95 @@
      "link": "https://news.yahoo.co.jp/expert/articles/f041fe12e73cd3af475b5aed93e4cbe439836eba",
      "source": "Yahoo!ニュース",
      "image": "https://newsatcl-pctr.c.yimg.jp/t/iwiz-yn/creators/tsukemembakatsukerog/02772695/title-1795424365353.jpeg?exp=10800"
+    }
+   ]
+  },
+  {
+   "label": "寿司",
+   "q": "寿司",
+   "kind": "dish",
+   "recent": 3,
+   "base_per_day": 0.36,
+   "ratio": 1.67,
+   "new": false,
+   "daily": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    2,
+    1,
+    0,
+    0,
+    1,
+    1,
+    0,
+    2
+   ],
+   "articles": [
+    {
+     "id": "919a8119e6261ef1",
+     "title": "【2026年11月第4週】コンビニ寿司・コンビニ弁当の新商品！海苔弁当やまごわやさしい弁当などまとめ",
+     "link": "https://mognavi.jp/news/matome/gen-newProduct-30704/",
+     "source": "もぐナビ",
+     "image": "https://img1.esimg.jp/blog/wp-content/uploads/2026/11/gen-newProduct-30704.jpg?ts=1795571100000"
+    },
+    {
+     "id": "89cc9cced5e4a588",
+     "title": "淡路島3年とらふぐを使った冬季限定-特別メニューが新登場！明石海峡大橋直結、淡路ハイウェイオアシスの本格鮨処 「すし富」から2026年12月1日(火)より提供開始",
+     "link": "https://news.infoseek.co.jp/article/prtimes_000000289_000040849/",
+     "source": "Infoseek",
+     "image": "https://media.image.infoseek.co.jp/isnews/pc/img/noimage_203x120_busi-econ-1.0.png"
+    },
+    {
+     "id": "96d52b321613241e",
+     "title": "辛ラーメン、寿司店限定メニュー発表 かっぱ寿司とコラボ『鯛スープの海鮮 辛ラーメン』【詳細】",
+     "link": "https://www.sanyonews.jp/article/1986210?kw=2025",
+     "source": "山陽新聞",
+     "image": "https://static.sanyonews.jp/image/article/size1/b/0/6/b/b06b18d2705b794ce024eea236c5a697_1.jpg"
+    }
+   ]
+  },
+  {
+   "label": "ビール",
+   "q": "ビール",
+   "kind": "dish",
+   "recent": 2,
+   "base_per_day": 0.18,
+   "ratio": 1.62,
+   "new": false,
+   "daily": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    1,
+    0,
+    0,
+    1,
+    0,
+    1
+   ],
+   "articles": [
+    {
+     "id": "1b9fafc018e64101",
+     "title": "生ビールもハイボールも1杯108円 東京発の燻製居酒屋が東海初出店 浜松にオープン",
+     "link": "https://www.shizuoka-life.jp/post-16179/",
+     "source": "静岡ライフ",
+     "image": "https://www.shizuoka-life.jp/wp-content/uploads/2026/11/4c85c234076325c638e2c305400f29d6-5.jpg"
+    },
+    {
+     "id": "d8b8705bbdcd9dc5",
+     "title": "【愛知・瀬戸】日本初上陸！KCBS公認BBQ大会＆入場無料フェスを11月29日同時開催！本場アメリカのBBQ、フードトラック、クラフトビール、音楽ライブ、ホットドッグ早食い大会まで楽しむ1日限りの祭典",
+     "link": "https://prtimes.jp/main/html/rd/p/000001216.000045400.html",
+     "source": "PR TIMES",
+     "image": "https://prcdn.freetls.fastly.net/release_image/45400/1216/45400-1216-dda8283788f76a3cf4a7d43f57f6dc1a-1536x1024.jpg?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260"
     }
    ]
   },
