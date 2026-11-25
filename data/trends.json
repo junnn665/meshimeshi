@@ -1,7 +1,6 @@
 {
- "updated": "2026-11-25T12:35:43+00:00",
+ "updated": "2026-11-25T22:24:04+00:00",
  "days": [
-  "2026-11-12",
   "2026-11-13",
   "2026-11-14",
   "2026-11-15",
@@ -14,10 +13,107 @@
   "2026-11-22",
   "2026-11-23",
   "2026-11-24",
-  "2026-11-25"
+  "2026-11-25",
+  "2026-11-26"
  ],
  "recent_days": 3,
  "items": [
+  {
+   "label": "ドーナツ",
+   "q": "ドーナツ",
+   "kind": "dish",
+   "recent": 3,
+   "base_per_day": 0.09,
+   "ratio": 2.75,
+   "new": false,
+   "daily": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    3,
+    0
+   ],
+   "articles": [
+    {
+     "id": "76190edbc4602aaa",
+     "title": "スターバックス初のカプセルトイ、抹茶フラペチーノやドーナツの“ぬいぐるみチャーム”が全国で",
+     "link": "https://www.fashion-press.net/news/149144",
+     "source": "ファッションプレス",
+     "image": "https://www.fashion-press.net/img/news/149144/top.jpg?1785205212"
+    },
+    {
+     "id": "1c6a698cd1d68ca3",
+     "title": "「ストレンジャー・シングス」10周年記念カフェが東京・大阪・名古屋に、デモゴルゴンのドーナツなど",
+     "link": "https://www.fashion-press.net/news/153830",
+     "source": "ファッションプレス",
+     "image": "https://www.fashion-press.net/img/news/153830/top.jpg?1795580615"
+    },
+    {
+     "id": "b74513714a45a689",
+     "title": "デモゴルゴンのドーナツが登場！BOX cafe&space「ストレンジャー・シングス 未知の世界」10周年記念CAFE",
+     "link": "https://dtimes.jp/post-1479615/",
+     "source": "Dtimes",
+     "image": "https://dtimes.jp/wp-content/uploads/2026/11/dtimes-engine-424bd2891a59782bd3354272e6d06da1-20261125-c63f57.jpg"
+    }
+   ]
+  },
+  {
+   "label": "ハンバーガー",
+   "q": "ハンバーガー",
+   "kind": "dish",
+   "recent": 4,
+   "base_per_day": 0.36,
+   "ratio": 2.15,
+   "new": false,
+   "daily": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    2,
+    1,
+    0,
+    1,
+    3,
+    0
+   ],
+   "articles": [
+    {
+     "id": "1922058f6e9edba3",
+     "title": "【ドムドム】まるごと!!カニバーガーを実食｜名古屋限定みそ味が全国販売！隠れた名物、バターコーン、かりんとう饅頭も正直レビュー！！【ずんだもんグルメ】",
+     "link": "https://news.livedoor.com/article/detail/32900887/",
+     "source": "ライブドアニュース",
+     "image": "https://image.news.livedoor.com/newsimage/stf/f/b/fb5c6_1845_1f8651d1_d1df892d.jpg"
+    },
+    {
+     "id": "c9163dad7c16ac01",
+     "title": "ゼッテリア、「贅沢ローストビーフフェア 第1弾」開催 年末にぴったりな食べ応えあるバーガー",
+     "link": "https://www.oricon.co.jp/news/2495113/full/",
+     "source": "オリコンニュース",
+     "image": "https://contents.oricon.co.jp/upimg/news/2496000/2495113/20261125_132836_p_o_58233671.jpg"
+    },
+    {
+     "id": "de295e8377893fbe",
+     "title": "【きょうから】ケンタッキー×『アベンジャーズ』コラボ開始 ドクター・ドゥーム仕様の限定チキン＆バーガー登場（オリコン）",
+     "link": "https://news.yahoo.co.jp/articles/ea45b54f80539d3d824dd7d552e7946557f0db9a",
+     "source": "Yahoo!ニュース",
+     "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261125-00000304-oric-000-1-view.jpg?exp=10800"
+    }
+   ]
+  },
   {
    "label": "定食",
    "q": "定食",
@@ -34,12 +130,12 @@
     0,
     0,
     0,
-    0,
     1,
     0,
     0,
     0,
     2,
+    0,
     0
    ],
    "articles": [
@@ -60,177 +156,6 @@
    ]
   },
   {
-   "label": "韓国グルメ",
-   "q": "韓国",
-   "kind": "dish",
-   "recent": 2,
-   "base_per_day": 0.09,
-   "ratio": 1.96,
-   "new": false,
-   "daily": [
-    0,
-    0,
-    0,
-    0,
-    0,
-    1,
-    0,
-    0,
-    0,
-    0,
-    0,
-    1,
-    1,
-    0
-   ],
-   "articles": [
-    {
-     "id": "58e7dee07293d137",
-     "title": "肉匠坂井で韓国グルメフェア開催！11月25日から サムギョプサルやチーズタッカルビなど8品 静岡県内6店舗でも",
-     "link": "https://topics.smt.docomo.ne.jp/article/wasabee/region/wasabee-20261124-20746564",
-     "source": "ｄメニューニュース",
-     "image": "https://img.topics.smt.news.goo.ne.jp/-/20261125112023/img/dmenu_service-brand-logo_200x200.png"
-    },
-    {
-     "id": "0c5642b647f4e561",
-     "title": "かき氷にペッパーミル!?トウモロコシと胡椒がポイントの韓国かき氷が名古屋「白雪堂」で食べられる！",
-     "link": "https://www.walkerplus.com/article/1200653/",
-     "source": "ウォーカープラス",
-     "image": null
-    }
-   ]
-  },
-  {
-   "label": "つけ麺",
-   "q": "つけ麺",
-   "kind": "dish",
-   "recent": 2,
-   "base_per_day": 0.09,
-   "ratio": 1.96,
-   "new": false,
-   "daily": [
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    1,
-    0,
-    0,
-    1,
-    1,
-    0
-   ],
-   "articles": [
-    {
-     "id": "4f079af05c852138",
-     "title": "ラーメン情報誌 全国実売ナンバーワン※ 焼きラーメンやつけ麺も！愛知発祥の台湾ラーメンと新店24店を特集『ラーメンWalker東海2027』11月24日発売",
-     "link": "https://www.jiji.com/jc/article?k=000000309.000017610&g=prt",
-     "source": "時事ドットコム",
-     "image": "https://prcdn.freetls.fastly.net/release_image/17610/309/17610-309-0ba40b33f52bd87d9af021af74f704bc-1000x1414.jpg"
-    },
-    {
-     "id": "b1eed7b0ca4332d5",
-     "title": "本気のつけ麺ランキング＠東海 TOP3は？（つけ麺バカ（つけログの主）） - エキスパート",
-     "link": "https://news.yahoo.co.jp/expert/articles/f041fe12e73cd3af475b5aed93e4cbe439836eba",
-     "source": "Yahoo!ニュース",
-     "image": "https://newsatcl-pctr.c.yimg.jp/t/iwiz-yn/creators/tsukemembakatsukerog/02772695/title-1795424365353.jpeg?exp=10800"
-    }
-   ]
-  },
-  {
-   "label": "寿司",
-   "q": "寿司",
-   "kind": "dish",
-   "recent": 3,
-   "base_per_day": 0.36,
-   "ratio": 1.67,
-   "new": false,
-   "daily": [
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    2,
-    1,
-    0,
-    0,
-    1,
-    1,
-    0,
-    2
-   ],
-   "articles": [
-    {
-     "id": "919a8119e6261ef1",
-     "title": "【2026年11月第4週】コンビニ寿司・コンビニ弁当の新商品！海苔弁当やまごわやさしい弁当などまとめ",
-     "link": "https://mognavi.jp/news/matome/gen-newProduct-30704/",
-     "source": "もぐナビ",
-     "image": "https://img1.esimg.jp/blog/wp-content/uploads/2026/11/gen-newProduct-30704.jpg?ts=1795571100000"
-    },
-    {
-     "id": "89cc9cced5e4a588",
-     "title": "淡路島3年とらふぐを使った冬季限定-特別メニューが新登場！明石海峡大橋直結、淡路ハイウェイオアシスの本格鮨処 「すし富」から2026年12月1日(火)より提供開始",
-     "link": "https://news.infoseek.co.jp/article/prtimes_000000289_000040849/",
-     "source": "Infoseek",
-     "image": "https://media.image.infoseek.co.jp/isnews/pc/img/noimage_203x120_busi-econ-1.0.png"
-    },
-    {
-     "id": "96d52b321613241e",
-     "title": "辛ラーメン、寿司店限定メニュー発表 かっぱ寿司とコラボ『鯛スープの海鮮 辛ラーメン』【詳細】",
-     "link": "https://www.sanyonews.jp/article/1986210?kw=2025",
-     "source": "山陽新聞",
-     "image": "https://static.sanyonews.jp/image/article/size1/b/0/6/b/b06b18d2705b794ce024eea236c5a697_1.jpg"
-    }
-   ]
-  },
-  {
-   "label": "ビール",
-   "q": "ビール",
-   "kind": "dish",
-   "recent": 2,
-   "base_per_day": 0.18,
-   "ratio": 1.62,
-   "new": false,
-   "daily": [
-    0,
-    0,
-    0,
-    0,
-    0,
-    1,
-    0,
-    0,
-    1,
-    0,
-    0,
-    1,
-    0,
-    1
-   ],
-   "articles": [
-    {
-     "id": "1b9fafc018e64101",
-     "title": "生ビールもハイボールも1杯108円 東京発の燻製居酒屋が東海初出店 浜松にオープン",
-     "link": "https://www.shizuoka-life.jp/post-16179/",
-     "source": "静岡ライフ",
-     "image": "https://www.shizuoka-life.jp/wp-content/uploads/2026/11/4c85c234076325c638e2c305400f29d6-5.jpg"
-    },
-    {
-     "id": "d8b8705bbdcd9dc5",
-     "title": "【愛知・瀬戸】日本初上陸！KCBS公認BBQ大会＆入場無料フェスを11月29日同時開催！本場アメリカのBBQ、フードトラック、クラフトビール、音楽ライブ、ホットドッグ早食い大会まで楽しむ1日限りの祭典",
-     "link": "https://prtimes.jp/main/html/rd/p/000001216.000045400.html",
-     "source": "PR TIMES",
-     "image": "https://prcdn.freetls.fastly.net/release_image/45400/1216/45400-1216-dda8283788f76a3cf4a7d43f57f6dc1a-1536x1024.jpg?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260"
-    }
-   ]
-  },
-  {
    "label": "台湾ラーメン",
    "q": "台湾ラーメン",
    "kind": "dish",
@@ -245,13 +170,13 @@
     0,
     0,
     0,
-    0,
     1,
     0,
     1,
     0,
     0,
     2,
+    0,
     0
    ],
    "articles": [
