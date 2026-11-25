@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-24T17:29:09+00:00",
+ "updated": "2026-11-25T02:15:18+00:00",
  "days": [
   "2026-11-12",
   "2026-11-13",
@@ -18,47 +18,6 @@
  ],
  "recent_days": 3,
  "items": [
-  {
-   "label": "つけ麺",
-   "q": "つけ麺",
-   "kind": "dish",
-   "recent": 2,
-   "base_per_day": 0.0,
-   "ratio": 2.5,
-   "new": true,
-   "daily": [
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    1,
-    1,
-    0
-   ],
-   "articles": [
-    {
-     "id": "4f079af05c852138",
-     "title": "ラーメン情報誌 全国実売ナンバーワン※ 焼きラーメンやつけ麺も！愛知発祥の台湾ラーメンと新店24店を特集『ラーメンWalker東海2027』11月24日発売",
-     "link": "https://www.jiji.com/jc/article?k=000000309.000017610&g=prt",
-     "source": "時事ドットコム",
-     "image": "https://prcdn.freetls.fastly.net/release_image/17610/309/17610-309-0ba40b33f52bd87d9af021af74f704bc-1000x1414.jpg"
-    },
-    {
-     "id": "b1eed7b0ca4332d5",
-     "title": "本気のつけ麺ランキング＠東海 TOP3は？（つけ麺バカ（つけログの主）） - エキスパート",
-     "link": "https://news.yahoo.co.jp/expert/articles/f041fe12e73cd3af475b5aed93e4cbe439836eba",
-     "source": "Yahoo!ニュース",
-     "image": "https://newsatcl-pctr.c.yimg.jp/t/iwiz-yn/creators/tsukemembakatsukerog/02772695/title-1795424365353.jpeg?exp=10800"
-    }
-   ]
-  },
   {
    "label": "定食",
    "q": "定食",
@@ -97,6 +56,47 @@
      "link": "https://prtimes.jp/main/html/rd/p/000001742.000054093.html",
      "source": "PR TIMES",
      "image": "https://prcdn.freetls.fastly.net/release_image/54093/1742/54093-1742-e06ecd2bf9d4aa4aaebf07b3153d86fb-1080x1440.png?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260"
+    }
+   ]
+  },
+  {
+   "label": "つけ麺",
+   "q": "つけ麺",
+   "kind": "dish",
+   "recent": 2,
+   "base_per_day": 0.09,
+   "ratio": 1.96,
+   "new": false,
+   "daily": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    1,
+    1,
+    0
+   ],
+   "articles": [
+    {
+     "id": "4f079af05c852138",
+     "title": "ラーメン情報誌 全国実売ナンバーワン※ 焼きラーメンやつけ麺も！愛知発祥の台湾ラーメンと新店24店を特集『ラーメンWalker東海2027』11月24日発売",
+     "link": "https://www.jiji.com/jc/article?k=000000309.000017610&g=prt",
+     "source": "時事ドットコム",
+     "image": "https://prcdn.freetls.fastly.net/release_image/17610/309/17610-309-0ba40b33f52bd87d9af021af74f704bc-1000x1414.jpg"
+    },
+    {
+     "id": "b1eed7b0ca4332d5",
+     "title": "本気のつけ麺ランキング＠東海 TOP3は？（つけ麺バカ（つけログの主）） - エキスパート",
+     "link": "https://news.yahoo.co.jp/expert/articles/f041fe12e73cd3af475b5aed93e4cbe439836eba",
+     "source": "Yahoo!ニュース",
+     "image": "https://newsatcl-pctr.c.yimg.jp/t/iwiz-yn/creators/tsukemembakatsukerog/02772695/title-1795424365353.jpeg?exp=10800"
     }
    ]
   },
