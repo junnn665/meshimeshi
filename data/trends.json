@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-25T22:24:04+00:00",
+ "updated": "2026-11-26T04:54:55+00:00",
  "days": [
   "2026-11-13",
   "2026-11-14",
@@ -22,9 +22,9 @@
    "label": "ドーナツ",
    "q": "ドーナツ",
    "kind": "dish",
-   "recent": 3,
+   "recent": 4,
    "base_per_day": 0.09,
-   "ratio": 2.75,
+   "ratio": 3.54,
    "new": false,
    "daily": [
     0,
@@ -38,7 +38,7 @@
     0,
     0,
     0,
-    0,
+    1,
     3,
     0
    ],
@@ -152,6 +152,88 @@
      "link": "https://prtimes.jp/main/html/rd/p/000001742.000054093.html",
      "source": "PR TIMES",
      "image": "https://prcdn.freetls.fastly.net/release_image/54093/1742/54093-1742-e06ecd2bf9d4aa4aaebf07b3153d86fb-1080x1440.png?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260"
+    }
+   ]
+  },
+  {
+   "label": "セブン-イレブン",
+   "q": "セブン-イレブン",
+   "kind": "chain",
+   "recent": 2,
+   "base_per_day": 0.18,
+   "ratio": 1.62,
+   "new": false,
+   "daily": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    1,
+    0,
+    0,
+    1,
+    1,
+    0
+   ],
+   "articles": [
+    {
+     "id": "b78293ef6fb615bb",
+     "title": "セブン-イレブン 信州麺友会監修 ベリーミックスソースのもちっと杏仁豆腐（セブン-イレブン）クチコミ1件・評価4.0/7点",
+     "link": "https://mognavi.jp/product/1404645",
+     "source": "もぐナビ",
+     "image": "https://mognavi.jp/image/food/02/39/01/3670548_original.jpg"
+    },
+    {
+     "id": "7a8b099ae6165761",
+     "title": "【12月1日～発売】セブン-イレブン 新商品パンまとめ「ごつごつちょこぱん くろ」「ふんわり食感ミルクティードーナツ」など",
+     "link": "https://entabe.jp/amp/62311/summary-seveneleven-december-1st-new-bread",
+     "source": "えん食べ [グルメニュース]",
+     "image": "https://image.entabe.jp/upload/20261124/images/011.jpg"
+    }
+   ]
+  },
+  {
+   "label": "弁当",
+   "q": "弁当",
+   "kind": "dish",
+   "recent": 2,
+   "base_per_day": 0.18,
+   "ratio": 1.62,
+   "new": false,
+   "daily": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    1,
+    1
+   ],
+   "articles": [
+    {
+     "id": "c79345d0a658b396",
+     "title": "「ほっともっと」とろ～り濃厚！4種のチーズを包み込んだ『チーズインハンバーグ弁当』新発売",
+     "link": "https://prtimes.jp/main/html/rd/p/000001749.000054093.html",
+     "source": "PR TIMES",
+     "image": "https://prcdn.freetls.fastly.net/release_image/54093/1749/54093-1749-55d0a0e9b81c335d565540fae1faf322-1081x1441.png?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260"
+    },
+    {
+     "id": "919a8119e6261ef1",
+     "title": "【2026年11月第4週】コンビニ寿司・コンビニ弁当の新商品！海苔弁当やまごわやさしい弁当などまとめ",
+     "link": "https://mognavi.jp/news/matome/gen-newProduct-30704/",
+     "source": "もぐナビ",
+     "image": "https://img1.esimg.jp/blog/wp-content/uploads/2026/11/gen-newProduct-30704.jpg?ts=1795571100000"
     }
    ]
   },
