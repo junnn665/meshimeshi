@@ -1,14 +1,14 @@
 {
- "updated": "2026-11-26T13:54:15+09:00",
- "items": 373,
- "with_image": 321,
- "google_decode_ok": 43,
+ "updated": "2026-11-26T23:57:36+09:00",
+ "items": 378,
+ "with_image": 327,
+ "google_decode_ok": 40,
  "google_decode_failed": 0,
  "google_decode_samples": [],
  "image_failures": [
+  "news.nicovideo.jp: HTTPError: HTTP Error 403: Forbidden",
+  "mognavi.jp: HTTPError: HTTP Error 403: Forbidden",
   "www.nikkan.co.jp: HTTPError: HTTP Error 405: Not Allowed",
-  "www.walkerplus.com: TimeoutError: The read operation timed out",
-  "www.msn.com: og:image なし (43079 文字)",
-  "www.excite.co.jp: HTTPError: HTTP Error 403: Forbidden"
+  "www.msn.com: og:image なし (43300 文字)"
  ]
 }

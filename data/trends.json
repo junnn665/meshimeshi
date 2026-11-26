@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-26T04:54:55+00:00",
+ "updated": "2026-11-26T14:58:13+00:00",
  "days": [
   "2026-11-13",
   "2026-11-14",
@@ -22,9 +22,9 @@
    "label": "ドーナツ",
    "q": "ドーナツ",
    "kind": "dish",
-   "recent": 4,
+   "recent": 5,
    "base_per_day": 0.09,
-   "ratio": 3.54,
+   "ratio": 4.32,
    "new": false,
    "daily": [
     0,
@@ -40,9 +40,16 @@
     0,
     1,
     3,
-    0
+    1
    ],
    "articles": [
+    {
+     "id": "381788ce12e4929f",
+     "title": "【12月1日〜発売】セブン-イレブン 新商品パンまとめ「ごつごつちょこぱん くろ」「ふんわり食感ミルクティードーナツ」など",
+     "link": "https://topics.smt.docomo.ne.jp/amp/article/entabe/trend/entabe-62311",
+     "source": "ｄメニューニュース",
+     "image": "https://img.topics.smt.news.goo.ne.jp/picture/entabe/m_entabe-62311.jpg"
+    },
     {
      "id": "76190edbc4602aaa",
      "title": "スターバックス初のカプセルトイ、抹茶フラペチーノやドーナツの“ぬいぐるみチャーム”が全国で",
@@ -56,13 +63,95 @@
      "link": "https://www.fashion-press.net/news/153830",
      "source": "ファッションプレス",
      "image": "https://www.fashion-press.net/img/news/153830/top.jpg?1795580615"
+    }
+   ]
+  },
+  {
+   "label": "セブン-イレブン",
+   "q": "セブン-イレブン",
+   "kind": "chain",
+   "recent": 4,
+   "base_per_day": 0.18,
+   "ratio": 2.91,
+   "new": false,
+   "daily": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    1,
+    0,
+    0,
+    1,
+    1,
+    2
+   ],
+   "articles": [
+    {
+     "id": "381788ce12e4929f",
+     "title": "【12月1日〜発売】セブン-イレブン 新商品パンまとめ「ごつごつちょこぱん くろ」「ふんわり食感ミルクティードーナツ」など",
+     "link": "https://topics.smt.docomo.ne.jp/amp/article/entabe/trend/entabe-62311",
+     "source": "ｄメニューニュース",
+     "image": "https://img.topics.smt.news.goo.ne.jp/picture/entabe/m_entabe-62311.jpg"
     },
     {
-     "id": "b74513714a45a689",
-     "title": "デモゴルゴンのドーナツが登場！BOX cafe&space「ストレンジャー・シングス 未知の世界」10周年記念CAFE",
-     "link": "https://dtimes.jp/post-1479615/",
-     "source": "Dtimes",
-     "image": "https://dtimes.jp/wp-content/uploads/2026/11/dtimes-engine-424bd2891a59782bd3354272e6d06da1-20261125-c63f57.jpg"
+     "id": "9a86c5d2d57f6791",
+     "title": "セブン-イレブン 小豆ホイップ揚げパン 十勝産小豆のつぶあん使用 の感想・クチコミ・商品情報",
+     "link": "https://mognavi.jp/product/1415525",
+     "source": "もぐナビ",
+     "image": null
+    },
+    {
+     "id": "b78293ef6fb615bb",
+     "title": "セブン-イレブン 信州麺友会監修 ベリーミックスソースのもちっと杏仁豆腐（セブン-イレブン）クチコミ1件・評価4.0/7点",
+     "link": "https://mognavi.jp/product/1404645",
+     "source": "もぐナビ",
+     "image": "https://mognavi.jp/image/food/02/39/01/3670548_original.jpg"
+    }
+   ]
+  },
+  {
+   "label": "バーガーキング",
+   "q": "バーガーキング",
+   "kind": "chain",
+   "recent": 2,
+   "base_per_day": 0.0,
+   "ratio": 2.5,
+   "new": true,
+   "daily": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    1
+   ],
+   "articles": [
+    {
+     "id": "85ed11f55158dec6",
+     "title": "バーガーキング(R)から、にんにくのガツンとした旨さを楽しめる３種のチーズバーガーが登場！直火焼きビーフとガーリックソースがクセになるお手頃なジュニアサイズの「にんにく・ガーリックチーズバーガー」新発売！",
+     "link": "https://prtimes.jp/main/html/rd/p/000000445.000038980.html",
+     "source": "PR TIMES",
+     "image": "https://prcdn.freetls.fastly.net/release_image/38980/445/38980-445-c43be5dd42c68269c9a3cdff9e594606-2000x2421.jpg?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260"
+    },
+    {
+     "id": "fdd0db0c56949330",
+     "title": "バーガーキング(R)から大容量パック「ビッグバーレル」が冬限定で新登場！冬チキンの新定番「アメリカンスモーキーチキン」24Pとオニオンリング、ナゲット、フレンチフライを詰め込んだ「ミックス」の２種新発売！",
+     "link": "https://prtimes.jp/main/html/rd/p/000000444.000038980.html",
+     "source": "PR TIMES",
+     "image": "https://prcdn.freetls.fastly.net/release_image/38980/444/38980-444-a951a42883ee64748d92b395a5a77ced-2000x2421.jpg?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260"
     }
    ]
   },
@@ -70,9 +159,9 @@
    "label": "ハンバーガー",
    "q": "ハンバーガー",
    "kind": "dish",
-   "recent": 4,
+   "recent": 5,
    "base_per_day": 0.36,
-   "ratio": 2.15,
+   "ratio": 2.63,
    "new": false,
    "daily": [
     0,
@@ -88,9 +177,16 @@
     0,
     1,
     3,
-    0
+    1
    ],
    "articles": [
+    {
+     "id": "85ed11f55158dec6",
+     "title": "バーガーキング(R)から、にんにくのガツンとした旨さを楽しめる３種のチーズバーガーが登場！直火焼きビーフとガーリックソースがクセになるお手頃なジュニアサイズの「にんにく・ガーリックチーズバーガー」新発売！",
+     "link": "https://prtimes.jp/main/html/rd/p/000000445.000038980.html",
+     "source": "PR TIMES",
+     "image": "https://prcdn.freetls.fastly.net/release_image/38980/445/38980-445-c43be5dd42c68269c9a3cdff9e594606-2000x2421.jpg?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260"
+    },
     {
      "id": "1922058f6e9edba3",
      "title": "【ドムドム】まるごと!!カニバーガーを実食｜名古屋限定みそ味が全国販売！隠れた名物、バターコーン、かりんとう饅頭も正直レビュー！！【ずんだもんグルメ】",
@@ -104,13 +200,54 @@
      "link": "https://www.oricon.co.jp/news/2495113/full/",
      "source": "オリコンニュース",
      "image": "https://contents.oricon.co.jp/upimg/news/2496000/2495113/20261125_132836_p_o_58233671.jpg"
+    }
+   ]
+  },
+  {
+   "label": "うどん",
+   "q": "うどん",
+   "kind": "dish",
+   "recent": 6,
+   "base_per_day": 0.64,
+   "ratio": 2.23,
+   "new": false,
+   "daily": [
+    0,
+    0,
+    0,
+    0,
+    2,
+    0,
+    1,
+    1,
+    1,
+    0,
+    2,
+    0,
+    1,
+    5
+   ],
+   "articles": [
+    {
+     "id": "3f59385202e63b45",
+     "title": "資さんうどんが線路の上に！JR名古屋駅1番線に約70席、12月11日から10日間限定OPEN",
+     "link": "https://report.iko-yo.net/articles/35989",
+     "source": "いこーよニュース",
+     "image": "https://d28w2qw7dtr435.cloudfront.net/uploaded/cover_images/images/36260/normal.jpg?1795679536"
     },
     {
-     "id": "de295e8377893fbe",
-     "title": "【きょうから】ケンタッキー×『アベンジャーズ』コラボ開始 ドクター・ドゥーム仕様の限定チキン＆バーガー登場（オリコン）",
-     "link": "https://news.yahoo.co.jp/articles/ea45b54f80539d3d824dd7d552e7946557f0db9a",
+     "id": "f6e5589f021d77b0",
+     "title": "資さんうどん、JR名古屋駅1番線に10日間限定で出店。2027年の東海エリア出店より早く「肉ごぼ天うどん」を食べられる",
+     "link": "https://news.yahoo.co.jp/articles/8dad710545806649cbc6399675205f91cb9bdd62",
      "source": "Yahoo!ニュース",
-     "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261125-00000304-oric-000-1-view.jpg?exp=10800"
+     "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261126-00000038-impgrw-000-1-view.jpg?exp=10800"
+    },
+    {
+     "id": "6ec3bcbea9ef4df7",
+     "title": "JR名古屋駅1番線企画 第９弾『資さんうどん』が期間限定オープン！ | 名古屋ステーション開発株式会社のプレスリリース",
+     "link": "https://prtimes.jp/main/html/rd/p/000000042.000108483.html",
+     "source": "PR TIMES",
+     "image": "https://prcdn.freetls.fastly.net/release_image/108483/42/108483-42-fad468f077f0ff0787dea34df33efc55-750x513.jpg?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260"
     }
    ]
   },
@@ -156,43 +293,50 @@
    ]
   },
   {
-   "label": "セブン-イレブン",
-   "q": "セブン-イレブン",
-   "kind": "chain",
-   "recent": 2,
-   "base_per_day": 0.18,
-   "ratio": 1.62,
+   "label": "パン",
+   "q": "パン",
+   "kind": "dish",
+   "recent": 13,
+   "base_per_day": 2.36,
+   "ratio": 1.67,
    "new": false,
    "daily": [
     0,
     0,
     0,
     0,
-    0,
+    6,
+    6,
+    3,
+    4,
+    4,
     1,
-    0,
-    0,
-    1,
-    0,
-    0,
-    1,
-    1,
-    0
+    2,
+    8,
+    2,
+    3
    ],
    "articles": [
     {
-     "id": "b78293ef6fb615bb",
-     "title": "セブン-イレブン 信州麺友会監修 ベリーミックスソースのもちっと杏仁豆腐（セブン-イレブン）クチコミ1件・評価4.0/7点",
-     "link": "https://mognavi.jp/product/1404645",
-     "source": "もぐナビ",
-     "image": "https://mognavi.jp/image/food/02/39/01/3670548_original.jpg"
+     "id": "381788ce12e4929f",
+     "title": "【12月1日〜発売】セブン-イレブン 新商品パンまとめ「ごつごつちょこぱん くろ」「ふんわり食感ミルクティードーナツ」など",
+     "link": "https://topics.smt.docomo.ne.jp/amp/article/entabe/trend/entabe-62311",
+     "source": "ｄメニューニュース",
+     "image": "https://img.topics.smt.news.goo.ne.jp/picture/entabe/m_entabe-62311.jpg"
     },
     {
-     "id": "7a8b099ae6165761",
-     "title": "【12月1日～発売】セブン-イレブン 新商品パンまとめ「ごつごつちょこぱん くろ」「ふんわり食感ミルクティードーナツ」など",
-     "link": "https://entabe.jp/amp/62311/summary-seveneleven-december-1st-new-bread",
-     "source": "えん食べ [グルメニュース]",
-     "image": "https://image.entabe.jp/upload/20261124/images/011.jpg"
+     "id": "9a86c5d2d57f6791",
+     "title": "セブン-イレブン 小豆ホイップ揚げパン 十勝産小豆のつぶあん使用 の感想・クチコミ・商品情報",
+     "link": "https://mognavi.jp/product/1415525",
+     "source": "もぐナビ",
+     "image": null
+    },
+    {
+     "id": "5196c07089624b40",
+     "title": "バロー、関東で１０店舗計画 ９８円パン、鮮魚、岐阜グルメ「東京進出、手応え」",
+     "link": "https://www.gifu-np.co.jp/articles/-/804508",
+     "source": "岐阜新聞デジタル",
+     "image": "https://gifu-np.ismcdn.jp/mwimgs/d/d/-/img_dd5ef21f2b8ff86c3be038079d87bffc697694.jpg"
     }
    ]
   },
