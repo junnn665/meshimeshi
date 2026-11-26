@@ -1,14 +1,13 @@
 {
- "updated": "2026-11-26T23:57:36+09:00",
- "items": 378,
- "with_image": 327,
- "google_decode_ok": 40,
+ "updated": "2026-11-27T08:42:16+09:00",
+ "items": 384,
+ "with_image": 333,
+ "google_decode_ok": 28,
  "google_decode_failed": 0,
  "google_decode_samples": [],
  "image_failures": [
   "news.nicovideo.jp: HTTPError: HTTP Error 403: Forbidden",
-  "mognavi.jp: HTTPError: HTTP Error 403: Forbidden",
   "www.nikkan.co.jp: HTTPError: HTTP Error 405: Not Allowed",
-  "www.msn.com: og:image なし (43300 文字)"
+  "www.msn.com: og:image なし (42959 文字)"
  ]
 }
