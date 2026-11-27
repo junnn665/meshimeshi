@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-26T23:42:48+00:00",
+ "updated": "2026-11-27T08:05:34+00:00",
  "days": [
   "2026-11-14",
   "2026-11-15",
@@ -18,6 +18,54 @@
  ],
  "recent_days": 3,
  "items": [
+  {
+   "label": "うどん",
+   "q": "うどん",
+   "kind": "dish",
+   "recent": 7,
+   "base_per_day": 0.45,
+   "ratio": 3.17,
+   "new": false,
+   "daily": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    1,
+    1,
+    0,
+    2,
+    0,
+    1,
+    6,
+    0
+   ],
+   "articles": [
+    {
+     "id": "3f59385202e63b45",
+     "title": "資さんうどんが線路の上に！JR名古屋駅1番線に約70席、12月11日から10日間限定OPEN",
+     "link": "https://report.iko-yo.net/articles/35989",
+     "source": "いこーよニュース",
+     "image": "https://d28w2qw7dtr435.cloudfront.net/uploaded/cover_images/images/36260/normal.jpg?1795679536"
+    },
+    {
+     "id": "f6e5589f021d77b0",
+     "title": "資さんうどん、JR名古屋駅1番線に10日間限定で出店。2027年の東海エリア出店より早く「肉ごぼ天うどん」を食べられる",
+     "link": "https://news.yahoo.co.jp/articles/8dad710545806649cbc6399675205f91cb9bdd62",
+     "source": "Yahoo!ニュース",
+     "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261126-00000038-impgrw-000-1-view.jpg?exp=10800"
+    },
+    {
+     "id": "f50201a8f81f281f",
+     "title": "JR名古屋駅1番線企画 第9弾『資さんうどん』が期間限定オープン！",
+     "link": "https://www.sankei.com/pressrelease/prtimes/QD4UNJPCKVO6RLXSVYSPH42ONM/",
+     "source": "産経ニュース",
+     "image": "https://www.sankei.com/resizer/v2/https%3A%2F%2Fdpgdieoe6npux.cloudfront.net%2Fprtimes%2FZPEHUQC4ANPZLCVONO6BH27SKE?auth=011dd3bf66060a645cd4cae68eff1e02a9c93be1585566037e05f1eabbabcb62&quality=50&smart=true&width=1200&height=675"
+    }
+   ]
+  },
   {
    "label": "ドーナツ",
    "q": "ドーナツ",
@@ -67,50 +115,50 @@
    ]
   },
   {
-   "label": "うどん",
-   "q": "うどん",
+   "label": "弁当",
+   "q": "弁当",
    "kind": "dish",
-   "recent": 7,
-   "base_per_day": 0.64,
-   "ratio": 2.58,
+   "recent": 3,
+   "base_per_day": 0.18,
+   "ratio": 2.26,
    "new": false,
    "daily": [
     0,
     0,
     0,
-    2,
+    0,
+    1,
+    0,
+    0,
+    0,
+    1,
+    0,
     0,
     1,
     1,
-    1,
-    0,
-    2,
-    0,
-    1,
-    6,
-    0
+    1
    ],
    "articles": [
     {
-     "id": "3f59385202e63b45",
-     "title": "資さんうどんが線路の上に！JR名古屋駅1番線に約70席、12月11日から10日間限定OPEN",
-     "link": "https://report.iko-yo.net/articles/35989",
-     "source": "いこーよニュース",
-     "image": "https://d28w2qw7dtr435.cloudfront.net/uploaded/cover_images/images/36260/normal.jpg?1795679536"
+     "id": "a9d56f29e64cf0c2",
+     "title": "東急ストア×東急病院 第６弾『東急病院管理栄養士監修 豆腐ハンバーグ弁当』を発売！",
+     "link": "https://prtimes.jp/main/html/rd/p/000001423.000010686.html",
+     "source": "PR TIMES",
+     "image": "https://prcdn.freetls.fastly.net/release_image/10686/1423/10686-1423-71a093bde19f3ff939d14869b45adcdd-3040x1316.png?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260"
     },
     {
-     "id": "f6e5589f021d77b0",
-     "title": "資さんうどん、JR名古屋駅1番線に10日間限定で出店。2027年の東海エリア出店より早く「肉ごぼ天うどん」を食べられる",
-     "link": "https://news.yahoo.co.jp/articles/8dad710545806649cbc6399675205f91cb9bdd62",
-     "source": "Yahoo!ニュース",
-     "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261126-00000038-impgrw-000-1-view.jpg?exp=10800"
+     "id": "c79345d0a658b396",
+     "title": "「ほっともっと」とろ～り濃厚！4種のチーズを包み込んだ『チーズインハンバーグ弁当』新発売",
+     "link": "https://prtimes.jp/main/html/rd/p/000001749.000054093.html",
+     "source": "PR TIMES",
+     "image": "https://prcdn.freetls.fastly.net/release_image/54093/1749/54093-1749-55d0a0e9b81c335d565540fae1faf322-1081x1441.png?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260"
     },
     {
-     "id": "f50201a8f81f281f",
-     "title": "JR名古屋駅1番線企画 第9弾『資さんうどん』が期間限定オープン！",
-     "link": "https://www.sankei.com/pressrelease/prtimes/QD4UNJPCKVO6RLXSVYSPH42ONM/",
-     "source": "産経ニュース",
-     "image": "https://www.sankei.com/resizer/v2/https%3A%2F%2Fdpgdieoe6npux.cloudfront.net%2Fprtimes%2FZPEHUQC4ANPZLCVONO6BH27SKE?auth=011dd3bf66060a645cd4cae68eff1e02a9c93be1585566037e05f1eabbabcb62&quality=50&smart=true&width=1200&height=675"
+     "id": "919a8119e6261ef1",
+     "title": "【2026年11月第4週】コンビニ寿司・コンビニ弁当の新商品！海苔弁当やまごわやさしい弁当などまとめ",
+     "link": "https://mognavi.jp/news/matome/gen-newProduct-30704/",
+     "source": "もぐナビ",
+     "image": "https://img1.esimg.jp/blog/wp-content/uploads/2026/11/gen-newProduct-30704.jpg?ts=1795571100000"
     }
    ]
   },
@@ -211,8 +259,49 @@
    ]
   },
   {
-   "label": "弁当",
-   "q": "弁当",
+   "label": "ハンバーグ",
+   "q": "ハンバーグ",
+   "kind": "dish",
+   "recent": 2,
+   "base_per_day": 0.18,
+   "ratio": 1.62,
+   "new": false,
+   "daily": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    1
+   ],
+   "articles": [
+    {
+     "id": "a9d56f29e64cf0c2",
+     "title": "東急ストア×東急病院 第６弾『東急病院管理栄養士監修 豆腐ハンバーグ弁当』を発売！",
+     "link": "https://prtimes.jp/main/html/rd/p/000001423.000010686.html",
+     "source": "PR TIMES",
+     "image": "https://prcdn.freetls.fastly.net/release_image/10686/1423/10686-1423-71a093bde19f3ff939d14869b45adcdd-3040x1316.png?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260"
+    },
+    {
+     "id": "c79345d0a658b396",
+     "title": "「ほっともっと」とろ～り濃厚！4種のチーズを包み込んだ『チーズインハンバーグ弁当』新発売",
+     "link": "https://prtimes.jp/main/html/rd/p/000001749.000054093.html",
+     "source": "PR TIMES",
+     "image": "https://prcdn.freetls.fastly.net/release_image/54093/1749/54093-1749-55d0a0e9b81c335d565540fae1faf322-1081x1441.png?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260"
+    }
+   ]
+  },
+  {
+   "label": "さつまいも",
+   "q": "さつまいも",
    "kind": "dish",
    "recent": 2,
    "base_per_day": 0.18,
@@ -225,29 +314,29 @@
     0,
     1,
     0,
-    0,
-    0,
     1,
     0,
     0,
-    1,
-    1,
-    0
+    0,
+    0,
+    0,
+    0,
+    2
    ],
    "articles": [
     {
-     "id": "c79345d0a658b396",
-     "title": "「ほっともっと」とろ～り濃厚！4種のチーズを包み込んだ『チーズインハンバーグ弁当』新発売",
-     "link": "https://prtimes.jp/main/html/rd/p/000001749.000054093.html",
-     "source": "PR TIMES",
-     "image": "https://prcdn.freetls.fastly.net/release_image/54093/1749/54093-1749-55d0a0e9b81c335d565540fae1faf322-1081x1441.png?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260"
+     "id": "3c9574c72b28390f",
+     "title": "グルメイベント「芋フェス！」名古屋競輪場で、さつまいもスイーツや全国グランプリ優勝の焼き芋",
+     "link": "https://www.msn.com/ja-jp/food-and-drink/%E5%85%A8%E8%88%AC/%E3%82%B0%E3%83%AB%E3%83%A1%E3%82%A4%E3%83%99%E3%83%B3%E3%83%88-%E8%8A%8B%E3%83%95%E3%82%A7%E3%82%B9-%E5%90%8D%E5%8F%A4%E5%B1%8B%E7%AB%B6%E8%BC%AA%E5%A0%B4%E3%81%A7-%E3%81%95%E3%81%A4%E3%81%BE%E3%81%84%E3%82%82%E3%82%B9%E3%82%A4%E3%83%BC%E3%83%84%E3%82%84%E5%85%A8%E5%9B%BD%E3%82%B0%E3%83%A9%E3%83%B3%E3%83%97%E3%83%AA%E5%84%AA%E5%8B%9D%E3%81%AE%E7%84%BC%E3%81%8D%E8%8A%8B/ar-AA2il47X",
+     "source": "ファッションプレス on MSN",
+     "image": "http://www.bing.com/th?id=ONUT.j5IlIB5gkRprtTiCYu8c-A&pid=News"
     },
     {
-     "id": "919a8119e6261ef1",
-     "title": "【2026年11月第4週】コンビニ寿司・コンビニ弁当の新商品！海苔弁当やまごわやさしい弁当などまとめ",
-     "link": "https://mognavi.jp/news/matome/gen-newProduct-30704/",
-     "source": "もぐナビ",
-     "image": "https://img1.esimg.jp/blog/wp-content/uploads/2026/11/gen-newProduct-30704.jpg?ts=1795571100000"
+     "id": "e5fee9e240a99e3c",
+     "title": "【愛知】2026年11月28日・29日週末開催の無料イベント9選 芋フェス＆マルシェも！",
+     "link": "https://report.iko-yo.net/articles/35885",
+     "source": "いこーよニュース",
+     "image": "https://d28w2qw7dtr435.cloudfront.net/uploaded/cover_images/images/36174/normal.jpg?1795504917"
     }
    ]
   }
