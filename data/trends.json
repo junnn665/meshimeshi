@@ -1,7 +1,6 @@
 {
- "updated": "2026-11-27T08:05:34+00:00",
+ "updated": "2026-11-27T18:06:41+00:00",
  "days": [
-  "2026-11-14",
   "2026-11-15",
   "2026-11-16",
   "2026-11-17",
@@ -14,7 +13,8 @@
   "2026-11-24",
   "2026-11-25",
   "2026-11-26",
-  "2026-11-27"
+  "2026-11-27",
+  "2026-11-28"
  ],
  "recent_days": 3,
  "items": [
@@ -22,12 +22,11 @@
    "label": "うどん",
    "q": "うどん",
    "kind": "dish",
-   "recent": 7,
-   "base_per_day": 0.45,
-   "ratio": 3.17,
+   "recent": 6,
+   "base_per_day": 0.55,
+   "ratio": 2.47,
    "new": false,
    "daily": [
-    0,
     0,
     0,
     0,
@@ -40,6 +39,7 @@
     0,
     1,
     6,
+    0,
     0
    ],
    "articles": [
@@ -67,198 +67,6 @@
    ]
   },
   {
-   "label": "ドーナツ",
-   "q": "ドーナツ",
-   "kind": "dish",
-   "recent": 4,
-   "base_per_day": 0.18,
-   "ratio": 2.91,
-   "new": false,
-   "daily": [
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    1,
-    0,
-    0,
-    0,
-    1,
-    3,
-    1,
-    0
-   ],
-   "articles": [
-    {
-     "id": "381788ce12e4929f",
-     "title": "【12月1日〜発売】セブン-イレブン 新商品パンまとめ「ごつごつちょこぱん くろ」「ふんわり食感ミルクティードーナツ」など",
-     "link": "https://topics.smt.docomo.ne.jp/amp/article/entabe/trend/entabe-62311",
-     "source": "ｄメニューニュース",
-     "image": "https://img.topics.smt.news.goo.ne.jp/picture/entabe/m_entabe-62311.jpg"
-    },
-    {
-     "id": "76190edbc4602aaa",
-     "title": "スターバックス初のカプセルトイ、抹茶フラペチーノやドーナツの“ぬいぐるみチャーム”が全国で",
-     "link": "https://www.fashion-press.net/news/149144",
-     "source": "ファッションプレス",
-     "image": "https://www.fashion-press.net/img/news/149144/top.jpg?1785205212"
-    },
-    {
-     "id": "1c6a698cd1d68ca3",
-     "title": "「ストレンジャー・シングス」10周年記念カフェが東京・大阪・名古屋に、デモゴルゴンのドーナツなど",
-     "link": "https://www.fashion-press.net/news/153830",
-     "source": "ファッションプレス",
-     "image": "https://www.fashion-press.net/img/news/153830/top.jpg?1795580615"
-    }
-   ]
-  },
-  {
-   "label": "弁当",
-   "q": "弁当",
-   "kind": "dish",
-   "recent": 3,
-   "base_per_day": 0.18,
-   "ratio": 2.26,
-   "new": false,
-   "daily": [
-    0,
-    0,
-    0,
-    0,
-    1,
-    0,
-    0,
-    0,
-    1,
-    0,
-    0,
-    1,
-    1,
-    1
-   ],
-   "articles": [
-    {
-     "id": "a9d56f29e64cf0c2",
-     "title": "東急ストア×東急病院 第６弾『東急病院管理栄養士監修 豆腐ハンバーグ弁当』を発売！",
-     "link": "https://prtimes.jp/main/html/rd/p/000001423.000010686.html",
-     "source": "PR TIMES",
-     "image": "https://prcdn.freetls.fastly.net/release_image/10686/1423/10686-1423-71a093bde19f3ff939d14869b45adcdd-3040x1316.png?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260"
-    },
-    {
-     "id": "c79345d0a658b396",
-     "title": "「ほっともっと」とろ～り濃厚！4種のチーズを包み込んだ『チーズインハンバーグ弁当』新発売",
-     "link": "https://prtimes.jp/main/html/rd/p/000001749.000054093.html",
-     "source": "PR TIMES",
-     "image": "https://prcdn.freetls.fastly.net/release_image/54093/1749/54093-1749-55d0a0e9b81c335d565540fae1faf322-1081x1441.png?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260"
-    },
-    {
-     "id": "919a8119e6261ef1",
-     "title": "【2026年11月第4週】コンビニ寿司・コンビニ弁当の新商品！海苔弁当やまごわやさしい弁当などまとめ",
-     "link": "https://mognavi.jp/news/matome/gen-newProduct-30704/",
-     "source": "もぐナビ",
-     "image": "https://img1.esimg.jp/blog/wp-content/uploads/2026/11/gen-newProduct-30704.jpg?ts=1795571100000"
-    }
-   ]
-  },
-  {
-   "label": "セブン-イレブン",
-   "q": "セブン-イレブン",
-   "kind": "chain",
-   "recent": 3,
-   "base_per_day": 0.27,
-   "ratio": 1.93,
-   "new": false,
-   "daily": [
-    0,
-    0,
-    0,
-    0,
-    1,
-    0,
-    0,
-    1,
-    0,
-    0,
-    1,
-    1,
-    2,
-    0
-   ],
-   "articles": [
-    {
-     "id": "381788ce12e4929f",
-     "title": "【12月1日〜発売】セブン-イレブン 新商品パンまとめ「ごつごつちょこぱん くろ」「ふんわり食感ミルクティードーナツ」など",
-     "link": "https://topics.smt.docomo.ne.jp/amp/article/entabe/trend/entabe-62311",
-     "source": "ｄメニューニュース",
-     "image": "https://img.topics.smt.news.goo.ne.jp/picture/entabe/m_entabe-62311.jpg"
-    },
-    {
-     "id": "9a86c5d2d57f6791",
-     "title": "セブン-イレブン 小豆ホイップ揚げパン 十勝産小豆のつぶあん使用 の感想・クチコミ・商品情報",
-     "link": "https://mognavi.jp/product/1415525",
-     "source": "もぐナビ",
-     "image": null
-    },
-    {
-     "id": "b78293ef6fb615bb",
-     "title": "セブン-イレブン 信州麺友会監修 ベリーミックスソースのもちっと杏仁豆腐（セブン-イレブン）クチコミ1件・評価4.0/7点",
-     "link": "https://mognavi.jp/product/1404645",
-     "source": "もぐナビ",
-     "image": "https://mognavi.jp/image/food/02/39/01/3670548_original.jpg"
-    }
-   ]
-  },
-  {
-   "label": "ハンバーガー",
-   "q": "ハンバーガー",
-   "kind": "dish",
-   "recent": 4,
-   "base_per_day": 0.45,
-   "ratio": 1.9,
-   "new": false,
-   "daily": [
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    1,
-    2,
-    1,
-    0,
-    1,
-    3,
-    1,
-    0
-   ],
-   "articles": [
-    {
-     "id": "85ed11f55158dec6",
-     "title": "バーガーキング(R)から、にんにくのガツンとした旨さを楽しめる３種のチーズバーガーが登場！直火焼きビーフとガーリックソースがクセになるお手頃なジュニアサイズの「にんにく・ガーリックチーズバーガー」新発売！",
-     "link": "https://prtimes.jp/main/html/rd/p/000000445.000038980.html",
-     "source": "PR TIMES",
-     "image": "https://prcdn.freetls.fastly.net/release_image/38980/445/38980-445-c43be5dd42c68269c9a3cdff9e594606-2000x2421.jpg?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260"
-    },
-    {
-     "id": "1922058f6e9edba3",
-     "title": "【ドムドム】まるごと!!カニバーガーを実食｜名古屋限定みそ味が全国販売！隠れた名物、バターコーン、かりんとう饅頭も正直レビュー！！【ずんだもんグルメ】",
-     "link": "https://news.livedoor.com/article/detail/32900887/",
-     "source": "ライブドアニュース",
-     "image": "https://image.news.livedoor.com/newsimage/stf/f/b/fb5c6_1845_1f8651d1_d1df892d.jpg"
-    },
-    {
-     "id": "c9163dad7c16ac01",
-     "title": "ゼッテリア、「贅沢ローストビーフフェア 第1弾」開催 年末にぴったりな食べ応えあるバーガー",
-     "link": "https://www.oricon.co.jp/news/2495113/full/",
-     "source": "オリコンニュース",
-     "image": "https://contents.oricon.co.jp/upimg/news/2496000/2495113/20261125_132836_p_o_58233671.jpg"
-    }
-   ]
-  },
-  {
    "label": "ハンバーグ",
    "q": "ハンバーグ",
    "kind": "dish",
@@ -271,7 +79,6 @@
     0,
     0,
     0,
-    0,
     1,
     1,
     0,
@@ -280,7 +87,8 @@
     0,
     0,
     1,
-    1
+    1,
+    0
    ],
    "articles": [
     {
@@ -311,7 +119,6 @@
     0,
     0,
     0,
-    0,
     1,
     0,
     1,
@@ -321,7 +128,8 @@
     0,
     0,
     0,
-    2
+    2,
+    0
    ],
    "articles": [
     {
