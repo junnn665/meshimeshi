@@ -1,13 +1,18 @@
 {
- "updated": "2026-11-28T10:24:20+09:00",
- "items": 382,
- "with_image": 334,
- "google_decode_ok": 30,
+ "updated": "2026-11-28T19:10:00+09:00",
+ "items": 377,
+ "with_image": 329,
+ "google_decode_ok": 35,
  "google_decode_failed": 0,
  "google_decode_samples": [],
  "image_failures": [
-  "news.nicovideo.jp: HTTPError: HTTP Error 403: Forbidden",
   "www.excite.co.jp: HTTPError: HTTP Error 403: Forbidden",
-  "www.nikkan.co.jp: HTTPError: HTTP Error 405: Not Allowed"
+  "news.nicovideo.jp: HTTPError: HTTP Error 403: Forbidden",
+  "kobe-journal.com: URLError: <urlopen error timed out>",
+  "www.shizuoka-life.jp: URLError: <urlopen error timed out>",
+  "x-bomberth.com: URLError: <urlopen error timed out>",
+  "news.nicovideo.jp: HTTPError: HTTP Error 403: Forbidden",
+  "www.nikkan.co.jp: HTTPError: HTTP Error 405: Not Allowed",
+  "howtravel-gourmet.com: URLError: <urlopen error timed out>"
  ]
 }
