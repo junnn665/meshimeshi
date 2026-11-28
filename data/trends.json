@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-27T18:06:41+00:00",
+ "updated": "2026-11-28T01:24:50+00:00",
  "days": [
   "2026-11-15",
   "2026-11-16",
@@ -63,6 +63,54 @@
      "link": "https://www.sankei.com/pressrelease/prtimes/QD4UNJPCKVO6RLXSVYSPH42ONM/",
      "source": "産経ニュース",
      "image": "https://www.sankei.com/resizer/v2/https%3A%2F%2Fdpgdieoe6npux.cloudfront.net%2Fprtimes%2FZPEHUQC4ANPZLCVONO6BH27SKE?auth=011dd3bf66060a645cd4cae68eff1e02a9c93be1585566037e05f1eabbabcb62&quality=50&smart=true&width=1200&height=675"
+    }
+   ]
+  },
+  {
+   "label": "セブン-イレブン",
+   "q": "セブン-イレブン",
+   "kind": "chain",
+   "recent": 3,
+   "base_per_day": 0.36,
+   "ratio": 1.67,
+   "new": false,
+   "daily": [
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    1,
+    0,
+    0,
+    1,
+    1,
+    3,
+    0,
+    0
+   ],
+   "articles": [
+    {
+     "id": "381788ce12e4929f",
+     "title": "【12月1日〜発売】セブン-イレブン 新商品パンまとめ「ごつごつちょこぱん くろ」「ふんわり食感ミルクティードーナツ」など",
+     "link": "https://topics.smt.docomo.ne.jp/amp/article/entabe/trend/entabe-62311",
+     "source": "ｄメニューニュース",
+     "image": "https://img.topics.smt.news.goo.ne.jp/picture/entabe/m_entabe-62311.jpg"
+    },
+    {
+     "id": "4e324cf6419ff0cf",
+     "title": "【セブン-イレブン】12月1日発売！新商品麺類30選（全国）～「龍上海本店監修 山形赤湯からみそラーメン」「蟹の旨み広がるトマトクリームパスタ」ほか～",
+     "link": "https://entabe.jp/amp/62316/summary-seveneleven-december-1st-new-noodles",
+     "source": "えん食べ [グルメニュース]",
+     "image": "https://image.entabe.jp/upload/20261125/images/thumb_seven-eleven-noodles-zenkoku-20261125.jpg"
+    },
+    {
+     "id": "9a86c5d2d57f6791",
+     "title": "セブン-イレブン 小豆ホイップ揚げパン 十勝産小豆のつぶあん使用 の感想・クチコミ・商品情報",
+     "link": "https://mognavi.jp/product/1415525",
+     "source": "もぐナビ",
+     "image": null
     }
    ]
   },
